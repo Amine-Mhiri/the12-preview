@@ -218,6 +218,111 @@
     restart();
   })();
 
+  /* ---------- "What we reject" visual: 10,000 -> 12 ---------------------- */
+  (function () {
+    var mk = document.getElementById('mk');
+    if (!mk) return;
+    var count = document.getElementById('mkCount');
+    var label = document.getElementById('mkLabel');
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+    var started = false;
+
+    function endState() {
+      if (count) count.textContent = '12';
+      if (label) label.textContent = 'after our criteria';
+    }
+    function run() {
+      if (started) return;
+      started = true;
+      mk.classList.add('play');
+      if (reduce.matches || !count) { endState(); return; }
+      var from = parseInt(count.getAttribute('data-from'), 10) || 10000;
+      var to = 12, dur = 1600, t0 = 0;
+      function step(ts) {
+        if (!t0) t0 = ts;
+        var p = Math.min((ts - t0) / dur, 1);
+        var e = 1 - Math.pow(1 - p, 3);
+        if (p < 1) {
+          count.textContent = Math.round(from + (to - from) * e).toLocaleString('en-US') + '+';
+          window.requestAnimationFrame(step);
+        } else {
+          endState();
+        }
+      }
+      window.requestAnimationFrame(step);
+    }
+
+    if (reduce.matches) {
+      run();                                   /* end state, immediately */
+    } else if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) { if (en.isIntersecting) { run(); io.disconnect(); } });
+      }, { threshold: 0.35 });
+      io.observe(mk);
+    } else {
+      run();
+    }
+  })();
+
+  /* ---------- Top curated: category tabs + their rail arrows ------------- */
+  (function () {
+    var list = document.querySelector('#benchmarks [role="tablist"]');
+    var scope = document.getElementById('benchPanels');
+    if (!list || !scope) return;
+    var tabs = Array.prototype.slice.call(list.querySelectorAll('[role="tab"]'));
+    var prev = document.querySelector('[data-rail="prev"][data-rail-scope]');
+    var next = document.querySelector('[data-rail="next"][data-rail-scope]');
+
+    function activeTrack() {
+      var panel = scope.querySelector('[role="tabpanel"]:not([hidden])');
+      return panel ? panel.querySelector('.rail-track') : null;
+    }
+    function sync() {
+      var tr = activeTrack();
+      if (!prev || !next) return;
+      if (!tr) { prev.disabled = true; next.disabled = true; return; }
+      var max = tr.scrollWidth - tr.clientWidth - 2;
+      prev.disabled = tr.scrollLeft <= 2;
+      next.disabled = tr.scrollLeft >= max;
+    }
+    function step(dir) {
+      var tr = activeTrack();
+      if (!tr) return;
+      var card = tr.firstElementChild;
+      var w = card ? card.getBoundingClientRect().width : 264;
+      var per = isMobile() ? 1 : 2;
+      tr.scrollBy({ left: dir * (w + 24) * per, behavior: 'smooth' });
+    }
+    function select(tab) {
+      tabs.forEach(function (t) {
+        var on = t === tab;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        if (on) t.removeAttribute('tabindex'); else t.setAttribute('tabindex', '-1');
+        var panel = document.getElementById(t.getAttribute('aria-controls'));
+        if (!panel) return;
+        if (on) panel.removeAttribute('hidden'); else panel.setAttribute('hidden', '');
+      });
+      sync();
+    }
+
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () { select(t); });
+      t.addEventListener('keydown', function (e) {
+        var i = tabs.indexOf(t), n = null;
+        if (e.key === 'ArrowRight') n = tabs[(i + 1) % tabs.length];
+        if (e.key === 'ArrowLeft') n = tabs[(i - 1 + tabs.length) % tabs.length];
+        if (e.key === 'Home') n = tabs[0];
+        if (e.key === 'End') n = tabs[tabs.length - 1];
+        if (n) { e.preventDefault(); select(n); n.focus(); }
+      });
+    });
+    if (prev) prev.addEventListener('click', function () { step(-1); });
+    if (next) next.addEventListener('click', function () { step(1); });
+    scope.addEventListener('scroll', sync, true);
+    window.addEventListener('resize', sync);
+    sync();
+  })();
+
   /* ---------- Newsletter placeholder ------------------------------------ */
   var form = document.getElementById('newsform');
   if (form) {
