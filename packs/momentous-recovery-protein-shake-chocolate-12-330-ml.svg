@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Recovery Protein Shake">
+  <defs><linearGradient id="gBody-p1n" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#091c2f"/>
+      <stop offset="0.16" stop-color="#0d2743"/>
+      <stop offset="0.42" stop-color="#304861"/>
+      <stop offset="0.66" stop-color="#0E2A47"/>
+      <stop offset="1" stop-color="#0a1d32"/>
+    </linearGradient></defs>
+  
+  <ellipse cx="240.0" cy="387.0" rx="92.2" ry="10.3" fill="#0d1b1e" opacity="0.15"/>
+         <ellipse cx="240.0" cy="385.0" rx="65.2" ry="5.6" fill="#0d1b1e" opacity="0.2"/>
+  
+      <path d="M169.15200000000002 105.6 h141.696 l15.551999999999998 19.488 v239.42399999999998 l-15.551999999999998 19.488 h-141.696 l-15.551999999999998 -19.488 v-239.42399999999998 z" fill="url(#gBody-p1n)"/>
+      <ellipse cx="240" cy="105.6" rx="70.848" ry="4" fill="#061320"/>
+      <ellipse cx="240" cy="105.1" rx="67.848" ry="2.6" fill="#0a1d32"/>
+      <rect x="153.60000000000002" y="306.048" width="172.79999999999998" height="15.312" fill="#D8D3C8"/>
+    
+  <path d="M160.51200000000003 286.56 a95.3856 75.16799999999999 0 0 1 158.976 0" fill="none" stroke="#ffffff" stroke-width="8.7696" opacity="0.26"/>
+  <line x1="160.5" y1="216.4" x2="319.5" y2="216.4" stroke="#ffffff" stroke-width="1" opacity="0.32"/>
+  <text x="240.0" y="203.9" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif" font-size="33.1" font-weight="700" letter-spacing="-0.02em" fill="#ffffff">RECOVERY</text>
+  <text x="240.0" y="233.8" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif" font-size="9.9" font-weight="500" letter-spacing="0.08em" fill="#ffffff" opacity="0.72">25 G PROTEIN</text>
+</svg>

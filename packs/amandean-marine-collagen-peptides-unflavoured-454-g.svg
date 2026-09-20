@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Marine Collagen Peptides">
+  <defs><linearGradient id="gBody-pw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#123354"/>
+      <stop offset="0.16" stop-color="#1a4978"/>
+      <stop offset="0.42" stop-color="#3c6792"/>
+      <stop offset="0.66" stop-color="#1C4E80"/>
+      <stop offset="1" stop-color="#14375a"/>
+    </linearGradient><linearGradient id="gCap-pw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a1b2c"/>
+      <stop offset="0.16" stop-color="#0e273f"/>
+      <stop offset="0.42" stop-color="#31475d"/>
+      <stop offset="0.66" stop-color="#0f2943"/>
+      <stop offset="1" stop-color="#0b1d2f"/>
+    </linearGradient></defs>
+  
+  <ellipse cx="240.0" cy="382.2" rx="133.6" ry="15.0" fill="#0d1b1e" opacity="0.15"/>
+         <ellipse cx="240.0" cy="380.2" rx="94.5" ry="8.1" fill="#0d1b1e" opacity="0.2"/>
+  
+      <rect x="120.80000000000001" y="105.60000000000002" width="238.39999999999998" height="43.199999999999996" rx="3" fill="url(#gCap-pw)"/>
+      <rect x="123.8" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="140.4" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="157.0" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="173.6" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="190.2" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="206.8" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="223.4" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="240.0" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="256.6" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="273.2" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="289.8" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="306.4" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="323.0" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/><rect x="339.6" y="109.6" width="1.6" height="35.2" fill="#000" opacity="0.14"/>
+      <rect x="124.80000000000001" y="148.8" width="230.39999999999998" height="230.39999999999998" rx="7" fill="url(#gBody-pw)"/>
+      <rect x="124.80000000000001" y="328.512" width="230.39999999999998" height="19.584" fill="#EFEFEF" opacity="0.92"/>
+    
+  <rect x="145.536" y="248.14848" width="188.92799999999997" height="7.74144" fill="#ffffff" opacity="0.36"/>
+  <line x1="145.5" y1="237.8" x2="334.5" y2="237.8" stroke="#ffffff" stroke-width="1" opacity="0.32"/>
+  <text x="240.0" y="224.9" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif" font-size="38.7" font-weight="700" letter-spacing="-0.02em" fill="#ffffff">MARINE</text>
+  <text x="240.0" y="258.1" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif" font-size="11.6" font-weight="500" letter-spacing="0.08em" fill="#ffffff" opacity="0.72">10 G PROTEIN</text>
+</svg>

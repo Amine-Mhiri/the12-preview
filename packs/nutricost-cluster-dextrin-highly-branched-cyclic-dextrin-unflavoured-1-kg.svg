@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Cluster Dextrin Highly Branched Cyclic Dextrin">
+  <defs><linearGradient id="gBody-p2k" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#003c66"/>
+      <stop offset="0.16" stop-color="#005691"/>
+      <stop offset="0.42" stop-color="#2472a8"/>
+      <stop offset="0.66" stop-color="#005B9A"/>
+      <stop offset="1" stop-color="#00406c"/>
+    </linearGradient></defs>
+  
+  <ellipse cx="240.0" cy="394.0" rx="122.5" ry="13.7" fill="#0d1b1e" opacity="0.15"/>
+         <ellipse cx="240.0" cy="392.0" rx="86.6" ry="7.4" fill="#0d1b1e" opacity="0.2"/>
+  
+      <path d="M114 76.8 h252 v16 h-252 z" fill="#00385f"/>
+      <circle cx="240" cy="84.8" r="3.2" fill="#80adcd" opacity="0.5"/>
+      <path d="M120 92.8 h240 v279.68 q0 16.8 -14.399999999999999 23.520000000000003 h-211.2 q-14.399999999999999 -6.72 -14.399999999999999 -23.520000000000003 z" fill="url(#gBody-p2k)"/>
+      <path d="M134.4 372.48 h211.2 l-21.599999999999998 18.48 h-168 z" fill="#003559"/>
+      <rect x="120" y="298.56" width="240" height="16.8" fill="#F4F4F4" opacity="0.92"/>
+    
+  <rect x="144" y="204.35199999999998" width="80.64" height="50.8032" fill="#ffffff" opacity="0.16"/>
+  <line x1="144.0" y1="181.8" x2="336.0" y2="181.8" stroke="#ffffff" stroke-width="1" opacity="0.32"/>
+  <text x="240.0" y="167.7" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif" font-size="42.3" font-weight="700" letter-spacing="-0.02em" fill="#ffffff">CLUSTER</text>
+  <text x="240.0" y="204.0" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif" font-size="12.7" font-weight="500" letter-spacing="0.08em" fill="#ffffff" opacity="0.72">50 G CARBOHYDRATE</text>
+</svg>
