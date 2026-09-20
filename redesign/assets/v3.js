@@ -323,6 +323,52 @@
     sync();
   })();
 
+  /* ---------- Label-guide carousel (scroll-snap) ------------------------- */
+  (function () {
+    var sec = document.getElementById('guide');
+    var track = document.getElementById('guideTrack');
+    if (!sec || !track) return;
+    var slides = Array.prototype.slice.call(track.children);
+    var dots = Array.prototype.slice.call(sec.querySelectorAll('.gdot'));
+    var prev = sec.querySelector('[data-guide="prev"]');
+    var next = sec.querySelector('[data-guide="next"]');
+
+    function step() {
+      var first = slides[0];
+      var gap = parseFloat(getComputedStyle(track).columnGap) || 24;
+      return first ? first.getBoundingClientRect().width + gap : track.clientWidth;
+    }
+    function index() {
+      var i = Math.round(track.scrollLeft / step());
+      return Math.max(0, Math.min(slides.length - 1, i));
+    }
+    function go(i) {
+      i = Math.max(0, Math.min(slides.length - 1, i));
+      track.scrollTo({ left: i * step(), behavior: 'smooth' });
+    }
+    function sync() {
+      var i = index();
+      dots.forEach(function (d, n) {
+        if (n === i) d.setAttribute('aria-current', 'true');
+        else d.removeAttribute('aria-current');
+      });
+      var max = track.scrollWidth - track.clientWidth - 2;
+      if (prev) prev.disabled = track.scrollLeft <= 2;
+      if (next) next.disabled = track.scrollLeft >= max;
+    }
+
+    if (prev) prev.addEventListener('click', function () { go(index() - 1); });
+    if (next) next.addEventListener('click', function () { go(index() + 1); });
+    dots.forEach(function (d, n) { d.addEventListener('click', function () { go(n); }); });
+    sec.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(index() + 1); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); go(index() - 1); }
+    });
+    track.addEventListener('scroll', sync, { passive: true });
+    window.addEventListener('resize', sync);
+    sync();
+  })();
+
   /* ---------- Newsletter placeholder ------------------------------------ */
   var form = document.getElementById('newsform');
   if (form) {
