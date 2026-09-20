@@ -140,6 +140,84 @@
     sync();
   });
 
+  /* ---------- Scale numbers, from data- attributes on <body> ------------- */
+  (function () {
+    var b = document.body;
+    var vals = {
+      analyzed: b.getAttribute('data-analyzed') || '',
+      rejected: b.getAttribute('data-rejected') || '',
+      kept: b.getAttribute('data-kept') || ''
+    };
+    Array.prototype.forEach.call(document.querySelectorAll('[data-tally]'), function (el) {
+      var k = el.getAttribute('data-tally');
+      if (vals[k]) el.textContent = vals[k];
+    });
+  })();
+
+  /* ---------- Hero carousel ---------------------------------------------- */
+  (function () {
+    var hero = document.getElementById('hero');
+    var track = document.getElementById('heroTrack');
+    if (!hero || !track) return;
+
+    var slides = Array.prototype.slice.call(track.children);
+    var dots = Array.prototype.slice.call(hero.querySelectorAll('.dot-btn'));
+    var prev = hero.querySelector('[data-hero="prev"]');
+    var next = hero.querySelector('[data-hero="next"]');
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+    var index = 0;
+    var timer = null;
+    var paused = false;
+    var DELAY = 6000;
+
+    function render() {
+      track.style.transform = 'translateX(' + (-index * 100) + '%)';
+      slides.forEach(function (sl, i) {
+        var on = i === index;
+        sl.setAttribute('aria-hidden', on ? 'false' : 'true');
+        Array.prototype.forEach.call(sl.querySelectorAll('a, button'), function (f) {
+          if (on) f.removeAttribute('tabindex');
+          else f.setAttribute('tabindex', '-1');
+        });
+      });
+      dots.forEach(function (d, i) {
+        d.setAttribute('aria-selected', i === index ? 'true' : 'false');
+      });
+    }
+    function go(i) {
+      index = (i + slides.length) % slides.length;
+      render();
+      restart();
+    }
+    function stop() { if (timer) { window.clearInterval(timer); timer = null; } }
+    function restart() {
+      stop();
+      if (paused || reduce.matches) return;
+      timer = window.setInterval(function () { index = (index + 1) % slides.length; render(); }, DELAY);
+    }
+    function pause() { paused = true; stop(); }
+    function resume() { paused = false; restart(); }
+
+    if (prev) prev.addEventListener('click', function () { go(index - 1); });
+    if (next) next.addEventListener('click', function () { go(index + 1); });
+    dots.forEach(function (d, i) { d.addEventListener('click', function () { go(i); }); });
+
+    hero.addEventListener('mouseenter', pause);
+    hero.addEventListener('mouseleave', resume);
+    hero.addEventListener('focusin', pause);
+    hero.addEventListener('focusout', function (e) {
+      if (!hero.contains(e.relatedTarget)) resume();
+    });
+    hero.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(index + 1); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); go(index - 1); }
+    });
+    if (reduce.addEventListener) reduce.addEventListener('change', restart);
+
+    render();
+    restart();
+  })();
+
   /* ---------- Newsletter placeholder ------------------------------------ */
   var form = document.getElementById('newsform');
   if (form) {

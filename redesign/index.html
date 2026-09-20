@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>the12 — Twelve. Never more.</title>
-<meta name="description" content="Every sport-nutrition product sold to Kuwait, read. 396 read, 181 rejected, 185 published. Never more than twelve per type.">
+<title>the12 — Only what deserves your body.</title>
+<meta name="description" content="Tens of thousands of sport-nutrition products analyzed for Kuwait. Twelve per category survive — clean labels, best delivered price.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=Plus+Jakarta+Sans:wght@400..700&family=IBM+Plex+Sans+Arabic:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/v3.css">
 </head>
-<body>
+<body data-analyzed="10,000+" data-rejected="8,000+" data-kept="12">
 
 <!-- Inline icon sprite (Chrome will not resolve <use href="external.svg#id">) -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
@@ -27,6 +27,7 @@
   <symbol id="i-shelf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19.2h18"/><rect x="5" y="7" width="4.4" height="12" rx="1.4"/><rect x="11.1" y="9.6" width="4.4" height="9.4" rx="1.4"/><rect x="17.2" y="12.4" width="4.4" height="6.6" rx="1.4" stroke-dasharray="2.6 2.2"/></symbol>
   <symbol id="i-flask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 3.5h5M10.3 3.5v6L5.6 17.4A1.6 1.6 0 0 0 7 19.9h10a1.6 1.6 0 0 0 1.4-2.5L13.7 9.5v-6"/><path d="M8 14.3h8"/></symbol>
   <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.4 5.2 6v6c0 4.1 2.8 7 6.8 8.6 4-1.6 6.8-4.5 6.8-8.6V6L12 3.4Z"/><path d="M9.3 14.7 14.7 9.3M9.3 9.3l5.4 5.4"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5.2 18.8c0-7.4 6-13.4 13.4-13.4 0 7.4-6 13.4-13.4 13.4Z"/><path d="M5.2 18.8 12.4 11.6"/></symbol>
   <symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.8 6.2h10.4v9H2.8zM13.2 9.2h3.6l3.4 3.4v2.6h-7z"/><circle cx="6.6" cy="17.6" r="1.8"/><circle cx="16.6" cy="17.6" r="1.8"/></symbol>
 </svg>
 
@@ -36,7 +37,7 @@
 <div class="topbar">
   <div class="shell">
     <p class="left">Delivered to Kuwait · prices in KWD</p>
-    <p class="counts"><b>396</b> products read · <b>181</b> rejected · <b>185</b> published</p>
+    <p class="counts"><b data-tally="analyzed">10,000+</b> products analyzed · <b data-tally="rejected">8,000+</b> rejected · only what meets strict criteria</p>
     <a class="ar" href="#" lang="ar">العربية</a>
   </div>
 </div>
@@ -49,18 +50,18 @@
     <nav class="mainnav" aria-label="Primary">
       <div id="shelves" class="shelves">
         <button type="button" class="nav-link" id="shelvesBtn" aria-expanded="false" aria-controls="megapanel">
-          Shelves <svg class="chev" width="14" height="14" aria-hidden="true"><use href="#i-chev"/></svg>
+          Categories <svg class="chev" width="14" height="14" aria-hidden="true"><use href="#i-chev"/></svg>
         </button>
       </div>
-      <a class="nav-link" href="#benchmarks">The Benchmarks</a>
+      <a class="nav-link" href="#why">About us</a>
       <a class="nav-link" href="#method">How we choose</a>
-      <a class="nav-link nav-link--reject" href="#refuse">What we rejected</a>
-      <a class="nav-link" href="#where">Where to buy</a>
+      <a class="nav-link nav-link--reject" href="#refuse">What we reject &amp; why</a>
+      <a class="nav-link" href="#where">Compare prices</a>
     </nav>
 
     <button type="button" class="searchbtn" id="searchbtn">
       <svg width="17" height="17" aria-hidden="true" style="color:var(--muted)"><use href="#i-search"/></svg>
-      <span class="st">Search 396 analysed products, brands or ingredients</span>
+      <span class="st">Search vetted products — clean labels, no BS</span>
       <span class="kbd">⌘K</span>
     </button>
 
@@ -141,10 +142,10 @@
         </section>
 
         <nav class="mega-links" aria-label="Sections">
-          <a href="#benchmarks">The Benchmarks</a>
+          <a href="#why">About us</a>
           <a href="#method">How we choose</a>
-          <a class="r" href="#refuse">What we rejected</a>
-          <a href="#where">Where to buy</a>
+          <a class="r" href="#refuse">What we reject &amp; why</a>
+          <a href="#where">Compare prices</a>
           <a href="#">Saved</a>
         </nav>
       </div>
@@ -178,7 +179,7 @@
             <p class="mrt-lab">Just rejected</p>
             <h4>Dymatize ISO100 Hydrolyzed</h4>
             <p>Acesulfame potassium — rule A2.02</p>
-            <a class="go" href="#refuse">Read why →</a>
+            <a class="go" href="#refuse">See why we reject →</a>
           </div>
         </div>
       </aside>
@@ -186,7 +187,7 @@
 
     <div class="mega-foot">
       <div class="shell">
-        <span>23 types · 185 products · never more than twelve per type</span>
+        <span>23 categories · never more than twelve per category</span>
         <a class="link-arrow" href="#method">How we choose →</a>
       </div>
     </div>
@@ -196,44 +197,168 @@
 
 <main id="main">
 
-<!-- ================= S1 · Hero ================= -->
-<section class="hero">
-  <div class="hero-media">
-    <div class="ph" role="img" data-shot="athlete mid-set, dawn light, matte-black tub and shaker in the foreground, Kuwait skyline soft in the back" aria-label="Placeholder photograph: athlete mid-set, dawn light, matte-black tub and shaker in the foreground, Kuwait skyline soft in the back">
-      <span class="ph-glow"></span><span class="ph-arc"></span>
-      <span class="hero-fade"></span>
-    </div>
-  </div>
-
-  <div class="hero-inner">
-    <div class="hero-copy">
-      <p class="eyebrow eyebrow--mint">Kuwait · Sport &amp; Nutrition</p>
-      <h1>Twelve.<br>Never more.</h1>
-      <p class="lead">Every sport-nutrition product sold to Kuwait, read. 185 survived.</p>
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="#shelves-grid">Shop the shelves</a>
-        <a class="btn btn-outline" href="#method">How we choose</a>
+<!-- ================= S1 · Hero carousel ================= -->
+<section class="hero" id="hero" aria-roledescription="carousel" aria-label="What the12 does">
+  <div class="hero-track" id="heroTrack" aria-live="polite">
+    <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="Slide 1 of 3: Only what deserves your body">
+      <div class="hero-media">
+        <div class="ph" role="img" data-shot="family kitchen at breakfast, shaker and fruit bowl, warm side light" aria-label="Placeholder photograph: family kitchen at breakfast, shaker and fruit bowl, warm side light">
+          <span class="ph-glow"></span><span class="ph-arc"></span>
+          <span class="hero-fade"></span>
+        </div>
       </div>
-      <ul class="tallies">
-        <li class="tally"><b>396</b> read</li>
-        <li class="tally"><b>181</b> rejected</li>
-        <li class="tally"><b>185</b> published</li>
-      </ul>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow--mint">Kuwait · Sport &amp; Nutrition</p>
+          <h1>Only what deserves<br>your body.</h1>
+          <p class="lead">Tens of thousands of products analyzed. Twelve per category survive.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#categories">Shop the twelve</a>
+            <a class="btn btn-outline" href="#why">Why we do this</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="Slide 2 of 3: Stop reading labels">
+      <div class="hero-media">
+        <div class="ph" role="img" data-shot="a supplement label held up to window light, a finger on the ingredients line" aria-label="Placeholder photograph: a supplement label held up to window light, a finger on the ingredients line">
+          <span class="ph-glow"></span><span class="ph-arc"></span>
+          <span class="hero-fade"></span>
+        </div>
+      </div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow--mint">Clean labels, checked for you</p>
+          <h1>Stop reading labels.<br>We did.</h1>
+          <p class="lead">Every ingredient checked against strict criteria. No contested additives, no marketing.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#method">See how we choose</a>
+            <a class="btn btn-outline" href="#refuse">What we reject</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="Slide 3 of 3: Best price, every trusted store">
+      <div class="hero-media">
+        <div class="ph" role="img" data-shot="a delivery box on a doorstep in Kuwait, late afternoon" aria-label="Placeholder photograph: a delivery box on a doorstep in Kuwait, late afternoon">
+          <span class="ph-glow"></span><span class="ph-arc"></span>
+          <span class="hero-fade"></span>
+        </div>
+      </div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow--mint">Every trusted store, one place</p>
+          <h1>Best price.<br>Every trusted store.</h1>
+          <p class="lead">Compare every seller that delivers to Kuwait and add to cart in one place.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#where">Compare prices</a>
+            <a class="btn btn-outline" href="#categories">Shop the twelve</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <article class="hero-card">
-    <div class="well">
-      <img src="../products/now-sports-whey-protein-isolate-unflavoured-5-lb-2-27-kg.jpg" alt="NOW Sports Whey Protein Isolate, unflavoured, 5 lb tub">
-      <div class="seal seal-gold"><b>93</b><i>/100</i></div>
+  <div class="hero-ui">
+    <div class="dots" role="tablist" aria-label="Choose a slide">
+      <button type="button" class="dot-btn" role="tab" aria-selected="true" aria-label="Slide 1: only what deserves your body"></button>
+      <button type="button" class="dot-btn" role="tab" aria-selected="false" aria-label="Slide 2: stop reading labels"></button>
+      <button type="button" class="dot-btn" role="tab" aria-selected="false" aria-label="Slide 3: best price, every trusted store"></button>
     </div>
-    <span class="pill pill-rank" style="margin-top:14px">#1 of 12 · Whey Isolate</span>
-    <p class="brandline">NOW Sports</p>
-    <h3>Whey Protein Isolate</h3>
-    <p class="sub">Informed Sport · 2 ingredients</p>
-    <span class="per">312 fils <small>per serving</small></span>
-    <a class="go" href="#whey">See the verdict →</a>
-  </article>
+    <div class="hero-arrows">
+      <button type="button" class="hero-arrow" data-hero="prev" aria-label="Previous slide"><svg width="18" height="18" aria-hidden="true"><use href="#i-arrow-left"/></svg></button>
+      <button type="button" class="hero-arrow" data-hero="next" aria-label="Next slide"><svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S1 · Stats strip ================= -->
+<div class="stats-wrap">
+  <div class="shell">
+    <div class="stats">
+      <div class="stat"><b data-tally="analyzed">10,000+</b><span>products analyzed</span></div>
+      <div class="stat"><b data-tally="rejected">8,000+</b><span>rejected</span></div>
+      <div class="stat"><b data-tally="kept">12</b><span>per category</span></div>
+      <div class="stat"><b>0</b><span>contested ingredients</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= S1b · Why we exist ================= -->
+<section class="section" id="why">
+  <div class="shell">
+    <div class="doctrine-head">
+      <p class="eyebrow">Why we exist</p>
+      <h2>For people who read the back.</h2>
+    </div>
+    <div class="story">
+
+      <article class="scard">
+        <svg class="spot" viewBox="0 0 120 120" role="img" aria-label="Illustration: a magnifying glass over an ingredients list with one line circled">
+          <rect x="14" y="12" width="62" height="86" rx="8"/>
+          <path d="M26 30h38M26 42h32M26 66h30M26 78h22"/>
+          <ellipse class="g" cx="46" cy="54" rx="24" ry="9"/>
+          <path d="M26 54h30"/>
+          <circle cx="78" cy="72" r="21" class="f"/>
+          <path d="M93 87 106 100"/>
+          <path d="M70 72a8 8 0 0 1 8-8"/>
+        </svg>
+        <h3>You shouldn't need a chemistry degree.</h3>
+        <p>Labels are written to confuse. We read every one so you don't have to.</p>
+      </article>
+
+      <article class="scard">
+        <svg class="spot" viewBox="0 0 120 120" role="img" aria-label="Illustration: a hand reaching for a tub on a shelf, marked with a gold check">
+          <path d="M10 46h100"/>
+          <rect x="60" y="13" width="30" height="33" rx="5"/>
+          <rect x="64" y="6" width="22" height="7" rx="3"/>
+          <path d="M66 28h18"/>
+          <path class="g" d="M95 17l5 5 9-11"/>
+          <rect x="30" y="64" width="9" height="30" rx="4.5"/>
+          <rect x="41" y="58" width="9" height="36" rx="4.5"/>
+          <rect x="52" y="62" width="9" height="32" rx="4.5"/>
+          <path d="M27 90v4a17 17 0 0 0 17 17 17 17 0 0 0 17-17v-4"/>
+          <path d="M27 96l-8-10a5 5 0 0 1 8-6l3 4"/>
+        </svg>
+        <h3>What your kids take matters.</h3>
+        <p>No contested sweeteners, colours or fillers. Not once, not in anything.</p>
+      </article>
+
+      <article class="scard">
+        <svg class="spot" viewBox="0 0 120 120" role="img" aria-label="Illustration: a crossed-out loudspeaker beside a measuring scoop with a gold check">
+          <path d="M12 42v20l16 5V37l24-13v55L28 67"/>
+          <path d="M20 67v14a6 6 0 0 0 12 0v-10"/>
+          <path d="M8 82 60 20"/>
+          <path d="M70 74h36a18 18 0 0 1-36 0Z"/>
+          <path d="M101 74 113 60"/>
+          <path class="g" d="M78 50l7 7 14-17"/>
+        </svg>
+        <h3>Marketing is not evidence.</h3>
+        <p>We ignore the claims on the front and check the doses on the back.</p>
+      </article>
+
+      <article class="scard">
+        <svg class="spot" viewBox="0 0 120 120" role="img" aria-label="Illustration: a shelf of twelve tubs with the twelfth in gold">
+          <path d="M10 56h100M10 104h100"/>
+          <rect x="12" y="32" width="13" height="24" rx="3"/>
+          <rect x="30" y="32" width="13" height="24" rx="3"/>
+          <rect x="48" y="32" width="13" height="24" rx="3"/>
+          <rect x="66" y="32" width="13" height="24" rx="3"/>
+          <rect x="84" y="32" width="13" height="24" rx="3"/>
+          <rect x="102" y="32" width="13" height="24" rx="3"/>
+          <rect x="12" y="80" width="13" height="24" rx="3"/>
+          <rect x="30" y="80" width="13" height="24" rx="3"/>
+          <rect x="48" y="80" width="13" height="24" rx="3"/>
+          <rect x="66" y="80" width="13" height="24" rx="3"/>
+          <rect x="84" y="80" width="13" height="24" rx="3"/>
+          <rect class="gf" x="102" y="80" width="13" height="24" rx="3"/>
+        </svg>
+        <h3>Twelve is enough.</h3>
+        <p>Fewer, better options. Chosen by experts, not sold by anyone.</p>
+      </article>
+
+    </div>
+  </div>
 </section>
 
 <!-- ================= S2 · Trust strip ================= -->
@@ -241,34 +366,34 @@
   <div class="shell">
     <div class="trust-grid">
       <div class="trust-cell">
-        <span class="disc"><svg aria-hidden="true"><use href="#i-box"/></svg></span>
-        <p><b>We hold no stock</b><span>You buy from iHerb, Sporter or noon</span></p>
+        <span class="disc"><svg aria-hidden="true"><use href="#i-leaf"/></svg></span>
+        <p><b>Healthier choices, made easy</b><span>Pre-vetted, so you can just pick.</span></p>
       </div>
       <div class="trust-cell">
         <span class="disc"><svg aria-hidden="true"><use href="#i-doc"/></svg></span>
-        <p><b>111 rules, every one cited</b><span>A regulator, a trial or a re-evaluation</span></p>
+        <p><b>Clean labels only</b><span>No contested additives. Ever.</span></p>
       </div>
       <div class="trust-cell">
         <span class="disc"><svg aria-hidden="true"><use href="#i-tag"/></svg></span>
-        <p><b>Prices landed in Kuwait</b><span>Shipping and duty already added</span></p>
+        <p><b>Best delivered price</b><span>Every trusted store, compared for you.</span></p>
       </div>
       <div class="trust-cell">
-        <span class="disc"><svg aria-hidden="true"><use href="#i-shelf"/></svg></span>
-        <p><b>Twelve is a ceiling</b><span>Empty slots stay empty</span></p>
+        <span class="disc"><svg aria-hidden="true"><use href="#i-box"/></svg></span>
+        <p><b>Chosen, not sold</b><span>We hold no stock and carry no brand.</span></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= S3 · Shop by shelf ================= -->
-<section class="section" id="shelves-grid">
+<!-- ================= S3 · Shop by category ================= -->
+<section class="section" id="categories">
   <div class="shell">
     <div class="sec-head">
       <div class="sec-head-copy">
-        <h2>Shop by shelf</h2>
-        <p class="lead">23 types, never more than twelve each</p>
+        <h2>Shop by category</h2>
+        <p class="lead">23 categories, never more than twelve each</p>
       </div>
-      <a class="link-arrow" href="#">All shelves →</a>
+      <a class="link-arrow" href="#">All categories →</a>
     </div>
 
     <div class="shelf-grid">
@@ -277,7 +402,7 @@
         <div class="veil"></div>
         <div class="body">
           <h3>Protein</h3>
-          <p class="cnt">7 types · 56 products</p>
+          <p class="cnt">7 categories · 56 products</p>
           <div class="chips">
             <span class="chip"><i class="dot"></i>Whey Isolate 12/12</span>
             <span class="chip">Plant Protein 10/12</span>
@@ -292,7 +417,7 @@
         <div class="veil"></div>
         <div class="body">
           <h3>Performance</h3>
-          <p class="cnt">5 types · 44 products</p>
+          <p class="cnt">5 categories · 44 products</p>
           <div class="chips">
             <span class="chip"><i class="dot"></i>Creatine 12/12</span>
             <span class="chip">Beta-Alanine 10/12</span>
@@ -306,7 +431,7 @@
         <div class="veil"></div>
         <div class="body">
           <h3>Hydration</h3>
-          <p class="cnt">2 types · 14 products</p>
+          <p class="cnt">2 categories · 14 products</p>
           <div class="chips">
             <span class="chip">Electrolytes 8/12</span>
             <span class="chip">Intra-Workout 6/12</span>
@@ -320,7 +445,7 @@
         <div class="veil"></div>
         <div class="body">
           <h3>Daily Essentials</h3>
-          <p class="cnt">5 types · 47 products</p>
+          <p class="cnt">5 categories · 47 products</p>
           <div class="chips">
             <span class="chip">Omega-3 9/12</span>
             <span class="chip">Magnesium 10/12</span>
@@ -334,7 +459,7 @@
         <div class="veil"></div>
         <div class="body">
           <h3>Recovery</h3>
-          <p class="cnt">2 types · 18 products</p>
+          <p class="cnt">2 categories · 18 products</p>
           <div class="chips">
             <span class="chip">Sleep &amp; Recovery 9/12</span>
             <span class="chip">Joint Support 9/12</span>
@@ -348,7 +473,7 @@
         <div class="veil"></div>
         <div class="body">
           <h3>Body Composition</h3>
-          <p class="cnt">2 types · 6 products</p>
+          <p class="cnt">2 categories · 6 products</p>
           <div class="chips">
             <span class="chip">Mass Gainer 3/12</span>
             <span class="chip">Meal Replacement 3/12</span>
@@ -365,7 +490,7 @@
   <div class="shell">
     <div class="doctrine-head">
       <p class="eyebrow">What we stand for</p>
-      <h2>A shelf with visible edges.</h2>
+      <h2>Twelve per category, no more.</h2>
     </div>
     <div class="doctrine">
       <article class="dcard">
@@ -377,13 +502,13 @@
       <article class="dcard">
         <span class="disc disc-lg"><svg aria-hidden="true"><use href="#i-shelf"/></svg></span>
         <h3>Twelve, never thirteen</h3>
-        <p>Only 2 of 23 types are full. An empty slot is a finding, not a gap.</p>
+        <p>Only 2 of 23 categories are full. An empty slot is a finding, not a gap.</p>
         <a class="link-arrow" href="#method">Read more →</a>
       </article>
       <article class="dcard">
         <span class="disc disc-lg"><svg aria-hidden="true"><use href="#i-shield"/></svg></span>
         <h3>Zero contested substances</h3>
-        <p>One contested ingredient ends the review. No score, no shelf, no exception.</p>
+        <p>One contested ingredient ends the review. No score, no category, no exception.</p>
         <a class="link-arrow" href="#refuse">Read more →</a>
       </article>
     </div>
@@ -395,10 +520,11 @@
   <div class="shell">
     <div class="refuse">
       <div>
-        <p class="big">181</p>
+        <p class="big" data-tally="rejected">8,000+</p>
         <h3>products never reached a score.</h3>
         <p class="sub">The reason for every rejection is published, with its source.</p>
-        <a class="out" href="#">See everything we rejected →</a>
+        <a class="out" href="#">See what we reject →</a>
+        <div class="ph refuse-art" role="img" data-shot="an ingredients panel, one line struck through in red" aria-label="Placeholder photograph: an ingredients panel, one line struck through in red"><span class="ph-glow"></span><span class="ph-arc"></span></div>
       </div>
       <div>
         <ul class="ing">
@@ -432,7 +558,7 @@
           <p class="muted">The highest score in each type. Not best sellers — we have no idea what sells.</p>
         </div>
         <div class="rail-tools">
-          <a class="link-arrow" href="#">All shelves →</a>
+          <a class="link-arrow" href="#">All categories →</a>
           <button type="button" class="rail-btn" data-rail="prev" aria-label="Scroll The Benchmarks left"><svg width="18" height="18" aria-hidden="true"><use href="#i-arrow-left"/></svg></button>
           <button type="button" class="rail-btn" data-rail="next" aria-label="Scroll The Benchmarks right"><svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></button>
         </div>
@@ -1066,12 +1192,15 @@
   </div>
 </section>
 
-<!-- ================= S10 · Where to buy ================= -->
+<!-- ================= S10 · Compare prices ================= -->
 <section class="section band-ivory" id="where">
   <div class="shell">
-    <div class="doctrine-head">
-      <h2>We are not the shop.</h2>
-      <p class="lead" style="margin-top:16px">Everything here is sold by someone else. We add up the shipping and the duty and send you to whoever is genuinely cheapest delivered.</p>
+    <div class="where-head">
+      <div>
+        <h2>We are not the shop.</h2>
+        <p class="lead" style="margin-top:16px">Everything here is sold by someone else. We add up the shipping and the duty and send you to whoever is genuinely cheapest delivered.</p>
+      </div>
+      <div class="ph where-art" role="img" data-shot="three parcels on a marble console, morning light" aria-label="Placeholder photograph: three parcels on a marble console, morning light"><span class="ph-glow"></span><span class="ph-arc"></span></div>
     </div>
     <div class="merch" style="margin-top:0">
       <a class="mtile" href="#"><span class="mono-disc">S</span><span class="mtxt"><b>Sporter</b><span>0–2 days</span></span></a>
@@ -1129,6 +1258,7 @@
 <section class="section--tight">
   <div class="shell">
     <div class="news">
+      <div class="ph news-art" role="img" data-shot="a printed ledger page, one lamp" aria-label="Placeholder photograph: a printed ledger page, one lamp"><span class="ph-glow"></span></div>
       <div>
         <h3>The ledger, monthly.</h3>
         <p>Every rejection we add, every price that moves.</p>
@@ -1154,13 +1284,13 @@
         <a class="wordmark" href="#" aria-label="the12 home">the<span>12</span></a>
         <p class="foot-tag">Everything you buy. Nothing you should worry about.</p>
         <div class="foot-counts">
-          <div><b>396</b><span>read</span></div>
-          <div><b>181</b><span>rejected</span></div>
-          <div><b>185</b><span>published</span></div>
+          <div><b data-tally="analyzed">10,000+</b><span>analyzed</span></div>
+          <div><b data-tally="rejected">8,000+</b><span>rejected</span></div>
+          <div><b data-tally="kept">12</b><span>per category</span></div>
         </div>
       </div>
       <div>
-        <h4>Shelves</h4>
+        <h4>Categories</h4>
         <ul>
           <li><a href="#whey">Protein</a></li>
           <li><a href="#creatine">Performance</a></li>
@@ -1175,8 +1305,8 @@
         <ul>
           <li><a href="#method">How we choose</a></li>
           <li><a href="#">The ledger</a></li>
-          <li><a href="#refuse">What we rejected</a></li>
-          <li><a href="#where">Where to buy</a></li>
+          <li><a href="#refuse">What we reject &amp; why</a></li>
+          <li><a href="#where">Compare prices</a></li>
         </ul>
       </div>
       <div>
