@@ -163,6 +163,24 @@ h3{font-size:28px;line-height:1.15}
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
   width:fit-content;
 }
+/* A filled placeholder: the photograph replaces the art-direction note it was
+   standing in for, so the texture, the caption chip and the drawn highlights
+   all go. The veils and fades that sit OUTSIDE .ph stay — they are what keeps
+   the overlaid type readable. */
+.ph--photo::before,
+.ph--photo::after{content:none}
+.ph--photo .ph-glow,
+.ph--photo .ph-arc{display:none}
+.ph-photo{
+  position:absolute;inset:0;display:block;
+  width:100%;height:100%;object-fit:cover;
+  /* Warms the stock photography towards the palette so a page of it reads as
+     one set rather than twenty-eight unrelated frames. */
+  filter:saturate(.92) contrast(1.02);
+}
+/* The tile crops on hover, so the photograph has to scale with it. */
+.shelf-tile .ph--photo{transform-origin:center}
+
 .ph-glow{position:absolute;width:52%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.85),rgba(255,255,255,0) 70%);top:14%;left:18%}
 .ph-arc{position:absolute;right:-14%;bottom:-24%;width:70%;aspect-ratio:1;border-radius:50%;border:1px solid rgba(27,36,32,.07)}
 
