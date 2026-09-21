@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/the12-preview/:path*", "destination": "/:path*" }
+  ],
+  "trailingSlash": true
+}
