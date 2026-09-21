@@ -9,11 +9,30 @@ The repository is a plain static site — there is nothing to build.
 
 Every push to `main` redeploys automatically.
 
-`vercel.json` rewrites `/the12-preview/:path*` to `/:path*`, so the pages that
-still carry absolute `/the12-preview/...` asset and link paths (everything under
-`classic/`, `p/`, `shelves/` and the other exported pages) keep working on a
-Vercel domain. `trailingSlash: true` keeps the directory URLs (`shelves/protein/`)
-resolving to their `index.html`.
+## Why `vercel.json` looks the way it does
+
+The exported pages were built with GitHub Pages' `/the12-preview` base path, so
+every asset and link they carry is absolute: `/the12-preview/shelves/`,
+`/the12-preview/_next/…`. On a Vercel domain the site sits at the root, so those
+paths have to be rewritten back.
+
+The order of the three rewrites matters:
+
+1. **Directory URLs first.** A rewrite to `/shelves/` does *not* resolve to that
+   directory's `index.html` on its own, so the destination names the file
+   explicitly. Without this rule every page-to-page link inside the exported
+   pages 404s — assets keep working, because they map to real files, which is
+   why a broken deployment still looks healthy from the home page and only falls
+   over one click in.
+2. **Then files** — stylesheets, scripts, fonts, photographs, pack shots.
+3. **Then the bare prefix** itself.
+
+`trailingSlash: true` makes Vercel redirect `/shelves` to `/shelves/` so rule 1
+gets the chance to match.
+
+Note that `vercel.json` takes no comment keys — Vercel rejects unknown
+properties and the deployment fails to build — which is why this explanation
+lives here.
 
 The GitHub Pages URL keeps working unchanged:
 <https://amine-mhiri.github.io/the12-preview/>

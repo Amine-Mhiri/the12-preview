@@ -1,6 +1,8 @@
 {
+  "trailingSlash": true,
   "rewrites": [
-    { "source": "/the12-preview/:path*", "destination": "/:path*" }
-  ],
-  "trailingSlash": true
+    { "source": "/the12-preview/:path*/", "destination": "/:path*/index.html" },
+    { "source": "/the12-preview/:path*", "destination": "/:path*" },
+    { "source": "/the12-preview", "destination": "/index.html" }
+  ]
 }
