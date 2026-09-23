@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 480" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Naked Nutrition Naked Whey Isolate">
+  <defs><linearGradient id="gBody-p5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9e9e9a"/>
+      <stop offset="0.16" stop-color="#e2e1dc"/>
+      <stop offset="0.42" stop-color="#f2f1ed"/>
+      <stop offset="0.66" stop-color="#F0EFEA"/>
+      <stop offset="1" stop-color="#a8a7a4"/>
+    </linearGradient></defs>
+  
+  
+  
+      <path d="M99 76.8 h222 v16 h-222 z" fill="#959491"/>
+      <circle cx="210" cy="84.8" r="3.2" fill="#f8f7f5" opacity="0.5"/>
+      <path d="M105 92.8 h210 v279.68 q0 16.8 -12.6 23.520000000000003 h-184.8 q-12.6 -6.72 -12.6 -23.520000000000003 z" fill="url(#gBody-p5)"/>
+      <path d="M117.6 372.48 h184.8 l-18.9 18.48 h-147 z" fill="#8b8b88"/>
+      <rect x="105" y="298.56" width="210" height="16.8" fill="#2B2B2B" opacity="0.92"/>
+    
+  <path d="M126 260.8 a100.8 84.672 0 0 1 168 0" fill="none" stroke="#101a1c" stroke-width="9.878400000000001" opacity="0.26"/>
+  <line x1="126.0" y1="181.8" x2="294.0" y2="181.8" stroke="#101a1c" stroke-width="1" opacity="0.32"/>
+  <text x="210.0" y="167.7" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="42.3" font-weight="700" letter-spacing="-0.02em" fill="#101a1c">NAKED</text>
+  <text x="210.0" y="204.0" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.7" font-weight="500" letter-spacing="0.08em" fill="#101a1c" opacity="0.72">25 G PROTEIN</text>
+</svg>

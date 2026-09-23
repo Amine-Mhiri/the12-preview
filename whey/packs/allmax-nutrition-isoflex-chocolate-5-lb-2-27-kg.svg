@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 480" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Allmax Nutrition IsoFlex">
+  <defs><linearGradient id="gBody-ph" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b101a"/>
+      <stop offset="0.16" stop-color="#101725"/>
+      <stop offset="0.42" stop-color="#323845"/>
+      <stop offset="0.66" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0c111b"/>
+    </linearGradient><linearGradient id="gLid-ph" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#07090f"/>
+      <stop offset="0.16" stop-color="#090d16"/>
+      <stop offset="0.42" stop-color="#2c3037"/>
+      <stop offset="0.66" stop-color="#0a0e17"/>
+      <stop offset="1" stop-color="#070a10"/>
+    </linearGradient></defs>
+  
+  
+  
+      <rect x="89.79599999999999" y="81.50400000000002" width="240.40800000000002" height="52.8" rx="6" fill="url(#gLid-ph)"/>
+      <rect x="95.8" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="128.4" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="161.1" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="193.7" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="226.3" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="258.9" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="291.6" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/>
+      <rect x="89.79599999999999" y="131.30400000000003" width="240.40800000000002" height="3" fill="#000" opacity="0.18"/>
+      <path d="M96.6 132.8 q0 -8 9 -8 h208.8 q9 0 9 8 v268 q0 12 -12 12 h-202.8 q-12 0 -12 -12 z" fill="url(#gBody-ph)"/>
+      <rect x="96.6" y="337.92" width="226.8" height="24.48" fill="#FDB515" opacity="0.92"/>
+    
+  <rect x="119.28" y="254.976" width="76.2048" height="53.913599999999995" fill="#ffffff" opacity="0.16"/>
+  <line x1="119.3" y1="231.0" x2="300.7" y2="231.0" stroke="#ffffff" stroke-width="1" opacity="0.32"/>
+  <text x="210.0" y="216.0" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="43.2" font-weight="700" letter-spacing="-0.02em" fill="#ffffff">ISOFLEX</text>
+  <text x="210.0" y="253.7" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" font-weight="500" letter-spacing="0.08em" fill="#ffffff" opacity="0.72">27 G PROTEIN</text>
+</svg>

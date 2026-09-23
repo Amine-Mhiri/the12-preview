@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 480" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Rule 1 Proteins R1 Protein Isolate">
+  <defs><linearGradient id="gBody-pe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#070707"/>
+      <stop offset="0.16" stop-color="#0a0a0a"/>
+      <stop offset="0.42" stop-color="#2d2d2d"/>
+      <stop offset="0.66" stop-color="#0B0B0B"/>
+      <stop offset="1" stop-color="#080808"/>
+    </linearGradient><linearGradient id="gLid-pe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#040404"/>
+      <stop offset="0.16" stop-color="#060606"/>
+      <stop offset="0.42" stop-color="#292929"/>
+      <stop offset="0.66" stop-color="#060606"/>
+      <stop offset="1" stop-color="#040404"/>
+    </linearGradient></defs>
+  
+  
+  
+      <rect x="89.79599999999999" y="81.50400000000002" width="240.40800000000002" height="52.8" rx="6" fill="url(#gLid-pe)"/>
+      <rect x="95.8" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="128.4" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="161.1" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="193.7" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="226.3" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="258.9" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/><rect x="291.6" y="88.5" width="2" height="38.8" fill="#000" opacity="0.13" rx="1"/>
+      <rect x="89.79599999999999" y="131.30400000000003" width="240.40800000000002" height="3" fill="#000" opacity="0.18"/>
+      <path d="M96.6 132.8 q0 -8 9 -8 h208.8 q9 0 9 8 v268 q0 12 -12 12 h-202.8 q-12 0 -12 -12 z" fill="url(#gBody-pe)"/>
+      <rect x="96.6" y="337.92" width="226.8" height="24.48" fill="#C8102E" opacity="0.92"/>
+    
+  <rect x="119.28" y="242.9952" width="181.44000000000003" height="8.9856" fill="#ffffff" opacity="0.36"/>
+  <line x1="119.3" y1="231.0" x2="300.7" y2="231.0" stroke="#ffffff" stroke-width="1" opacity="0.32"/>
+  <text x="210.0" y="216.0" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="43.2" font-weight="700" letter-spacing="-0.02em" fill="#ffffff">ISOLATE</text>
+  <text x="210.0" y="253.7" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" font-weight="500" letter-spacing="0.08em" fill="#ffffff" opacity="0.72">25 G PROTEIN</text>
+</svg>
