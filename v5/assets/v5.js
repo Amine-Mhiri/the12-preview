@@ -110,36 +110,72 @@
   var mq = window.matchMedia('(min-width: 1025px)');
   (mq.addEventListener ? mq.addEventListener.bind(mq, 'change') : mq.addListener.bind(mq))(function (m) { if (m.matches) setMenu(false); });
 
-  /* ---- Category bar: one panel at a time; Escape, outside click or the same
-     button closes it; 160ms fade/slide (CSS) ------------------------------ */
+  /* ---- Category bar: mega panels. One open at a time. Opens on hover (120ms intent),
+     click or keyboard focus; closes on mouseleave (150ms grace), Escape, outside click
+     or a second click on the same button; 160ms fade/slide (CSS) --------------- */
   var catBtns = hdr.querySelectorAll('.cat-btn');
-  var openBtn = null;
+  var openBtn = null, openedBy = '', openedAt = 0, openT = 0, closeT = 0, noFocusOpen = false;
+  var canHover = window.matchMedia('(hover: hover)').matches;
+  function panelOf(btn) { return document.getElementById(btn.getAttribute('aria-controls')); }
   function closePanel(btn, instant) {
-    var panel = document.getElementById(btn.getAttribute('aria-controls'));
+    var panel = panelOf(btn);
     btn.setAttribute('aria-expanded', 'false');
     panel.classList.remove('open');
     if (instant) panel.hidden = true;
     else setTimeout(function () { if (btn.getAttribute('aria-expanded') === 'false') panel.hidden = true; }, 170);
     if (openBtn === btn) openBtn = null;
   }
-  function openPanel(btn) {
-    if (openBtn && openBtn !== btn) closePanel(openBtn, true);
-    var panel = document.getElementById(btn.getAttribute('aria-controls'));
+  function openPanel(btn, how) {
+    clearTimeout(openT); clearTimeout(closeT);
+    if (openBtn === btn) return;
+    if (openBtn) closePanel(openBtn, true);
+    var panel = panelOf(btn);
     panel.hidden = false;
     btn.setAttribute('aria-expanded', 'true');
     requestAnimationFrame(function () { requestAnimationFrame(function () { panel.classList.add('open'); }); });
-    openBtn = btn;
+    openBtn = btn; openedBy = how; openedAt = Date.now();
+  }
+  function scheduleClose() {
+    clearTimeout(openT); clearTimeout(closeT);
+    closeT = setTimeout(function () { if (openBtn) closePanel(openBtn); }, 150);
   }
   catBtns.forEach(function (btn) {
+    var panel = panelOf(btn);
     btn.addEventListener('click', function () {
-      if (btn.getAttribute('aria-expanded') === 'true') closePanel(btn); else openPanel(btn);
+      clearTimeout(openT);
+      if (openBtn !== btn) { openPanel(btn, 'click'); return; }
+      /* a click that lands right after the hover opened it keeps it open */
+      if (openedBy === 'hover' && Date.now() - openedAt < 700) { openedBy = 'click'; return; }
+      closePanel(btn);
     });
+    btn.addEventListener('focus', function () {
+      if (noFocusOpen) return;
+      var kb = true; try { kb = btn.matches(':focus-visible'); } catch (e) {}
+      if (kb) openPanel(btn, 'focus');
+    });
+    if (canHover) {
+      btn.addEventListener('mouseenter', function () {
+        clearTimeout(closeT); clearTimeout(openT);
+        if (openBtn === btn) return;
+        openT = setTimeout(function () { openPanel(btn, 'hover'); }, 120);
+      });
+      btn.addEventListener('mouseleave', scheduleClose);
+      panel.addEventListener('mouseenter', function () { clearTimeout(closeT); });
+      panel.addEventListener('mouseleave', scheduleClose);
+    }
   });
   document.addEventListener('click', function (e) {
-    if (openBtn && !e.target.closest('.cat-btn') && !e.target.closest('.cat-panel')) closePanel(openBtn);
+    if (openBtn && !e.target.closest('.cat-btn') && !e.target.closest('.mp-in')) closePanel(openBtn);
   });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && openBtn) { var b = openBtn; closePanel(b); b.focus(); }
+    if (e.key === 'Escape' && openBtn) {
+      var b = openBtn; closePanel(b);
+      noFocusOpen = true; b.focus(); noFocusOpen = false;
+    }
+  });
+  /* keyboard: leaving the button and its panel closes it */
+  document.addEventListener('focusin', function (e) {
+    if (openBtn && openedBy === 'focus' && !e.target.closest('.cat-btn') && !e.target.closest('.cat-panel')) closePanel(openBtn);
   });
 
   /* ---- Phone menu: categories as an accordion (one open at a time) ---------- */
