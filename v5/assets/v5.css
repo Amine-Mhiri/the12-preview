@@ -118,7 +118,7 @@ h2{font-size:48px}
 /* 7. Hero (S1): statement left, the shelf and the scanner right ---------- */
 main > section.hero{padding:96px 0 112px}
 .hero-grid{display:grid;grid-template-columns:minmax(0,560fr) minmax(0,720fr);gap:64px;align-items:center}
-.hero h1{font-family:var(--serif);font-size:min(78px,5.35vw);font-weight:400;line-height:1;letter-spacing:-.02em;text-wrap:initial}
+.hero h1{font-family:var(--serif);font-size:min(78px,5.42vw);font-weight:400;line-height:1;letter-spacing:-.02em;text-wrap:initial}
 .hero h1 span,.hero h1 em{display:block;white-space:nowrap}
 .hero h1 em{font-style:italic;color:var(--brand)}
 .hero .lead{max-width:520px;margin-top:28px;text-wrap:pretty}
@@ -262,7 +262,7 @@ mark{background:var(--mint);color:inherit;padding:0 .1em;margin:0 -.04em;border-
 .rule-in{text-align:center}
 .numeral{font-size:200px;font-weight:600;line-height:1;letter-spacing:-.05em;color:var(--ink);font-variant-numeric:tabular-nums}
 .rule h2{font-size:48px;max-width:900px;margin:48px auto 0}
-.rule-cols{display:grid;grid-template-columns:1fr 1fr;gap:32px;max-width:560px;margin:28px auto 0;font-size:19px;line-height:1.6;color:var(--muted);text-align:left}
+.rule-cols{display:grid;grid-template-columns:1fr 1fr;gap:40px;max-width:680px;margin:28px auto 0;font-size:19px;line-height:1.6;color:var(--muted);text-align:left}
 .ranks{max-width:720px;margin:88px auto 0}
 .ranks-illo{width:100%;height:auto;fill:var(--white);color:var(--brand);stroke-width:1.25;opacity:.85}
 .rank-nums{display:grid;grid-template-columns:repeat(12,1fr);border-top:1px solid rgba(27,36,32,.2);margin-top:10px;padding-top:12px;font-size:14px;font-weight:500;color:rgba(92,102,96,.6);font-variant-numeric:tabular-nums}
@@ -396,7 +396,7 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
   .stanza{font-size:26px;gap:12px}
   .stanzas{gap:40px}
   .mani-side{margin-top:56px}
-  .mani-claim{font-size:22px;margin-top:28px}
+  .mani-claim{font-size:22px;line-height:1.5;margin-top:28px}
   .mani-close{margin-top:72px;padding-top:48px}
   .mani-close blockquote p{font-size:24px}
   .ftr-cols{grid-template-columns:1fr 1fr;gap:32px}
