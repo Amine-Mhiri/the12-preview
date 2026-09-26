@@ -1,6 +1,7 @@
 /* the12 — v5 prototype behaviour.
-   Tokens, header, menu, reveals, hero count-up, the S2 process timeline
-   (observer + counter + replay only; all motion is CSS), term tooltips. */
+   Tokens, header, menu, reveals, the S1 process counter (all motion is
+   CSS; JS only keeps the counter in step and pauses it off screen),
+   term tooltips. */
 (function () {
   'use strict';
 
@@ -18,10 +19,6 @@
     var v = tokens[el.getAttribute('data-tally')];
     if (v) el.textContent = v;
   });
-  document.querySelectorAll('.sec-head h2').forEach(function (h) {
-    if (h.id === 's2h') h.textContent = 'From ' + tokens.analyzed + ' to twelve.';
-  });
-
   /* "10,450" -> {n:10450, comma:true, suffix:''}; "80%" -> {n:80, suffix:'%'} */
   function parse(str) {
     var m = String(str).match(/^([^0-9]*)([0-9][0-9,]*)(.*)$/);
@@ -33,29 +30,6 @@
     if (p.comma) s = s.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
     return p.pre + s + p.suf;
   }
-  function tween(el, from, to, dur, delay, done) {
-    var p = parse(el.textContent);
-    if (!p) return;
-    var start = null;
-    function step(ts) {
-      if (start === null) start = ts + (delay || 0);
-      var t = Math.min(Math.max((ts - start) / dur, 0), 1);
-      el.textContent = fmt(p, from + (to - from) * easeOut(t));
-      if (t < 1) el._raf = requestAnimationFrame(step);
-      else if (done) done();
-    }
-    cancelAnimationFrame(el._raf);
-    el._raf = requestAnimationFrame(step);
-  }
-
-  /* ---- Hero count-up (1.2s on load) ------------------------------------- */
-  if (!reduce) {
-    document.querySelectorAll('[data-count]').forEach(function (el) {
-      var p = parse(el.textContent);
-      if (p) tween(el, 0, p.n, 1200, 150);
-    });
-  }
-
   /* ---- Header: hairline shadow after 8px -------------------------------- */
   var hdr = document.getElementById('hdr');
   function onScroll() { hdr.classList.toggle('scrolled', window.scrollY > 8); }
@@ -92,39 +66,53 @@
     reveals.forEach(function (el) { ro.observe(el); });
   }
 
-  /* ---- S2 process timeline --------------------------------------------- */
+  /* ---- S1 process animation: a 9s CSS loop; JS only drives the counter --
+     The counter reads the phase of one shared-clock animation (the card copy),
+     so it stays in step with the CSS even when the loop is paused. */
   var stage = document.getElementById('stage');
   var count = document.getElementById('stage-count');
-  var replay = document.getElementById('replay');
-  var TOTAL = 4100; /* last keyframe (the arrow) ends at 4.0s */
-  var timer = null;
-  var from = parse(tokens.analyzed);
-
-  function finish() {
-    stage.classList.remove('play');
-    stage.classList.add('done');
-    count.textContent = '12';
+  var CYCLE = 9000;
+  var from = parse(tokens.analyzed) || { pre: '', n: 10450, comma: true, suf: '' };
+  var easeInOut = function (t) { return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; };
+  function countAt(ms) {
+    /* 0–0.3s full · 0.3–4.2s down to 12 · hold · 7.6–8.8s back up (the market refills) */
+    if (ms < 300) return from.n;
+    if (ms < 4200) return from.n + (12 - from.n) * easeOut((ms - 300) / 3900);
+    if (ms < 7600) return 12;
+    if (ms < 8800) return 12 + (from.n - 12) * easeInOut((ms - 7600) / 1200);
+    return from.n;
   }
-  function play() {
-    clearTimeout(timer);
-    stage.classList.remove('play', 'done');
-    void stage.offsetWidth; /* restart the keyframes */
-    count.textContent = tokens.analyzed;
-    stage.classList.add('play');
-    tween(count, from ? from.n : 10450, 12, 3300, 300);
-    timer = setTimeout(finish, TOTAL);
+  var copies = stage.querySelectorAll('.copy'); /* one per layout; the hidden one has no running animation */
+  function clock() {
+    for (var i = 0; i < copies.length; i++) {
+      var a = copies[i].getAnimations();
+      if (a.length) return a[0];
+    }
+    return null;
+  }
+  var raf = 0, last = '';
+  function tick() {
+    var a = clock();
+    if (a && a.currentTime !== null) {
+      var txt = fmt(from, countAt(((a.currentTime % CYCLE) + CYCLE) % CYCLE));
+      if (txt !== last) { count.textContent = txt; last = txt; }
+    }
+    raf = requestAnimationFrame(tick);
   }
   if (reduce) {
-    finish();
-  } else if ('IntersectionObserver' in window) {
-    var so = new IntersectionObserver(function (entries) {
-      if (entries[0].isIntersecting) { so.disconnect(); play(); }
-    }, { threshold: 0.5 });
-    so.observe(stage);
+    count.textContent = '12';
   } else {
-    finish();
+    raf = requestAnimationFrame(tick);
+    if ('IntersectionObserver' in window) {
+      /* pause the loop (and the counter) while the stage is off screen */
+      new IntersectionObserver(function (entries) {
+        var on = entries[0].isIntersecting;
+        stage.classList.toggle('paused', !on);
+        cancelAnimationFrame(raf);
+        if (on) raf = requestAnimationFrame(tick);
+      }).observe(stage);
+    }
   }
-  replay.addEventListener('click', play);
 
   /* ---- Term tooltips: hover + focus in CSS; tap/click toggles ------------ */
   var terms = document.querySelectorAll('.term');

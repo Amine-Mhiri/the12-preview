@@ -115,36 +115,37 @@ h2{font-size:56px}
 .menu-in{display:flex;flex-direction:column;padding-top:32px;padding-bottom:48px}
 .menu a{font-family:var(--display);font-size:34px;font-weight:400;letter-spacing:-.02em;padding:18px 0;border-bottom:1px solid var(--line)}
 
-/* 7. Hero (S1) ------------------------------------------------------------- */
-main > section.hero{padding-top:var(--pad);padding-bottom:var(--pad)}
+/* 7. Hero (S1): statement ------------------------------------------------- */
+main > section.hero{padding-top:64px;padding-bottom:var(--pad)}
 .hero-copy{text-align:center;max-width:1344px;margin:0 auto}
+.hero .eyebrow{margin-bottom:20px}
 .hero h1{font-size:104px;font-weight:400;line-height:.98;letter-spacing:-.03em}
 .hero h1 span{display:block}
-.hero .lead{margin:32px auto 0}
-.ctas{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:40px}
-.hero-media{position:relative;margin-top:72px;border-radius:var(--r-media);overflow:hidden;aspect-ratio:16/7;background:var(--ivory)}
-.hero-media img{width:100%;height:100%;object-fit:cover}
-.tallies{position:absolute;left:24px;bottom:24px;display:flex;align-items:center;gap:0;padding:12px 8px;border-radius:var(--r-pill);background:rgba(255,255,255,.74);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
-.tallies .t{display:inline-flex;align-items:baseline;gap:8px;padding:0 18px;font-size:13px;color:var(--muted);white-space:nowrap}
-.tallies .t + .t{border-left:1px solid rgba(27,36,32,.14)}
-.tallies b{font-family:var(--display);font-size:22px;font-weight:500;color:var(--ink);letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.hero .lead{margin:24px auto 0}
 
-/* 8. Process (S2) ---------------------------------------------------------- */
-.stage{position:relative;background:var(--ivory);border-radius:var(--r-media);overflow:hidden;padding-bottom:40px}
-.stage-top{display:flex;justify-content:space-between;align-items:center;padding:24px 24px 0}
-.counter{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 18px 0 14px;border-radius:var(--r-pill);background:var(--white);font-size:13px;color:var(--muted)}
+/* 8. Hero (S1): the process animation -------------------------------------
+   One 9s cycle, looping forever. Every element runs a 9s infinite animation.
+   Silhouettes run on their own clock, offset by --d (25ms stagger), so a
+   silhouette's keyframes are written in its local time; the card, bars,
+   arrow and captions run on the shared clock (no offset).
+     0–1.6s   silhouettes leave the market and travel
+     0.8–3.2s at the gate: 80% red, drop, fade (× tally); 20% pass green
+     2.6–4.2s the twelve settle into the slots; extras fade
+     4.2–5.2s the twelve slide into the card; bars draw; arrow
+     5.2–7.2s hold
+     7.2–9.0s reset: card empties, shelf clears, tally fades, market refills
+   Reduced motion: --t0 jumps every clock to 6.0s and pauses it (end state). */
+.stage{position:relative;margin-top:56px;--t0:0ms;--cycle:9000ms}
+.counter{position:absolute;top:0;left:0;z-index:2;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 18px 0 14px;border:1px solid var(--line);border-radius:var(--r-pill);background:var(--white);font-size:13px;color:var(--muted)}
 .counter b{font-family:var(--display);font-size:20px;font-weight:500;color:var(--ink);font-variant-numeric:tabular-nums}
 .counter .dot{width:8px;height:8px;border-radius:50%;background:var(--brand)}
-.replay{font-size:14px;font-weight:600;color:var(--brand);padding:8px 4px;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:4px;transition:text-decoration-color .2s}
-.replay:hover{text-decoration-color:currentColor}
 .st{width:100%;height:auto;overflow:visible}
 .st-v{display:none}
-.caps{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px}
-.cap{display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 28px;opacity:.42;transition:opacity .3s}
-.cap .n{font-family:var(--display);font-size:28px;font-weight:400;line-height:1;color:var(--muted);margin-bottom:12px}
-.cap .ct{font-size:16px;font-weight:600;color:var(--muted);margin-bottom:4px}
-.cap .cl2{font-size:14px;color:var(--muted);max-width:250px;text-wrap:balance}
-.note{max-width:900px;text-wrap:balance;margin:32px auto 0;text-align:center;color:var(--muted);font-size:15px}
+.caps{display:grid;grid-template-columns:repeat(4,1fr);margin-top:12px}
+.cap{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;column-gap:10px;row-gap:4px;text-align:center;padding:0 28px;opacity:.42}
+.cap .n{font-family:var(--display);font-size:20px;font-weight:400;line-height:1;color:var(--brand)}
+.cap .ct{font-size:16px;font-weight:600;color:var(--ink)}
+.cap .cl2{flex-basis:100%;font-size:14px;line-height:1.5;color:var(--muted);text-wrap:balance}
 
 /* stage drawing */
 .st .conv{stroke:var(--mint-deep);stroke-width:2}
@@ -156,79 +157,95 @@ main > section.hero{padding-top:var(--pad);padding-bottom:var(--pad)}
 .st .plank{stroke:var(--ink);stroke-width:1.5;stroke-linecap:round}
 .st .slot{fill:none;stroke:#BFC8C2;stroke-width:1;stroke-dasharray:3 3}
 .st .tick{stroke:#BFC8C2;stroke-width:1}
-.st .card-bg{fill:var(--ivory);stroke:var(--ink);stroke-width:1.5}
+.st .card-bg{fill:var(--white);stroke:#C6CEC9;stroke-width:1.5}
 .st .bar{fill:none;stroke-width:8;stroke-linecap:round;stroke-dasharray:1 1;stroke-dashoffset:1}
 .st .b1{stroke:var(--brand)}
 .st .b2,.st .b3{stroke:var(--mint-deep)}
 .st .arrow{fill:none;stroke:var(--brand);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;opacity:0}
 .st .copy{opacity:0;color:var(--brand);fill:var(--mint);stroke-width:1.25;transform-box:view-box;transform-origin:0 0}
-.st .mv{color:var(--ink);fill:var(--white);stroke-width:1.25}
+.st .mv{color:var(--ink);fill:var(--white);stroke-width:1.25;opacity:0}
 .st .mv .x{fill:none;stroke:var(--reject);stroke-width:1.25;stroke-linecap:round;opacity:0}
 .st .mv > use{transform-box:fill-box;transform-origin:50% 100%}
-.stage:not(.play):not(.done) .mv{display:none}
 
 /* layout geometry, read by the shared keyframes */
 .st-h{--ax:300px;--ay:260px;--gx:490px;--gy:260px;--bx:630px;--by:260px;--ex:600px;--ey:260px}
 .st-v{--ax:186px;--ay:236px;--gx:186px;--gy:314px;--bx:186px;--by:430px;--ex:186px;--ey:400px}
 
-/* timeline: everything is keyed off .play; .done is the end state with no motion */
-.play .mv.r,.done .mv.r{animation:mv-r 1100ms var(--d) both}
-.play .mv.r > use,.done .mv.r > use{animation:mv-r-body 1100ms var(--d) both}
-.play .mv.r > .x,.done .mv.r > .x{animation:mv-x 1100ms var(--d) both}
-.play .mv.k,.done .mv.k{animation:mv-k 1570ms var(--d) both}
-.play .mv.k > use,.done .mv.k > use{animation:mv-k-body 1570ms var(--d) both}
-.play .mv.e,.done .mv.e{animation:mv-e 1300ms var(--d) both}
-.play .cl,.done .cl{animation:cl-dim 400ms calc(var(--d) + 150ms) both}
-.play .copy,.done .copy{animation:copy-in 700ms 2900ms both}
-.play .card-bg,.done .card-bg{animation:card-fill 400ms 2900ms both}
-.play .b1,.done .b1{animation:bar-draw 420ms 3300ms both}
-.play .b2,.done .b2{animation:bar-draw 420ms 3420ms both}
-.play .b3,.done .b3{animation:bar-draw 420ms 3540ms both}
-.play .arrow,.done .arrow{animation:arrow-in 300ms 3700ms both}
-.play .cap,.done .cap{animation:cap-on 350ms var(--cd) both}
-.play .cap .n,.done .cap .n{animation:cap-n 350ms var(--cd) both}
-.play .cap .ct,.done .cap .ct{animation:cap-t 350ms var(--cd) both}
-.stage.done *{animation-duration:0s !important;animation-delay:0s !important}
+/* the loop */
+.stage .mv,.stage .mv > use,.stage .mv > .x,.stage .cl,.stage .copy,.stage .card-bg,.stage .bar,.stage .arrow,.stage .cap{
+  animation-duration:var(--cycle);animation-iteration-count:infinite;animation-fill-mode:both;
+  animation-delay:calc(var(--d, 0ms) + var(--t0));
+}
+.stage .mv.r{animation-name:mv-r}
+.stage .mv.r > use{animation-name:mv-r-body}
+.stage .mv.r > .x{animation-name:mv-x}
+.stage .mv.k{animation-name:mv-k}
+.stage .mv.k > use{animation-name:mv-k-body}
+.stage .mv.e{animation-name:mv-e}
+.stage .cl{animation-name:cl-cycle}
+.stage .copy{animation-name:copy-cycle}
+.stage .card-bg{animation-name:card-cycle}
+.stage .b1{animation-name:bar1}
+.stage .b2{animation-name:bar2}
+.stage .b3{animation-name:bar3}
+.stage .arrow{animation-name:arrow-cycle}
+.stage .cap1{animation-name:cap1}
+.stage .cap2{animation-name:cap2}
+.stage .cap3{animation-name:cap3}
+.stage .cap4{animation-name:cap4}
+.stage.paused *{animation-play-state:paused}
 
+/* silhouettes, local time (1% = 90ms) */
 @keyframes mv-r{
-  0%{transform:translate(var(--sx),var(--sy));color:var(--ink);animation-timing-function:cubic-bezier(.45,0,.25,1)}
-  27%{transform:translate(var(--ax),var(--ay));animation-timing-function:linear}
-  59%{transform:translate(var(--gx),var(--gy));color:var(--ink);animation-timing-function:var(--ease)}
-  66%{color:var(--reject)}
-  100%{transform:translate(var(--rx),var(--ry));color:var(--reject)}
+  0%{opacity:0;transform:translate(var(--sx),var(--sy));color:var(--ink);animation-timing-function:cubic-bezier(.45,0,.25,1)}
+  1.667%{opacity:1}
+  3.889%{transform:translate(var(--ax),var(--ay));animation-timing-function:linear}
+  8.889%{transform:translate(var(--gx),var(--gy));color:var(--ink);animation-timing-function:var(--ease)}
+  10.556%{color:var(--reject)}
+  15.556%,100%{opacity:1;transform:translate(var(--rx),var(--ry));color:var(--reject)}
 }
-@keyframes mv-r-body{0%,59%{opacity:1}66%{opacity:.4}100%{opacity:0}}
-@keyframes mv-x{0%,72%{opacity:0}100%{opacity:.5}}
+@keyframes mv-r-body{0%,8.889%{opacity:1}10.556%{opacity:.4}15.556%,100%{opacity:0}}
+@keyframes mv-x{0%,11.111%{opacity:0}15.556%,77.778%{opacity:.5}80.556%,100%{opacity:0}}
 @keyframes mv-k{
-  0%{transform:translate(var(--sx),var(--sy));animation-timing-function:cubic-bezier(.45,0,.25,1)}
-  19%{transform:translate(var(--ax),var(--ay));animation-timing-function:linear}
-  41%{transform:translate(var(--gx),var(--gy));color:var(--ink);fill:var(--white)}
-  51%{transform:translate(var(--gx),var(--gy));color:var(--brand);fill:var(--mint);animation-timing-function:cubic-bezier(.45,0,.25,1)}
-  70%{transform:translate(var(--bx),var(--by));animation-timing-function:var(--ease)}
-  92%,100%{transform:translate(var(--tx),var(--ty));color:var(--brand);fill:var(--mint)}
+  0%{opacity:0;transform:translate(var(--sx),var(--sy));color:var(--ink);fill:var(--white);animation-timing-function:cubic-bezier(.45,0,.25,1)}
+  1.667%{opacity:1}
+  3.889%{transform:translate(var(--ax),var(--ay));animation-timing-function:linear}
+  8.889%{transform:translate(var(--gx),var(--gy));color:var(--ink);fill:var(--white)}
+  11.111%{transform:translate(var(--gx),var(--gy));color:var(--brand);fill:var(--mint);animation-timing-function:cubic-bezier(.45,0,.25,1)}
+  17.778%{transform:translate(var(--bx),var(--by));animation-timing-function:var(--ease)}
+  25.556%,80%{opacity:1;transform:translate(var(--tx),var(--ty));color:var(--brand);fill:var(--mint)}
+  83.333%,100%{opacity:0;transform:translate(var(--tx),var(--ty));color:var(--brand);fill:var(--mint)}
 }
-@keyframes mv-k-body{0%,41%{transform:scale(1)}51%,92%{transform:scale(.9)}100%{transform:scale(1)}}
+@keyframes mv-k-body{0%,8.889%{transform:scale(1)}11.111%,25.556%{transform:scale(.9)}27.222%,100%{transform:scale(1)}}
 @keyframes mv-e{
-  0%{transform:translate(var(--sx),var(--sy));opacity:1;animation-timing-function:cubic-bezier(.45,0,.25,1)}
-  23%{transform:translate(var(--ax),var(--ay));animation-timing-function:linear}
-  50%{transform:translate(var(--gx),var(--gy));color:var(--ink);fill:var(--white)}
-  62%{transform:translate(var(--gx),var(--gy));color:var(--brand);fill:var(--mint);opacity:1;animation-timing-function:var(--ease)}
-  100%{transform:translate(var(--ex),var(--ey));color:var(--brand);fill:var(--mint);opacity:0}
+  0%{opacity:0;transform:translate(var(--sx),var(--sy));color:var(--ink);fill:var(--white);animation-timing-function:cubic-bezier(.45,0,.25,1)}
+  1.667%{opacity:1}
+  3.889%{transform:translate(var(--ax),var(--ay));animation-timing-function:linear}
+  8.889%{transform:translate(var(--gx),var(--gy));color:var(--ink);fill:var(--white)}
+  11.111%{opacity:1;transform:translate(var(--gx),var(--gy));color:var(--brand);fill:var(--mint);animation-timing-function:var(--ease)}
+  20%,100%{opacity:0;transform:translate(var(--ex),var(--ey));color:var(--brand);fill:var(--mint)}
 }
-@keyframes cl-dim{to{opacity:.28}}
-@keyframes copy-in{
-  0%{opacity:0;transform:translate(0,0) scale(1);animation-timing-function:var(--ease)}
-  10%{opacity:1}
-  100%{opacity:1;transform:translate(var(--ctx),var(--cty)) scale(.45)}
-}
-@keyframes card-fill{from{fill:var(--ivory)}to{fill:var(--white)}}
-@keyframes bar-draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
-@keyframes arrow-in{from{opacity:0;transform:translate(-5px,5px)}to{opacity:1;transform:none}}
-@keyframes cap-on{from{opacity:.42}to{opacity:1}}
-@keyframes cap-n{from{color:var(--muted)}to{color:var(--brand)}}
-@keyframes cap-t{from{color:var(--muted)}to{color:var(--ink)}}
+/* the market pile: dims as each silhouette leaves, refills at its origin in the reset */
+@keyframes cl-cycle{0%,1.667%{opacity:1}6.111%,80%{opacity:.28}86.667%,100%{opacity:1}}
 
-/* 9. Paradox (S3) ---------------------------------------------------------- */
+/* shared clock */
+@keyframes copy-cycle{
+  0%,46.667%{opacity:0;transform:translate(0,0) scale(1);animation-timing-function:var(--ease)}
+  47.778%{opacity:1}
+  55.556%,80%{opacity:1;transform:translate(var(--ctx),var(--cty)) scale(.45)}
+  84.444%,100%{opacity:0;transform:translate(var(--ctx),var(--cty)) scale(.45)}
+}
+@keyframes card-cycle{0%,46.667%{fill:var(--white);stroke:#C6CEC9}50%,82.222%{fill:var(--ivory);stroke:var(--ink)}86.667%,100%{fill:var(--white);stroke:#C6CEC9}}
+@keyframes bar1{0%,51.111%{stroke-dashoffset:1;opacity:1}55.556%,80%{stroke-dashoffset:0;opacity:1}83.333%{stroke-dashoffset:0;opacity:0}84.444%{stroke-dashoffset:1;opacity:0}85%,100%{stroke-dashoffset:1;opacity:1}}
+@keyframes bar2{0%,52.222%{stroke-dashoffset:1;opacity:1}56.667%,80%{stroke-dashoffset:0;opacity:1}83.333%{stroke-dashoffset:0;opacity:0}84.444%{stroke-dashoffset:1;opacity:0}85%,100%{stroke-dashoffset:1;opacity:1}}
+@keyframes bar3{0%,53.333%{stroke-dashoffset:1;opacity:1}57.778%,80%{stroke-dashoffset:0;opacity:1}83.333%{stroke-dashoffset:0;opacity:0}84.444%{stroke-dashoffset:1;opacity:0}85%,100%{stroke-dashoffset:1;opacity:1}}
+@keyframes arrow-cycle{0%,55.556%{opacity:0;transform:translate(-5px,5px)}57.778%,80%{opacity:1;transform:none}82.222%,100%{opacity:0;transform:none}}
+@keyframes cap1{0%,80%{opacity:1}84.444%,93.333%{opacity:.42}97.778%,100%{opacity:1}}
+@keyframes cap2{0%,8.889%{opacity:.42}11.111%,80%{opacity:1}84.444%,100%{opacity:.42}}
+@keyframes cap3{0%,26.111%{opacity:.42}28.333%,80%{opacity:1}84.444%,100%{opacity:.42}}
+@keyframes cap4{0%,46.667%{opacity:.42}48.889%,80%{opacity:1}84.444%,100%{opacity:.42}}
+
+/* 9. Paradox (S2) ---------------------------------------------------------- */
 .grid-75{display:grid;grid-template-columns:7fr 5fr;gap:var(--gutter);align-items:start}
 .paradox-copy{padding-right:72px}
 .big{font-size:72px;font-weight:400;letter-spacing:-.03em;line-height:1}
@@ -258,7 +275,7 @@ main > section.hero{padding-top:var(--pad);padding-bottom:var(--pad)}
 .illo-line .fade .w3{opacity:.14;stroke-dasharray:2 7}
 .illo-line .fade{opacity:.8}
 
-/* 11. Filter (S4) ---------------------------------------------------------- */
+/* 11. Filter (S3) ---------------------------------------------------------- */
 .io{display:grid;grid-template-columns:1fr 1fr;gap:var(--gutter)}
 .io-panel{border:1px solid var(--line);border-radius:var(--r-card);padding:32px 36px 20px}
 .io-panel h3{display:flex;align-items:center;gap:12px;font-size:32px;font-weight:500;margin-bottom:12px}
@@ -297,7 +314,7 @@ main > section.hero{padding-top:var(--pad);padding-bottom:var(--pad)}
 @media (hover:hover) and (pointer:fine){.term:hover + .tip{opacity:1;visibility:visible;transform:none;transition-delay:0s}}
 .term[data-dismissed] + .tip{opacity:0 !important;visibility:hidden !important}
 
-/* 12. Doctrine (S5) -------------------------------------------------------- */
+/* 12. Doctrine (S4) -------------------------------------------------------- */
 .pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gutter)}
 .pillar{background:var(--ivory);border-radius:var(--r-card);padding:32px}
 .pillar .illo{width:100%;height:150px;background:var(--mint);border-radius:12px}
@@ -305,7 +322,7 @@ main > section.hero{padding-top:var(--pad);padding-bottom:var(--pad)}
 .pillar p{font-size:15px;color:var(--muted);margin-top:10px;text-wrap:pretty}
 .doctrine .coda{margin-top:64px}
 
-/* 13. Rule of 12 (S6) ------------------------------------------------------ */
+/* 13. Rule of 12 (S5) ------------------------------------------------------ */
 .rule-in{text-align:center}
 .numeral{font-family:var(--display);font-size:280px;font-weight:300;line-height:1;letter-spacing:-.05em;color:var(--ink)}
 .rule h2{font-size:40px;max-width:940px;margin:48px auto 0}
@@ -315,7 +332,7 @@ main > section.hero{padding-top:var(--pad);padding-bottom:var(--pad)}
 .rank-nums{display:grid;grid-template-columns:repeat(12,1fr);border-top:1px solid rgba(27,36,32,.2);margin-top:10px;padding-top:12px;font-size:13px;color:rgba(92,102,96,.6);font-variant-numeric:tabular-nums}
 .rule .coda{color:var(--ink);margin-top:72px}
 
-/* 14. Offer (S7) ----------------------------------------------------------- */
+/* 14. Offer (S6) ----------------------------------------------------------- */
 .tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--gutter)}
 .tile.is-soon{opacity:.7}
 .tile-link{display:block;height:100%}
@@ -328,7 +345,7 @@ main > section.hero{padding-top:var(--pad);padding-bottom:var(--pad)}
 .tile-cta{font-size:14px;font-weight:600;color:var(--brand)}
 .tile-link:hover .tile-cta{text-decoration:underline;text-underline-offset:4px}
 
-/* 15. Manifesto (S8) ------------------------------------------------------- */
+/* 15. Manifesto (S7) ------------------------------------------------------- */
 main > section.manifesto{background:var(--forest);color:var(--white);padding:160px 0}
 .mani-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gutter);align-items:start}
 .stanzas{display:grid;gap:64px;padding-right:24px}
@@ -343,7 +360,7 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
 .mani-close{margin-top:120px;padding-top:64px;border-top:1px solid rgba(255,255,255,.2);display:flex;flex-direction:column;align-items:center;gap:36px;text-align:center}
 .mani-close blockquote p{font-family:var(--display);font-style:italic;font-size:32px;font-weight:400;letter-spacing:-.01em}
 
-/* 16. Footer (S9) ---------------------------------------------------------- */
+/* 16. Footer (S8) ---------------------------------------------------------- */
 .ftr{border-top:1px solid var(--line);padding:64px 0 40px}
 .integrity{max-width:760px;margin:0 auto;text-align:center;font-size:15px;line-height:1.6;color:var(--ink);text-wrap:balance}
 .ftr-cols{display:grid;grid-template-columns:repeat(3,minmax(0,200px));justify-content:center;gap:64px;margin-top:56px}
@@ -362,8 +379,8 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
   .js .tile.is-soon.reveal.in{opacity:.7}
 }
 @media (prefers-reduced-motion:reduce){
-  .stage *{animation-duration:0s !important;animation-delay:0s !important}
-  .replay{display:none}
+  .stage{--t0:-6000ms}
+  .stage *{animation-play-state:paused !important}
 }
 
 /* 18. Responsive ----------------------------------------------------------- */
@@ -386,6 +403,7 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
   .mani-side{justify-self:start;margin-top:72px}
   .cap{padding:0 12px}
   .cap .cl2{font-size:13px}
+  .counter{position:static;margin-bottom:16px}
 }
 @media (max-width:760px){
   :root{--margin:24px;--pad:80px}
@@ -394,21 +412,14 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
   .lead{font-size:18px}
   .hero h1{font-size:44px;line-height:1.02}
   .hero .lead{margin-top:24px}
-  .ctas{flex-direction:column;align-items:stretch;margin-top:32px}
-  .hero-media{margin-top:48px;aspect-ratio:auto;overflow:visible;background:none;border-radius:0}
-  .hero-media img{aspect-ratio:4/3.4;border-radius:var(--r-media)}
-  .hero-media .photo-pill{top:12px;left:12px;max-width:calc(100% - 24px);font-size:11px;font-weight:500;border-radius:12px}
-  .tallies{position:static;margin-top:16px;border-radius:var(--r-card);background:var(--ivory);flex-direction:column;align-items:stretch;padding:4px 20px}
-  .tallies .t{padding:14px 0;justify-content:space-between;flex-direction:row-reverse}
-  .tallies .t + .t{border-left:0;border-top:1px solid var(--line)}
+  main > section.hero{padding-top:48px}
+  .stage{margin-top:40px}
   .st-h{display:none}
   .st-v{display:block;margin-top:8px}
-  .stage-top{padding:16px 16px 0}
-  .caps{grid-template-columns:1fr;gap:0;margin:8px 20px 0;border-top:1px solid var(--line)}
-  .cap{display:grid;grid-template-columns:40px 1fr;align-items:baseline;text-align:left;padding:14px 0;border-bottom:1px solid var(--line)}
-  .cap .n{grid-row:span 2;font-size:22px;margin:0}
-  .cap .cl2{max-width:none;font-size:14px}
-  .stage{padding-bottom:20px}
+  .caps{grid-template-columns:1fr;gap:0;margin-top:8px;border-top:1px solid var(--line)}
+  .cap{display:grid;grid-template-columns:36px 1fr;align-items:baseline;text-align:left;padding:14px 0;border-bottom:1px solid var(--line);row-gap:2px}
+  .cap .n{grid-row:span 2;font-size:20px}
+  .cap .cl2{font-size:14px}
   .big{font-size:48px}
   .paradox .body{font-size:17px}
   .illo-aisle{margin-top:40px}
