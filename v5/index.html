@@ -8,8 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/v5.css?v=10">
-<link rel="stylesheet" href="assets/v5-loop.css?v=10">
+<link rel="stylesheet" href="assets/v5.css?v=11">
+<link rel="stylesheet" href="assets/v5-loop.css?v=11">
 <script>document.documentElement.className+=' js';</script>
 </head>
 <body id="top" data-analyzed="10,450" data-eliminated="8,360" data-rate="80%">
@@ -25,29 +25,32 @@
 <symbol id="p-pouch" viewBox="0 0 28 40"><g stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><path vector-effect="non-scaling-stroke" d="M6.5 4.5h15v4c1.5 9 2 18 1.8 26.5a3 3 0 0 1-3 3.5H7.7a3 3 0 0 1-3-3.5c-.2-8.5.3-17.5 1.8-26.5z"/><path vector-effect="non-scaling-stroke" fill="none" d="M6.5 9.5h15"/><rect vector-effect="non-scaling-stroke" fill="none" x="10" y="18" width="8" height="11" rx="4"/></g></symbol>
 </svg>
 
-<!-- S0 Header -->
+<!-- S0 Header: top bar, masthead, category bar with panels (the shelves page's header, in v5 styling) -->
 <header class="hdr" id="hdr">
-  <div class="shell hdr-in">
-    <a class="wordmark" href="./" aria-label="the12, home">the<span>12</span></a>
-    <nav class="nav" aria-label="Primary">
-      <a href="../shelves/">The Index</a>
-      <a href="../method/">Our method</a>
-      <a class="nav-reject" href="../rejected/">What we reject</a>
-      <a href="#manifesto">Manifesto</a>
-    </nav>
-    <div class="hdr-end">
-      <a class="btn btn-brand btn-sm" href="../shelves/">Consult the Index</a>
-      <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
-        <span></span><span></span>
-      </button>
-    </div>
+  <div class="topbar"><div class="shell topbar-in">
+    <a class="tb-stats" href="../ledger/"><span data-tally="analyzed">10,450</span> products analysed · <span data-tally="eliminated">8,360</span> rejected</a>
+    <button class="tb-lang" type="button" disabled title="Arabic coming soon" lang="ar">العربية</button>
+  </div></div>
+  <div class="mast"><div class="shell mast-in">
+    <a class="wordmark" href="../" aria-label="the12, home">the<span>12</span></a>
+    <button class="search" type="button" aria-label="Search products, brands or ingredients"><svg class="ico-search" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M12.6 12.6L17 17"/></svg><span class="search-t">Search products, brands or ingredients</span><kbd>⌘K</kbd></button>
+    <nav class="mast-nav" aria-label="Secondary"><a href="../method/">How we choose</a><a href="../ledger/">The ledger</a><a href="../merchants/">Where to buy</a></nav>
+    <a class="btn btn-brand btn-sm mast-cta" href="../shelves/">See the curated list</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span></button>
+  </div></div>
+  <div class="catbar"><div class="shell catbar-in">
+    <nav class="cat-nav" aria-label="Categories"><a class="cat-all" href="../shelves/"><svg class="ico-grid" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="2" y="2" width="5" height="5" rx="1"/><rect x="9" y="2" width="5" height="5" rx="1"/><rect x="2" y="9" width="5" height="5" rx="1"/><rect x="9" y="9" width="5" height="5" rx="1"/></svg>All products</a><button class="cat-btn" type="button" aria-expanded="false" aria-controls="cp-protein">Protein</button><button class="cat-btn" type="button" aria-expanded="false" aria-controls="cp-performance">Performance</button><button class="cat-btn" type="button" aria-expanded="false" aria-controls="cp-hydration">Hydration</button><button class="cat-btn" type="button" aria-expanded="false" aria-controls="cp-daily-essentials">Daily Essentials</button><button class="cat-btn" type="button" aria-expanded="false" aria-controls="cp-recovery">Recovery</button><button class="cat-btn" type="button" aria-expanded="false" aria-controls="cp-body-composition">Body Composition</button></nav>
+    <a class="cat-rej" href="../rejected/">What we rejected</a>
   </div>
+  <div class="cat-panels"><div class="cat-panel" id="cp-protein" role="region" aria-label="Protein" hidden><div class="shell cp-in"><div class="cp-l"><h3>Protein</h3><p>Grams that count, from sources you can name.</p><a class="cp-all" href="../shelves/protein/">See everything in Protein →</a></div><ul class="cp-types"><li><a href="../shelves/protein/whey-protein-isolate/"><span class="cp-t">Whey Protein Isolate</span><span class="cp-n">12<small>/12</small></span></a></li><li><a href="../shelves/protein/whey-protein-concentrate/"><span class="cp-t">Whey Protein Concentrate</span><span class="cp-n">6<small>/12</small></span></a></li><li><a href="../shelves/protein/casein-protein/"><span class="cp-t">Casein &amp; Slow-Release Protein</span><span class="cp-n">7<small>/12</small></span></a></li><li><a href="../shelves/protein/plant-protein/"><span class="cp-t">Plant Protein</span><span class="cp-n">10<small>/12</small></span></a></li><li><a href="../shelves/protein/collagen-peptides/"><span class="cp-t">Collagen Peptides</span><span class="cp-n">7<small>/12</small></span></a></li><li><a href="../shelves/protein/protein-bars/"><span class="cp-t">Protein Bars</span><span class="cp-n">5<small>/12</small></span></a></li><li><a href="../shelves/protein/ready-to-drink-protein/"><span class="cp-t">Ready-to-Drink Protein</span><span class="cp-n">9<small>/12</small></span></a></li></ul></div></div><div class="cat-panel" id="cp-performance" role="region" aria-label="Performance" hidden><div class="shell cp-in"><div class="cp-l"><h3>Performance</h3><p>Compounds with trials behind them, at the doses used in those trials.</p><a class="cp-all" href="../shelves/performance/">See everything in Performance →</a></div><ul class="cp-types"><li><a href="../shelves/performance/creatine-monohydrate/"><span class="cp-t">Creatine Monohydrate</span><span class="cp-n">12<small>/12</small></span></a></li><li><a href="../shelves/performance/pre-workout/"><span class="cp-t">Pre-Workout</span><span class="cp-n">4<small>/12</small></span></a></li><li><a href="../shelves/performance/eaa-bcaa/"><span class="cp-t">EAA &amp; BCAA</span><span class="cp-n">9<small>/12</small></span></a></li><li><a href="../shelves/performance/beta-alanine/"><span class="cp-t">Beta-Alanine</span><span class="cp-n">10<small>/12</small></span></a></li><li><a href="../shelves/performance/citrulline/"><span class="cp-t">Citrulline &amp; Nitric Oxide</span><span class="cp-n">9<small>/12</small></span></a></li></ul></div></div><div class="cat-panel" id="cp-hydration" role="region" aria-label="Hydration" hidden><div class="shell cp-in"><div class="cp-l"><h3>Hydration</h3><p>Electrolytes for a climate that takes them seriously.</p><a class="cp-all" href="../shelves/hydration/">See everything in Hydration →</a></div><ul class="cp-types"><li><a href="../shelves/hydration/electrolytes/"><span class="cp-t">Electrolytes</span><span class="cp-n">8<small>/12</small></span></a></li><li><a href="../shelves/hydration/intra-workout-carbs/"><span class="cp-t">Intra-Workout Carbohydrate</span><span class="cp-n">6<small>/12</small></span></a></li></ul></div></div><div class="cat-panel" id="cp-daily-essentials" role="region" aria-label="Daily Essentials" hidden><div class="shell cp-in"><div class="cp-l"><h3>Daily Essentials</h3><p>The unglamorous four that actually change blood work.</p><a class="cp-all" href="../shelves/daily-essentials/">See everything in Daily Essentials →</a></div><ul class="cp-types"><li><a href="../shelves/daily-essentials/omega-3/"><span class="cp-t">Omega-3</span><span class="cp-n">9<small>/12</small></span></a></li><li><a href="../shelves/daily-essentials/vitamin-d3-k2/"><span class="cp-t">Vitamin D3 &amp; K2</span><span class="cp-n">9<small>/12</small></span></a></li><li><a href="../shelves/daily-essentials/magnesium/"><span class="cp-t">Magnesium</span><span class="cp-n">10<small>/12</small></span></a></li><li><a href="../shelves/daily-essentials/athlete-multivitamin/"><span class="cp-t">Athlete Multivitamin</span><span class="cp-n">9<small>/12</small></span></a></li><li><a href="../shelves/daily-essentials/zinc/"><span class="cp-t">Zinc</span><span class="cp-n">10<small>/12</small></span></a></li></ul></div></div><div class="cat-panel" id="cp-recovery" role="region" aria-label="Recovery" hidden><div class="shell cp-in"><div class="cp-l"><h3>Recovery</h3><p>What happens between sessions decides the next one.</p><a class="cp-all" href="../shelves/recovery/">See everything in Recovery →</a></div><ul class="cp-types"><li><a href="../shelves/recovery/sleep-recovery/"><span class="cp-t">Sleep &amp; Recovery</span><span class="cp-n">9<small>/12</small></span></a></li><li><a href="../shelves/recovery/joint-support/"><span class="cp-t">Joint Support</span><span class="cp-n">9<small>/12</small></span></a></li></ul></div></div><div class="cat-panel" id="cp-body-composition" role="region" aria-label="Body Composition" hidden><div class="shell cp-in"><div class="cp-l"><h3>Body Composition</h3><p>Calories, engineered honestly.</p><a class="cp-all" href="../shelves/body-composition/">See everything in Body Composition →</a></div><ul class="cp-types"><li><a href="../shelves/body-composition/mass-gainer/"><span class="cp-t">Mass Gainer</span><span class="cp-n">3<small>/12</small></span></a></li><li><a href="../shelves/body-composition/meal-replacement/"><span class="cp-t">Meal Replacement</span><span class="cp-n">3<small>/12</small></span></a></li></ul></div></div></div></div>
   <div class="menu" id="menu" hidden>
     <nav class="shell menu-in" aria-label="Menu">
-      <a href="../shelves/">The Index</a>
-      <a href="../method/">Our method</a>
-      <a class="nav-reject" href="../rejected/">What we reject</a>
-      <a href="#manifesto">Manifesto</a>
+      <a class="menu-all" href="../shelves/">All products</a>
+      <div class="acc"><button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-protein">Protein<span class="acc-ch" aria-hidden="true"></span></button><div class="acc-panel" id="acc-protein" hidden><div class="cp-l"><h3>Protein</h3><p>Grams that count, from sources you can name.</p><a class="cp-all" href="../shelves/protein/">See everything in Protein →</a></div><ul class="cp-types"><li><a href="../shelves/protein/whey-protein-isolate/"><span class="cp-t">Whey Protein Isolate</span><span class="cp-n">12<small>/12</small></span></a></li><li><a href="../shelves/protein/whey-protein-concentrate/"><span class="cp-t">Whey Protein Concentrate</span><span class="cp-n">6<small>/12</small></span></a></li><li><a href="../shelves/protein/casein-protein/"><span class="cp-t">Casein &amp; Slow-Release Protein</span><span class="cp-n">7<small>/12</small></span></a></li><li><a href="../shelves/protein/plant-protein/"><span class="cp-t">Plant Protein</span><span class="cp-n">10<small>/12</small></span></a></li><li><a href="../shelves/protein/collagen-peptides/"><span class="cp-t">Collagen Peptides</span><span class="cp-n">7<small>/12</small></span></a></li><li><a href="../shelves/protein/protein-bars/"><span class="cp-t">Protein Bars</span><span class="cp-n">5<small>/12</small></span></a></li><li><a href="../shelves/protein/ready-to-drink-protein/"><span class="cp-t">Ready-to-Drink Protein</span><span class="cp-n">9<small>/12</small></span></a></li></ul></div></div><div class="acc"><button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-performance">Performance<span class="acc-ch" aria-hidden="true"></span></button><div class="acc-panel" id="acc-performance" hidden><div class="cp-l"><h3>Performance</h3><p>Compounds with trials behind them, at the doses used in those trials.</p><a class="cp-all" href="../shelves/performance/">See everything in Performance →</a></div><ul class="cp-types"><li><a href="../shelves/performance/creatine-monohydrate/"><span class="cp-t">Creatine Monohydrate</span><span class="cp-n">12<small>/12</small></span></a></li><li><a href="../shelves/performance/pre-workout/"><span class="cp-t">Pre-Workout</span><span class="cp-n">4<small>/12</small></span></a></li><li><a href="../shelves/performance/eaa-bcaa/"><span class="cp-t">EAA &amp; BCAA</span><span class="cp-n">9<small>/12</small></span></a></li><li><a href="../shelves/performance/beta-alanine/"><span class="cp-t">Beta-Alanine</span><span class="cp-n">10<small>/12</small></span></a></li><li><a href="../shelves/performance/citrulline/"><span class="cp-t">Citrulline &amp; Nitric Oxide</span><span class="cp-n">9<small>/12</small></span></a></li></ul></div></div><div class="acc"><button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-hydration">Hydration<span class="acc-ch" aria-hidden="true"></span></button><div class="acc-panel" id="acc-hydration" hidden><div class="cp-l"><h3>Hydration</h3><p>Electrolytes for a climate that takes them seriously.</p><a class="cp-all" href="../shelves/hydration/">See everything in Hydration →</a></div><ul class="cp-types"><li><a href="../shelves/hydration/electrolytes/"><span class="cp-t">Electrolytes</span><span class="cp-n">8<small>/12</small></span></a></li><li><a href="../shelves/hydration/intra-workout-carbs/"><span class="cp-t">Intra-Workout Carbohydrate</span><span class="cp-n">6<small>/12</small></span></a></li></ul></div></div><div class="acc"><button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-daily-essentials">Daily Essentials<span class="acc-ch" aria-hidden="true"></span></button><div class="acc-panel" id="acc-daily-essentials" hidden><div class="cp-l"><h3>Daily Essentials</h3><p>The unglamorous four that actually change blood work.</p><a class="cp-all" href="../shelves/daily-essentials/">See everything in Daily Essentials →</a></div><ul class="cp-types"><li><a href="../shelves/daily-essentials/omega-3/"><span class="cp-t">Omega-3</span><span class="cp-n">9<small>/12</small></span></a></li><li><a href="../shelves/daily-essentials/vitamin-d3-k2/"><span class="cp-t">Vitamin D3 &amp; K2</span><span class="cp-n">9<small>/12</small></span></a></li><li><a href="../shelves/daily-essentials/magnesium/"><span class="cp-t">Magnesium</span><span class="cp-n">10<small>/12</small></span></a></li><li><a href="../shelves/daily-essentials/athlete-multivitamin/"><span class="cp-t">Athlete Multivitamin</span><span class="cp-n">9<small>/12</small></span></a></li><li><a href="../shelves/daily-essentials/zinc/"><span class="cp-t">Zinc</span><span class="cp-n">10<small>/12</small></span></a></li></ul></div></div><div class="acc"><button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-recovery">Recovery<span class="acc-ch" aria-hidden="true"></span></button><div class="acc-panel" id="acc-recovery" hidden><div class="cp-l"><h3>Recovery</h3><p>What happens between sessions decides the next one.</p><a class="cp-all" href="../shelves/recovery/">See everything in Recovery →</a></div><ul class="cp-types"><li><a href="../shelves/recovery/sleep-recovery/"><span class="cp-t">Sleep &amp; Recovery</span><span class="cp-n">9<small>/12</small></span></a></li><li><a href="../shelves/recovery/joint-support/"><span class="cp-t">Joint Support</span><span class="cp-n">9<small>/12</small></span></a></li></ul></div></div><div class="acc"><button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-body-composition">Body Composition<span class="acc-ch" aria-hidden="true"></span></button><div class="acc-panel" id="acc-body-composition" hidden><div class="cp-l"><h3>Body Composition</h3><p>Calories, engineered honestly.</p><a class="cp-all" href="../shelves/body-composition/">See everything in Body Composition →</a></div><ul class="cp-types"><li><a href="../shelves/body-composition/mass-gainer/"><span class="cp-t">Mass Gainer</span><span class="cp-n">3<small>/12</small></span></a></li><li><a href="../shelves/body-composition/meal-replacement/"><span class="cp-t">Meal Replacement</span><span class="cp-n">3<small>/12</small></span></a></li></ul></div></div>
+      <a class="nav-reject" href="../rejected/">What we rejected</a>
+      <a href="../method/">How we choose</a>
+      <a href="../ledger/">The ledger</a>
+      <a href="../merchants/">Where to buy</a>
     </nav>
   </div>
 </header>
@@ -92,20 +95,20 @@
 <section class="trust" id="s1b" aria-labelledby="s1bh">
   <div class="shell">
     <h2 id="s1bh" class="sr-only">Why you can trust the shortlist.</h2>
+    <div class="trust-logos reveal">
+      <span class="tl-label">Read against</span>
+      <div class="marquee"><div class="mq-move"><ul class="mq-track"><li class="lg-item" aria-label="EFSA"><span class="lg" style="color:#0F7A4A">EFSA</span></li><li class="lg-item" aria-label="FDA"><span class="lg" style="color:#1F3A93">FDA</span></li><li class="lg-item" aria-label="WHO"><span class="lg" style="color:#1A73C7">WHO</span></li><li class="lg-item" aria-label="PubMed"><span class="lg" style="color:#1B3A6B">Pub<span style="color:#3A7BD5">Med</span></span></li><li class="lg-item" aria-label="NSF Certified for Sport"><span class="lg lg-nsf" style="color:#0B4C8C">NSF<span class="lg-2"><span>Certified</span><span>for Sport</span></span></span></li><li class="lg-item" aria-label="Informed Sport"><span class="lg" style="color:#0F7A4A">Informed <span style="color:#5C6660">Sport</span></span></li><li class="lg-item" aria-label="Cochrane"><span class="lg" style="color:#7A3E9D">Cochrane</span></li><li class="lg-item" aria-label="NIH"><span class="lg" style="color:#2C5AA0">NIH</span></li><li class="lg-item" aria-label="EU Organic"><span class="lg" style="color:#4D9A2A">EU Organic</span></li><li class="lg-item" aria-label="Clean Label Project"><span class="lg" style="color:#C98A2A">Clean Label Project</span></li></ul><ul class="mq-track" aria-hidden="true"><li class="lg-item"><span class="lg" style="color:#0F7A4A">EFSA</span></li><li class="lg-item"><span class="lg" style="color:#1F3A93">FDA</span></li><li class="lg-item"><span class="lg" style="color:#1A73C7">WHO</span></li><li class="lg-item"><span class="lg" style="color:#1B3A6B">Pub<span style="color:#3A7BD5">Med</span></span></li><li class="lg-item"><span class="lg lg-nsf" style="color:#0B4C8C">NSF<span class="lg-2"><span>Certified</span><span>for Sport</span></span></span></li><li class="lg-item"><span class="lg" style="color:#0F7A4A">Informed <span style="color:#5C6660">Sport</span></span></li><li class="lg-item"><span class="lg" style="color:#7A3E9D">Cochrane</span></li><li class="lg-item"><span class="lg" style="color:#2C5AA0">NIH</span></li><li class="lg-item"><span class="lg" style="color:#4D9A2A">EU Organic</span></li><li class="lg-item"><span class="lg" style="color:#C98A2A">Clean Label Project</span></li></ul></div></div>
+    </div>
     <ul class="trust-claims reveal">
       <li><span class="tr-ico" aria-hidden="true"><svg viewBox="0 0 26 26" focusable="false"><path d="M6 3h10l4 4v16H6z"/><path d="M16 3v4h4"/><path d="M9 11h8M9 14h8M9 17h4"/><circle class="gold" cx="19" cy="19.5" r="3.4"/><path class="gold" d="M17.6 19.6l1 1 1.9-2"/></svg></span><div><h3>Peer-reviewed sources</h3><p>EFSA opinions, PubMed, Cochrane.</p></div></li>
       <li><span class="tr-ico" aria-hidden="true"><svg viewBox="0 0 26 26" focusable="false"><path d="M3.5 4.5h12v17h-12z"/><path d="M6.5 8.5h6M6.5 16h4"/><path class="gold" d="M6.5 12.2h8"/><circle cx="15" cy="12.2" r="4.6"/><path d="M18.3 15.5l4 4"/></svg></span><div><h3>Ingredient-level audit</h3><p>Every line on the back of the pack.</p></div></li>
       <li><span class="tr-ico" aria-hidden="true"><svg viewBox="0 0 26 26" focusable="false"><path d="M3.5 10h4l7-5v16l-7-5h-4z"/><path d="M18 10.2c1.4 1.6 1.4 4 0 5.6"/><path class="gold" d="M3 3.5l20 19"/></svg></span><div><h3>No marketing. No BS.</h3><p>We never read the front.</p></div></li>
     </ul>
-    <div class="trust-logos reveal">
-      <span class="tl-label">Read against</span>
-      <div class="marquee"><div class="mq-move"><ul class="mq-track"><li class="lg-item" aria-label="EFSA"><span class="lg" style="color:#0F7A4A">EFSA</span></li><li class="lg-item" aria-label="FDA"><span class="lg" style="color:#1F3A93">FDA</span></li><li class="lg-item" aria-label="WHO"><span class="lg" style="color:#1A73C7">WHO</span></li><li class="lg-item" aria-label="PubMed"><span class="lg" style="color:#1B3A6B">Pub<span style="color:#3A7BD5">Med</span></span></li><li class="lg-item" aria-label="NSF Certified for Sport"><span class="lg lg-nsf" style="color:#0B4C8C">NSF<span class="lg-2"><span>Certified</span><span>for Sport</span></span></span></li><li class="lg-item" aria-label="Informed Sport"><span class="lg" style="color:#0F7A4A">Informed <span style="color:#5C6660">Sport</span></span></li><li class="lg-item" aria-label="Cochrane"><span class="lg" style="color:#7A3E9D">Cochrane</span></li><li class="lg-item" aria-label="NIH"><span class="lg" style="color:#2C5AA0">NIH</span></li><li class="lg-item" aria-label="EU Organic"><span class="lg" style="color:#4D9A2A">EU Organic</span></li><li class="lg-item" aria-label="Clean Label Project"><span class="lg" style="color:#C98A2A">Clean Label Project</span></li></ul><ul class="mq-track" aria-hidden="true"><li class="lg-item"><span class="lg" style="color:#0F7A4A">EFSA</span></li><li class="lg-item"><span class="lg" style="color:#1F3A93">FDA</span></li><li class="lg-item"><span class="lg" style="color:#1A73C7">WHO</span></li><li class="lg-item"><span class="lg" style="color:#1B3A6B">Pub<span style="color:#3A7BD5">Med</span></span></li><li class="lg-item"><span class="lg lg-nsf" style="color:#0B4C8C">NSF<span class="lg-2"><span>Certified</span><span>for Sport</span></span></span></li><li class="lg-item"><span class="lg" style="color:#0F7A4A">Informed <span style="color:#5C6660">Sport</span></span></li><li class="lg-item"><span class="lg" style="color:#7A3E9D">Cochrane</span></li><li class="lg-item"><span class="lg" style="color:#2C5AA0">NIH</span></li><li class="lg-item"><span class="lg" style="color:#4D9A2A">EU Organic</span></li><li class="lg-item"><span class="lg" style="color:#C98A2A">Clean Label Project</span></li></ul></div></div>
-    </div>
   </div>
 </section>
 
 <!-- S1c Why this matters -->
-<section class="why" id="s1c" aria-labelledby="s1ch">
+<section class="why band-ivory" id="s1c" aria-labelledby="s1ch">
   <div class="shell why-grid">
     <div class="why-text reveal">
       <p class="kicker">Why this matters</p>
@@ -124,14 +127,14 @@
 </section>
 
 <!-- S2 The paradox, and two ways to shop -->
-<section class="paradox band-ivory" aria-labelledby="s2h">
+<section class="paradox" aria-labelledby="s2h">
   <div class="shell">
     <div class="paradox-copy reveal">
       <h2 id="s2h" class="big"><span>More choice.</span> <span><mark class="mark-red">Worse</mark> choices.</span></h2>
       <div class="body">
-        <p>Information has never been more abundant. Choosing well has never been harder.</p>
-        <p>To eat well you have to read endless labels, decode technical terms, sort the truth from marketing, trends and influencers — and pay more without being sure.</p>
-        <p>The hidden cost is not money. It is mental load.</p>
+        <p>Information has never been more abundant. <mark>Choosing well has never been harder.</mark></p>
+        <p>Endless labels. Technical terms. Marketing, trends and influencers. Paying more without being sure.</p>
+        <p><mark>The hidden cost is not money. It is mental load.</mark></p>
       </div>
     </div>
     <p class="cards-intro reveal">A familiar decision: “What’s going in our breakfast bowl?”</p>
@@ -172,14 +175,14 @@
 </section>
 
 <!-- S3 The filter -->
-<section class="filter" aria-labelledby="s3h">
+<section class="filter band-ivory" aria-labelledby="s3h">
   <div class="shell">
     <header class="sec-head reveal">
       <h2 id="s3h">Labels are not <mark>evidence</mark>.</h2>
-      <p class="lead">‘Organic’, ‘natural’, ‘vegan’ and ‘clean’ are labels, not verdicts. Ingredients, doses and real effects are what count.</p>
+      <p class="lead"><mark>‘Organic’, ‘natural’, ‘vegan’ and ‘clean’ are labels, not verdicts.</mark> Ingredients, doses and real effects are what count.</p>
     </header>
     <div class="io reveal">
-      <div class="io-panel io-out">
+<div class="pile-wrap"><div class="pile pile-out" style="--n:6"><span class="pile-card" aria-hidden="true" style="--k:6"></span><span class="pile-card" aria-hidden="true" style="--k:5"></span><span class="pile-card" aria-hidden="true" style="--k:4"></span><span class="pile-card" aria-hidden="true" style="--k:3"></span><span class="pile-card" aria-hidden="true" style="--k:2"></span><span class="pile-card" aria-hidden="true" style="--k:1"></span>      <div class="io-panel io-out">
         <h3><span class="mk mk-out" aria-hidden="true"></span>Out.</h3>
         <ul>
           <li><button class="term" type="button" aria-expanded="false" aria-describedby="t1">Sucralose (E955)</button><span class="tip" role="tooltip" id="t1">Artificial sweetener; disrupts microbiota and insulin.</span></li>
@@ -189,7 +192,8 @@
           <li><button class="term" type="button" aria-expanded="false" aria-describedby="t5">Miracle claims and borderline promises</button><span class="tip" role="tooltip" id="t5">Not defensible.</span></li>
         </ul>
       </div>
-      <div class="io-panel io-in">
+</div><p class="pile-cap">Out: <span data-tally="eliminated">8,360</span> and counting.</p></div>
+<div class="pile-wrap"><div class="pile pile-in" style="--n:2"><span class="pile-card" aria-hidden="true" style="--k:2"></span><span class="pile-card" aria-hidden="true" style="--k:1"></span>      <div class="io-panel io-in">
         <h3><svg class="mk mk-in" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9.25"/><path d="M6 10.4l2.6 2.6L14 7.6"/></svg>In.</h3>
         <ul>
           <li><button class="term" type="button" aria-expanded="false" aria-describedby="t6">1 to 4 ingredients</button><span class="tip" role="tooltip" id="t6">An isolate, cocoa, stevia. That is a label.</span></li>
@@ -199,6 +203,7 @@
           <li><button class="term" type="button" aria-expanded="false" aria-describedby="t10">Defensible by science</button><span class="tip" role="tooltip" id="t10">Or it does not get in.</span></li>
         </ul>
       </div>
+</div><p class="pile-cap">In: twelve per product type.</p></div>
     </div>
     <p class="bottom-line reveal"><span class="gold-rule" aria-hidden="true"></span>Bottom line: if it is not scientifically defensible, it does not get in.</p>
     <div class="case reveal">
@@ -223,98 +228,7 @@
   </div>
 </section>
 
-<!-- S4 The doctrine -->
-<section class="doctrine" aria-labelledby="s4h">
-  <div class="shell">
-    <header class="sec-head reveal">
-      <h2 id="s4h">Four rules. <mark>No exceptions.</mark></h2>
-    </header>
-    <ol class="pillars">
-      <li class="pillar reveal">
-        <svg class="illo" viewBox="0 0 260 150" role="img" aria-label="A short shelf holding twelve tubs, with empty space beside them.">
-          <g class="illo-line">
-            <path d="M20 26v106M240 26v106M20 26.5h220M20 76.5h220M20 131.5h220"/>
-            <use class="it" href="#p-tub" x="30" y="46" width="21" height="30"/><use class="it" href="#p-tub" x="54" y="46" width="21" height="30"/><use class="it" href="#p-tub" x="78" y="46" width="21" height="30"/><use class="it" href="#p-tub" x="102" y="46" width="21" height="30"/><use class="it" href="#p-tub" x="126" y="46" width="21" height="30"/><use class="it" href="#p-tub" x="150" y="46" width="21" height="30"/><use class="it" href="#p-tub" x="30" y="101" width="21" height="30"/><use class="it" href="#p-tub" x="54" y="101" width="21" height="30"/><use class="it" href="#p-tub" x="78" y="101" width="21" height="30"/><use class="it" href="#p-tub" x="102" y="101" width="21" height="30"/><use class="it" href="#p-tub" x="126" y="101" width="21" height="30"/><use class="it gold-it" href="#p-tub" x="150" y="101" width="21" height="30"/>
-          </g>
-        </svg>
-        <h3>Curated by default.</h3>
-        <p>No endless aisles, no artificial depth. If it is here, it is already validated.</p>
-      </li>
-      <li class="pillar reveal">
-        <svg class="illo" viewBox="0 0 260 150" role="img" aria-label="A label peeling off a tub to reveal the ingredients list, a magnifier over it.">
-          <g class="illo-line" transform="translate(30 0)">
-            <path class="fill-w" d="M38 44h72v78a8 8 0 0 1-8 8H46a8 8 0 0 1-8-8z"/>
-            <rect class="fill-w" x="34" y="30" width="80" height="14" rx="4"/>
-            <path d="M50 64h40M50 76h30M50 88h36M50 100h22M50 112h32"/>
-            <path class="fill-w" d="M110 58c20-7 42-9 64-3l6 52c-22-4-46-2-70 5z"/>
-            <path d="M110 58c-3 18-3 36 0 54"/>
-            <path d="M126 72h30M127 83h22"/>
-            <path d="M140 99c5-8 13-9 19-7-2 8-10 12-19 7zM140 99l8-5"/>
-            <circle class="lens" cx="72" cy="84" r="21"/>
-            <path class="gold-s gold-w" d="M87 99l17 17"/>
-          </g>
-        </svg>
-        <h3>Science over labels.</h3>
-        <p>Organic is not a criterion. Vegan, keto, natural are not guarantees. Ingredients and doses are.</p>
-      </li>
-      <li class="pillar reveal">
-        <svg class="illo" viewBox="0 0 260 150" role="img" aria-label="A loudspeaker fading out beside a steady heartbeat line.">
-          <g class="illo-line">
-            <g class="fade">
-              <path class="fill-w" d="M30 64h10l34-18v58L40 86H30z"/>
-              <path d="M40 64v22M46 88l5 18h9l-4-14"/>
-              <path class="w1" d="M86 60c7 9 7 21 0 30"/>
-              <path class="w2" d="M97 52c11 13 11 33 0 46"/>
-              <path class="w3" d="M108 44c15 18 15 44 0 62"/>
-            </g>
-            <path d="M132 80h30l7-18 10 38 9-30 6 10h38"/>
-            <circle class="gold-f" cx="236" cy="80" r="4"/>
-          </g>
-        </svg>
-        <h3>No hype tolerance.</h3>
-        <p>No fashionable superfood without evidence, no miracle claims, no TikTok trends. Fashion passes. Physiology stays.</p>
-      </li>
-      <li class="pillar reveal">
-        <svg class="illo" viewBox="0 0 260 150" role="img" aria-label="A small hand reaching for a tub that carries a check mark.">
-          <g class="illo-line">
-            <path d="M0 71c14-1 28-1 42-2M0 99c14 0 28 0 42-1"/>
-            <path class="fill-w" d="M42 66h14v36H42z"/>
-            <path class="fill-w" d="M56 70c8-4 18-6 26-6 6 0 10 2 13 6l19-1c3 0 5 2 5 4s-2 4-5 4l-14 1 18 0c3 0 5 2 5 4.5s-2 4.5-5 4.5l-18 .5 14 1c3 0 5 2 5 4.5S113 97 110 97l-14-.5c-4 4-11 6-20 6-8 0-14-1-20-3z"/>
-            <path d="M82 64c2-6 6-10 11-10 3 0 4 3 2 6l-4 8"/>
-            <path class="fill-w" d="M164 54h60v66a6 6 0 0 1-6 6h-48a6 6 0 0 1-6-6z"/>
-            <rect class="fill-w" x="160" y="40" width="68" height="14" rx="4"/>
-            <circle class="gold-s" cx="194" cy="88" r="14"/>
-            <path class="gold-s" d="M187.5 88.5l4.5 4.5 8.5-9"/>
-          </g>
-        </svg>
-        <h3>Family-safe by design.</h3>
-        <p>A parent should be able to buy without doubting, justifying or explaining. If it is not acceptable for a child, it is not acceptable.</p>
-      </li>
-    </ol>
-    <p class="coda reveal">Everything here is already filtered.</p>
-  </div>
-</section>
-
-<!-- S5 The rule of 12 -->
-<section class="rule band-ivory" aria-labelledby="s5h">
-  <div class="shell rule-in">
-    <p class="numeral reveal" aria-hidden="true">12</p>
-    <h2 id="s5h" class="reveal">Twelve is a <mark>ceiling</mark>, not a marketing number.</h2>
-    <div class="rule-cols reveal">
-      <p>Enough to respect tastes, budgets, diets and convictions.</p>
-      <p>Too few to make noise. A cognitive ceiling.</p>
-    </div>
-    <div class="ranks reveal">
-      <svg class="ranks-illo" viewBox="0 0 720 40" role="img" aria-label="Twelve tubs in a row, the last one marked in gold.">
-        <use class="it" href="#p-tub" x="19" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="79" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="139" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="199" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="259" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="319" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="379" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="439" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="499" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="559" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="619" y="4" width="22" height="32"/><use class="it gold-it" href="#p-tub" x="679" y="4" width="22" height="32"/>
-      </svg>
-      <ol class="rank-nums" aria-hidden="true"><li>01</li><li>02</li><li>03</li><li>04</li><li>05</li><li>06</li><li>07</li><li>08</li><li>09</li><li>10</li><li>11</li><li>12</li></ol>
-    </div>
-    <p class="coda reveal">Everything a family buys every day. Only the best possible versions.</p>
-  </div>
-</section>
-
-<!-- S6 Five essential categories -->
+<!-- S4 What you need: five essential categories -->
 <section class="offer" aria-labelledby="s6h">
   <div class="shell">
     <header class="sec-head reveal">
@@ -332,7 +246,7 @@
       <li class="tile is-open reveal">
         <a class="tile-link" href="../shelves/">
           <div class="tile-media"><img src="assets/img/cat-sport.jpg" width="640" height="800" loading="lazy" alt="A single white tub and scoop on an oak surface."></div>
-          <div class="tile-txt"><h3>Sport &amp; Nutrition</h3><p>Supplements, protein, hydration and performance. Clean formulas, effective doses.</p><span class="pill pill-open">Open now</span><span class="tile-cta">Consult the Index →</span></div>
+          <div class="tile-txt"><h3>Sport &amp; Nutrition</h3><p>Supplements, protein, hydration and performance. Clean formulas, effective doses.</p><span class="pill pill-open">Open now</span><span class="tile-cta">See the curated list →</span></div>
         </a>
       </li>
       <li class="tile is-soon reveal">
@@ -347,28 +261,89 @@
   </div>
 </section>
 
-<!-- S7 Manifesto -->
+<!-- S5 The doctrine: four rules, four animated scenes -->
+<section class="doctrine band-ivory" aria-labelledby="s4h">
+  <div class="shell">
+    <header class="sec-head reveal">
+      <h2 id="s4h">Four rules. <mark>No exceptions.</mark></h2>
+    </header>
+    <ol class="pillars">
+      <li class="pillar reveal">
+        <svg class="rule-scene" viewBox="0 0 260 160" role="img" aria-label="Twenty products on a shelf; eight slide away and the twelve that stay close ranks and turn green."><path class="r-line" d="M14 70.5h232M14 132.5h232"/><g class="an r1p keep" style="animation-name:r1p00"><use href="#p-tub" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p00c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p" style="animation-name:r1p01"><use href="#p-pouch" x="0" y="-22" width="16" height="22"/></g><g class="an r1p keep" style="animation-name:r1p02"><use href="#p-softgel" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p02c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p keep" style="animation-name:r1p03"><use href="#p-sachet" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p03c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p" style="animation-name:r1p04"><use href="#p-shaker" x="0" y="-22" width="16" height="22"/></g><g class="an r1p keep" style="animation-name:r1p05"><use href="#p-bottle" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p05c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p" style="animation-name:r1p06"><use href="#p-tub" x="0" y="-22" width="16" height="22"/></g><g class="an r1p keep" style="animation-name:r1p07"><use href="#p-pouch" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p07c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p keep" style="animation-name:r1p08"><use href="#p-softgel" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p08c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p" style="animation-name:r1p09"><use href="#p-sachet" x="0" y="-22" width="16" height="22"/></g><g class="an r1p" style="animation-name:r1p10"><use href="#p-sachet" x="0" y="-22" width="16" height="22"/></g><g class="an r1p keep" style="animation-name:r1p11"><use href="#p-shaker" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p11c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p keep" style="animation-name:r1p12"><use href="#p-bottle" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p12c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p" style="animation-name:r1p13"><use href="#p-tub" x="0" y="-22" width="16" height="22"/></g><g class="an r1p keep" style="animation-name:r1p14"><use href="#p-pouch" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p14c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p keep" style="animation-name:r1p15"><use href="#p-softgel" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p15c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p keep" style="animation-name:r1p16"><use href="#p-sachet" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p16c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g><g class="an r1p" style="animation-name:r1p17"><use href="#p-shaker" x="0" y="-22" width="16" height="22"/></g><g class="an r1p" style="animation-name:r1p18"><use href="#p-bottle" x="0" y="-22" width="16" height="22"/></g><g class="an r1p keep" style="animation-name:r1p19"><use href="#p-tub" x="0" y="-22" width="16" height="22"/><g class="an r1ok" style="animation-name:r1p19c"><circle cx="16" cy="-22" r="4.2"/><path d="M14.2 -22l1.3 1.3 2.4-2.6"/></g></g></svg>
+        <h3>Curated by default.</h3>
+        <p>No endless aisles, no artificial depth. If it is here, it is already validated.</p>
+      </li>
+      <li class="pillar reveal">
+        <svg class="rule-scene" viewBox="0 0 260 160" role="img" aria-label="A bright front label peels off a tub to reveal the ingredients list; a magnifier reads it and one line turns gold."><use class="r2tub" href="#p-tub" x="85" y="18" width="90" height="128"/><path class="r-line" d="M104 78H156"/><path class="r-line" d="M104 89H148"/><path class="an r-line" d="M104 100H158" style="animation-name:r2gold"/><path class="r-line" d="M104 111H142"/><path class="r-line" d="M104 122H152"/><g class="an r2label" style="animation-name:r2label"><rect class="r2l-bg" x="96" y="68" width="68" height="62" rx="3"/><text class="r2l-t" x="130" y="89" text-anchor="middle">PREMIUM</text><text class="r2l-t" x="130" y="103" text-anchor="middle">· NATURAL ·</text><path class="r2l-s" d="M106 114h48M112 121h36"/></g><g class="an r2mag" style="animation-name:r2mag"><circle class="r2m" cx="170" cy="78" r="13"/><path class="r-line" d="M179.5 87.5l12 12"/></g></svg>
+        <h3>Science over labels.</h3>
+        <p>Organic is not a criterion. Vegan, keto, natural are not guarantees. Ingredients and doses are.</p>
+      </li>
+      <li class="pillar reveal">
+        <svg class="rule-scene" viewBox="0 0 260 160" role="img" aria-label="A loudspeaker whose waves fade out one by one, beside a heartbeat line that draws itself to a steady green dot."><path class="r-line r-fill" d="M18 66h10l18-12v52L28 94H18z"/><path class="r-line" d="M28 66v28"/><path class="an r-line" d="M56 68c5 7 5 17 0 24" style="animation-name:r3w0"/><path class="an r-line" d="M66 60c9 11 9 29 0 40" style="animation-name:r3w1"/><path class="an r-line" d="M76 52c13 15 13 41 0 56" style="animation-name:r3w2"/><path class="an r-line r3ecg" pathLength="1" d="M100 80h36l6-18 8 36 7-26 5 8h72" style="animation-name:r3ecg"/><circle class="an r3dot" cx="234" cy="80" r="5" style="animation-name:r3dot"/></svg>
+        <h3>No hype tolerance.</h3>
+        <p>No fashionable superfood without evidence, no miracle claims, no TikTok trends. Fashion passes. Physiology stays.</p>
+      </li>
+      <li class="pillar reveal">
+        <svg class="rule-scene" viewBox="0 0 260 160" role="img" aria-label="A small hand reaches for a tub as a shield draws itself around it and a gold check appears."><g class="an r4hand" style="animation-name:r4hand"><path class="r-line" d="M0 82c14-1 28-1 42-2M0 110c14 0 28 0 42-1"/><path class="r-line r-fill" d="M42 77h14v36H42z"/><path class="r-line r-fill" d="M56 81c8-4 18-6 26-6 6 0 10 2 13 6l19-1c3 0 5 2 5 4s-2 4-5 4l-14 1 18 0c3 0 5 2 5 4.5s-2 4.5-5 4.5l-18 .5 14 1c3 0 5 2 5 4.5S113 108 110 108l-14-.5c-4 4-11 6-20 6-8 0-14-1-20-3z"/><path class="r-line" d="M82 75c2-6 6-10 11-10 3 0 4 3 2 6l-4 8"/></g><use class="r4tub" href="#p-tub" x="164" y="52" width="52" height="74"/><path class="an r-line r4shield" pathLength="1" d="M190 22l44 15v36c0 32-20 54-44 64-24-10-44-32-44-64V37z" style="animation-name:r4shield"/><g class="an r4check" style="animation-name:r4check"><circle cx="190" cy="96" r="11"/><path d="M185 96.5l3.6 3.6 6.6-7"/></g></svg>
+        <h3>Family-safe by design.</h3>
+        <p>A parent should be able to buy without doubting, justifying or explaining. If it is not acceptable for a child, it is not acceptable.</p>
+      </li>
+    </ol>
+    <p class="coda reveal">Everything here is already filtered.</p>
+  </div>
+</section>
+
+<!-- S6 The rule of 12 -->
+<section class="rule" aria-labelledby="s5h">
+  <div class="shell rule-in">
+    <p class="numeral reveal" aria-hidden="true">12</p>
+    <h2 id="s5h" class="reveal">Twelve is a <mark>ceiling</mark>, not a marketing number.</h2>
+    <div class="rule-cols reveal">
+      <p>Enough to respect tastes, budgets, diets and convictions.</p>
+      <p>Too few to make noise. A cognitive ceiling.</p>
+    </div>
+    <div class="ranks reveal">
+      <svg class="ranks-illo" viewBox="0 0 720 40" role="img" aria-label="Twelve tubs in a row, the last one marked in gold.">
+        <use class="it" href="#p-tub" x="19" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="79" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="139" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="199" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="259" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="319" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="379" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="439" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="499" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="559" y="4" width="22" height="32"/><use class="it" href="#p-tub" x="619" y="4" width="22" height="32"/><use class="it gold-it" href="#p-tub" x="679" y="4" width="22" height="32"/>
+      </svg>
+      <ol class="rank-nums" aria-hidden="true"><li>01</li><li>02</li><li>03</li><li>04</li><li>05</li><li>06</li><li>07</li><li>08</li><li>09</li><li>10</li><li>11</li><li>12</li></ol>
+    </div>
+    <p class="coda reveal">Everything a family buys every day. Only the best possible versions.</p>
+  </div>
+</section>
+
+
+<!-- S7 The verdict (manifesto) -->
 <section class="manifesto" id="manifesto" aria-labelledby="s7h">
   <div class="shell">
-    <h2 id="s7h" class="sr-only">Manifesto</h2>
+    <h2 id="s7h" class="sr-only">The verdict.</h2>
     <div class="mani-grid">
-      <div class="stanzas reveal">
-        <p class="stanza"><span>We do not believe eating well should be complicated.</span><span>We do not believe it should be reserved for experts.</span><span>We do not believe ‘organic’, ‘natural’ or ‘clean’ are enough.</span></p>
-        <p class="stanza mint"><span>We believe science must come before marketing.</span><span>We believe fewer choices are often better choices.</span><span>We believe protecting your family should not be a daily fight.</span></p>
-        <p class="stanza"><span>We exist to remove the doubt, to lighten the mental load, to make healthy simple, normal and accessible.</span></p>
-      </div>
-      <div class="mani-side reveal">
-        <figure class="mani-media">
-          <img src="assets/img/manifesto.jpg" width="640" height="800" loading="lazy" alt="A parent and child at a kitchen table, backs to the window, in soft light.">
-        </figure>
+      <div class="mani-text reveal">
+        <div class="stanzas">
+          <p class="stanza"><span>We do not believe eating well should be complicated.</span><span>We do not believe it should be reserved for experts.</span><span>We do not believe ‘organic’, ‘natural’ or ‘clean’ are enough.</span></p>
+          <p class="stanza mint"><span>We believe science must come before marketing.</span><span>We believe fewer choices are often better choices.</span><span>We believe protecting your family should not be a daily fight.</span></p>
+          <p class="stanza"><span>We exist to remove the doubt, to lighten the mental load, to make healthy simple, normal and accessible.</span></p>
+        </div>
         <p class="mani-claim">Here, nothing is here by chance. Every product was selected, tested, understood.</p>
         <p class="mani-sub">You do not need to scan or compare. You can simply choose.</p>
       </div>
+      <figure class="mani-media reveal">
+        <img src="assets/img/family-breakfast.jpg" width="1200" height="900" loading="lazy" alt="A family of four laughing together over breakfast at a wooden kitchen table, with fruit, oats and a jug of water.">
+      </figure>
     </div>
     <div class="mani-close reveal">
-      <blockquote><p>“We don’t sell ‘healthy’. We <mark>remove the doubt</mark>.”</p></blockquote>
-      <a class="btn btn-white btn-lg" href="../shelves/">Consult the Index</a>
+      <blockquote><p>“We don’t sell ‘healthy’. We <mark>remove the doubt</mark>.”</p><footer class="mani-sign"><strong>Ahmed Mhiri</strong><span> · Founder &amp; CEO, and a family man first.</span></footer></blockquote>
     </div>
+  </div>
+</section>
+
+<!-- S7b Closing call to action -->
+<section class="cta" id="s7b" aria-labelledby="s7bh">
+  <div class="shell cta-in reveal">
+    <h2 id="s7bh">Ready to shop with the doubt removed?</h2>
+    <p class="lead">Twelve per product type, audited before you shop. Sport &amp; Nutrition is open now.</p>
+    <div class="cta-btns"><a class="btn btn-brand btn-lg" href="../shelves/">See the curated list</a><a class="btn btn-ghost btn-lg" href="../method/">How we choose</a></div>
+    <p class="cta-note">Food, fresh, body and home categories are coming.</p>
   </div>
 </section>
 
@@ -377,11 +352,13 @@
 <!-- S8 Footer -->
 <footer class="ftr">
   <div class="shell">
-    <p class="integrity">the12 holds <strong>no stock</strong> and sells <strong>nothing</strong>. We earn a commission on some links; it never changes what passes the filter.</p>
-    <div class="ftr-cols">
-      <nav aria-labelledby="f1"><h3 id="f1">Explore</h3><ul><li><a href="../shelves/">The Index</a></li><li><a href="../method/">Our method</a></li><li><a href="../rejected/">What we reject</a></li><li><a href="#manifesto">Manifesto</a></li></ul></nav>
-      <nav aria-labelledby="f2"><h3 id="f2">Company</h3><ul><li><a href="../about/">About</a></li><li><a href="../method/#limits">Corrections</a></li><li><a href="../method/#nothing">Commission policy</a></li></ul></nav>
-      <nav aria-labelledby="f3"><h3 id="f3">Language</h3><ul><li><a href="#top" aria-current="page">English</a></li><li><button class="lang-soon" type="button" disabled lang="ar">العربية <span lang="en">Coming</span></button></li></ul></nav>
+    <div class="ftr-top">
+      <div class="ftr-brand"><a class="wordmark" href="../" aria-label="the12, home">the<span>12</span></a><p>Curated consumption. Audited before you shop.</p></div>
+      <div class="ftr-cols">
+        <nav aria-labelledby="f1"><h3 id="f1">Shop</h3><ul><li><a href="../shelves/">All products</a></li><li><a href="../shelves/protein/">Protein</a></li><li><a href="../shelves/performance/">Performance</a></li><li><a href="../shelves/hydration/">Hydration</a></li><li><a href="../shelves/daily-essentials/">Daily Essentials</a></li><li><a href="../shelves/recovery/">Recovery</a></li><li><a href="../shelves/body-composition/">Body Composition</a></li></ul></nav>
+        <nav aria-labelledby="f2"><h3 id="f2">Learn</h3><ul><li><a href="../method/">How we choose</a></li><li><a href="../rejected/">What we rejected</a></li><li><a href="../ledger/">The ledger</a></li><li><a href="../merchants/">Where to buy</a></li><li><a href="#manifesto">The verdict</a></li></ul></nav>
+        <nav aria-labelledby="f3"><h3 id="f3">Language</h3><ul><li><a href="#top" aria-current="page">English</a></li><li><button class="lang-soon" type="button" disabled lang="ar">العربية <span lang="en">Coming</span></button></li></ul></nav>
+      </div>
     </div>
     <div class="ftr-base">
       <p>© 2026 the12</p>
@@ -390,6 +367,6 @@
   </div>
 </footer>
 
-<script src="assets/v5.js?v=10" defer></script>
+<script src="assets/v5.js?v=11" defer></script>
 </body>
 </html>
