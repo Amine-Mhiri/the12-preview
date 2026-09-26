@@ -118,9 +118,9 @@ h2{font-size:48px}
 /* 7. Hero (S1): statement left, the shelf and the scanner right ---------- */
 main > section.hero{padding:96px 0 112px}
 .hero-grid{display:grid;grid-template-columns:minmax(0,560fr) minmax(0,720fr);gap:64px;align-items:center}
-.hero h1{font-family:var(--serif);font-size:min(78px,5.42vw);font-weight:400;line-height:1;letter-spacing:-.02em;text-wrap:initial}
+.hero h1{font-family:var(--ui);font-size:min(64px,4.44vw);font-weight:600;line-height:1.04;letter-spacing:-.035em;text-wrap:initial}
 .hero h1 span,.hero h1 em{display:block;white-space:nowrap}
-.hero h1 em{font-style:italic;color:var(--brand)}
+.hero h1 em{font-style:normal;color:var(--brand)}
 .hero .lead{max-width:520px;margin-top:28px;text-wrap:pretty}
 .hero .lead strong{font-weight:600;color:var(--ink)}
 
@@ -331,7 +331,7 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
 }
 @media (max-width:1100px){
   .hero-grid{grid-template-columns:1fr;gap:56px}
-  .hero h1{font-size:84px}
+  .hero h1{font-size:68px}
   .stage{justify-self:center}
 }
 @media (max-width:1024px){
@@ -352,7 +352,7 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
   :root{--margin:16px}
   main > section.hero{padding:48px 0 80px}
   .hero-grid{gap:40px}
-  .hero h1{font-size:46px}
+  .hero h1{font-size:36px}
   .hero .lead{margin-top:20px}
   .stage{aspect-ratio:auto;height:300px}
   .shelf{height:auto;top:16px}
