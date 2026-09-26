@@ -66,26 +66,27 @@
     reveals.forEach(function (el) { ro.observe(el); });
   }
 
-  /* ---- S1 process animation: a 9s CSS loop; JS only drives the counter --
-     The counter reads the phase of one shared-clock animation (the card copy),
+  /* ---- S1 process strip: an 8s CSS loop; JS only drives the counter -----
+     The counter reads the phase of the strip's shared clock (the .clk element),
      so it stays in step with the CSS even when the loop is paused. */
   var stage = document.getElementById('stage');
   var count = document.getElementById('stage-count');
-  var CYCLE = 9000;
+  var CYCLE = 8000;
   var from = parse(tokens.analyzed) || { pre: '', n: 10450, comma: true, suf: '' };
   var easeInOut = function (t) { return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; };
   function countAt(ms) {
-    /* 0–0.3s full · 0.3–4.2s down to 12 · hold · 7.6–8.8s back up (the market refills) */
-    if (ms < 300) return from.n;
-    if (ms < 4200) return from.n + (12 - from.n) * easeOut((ms - 300) / 3900);
-    if (ms < 7600) return 12;
-    if (ms < 8800) return 12 + (from.n - 12) * easeInOut((ms - 7600) / 1200);
+    /* full until the first silhouettes reach the gate (1.2s) · down to 12 by 4.4s
+       (the last twelve settling) · hold · 7.0–7.9s back up as the row refills */
+    if (ms < 1200) return from.n;
+    if (ms < 4400) return from.n + (12 - from.n) * easeOut((ms - 1200) / 3200);
+    if (ms < 7000) return 12;
+    if (ms < 7900) return 12 + (from.n - 12) * easeInOut((ms - 7000) / 900);
     return from.n;
   }
-  var copies = stage.querySelectorAll('.copy'); /* one per layout; the hidden one has no running animation */
+  var clocks = stage.querySelectorAll('.clk'); /* one per layout; the hidden one has no running animation */
   function clock() {
-    for (var i = 0; i < copies.length; i++) {
-      var a = copies[i].getAnimations();
+    for (var i = 0; i < clocks.length; i++) {
+      var a = clocks[i].getAnimations();
       if (a.length) return a[0];
     }
     return null;
