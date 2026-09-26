@@ -317,9 +317,13 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
   .js .tile.is-soon.reveal.in{opacity:.7}
 }
 @media (prefers-reduced-motion:reduce){
-  .stage{--t0:-6000ms}
-  .stage *{animation-play-state:paused !important}
+  .stage:not(.force){--t0:-6000ms}
+  .stage:not(.force) *{animation-play-state:paused !important}
+  .stage:not(.force) .stage-play:not([hidden]){display:inline-flex}
 }
+.stage-play{position:absolute;right:0;top:0;z-index:3;display:none;align-items:center;height:36px;padding:0 14px;border:1px solid var(--line);border-radius:var(--r-pill);background:#fff;color:var(--ink);font:600 14px/1 var(--ui);cursor:pointer}
+.stage-play[hidden]{display:none}
+.stage.force .stage-play{display:none}
 
 /* 18. Responsive ----------------------------------------------------------- */
 @media (max-width:1280px){

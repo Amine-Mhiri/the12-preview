@@ -7,6 +7,27 @@
   var body = document.body;
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  /* ---- S1 hero: the shelf and the scanner --------------------------------
+     All motion is CSS on one 15s clock (v5-loop.css); the stage carries
+     .loop from the markup, so it runs without this script. JS only pauses it
+     while off screen, and under reduced motion offers a Play button. */
+  try {
+    var stage = document.getElementById('stage');
+    if (stage) {
+      stage.classList.add('loop');
+      var play = document.getElementById('stage-play');
+      if (play) {
+        play.hidden = !reduce;
+        play.addEventListener('click', function () { stage.classList.add('force'); play.hidden = true; });
+      }
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (entries) {
+          stage.classList.toggle('paused', !entries[0].isIntersecting);
+        }).observe(stage);
+      }
+    }
+  } catch (err) { /* the loop still runs from the markup */ }
+
   /* ---- Number tokens ---------------------------------------------------- */
   var tokens = {
     analyzed: body.getAttribute('data-analyzed') || '10,450',
@@ -39,7 +60,8 @@
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !menu.hidden) { setMenu(false); burger.focus(); }
   });
-  window.matchMedia('(min-width: 1025px)').addEventListener('change', function (m) { if (m.matches) setMenu(false); });
+  var mq = window.matchMedia('(min-width: 1025px)');
+  (mq.addEventListener ? mq.addEventListener.bind(mq, 'change') : mq.addListener.bind(mq))(function (m) { if (m.matches) setMenu(false); });
 
   /* ---- Sections rise in once ------------------------------------------- */
   var reveals = document.querySelectorAll('.reveal');
@@ -52,20 +74,6 @@
       });
     }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
     reveals.forEach(function (el) { ro.observe(el); });
-  }
-
-  /* ---- S1 hero: the shelf and the scanner --------------------------------
-     All motion is CSS on one 15s clock (v5-loop.css). JS only starts the loop
-     on load and pauses it while the stage is off screen. Without JS, or with
-     reduced motion, the stage shows its end state: twelve on three shelves. */
-  var stage = document.getElementById('stage');
-  if (stage && !reduce) {
-    stage.classList.add('loop');
-    if ('IntersectionObserver' in window) {
-      new IntersectionObserver(function (entries) {
-        stage.classList.toggle('paused', !entries[0].isIntersecting);
-      }).observe(stage);
-    }
   }
 
   /* ---- Term tooltips: hover + focus in CSS; tap/click toggles ------------ */
