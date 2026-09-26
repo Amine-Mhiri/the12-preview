@@ -1,12 +1,11 @@
 /* the12 — v5 prototype behaviour.
-   Tokens, header, menu, reveals, hero count-up, the S2 process timeline
-   (observer + counter + replay only; all motion is CSS), term tooltips. */
+   Tokens, header, menu, reveals, the S1 hero loop (all motion is CSS;
+   JS only starts it and pauses it off screen), term tooltips. */
 (function () {
   'use strict';
 
   var body = document.body;
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var easeOut = function (t) { return 1 - Math.pow(1 - t, 3); };
 
   /* ---- Number tokens ---------------------------------------------------- */
   var tokens = {
@@ -18,43 +17,6 @@
     var v = tokens[el.getAttribute('data-tally')];
     if (v) el.textContent = v;
   });
-  document.querySelectorAll('.sec-head h2').forEach(function (h) {
-    if (h.id === 's2h') h.textContent = 'From ' + tokens.analyzed + ' to twelve.';
-  });
-
-  /* "10,450" -> {n:10450, comma:true, suffix:''}; "80%" -> {n:80, suffix:'%'} */
-  function parse(str) {
-    var m = String(str).match(/^([^0-9]*)([0-9][0-9,]*)(.*)$/);
-    if (!m) return null;
-    return { pre: m[1], n: parseInt(m[2].replace(/,/g, ''), 10), comma: m[2].indexOf(',') > -1, suf: m[3] };
-  }
-  function fmt(p, n) {
-    var s = String(Math.round(n));
-    if (p.comma) s = s.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    return p.pre + s + p.suf;
-  }
-  function tween(el, from, to, dur, delay, done) {
-    var p = parse(el.textContent);
-    if (!p) return;
-    var start = null;
-    function step(ts) {
-      if (start === null) start = ts + (delay || 0);
-      var t = Math.min(Math.max((ts - start) / dur, 0), 1);
-      el.textContent = fmt(p, from + (to - from) * easeOut(t));
-      if (t < 1) el._raf = requestAnimationFrame(step);
-      else if (done) done();
-    }
-    cancelAnimationFrame(el._raf);
-    el._raf = requestAnimationFrame(step);
-  }
-
-  /* ---- Hero count-up (1.2s on load) ------------------------------------- */
-  if (!reduce) {
-    document.querySelectorAll('[data-count]').forEach(function (el) {
-      var p = parse(el.textContent);
-      if (p) tween(el, 0, p.n, 1200, 150);
-    });
-  }
 
   /* ---- Header: hairline shadow after 8px -------------------------------- */
   var hdr = document.getElementById('hdr');
@@ -92,39 +54,19 @@
     reveals.forEach(function (el) { ro.observe(el); });
   }
 
-  /* ---- S2 process timeline --------------------------------------------- */
+  /* ---- S1 hero: the shelf and the scanner --------------------------------
+     All motion is CSS on one 15s clock (v5-loop.css). JS only starts the loop
+     on load and pauses it while the stage is off screen. Without JS, or with
+     reduced motion, the stage shows its end state: twelve on three shelves. */
   var stage = document.getElementById('stage');
-  var count = document.getElementById('stage-count');
-  var replay = document.getElementById('replay');
-  var TOTAL = 4100; /* last keyframe (the arrow) ends at 4.0s */
-  var timer = null;
-  var from = parse(tokens.analyzed);
-
-  function finish() {
-    stage.classList.remove('play');
-    stage.classList.add('done');
-    count.textContent = '12';
+  if (stage && !reduce) {
+    stage.classList.add('loop');
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        stage.classList.toggle('paused', !entries[0].isIntersecting);
+      }).observe(stage);
+    }
   }
-  function play() {
-    clearTimeout(timer);
-    stage.classList.remove('play', 'done');
-    void stage.offsetWidth; /* restart the keyframes */
-    count.textContent = tokens.analyzed;
-    stage.classList.add('play');
-    tween(count, from ? from.n : 10450, 12, 3300, 300);
-    timer = setTimeout(finish, TOTAL);
-  }
-  if (reduce) {
-    finish();
-  } else if ('IntersectionObserver' in window) {
-    var so = new IntersectionObserver(function (entries) {
-      if (entries[0].isIntersecting) { so.disconnect(); play(); }
-    }, { threshold: 0.5 });
-    so.observe(stage);
-  } else {
-    finish();
-  }
-  replay.addEventListener('click', play);
 
   /* ---- Term tooltips: hover + focus in CSS; tap/click toggles ------------ */
   var terms = document.querySelectorAll('.term');
