@@ -352,7 +352,7 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
   .hero h1{font-size:42px;letter-spacing:-.045em}
   .hero .lead{margin-top:20px}
   .stage{aspect-ratio:auto;height:300px}
-  .shelf{height:auto}
+  .shelf{height:auto;top:16px}
   .tg{font-size:12px;padding:7px 11px}
   .phrases{bottom:4px}
   .ph-slot{height:24px}
