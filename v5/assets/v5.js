@@ -97,6 +97,7 @@
   function setMenu(open) {
     burger.setAttribute('aria-expanded', String(open));
     burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    if (open) menu.style.top = Math.max(0, hdr.querySelector('.mast').getBoundingClientRect().bottom) + 'px';
     menu.hidden = !open;
     document.documentElement.style.overflow = open ? 'hidden' : '';
     if (open) { var first = menu.querySelector('a'); if (first) first.focus(); }
@@ -108,6 +109,49 @@
   });
   var mq = window.matchMedia('(min-width: 1025px)');
   (mq.addEventListener ? mq.addEventListener.bind(mq, 'change') : mq.addListener.bind(mq))(function (m) { if (m.matches) setMenu(false); });
+
+  /* ---- Category bar: one panel at a time; Escape, outside click or the same
+     button closes it; 160ms fade/slide (CSS) ------------------------------ */
+  var catBtns = hdr.querySelectorAll('.cat-btn');
+  var openBtn = null;
+  function closePanel(btn, instant) {
+    var panel = document.getElementById(btn.getAttribute('aria-controls'));
+    btn.setAttribute('aria-expanded', 'false');
+    panel.classList.remove('open');
+    if (instant) panel.hidden = true;
+    else setTimeout(function () { if (btn.getAttribute('aria-expanded') === 'false') panel.hidden = true; }, 170);
+    if (openBtn === btn) openBtn = null;
+  }
+  function openPanel(btn) {
+    if (openBtn && openBtn !== btn) closePanel(openBtn, true);
+    var panel = document.getElementById(btn.getAttribute('aria-controls'));
+    panel.hidden = false;
+    btn.setAttribute('aria-expanded', 'true');
+    requestAnimationFrame(function () { requestAnimationFrame(function () { panel.classList.add('open'); }); });
+    openBtn = btn;
+  }
+  catBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      if (btn.getAttribute('aria-expanded') === 'true') closePanel(btn); else openPanel(btn);
+    });
+  });
+  document.addEventListener('click', function (e) {
+    if (openBtn && !e.target.closest('.cat-btn') && !e.target.closest('.cat-panel')) closePanel(openBtn);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && openBtn) { var b = openBtn; closePanel(b); b.focus(); }
+  });
+
+  /* ---- Phone menu: categories as an accordion (one open at a time) ---------- */
+  var accBtns = menu.querySelectorAll('.acc-btn');
+  accBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') !== 'true';
+      accBtns.forEach(function (o) { o.setAttribute('aria-expanded', 'false'); document.getElementById(o.getAttribute('aria-controls')).hidden = true; });
+      btn.setAttribute('aria-expanded', String(open));
+      document.getElementById(btn.getAttribute('aria-controls')).hidden = !open;
+    });
+  });
 
   /* ---- Sections rise in once ------------------------------------------- */
   var reveals = document.querySelectorAll('.reveal');
