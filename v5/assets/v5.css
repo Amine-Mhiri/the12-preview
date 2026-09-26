@@ -118,7 +118,7 @@ h2{font-size:48px}
 /* 7. Hero (S1): statement left, the shelf and the scanner right ---------- */
 main > section.hero{padding:96px 0 112px}
 .hero-grid{display:grid;grid-template-columns:minmax(0,560fr) minmax(0,720fr);gap:64px;align-items:center}
-.hero h1{font-family:var(--ui);font-size:min(64px,4.44vw);font-weight:600;line-height:1.04;letter-spacing:-.035em;text-wrap:initial}
+.hero h1{font-family:var(--ui);font-size:min(60px,4.17vw);font-weight:600;line-height:1.04;letter-spacing:-.035em;text-wrap:initial}
 .hero h1 span,.hero h1 em{display:block;white-space:nowrap}
 .hero h1 em{font-style:normal;color:var(--brand)}
 .hero .lead{max-width:520px;margin-top:28px;text-wrap:pretty}
@@ -141,7 +141,7 @@ mark{background:var(--mint);color:inherit;padding:0 .1em;margin:0 -.04em;border-
      the12 phrases · 15.4–16.2 fade out, restart
    The .loop class is in the markup; without it the clock sits at 14.8s. */
 .stage{position:relative;width:100%;max-width:720px;aspect-ratio:720/520;justify-self:end;--t0:0ms}
-.stage .an{animation-duration:15000ms;animation-iteration-count:infinite;animation-timing-function:linear;animation-fill-mode:both;animation-delay:var(--t0)}
+.stage .an{animation-duration:16200ms;animation-iteration-count:infinite;animation-timing-function:linear;animation-fill-mode:both;animation-delay:var(--t0)}
 .stage:not(.loop){--t0:-14800ms}
 .stage:not(.loop) .an,.stage.paused .an{animation-play-state:paused}
 .shelf{position:absolute;inset:0;width:100%;height:100%}
@@ -157,7 +157,7 @@ mark{background:var(--mint);color:inherit;padding:0 .1em;margin:0 -.04em;border-
 .dots{position:absolute;inset:0;display:flex;justify-content:center;gap:6px;opacity:0}
 .dots i{width:4px;height:4px;border-radius:50%;background:var(--line)}
 
-.shelf{--k:1}
+.shelf{--k:1;--dy:0px}
 .shelf .board{stroke:var(--ink);stroke-width:2}
 .shelf .zone{opacity:0}
 .shelf .disc{r:196px;fill:var(--mint);transform-box:fill-box;transform-origin:center}
@@ -370,16 +370,17 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
   .hero h1{font-size:36px}
   .hero .lead{margin-top:20px}
   .stage{aspect-ratio:auto;height:344px}
-  .shelf{height:300px;--k:1.2333}
+  .shelf{height:300px;--k:1.2333;--dy:21.6px}
+  .shelf .disc,.shelf .zring{cy:259.6px}
   .shelf .disc{r:237px}
   .shelf .zring{r:253px}
-  .zone-label{top:257px;font-size:12px;padding:4px 10px}
+  .zone-label{top:268px;font-size:12px;padding:4px 10px}
   .charter{max-width:98px;white-space:normal;font-size:12px;line-height:1.25;padding:5px 8px 5px 7px;gap:5px;align-items:flex-start}
   .charter .ch-check{width:10px;height:10px;margin-top:2px}
   .charter.ch0,.charter.ch1{left:auto;right:0;transform-origin:right center}
   .charter.ch2,.charter.ch3{right:auto;left:0;transform-origin:left center}
-  .charter.ch0,.charter.ch3{top:49px}
-  .charter.ch1,.charter.ch2{top:227px}
+  .charter.ch0,.charter.ch3{top:61px}
+  .charter.ch1,.charter.ch2{top:239px}
   .prog{left:auto;right:0;top:16px;transform:translateY(-50%);gap:8px}
   .prog-track{width:100px}
   .tg{font-size:13px;padding:7px 11px}
