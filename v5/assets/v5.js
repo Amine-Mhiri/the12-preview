@@ -7,22 +7,41 @@
   var body = document.body;
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* ---- S1 hero: the shelf and the scanner --------------------------------
-     All motion is CSS on one 15s clock (v5-loop.css); the stage carries
-     .loop from the markup, so it runs without this script. JS only pauses it
-     while off screen, and under reduced motion offers a Play button. */
+  /* ---- S1 hero: the shelf, the scanner and the safe zone -----------------
+     All motion is CSS on one 16.2s clock (v5-loop.css) and always runs; the
+     stage carries .loop from the markup, so it runs without this script. JS
+     pauses it while off screen and writes the progress label, read from the
+     shared clock (0% at the start, 100% at the end of the safe-zone hold). */
   try {
     var stage = document.getElementById('stage');
     if (stage) {
       stage.classList.add('loop');
-      var play = document.getElementById('stage-play');
-      if (play) {
-        play.hidden = !reduce;
-        play.addEventListener('click', function () { stage.classList.add('force'); play.hidden = true; });
-      }
+      var CYCLE = 16200, HOLD_END = 15400;
+      var pct = document.getElementById('stage-pct');
+      var clocks = stage.querySelectorAll('.clk'), raf = 0, last = '';
+      var clock = function () {
+        for (var i = 0; i < clocks.length; i++) {
+          var a = clocks[i].getAnimations ? clocks[i].getAnimations() : [];
+          if (a.length) return a[0];
+        }
+        return null;
+      };
+      var tick = function () {
+        var a = clock();
+        if (a && a.currentTime !== null && pct) {
+          var t = ((a.currentTime % CYCLE) + CYCLE) % CYCLE;
+          var txt = Math.min(100, Math.max(0, Math.floor(t / HOLD_END * 100))) + '%';
+          if (txt !== last) { pct.textContent = txt; last = txt; }
+        }
+        raf = requestAnimationFrame(tick);
+      };
+      raf = requestAnimationFrame(tick);
       if ('IntersectionObserver' in window) {
         new IntersectionObserver(function (entries) {
-          stage.classList.toggle('paused', !entries[0].isIntersecting);
+          var on = entries[0].isIntersecting;
+          stage.classList.toggle('paused', !on);
+          cancelAnimationFrame(raf);
+          if (on) raf = requestAnimationFrame(tick);
         }).observe(stage);
       }
     }
