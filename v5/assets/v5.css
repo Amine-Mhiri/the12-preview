@@ -114,57 +114,69 @@ h2{font-size:48px}
 .menu-in{display:flex;flex-direction:column;padding-top:32px;padding-bottom:48px}
 .menu a{font-size:30px;font-weight:600;letter-spacing:-.03em;padding:18px 0;border-bottom:1px solid var(--line)}
 
-/* 7. Hero (S1): statement ------------------------------------------------- */
-main > section.hero{padding-top:64px;padding-bottom:var(--pad)}
-.hero-copy{text-align:center;max-width:1344px;margin:0 auto}
-.hero h1{font-size:88px;font-weight:600;line-height:1.02;letter-spacing:-.035em}
-.hero h1 span{display:block}
-.hero .lead{margin:24px auto 0}
+/* 7. Hero (S1): statement left, the shelf and the scanner right ---------- */
+main > section.hero{padding:96px 0 112px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,560fr) minmax(0,720fr);gap:64px;align-items:center}
+.hero h1{font-size:min(64px,4.45vw);font-weight:600;line-height:1.04;letter-spacing:-.035em;text-wrap:initial}
+.hero h1 span{display:block;white-space:nowrap}
+.hero .lead{max-width:480px;margin-top:28px;text-wrap:pretty}
 
-/* 8. Hero (S1): the process strip ---------------------------------------------
-   Three beats: everything -> one filter -> twelve. One 8s clock, looping forever.
-   Each animated element has its own keyframes in v5-loop.css (generated), all on
-   the same clock with no per-element delay, so the strip resets as one:
-     0–2.8s row streams to the gate · 1.2–4.0s 80% red/drop/×, 20% pass green
-     3.4–5.0s twelve settle · 5.0–6.8s hold · 6.8–8.0s reset, the row fades back in
-   Reduced motion: --t0 moves the clock to 6.0s and pauses it (the end state). */
-.stage{position:relative;margin-top:56px;--t0:0ms}
-.counter{position:absolute;top:0;left:0;z-index:2;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 18px 0 14px;border:1px solid var(--line);border-radius:var(--r-pill);background:var(--white);font-size:13px;color:var(--muted)}
-.counter b{font-size:18px;font-weight:600;color:var(--ink);letter-spacing:-.01em;font-variant-numeric:tabular-nums}
-.counter .dot{width:8px;height:8px;border-radius:50%;background:var(--brand)}
-.st{width:100%;height:auto;overflow:visible}
-.st-v{display:none}
-.caps{display:grid;grid-template-columns:38.69% 22.62% 38.69%;margin-top:20px}
-.cap{display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 24px;opacity:.42}
-.cap .n{font-size:22px;font-weight:600;line-height:1;color:var(--brand);font-variant-numeric:tabular-nums;margin-bottom:10px}
-.cap .ct{font-size:17px;font-weight:600;color:var(--ink)}
-.cap .cl2{font-size:15px;line-height:1.5;color:var(--muted);margin-top:4px;max-width:300px;text-wrap:balance}
+/* the one highlight device: a mint marker, once per headline */
+mark{background:var(--mint);color:inherit;padding:0 .12em;border-radius:4px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.manifesto mark{background:none;color:#F3E7C6;padding:0}
 
-.st .base{stroke:var(--mint-deep);stroke-width:1}
-.st .rw{color:var(--ink);fill:var(--white);stroke-width:1.25}
-.st .post{fill:var(--brand)}
-.st .lintel{fill:var(--brand)}
-.st .seal{fill:var(--white);stroke:var(--gold);stroke-width:1.5}
-.st .seal-mark{fill:none;stroke:var(--gold);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
-.st .slot{fill:none;stroke:none}
-.st .tick{stroke:#AEB9B2;stroke-width:1}
-.st .tx{fill:none;stroke:var(--reject);stroke-width:1.25;stroke-linecap:round;opacity:0}
-.st .mv{color:var(--ink);fill:var(--white);stroke-width:1.25;opacity:0}
-.st .mv > use{transform-box:fill-box;transform-origin:50% 100%}
+/* 8. Hero (S1): the stage --------------------------------------------------
+   One 15s clock. Every animated piece (.an) has its own keyframes in
+   v5-loop.css (generated), all at delay 0, so the loop resets as one under
+   the scene fade:
+     0–0.6 fade in · 0.6–6.2 classic e-commerce phrases, shelf drifts 40px
+     6.2–8.6 scanner sweeps; each product resolves as the bar crosses it
+     7.4 toggle flips · 8.6–9.6 the out fade, the twelve close into rows of 4
+     9.6–14.1 the12 phrases · 14.1–14.9 fade out, restart
+   Without .loop (no JS, or reduced motion) the clock sits at 10.2s: the end
+   state, twelve on three shelves, "Only the shortlist." */
+.stage{position:relative;width:100%;max-width:720px;aspect-ratio:720/520;justify-self:end;--t0:0ms}
+.stage .an{animation-duration:15000ms;animation-iteration-count:infinite;animation-timing-function:linear;animation-fill-mode:both;animation-delay:var(--t0)}
+.stage:not(.loop){--t0:-10200ms}
+.stage:not(.loop) .an,.stage.paused .an{animation-play-state:paused}
+.shelf{position:absolute;inset:0;width:100%;height:100%}
+.toggle{position:absolute;top:0;left:0;z-index:2;display:inline-flex;gap:2px;padding:3px;border-radius:var(--r-pill);background:var(--ivory)}
+.tg{font-size:13px;font-weight:600;line-height:1;padding:8px 13px;border-radius:var(--r-pill);color:var(--muted);white-space:nowrap}
+.phrases{position:absolute;left:0;right:0;bottom:6px;text-align:center;pointer-events:none}
+.ph-slot{position:relative;height:32px}
+.ph{position:absolute;left:0;right:0;top:0;font-size:22px;font-weight:600;line-height:32px;letter-spacing:-.015em;white-space:nowrap;opacity:0}
+.ph-b{color:var(--muted)}
+.ph-a{color:var(--ink)}
+.ph-a::before{content:"";display:inline-block;width:4px;height:4px;border-radius:50%;background:var(--brand);vertical-align:middle;margin:0 10px 4px 0}
+.ph-dots{position:relative;height:4px;margin-top:10px}
+.dots{position:absolute;inset:0;display:flex;justify-content:center;gap:6px;opacity:0}
+.dots i{width:4px;height:4px;border-radius:50%;background:var(--line)}
 
-.stage .rw,.stage .tx,.stage .mv,.stage .mv > use[style],.stage .clk,.stage .cap{
-  animation-duration:8000ms;animation-iteration-count:infinite;animation-timing-function:linear;
-  animation-fill-mode:both;animation-delay:var(--t0);
-}
-.stage .clk{animation-name:clk}
-.stage .cap1{animation-name:cap1}
-.stage .cap2{animation-name:cap2}
-.stage .cap3{animation-name:cap3}
-.stage.paused *{animation-play-state:paused}
-@keyframes clk{0%,100%{opacity:1}}
-@keyframes cap1{0%,85%{opacity:1}91.25%,95%{opacity:.42}100%{opacity:1}}
-@keyframes cap2{0%,15%{opacity:.42}17.5%,85%{opacity:1}91.25%,100%{opacity:.42}}
-@keyframes cap3{0%,43.75%{opacity:.42}46.25%,85%{opacity:1}91.25%,100%{opacity:.42}}
+.shelf .board{stroke:var(--ink);stroke-width:2}
+.shelf .ret{fill:#EDF0EE}
+.shelf .rule{stroke:#B9C3BD;stroke-width:1;stroke-dasharray:1 5;stroke-linecap:round}
+.shelf .pd{color:var(--ink);fill:var(--white);stroke-width:1.25}
+.shelf .no{fill:none;stroke:var(--reject);stroke-width:1.5;stroke-linecap:round;opacity:0}
+.shelf .ok{opacity:0}
+.shelf .ok circle{fill:var(--white);stroke:var(--brand);stroke-width:1.25}
+.shelf .ok path,.shelf .seal path{fill:none;stroke:var(--brand);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.shelf .seal{opacity:0;transform-box:fill-box;transform-origin:center}
+.shelf .seal circle{fill:var(--white);stroke:var(--gold);stroke-width:1.5}
+.shelf .seal path{stroke:var(--gold)}
+.shelf .sk{fill:var(--white);stroke:var(--ink);stroke-width:.75}
+.shelf .sk-red{fill:var(--reject);stroke:none}
+.shelf .sk-ink{fill:var(--ink);stroke:none}
+.shelf .sk-t{font-family:var(--ui);font-size:9px;font-weight:600;fill:var(--ink);stroke:none}
+.shelf .sk-w{fill:var(--white)}
+.shelf .sk-r{fill:var(--reject)}
+.shelf .sk-m{fill:var(--muted);font-size:8px;font-weight:500}
+.shelf .sk-s{font-size:7px;letter-spacing:.02em}
+.shelf .sk-strike{stroke:var(--muted);stroke-width:.75}
+.shelf .sk-star{fill:var(--ink);stroke:none}
+.shelf .bar{fill:var(--brand)}
+.shelf .glow{opacity:.18}
+.shelf .scan-seal rect{fill:var(--brand)}
+.shelf .scan-seal text{font-family:var(--ui);font-size:12px;font-weight:600;fill:var(--white);letter-spacing:-.03em}
 
 /* 9. Paradox (S2) ---------------------------------------------------------- */
 .grid-75{display:grid;grid-template-columns:7fr 5fr;gap:var(--gutter);align-items:start}
@@ -283,6 +295,7 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
 
 /* 16. Footer (S8) ---------------------------------------------------------- */
 .ftr{border-top:1px solid var(--line);padding:64px 0 40px}
+.integrity strong{color:var(--brand);font-weight:600}
 .integrity{max-width:760px;margin:0 auto;text-align:center;font-size:15px;line-height:1.6;color:var(--ink);text-wrap:balance}
 .ftr-cols{display:grid;grid-template-columns:repeat(3,minmax(0,200px));justify-content:center;gap:64px;margin-top:56px}
 .ftr-cols h3{font-size:13px;font-weight:600;letter-spacing:0;color:var(--muted);margin-bottom:14px}
@@ -307,12 +320,16 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
 
 /* 18. Responsive ----------------------------------------------------------- */
 @media (max-width:1280px){
-  .hero h1{font-size:clamp(42px,6.4vw,88px)}
   .pillars{grid-template-columns:repeat(2,1fr)}
   .tiles{grid-template-columns:repeat(3,1fr)}
   .stanza{font-size:32px}
   .case{grid-template-columns:1fr 1fr}
   .case-link{grid-column:1 / -1;justify-self:end}
+}
+@media (max-width:1100px){
+  .hero-grid{grid-template-columns:1fr;gap:56px}
+  .hero h1{font-size:64px}
+  .stage{justify-self:center}
 }
 @media (max-width:1024px){
   .nav{display:none}
@@ -323,25 +340,25 @@ main > section.manifesto{background:var(--forest);color:var(--white);padding:160
   .facts{max-width:560px;margin-top:56px}
   .stanzas{padding-right:0}
   .mani-side{justify-self:start;margin-top:72px}
-  .cap{padding:0 12px}
-  .cap .cl2{font-size:13px}
-  .counter{position:static;margin-bottom:16px}
 }
 @media (max-width:760px){
   :root{--margin:24px;--pad:80px}
   h2{font-size:32px}
   .sec-head{margin-bottom:48px}
   .lead{font-size:18px}
-  .hero h1{font-size:40px;line-height:1.06;letter-spacing:-.04em}
-  .hero .lead{margin-top:24px}
-  main > section.hero{padding-top:48px}
-  .stage{margin-top:40px}
-  .st-h{display:none}
-  .st-v{display:block;margin-top:8px}
-  .caps{grid-template-columns:1fr;gap:0;margin-top:8px;border-top:1px solid var(--line)}
-  .cap{display:grid;grid-template-columns:36px 1fr;align-items:baseline;text-align:left;padding:14px 0;border-bottom:1px solid var(--line);row-gap:2px}
-  .cap .n{grid-row:span 2;font-size:20px;margin:0}
-  .cap .cl2{font-size:15px;max-width:none;margin-top:2px}
+  :root{--margin:16px}
+  main > section.hero{padding:48px 0 80px}
+  .hero-grid{gap:40px}
+  .hero h1{font-size:42px;letter-spacing:-.045em}
+  .hero .lead{margin-top:20px}
+  .stage{aspect-ratio:auto;height:300px}
+  .shelf{height:auto}
+  .tg{font-size:12px;padding:7px 11px}
+  .phrases{bottom:4px}
+  .ph-slot{height:24px}
+  .ph{font-size:15px;line-height:24px}
+  .ph-a::before{margin:0 8px 3px 0}
+  .ph-dots{margin-top:8px}
   .big{font-size:44px}
   .paradox .body{font-size:17px}
   .illo-aisle{margin-top:40px}
