@@ -47,6 +47,33 @@
     }
   } catch (err) { /* the loop still runs from the markup */ }
 
+  /* ---- S2 cards: two 8s CSS loops ----------------------------------------
+     JS only counts "Spent on claims" from the aisle card's own clock and pauses
+     each card while it is off screen. */
+  try {
+    var cards = document.querySelectorAll('.card-stage');
+    var spent = document.getElementById('spent');
+    var aisleClk = document.querySelector('.cs-aisle .cclk');
+    var lastSpent = '';
+    var spentTick = function () {
+      var a = aisleClk && aisleClk.getAnimations ? aisleClk.getAnimations()[0] : null;
+      if (a && a.currentTime !== null && spent) {
+        var t = ((a.currentTime % 8000) + 8000) % 8000;
+        var f = Math.min(t / 6000, 1), v = Math.round(84 * (1 - Math.pow(1 - f, 2)));
+        var txt = '$' + v;
+        if (txt !== lastSpent) { spent.textContent = txt; lastSpent = txt; }
+      }
+      requestAnimationFrame(spentTick);
+    };
+    requestAnimationFrame(spentTick);
+    if ('IntersectionObserver' in window) {
+      var co = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) { en.target.classList.toggle('paused', !en.isIntersecting); });
+      });
+      cards.forEach(function (c) { co.observe(c); });
+    }
+  } catch (err) { /* the cards still loop from CSS */ }
+
   /* ---- Number tokens ---------------------------------------------------- */
   var tokens = {
     analyzed: body.getAttribute('data-analyzed') || '10,450',
