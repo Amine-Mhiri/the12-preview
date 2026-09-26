@@ -1,13 +1,11 @@
 /* the12 — v5 prototype behaviour.
-   Tokens, header, menu, reveals, the S1 process counter (all motion is
-   CSS; JS only keeps the counter in step and pauses it off screen),
-   term tooltips. */
+   Tokens, header, menu, reveals, the S1 hero loop (all motion is CSS;
+   JS only starts it and pauses it off screen), term tooltips. */
 (function () {
   'use strict';
 
   var body = document.body;
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var easeOut = function (t) { return 1 - Math.pow(1 - t, 3); };
 
   /* ---- Number tokens ---------------------------------------------------- */
   var tokens = {
@@ -19,17 +17,7 @@
     var v = tokens[el.getAttribute('data-tally')];
     if (v) el.textContent = v;
   });
-  /* "10,450" -> {n:10450, comma:true, suffix:''}; "80%" -> {n:80, suffix:'%'} */
-  function parse(str) {
-    var m = String(str).match(/^([^0-9]*)([0-9][0-9,]*)(.*)$/);
-    if (!m) return null;
-    return { pre: m[1], n: parseInt(m[2].replace(/,/g, ''), 10), comma: m[2].indexOf(',') > -1, suf: m[3] };
-  }
-  function fmt(p, n) {
-    var s = String(Math.round(n));
-    if (p.comma) s = s.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    return p.pre + s + p.suf;
-  }
+
   /* ---- Header: hairline shadow after 8px -------------------------------- */
   var hdr = document.getElementById('hdr');
   function onScroll() { hdr.classList.toggle('scrolled', window.scrollY > 8); }
@@ -66,51 +54,16 @@
     reveals.forEach(function (el) { ro.observe(el); });
   }
 
-  /* ---- S1 process strip: an 8s CSS loop; JS only drives the counter -----
-     The counter reads the phase of the strip's shared clock (the .clk element),
-     so it stays in step with the CSS even when the loop is paused. */
+  /* ---- S1 hero: the shelf and the scanner --------------------------------
+     All motion is CSS on one 15s clock (v5-loop.css). JS only starts the loop
+     on load and pauses it while the stage is off screen. Without JS, or with
+     reduced motion, the stage shows its end state: twelve on three shelves. */
   var stage = document.getElementById('stage');
-  var count = document.getElementById('stage-count');
-  var CYCLE = 8000;
-  var from = parse(tokens.analyzed) || { pre: '', n: 10450, comma: true, suf: '' };
-  var easeInOut = function (t) { return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; };
-  function countAt(ms) {
-    /* full until the first silhouettes reach the gate (1.2s) · down to 12 by 4.4s
-       (the last twelve settling) · hold · 7.0–7.9s back up as the row refills */
-    if (ms < 1200) return from.n;
-    if (ms < 4400) return from.n + (12 - from.n) * easeOut((ms - 1200) / 3200);
-    if (ms < 7000) return 12;
-    if (ms < 7900) return 12 + (from.n - 12) * easeInOut((ms - 7000) / 900);
-    return from.n;
-  }
-  var clocks = stage.querySelectorAll('.clk'); /* one per layout; the hidden one has no running animation */
-  function clock() {
-    for (var i = 0; i < clocks.length; i++) {
-      var a = clocks[i].getAnimations();
-      if (a.length) return a[0];
-    }
-    return null;
-  }
-  var raf = 0, last = '';
-  function tick() {
-    var a = clock();
-    if (a && a.currentTime !== null) {
-      var txt = fmt(from, countAt(((a.currentTime % CYCLE) + CYCLE) % CYCLE));
-      if (txt !== last) { count.textContent = txt; last = txt; }
-    }
-    raf = requestAnimationFrame(tick);
-  }
-  if (reduce) {
-    count.textContent = '12';
-  } else {
-    raf = requestAnimationFrame(tick);
+  if (stage && !reduce) {
+    stage.classList.add('loop');
     if ('IntersectionObserver' in window) {
-      /* pause the loop (and the counter) while the stage is off screen */
       new IntersectionObserver(function (entries) {
-        var on = entries[0].isIntersecting;
-        stage.classList.toggle('paused', !on);
-        cancelAnimationFrame(raf);
-        if (on) raf = requestAnimationFrame(tick);
+        stage.classList.toggle('paused', !entries[0].isIntersecting);
       }).observe(stage);
     }
   }

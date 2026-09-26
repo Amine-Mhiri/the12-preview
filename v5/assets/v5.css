@@ -122,7 +122,7 @@ main > section.hero{padding:96px 0 112px}
 .hero .lead{max-width:480px;margin-top:28px;text-wrap:pretty}
 
 /* the one highlight device: a mint marker, once per headline */
-mark{background:var(--mint);color:inherit;padding:0 .12em;border-radius:4px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark{background:var(--mint);color:inherit;padding:0 .1em;margin:0 -.04em;border-radius:4px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .manifesto mark{background:none;color:#F3E7C6;padding:0}
 
 /* 8. Hero (S1): the stage --------------------------------------------------
