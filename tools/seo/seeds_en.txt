@@ -1,0 +1,94 @@
+# Seed keywords — English. One per line. Lines starting with # are ignored.
+# Cluster A — the core offer (curated healthy shopping)
+healthy food kuwait
+healthy snacks kuwait
+healthy grocery kuwait
+organic food kuwait
+organic store kuwait
+organic products kuwait
+natural products kuwait
+clean eating kuwait
+clean label products
+clean label food
+clean ingredients
+no additives food
+additive free snacks
+preservative free food
+sugar free snacks kuwait
+sugar free kuwait
+no added sugar
+low sugar snacks
+gluten free kuwait
+gluten free products kuwait
+dairy free kuwait
+vegan products kuwait
+keto kuwait
+keto snacks kuwait
+diabetic food kuwait
+healthy delivery kuwait
+healthy online store kuwait
+health store kuwait
+health food store kuwait
+wholefoods kuwait
+# Cluster B — family and kids
+healthy snacks for kids
+healthy kids snacks kuwait
+kids snacks no sugar
+baby food kuwait
+organic baby food kuwait
+toddler snacks healthy
+school snacks healthy
+family healthy food
+healthy lunchbox ideas
+# Cluster C — sport and nutrition (open now)
+supplements kuwait
+supplement store kuwait
+protein powder kuwait
+whey protein kuwait
+whey isolate kuwait
+plant protein kuwait
+collagen kuwait
+creatine kuwait
+pre workout kuwait
+electrolytes kuwait
+omega 3 kuwait
+vitamin d kuwait
+magnesium kuwait
+multivitamin kuwait
+protein bars kuwait
+clean protein powder
+protein without sucralose
+protein without artificial sweeteners
+best protein powder kuwait
+best supplements kuwait
+sports nutrition kuwait
+# Cluster D — body and home (coming)
+natural skincare kuwait
+clean beauty kuwait
+paraben free kuwait
+fragrance free products
+natural deodorant kuwait
+natural cleaning products kuwait
+eco friendly cleaning kuwait
+non toxic cleaning products
+natural laundry detergent
+# Cluster E — intent and trust
+is sucralose bad
+is acesulfame potassium safe
+carrageenan side effects
+how to read food labels
+food label scanner
+yuka app
+yuka alternative
+healthiest protein powder
+which supplements are safe
+third party tested supplements
+nsf certified supplements
+informed sport
+# Cluster F — buying intent and comparison
+iherb kuwait
+iherb alternative kuwait
+sporter kuwait
+best online store supplements kuwait
+cheapest protein kuwait
+compare supplement prices
