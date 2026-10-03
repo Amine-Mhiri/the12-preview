@@ -113,7 +113,7 @@
   /* ---- Category bar: mega panels. One open at a time. Opens on hover (120ms intent),
      click or keyboard focus; closes on mouseleave (150ms grace), Escape, outside click
      or a second click on the same button; 160ms fade/slide (CSS) --------------- */
-  var catBtns = hdr.querySelectorAll('.cat-btn');
+  var catBtns = hdr.querySelectorAll('.cat-btn[aria-controls]');
   var openBtn = null, openedBy = '', openedAt = 0, openT = 0, closeT = 0, noFocusOpen = false;
   var canHover = window.matchMedia('(hover: hover)').matches;
   function panelOf(btn) { return document.getElementById(btn.getAttribute('aria-controls')); }
