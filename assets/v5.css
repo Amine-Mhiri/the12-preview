@@ -572,3 +572,33 @@ a.mb-item{color:var(--ink)}
 @media (max-width:1180px){
   .br-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 20px}
 }
+
+
+/* Product search uses the same static catalogue as the product pages. */
+.search-dialog{width:min(720px,calc(100% - 32px));max-height:85dvh;margin:8vh auto;padding:24px;border:1px solid var(--line);border-radius:16px;background:var(--white);color:var(--ink);overflow:auto;box-shadow:0 24px 80px #0003}
+.search-dialog::backdrop{background:#15281c88}
+.search-dialog-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}
+.search-dialog h2{font-size:24px}
+.search-close{min-width:44px;min-height:44px;padding:8px;border:1px solid var(--line);border-radius:8px;cursor:pointer}
+.search-input-label{display:block;font-size:14px;margin-bottom:8px}
+#product-search-input{display:block;width:100%;min-width:0;padding:12px;border:1px solid var(--line);border-radius:8px;font:inherit;background:var(--white);color:var(--ink)}
+#product-search-status,.search-source{margin-top:16px;font-size:14px;line-height:1.5;color:var(--muted)}
+#product-search-results{margin-top:12px;padding:0;list-style:none}
+#product-search-results a{display:grid;gap:4px;padding:14px 4px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+#product-search-results a:hover{background:var(--sage-2)}
+.search-result-brand,.search-result-detail{font-size:14px;line-height:1.4;color:var(--muted)}
+.search-dialog :focus-visible{outline:2px solid var(--brand);outline-offset:3px}
+@media (max-width:760px){
+  .hero-copy{min-width:0}
+  .paradox-grid{grid-template-columns:minmax(0,1fr)}
+  .paradox-copy,.ways{min-width:0}
+  .ways .tg{padding-inline:6px;font-size:12px;white-space:normal;text-align:center}
+  .hero h1 span,.hero h1 em{white-space:normal;overflow-wrap:break-word}
+  .mast-in{gap:12px}
+  .mast-in .wordmark{margin-right:auto}
+  .mast-in .mast-cta{display:none}
+  .mast-in .search{display:flex;flex:0 0 44px;width:44px;height:44px;margin:0;padding:13px}
+  .search-t,.search kbd{display:none}
+  .mast-in .burger{flex:none;min-width:44px;min-height:44px}
+  .search-dialog{padding:16px}
+}

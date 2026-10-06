@@ -1,5 +1,8 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
+    { "source": "/the12-preview/", "destination": "/index.html" },
+    { "source": "/the12-preview/:path*/", "destination": "/:path*/index.html" },
     { "source": "/the12-preview/:path*", "destination": "/:path*" }
   ],
   "trailingSlash": true
