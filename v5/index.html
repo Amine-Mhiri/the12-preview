@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/v5.css?v=12">
+<link rel="stylesheet" href="assets/v5.css?v=13">
 <link rel="stylesheet" href="assets/v5-loop.css?v=12">
 <script>document.documentElement.className+=' js';</script>
 </head>
@@ -33,7 +33,7 @@
   </div></div>
   <div class="mast"><div class="shell mast-in">
     <a class="wordmark" href="../" aria-label="the12, home">the<span>12</span></a>
-    <button class="search" type="button" aria-label="Search products, brands or ingredients"><svg class="ico-search" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M12.6 12.6L17 17"/></svg><span class="search-t">Search products, brands or ingredients</span><kbd>⌘K</kbd></button>
+    <button class="search" type="button" aria-controls="product-search" aria-haspopup="dialog" aria-expanded="false" aria-label="Search products, brands or ingredients"><svg class="ico-search" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M12.6 12.6L17 17"/></svg><span class="search-t">Search products, brands or ingredients</span><kbd>⌘K</kbd></button>
     <nav class="mast-nav" aria-label="Secondary"><a href="../method/">How we choose</a></nav>
     <button class="btn btn-brand btn-sm mast-cta cat-btn" type="button" aria-expanded="false" aria-controls="cp-browse" data-open="click">Browse categories<svg class="br-chev" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M3 4.5 6 7.5 9 4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
     <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span></button>
@@ -46,6 +46,15 @@
     </nav>
   </div>
 </header>
+
+<dialog class="search-dialog" id="product-search" aria-labelledby="product-search-title">
+  <div class="search-dialog-head"><h2 id="product-search-title">Search products</h2><button class="search-close" type="button" aria-label="Close search">Close</button></div>
+  <label class="search-input-label" for="product-search-input">Product, brand or declared ingredient</label>
+  <input id="product-search-input" type="search" placeholder="Try a brand or ingredient" autocomplete="off" spellcheck="false" autofocus aria-describedby="product-search-status">
+  <p id="product-search-status" role="status" aria-live="polite"></p>
+  <ul id="product-search-results" aria-label="Search results"></ul>
+  <p id="product-search-source" class="search-source"></p>
+</dialog>
 
 <main id="main">
 
@@ -241,5 +250,6 @@
 </footer>
 
 <script src="assets/v5.js?v=12" defer></script>
+<script src="assets/v5-search.mjs?v=1" type="module"></script>
 </body>
 </html>

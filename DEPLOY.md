@@ -15,5 +15,16 @@ still carry absolute `/the12-preview/...` asset and link paths (everything under
 Vercel domain. `trailingSlash: true` keeps the directory URLs (`shelves/protein/`)
 resolving to their `index.html`.
 
+The explicit page rewrite now maps `/the12-preview/.../` directly to the
+corresponding `.../index.html`. Asset and Next navigation payload filenames keep
+the existing generic prefix rewrite.
+
+The 6 October web-fix release preserves the existing catalogue export and every
+comparator file. V5 search/mobile files are updated at `/` and `/v5/`. Klean
+Isolate image references in the existing HTML/Next payloads point to a neutral
+"Photo unavailable" SVG: the mismatched original photograph remains preserved.
+No full Next catalogue rebuild is copied into this release. `release.json`
+records the exact source commits and the preserved public dataset hashes.
+
 The GitHub Pages URL keeps working unchanged:
 <https://amine-mhiri.github.io/the12-preview/>
