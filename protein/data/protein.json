@@ -5,12 +5,12 @@
   "tagline": "Grams that count, from sources you can name.",
   "description": "The largest category in sport nutrition and the one with the most creative labelling. We read the amino profile before the marketing, reject anything spiked to inflate a protein reading, and rank on protein per calorie, leucine per serving and what the rest of the tub is made of.",
   "build": {
-    "id": 14,
+    "id": 15,
     "source": "crawl",
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-07",
-  "generated_at": "2026-10-07T22:59:28.979Z",
+  "generated_at": "2026-10-07T23:24:32.137Z",
   "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
@@ -1043,11 +1043,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.703,
           "cost_per_25g": 0.7323,
-          "price_observed_at": "2026-10-07T21:40:01.375Z",
+          "price_observed_at": "2026-10-07T23:23:21.428Z",
           "price_source_url": "https://kw.iherb.com/product/transparent-labs-organic-vegan-protein-chocolate-840-g",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-07T21:40:01.375Z",
+            "observed_at": "2026-10-07T23:23:21.428Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1146,11 +1146,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.281,
           "cost_per_25g": 0.2927,
-          "price_observed_at": "2026-10-07T21:40:01.375Z",
+          "price_observed_at": "2026-10-07T23:23:21.428Z",
           "price_source_url": "https://kw.iherb.com/product/bulk-supplements-pea-protein-isolate-unflavoured-1-kg",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-07T21:40:01.375Z",
+            "observed_at": "2026-10-07T23:23:21.428Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1251,11 +1251,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.311,
           "cost_per_25g": 0.288,
-          "price_observed_at": "2026-10-07T21:40:01.375Z",
+          "price_observed_at": "2026-10-07T23:23:21.428Z",
           "price_source_url": "https://kw.iherb.com/product/naked-nutrition-naked-pea-unflavoured-2-27-kg",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-07T21:40:01.375Z",
+            "observed_at": "2026-10-07T23:23:21.428Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1357,11 +1357,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.273,
           "cost_per_25g": 0.2844,
-          "price_observed_at": "2026-10-07T21:40:01.375Z",
+          "price_observed_at": "2026-10-07T23:23:21.428Z",
           "price_source_url": "https://kw.iherb.com/product/anthony-s-goods-organic-pea-protein-unflavoured-1-36-kg",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-07T21:40:01.375Z",
+            "observed_at": "2026-10-07T23:23:21.428Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1390,6 +1390,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-07T22:59:36.695Z",
+  "pulled_at": "2026-10-07T23:24:46.995Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
