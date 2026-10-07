@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "source": "authored",
-  "buildId": 9,
+  "buildId": 12,
   "sourceHashes": {
-    "index": "9280c17a39c8ac7c14841fbe33837fc86113e27a01d08daccfdac2fd997422ef",
-    "products": "ed15fe5655a9972b9775655973ab3071b65ca39008130c20a54d3efe3a6e907d"
+    "index": "b30752fba0f93f3427f2331d19cd69c88478127f8e10f67c4dc094a9d1a41ed5",
+    "products": "423fdcf2b4875af7068e6f22b7bab4ebedde1064a53326ae017e53822e9bff13"
   },
   "entries": [
     {
@@ -17,6 +17,15 @@
       "ingredients": "Whey protein isolate (from milk), sunflower lecithin"
     },
     {
+      "id": "transparent-labs-100-grass-fed-whey-protein-isolate-french-vanilla-2-lb-907-g",
+      "name": "100% Grass-Fed Whey Protein Isolate · French Vanilla",
+      "brand": "Transparent Labs",
+      "type": "Whey Protein Isolate",
+      "href": "/p/transparent-labs-100-grass-fed-whey-protein-isolate-french-vanilla-2-lb-907-g",
+      "listed": true,
+      "ingredients": "Grass-fed whey protein isolate, natural flavor, stevia extract, himalayan pink salt"
+    },
+    {
       "id": "naked-nutrition-naked-whey-isolate-unflavoured-3-lb-1-36-kg",
       "name": "Naked Whey Isolate · Unflavoured",
       "brand": "Naked Nutrition",
@@ -26,11 +35,11 @@
       "ingredients": "Whey protein isolate"
     },
     {
-      "id": "klean-athlete-klean-isolate-unflavoured-1-2-lb-546-g",
-      "name": "Klean Isolate · Unflavoured",
-      "brand": "Klean Athlete",
+      "id": "nutricost-whey-protein-isolate-unflavoured-5-lb-2-27-kg",
+      "name": "Whey Protein Isolate · Unflavoured",
+      "brand": "Nutricost",
       "type": "Whey Protein Isolate",
-      "href": "/p/klean-athlete-klean-isolate-unflavoured-1-2-lb-546-g",
+      "href": "/p/nutricost-whey-protein-isolate-unflavoured-5-lb-2-27-kg",
       "listed": true,
       "ingredients": "Whey protein isolate, sunflower lecithin"
     },
@@ -44,11 +53,11 @@
       "ingredients": "Grass-fed whey protein isolate"
     },
     {
-      "id": "nutricost-whey-protein-isolate-unflavoured-5-lb-2-27-kg",
-      "name": "Whey Protein Isolate · Unflavoured",
-      "brand": "Nutricost",
+      "id": "klean-athlete-klean-isolate-unflavoured-1-2-lb-546-g",
+      "name": "Klean Isolate · Unflavoured",
+      "brand": "Klean Athlete",
       "type": "Whey Protein Isolate",
-      "href": "/p/nutricost-whey-protein-isolate-unflavoured-5-lb-2-27-kg",
+      "href": "/p/klean-athlete-klean-isolate-unflavoured-1-2-lb-546-g",
       "listed": true,
       "ingredients": "Whey protein isolate, sunflower lecithin"
     },
@@ -296,6 +305,33 @@
       "ingredients": "Whey protein concentrate (milk), whey protein isolate, cocoa, flavouring, sweeteners (sucralose, acesulfame K), emulsifier (soy lecithin), thickener (xanthan gum)"
     },
     {
+      "id": "now-sports-micellar-casein-unflavoured-1-8-lb-816-g",
+      "name": "Micellar Casein · Unflavoured",
+      "brand": "NOW Sports",
+      "type": "Casein & Slow-Release Protein",
+      "href": "/p/now-sports-micellar-casein-unflavoured-1-8-lb-816-g",
+      "listed": true,
+      "ingredients": "Micellar casein (from milk), sunflower lecithin"
+    },
+    {
+      "id": "naked-nutrition-naked-casein-unflavoured-5-lb-2-27-kg",
+      "name": "Naked Casein · Unflavoured",
+      "brand": "Naked Nutrition",
+      "type": "Casein & Slow-Release Protein",
+      "href": "/p/naked-nutrition-naked-casein-unflavoured-5-lb-2-27-kg",
+      "listed": true,
+      "ingredients": "Micellar casein"
+    },
+    {
+      "id": "nutricost-micellar-casein-protein-unflavoured-2-lb-907-g",
+      "name": "Micellar Casein Protein · Unflavoured",
+      "brand": "Nutricost",
+      "type": "Casein & Slow-Release Protein",
+      "href": "/p/nutricost-micellar-casein-protein-unflavoured-2-lb-907-g",
+      "listed": true,
+      "ingredients": "Micellar casein, sunflower lecithin"
+    },
+    {
       "id": "optimum-nutrition-gold-standard-100-casein-chocolate-supreme-4-lb-1-82-kg",
       "name": "Gold Standard 100% Casein · Chocolate Supreme",
       "brand": "Optimum Nutrition",
@@ -384,6 +420,15 @@
       "href": "/p/cellucor-cor-performance-casein-cinnamon-swirl-2-lb-907-g",
       "listed": false,
       "ingredients": "Micellar casein, natural and artificial flavors, gum blend (cellulose gum, xanthan gum, carrageenan), soy lecithin, sucralose, acesulfame potassium"
+    },
+    {
+      "id": "transparent-labs-organic-vegan-protein-chocolate-840-g",
+      "name": "Organic Vegan Protein · Chocolate",
+      "brand": "Transparent Labs",
+      "type": "Plant Protein",
+      "href": "/p/transparent-labs-organic-vegan-protein-chocolate-840-g",
+      "listed": true,
+      "ingredients": "Organic pea protein isolate, organic rice protein, organic cocoa, organic natural flavors, organic stevia, himalayan pink salt"
     },
     {
       "id": "bulk-supplements-pea-protein-isolate-unflavoured-1-kg",

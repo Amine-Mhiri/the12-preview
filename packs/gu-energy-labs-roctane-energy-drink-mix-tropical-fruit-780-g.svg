@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Roctane Energy Drink Mix">
-  <defs><linearGradient id="gBody-p2n" x1="0" y1="0" x2="1" y2="0">
+  <defs><linearGradient id="gBody-p1d" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#003769"/>
       <stop offset="0.16" stop-color="#004e95"/>
       <stop offset="0.42" stop-color="#246bac"/>
@@ -12,7 +12,7 @@
   
       <path d="M114 76.8 h252 v16 h-252 z" fill="#003363"/>
       <circle cx="240" cy="84.8" r="3.2" fill="#80a9cf" opacity="0.5"/>
-      <path d="M120 92.8 h240 v279.68 q0 16.8 -14.399999999999999 23.520000000000003 h-211.2 q-14.399999999999999 -6.72 -14.399999999999999 -23.520000000000003 z" fill="url(#gBody-p2n)"/>
+      <path d="M120 92.8 h240 v279.68 q0 16.8 -14.399999999999999 23.520000000000003 h-211.2 q-14.399999999999999 -6.72 -14.399999999999999 -23.520000000000003 z" fill="url(#gBody-p1d)"/>
       <path d="M134.4 372.48 h211.2 l-21.599999999999998 18.48 h-168 z" fill="#00305c"/>
       <rect x="120" y="298.56" width="240" height="16.8" fill="#F5A800" opacity="0.92"/>
     
