@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "category": "daily-essentials",
+  "category_name": "Daily Essentials",
+  "tagline": "The unglamorous four that actually change blood work.",
+  "description": "Omega-3, vitamin D3, magnesium and a sensible multivitamin. No category is more affected by ingredient *form*: magnesium oxide and magnesium glycinate are not the same purchase, and most labels are betting you don't know that.",
+  "build": {
+    "id": 14,
+    "source": "crawl",
+    "charter": "0.11.0"
+  },
+  "reviewed_at": "2026-10-07",
+  "generated_at": "2026-10-07T22:24:36.024Z",
+  "charter": "0.11.0",
+  "exclusion_rules": 475,
+  "comparison_unit": null,
+  "comparison_units": [
+    "1000 mg EPA+DHA",
+    "2000 IU D3",
+    "300 mg elemental magnesium",
+    "one daily dose",
+    "25 mg elemental zinc"
+  ],
+  "copy": {
+    "unit_name": "serving",
+    "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
+    "noun": "daily essentials",
+    "guide_heading": "How do you like your daily essentials?",
+    "guide_open": "What matters most to you?",
+    "milk_allergy_empty": {
+      "title": "Nothing here is free of milk.",
+      "body": "Every product published in this category declares milk. We will not recommend one against a declared milk allergy, and we do not pad the shelf with something we have not judged."
+    }
+  },
+  "constraints": {
+    "director": "Our pick only",
+    "milkAllergy": "Milk allergy",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten-free",
+    "soy": "Soy-free",
+    "noStevia": "No stevia",
+    "sport": "Independently tested"
+  },
+  "priorities": {
+    "rank": "Our ranking",
+    "price": "Lowest pack price",
+    "value": "Price per serving",
+    "simple": "Cleanest label"
+  },
+  "flavors": {
+    "all": "All flavors",
+    "unflavoured": "Unflavoured",
+    "vanilla": "Vanilla",
+    "chocolate": "Chocolate",
+    "fruit": "Fruity",
+    "dessert": "Dessert",
+    "other": "Other"
+  },
+  "director_selection": {
+    "selected": 0,
+    "note": "Products a founder put on the shelf from the database, whatever their score."
+  },
+  "retailer_images": true,
+  "stock_ttl_hours": 24,
+  "affiliate_active": false,
+  "counts": {
+    "reviewed": 90,
+    "selected": 0,
+    "excluded": 73,
+    "pending": 17,
+    "flavor_options": 0
+  },
+  "types": [
+    {
+      "slug": "omega-3",
+      "name": "Omega-3",
+      "purpose": "EPA and DHA. The supplement most people take at a dose too small to matter.",
+      "unit": "1000 mg EPA+DHA",
+      "non_negotiables": [
+        "Combined EPA + DHA of 1000 mg or more per daily serving, stated on the front",
+        "Triglyceride or re-esterified triglyceride form, not ethyl ester alone",
+        "Published oxidation (TOTOX) and heavy-metal testing",
+        "IFOS, Friend of the Sea or equivalent sourcing certification"
+      ],
+      "shelf_note": null,
+      "published": 0
+    },
+    {
+      "slug": "vitamin-d3-k2",
+      "name": "Vitamin D3 & K2",
+      "purpose": "The one deficiency that is near-universal in a climate where nobody trains outdoors at noon.",
+      "unit": "2000 IU D3",
+      "non_negotiables": [
+        "D3 (cholecalciferol), not D2",
+        "K2 as MK-7 when combined",
+        "1000–4000 IU per serving — no 50,000 IU novelty doses",
+        "Fat carrier present, since D3 is fat-soluble"
+      ],
+      "shelf_note": null,
+      "published": 0
+    },
+    {
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "purpose": "Sleep, cramp and recovery support. Form matters more here than in any other category.",
+      "unit": "300 mg elemental magnesium",
+      "non_negotiables": [
+        "Glycinate, malate, citrate or threonate — never oxide as the primary form",
+        "Elemental magnesium stated, not just compound weight",
+        "200–400 mg elemental per serving"
+      ],
+      "shelf_note": null,
+      "published": 0
+    },
+    {
+      "slug": "athlete-multivitamin",
+      "name": "Athlete Multivitamin",
+      "purpose": "Insurance against the gaps a training diet leaves. Not a performance product.",
+      "unit": "one daily dose",
+      "non_negotiables": [
+        "Active vitamin forms — methylfolate over folic acid, methylcobalamin over cyanocobalamin",
+        "No mega-dosing above tolerable upper intake levels",
+        "Third-party tested for banned substances",
+        "No artificial colours in the coating"
+      ],
+      "shelf_note": null,
+      "published": 0
+    },
+    {
+      "slug": "zinc",
+      "name": "Zinc",
+      "purpose": "Immune and hormonal support, at a dose that does not displace copper.",
+      "unit": "25 mg elemental zinc",
+      "non_negotiables": [
+        "Chelated form — picolinate, bisglycinate or citrate",
+        "15–30 mg elemental",
+        "Not zinc oxide"
+      ],
+      "shelf_note": null,
+      "published": 0
+    }
+  ],
+  "groups": []
+}

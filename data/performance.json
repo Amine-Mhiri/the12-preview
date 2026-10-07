@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "category": "performance",
+  "category_name": "Performance",
+  "tagline": "Compounds with trials behind them, at the doses used in those trials.",
+  "description": "Creatine, caffeine, citrulline and beta-alanine have decades of evidence. Almost everything else sold alongside them does not. This category is graded hardest on dose: a clinically studied ingredient at a decorative amount scores zero on efficacy regardless of how clean the label is.",
+  "build": {
+    "id": 14,
+    "source": "crawl",
+    "charter": "0.11.0"
+  },
+  "reviewed_at": "2026-10-07",
+  "generated_at": "2026-10-07T22:24:36.023Z",
+  "charter": "0.11.0",
+  "exclusion_rules": 475,
+  "comparison_unit": null,
+  "comparison_units": [
+    "5 g creatine",
+    "one full scoop",
+    "10 g amino acids",
+    "3.2 g beta-alanine",
+    "6 g L-citrulline"
+  ],
+  "copy": {
+    "unit_name": "serving",
+    "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
+    "noun": "performance",
+    "guide_heading": "How do you like your performance?",
+    "guide_open": "What matters most to you?",
+    "milk_allergy_empty": {
+      "title": "Nothing here is free of milk.",
+      "body": "Every product published in this category declares milk. We will not recommend one against a declared milk allergy, and we do not pad the shelf with something we have not judged."
+    }
+  },
+  "constraints": {
+    "director": "Our pick only",
+    "milkAllergy": "Milk allergy",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten-free",
+    "soy": "Soy-free",
+    "noStevia": "No stevia",
+    "sport": "Independently tested"
+  },
+  "priorities": {
+    "rank": "Our ranking",
+    "price": "Lowest pack price",
+    "value": "Price per serving",
+    "simple": "Cleanest label"
+  },
+  "flavors": {
+    "all": "All flavors",
+    "unflavoured": "Unflavoured",
+    "vanilla": "Vanilla",
+    "chocolate": "Chocolate",
+    "fruit": "Fruity",
+    "dessert": "Dessert",
+    "other": "Other"
+  },
+  "director_selection": {
+    "selected": 0,
+    "note": "Products a founder put on the shelf from the database, whatever their score."
+  },
+  "retailer_images": true,
+  "stock_ttl_hours": 24,
+  "affiliate_active": false,
+  "counts": {
+    "reviewed": 371,
+    "selected": 0,
+    "excluded": 187,
+    "pending": 182,
+    "flavor_options": 0
+  },
+  "types": [
+    {
+      "slug": "creatine-monohydrate",
+      "name": "Creatine Monohydrate",
+      "purpose": "The most studied performance supplement in existence. Also the easiest to overpay for.",
+      "unit": "5 g creatine",
+      "non_negotiables": [
+        "Monohydrate, not a patented form charging a premium for no added effect",
+        "Single ingredient — creatine and nothing else",
+        "5 g per serving",
+        "Creapure or an equivalent published purity certificate"
+      ],
+      "shelf_note": null,
+      "published": 0
+    },
+    {
+      "slug": "pre-workout",
+      "name": "Pre-Workout",
+      "purpose": "Stimulant and pump formulas. The category with the highest rejection rate we have.",
+      "unit": "one full scoop",
+      "non_negotiables": [
+        "Zero proprietary blends — every dose disclosed in milligrams",
+        "Caffeine at or under 300 mg per serving",
+        "No DMAA, DMHA, yohimbine at stimulant doses, or synephrine stacks",
+        "No artificial colours"
+      ],
+      "shelf_note": null,
+      "published": 0
+    },
+    {
+      "slug": "eaa-bcaa",
+      "name": "EAA & BCAA",
+      "purpose": "Free-form amino acids for training on an empty stomach.",
+      "unit": "10 g amino acids",
+      "non_negotiables": [
+        "All nine essential amino acids, not just the three branched-chain",
+        "Full per-amino disclosure",
+        "No artificial colours or sweeteners"
+      ],
+      "shelf_note": null,
+      "published": 0
+    },
+    {
+      "slug": "beta-alanine",
+      "name": "Beta-Alanine",
+      "purpose": "Buffers the burn in efforts lasting one to four minutes.",
+      "unit": "3.2 g beta-alanine",
+      "non_negotiables": [
+        "3.2 g or more per daily dose",
+        "Single ingredient",
+        "No proprietary blend"
+      ],
+      "shelf_note": null,
+      "published": 0
+    },
+    {
+      "slug": "citrulline",
+      "name": "Citrulline & Nitric Oxide",
+      "purpose": "Blood-flow support taken before training, without the stimulants.",
+      "unit": "6 g L-citrulline",
+      "non_negotiables": [
+        "6 g or more of L-citrulline, or 8 g of citrulline malate",
+        "Ratio disclosed",
+        "No artificial colours"
+      ],
+      "shelf_note": null,
+      "published": 0
+    }
+  ],
+  "groups": []
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "category": "recovery",
+  "category_name": "Recovery",
+  "tagline": "What happens between sessions decides the next one.",
+  "description": "Sleep and joint support, filtered for Kuwait's import rules as well as our own doctrine. Where a compound cannot lawfully reach Kuwait, we leave the slot empty rather than list something you cannot receive.",
+  "build": {
+    "id": 14,
+    "source": "crawl",
+    "charter": "0.11.0"
+  },
+  "reviewed_at": "2026-10-07",
+  "generated_at": "2026-10-07T22:24:36.025Z",
+  "charter": "0.11.0",
+  "exclusion_rules": 475,
+  "comparison_unit": null,
+  "comparison_units": [
+    "one full dose"
+  ],
+  "copy": {
+    "unit_name": "serving",
+    "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
+    "noun": "recovery",
+    "guide_heading": "How do you like your recovery?",
+    "guide_open": "What matters most to you?",
+    "milk_allergy_empty": {
+      "title": "Nothing here is free of milk.",
+      "body": "Every product published in this category declares milk. We will not recommend one against a declared milk allergy, and we do not pad the shelf with something we have not judged."
+    }
+  },
+  "constraints": {
+    "director": "Our pick only",
+    "milkAllergy": "Milk allergy",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten-free",
+    "soy": "Soy-free",
+    "noStevia": "No stevia",
+    "sport": "Independently tested"
+  },
+  "priorities": {
+    "rank": "Our ranking",
+    "price": "Lowest pack price",
+    "value": "Price per serving",
+    "simple": "Cleanest label"
+  },
+  "flavors": {
+    "all": "All flavors",
+    "unflavoured": "Unflavoured",
+    "vanilla": "Vanilla",
+    "chocolate": "Chocolate",
+    "fruit": "Fruity",
+    "dessert": "Dessert",
+    "other": "Other"
+  },
+  "director_selection": {
+    "selected": 0,
+    "note": "Products a founder put on the shelf from the database, whatever their score."
+  },
+  "retailer_images": true,
+  "stock_ttl_hours": 24,
+  "affiliate_active": false,
+  "counts": {
+    "reviewed": 35,
+    "selected": 0,
+    "excluded": 31,
+    "pending": 4,
+    "flavor_options": 0
+  },
+  "types": [
+    {
+      "slug": "sleep-recovery",
+      "name": "Sleep & Recovery",
+      "purpose": "Getting to sleep after an evening session, without a compound that leaves you flat.",
+      "unit": "one full dose",
+      "non_negotiables": [
+        "Melatonin, if present, at 0.5–3 mg — not the 10 mg doses sold as stronger",
+        "No proprietary blend",
+        "No ingredient restricted for import into Kuwait"
+      ],
+      "shelf_note": "Melatonin is regulated differently across the Gulf. Where a product cannot be lawfully imported into Kuwait we exclude it, even if it would otherwise score well.",
+      "published": 0
+    },
+    {
+      "slug": "joint-support",
+      "name": "Joint Support",
+      "purpose": "Connective tissue under load. A category thick with underdosed formulas.",
+      "unit": "one full dose",
+      "non_negotiables": [
+        "Actives at the doses used in the trials that are being cited",
+        "No proprietary blend",
+        "Named, standardised extracts"
+      ],
+      "shelf_note": null,
+      "published": 0
+    }
+  ],
+  "groups": []
+}

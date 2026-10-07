@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "category": "body-composition",
+  "category_name": "Body Composition",
+  "tagline": "Calories, engineered honestly.",
+  "description": "Mass gainers and meal replacements are judged as food rather than as supplements, which is why most of the category fails: a product built on maltodextrin and sucralose is not a meal, whatever the tub says.",
+  "build": {
+    "id": 14,
+    "source": "crawl",
+    "charter": "0.11.0"
+  },
+  "reviewed_at": "2026-10-07",
+  "generated_at": "2026-10-07T22:24:36.025Z",
+  "charter": "0.11.0",
+  "exclusion_rules": 475,
+  "comparison_unit": null,
+  "comparison_units": [
+    "500 kcal",
+    "one meal"
+  ],
+  "copy": {
+    "unit_name": "serving",
+    "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
+    "noun": "body composition",
+    "guide_heading": "How do you like your body composition?",
+    "guide_open": "What matters most to you?",
+    "milk_allergy_empty": {
+      "title": "Nothing here is free of milk.",
+      "body": "Every product published in this category declares milk. We will not recommend one against a declared milk allergy, and we do not pad the shelf with something we have not judged."
+    }
+  },
+  "constraints": {
+    "director": "Our pick only",
+    "milkAllergy": "Milk allergy",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten-free",
+    "soy": "Soy-free",
+    "noStevia": "No stevia",
+    "sport": "Independently tested"
+  },
+  "priorities": {
+    "rank": "Our ranking",
+    "price": "Lowest pack price",
+    "value": "Price per serving",
+    "simple": "Cleanest label"
+  },
+  "flavors": {
+    "all": "All flavors",
+    "unflavoured": "Unflavoured",
+    "vanilla": "Vanilla",
+    "chocolate": "Chocolate",
+    "fruit": "Fruity",
+    "dessert": "Dessert",
+    "other": "Other"
+  },
+  "director_selection": {
+    "selected": 0,
+    "note": "Products a founder put on the shelf from the database, whatever their score."
+  },
+  "retailer_images": true,
+  "stock_ttl_hours": 24,
+  "affiliate_active": false,
+  "counts": {
+    "reviewed": 35,
+    "selected": 0,
+    "excluded": 19,
+    "pending": 16,
+    "flavor_options": 0
+  },
+  "types": [
+    {
+      "slug": "mass-gainer",
+      "name": "Mass Gainer",
+      "purpose": "Calories in a shaker, for people who genuinely cannot eat enough.",
+      "unit": "500 kcal",
+      "non_negotiables": [
+        "Carbohydrate source named — maltodextrin disclosed rather than hidden behind 'carb blend'",
+        "Added sugar under 20% of total carbohydrate",
+        "No artificial colours",
+        "Protein at 15% or more of total calories"
+      ],
+      "shelf_note": null,
+      "published": 0
+    },
+    {
+      "slug": "meal-replacement",
+      "name": "Meal Replacement",
+      "purpose": "A complete meal when there is no meal. Judged as food, not as a supplement.",
+      "unit": "one meal",
+      "non_negotiables": [
+        "Full micronutrient profile",
+        "Fibre present at 3 g or more",
+        "No artificial sweeteners, colours or preservatives",
+        "Recognisable whole-food ingredients in the first five lines"
+      ],
+      "shelf_note": null,
+      "published": 0
+    }
+  ],
+  "groups": []
+}

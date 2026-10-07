@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "category": "hydration",
+  "category_name": "Hydration",
+  "tagline": "Electrolytes for a climate that takes them seriously.",
+  "description": "Training in Kuwait means sweating at rates that a temperate-climate label was never designed for. We weight sodium content higher here than any other market would, and we reject the flavoured-water products that sell on packaging alone.",
+  "build": {
+    "id": 14,
+    "source": "crawl",
+    "charter": "0.11.0"
+  },
+  "reviewed_at": "2026-10-07",
+  "generated_at": "2026-10-07T22:24:36.024Z",
+  "charter": "0.11.0",
+  "exclusion_rules": 475,
+  "comparison_unit": null,
+  "comparison_units": [
+    "1000 mg sodium",
+    "50 g carbohydrate"
+  ],
+  "copy": {
+    "unit_name": "serving",
+    "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
+    "noun": "hydration",
+    "guide_heading": "How do you like your hydration?",
+    "guide_open": "What matters most to you?",
+    "milk_allergy_empty": {
+      "title": "Nothing here is free of milk.",
+      "body": "Every product published in this category declares milk. We will not recommend one against a declared milk allergy, and we do not pad the shelf with something we have not judged."
+    }
+  },
+  "constraints": {
+    "director": "Our pick only",
+    "milkAllergy": "Milk allergy",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten-free",
+    "soy": "Soy-free",
+    "noStevia": "No stevia",
+    "sport": "Independently tested"
+  },
+  "priorities": {
+    "rank": "Our ranking",
+    "price": "Lowest pack price",
+    "value": "Price per serving",
+    "simple": "Cleanest label"
+  },
+  "flavors": {
+    "all": "All flavors",
+    "unflavoured": "Unflavoured",
+    "vanilla": "Vanilla",
+    "chocolate": "Chocolate",
+    "fruit": "Fruity",
+    "dessert": "Dessert",
+    "other": "Other"
+  },
+  "director_selection": {
+    "selected": 0,
+    "note": "Products a founder put on the shelf from the database, whatever their score."
+  },
+  "retailer_images": true,
+  "stock_ttl_hours": 24,
+  "affiliate_active": false,
+  "counts": {
+    "reviewed": 28,
+    "selected": 0,
+    "excluded": 15,
+    "pending": 13,
+    "flavor_options": 0
+  },
+  "types": [
+    {
+      "slug": "electrolytes",
+      "name": "Electrolytes",
+      "purpose": "Sodium, potassium and magnesium replacement — which in Kuwait is not optional.",
+      "unit": "1000 mg sodium",
+      "non_negotiables": [
+        "Sodium at or above 300 mg per serving; anything less is flavoured water",
+        "No artificial colours or sweeteners",
+        "Added sugar disclosed and under 6 g, or none at all"
+      ],
+      "shelf_note": "Kuwait summers make this the most consequential shelf on the site. We weight sodium content harder here than we would in a temperate market.",
+      "published": 0
+    },
+    {
+      "slug": "intra-workout-carbs",
+      "name": "Intra-Workout Carbohydrate",
+      "purpose": "Fast fuel for sessions past the ninety-minute mark.",
+      "unit": "50 g carbohydrate",
+      "non_negotiables": [
+        "Named carbohydrate source",
+        "No artificial colours",
+        "Osmolality suitable for during-exercise use"
+      ],
+      "shelf_note": null,
+      "published": 0
+    }
+  ],
+  "groups": []
+}
