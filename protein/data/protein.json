@@ -10,7 +10,8 @@
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-07",
-  "generated_at": "2026-10-07T22:24:36.021Z",
+  "generated_at": "2026-10-07T22:59:28.979Z",
+  "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
   "comparison_unit": "25 g protein",
@@ -19,6 +20,9 @@
     "10 g peptides",
     "20 g protein"
   ],
+  "retailer_images": true,
+  "stock_ttl_hours": 24,
+  "affiliate_active": false,
   "copy": {
     "unit_name": "25 g protein",
     "unit_basis": "Based on declared nutrition, per 25 g protein.",
@@ -27,7 +31,7 @@
     "guide_open": "What matters most to you?",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
-      "body": "Every product published in this category declares milk. We will not recommend one against a declared milk allergy, and we do not pad the shelf with something we have not judged."
+      "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
     }
   },
   "constraints": {
@@ -57,16 +61,6 @@
   "director_selection": {
     "selected": 1,
     "note": "Products a founder put on the shelf from the database, whatever their score."
-  },
-  "retailer_images": true,
-  "stock_ttl_hours": 24,
-  "affiliate_active": false,
-  "counts": {
-    "reviewed": 546,
-    "selected": 12,
-    "excluded": 400,
-    "pending": 90,
-    "flavor_options": 12
   },
   "types": [
     {
@@ -165,6 +159,13 @@
       "published": 0
     }
   ],
+  "counts": {
+    "reviewed": 546,
+    "selected": 12,
+    "excluded": 400,
+    "pending": 90,
+    "flavor_options": 12
+  },
   "groups": [
     {
       "id": "bluebonnet-nutrition-bluebonnet-nutrition-whey-protein-isolate-powder-whey-from-",
@@ -182,17 +183,16 @@
           "title": "Bluebonnet Nutrition, Bluebonnet Nutrition Whey Protein Isolate Powder, Whey from Grass Fed Cows, 26 Grams of Protein, No Sugar Added, Gluten Free, Soy Free, Kosher Dairy, 32 Servings, Original Unflavored, 2.2 lb / 998 g",
           "url": "https://www.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-original-2-2-lbs-992-g/9476",
           "size": "2.2 lb / 998 g",
-          "net_g": 998,
           "image": "https://cloudinary.images-iherb.com/image/upload/images/blb/blb01561/l/67.jpg",
-          "has_retailer_image": true,
-          "image_kind": "retailer",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
             "https://cloudinary.images-iherb.com/image/upload/images/blb/blb01561/l/67.jpg",
             "https://m.media-amazon.com/images/I/619KW4Cz0UL.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/blb/blb01561/l/69.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/blb/blb01561/l/73.jpg"
           ],
-          "pack_art": "/packs/bluebonnet-nutrition-bluebonnet-nutrition-whey-protein-isolate-powder-whey-from-.svg",
+          "has_retailer_image": true,
+          "image_kind": "retailer",
           "type_slug": "whey-protein-isolate",
           "type_name": "Whey Protein Isolate",
           "unit_name": "25 g protein",
@@ -210,38 +210,6 @@
             "No cross-contact statement and the facility is not declared allergen-controlled",
             "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
           ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 78,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 20,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 97,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 70,
-              "weight": 0.08
-            }
-          ],
           "ingredients": "Whey protein isolate, natural vanilla flavor, sunflower lecithin, medium chain triglyceride oil.",
           "ingredient_count": 4,
           "allergen_statement": true,
@@ -250,36 +218,36 @@
           "contains_milk": true,
           "charter": null,
           "nutrition": {
-            "calories": 125,
-            "carbsG": 3,
             "fatG": 0.5,
+            "carbsG": 3,
+            "sugarG": 1.5,
+            "calories": 125,
             "proteinG": 26,
-            "saturatedFatG": 0.5,
-            "servingSize": "1 Scoop (31 g)",
-            "servingsPerContainer": 32,
             "sodiumMg": 45,
-            "sugarG": 1.5
+            "servingSize": "1 Scoop (31 g)",
+            "saturatedFatG": 0.5,
+            "servingsPerContainer": 32
           },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
           "price_kwd": 21.99,
+          "price_from_build_kwd": 21.99,
+          "price_is_live": true,
           "price_per_serving_kwd": 0.687,
-          "cost_per_unit": 0.6606,
-          "price_observed_at": "2026-09-29T11:22:55Z",
+          "cost_per_25g": 0.6606,
+          "price_observed_at": "2026-09-29T00:06:04.000Z",
           "price_source_url": "https://www.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-original-2-2-lbs-992-g/9476",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-09-29T11:22:55Z",
+            "observed_at": "2026-09-29T00:06:04.000Z",
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "verified",
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.6606,
           "dairy_free_declared": false,
           "lactose_free_declared": false,
-          "soy_free_declared": false,
           "vegan_declared": false,
           "gluten_free_declared": false,
+          "soy_free_declared": false,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -294,7 +262,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "verified"
         }
       ]
     },
@@ -314,15 +283,14 @@
           "title": "NutraBio, Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://www.iherb.com/pr/nutrabio-whey-protein-isolate-raw-unflavored-5-lb-2-268-g/134722",
           "size": "5.0 lb / 2268 g",
-          "net_g": 2268,
           "image": "https://cloudinary.images-iherb.com/image/upload/images/nrb/nrb50002/l/24.jpg",
-          "has_retailer_image": true,
-          "image_kind": "retailer",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
             "https://cloudinary.images-iherb.com/image/upload/images/nrb/nrb50002/l/24.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/nrb/nrb50002/l/30.jpg"
           ],
-          "pack_art": "/packs/nutrabio-whey-protein-isolate-unflavored-5-0-lb-2268-g.svg",
+          "has_retailer_image": true,
+          "image_kind": "retailer",
           "type_slug": "whey-protein-isolate",
           "type_name": "Whey Protein Isolate",
           "unit_name": "25 g protein",
@@ -340,38 +308,6 @@
             "No cross-contact statement and the facility is not declared allergen-controlled",
             "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
           ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 70,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 20,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 100,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 85,
-              "weight": 0.08
-            }
-          ],
           "ingredients": "Sunflower lecithin.",
           "ingredient_count": 1,
           "allergen_statement": true,
@@ -380,33 +316,33 @@
           "contains_milk": true,
           "charter": null,
           "nutrition": {
-            "calories": 110,
             "carbsG": 1,
+            "calories": 110,
             "proteinG": 25,
+            "sodiumMg": 45,
             "servingSize": "1 scoop (28.74 g)",
-            "servingsPerContainer": 79,
-            "sodiumMg": 45
+            "servingsPerContainer": 79
           },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
           "price_kwd": 51.57,
+          "price_from_build_kwd": 51.57,
+          "price_is_live": true,
           "price_per_serving_kwd": 0.653,
-          "cost_per_unit": 0.653,
-          "price_observed_at": "2026-09-29T11:34:05Z",
+          "cost_per_25g": 0.653,
+          "price_observed_at": "2026-09-29T00:06:05.000Z",
           "price_source_url": "https://www.iherb.com/pr/nutrabio-whey-protein-isolate-raw-unflavored-5-lb-2-268-g/134722",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-09-29T11:34:05Z",
+            "observed_at": "2026-09-29T00:06:05.000Z",
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "verified",
-          "flavor": "Unflavored",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.653,
           "dairy_free_declared": false,
           "lactose_free_declared": false,
-          "soy_free_declared": false,
           "vegan_declared": false,
           "gluten_free_declared": false,
+          "soy_free_declared": false,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -421,7 +357,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "verified"
         }
       ]
     },
@@ -441,17 +378,16 @@
           "title": "NOW Foods, Sports, Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-5-lbs-2-268-g/1160",
           "size": "5.0 lb / 2268 g",
-          "net_g": 2268,
           "image": "https://cloudinary.images-iherb.com/image/upload/images/now/now02174/l/80.jpg",
-          "has_retailer_image": true,
-          "image_kind": "retailer",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
             "https://cloudinary.images-iherb.com/image/upload/images/now/now02174/l/80.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/now/now02174/l/67.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/now/now02174/l/68.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/now/now02174/l/69.jpg"
           ],
-          "pack_art": "/packs/now-foods-sports-whey-protein-isolate-unflavored-5-0-lb-2268-g.svg",
+          "has_retailer_image": true,
+          "image_kind": "retailer",
           "type_slug": "whey-protein-isolate",
           "type_name": "Whey Protein Isolate",
           "unit_name": "25 g protein",
@@ -469,38 +405,6 @@
             "No cross-contact statement and the facility is not declared allergen-controlled",
             "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
           ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 70,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 20,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 100,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 70,
-              "weight": 0.08
-            }
-          ],
           "ingredients": "Whey protein isolate, sunflower lecithin (<1%).",
           "ingredient_count": 2,
           "allergen_statement": true,
@@ -509,38 +413,38 @@
           "contains_milk": true,
           "charter": null,
           "nutrition": {
-            "addedSugarG": 0,
-            "calories": 110,
-            "carbsG": 1,
             "fatG": 0,
+            "carbsG": 1,
             "fibreG": 0,
+            "sugarG": 0,
+            "calories": 110,
             "proteinG": 24,
-            "saturatedFatG": 0,
-            "servingSize": "1 level scoop (28 g)",
-            "servingsPerContainer": 81,
             "sodiumMg": 45,
-            "sugarG": 0
+            "addedSugarG": 0,
+            "servingSize": "1 level scoop (28 g)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 81
           },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
           "price_kwd": 55.04,
+          "price_from_build_kwd": 55.04,
+          "price_is_live": true,
           "price_per_serving_kwd": 0.68,
-          "cost_per_unit": 0.7083,
-          "price_observed_at": "2026-09-29T11:22:25Z",
+          "cost_per_25g": 0.7083,
+          "price_observed_at": "2026-09-29T00:06:04.000Z",
           "price_source_url": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-5-lbs-2-268-g/1160",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-09-29T11:22:25Z",
+            "observed_at": "2026-09-29T00:06:04.000Z",
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "verified",
-          "flavor": "Unflavored",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.7083,
           "dairy_free_declared": false,
           "lactose_free_declared": false,
-          "soy_free_declared": false,
           "vegan_declared": false,
           "gluten_free_declared": false,
+          "soy_free_declared": false,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -555,7 +459,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "verified"
         }
       ]
     },
@@ -575,17 +480,16 @@
           "title": "EVLution Nutrition, 100% Isolate Protein, Unflavored, 1.0 lb / 454 g",
           "url": "https://www.iherb.com/pr/evlution-nutrition-100-isolate-protein-unflavored-1-lb-454-g/120308",
           "size": "1.0 lb / 454 g",
-          "net_g": 454,
           "image": "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02848/l/24.jpg",
-          "has_retailer_image": true,
-          "image_kind": "retailer",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
             "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02848/l/24.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02848/l/28.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02848/l/37.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02848/l/38.jpg"
           ],
-          "pack_art": "/packs/evlution-nutrition-100-isolate-protein-unflavored-1-0-lb-454-g.svg",
+          "has_retailer_image": true,
+          "image_kind": "retailer",
           "type_slug": "whey-protein-isolate",
           "type_name": "Whey Protein Isolate",
           "unit_name": "25 g protein",
@@ -603,38 +507,6 @@
             "Brand has no identifiable legal entity, address or contactable quality function",
             "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
           ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 70,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 20,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 88,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 70,
-              "weight": 0.08
-            }
-          ],
           "ingredients": "Whey protein isolate.",
           "ingredient_count": 1,
           "allergen_statement": true,
@@ -643,38 +515,38 @@
           "contains_milk": true,
           "charter": null,
           "nutrition": {
-            "addedSugarG": 0,
-            "calories": 100,
-            "carbsG": 0,
             "fatG": 0,
+            "carbsG": 0,
             "fibreG": 0,
+            "sugarG": 0,
+            "calories": 100,
             "proteinG": 25,
-            "saturatedFatG": 0,
-            "servingSize": "1 Scoop (28.4 g )",
-            "servingsPerContainer": 16,
             "sodiumMg": 70,
-            "sugarG": 0
+            "addedSugarG": 0,
+            "servingSize": "1 Scoop (28.4 g )",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 16
           },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
           "price_kwd": 11.64,
+          "price_from_build_kwd": 11.64,
+          "price_is_live": true,
           "price_per_serving_kwd": 0.728,
-          "cost_per_unit": 0.728,
-          "price_observed_at": "2026-09-29T11:41:31Z",
+          "cost_per_25g": 0.728,
+          "price_observed_at": "2026-09-29T00:06:05.000Z",
           "price_source_url": "https://www.iherb.com/pr/evlution-nutrition-100-isolate-protein-unflavored-1-lb-454-g/120308",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-09-29T11:41:31Z",
+            "observed_at": "2026-09-29T00:06:05.000Z",
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "verified",
-          "flavor": "Unflavored",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.728,
           "dairy_free_declared": false,
           "lactose_free_declared": false,
-          "soy_free_declared": false,
           "vegan_declared": false,
           "gluten_free_declared": false,
+          "soy_free_declared": false,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -689,7 +561,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "verified"
         }
       ]
     },
@@ -709,16 +582,15 @@
           "title": "Nutricost, Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-unflavored-5-lb-2-268-g/145297",
           "size": "5.0 lb / 2268 g",
-          "net_g": 2268,
           "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57360/l/8.jpg",
-          "has_retailer_image": true,
-          "image_kind": "retailer",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
             "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57360/l/8.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57360/l/14.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57360/l/16.jpg"
           ],
-          "pack_art": "/packs/nutricost-whey-protein-isolate-unflavored-5-0-lb-2268-g.svg",
+          "has_retailer_image": true,
+          "image_kind": "retailer",
           "type_slug": "whey-protein-isolate",
           "type_name": "Whey Protein Isolate",
           "unit_name": "25 g protein",
@@ -736,38 +608,6 @@
             "Brand has no identifiable legal entity, address or contactable quality function",
             "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
           ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 70,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 20,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 88,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 70,
-              "weight": 0.08
-            }
-          ],
           "ingredients": "Whey protein isolate (whey protein, sunflower lecithin) (instantized).",
           "ingredient_count": 1,
           "allergen_statement": true,
@@ -776,38 +616,38 @@
           "contains_milk": true,
           "charter": null,
           "nutrition": {
-            "addedSugarG": 0,
-            "calories": 130,
-            "carbsG": 1,
             "fatG": 0,
+            "carbsG": 1,
             "fibreG": 0,
+            "sugarG": 1,
+            "calories": 130,
             "proteinG": 30,
-            "saturatedFatG": 0,
-            "servingSize": "1 Scoop (1/3 c) (35 g)",
-            "servingsPerContainer": 65,
             "sodiumMg": 85,
-            "sugarG": 1
+            "addedSugarG": 0,
+            "servingSize": "1 Scoop (1/3 c) (35 g)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 65
           },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
           "price_kwd": 46.04,
+          "price_from_build_kwd": 46.04,
+          "price_is_live": true,
           "price_per_serving_kwd": 0.708,
-          "cost_per_unit": 0.59,
-          "price_observed_at": "2026-09-29T11:37:58Z",
+          "cost_per_25g": 0.59,
+          "price_observed_at": "2026-09-29T00:06:05.000Z",
           "price_source_url": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-unflavored-5-lb-2-268-g/145297",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-09-29T11:37:58Z",
+            "observed_at": "2026-09-29T00:06:05.000Z",
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "verified",
-          "flavor": "Unflavored",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.59,
           "dairy_free_declared": false,
           "lactose_free_declared": false,
-          "soy_free_declared": false,
           "vegan_declared": false,
           "gluten_free_declared": false,
+          "soy_free_declared": false,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -822,7 +662,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "verified"
         }
       ]
     },
@@ -842,17 +683,16 @@
           "title": "NOW Foods, Sports, Micellar Casein Protein Powder, Unflavored, 1.8 lb / 816 g",
           "url": "https://www.iherb.com/pr/now-foods-sports-micellar-casein-protein-powder-unflavored-1-8-lbs-816-g/59774",
           "size": "1.8 lb / 816 g",
-          "net_g": 816,
           "image": "https://cloudinary.images-iherb.com/image/upload/images/now/now02122/l/30.jpg",
-          "has_retailer_image": true,
-          "image_kind": "retailer",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
             "https://cloudinary.images-iherb.com/image/upload/images/now/now02122/l/30.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/now/now02122/l/36.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/now/now02122/l/38.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/now/now02122/l/39.jpg"
           ],
-          "pack_art": "/packs/now-foods-sports-micellar-casein-protein-powder-unflavored-1-8-lb-816-g.svg",
+          "has_retailer_image": true,
+          "image_kind": "retailer",
           "type_slug": "casein-protein",
           "type_name": "Casein & Slow-Release Protein",
           "unit_name": "25 g protein",
@@ -869,38 +709,6 @@
             "No cross-contact statement and the facility is not declared allergen-controlled",
             "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
           ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 60,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 20,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 100,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 50,
-              "weight": 0
-            }
-          ],
           "ingredients": "Micellar casein, sunflower lecithin (1%).",
           "ingredient_count": 2,
           "allergen_statement": true,
@@ -909,38 +717,38 @@
           "contains_milk": true,
           "charter": null,
           "nutrition": {
-            "addedSugarG": 0,
-            "calories": 90,
-            "carbsG": 0.5,
             "fatG": 0.5,
+            "carbsG": 0.5,
             "fibreG": 0,
+            "sugarG": 0.5,
+            "calories": 90,
             "proteinG": 19,
-            "saturatedFatG": 0,
-            "servingSize": "1 level scoop (approx. 24 g)",
-            "servingsPerContainer": 34,
             "sodiumMg": 60,
-            "sugarG": 0.5
+            "addedSugarG": 0,
+            "servingSize": "1 level scoop (approx. 24 g)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 34
           },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
           "price_kwd": 14.16,
+          "price_from_build_kwd": 14.16,
+          "price_is_live": true,
           "price_per_serving_kwd": 0.416,
-          "cost_per_unit": 0.5474,
-          "price_observed_at": "2026-10-06T12:43:18Z",
+          "cost_per_25g": 0.5474,
+          "price_observed_at": "2026-10-06T12:38:14.000Z",
           "price_source_url": "https://www.iherb.com/pr/now-foods-sports-micellar-casein-protein-powder-unflavored-1-8-lbs-816-g/59774",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-06T12:43:18Z",
+            "observed_at": "2026-10-06T12:38:14.000Z",
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "verified",
-          "flavor": "Unflavored",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.5474,
           "dairy_free_declared": false,
           "lactose_free_declared": false,
-          "soy_free_declared": false,
           "vegan_declared": false,
           "gluten_free_declared": false,
+          "soy_free_declared": false,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -955,7 +763,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "verified"
         }
       ]
     },
@@ -975,15 +784,14 @@
           "title": "Nutricost, Casein Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://www.iherb.com/pr/nutricost-casein-protein-unflavored-2-lb-907-g/136774",
           "size": "2.0 lb / 907 g",
-          "net_g": 907,
           "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67210/l/24.jpg",
-          "has_retailer_image": true,
-          "image_kind": "retailer",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
             "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67210/l/24.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67210/l/29.jpg"
           ],
-          "pack_art": "/packs/nutricost-casein-protein-unflavored-2-0-lb-907-g.svg",
+          "has_retailer_image": true,
+          "image_kind": "retailer",
           "type_slug": "casein-protein",
           "type_name": "Casein & Slow-Release Protein",
           "unit_name": "25 g protein",
@@ -1001,38 +809,6 @@
             "No cross-contact statement and the facility is not declared allergen-controlled",
             "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
           ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 70,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 20,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 96,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 50,
-              "weight": 0
-            }
-          ],
           "ingredients": "Instantized micellar casein (casein protein, sunflower lecithin).",
           "ingredient_count": 1,
           "allergen_statement": false,
@@ -1041,38 +817,38 @@
           "contains_milk": false,
           "charter": null,
           "nutrition": {
-            "addedSugarG": 0,
-            "calories": 110,
-            "carbsG": 0,
             "fatG": 0,
+            "carbsG": 0,
             "fibreG": 0,
+            "sugarG": 0,
+            "calories": 110,
             "proteinG": 25,
-            "saturatedFatG": 0,
-            "servingSize": "1 Scoop (1/3 c)(30 g)",
-            "servingsPerContainer": 30,
             "sodiumMg": 25,
-            "sugarG": 0
+            "addedSugarG": 0,
+            "servingSize": "1 Scoop (1/3 c)(30 g)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 30
           },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
           "price_kwd": 12.263,
+          "price_from_build_kwd": 12.263,
+          "price_is_live": false,
           "price_per_serving_kwd": 0.409,
-          "cost_per_unit": 0.409,
-          "price_observed_at": "2026-10-07T19:47:31Z",
+          "cost_per_25g": 0.409,
+          "price_observed_at": "2026-10-07T20:05:55.000Z",
           "price_source_url": "https://www.iherb.com/pr/nutricost-casein-protein-unflavored-2-lb-907-g/136774",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-07T19:47:31Z",
+            "observed_at": "2026-10-07T20:05:55.000Z",
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "verified",
-          "flavor": "Unflavored",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.409,
           "dairy_free_declared": false,
           "lactose_free_declared": false,
-          "soy_free_declared": false,
           "vegan_declared": false,
           "gluten_free_declared": false,
+          "soy_free_declared": false,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -1087,7 +863,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "verified"
         }
       ]
     },
@@ -1107,15 +884,14 @@
           "title": "Mt. Capra, Clean Casein Protein, Unsweetened, 1.0 lb / 453 g",
           "url": "https://www.iherb.com/pr/mt-capra-clean-casein-protein-unsweetened-16-oz-453-g/160541",
           "size": "1.0 lb / 453 g",
-          "net_g": 453,
           "image": "https://cloudinary.images-iherb.com/image/upload/images/mtc/mtc72091/l/8.jpg",
-          "has_retailer_image": true,
-          "image_kind": "retailer",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
             "https://cloudinary.images-iherb.com/image/upload/images/mtc/mtc72091/l/8.jpg",
             "https://cloudinary.images-iherb.com/image/upload/images/mtc/mtc72091/l/10.jpg"
           ],
-          "pack_art": "/packs/mt-capra-clean-casein-protein-unsweetened-1-0-lb-453-g.svg",
+          "has_retailer_image": true,
+          "image_kind": "retailer",
           "type_slug": "casein-protein",
           "type_name": "Casein & Slow-Release Protein",
           "unit_name": "25 g protein",
@@ -1133,38 +909,6 @@
             "No cross-contact statement and the facility is not declared allergen-controlled",
             "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
           ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 70,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 20,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 90,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 50,
-              "weight": 0
-            }
-          ],
           "ingredients": "Grass-fed goat milk casein.",
           "ingredient_count": 1,
           "allergen_statement": false,
@@ -1173,38 +917,38 @@
           "contains_milk": false,
           "charter": null,
           "nutrition": {
-            "addedSugarG": 0,
-            "calories": 120,
-            "carbsG": 2,
             "fatG": 0.5,
+            "carbsG": 2,
             "fibreG": 0,
+            "sugarG": 0.5,
+            "calories": 120,
             "proteinG": 26,
-            "saturatedFatG": 0,
-            "servingSize": "2 scoops (30g)",
-            "servingsPerContainer": 15,
             "sodiumMg": 10,
-            "sugarG": 0.5
+            "addedSugarG": 0,
+            "servingSize": "2 scoops (30g)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 15
           },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
           "price_kwd": 14.43,
+          "price_from_build_kwd": 14.43,
+          "price_is_live": false,
           "price_per_serving_kwd": 0.962,
-          "cost_per_unit": 0.925,
-          "price_observed_at": "2026-10-07T19:47:47Z",
+          "cost_per_25g": 0.925,
+          "price_observed_at": "2026-10-07T20:05:55.000Z",
           "price_source_url": "https://www.iherb.com/pr/mt-capra-clean-casein-protein-unsweetened-16-oz-453-g/160541",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-07T19:47:47Z",
+            "observed_at": "2026-10-07T20:05:55.000Z",
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "verified",
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.925,
           "dairy_free_declared": false,
           "lactose_free_declared": false,
-          "soy_free_declared": false,
           "vegan_declared": false,
           "gluten_free_declared": false,
+          "soy_free_declared": false,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -1219,7 +963,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "verified"
         }
       ]
     },
@@ -1239,12 +984,11 @@
           "title": "Transparent Labs, Organic Vegan Protein, Chocolate, 840 g",
           "url": "https://kw.iherb.com/product/transparent-labs-organic-vegan-protein-chocolate-840-g",
           "size": "840 g",
-          "net_g": 840,
-          "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
-          "has_retailer_image": false,
-          "image_kind": "placeholder",
+          "image": "/packs/transparent-labs-organic-vegan-protein-chocolate-840-g.svg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [],
-          "pack_art": "/packs/transparent-labs-organic-vegan-protein-chocolate-840-g.svg",
+          "has_retailer_image": false,
+          "image_kind": "pack-drawing",
           "type_slug": "plant-protein",
           "type_name": "Plant Protein",
           "unit_name": "25 g protein",
@@ -1261,38 +1005,6 @@
             "\"Natural flavour\" with no further specification",
             "No cross-contact statement and the facility is not declared allergen-controlled",
             "Gluten-free claimed without a tested threshold"
-          ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 83,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 80,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 94,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 50,
-              "weight": 0
-            }
           ],
           "ingredients": "Organic pea protein isolate, organic rice protein, organic cocoa, organic natural flavors, organic stevia, himalayan pink salt",
           "ingredient_count": 6,
@@ -1311,22 +1023,26 @@
           "contains_milk": false,
           "charter": null,
           "nutrition": {
-            "addedSugarG": 0,
-            "bcaaG": 4.5,
-            "calories": 130,
-            "carbsG": 5,
             "fatG": 2,
+            "bcaaG": 4.5,
+            "carbsG": 5,
             "fibreG": 3,
+            "sugarG": 1,
+            "calories": 130,
             "leucineG": 2.1,
             "proteinG": 24,
-            "servingSize": "35 g (1 scoop)",
-            "servingsPerContainer": 24,
             "sodiumMg": 250,
-            "sugarG": 1
+            "addedSugarG": 0,
+            "servingSize": "35 g (1 scoop)",
+            "servingsPerContainer": 24
           },
+          "flavor": "Chocolate",
+          "flavor_group": "chocolate",
           "price_kwd": 16.867,
+          "price_from_build_kwd": 16.867,
+          "price_is_live": false,
           "price_per_serving_kwd": 0.703,
-          "cost_per_unit": 0.7323,
+          "cost_per_25g": 0.7323,
           "price_observed_at": "2026-10-07T21:40:01.375Z",
           "price_source_url": "https://kw.iherb.com/product/transparent-labs-organic-vegan-protein-chocolate-840-g",
           "availability": {
@@ -1335,15 +1051,11 @@
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "reported",
-          "flavor": "Chocolate",
-          "flavor_group": "chocolate",
-          "cost_per_25g": 0.7323,
           "dairy_free_declared": true,
           "lactose_free_declared": true,
-          "soy_free_declared": true,
           "vegan_declared": true,
           "gluten_free_declared": true,
+          "soy_free_declared": true,
           "stevia": true,
           "anti_doping_documented": true,
           "director": {
@@ -1358,7 +1070,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "reported"
         }
       ]
     },
@@ -1378,12 +1091,11 @@
           "title": "Bulk Supplements, Pea Protein Isolate, Unflavoured, 1 kg",
           "url": "https://kw.iherb.com/product/bulk-supplements-pea-protein-isolate-unflavoured-1-kg",
           "size": "1 kg",
-          "net_g": null,
           "image": "/packs/bulk-supplements-pea-protein-isolate-unflavoured-1-kg.svg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [],
           "has_retailer_image": false,
           "image_kind": "pack-drawing",
-          "gallery": [],
-          "pack_art": "/packs/bulk-supplements-pea-protein-isolate-unflavoured-1-kg.svg",
           "type_slug": "plant-protein",
           "type_name": "Plant Protein",
           "unit_name": "25 g protein",
@@ -1400,38 +1112,6 @@
             "Undeclared cross-contact with a top-14 allergen",
             "Gluten-free claimed without a tested threshold"
           ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 85,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 56,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 100,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 50,
-              "weight": 0
-            }
-          ],
           "ingredients": "Pea protein isolate",
           "ingredient_count": 1,
           "allergen_statement": true,
@@ -1447,21 +1127,25 @@
           "contains_milk": false,
           "charter": null,
           "nutrition": {
-            "addedSugarG": 0,
-            "calories": 110,
-            "carbsG": 1,
             "fatG": 2,
+            "carbsG": 1,
             "fibreG": 1,
+            "sugarG": 0,
+            "calories": 110,
             "leucineG": 2,
             "proteinG": 24,
-            "servingSize": "30 g",
-            "servingsPerContainer": 33,
             "sodiumMg": 300,
-            "sugarG": 0
+            "addedSugarG": 0,
+            "servingSize": "30 g",
+            "servingsPerContainer": 33
           },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
           "price_kwd": 9.27,
+          "price_from_build_kwd": 9.27,
+          "price_is_live": false,
           "price_per_serving_kwd": 0.281,
-          "cost_per_unit": 0.2927,
+          "cost_per_25g": 0.2927,
           "price_observed_at": "2026-10-07T21:40:01.375Z",
           "price_source_url": "https://kw.iherb.com/product/bulk-supplements-pea-protein-isolate-unflavoured-1-kg",
           "availability": {
@@ -1470,15 +1154,11 @@
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "reported",
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.2927,
           "dairy_free_declared": true,
           "lactose_free_declared": true,
-          "soy_free_declared": true,
           "vegan_declared": true,
           "gluten_free_declared": true,
+          "soy_free_declared": true,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -1493,7 +1173,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "reported"
         }
       ]
     },
@@ -1513,12 +1194,11 @@
           "title": "Naked Nutrition, Naked Pea, Unflavoured, 2.27 kg",
           "url": "https://kw.iherb.com/product/naked-nutrition-naked-pea-unflavoured-2-27-kg",
           "size": "2.27 kg",
-          "net_g": null,
-          "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
-          "has_retailer_image": false,
-          "image_kind": "placeholder",
+          "image": "/packs/naked-nutrition-naked-pea-unflavoured-2-27-kg.svg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [],
-          "pack_art": "/packs/naked-nutrition-naked-pea-unflavoured-2-27-kg.svg",
+          "has_retailer_image": false,
+          "image_kind": "pack-drawing",
           "type_slug": "plant-protein",
           "type_name": "Plant Protein",
           "unit_name": "25 g protein",
@@ -1534,38 +1214,6 @@
           "caveats": [
             "No cross-contact statement and the facility is not declared allergen-controlled",
             "Gluten-free claimed without a tested threshold"
-          ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 85,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 50,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 100,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 50,
-              "weight": 0
-            }
           ],
           "ingredients": "Yellow pea protein",
           "ingredient_count": 1,
@@ -1583,22 +1231,26 @@
           "contains_milk": false,
           "charter": null,
           "nutrition": {
-            "addedSugarG": 0,
-            "bcaaG": 4.9,
-            "calories": 120,
-            "carbsG": 2,
             "fatG": 0.5,
+            "bcaaG": 4.9,
+            "carbsG": 2,
             "fibreG": 2,
+            "sugarG": 1,
+            "calories": 120,
             "leucineG": 2.3,
             "proteinG": 27,
-            "servingSize": "30 g (2 scoops)",
-            "servingsPerContainer": 76,
             "sodiumMg": 330,
-            "sugarG": 1
+            "addedSugarG": 0,
+            "servingSize": "30 g (2 scoops)",
+            "servingsPerContainer": 76
           },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
           "price_kwd": 23.602,
+          "price_from_build_kwd": 23.602,
+          "price_is_live": false,
           "price_per_serving_kwd": 0.311,
-          "cost_per_unit": 0.288,
+          "cost_per_25g": 0.288,
           "price_observed_at": "2026-10-07T21:40:01.375Z",
           "price_source_url": "https://kw.iherb.com/product/naked-nutrition-naked-pea-unflavoured-2-27-kg",
           "availability": {
@@ -1607,15 +1259,11 @@
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "reported",
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.288,
           "dairy_free_declared": true,
           "lactose_free_declared": true,
-          "soy_free_declared": true,
           "vegan_declared": true,
           "gluten_free_declared": true,
+          "soy_free_declared": true,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -1630,7 +1278,8 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "reported"
         }
       ]
     },
@@ -1650,12 +1299,11 @@
           "title": "Anthony's Goods, Organic Pea Protein, Unflavoured, 1.36 kg",
           "url": "https://kw.iherb.com/product/anthony-s-goods-organic-pea-protein-unflavoured-1-36-kg",
           "size": "1.36 kg",
-          "net_g": null,
           "image": "/packs/anthony-s-goods-organic-pea-protein-unflavoured-1-36-kg.svg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [],
           "has_retailer_image": false,
           "image_kind": "pack-drawing",
-          "gallery": [],
-          "pack_art": "/packs/anthony-s-goods-organic-pea-protein-unflavoured-1-36-kg.svg",
           "type_slug": "plant-protein",
           "type_name": "Plant Protein",
           "unit_name": "25 g protein",
@@ -1671,38 +1319,6 @@
           "caveats": [
             "Undeclared cross-contact with a top-14 allergen",
             "Brand has no identifiable legal entity, address or contactable quality function"
-          ],
-          "pillars": [
-            {
-              "id": "purity",
-              "value": 100,
-              "weight": 0.24
-            },
-            {
-              "id": "efficacy",
-              "value": 85,
-              "weight": 0.24
-            },
-            {
-              "id": "verification",
-              "value": 50,
-              "weight": 0.22
-            },
-            {
-              "id": "transparency",
-              "value": 100,
-              "weight": 0.12
-            },
-            {
-              "id": "family",
-              "value": 92,
-              "weight": 0.1
-            },
-            {
-              "id": "value",
-              "value": 50,
-              "weight": 0
-            }
           ],
           "ingredients": "Organic pea protein",
           "ingredient_count": 1,
@@ -1722,21 +1338,25 @@
           "contains_milk": false,
           "charter": null,
           "nutrition": {
-            "addedSugarG": 0,
-            "calories": 110,
-            "carbsG": 1,
             "fatG": 2,
+            "carbsG": 1,
             "fibreG": 1,
+            "sugarG": 0,
+            "calories": 110,
             "leucineG": 2,
             "proteinG": 24,
-            "servingSize": "30 g",
-            "servingsPerContainer": 45,
             "sodiumMg": 290,
-            "sugarG": 0
+            "addedSugarG": 0,
+            "servingSize": "30 g",
+            "servingsPerContainer": 45
           },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
           "price_kwd": 12.274,
+          "price_from_build_kwd": 12.274,
+          "price_is_live": false,
           "price_per_serving_kwd": 0.273,
-          "cost_per_unit": 0.2844,
+          "cost_per_25g": 0.2844,
           "price_observed_at": "2026-10-07T21:40:01.375Z",
           "price_source_url": "https://kw.iherb.com/product/anthony-s-goods-organic-pea-protein-unflavoured-1-36-kg",
           "availability": {
@@ -1745,15 +1365,11 @@
             "source": "direct",
             "destination": "KW"
           },
-          "data_confidence": "reported",
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
-          "cost_per_25g": 0.2844,
           "dairy_free_declared": true,
           "lactose_free_declared": true,
-          "soy_free_declared": true,
           "vegan_declared": true,
           "gluten_free_declared": true,
+          "soy_free_declared": true,
           "stevia": false,
           "anti_doping_documented": false,
           "director": {
@@ -1768,9 +1384,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": null
+          "ingredients_reviewed_at": "2026-10-07",
+          "data_confidence": "reported"
         }
       ]
     }
-  ]
+  ],
+  "pulled_at": "2026-10-07T22:59:36.695Z",
+  "api": "https://api.srv2021063.hstgr.cloud"
 }

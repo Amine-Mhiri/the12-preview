@@ -10,7 +10,8 @@
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-07",
-  "generated_at": "2026-10-07T22:24:36.025Z",
+  "generated_at": "2026-10-07T22:59:28.979Z",
+  "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
   "comparison_unit": null,
@@ -18,6 +19,9 @@
     "500 kcal",
     "one meal"
   ],
+  "retailer_images": true,
+  "stock_ttl_hours": 24,
+  "affiliate_active": false,
   "copy": {
     "unit_name": "serving",
     "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
@@ -26,7 +30,7 @@
     "guide_open": "What matters most to you?",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
-      "body": "Every product published in this category declares milk. We will not recommend one against a declared milk allergy, and we do not pad the shelf with something we have not judged."
+      "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
     }
   },
   "constraints": {
@@ -56,16 +60,6 @@
   "director_selection": {
     "selected": 0,
     "note": "Products a founder put on the shelf from the database, whatever their score."
-  },
-  "retailer_images": true,
-  "stock_ttl_hours": 24,
-  "affiliate_active": false,
-  "counts": {
-    "reviewed": 35,
-    "selected": 0,
-    "excluded": 19,
-    "pending": 16,
-    "flavor_options": 0
   },
   "types": [
     {
@@ -97,5 +91,14 @@
       "published": 0
     }
   ],
-  "groups": []
+  "counts": {
+    "reviewed": 35,
+    "selected": 0,
+    "excluded": 19,
+    "pending": 16,
+    "flavor_options": 0
+  },
+  "groups": [],
+  "pulled_at": "2026-10-07T22:59:37.200Z",
+  "api": "https://api.srv2021063.hstgr.cloud"
 }
