@@ -13,7 +13,32 @@
  */
 import { createCatalogEngine } from "./catalog-engine.mjs";
 
-export { stockState, chooseFlavor, merchantLink } from "./catalog-engine.mjs";
+export { stockState, chooseFlavor } from "./catalog-engine.mjs";
+
+/**
+ * The link to the retailer, validated for this catalogue's shape.
+ *
+ * Upstream's `merchantLink` is not reused, and this is the one place the two
+ * genuinely cannot share code. It asserts `pathname.endsWith('/' + v.id)`,
+ * because in the reference comparator a variant's `id` IS the iHerb numeric
+ * reference. Here `id` is the engine's own product slug, so that assertion
+ * could never hold — it threw `Invalid product destination` inside the card
+ * renderer, which killed the whole render and showed "The selection could not
+ * load" on a page whose data was perfectly fine.
+ *
+ * The check that matters is kept: https, an iherb.com host, and a path that
+ * ends in the retailer's own reference, which the API supplies as
+ * `merchant_ref` rather than conflating it with our id.
+ */
+export function merchantLink(v) {
+  const u = new URL(v.url);
+  if (u.protocol !== "https:") throw Error("Invalid product destination");
+  if (!/(^|\.)iherb\.com$/.test(u.hostname)) throw Error("Invalid product destination");
+  if (v.merchant_ref && !u.pathname.endsWith(`/${v.merchant_ref}`)) {
+    throw Error("Invalid product destination");
+  }
+  return u.href;
+}
 
 /** The state a page opens on. `rank` first: our ranking is the default view. */
 export const DEFAULTS = Object.freeze({

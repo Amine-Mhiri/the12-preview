@@ -10,7 +10,7 @@
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-07",
-  "generated_at": "2026-10-07T23:24:47.403Z",
+  "generated_at": "2026-10-08T01:42:16.672Z",
   "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
@@ -142,6 +142,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-07T23:24:47.584Z",
+  "pulled_at": "2026-10-08T01:42:21.640Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

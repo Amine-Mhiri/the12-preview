@@ -26,6 +26,13 @@
 const CATEGORY=document.body.dataset.category;
 const catalog=await import('./catalog.mjs');
 const {DEFAULTS,stockState,selectProducts,chooseFlavor,recommendations,merchantLink,withAllergyChoice}=catalog;
+// A product whose merchant link we cannot validate must not take the page
+// down with it. `merchantLink` throws by design — it is the guard against
+// sending somebody to a URL we did not derive — but it used to throw inside
+// the card renderer, so one bad link blanked all twelve products behind
+// "The selection could not load". Now that product renders without a buy
+// link and says why, and the rest of the shelf is unaffected.
+const safeMerchantLink=v=>{try{return merchantLink(v);}catch{return null;}};
 // Assigned from the category's own data before the first render, because the
 // comparator held these as per-category code and six categories cannot be a
 // boolean. Every read happens inside a render, which runs after the bootstrap.
@@ -88,8 +95,17 @@ function renderScope(){
 }
 function directorDetail(v){
   if(v.director?.status!=='selected')return '';
-  const gumNote=v.director.gums.length?`Contains ${v.director.gums.map(esc).join(', ')} gum. Admitted under our conditional gum rule: only two references meet the gum-free profile.`:'No gums in the reviewed declaration.';
-  return `<section class="director-detail"><p class="eyebrow">OUR PICK · LABEL-BASED SELECTION</p><h3>Why we chose this formula</h3><ul><li>${v.director.protein_per_100g.toFixed(2)} g declared protein / 100 g.</li><li>${v.ingredient_count} declared ingredient entries.</li><li>No added sugar, oil or maltodextrin in the reviewed declaration.</li><li>${esc(v.director.origin)}.</li><li>${gumNote}</li></ul>${v.director.notes.map(note=>`<p>${esc(note)}</p>`).join('')}<p class="detail-small">Full analytical validation is pending. Exact batch reports and residual lactose remain unconfirmed. The gum exception does not lower our analytical requirements or upgrade the evidence below.</p></section>`;
+  // "Our pick" means something different here from upstream. There it was a
+  // label profile — protein per 100 g, gum-free, declared origin — and this
+  // function read `v.director.gums`, `.protein_per_100g` and `.origin`, none
+  // of which this catalogue has; it threw as soon as anybody opened the one
+  // product that IS a pick. Here a pick is a row somebody ticked in the
+  // catalogue database, and that is all it claims to be.
+  return `<section class="director-detail"><p class="eyebrow">OUR PICK · CHOSEN BY HAND</p><h3>Why this is here</h3><ul>`
+    +`<li>Somebody put it on the shelf deliberately, and that choice is recorded against the product in our catalogue database rather than inferred from a score.</li>`
+    +(Number.isFinite(v.score)?`<li>It scored ${v.score} of 100, which is ${v.score>=70?'above':'below'} the floor a product normally has to clear to be published.</li>`:'')
+    +`<li>The ingredient charter had already admitted it: an editorial choice can lift a product the rules allow, and can never publish one they refused or have not yet judged.</li>`
+    +`</ul><p class="detail-small">This is an editorial preference, not a health or efficacy threshold. It certifies no contaminant result, no supplied batch and no allergen status.</p></section>`;
 }
 function filterChanged(){limit=16;choices.clear();renderResults();}
 function clearAll(){state={...DEFAULTS};guided=false;limit=16;choices.clear();renderFilters();renderResults();}
@@ -122,7 +138,6 @@ function reasons(g,v){
   if(state.priority==='rank')out.push(`Ranked ${v.rank} on our shelf for ${v.type_name}.`);
   if(state.priority==='value')out.push(`${money(unitCost(v))} per ${unitName}. ${COPY.unit_basis}`);
   if(state.priority==='simple')out.push(`${v.ingredient_count} declared ingredient entries, with named blend ingredients included.`);
-  if(state.priority==='evidence')out.push(`${v.evidence.title}. ${v.evidence.category==='proteines_antidopage'?'Exact pack-size match is still pending.':''}`);
   if(!out.length)out.push('Passes our ingredient screen. No extra preferences selected; shown alphabetically.');
   return out;
 }
@@ -131,10 +146,6 @@ function flavorTone(v){
   if(/strawberry|watermelon/.test(name))return 'berry';
   if(/lime|lemon/.test(name))return 'citrus';
   return ['chocolate','vanilla','unflavored','fruity'].includes(v.flavor_group)?v.flavor_group:'neutral';
-}
-function reviewLinks(v,expanded=false){
-  if(!v.review_links?.length)return '';
-  return `<div class="review-links ${expanded?'review-expanded':''}">${v.review_links.map(r=>`<div><a href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener noreferrer">${esc(r.label)} ↗</a><small>${esc(r.scope)}</small>${expanded?`<p>${esc(r.note)}</p><small>Match reviewed ${date(r.reviewed_at)}</small>`:''}</div>`).join('')}</div>`;
 }
 function card(g,recommended=false){
   const v=g.variants.find(x=>x.id===choices.get(g.id))||(recommended?g.variant:g.variants[0]);
@@ -148,7 +159,7 @@ function card(g,recommended=false){
       <div class="product-options"><div class="flavor-options" role="group" aria-label="Flavor for ${esc(g.brand+' '+g.name)}">${flavors.map(x=>flavors.length>1?`<button class="flavor-pill tone-${flavorTone(x)}" id="${prefix}-flavor-${x.flavor_id}" data-flavor-product="${g.id}" data-flavor-id="${x.flavor_id}" aria-pressed="${x.flavor_id===v.flavor_id}" aria-label="${esc(x.flavor)} for ${esc(g.brand+' '+g.name)}">${esc(x.flavor)}</button>`:`<span class="flavor-pill tone-${flavorTone(x)}">${esc(x.flavor)}</span>`).join('')}</div>
       <div class="size-options" role="group" aria-label="Pack size for ${esc(g.brand+' '+g.name)}"><span class="size-caption">Pack size</span>${sizes.map(x=>sizes.length>1?`<button class="size-pill" id="${prefix}-size-${x.id}" data-size="${g.id}" value="${x.id}" aria-pressed="${x.id===v.id}" aria-label="${esc(x.size)} for ${esc(g.brand+' '+g.name)}">${esc(x.size)}</button>`:`<span class="size-pill">${esc(x.size)}</span>`).join('')}</div></div>
       ${recommended?`<div class="match-reason"><strong>Why it matches</strong><ul>${reasons(g,v).map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
-      <div class="purchase"><a class="purchase-link" href="${esc(merchantLink(v))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(money(v.price_kwd)+' · '+shortStock+' · '+g.brand+' '+g.name+' · '+v.flavor+' · '+v.size+' on iHerb')}"><span class="purchase-price">${money(v.price_kwd)}<span class="purchase-stock ${st==='in_stock'?'in-stock':''}">${esc(shortStock)}</span></span><span class="purchase-action">${st==='in_stock'?'iHerb':'Check iHerb'} <span aria-hidden="true">↗</span></span></a><p class="purchase-meta">${Number.isFinite(unitCost(v))?`${money(unitCost(v))} / ${unitName}`:'Unit cost not calculable'}<span>Price observed ${date(v.price_observed_at)}</span></p></div>
+      <div class="purchase"><a class="purchase-link" href="${esc(safeMerchantLink(v))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(money(v.price_kwd)+' · '+shortStock+' · '+g.brand+' '+g.name+' · '+v.flavor+' · '+v.size+' on iHerb')}"><span class="purchase-price">${money(v.price_kwd)}<span class="purchase-stock ${st==='in_stock'?'in-stock':''}">${esc(shortStock)}</span></span><span class="purchase-action">${st==='in_stock'?'iHerb':'Check iHerb'} <span aria-hidden="true">↗</span></span></a><p class="purchase-meta">${Number.isFinite(unitCost(v))?`${money(unitCost(v))} / ${unitName}`:'Unit cost not calculable'}<span>Price observed ${date(v.price_observed_at)}</span></p></div>
     </div></article>`;
 }
 function renderView(){
@@ -203,7 +214,26 @@ function findVariant(id){for(const g of data.groups){const v=g.variants.find(x=>
 function openDetail(id){
   const found=findVariant(id);if(!found)return;const {g,v}=found;activeDetail=id;
   const n=v.nutrition;const domains={protein:'Protein content',metals:'Metals',microbiology:'Microbiology',anti_doping:'Banned substances'};
-  $('#product-detail').innerHTML=`<p class="eyebrow detail-eyebrow">WHY THIS MADE THE SHORTLIST</p><div class="detail-hero"><img src="${esc(imgSrc(v.image))}" alt="${esc(v.title)}" onerror="this.onerror=null;this.src='${esc(v.placeholder||'')}'" width="140" height="160"><div><p class="brand">${esc(g.brand)}</p><h2 id="product-title">${esc(g.name)}</h2><p class="flavor">${esc(g.flavor)} · ${esc(v.size)}</p><p class="detail-price">${money(v.price_kwd)}</p></div></div><div class="size-options detail-format" role="group" aria-label="Product detail pack size"><span class="size-caption">Pack size</span>${g.variants.map(x=>g.variants.length>1?`<button class="size-pill" id="detail-size-${x.id}" data-detail-size="${x.id}" aria-pressed="${x.id===id}">${esc(x.size)}</button>`:`<span class="size-pill">${esc(x.size)}</span>`).join('')}</div><div class="detail-pass"><span aria-hidden="true">✓</span><div><strong>Passed our ingredient screen</strong><p>No artificial colors, flavors or sweeteners in the reviewed ingredient list. Natural flavors and stevia are accepted. Reviewed ${date(v.ingredients_reviewed_at)}.</p></div></div>${directorDetail(v)}${v.lead_warning?`<aside class="detail-warning"><strong>Manufacturer lead warning</strong><p>${esc(v.warning_note)}</p></aside>`:''}<section class="detail-section" id="label-section"><h3 tabindex="-1" id="label-heading">The ingredients we reviewed</h3><figure class="composition-photo"><a href="${esc(v.label_image.url)}" target="_blank" rel="noopener noreferrer" aria-label="Enlarge composition label for ${esc(v.title)}"><img id="composition-image" src="${esc(v.label_image.url)}" alt="Ingredient and composition label for ${esc(g.brand+' '+g.name+' · '+g.flavor+' · '+v.size)}" loading="lazy" decoding="async"></a><p id="label-unavailable" hidden>Photo could not load. Please reopen the product details to try again.</p><figcaption><strong>${esc(g.flavor)} · ${esc(v.size)}</strong></figcaption><p class="detail-small">Label photo used for our review · ${date(v.label_image.reviewed_at)}. Packaging may change.</p></figure><p class="ingredients">${esc(v.ingredients)}</p><p class="detail-small">${v.ingredient_count} declared ingredient entries, including named blend constituents. Undisclosed flavor components are not counted as known ingredients.</p><p class="detail-small"><strong>Contains milk-derived protein.</strong> ${typeof v.allergen_statement==='string'?esc(v.allergen_statement):''}</p></section><section class="detail-section"><h3>What the evidence supports</h3>${reviewLinks(v,true)}<p class="evidence-title">${esc(v.evidence.title)}</p><p>${esc(v.evidence.note)}</p><dl class="evidence-grid">${Object.entries(domains).map(([key,label])=>`<div><dt>${label}</dt><dd>${esc(v.evidence.domains[key])}</dd></div>`).join('')}</dl><p class="detail-small">${esc(v.evidence.batch_note)} Documentation reviewed 29 Sep 2026. No overall health score is assigned.</p><div class="source-links">${v.evidence.sources.map(s=>`<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a>`).join('')}</div></section>${v.claims.length?`<details class="claims-details"><summary>What the manufacturer declares <span aria-hidden="true">＋</span></summary><p class="detail-small">These are recorded claims, not automatically verified certifications. See the evidence section above for what we could establish.</p>${v.claims.map(c=>`<div class="claim-row"><strong>${esc(c.name)}</strong><p>${esc(c.quote)}</p><a href="${esc(safeUrl(c.source_url))}" target="_blank" rel="noopener noreferrer">Declaration source ↗</a></div>`).join('')}</details>`:''}<section class="detail-section"><h3>The price, put in perspective</h3>${n?`<dl class="nutrition-grid"><div><dt>Serving size</dt><dd>${n.serving_g} g</dd></div><div><dt>Protein per serving</dt><dd>${n.protein_g} g</dd></div><div><dt>Net weight</dt><dd>${v.net_g} g</dd></div><div><dt>Cost / 25 g protein</dt><dd>${Number.isFinite(v.cost_per_25g)?money(v.cost_per_25g):'Not calculable'}</dd></div></dl><p class="detail-small">Calculated from the declared nutrition for this exact reference: price × 25 × serving weight ÷ (net weight × protein per serving). This compares protein cost, not overall product quality.</p>`:'<p>Nutrition data is incomplete for this exact reference, so we do not calculate a protein cost.</p>'}<p class="detail-small">Price observed ${stamp(v.price_observed_at)}. Product only; delivery and checkout charges are additional.</p></section><div class="detail-buy"><p class="stock-note ${stockState(v)==='in_stock'?'in-stock':''}">${esc(stockLabel(v))}</p><p class="detail-small">${v.availability.observed_at?`Stock checked ${stamp(v.availability.observed_at)}, country set to Kuwait. Status expires after 24 hours.`:'Current Kuwait stock has not been confirmed.'} Final delivery options are confirmed at checkout.</p><a class="button primary" href="${esc(merchantLink(v))}" target="_blank" rel="noopener noreferrer">View this exact ${esc(v.size)} on iHerb <span aria-hidden="true">↗</span></a></div>`;
+  // Rebuilt for this catalogue's fields. Upstream's panel reads an evidence
+  // model this data does not have — `v.label_image.url`, `v.evidence.title`,
+  // `v.evidence.domains`, `v.claims` — and reading `.url` off a null
+  // `label_image` threw as soon as anybody opened a product. What we do have
+  // is the score and what moved it, which is the better answer to "why is
+  // this on the shelf" anyway. Same classes, same structure, no invented
+  // fields.
+  const link=safeMerchantLink(v);
+  const pillarName={purity:'Ingredient purity',efficacy:'Dosage efficacy',verification:'Third-party verification',transparency:'Label transparency',family:'Family safety',value:'Value density'};
+  const pillars=(v.pillars||[]).filter(x=>x.weight>0);
+  $('#product-detail').innerHTML=`<p class="eyebrow detail-eyebrow">WHY THIS IS ON THE SHELF</p><div class="detail-hero"><img src="${esc(imgSrc(v.image))}" alt="${esc(v.title)}" onerror="this.onerror=null;this.src='${esc(v.placeholder||'')}'" width="140" height="160"><div><p class="brand">${esc(g.brand)}</p><h2 id="product-title">${esc(g.name)}</h2><p class="flavor">${esc(g.flavor)} · ${esc(v.size)} · ${esc(v.type_name)}</p><p class="detail-price">${money(v.price_kwd)}</p></div></div>`
+    +`<div class="size-options detail-format" role="group" aria-label="Product detail pack size"><span class="size-caption">Pack size</span>${g.variants.map(x=>g.variants.length>1?`<button class="size-pill" id="detail-size-${esc(x.id)}" data-detail-size="${esc(x.id)}" aria-pressed="${x.id===id}">${esc(x.size)}</button>`:`<span class="size-pill">${esc(x.size)}</span>`).join('')}</div>`
+    +`<div class="detail-pass"><span aria-hidden="true">✓</span><div><strong>Passed our ingredient screen</strong><p>Every declared ingredient is recognised and none is excluded by charter ${esc(v.charter??'')}. ${v.ingredients_reviewed_at?`Reviewed ${date(v.ingredients_reviewed_at)}.`:''} This is a screen of the declaration, not a laboratory result.</p></div></div>`
+    +directorDetail(v)
+    +(v.verdict_line?`<section class="detail-section"><h3>Our verdict</h3><p>${esc(v.verdict_line)}</p>${Number.isFinite(v.score)?`<p class="detail-small">Scored ${v.score} of 100 across the pillars below, and ranked ${v.rank} on its shelf. A score is a comparison within a product type, not a health claim.</p>`:''}</section>`:'')
+    +(pillars.length?`<section class="detail-section"><h3>How it scored</h3><dl class="evidence-grid">${pillars.map(x=>`<div><dt>${esc(pillarName[x.id]??x.id)}</dt><dd>${x.value} / 100</dd></div>`).join('')}</dl><p class="detail-small">A pillar we could not assess carries no weight and is left out rather than scored as mediocre.</p></section>`:'')
+    +((v.strengths||[]).length||(v.caveats||[]).length?`<section class="detail-section"><h3>What we would and would not say for it</h3>${(v.strengths||[]).length?`<ul>${v.strengths.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${(v.caveats||[]).length?`<p class="detail-small"><strong>And what we would change:</strong></p><ul>${v.caveats.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}</section>`:'')
+    +`<section class="detail-section"><h3>The ingredients we reviewed</h3><p class="ingredients">${esc(v.ingredients??'No declaration captured for this reference.')}</p>${Number.isFinite(v.ingredient_count)?`<p class="detail-small">${v.ingredient_count} declared ingredient entries, including named blend constituents. Undisclosed flavour components are not counted as known ingredients.</p>`:''}${v.contains_milk?`<p class="detail-small"><strong>Contains milk-derived protein.</strong> ${esc(v.allergen_statement??'')}</p>`:(v.dairy_free_declared?`<p class="detail-small">Declared dairy-free.</p>`:`<p class="detail-small">No allergen declaration was captured, which is not the same as none being present.</p>`)}${(v.dietary||[]).length?`<p class="detail-small">Declared: ${esc(v.dietary.join(', '))}.</p>`:''}${(v.certifications||[]).length?`<p class="detail-small">Certifications recorded: ${esc(v.certifications.join(', '))}. A certification covers what it covers and nothing else.</p>`:''}</section>`
+    +`<section class="detail-section"><h3>The price, put in perspective</h3>${n?`<dl class="nutrition-grid"><div><dt>Serving size</dt><dd>${esc(n.servingSize??'—')}</dd></div><div><dt>Protein per serving</dt><dd>${Number.isFinite(n.proteinG)?`${n.proteinG} g`:'—'}</dd></div><div><dt>Servings</dt><dd>${Number.isFinite(n.servingsPerContainer)?n.servingsPerContainer:'—'}</dd></div><div><dt>Cost / ${esc(unitName)}</dt><dd>${Number.isFinite(unitCost(v))?money(unitCost(v)):'Not calculable'}</dd></div></dl><p class="detail-small">${esc(COPY.unit_basis??'')} This compares cost, not overall quality.</p>`:'<p>Nutrition data is incomplete for this exact reference, so we do not calculate a unit cost.</p>'}<p class="detail-small">Price observed ${stamp(v.price_observed_at)}${v.price_is_live?' and read live from our catalogue':''}. Product only; delivery and checkout charges are additional.</p></section>`
+    +`<div class="detail-buy"><p class="stock-note ${stockState(v)==='in_stock'?'in-stock':''}">${esc(stockLabel(v))}</p><p class="detail-small">${v.availability.observed_at?`Stock checked ${stamp(v.availability.observed_at)}, country set to Kuwait. Status expires after 24 hours.`:'Current Kuwait stock has not been confirmed.'} Final delivery options are confirmed at checkout.</p>${link?`<a class="button primary" href="${esc(link)}" target="_blank" rel="noopener noreferrer">View this exact ${esc(v.size)} on iHerb <span aria-hidden="true">↗</span></a>`:`<p class="detail-small">We could not derive a merchant link for this reference, so we are not sending you to a guess.</p>`}</div>`;
   document.querySelectorAll('[data-detail-size]').forEach(b=>b.onclick=()=>{const pid=b.dataset.detailSize;openDetail(pid);document.getElementById('detail-size-'+pid)?.focus({preventScroll:true});});
   if($('#composition-image'))$('#composition-image').onerror=()=>{$('#composition-image').hidden=true;$('#label-unavailable').hidden=false;};
   if(!$('#product-dialog').open)$('#product-dialog').showModal();
@@ -288,3 +318,10 @@ const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalo
 }).catch(()=>{
   $('.view-switch').hidden=true;$('.selection-tools').hidden=true;if($('#director-intro'))$('#director-intro').hidden=true;$('#filters').hidden=true;$('#result-count').textContent='Selection unavailable';$('#products').innerHTML='<div class="empty"><h3>The selection could not load.</h3><p>Please reload to retrieve the reviewed products and their prices.</p><button class="button primary" id="reload">Reload the selection</button></div>';$('#reload').onclick=()=>location.reload();document.querySelectorAll('[data-guide]').forEach(b=>b.disabled=true);
 });
+
+// Exposed for tests/storefront-render.test.mjs, which opens every product's
+// detail panel. Three separate upstream readers of fields this catalogue does
+// not have threw in here, and nothing caught it until a person looked at the
+// site; a render test needs a way in.
+globalThis.__storefrontOpenDetail = openDetail;
+
