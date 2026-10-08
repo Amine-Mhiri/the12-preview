@@ -188,6 +188,13 @@ function renderResults(){
   bindDynamic();
 }
 function emptyState(){
+  // A category that publishes nothing is not a category whose filters are too
+  // tight. Upstream only ever had one empty state, because whey and creatine
+  // always had a shortlist; five of our six categories currently publish
+  // nothing, and every one of them told the visitor "No option satisfies all
+  // your current filters" when they had set no filters at all. Blaming
+  // somebody for a shelf we have not filled is the wrong way round.
+  if(!data.groups.length)return `<div class="empty"><h3>${esc(COPY.empty_title??'Nothing here clears our bar yet.')}</h3><p>${esc(COPY.empty_body??'')}</p></div>`;
   if(state.milkAllergy&&!selectProducts(data,state).length)return `<div class="empty"><h3>${esc(COPY.milk_allergy_empty.title)}</h3><p>${esc(COPY.milk_allergy_empty.body)}</p><button class="button secondary" data-guide>Review my answers</button></div>`;
   const constraints=Object.entries(constraintNames).filter(([k])=>state[k]).map(([,v])=>v.toLowerCase());
   return `<div class="empty"><h3>No exact match. Let’s adjust.</h3><p>No option satisfies all your current filters${constraints.length?`: ${esc(constraints.join(', '))}`:''}${state.flavor!=='all'?`, ${esc(FLAVORS[state.flavor].toLowerCase())}`:''}${state.budget!==''?`, up to ${money(state.budget)}`:''}.<br>Try another flavor or a higher budget. Your dietary constraints stay in place until you change them.${state.priority==='value'?` Only products whose declared nutrition supports a ${unitName} comparison qualify.`:''}</p><button class="button secondary" data-guide>Edit my preferences</button><button class="text-button" data-reset>Reset all filters</button></div>`;

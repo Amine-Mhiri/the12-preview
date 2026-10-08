@@ -10,7 +10,7 @@
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-07",
-  "generated_at": "2026-10-08T01:42:16.672Z",
+  "generated_at": "2026-10-08T12:27:42.633Z",
   "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
@@ -29,6 +29,8 @@
     "noun": "protein",
     "guide_heading": "How do you like your protein?",
     "guide_open": "What matters most to you?",
+    "empty_title": "Nothing here clears our bar yet.",
+    "empty_body": "We reviewed 546 protein products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -1414,6 +1416,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-08T01:42:21.331Z",
+  "pulled_at": "2026-10-08T12:27:44.137Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

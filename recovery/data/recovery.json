@@ -10,7 +10,7 @@
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-07",
-  "generated_at": "2026-10-08T01:42:16.672Z",
+  "generated_at": "2026-10-08T12:27:42.633Z",
   "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
@@ -27,6 +27,8 @@
     "noun": "recovery",
     "guide_heading": "How do you like your recovery?",
     "guide_open": "What matters most to you?",
+    "empty_title": "Nothing here clears our bar yet.",
+    "empty_body": "We reviewed 35 recovery products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -96,6 +98,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-08T01:42:21.730Z",
+  "pulled_at": "2026-10-08T12:27:44.597Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
