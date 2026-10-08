@@ -32,6 +32,22 @@ const {DEFAULTS,stockState,selectProducts,chooseFlavor,recommendations,merchantL
 // the card renderer, so one bad link blanked all twelve products behind
 // "The selection could not load". Now that product renders without a buy
 // link and says why, and the rest of the shelf is unaffected.
+// What a card says where the buy button would be.
+//
+// `.purchase-action` is `white-space:nowrap` in the upstream stylesheet,
+// because it was written for "Check iHerb ↗". Putting the API's full sentence
+// in it overflowed the card, which has `overflow:hidden`, so four of twelve
+// products showed a sentence cut off mid-word. The stylesheet is copied byte
+// for byte from upstream and is not ours to change, and a card is the wrong
+// place for a sentence regardless: the label is three words, the sentence is
+// the `title`, and the detail panel explains it properly.
+//
+// The two cases are genuinely different and must not share a label. An
+// authored product has no retailer listing because we never observed one; a
+// crawled product with no usable link means the reference we hold does not
+// resolve to a page, which is our problem rather than a fact about the market.
+const noLinkLabel=v=>v.source==='authored'?'No listing observed':'No merchant page';
+
 const safeMerchantLink=v=>{try{return merchantLink(v);}catch{return null;}};
 // Assigned from the category's own data before the first render, because the
 // comparator held these as per-category code and six categories cannot be a
@@ -159,7 +175,7 @@ function card(g,recommended=false){
       <div class="product-options"><div class="flavor-options" role="group" aria-label="Flavor for ${esc(g.brand+' '+g.name)}">${flavors.map(x=>flavors.length>1?`<button class="flavor-pill tone-${flavorTone(x)}" id="${prefix}-flavor-${x.flavor_id}" data-flavor-product="${g.id}" data-flavor-id="${x.flavor_id}" aria-pressed="${x.flavor_id===v.flavor_id}" aria-label="${esc(x.flavor)} for ${esc(g.brand+' '+g.name)}">${esc(x.flavor)}</button>`:`<span class="flavor-pill tone-${flavorTone(x)}">${esc(x.flavor)}</span>`).join('')}</div>
       <div class="size-options" role="group" aria-label="Pack size for ${esc(g.brand+' '+g.name)}"><span class="size-caption">Pack size</span>${sizes.map(x=>sizes.length>1?`<button class="size-pill" id="${prefix}-size-${x.id}" data-size="${g.id}" value="${x.id}" aria-pressed="${x.id===v.id}" aria-label="${esc(x.size)} for ${esc(g.brand+' '+g.name)}">${esc(x.size)}</button>`:`<span class="size-pill">${esc(x.size)}</span>`).join('')}</div></div>
       ${recommended?`<div class="match-reason"><strong>Why it matches</strong><ul>${reasons(g,v).map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
-      <div class="purchase">${safeMerchantLink(v)?`<a class="purchase-link" href="${esc(safeMerchantLink(v))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(money(v.price_kwd)+' · '+shortStock+' · '+g.brand+' '+g.name+' · '+v.flavor+' · '+v.size+' on iHerb')}"><span class="purchase-price">${money(v.price_kwd)}<span class="purchase-stock ${st==='in_stock'?'in-stock':''}">${esc(shortStock)}</span></span><span class="purchase-action">${st==='in_stock'?'iHerb':'Check iHerb'} <span aria-hidden="true">↗</span></span></a>`:`<p class="purchase-link purchase-unavailable"><span class="purchase-price">${money(v.price_kwd)}</span><span class="purchase-action">${esc(v.merchant_note??'No merchant page')}</span></p>`}<p class="purchase-meta">${Number.isFinite(unitCost(v))?`${money(unitCost(v))} / ${unitName}`:'Unit cost not calculable'}<span>${v.price_basis==='derived'?'Price derived, not observed':`Price observed ${date(v.price_observed_at)}`}</span></p></div>
+      <div class="purchase">${safeMerchantLink(v)?`<a class="purchase-link" href="${esc(safeMerchantLink(v))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(money(v.price_kwd)+' · '+shortStock+' · '+g.brand+' '+g.name+' · '+v.flavor+' · '+v.size+' on iHerb')}"><span class="purchase-price">${money(v.price_kwd)}<span class="purchase-stock ${st==='in_stock'?'in-stock':''}">${esc(shortStock)}</span></span><span class="purchase-action">${st==='in_stock'?'iHerb':'Check iHerb'} <span aria-hidden="true">↗</span></span></a>`:`<p class="purchase-link purchase-unavailable"><span class="purchase-price">${money(v.price_kwd)}</span><span class="purchase-action" title="${esc(v.merchant_note??'')}">${esc(noLinkLabel(v))}</span></p>`}<p class="purchase-meta">${Number.isFinite(unitCost(v))?`${money(unitCost(v))} / ${unitName}`:'Unit cost not calculable'}<span>${v.price_basis==='derived'?'Price derived, not observed':`Price observed ${date(v.price_observed_at)}`}</span></p></div>
     </div></article>`;
 }
 function renderView(){
