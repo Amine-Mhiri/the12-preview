@@ -10,10 +10,10 @@
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-08",
-  "generated_at": "2026-10-08T14:22:32.937Z",
+  "generated_at": "2026-10-08T14:49:31.292Z",
   "live": false,
   "charter": "0.11.0",
-  "exclusion_rules": 0,
+  "exclusion_rules": 475,
   "comparison_unit": null,
   "comparison_units": [
     "5 g creatine",
@@ -143,6 +143,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-08T14:22:42.999Z",
+  "pulled_at": "2026-10-08T14:49:38.825Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
