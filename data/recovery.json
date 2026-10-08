@@ -5,12 +5,12 @@
   "tagline": "What happens between sessions decides the next one.",
   "description": "Sleep and joint support, filtered for Kuwait's import rules as well as our own doctrine. Where a compound cannot lawfully reach Kuwait, we leave the slot empty rather than list something you cannot receive.",
   "build": {
-    "id": 18,
+    "id": 19,
     "source": "crawl",
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-08",
-  "generated_at": "2026-10-08T16:48:32.830Z",
+  "generated_at": "2026-10-08T16:53:20.658Z",
   "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
@@ -98,6 +98,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-08T16:48:42.918Z",
+  "pulled_at": "2026-10-08T16:53:21.756Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

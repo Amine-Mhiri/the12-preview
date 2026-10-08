@@ -5,12 +5,12 @@
   "tagline": "Compounds with trials behind them, at the doses used in those trials.",
   "description": "Creatine, caffeine, citrulline and beta-alanine have decades of evidence. Almost everything else sold alongside them does not. This category is graded hardest on dose: a clinically studied ingredient at a decorative amount scores zero on efficacy regardless of how clean the label is.",
   "build": {
-    "id": 18,
+    "id": 19,
     "source": "crawl",
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-08",
-  "generated_at": "2026-10-08T16:48:32.830Z",
+  "generated_at": "2026-10-08T16:53:20.658Z",
   "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
@@ -244,6 +244,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-08T16:48:42.612Z",
+  "pulled_at": "2026-10-08T16:53:21.418Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
