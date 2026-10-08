@@ -5,16 +5,16 @@
   "tagline": "Compounds with trials behind them, at the doses used in those trials.",
   "description": "Creatine, caffeine, citrulline and beta-alanine have decades of evidence. Almost everything else sold alongside them does not. This category is graded hardest on dose: a clinically studied ingredient at a decorative amount scores zero on efficacy regardless of how clean the label is.",
   "build": {
-    "id": 17,
+    "id": 18,
     "source": "crawl",
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-08",
-  "generated_at": "2026-10-08T15:03:02.914Z",
+  "generated_at": "2026-10-08T16:33:59.379Z",
   "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
-  "comparison_unit": null,
+  "comparison_unit": "5 g creatine",
   "comparison_units": [
     "5 g creatine",
     "one full scoop",
@@ -26,8 +26,8 @@
   "stock_ttl_hours": 24,
   "affiliate_active": false,
   "copy": {
-    "unit_name": "serving",
-    "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
+    "unit_name": "5 g creatine",
+    "unit_basis": "Based on declared nutrition, per 5 g creatine.",
     "noun": "performance",
     "guide_heading": "How do you like your performance?",
     "guide_open": "What matters most to you?",
@@ -50,7 +50,7 @@
   "priorities": {
     "rank": "Our ranking",
     "price": "Lowest pack price",
-    "value": "Price per serving",
+    "value": "Price per 5 g creatine",
     "simple": "Cleanest label"
   },
   "flavors": {
@@ -63,7 +63,7 @@
     "other": "Other"
   },
   "director_selection": {
-    "selected": 0,
+    "selected": 1,
     "note": "Products a founder put on the shelf from the database, whatever their score."
   },
   "types": [
@@ -79,7 +79,7 @@
         "Creapure or an equivalent published purity certificate"
       ],
       "shelf_note": null,
-      "published": 0
+      "published": 1
     },
     {
       "slug": "pre-workout",
@@ -137,12 +137,113 @@
   ],
   "counts": {
     "reviewed": 371,
-    "selected": 0,
+    "selected": 1,
     "excluded": 187,
     "pending": 182,
-    "flavor_options": 0
+    "flavor_options": 1
   },
-  "groups": [],
-  "pulled_at": "2026-10-08T15:03:10.534Z",
+  "groups": [
+    {
+      "id": "ehplabs-crea-8-1-1-lb-500-g",
+      "product_id": "p-858221007090",
+      "brand": "EHPlabs",
+      "brand_slug": "ehplabs",
+      "name": "Crea-8",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "ehplabs-crea-8-1-1-lb-500-g",
+          "catalogue_id": "p-858221007090",
+          "number": 1,
+          "title": "EHPlabs, Crea-8, 1.1 lb / 500 g",
+          "url": "https://kw.iherb.com/pr/ehplabs-crea-8-17-6-oz-500-g/119639",
+          "merchant_url_from_build": "https://www.iherb.com/pr/ehplabs-crea-8-17-6-oz-500-g/119639",
+          "merchant_ref": "119639",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ehl/ehl00709/l/41.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ehl/ehl00709/l/41.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ehl/ehl00709/l/48.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 1,
+          "slot_kind": "editorial",
+          "score": 67.3,
+          "verdict_line": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch.",
+          "strengths": [
+            "Active delivered in the exact form the evidence used",
+            "Single-ingredient product",
+            "Free of all 14 EU-declarable allergens, stated and tested"
+          ],
+          "caveats": [
+            "No cross-contact statement and the facility is not declared allergen-controlled",
+            "Brand has no identifiable legal entity, address or contactable quality function",
+            "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
+          ],
+          "ingredients": "Creatine monohydrate.",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "carbsG": 0,
+            "sugarG": 0,
+            "calories": 0,
+            "servingSize": "1 scoop (5 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 18.21,
+          "price_from_build_kwd": 18.21,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.182,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-05T19:52:16.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/ehplabs-crea-8-17-6-oz-500-g/119639",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-05T19:52:16.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 1,
+            "note": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-08",
+          "data_confidence": "verified"
+        }
+      ]
+    }
+  ],
+  "pulled_at": "2026-10-08T16:34:00.107Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
