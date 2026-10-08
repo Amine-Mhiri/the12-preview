@@ -327,7 +327,11 @@ function registerTools(){
 // empties has to change which one is shown.
 const retitle=d=>{
   const n=d?.counts?.selected??0,name=d?.category_name||document.title;
+  // Three sentences, not two: "the 1 best in Kuwait" is not English, and one
+  // product is the shelf rather than a ranking of one. Kept identical to
+  // `pageTitle` in sites/storefront/scripts/build.mjs.
   document.title=n===0?`${name} — nothing we would publish yet · the12`
+                :n===1?`${name} — the one we would publish in Kuwait · the12`
                       :`${name} — the ${n} best in Kuwait · the12`;
 };
 
