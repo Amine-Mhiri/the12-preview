@@ -300,6 +300,21 @@ function registerTools(){
 // visitor without anybody rebuilding — but a site that shows nothing when the
 // API is briefly unreachable would be worse than one showing this morning's
 // catalogue, so the build still writes a copy next to the page.
+// The page's own <title> counts the shelf, and the build baked that count in.
+// The API can disagree the moment a founder ticks a row — which it did: a page
+// headed "the 11 best in Kuwait" listed twelve products, because the count
+// came from the build and the shelf came from the API. Whichever number is on
+// the page has to be the one in the page's title.
+//
+// Only the number is rewritten, never the claim: "nothing we would publish
+// yet" and "the N best" are different sentences, and a shelf that fills or
+// empties has to change which one is shown.
+const retitle=d=>{
+  const n=d?.counts?.selected??0,name=d?.category_name||document.title;
+  document.title=n===0?`${name} — nothing we would publish yet · the12`
+                      :`${name} — the ${n} best in Kuwait · the12`;
+};
+
 const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalogue/${CATEGORY}`:null,`./data/${CATEGORY}.json`].filter(Boolean);
 (async()=>{
   let last;
@@ -314,7 +329,7 @@ const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalo
 })().then(d=>{
   COPY=d.copy;PRIORITIES=d.priorities;FLAVORS=d.flavors;constraintNames=d.constraints;unitName=d.copy.unit_name;
   if(d.schema_version!==1||!Array.isArray(d.groups)||d.groups.length!==d.counts.flavor_options||d.groups.reduce((n,g)=>n+g.variants.length,0)!==d.counts.selected)throw Error('Incomplete selection');
-  data=d;renderFilters();renderResults();try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
+  data=d;retitle(d);renderFilters();renderResults();try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
   stockSignature=data.groups.flatMap(g=>g.variants.map(v=>stockState(v))).join('|');
   const refreshAvailability=()=>{
     if(document.hidden)return;
