@@ -5,12 +5,12 @@
   "tagline": "Electrolytes for a climate that takes them seriously.",
   "description": "Training in Kuwait means sweating at rates that a temperate-climate label was never designed for. We weight sodium content higher here than any other market would, and we reject the flavoured-water products that sell on packaging alone.",
   "build": {
-    "id": 19,
+    "id": 20,
     "source": "crawl",
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-08",
-  "generated_at": "2026-10-08T16:53:20.658Z",
+  "generated_at": "2026-10-08T21:11:21.214Z",
   "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
@@ -99,6 +99,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-08T16:53:21.525Z",
+  "pulled_at": "2026-10-08T21:11:22.088Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

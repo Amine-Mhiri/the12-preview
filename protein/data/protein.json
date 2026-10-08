@@ -5,12 +5,12 @@
   "tagline": "Grams that count, from sources you can name.",
   "description": "The largest category in sport nutrition and the one with the most creative labelling. We read the amino profile before the marketing, reject anything spiked to inflate a protein reading, and rank on protein per calorie, leucine per serving and what the rest of the tub is made of.",
   "build": {
-    "id": 19,
+    "id": 20,
     "source": "crawl",
     "charter": "0.11.0"
   },
   "reviewed_at": "2026-10-08",
-  "generated_at": "2026-10-08T16:53:20.658Z",
+  "generated_at": "2026-10-08T21:11:21.214Z",
   "live": false,
   "charter": "0.11.0",
   "exclusion_rules": 475,
@@ -1312,11 +1312,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.703,
           "cost_per_25g": 0.7323,
-          "price_observed_at": "2026-10-08T16:52:13.151Z",
+          "price_observed_at": "2026-10-08T21:10:12.410Z",
           "price_source_url": null,
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-08T16:52:13.151Z",
+            "observed_at": "2026-10-08T21:10:12.410Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1421,11 +1421,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.281,
           "cost_per_25g": 0.2927,
-          "price_observed_at": "2026-10-08T16:52:13.151Z",
+          "price_observed_at": "2026-10-08T21:10:12.410Z",
           "price_source_url": null,
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-08T16:52:13.151Z",
+            "observed_at": "2026-10-08T21:10:12.410Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1538,11 +1538,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.311,
           "cost_per_25g": 0.288,
-          "price_observed_at": "2026-10-08T16:52:13.151Z",
+          "price_observed_at": "2026-10-08T21:10:12.410Z",
           "price_source_url": null,
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-08T16:52:13.151Z",
+            "observed_at": "2026-10-08T21:10:12.410Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1650,11 +1650,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.273,
           "cost_per_25g": 0.2844,
-          "price_observed_at": "2026-10-08T16:52:13.151Z",
+          "price_observed_at": "2026-10-08T21:10:12.410Z",
           "price_source_url": null,
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-08T16:52:13.151Z",
+            "observed_at": "2026-10-08T21:10:12.410Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1683,6 +1683,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-08T16:53:21.286Z",
+  "pulled_at": "2026-10-08T21:11:21.863Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
