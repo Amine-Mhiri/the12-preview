@@ -5,14 +5,14 @@
   "tagline": "Grams that count, from sources you can name.",
   "description": "The largest category in sport nutrition and the one with the most creative labelling. We read the amino profile before the marketing, reject anything spiked to inflate a protein reading, and rank on protein per calorie, leucine per serving and what the rest of the tub is made of.",
   "build": {
-    "id": 20,
+    "id": 23,
     "source": "crawl",
-    "charter": "0.11.0"
+    "charter": "0.12.0"
   },
-  "reviewed_at": "2026-10-08",
-  "generated_at": "2026-10-08T21:11:21.214Z",
+  "reviewed_at": "2026-10-09",
+  "generated_at": "2026-10-10T01:39:32.333Z",
   "live": false,
-  "charter": "0.11.0",
+  "charter": "0.12.0",
   "exclusion_rules": 475,
   "comparison_unit": "25 g protein",
   "comparison_units": [
@@ -266,7 +266,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
@@ -372,7 +372,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
@@ -473,7 +473,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
@@ -581,7 +581,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
@@ -689,7 +689,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
@@ -796,7 +796,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
@@ -901,7 +901,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
@@ -1008,7 +1008,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
@@ -1114,7 +1114,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
@@ -1220,7 +1220,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
@@ -1312,11 +1312,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.703,
           "cost_per_25g": 0.7323,
-          "price_observed_at": "2026-10-08T21:10:12.410Z",
+          "price_observed_at": "2026-10-09T03:49:24.591Z",
           "price_source_url": null,
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-08T21:10:12.410Z",
+            "observed_at": "2026-10-09T03:49:24.591Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1339,7 +1339,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "reported"
         }
       ]
@@ -1421,11 +1421,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.281,
           "cost_per_25g": 0.2927,
-          "price_observed_at": "2026-10-08T21:10:12.410Z",
+          "price_observed_at": "2026-10-09T03:49:24.591Z",
           "price_source_url": null,
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-08T21:10:12.410Z",
+            "observed_at": "2026-10-09T03:49:24.591Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1448,7 +1448,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "reported"
         }
       ]
@@ -1538,11 +1538,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.311,
           "cost_per_25g": 0.288,
-          "price_observed_at": "2026-10-08T21:10:12.410Z",
+          "price_observed_at": "2026-10-09T03:49:24.591Z",
           "price_source_url": null,
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-08T21:10:12.410Z",
+            "observed_at": "2026-10-09T03:49:24.591Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1565,7 +1565,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "reported"
         }
       ]
@@ -1650,11 +1650,11 @@
           "price_is_live": false,
           "price_per_serving_kwd": 0.273,
           "cost_per_25g": 0.2844,
-          "price_observed_at": "2026-10-08T21:10:12.410Z",
+          "price_observed_at": "2026-10-09T03:49:24.591Z",
           "price_source_url": null,
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-08T21:10:12.410Z",
+            "observed_at": "2026-10-09T03:49:24.591Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -1677,12 +1677,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "reported"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-08T21:11:21.863Z",
+  "pulled_at": "2026-10-10T01:39:32.886Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

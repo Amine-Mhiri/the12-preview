@@ -5,14 +5,14 @@
   "tagline": "The unglamorous four that actually change blood work.",
   "description": "Omega-3, vitamin D3, magnesium and a sensible multivitamin. No category is more affected by ingredient *form*: magnesium oxide and magnesium glycinate are not the same purchase, and most labels are betting you don't know that.",
   "build": {
-    "id": 20,
+    "id": 23,
     "source": "crawl",
-    "charter": "0.11.0"
+    "charter": "0.12.0"
   },
-  "reviewed_at": "2026-10-08",
-  "generated_at": "2026-10-08T21:11:21.214Z",
+  "reviewed_at": "2026-10-09",
+  "generated_at": "2026-10-10T01:39:32.333Z",
   "live": false,
-  "charter": "0.11.0",
+  "charter": "0.12.0",
   "exclusion_rules": 475,
   "comparison_unit": null,
   "comparison_units": [
@@ -144,6 +144,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-08T21:11:22.198Z",
+  "pulled_at": "2026-10-10T01:39:33.208Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

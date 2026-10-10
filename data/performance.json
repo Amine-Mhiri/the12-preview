@@ -5,14 +5,14 @@
   "tagline": "Compounds with trials behind them, at the doses used in those trials.",
   "description": "Creatine, caffeine, citrulline and beta-alanine have decades of evidence. Almost everything else sold alongside them does not. This category is graded hardest on dose: a clinically studied ingredient at a decorative amount scores zero on efficacy regardless of how clean the label is.",
   "build": {
-    "id": 20,
+    "id": 23,
     "source": "crawl",
-    "charter": "0.11.0"
+    "charter": "0.12.0"
   },
-  "reviewed_at": "2026-10-08",
-  "generated_at": "2026-10-08T21:11:21.214Z",
+  "reviewed_at": "2026-10-09",
+  "generated_at": "2026-10-10T01:39:32.333Z",
   "live": false,
-  "charter": "0.11.0",
+  "charter": "0.12.0",
   "exclusion_rules": 475,
   "comparison_unit": "5 g creatine",
   "comparison_units": [
@@ -32,7 +32,7 @@
     "guide_heading": "How do you like your performance?",
     "guide_open": "What matters most to you?",
     "empty_title": "Nothing here clears our bar yet.",
-    "empty_body": "We reviewed 371 performance products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
+    "empty_body": "We reviewed 688 performance products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -136,10 +136,10 @@
     }
   ],
   "counts": {
-    "reviewed": 371,
+    "reviewed": 688,
     "selected": 1,
-    "excluded": 187,
-    "pending": 182,
+    "excluded": 506,
+    "pending": 180,
     "flavor_options": 1
   },
   "groups": [
@@ -186,8 +186,8 @@
             "Free of all 14 EU-declarable allergens, stated and tested"
           ],
           "caveats": [
-            "No cross-contact statement and the facility is not declared allergen-controlled",
             "Brand has no identifiable legal entity, address or contactable quality function",
+            "No cross-contact statement and the facility is not declared allergen-controlled",
             "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
           ],
           "ingredients": "Creatine monohydrate.",
@@ -238,12 +238,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-08",
+          "ingredients_reviewed_at": "2026-10-09",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-08T21:11:21.978Z",
+  "pulled_at": "2026-10-10T01:39:32.995Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
