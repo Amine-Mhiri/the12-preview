@@ -5,14 +5,14 @@
   "tagline": "Grams that count, from sources you can name.",
   "description": "The largest category in sport nutrition and the one with the most creative labelling. We read the amino profile before the marketing, reject anything spiked to inflate a protein reading, and rank on protein per calorie, leucine per serving and what the rest of the tub is made of.",
   "build": {
-    "id": 23,
+    "id": 24,
     "source": "crawl",
-    "charter": "0.12.0"
+    "charter": "0.14.0"
   },
-  "reviewed_at": "2026-10-09",
-  "generated_at": "2026-10-10T01:50:32.876Z",
+  "reviewed_at": "2026-10-10",
+  "generated_at": "2026-10-10T20:02:58.755Z",
   "live": false,
-  "charter": "0.12.0",
+  "charter": "0.14.0",
   "exclusion_rules": 476,
   "comparison_unit": "25 g protein",
   "comparison_units": [
@@ -30,7 +30,7 @@
     "guide_heading": "How do you like your protein?",
     "guide_open": "What matters most to you?",
     "empty_title": "Nothing here clears our bar yet.",
-    "empty_body": "We reviewed 546 protein products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
+    "empty_body": "We reviewed 812 protein products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -118,7 +118,7 @@
         "At least 2.3 g leucine per serving"
       ],
       "shelf_note": null,
-      "published": 4
+      "published": 0
     },
     {
       "slug": "collagen-peptides",
@@ -162,11 +162,11 @@
     }
   ],
   "counts": {
-    "reviewed": 546,
-    "selected": 14,
-    "excluded": 400,
-    "pending": 90,
-    "flavor_options": 14
+    "reviewed": 812,
+    "selected": 10,
+    "excluded": 513,
+    "pending": 225,
+    "flavor_options": 10
   },
   "groups": [
     {
@@ -266,7 +266,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
+          "ingredients_reviewed_at": "2026-10-10",
           "data_confidence": "verified"
         }
       ]
@@ -372,7 +372,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
+          "ingredients_reviewed_at": "2026-10-10",
           "data_confidence": "verified"
         }
       ]
@@ -412,7 +412,7 @@
           "unit_name": "25 g protein",
           "rank": 3,
           "slot_kind": "merit",
-          "score": 73.2,
+          "score": 72,
           "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
           "strengths": [
             "Protein at or above 80% by dry weight",
@@ -473,7 +473,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
+          "ingredients_reviewed_at": "2026-10-10",
           "data_confidence": "verified"
         }
       ]
@@ -581,7 +581,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
+          "ingredients_reviewed_at": "2026-10-10",
           "data_confidence": "verified"
         }
       ]
@@ -689,7 +689,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
+          "ingredients_reviewed_at": "2026-10-10",
           "data_confidence": "verified"
         }
       ]
@@ -796,7 +796,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
+          "ingredients_reviewed_at": "2026-10-10",
           "data_confidence": "verified"
         }
       ]
@@ -901,7 +901,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
+          "ingredients_reviewed_at": "2026-10-10",
           "data_confidence": "verified"
         }
       ]
@@ -1008,7 +1008,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
+          "ingredients_reviewed_at": "2026-10-10",
           "data_confidence": "verified"
         }
       ]
@@ -1114,7 +1114,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
+          "ingredients_reviewed_at": "2026-10-10",
           "data_confidence": "verified"
         }
       ]
@@ -1220,469 +1220,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
+          "ingredients_reviewed_at": "2026-10-10",
           "data_confidence": "verified"
-        }
-      ]
-    },
-    {
-      "id": "transparent-labs-organic-vegan-protein-chocolate-840-g",
-      "product_id": "transparent-labs-organic-vegan-protein-chocolate-840-g",
-      "brand": "Transparent Labs",
-      "brand_slug": "transparent-labs",
-      "name": "Organic Vegan Protein",
-      "flavor": "Chocolate",
-      "flavor_group": "chocolate",
-      "variants": [
-        {
-          "id": "transparent-labs-organic-vegan-protein-chocolate-840-g",
-          "catalogue_id": null,
-          "number": 11,
-          "title": "Transparent Labs, Organic Vegan Protein, Chocolate, 840 g",
-          "url": null,
-          "merchant_url_from_build": "https://kw.iherb.com/product/transparent-labs-organic-vegan-protein-chocolate-840-g",
-          "merchant_ref": null,
-          "merchant_note": "We could not derive a merchant page for this reference, so we are not sending you to a guess.",
-          "source": "authored",
-          "price_basis": "derived",
-          "size": "840 g",
-          "image": "/products/transparent-labs-organic-vegan-protein-chocolate-840-g.jpg",
-          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
-          "gallery": [
-            "/products/transparent-labs-organic-vegan-protein-chocolate-840-g.jpg"
-          ],
-          "has_retailer_image": false,
-          "image_kind": "authored",
-          "image_credit": {
-            "credit": "Open Food Facts contributors",
-            "licence": "CC BY-SA 3.0",
-            "source_url": "https://world.openfoodfacts.org/product/0615435707761"
-          },
-          "type_slug": "plant-protein",
-          "type_name": "Plant Protein",
-          "unit_name": "25 g protein",
-          "rank": 1,
-          "slot_kind": "merit",
-          "score": 89.1,
-          "verdict_line": "Correctly dosed, independently tested, and one of the few in this type that publishes a heavy-metal panel.",
-          "strengths": [
-            "Informed Choice (LGC)",
-            "Leucine between 2.0 and 2.49 g per serving",
-            "Zero added sugar and zero non-nutritive sweetener"
-          ],
-          "caveats": [
-            "\"Natural flavour\" with no further specification",
-            "No cross-contact statement and the facility is not declared allergen-controlled",
-            "Gluten-free claimed without a tested threshold"
-          ],
-          "ingredients": "Organic pea protein isolate, organic rice protein, organic cocoa, organic natural flavors, organic stevia, himalayan pink salt",
-          "ingredient_count": 6,
-          "allergen_statement": true,
-          "dietary": [
-            "vegan",
-            "dairy-free",
-            "gluten-free",
-            "soy-free"
-          ],
-          "certifications": [
-            "usda-organic",
-            "third-party-coa",
-            "informed-choice"
-          ],
-          "contains_milk": false,
-          "charter": null,
-          "nutrition": {
-            "fatG": 2,
-            "bcaaG": 4.5,
-            "carbsG": 5,
-            "fibreG": 3,
-            "sugarG": 1,
-            "calories": 130,
-            "leucineG": 2.1,
-            "proteinG": 24,
-            "sodiumMg": 250,
-            "addedSugarG": 0,
-            "servingSize": "35 g (1 scoop)",
-            "servingsPerContainer": 24
-          },
-          "flavor": "Chocolate",
-          "flavor_group": "chocolate",
-          "price_kwd": 16.867,
-          "price_from_build_kwd": 16.867,
-          "price_is_live": false,
-          "price_per_serving_kwd": 0.703,
-          "cost_per_25g": 0.7323,
-          "price_observed_at": "2026-10-09T03:49:24.591Z",
-          "price_source_url": null,
-          "availability": {
-            "status": "in_stock",
-            "observed_at": "2026-10-09T03:49:24.591Z",
-            "source": "direct",
-            "destination": "KW"
-          },
-          "dairy_free_declared": true,
-          "lactose_free_declared": true,
-          "vegan_declared": true,
-          "gluten_free_declared": true,
-          "soy_free_declared": true,
-          "stevia": true,
-          "anti_doping_documented": true,
-          "director": {
-            "status": "not_selected"
-          },
-          "claims": [],
-          "evidence": {
-            "rank": 1,
-            "note": "Correctly dosed, independently tested, and one of the few in this type that publishes a heavy-metal panel."
-          },
-          "review_links": [],
-          "label_image": null,
-          "lead_warning": null,
-          "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
-          "data_confidence": "reported"
-        }
-      ]
-    },
-    {
-      "id": "bulk-supplements-pea-protein-isolate-unflavoured-1-kg",
-      "product_id": "bulk-supplements-pea-protein-isolate-unflavoured-1-kg",
-      "brand": "Bulk Supplements",
-      "brand_slug": "bulk-supplements",
-      "name": "Pea Protein Isolate",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
-      "variants": [
-        {
-          "id": "bulk-supplements-pea-protein-isolate-unflavoured-1-kg",
-          "catalogue_id": null,
-          "number": 12,
-          "title": "Bulk Supplements, Pea Protein Isolate, Unflavoured, 1 kg",
-          "url": null,
-          "merchant_url_from_build": "https://kw.iherb.com/product/bulk-supplements-pea-protein-isolate-unflavoured-1-kg",
-          "merchant_ref": null,
-          "merchant_note": "We could not derive a merchant page for this reference, so we are not sending you to a guess.",
-          "source": "authored",
-          "price_basis": "derived",
-          "size": "1 kg",
-          "image": "/packs/bulk-supplements-pea-protein-isolate-unflavoured-1-kg.svg",
-          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
-          "gallery": [],
-          "has_retailer_image": false,
-          "image_kind": "pack-drawing",
-          "image_credit": null,
-          "type_slug": "plant-protein",
-          "type_name": "Plant Protein",
-          "unit_name": "25 g protein",
-          "rank": 2,
-          "slot_kind": "merit",
-          "score": 84.7,
-          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
-          "strengths": [
-            "Leucine between 2.0 and 2.49 g per serving",
-            "Single-ingredient product",
-            "Full quantitative disclosure of every ingredient"
-          ],
-          "caveats": [
-            "Undeclared cross-contact with a top-14 allergen",
-            "Gluten-free claimed without a tested threshold"
-          ],
-          "ingredients": "Pea protein isolate",
-          "ingredient_count": 1,
-          "allergen_statement": true,
-          "dietary": [
-            "vegan",
-            "dairy-free",
-            "gluten-free",
-            "soy-free"
-          ],
-          "certifications": [
-            "third-party-coa"
-          ],
-          "contains_milk": false,
-          "charter": null,
-          "nutrition": {
-            "fatG": 2,
-            "carbsG": 1,
-            "fibreG": 1,
-            "sugarG": 0,
-            "calories": 110,
-            "leucineG": 2,
-            "proteinG": 24,
-            "sodiumMg": 300,
-            "addedSugarG": 0,
-            "servingSize": "30 g",
-            "servingsPerContainer": 33
-          },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
-          "price_kwd": 9.27,
-          "price_from_build_kwd": 9.27,
-          "price_is_live": false,
-          "price_per_serving_kwd": 0.281,
-          "cost_per_25g": 0.2927,
-          "price_observed_at": "2026-10-09T03:49:24.591Z",
-          "price_source_url": null,
-          "availability": {
-            "status": "in_stock",
-            "observed_at": "2026-10-09T03:49:24.591Z",
-            "source": "direct",
-            "destination": "KW"
-          },
-          "dairy_free_declared": true,
-          "lactose_free_declared": true,
-          "vegan_declared": true,
-          "gluten_free_declared": true,
-          "soy_free_declared": true,
-          "stevia": false,
-          "anti_doping_documented": false,
-          "director": {
-            "status": "not_selected"
-          },
-          "claims": [],
-          "evidence": {
-            "rank": 2,
-            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
-          },
-          "review_links": [],
-          "label_image": null,
-          "lead_warning": null,
-          "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
-          "data_confidence": "reported"
-        }
-      ]
-    },
-    {
-      "id": "naked-nutrition-naked-pea-unflavoured-2-27-kg",
-      "product_id": "naked-nutrition-naked-pea-unflavoured-2-27-kg",
-      "brand": "Naked Nutrition",
-      "brand_slug": "naked-nutrition",
-      "name": "Naked Pea",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
-      "variants": [
-        {
-          "id": "naked-nutrition-naked-pea-unflavoured-2-27-kg",
-          "catalogue_id": null,
-          "number": 13,
-          "title": "Naked Nutrition, Naked Pea, Unflavoured, 2.27 kg",
-          "url": null,
-          "merchant_url_from_build": "https://kw.iherb.com/product/naked-nutrition-naked-pea-unflavoured-2-27-kg",
-          "merchant_ref": null,
-          "merchant_note": "We could not derive a merchant page for this reference, so we are not sending you to a guess.",
-          "source": "authored",
-          "price_basis": "derived",
-          "size": "2.27 kg",
-          "image": "/products/naked-nutrition-naked-pea-unflavoured-2-27-kg.jpg",
-          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
-          "gallery": [
-            "/products/naked-nutrition-naked-pea-unflavoured-2-27-kg.jpg"
-          ],
-          "has_retailer_image": false,
-          "image_kind": "authored",
-          "image_credit": {
-            "credit": "Open Food Facts contributors",
-            "licence": "CC BY-SA 3.0",
-            "source_url": "https://world.openfoodfacts.org/product/0670534530948"
-          },
-          "type_slug": "plant-protein",
-          "type_name": "Plant Protein",
-          "unit_name": "25 g protein",
-          "rank": 3,
-          "slot_kind": "merit",
-          "score": 83.3,
-          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
-          "strengths": [
-            "Leucine between 2.0 and 2.49 g per serving",
-            "Single-ingredient product",
-            "Full quantitative disclosure of every ingredient"
-          ],
-          "caveats": [
-            "No cross-contact statement and the facility is not declared allergen-controlled",
-            "Gluten-free claimed without a tested threshold"
-          ],
-          "ingredients": "Yellow pea protein",
-          "ingredient_count": 1,
-          "allergen_statement": true,
-          "dietary": [
-            "vegan",
-            "dairy-free",
-            "gluten-free",
-            "soy-free"
-          ],
-          "certifications": [
-            "third-party-coa",
-            "vegan-certified"
-          ],
-          "contains_milk": false,
-          "charter": null,
-          "nutrition": {
-            "fatG": 0.5,
-            "bcaaG": 4.9,
-            "carbsG": 2,
-            "fibreG": 2,
-            "sugarG": 1,
-            "calories": 120,
-            "leucineG": 2.3,
-            "proteinG": 27,
-            "sodiumMg": 330,
-            "addedSugarG": 0,
-            "servingSize": "30 g (2 scoops)",
-            "servingsPerContainer": 76
-          },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
-          "price_kwd": 23.602,
-          "price_from_build_kwd": 23.602,
-          "price_is_live": false,
-          "price_per_serving_kwd": 0.311,
-          "cost_per_25g": 0.288,
-          "price_observed_at": "2026-10-09T03:49:24.591Z",
-          "price_source_url": null,
-          "availability": {
-            "status": "in_stock",
-            "observed_at": "2026-10-09T03:49:24.591Z",
-            "source": "direct",
-            "destination": "KW"
-          },
-          "dairy_free_declared": true,
-          "lactose_free_declared": true,
-          "vegan_declared": true,
-          "gluten_free_declared": true,
-          "soy_free_declared": true,
-          "stevia": false,
-          "anti_doping_documented": false,
-          "director": {
-            "status": "not_selected"
-          },
-          "claims": [],
-          "evidence": {
-            "rank": 3,
-            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
-          },
-          "review_links": [],
-          "label_image": null,
-          "lead_warning": null,
-          "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
-          "data_confidence": "reported"
-        }
-      ]
-    },
-    {
-      "id": "anthony-s-goods-organic-pea-protein-unflavoured-1-36-kg",
-      "product_id": "anthony-s-goods-organic-pea-protein-unflavoured-1-36-kg",
-      "brand": "Anthony's Goods",
-      "brand_slug": "anthony-s-goods",
-      "name": "Organic Pea Protein",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
-      "variants": [
-        {
-          "id": "anthony-s-goods-organic-pea-protein-unflavoured-1-36-kg",
-          "catalogue_id": null,
-          "number": 14,
-          "title": "Anthony's Goods, Organic Pea Protein, Unflavoured, 1.36 kg",
-          "url": null,
-          "merchant_url_from_build": "https://kw.iherb.com/product/anthony-s-goods-organic-pea-protein-unflavoured-1-36-kg",
-          "merchant_ref": null,
-          "merchant_note": "We could not derive a merchant page for this reference, so we are not sending you to a guess.",
-          "source": "authored",
-          "price_basis": "derived",
-          "size": "1.36 kg",
-          "image": "/packs/anthony-s-goods-organic-pea-protein-unflavoured-1-36-kg.svg",
-          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
-          "gallery": [],
-          "has_retailer_image": false,
-          "image_kind": "pack-drawing",
-          "image_credit": null,
-          "type_slug": "plant-protein",
-          "type_name": "Plant Protein",
-          "unit_name": "25 g protein",
-          "rank": 4,
-          "slot_kind": "merit",
-          "score": 83.3,
-          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
-          "strengths": [
-            "Leucine between 2.0 and 2.49 g per serving",
-            "Single-ingredient product",
-            "Full quantitative disclosure of every ingredient"
-          ],
-          "caveats": [
-            "Undeclared cross-contact with a top-14 allergen",
-            "Brand has no identifiable legal entity, address or contactable quality function"
-          ],
-          "ingredients": "Organic pea protein",
-          "ingredient_count": 1,
-          "allergen_statement": true,
-          "dietary": [
-            "vegan",
-            "dairy-free",
-            "gluten-free",
-            "soy-free"
-          ],
-          "certifications": [
-            "usda-organic",
-            "third-party-coa",
-            "gluten-free-certified",
-            "vegan-certified"
-          ],
-          "contains_milk": false,
-          "charter": null,
-          "nutrition": {
-            "fatG": 2,
-            "carbsG": 1,
-            "fibreG": 1,
-            "sugarG": 0,
-            "calories": 110,
-            "leucineG": 2,
-            "proteinG": 24,
-            "sodiumMg": 290,
-            "addedSugarG": 0,
-            "servingSize": "30 g",
-            "servingsPerContainer": 45
-          },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
-          "price_kwd": 12.274,
-          "price_from_build_kwd": 12.274,
-          "price_is_live": false,
-          "price_per_serving_kwd": 0.273,
-          "cost_per_25g": 0.2844,
-          "price_observed_at": "2026-10-09T03:49:24.591Z",
-          "price_source_url": null,
-          "availability": {
-            "status": "in_stock",
-            "observed_at": "2026-10-09T03:49:24.591Z",
-            "source": "direct",
-            "destination": "KW"
-          },
-          "dairy_free_declared": true,
-          "lactose_free_declared": true,
-          "vegan_declared": true,
-          "gluten_free_declared": true,
-          "soy_free_declared": true,
-          "stevia": false,
-          "anti_doping_documented": false,
-          "director": {
-            "status": "not_selected"
-          },
-          "claims": [],
-          "evidence": {
-            "rank": 4,
-            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
-          },
-          "review_links": [],
-          "label_image": null,
-          "lead_warning": null,
-          "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-09",
-          "data_confidence": "reported"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-10T01:50:45.570Z",
+  "pulled_at": "2026-10-10T20:02:59.434Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

@@ -5,14 +5,14 @@
   "tagline": "Calories, engineered honestly.",
   "description": "Mass gainers and meal replacements are judged as food rather than as supplements, which is why most of the category fails: a product built on maltodextrin and sucralose is not a meal, whatever the tub says.",
   "build": {
-    "id": 23,
+    "id": 24,
     "source": "crawl",
-    "charter": "0.12.0"
+    "charter": "0.14.0"
   },
-  "reviewed_at": "2026-10-09",
-  "generated_at": "2026-10-10T01:50:32.876Z",
+  "reviewed_at": "2026-10-10",
+  "generated_at": "2026-10-10T20:02:58.755Z",
   "live": false,
-  "charter": "0.12.0",
+  "charter": "0.14.0",
   "exclusion_rules": 476,
   "comparison_unit": null,
   "comparison_units": [
@@ -29,7 +29,7 @@
     "guide_heading": "How do you like your body composition?",
     "guide_open": "What matters most to you?",
     "empty_title": "Nothing here clears our bar yet.",
-    "empty_body": "We reviewed 35 body composition products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
+    "empty_body": "We reviewed 36 body composition products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -94,13 +94,13 @@
     }
   ],
   "counts": {
-    "reviewed": 35,
+    "reviewed": 36,
     "selected": 0,
-    "excluded": 19,
+    "excluded": 20,
     "pending": 16,
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-10T01:50:46.116Z",
+  "pulled_at": "2026-10-10T20:03:00.052Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
