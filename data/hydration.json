@@ -10,10 +10,10 @@
     "charter": "0.12.0"
   },
   "reviewed_at": "2026-10-09",
-  "generated_at": "2026-10-10T01:39:32.333Z",
+  "generated_at": "2026-10-10T01:50:32.876Z",
   "live": false,
   "charter": "0.12.0",
-  "exclusion_rules": 475,
+  "exclusion_rules": 476,
   "comparison_unit": null,
   "comparison_units": [
     "1000 mg sodium",
@@ -99,6 +99,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-10T01:39:33.111Z",
+  "pulled_at": "2026-10-10T01:50:45.786Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
