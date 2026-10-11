@@ -536,8 +536,9 @@ main > section.news{padding:72px 0}
 }
 @media (max-width:420px){
   .hdr .btn-sm{padding:0 14px;font-size:15px}
-  .wordmark{font-size:22px}
-  .wordmark span{width:30px;height:30px;font-size:17px;border-radius:10px}
+  .wordmark{font-size:21px}
+  /* a pill, not the old square badge: let it size to "only" */
+  .wordmark span{width:auto;height:26px;padding:0 9px;font-size:15px}
 }
 
 /* --- Browse categories: one mega panel behind the masthead CTA ----------- */
