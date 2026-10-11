@@ -330,9 +330,9 @@ const retitle=d=>{
   // Three sentences, not two: "the 1 best in Kuwait" is not English, and one
   // product is the shelf rather than a ranking of one. Kept identical to
   // `pageTitle` in sites/storefront/scripts/build.mjs.
-  document.title=n===0?`${name} — nothing we would publish yet · the12`
-                :n===1?`${name} — the one we would publish in Kuwait · the12`
-                      :`${name} — the ${n} best in Kuwait · the12`;
+  document.title=n===0?`${name} — nothing we would publish yet · Good Choices Only`
+                :n===1?`${name} — the one we would publish in Kuwait · Good Choices Only`
+                      :`${name} — the ${n} best in Kuwait · Good Choices Only`;
 };
 
 const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalogue/${CATEGORY}`:null,`./data/${CATEGORY}.json`].filter(Boolean);

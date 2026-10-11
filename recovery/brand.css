@@ -1,0 +1,89 @@
+/* ==========================================================================
+   Good Choices Only — brand overrides for the category pages.
+
+   `style.css` is copied byte for byte from sites/only11 and is never edited:
+   it stays a frozen upstream mirror whose provenance check still runs. Every
+   rule this project needs on top of it lives here, loaded straight after it,
+   and it holds two things only:
+
+     1. the palette remap, so the category pages carry the same green as the
+        home page rather than only11's darker one;
+     2. the masthead, which now reads brand-left / everything-right like the
+        home page's, instead of manifesto-left / nav-right.
+
+   Keep it to those two jobs. Anything else belongs upstream.
+   ========================================================================== */
+
+/* 1. Palette ---------------------------------------------------------------
+   Only --green moves. It is the accent on buttons, rules, the eyebrow tick
+   and every link hover, so remapping the token is the whole change. */
+:root{
+  --green:#0F7A4A;          /* was #214d3c; matches --brand on the home page */
+  --forest:#0B3B2A;
+  --brand-soft:#E6F4EC;
+  --brand-line:#CFE7DA;
+}
+
+/* 2. Masthead --------------------------------------------------------------
+   Brand on the left, then the nav, the tag and the WhatsApp button together
+   on the right. */
+.header{gap:24px}
+.header .wordmark{
+  display:inline-flex;align-items:center;gap:5px;flex:none;
+  font-family:Manrope,sans-serif;font-size:25px;font-weight:700;
+  letter-spacing:-.045em;color:var(--ink);text-decoration:none;
+}
+.header .wordmark span{
+  display:inline-grid;place-items:center;height:29px;padding:0 11px;
+  border-radius:999px;background:var(--green);color:#fff;
+  font-size:16px;font-weight:600;letter-spacing:-.02em;
+}
+.header-right{display:flex;align-items:center;gap:22px;min-width:0}
+.header-right nav{display:flex;gap:26px;font-size:13px;font-weight:550}
+
+/* the tag, in the house voice: sentence case, no tracked-out caps */
+.header-manifesto{
+  margin:0;font-size:13px;font-weight:500;line-height:1.3;
+  letter-spacing:0;text-transform:none;color:var(--muted);white-space:nowrap;
+}
+
+/* upstream styles this link only inside `.header nav`, and it sits outside the
+   nav now, so it needs its own box here rather than inheriting a bare <a> */
+.whatsapp-contact{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;flex:none;
+  height:38px;padding:0 14px;border:1px solid var(--brand-line);border-radius:999px;
+  background:var(--brand-soft);color:var(--green);
+  font-size:13px;font-weight:600;line-height:1;text-decoration:none;white-space:nowrap;
+}
+.whatsapp-contact:hover{background:#dcebe2}
+.whatsapp-contact svg{width:17px;height:17px;flex:none}
+.header-right nav a{text-decoration:none}
+.header-right nav a:hover{text-decoration:underline;text-underline-offset:4px}
+
+/* 3. Masthead, narrow ------------------------------------------------------
+   Upstream turns .header into a grid at 700px and reflows `.header nav`
+   directly; the nav is a level deeper now, so those rules are restated here
+   for the new shape rather than fought with. */
+@media (max-width:1080px){
+  .header-right{gap:16px}
+  .header-manifesto{display:none}
+}
+@media (max-width:700px){
+  .header{
+    height:auto;display:grid;grid-template-columns:minmax(0,1fr) auto;
+    gap:12px;padding-top:16px;padding-bottom:14px;
+  }
+  .header .wordmark{font-size:22px}
+  .header .wordmark span{height:26px;padding:0 9px;font-size:14px}
+  .header-right{display:contents}
+  .header-right nav{
+    grid-column:1 / -1;display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:8px;width:100%;font-size:14px;line-height:1.3;align-items:center;
+  }
+  /* upstream hides the label because the button was a 48px nav cell there;
+     it is full width now, so an icon alone would read as an empty bar */
+  .whatsapp-contact{grid-column:1 / -1;width:100%;height:44px}
+  .whatsapp-contact span{display:inline}
+  .market{justify-self:end;align-self:center}
+}
