@@ -2,7 +2,7 @@ const states=new WeakMap();
 const format=value=>Math.round(value).toLocaleString('en-GB');
 export function counterFrame(from,to,progress){
   const t=Math.min(1,Math.max(0,progress));
-  return Math.round(from+(to-from)*(1-Math.pow(1-t,3)));
+  return Math.round(from+(to-from)*(1-Math.pow(1-t,2)));
 }
 function animate(el,state,from){
   if(state.frame)cancelAnimationFrame(state.frame);
@@ -10,7 +10,7 @@ function animate(el,state,from){
   let start;
   const tick=time=>{
     start??=time;
-    const progress=Math.min(1,(time-start)/1200);
+    const progress=Math.min(1,(time-start)/2600);
     state.current=counterFrame(from,state.target,progress);el.textContent=format(state.current);
     state.frame=progress<1?requestAnimationFrame(tick):null;
   };

@@ -50,3 +50,12 @@ body[data-category] h1 span{color:var(--brand)}
 .selection-tools #scope-director:focus-visible,.mobile-guide:focus-visible{outline-color:var(--brand)}
 @media(max-width:700px){.selection-tools{grid-template-columns:104px 82px minmax(0,1fr)}.selection-tools .mobile-guide{height:auto;white-space:normal;text-align:left;line-height:1.2}.mobile-guide .guide-star{flex:none}}
 @media(max-width:360px){.selection-tools{grid-template-columns:94px 74px minmax(0,1fr)}}
+
+/* Centered mobile totals: equal columns, stable alignment, quiet divider. */
+@media(max-width:700px){
+.home-counts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;max-width:none;gap:0;margin-top:24px;padding:20px 0;border-bottom:1px solid var(--line);text-align:center}
+.home-counts>div{min-width:0;justify-items:center;gap:6px;padding:0 10px}
+.home-counts>div+div{border-left:1px solid var(--brand-line)}
+.home-counts strong{font-size:34px;line-height:1.1;letter-spacing:-1px}
+.home-counts span{display:flex;align-items:center;justify-content:center;max-width:130px;min-height:32px;font-size:11px;line-height:1.4}
+}
