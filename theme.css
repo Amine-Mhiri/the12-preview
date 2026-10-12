@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+/* Good Choices Only brand reference 2.0.0 — palette D and common UI. */
+:root{--gco-ui:"Instrument Sans","Helvetica Neue",Arial,sans-serif;--shell:1328px;--pad:88px}
+body,button,input,select,textarea{font-family:var(--gco-ui)}
+h1,h2,h3,.wordmark,.header .wordmark,.section-heading>div>p.selection-prompt{font-family:var(--gco-ui)}
+/* Match controls across the existing home and category layouts. */
+.btn,.button,.whatsapp-contact{border-radius:8px;font-size:14px;font-weight:600;min-height:44px}
+.btn-sm{padding:0 16px}.btn-lg{height:48px;padding:0 22px}
+.search{border-radius:8px}.search kbd{border-radius:4px}
+.guide-link{border-radius:8px}.filter-bar{border-radius:8px}
+.product-card{border-radius:10px}.label-photo-button{border-radius:5px;font-size:11px}
+/* Reduce excess section gaps without moving or removing any section. */
+body[data-category] .hero{padding-top:36px;padding-bottom:36px;gap:40px}
+body[data-category] h1{font-weight:600;letter-spacing:-1.8px;line-height:1.12}
+body[data-category] .hero-description{font-size:16px;line-height:1.6}
+body[data-category] .exclusion-card{padding:24px 28px}
+body[data-category] .selection{padding-top:36px}
+body[data-category] .section-heading{margin-bottom:24px}
+.sec-head{margin-bottom:44px}.s1b{padding-top:28px;padding-bottom:28px}
+body[data-category] .brand{font-size:11px;font-weight:600;letter-spacing:.5px}
+body[data-category] .product-card h3{font-weight:600;line-height:1.3}
+body[data-category] .purchase-price{font-weight:600}
+:focus-visible{outline:2px solid var(--brand);outline-offset:4px}
+@media(max-width:767px){:root{--pad:56px}body[data-category] .hero{padding-top:28px;padding-bottom:28px;gap:24px}body[data-category] h1{letter-spacing:-1.2px}body[data-category] .hero-description{font-size:15px}.btn,.button,.whatsapp-contact{min-height:44px}.sec-head{margin-bottom:32px}body[data-category] .exclusion-card{padding:22px}.label-photo-button{font-size:10px}.list-view .label-photo-button{font-size:9px}}
+
+
+:root{--ui:"Instrument Sans","Helvetica Neue",Arial,sans-serif;--brand:#006A78;--forest:#153A46;--bright:#68D1DB;--mint:#EBF7F8;--mint-deep:#CAE5E8;--sage:#F5F8F8;--sage-2:#EBF7F8;--ink:#20343E;--muted:#5F6C72;--green:#006A78;--brand-soft:#EBF7F8;--brand-line:#CAE5E8;--paper:#fff;--soft:#EBF7F8;--lime:#BAEEF2;--line:#DEE7E9;font-family:var(--ui);color:var(--ink);background:#fff;scroll-padding-top:128px}
+.hero h1 em{color:var(--brand)}
+body[data-category] h1 span{color:var(--brand)}
+.exclusion-card,.section-heading>div>p.selection-prompt{background:var(--forest)}
+.director-badge{background:var(--brand-soft);color:var(--brand)}
+.preference-pills .check input:checked+span{background:var(--brand);border-color:var(--brand);color:#fff}
+.extra-filters>summary,.selection-tools #scope-director,.purchase-action{color:var(--brand)}
+.flavor-pill[aria-pressed=true],.size-pill[aria-pressed=true]{border-color:var(--brand)}
+.ftr .gco-logo{color:#fff}.gco-logo .gco-mark{display:block;max-width:100%;width:258px;height:58px}
+.home-counts{display:flex;gap:30px;margin-top:28px;padding-top:18px;border-top:1px solid var(--line);max-width:420px}
+.home-counts>div{display:grid;gap:4px}.home-counts strong{font-size:30px;font-weight:600;line-height:1.1;letter-spacing:-.8px;color:var(--brand);font-variant-numeric:tabular-nums}
+.home-counts span{font-size:12px;line-height:1.5;color:var(--muted)}
+@media(max-width:700px){.gco-logo .gco-mark{width:224px;height:51px}.home-counts{margin-top:20px;gap:26px}.home-counts strong{font-size:27px}}
+
+/* Replace the last upstream green/lime accents without editing the frozen CSS. */
+.exclusion-tally strong{color:var(--bright)}
+.exclusion-tally>span,.exclusion-card .eyebrow{color:var(--brand-line)}
+.exclusion-card{color:#fff}.exclusion-card li{border-top-color:#ffffff30}
+.primary:hover{background:var(--forest)}
+.product-photo{background:#F5F8F8}
+.skip{z-index:110}
+.selection-tools .mobile-guide{background:var(--brand-soft);border-color:var(--brand-line)}
+.selection-tools #scope-director:focus-visible,.mobile-guide:focus-visible{outline-color:var(--brand)}
+@media(max-width:700px){.selection-tools{grid-template-columns:104px 82px minmax(0,1fr)}.selection-tools .mobile-guide{height:auto;white-space:normal;text-align:left;line-height:1.2}.mobile-guide .guide-star{flex:none}}
+@media(max-width:360px){.selection-tools{grid-template-columns:94px 74px minmax(0,1fr)}}
