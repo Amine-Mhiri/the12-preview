@@ -304,32 +304,35 @@ main > section.claims{padding:64px 0}
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.mq-move{animation-duration:64s}}
 
-/* 8c. Why this matters (S1c): one centred column on the page's dark band ---- */
+/* 8c. Why this matters (S1c): the number left, the words right, one level --- */
 .band-forest{background:var(--forest);color:var(--white)}
-main > section.why{padding:88px 0}
-.why-in{max-width:760px;margin:0 auto;text-align:center}
+main > section.why{padding:80px 0}
+.why-in{display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:56px;align-items:center;max-width:1120px;margin:0 auto}
 .why .kicker{color:var(--bright)}
 .why h2{margin-top:0}
 .why h2 span{display:block}
 .why-brand{color:var(--bright)}
-.why-lead{margin:20px auto 0;max-width:660px;font-size:19px;line-height:1.55;color:rgba(255,255,255,.76);text-wrap:pretty}
-.why-stat{margin:36px auto 0;padding-top:32px;border-top:1px solid rgba(255,255,255,.18);display:flex;flex-direction:column;align-items:center;gap:10px}
-.why-num{font-size:76px;font-weight:600;line-height:1;letter-spacing:-.04em;color:var(--white);font-variant-numeric:tabular-nums;white-space:nowrap}
-.why-cap{max-width:420px;font-size:17px;line-height:1.45;color:rgba(255,255,255,.86);text-wrap:pretty}
-.why-foot{font-size:14px;line-height:1.45;color:rgba(255,255,255,.55)}
+.why-lead{margin-top:20px;max-width:620px;font-size:19px;line-height:1.55;color:rgba(255,255,255,.76);text-wrap:pretty}
+/* the stat is ordered ahead of the words, and a hairline divides them */
+.why-stat{order:-1;margin:0;padding-right:56px;border-right:1px solid rgba(255,255,255,.18);display:flex;flex-direction:column;gap:12px}
+.why-num{font-size:96px;font-weight:600;line-height:.95;letter-spacing:-.045em;color:var(--white);font-variant-numeric:tabular-nums;white-space:nowrap}
+.why-cap{font-size:17px;line-height:1.45;color:rgba(255,255,255,.86);text-wrap:pretty}
+.why-foot{margin-top:2px;font-size:14px;line-height:1.45;color:rgba(255,255,255,.55)}
 
-/* 9. Paradox (S2): the copy on the left, one switching stage on the right ---- */
-main > section.paradox{padding:80px 0}
-.paradox-in{display:grid;justify-items:center;text-align:center}
-.paradox-copy{max-width:680px}
+/* 9. Paradox (S2): the hero's shape — the argument left, the stage right ---- */
+main > section.paradox{padding:88px 0}
+.paradox-in{display:grid;grid-template-columns:minmax(0,520fr) minmax(0,560fr);gap:64px;align-items:center}
+.paradox-copy{max-width:540px}
+.big em{font-style:normal;color:var(--reject)}
 .big{font-size:52px;letter-spacing:-.035em;line-height:1.06;text-wrap:balance}
-.paradox .body{margin-top:22px;display:grid;gap:12px;font-size:18px;line-height:1.55;color:var(--muted);text-wrap:balance}
+.paradox .body{margin-top:24px;display:grid;gap:12px;font-size:18px;line-height:1.55;color:var(--muted);text-wrap:pretty}
+.paradox .body strong{font-weight:600;color:var(--ink)}
 .paradox .body mark{color:var(--ink)}
 
 /* the two ways to shop, stacked in one cell: a 6s clock cross-fades them at the
    half (keyframes w-* in v5-loop.css) while each drawing runs its own 3s loop,
    so whichever phase comes up is always at the first frame of its own story. */
-.ways{position:relative;width:100%;max-width:620px;margin-top:40px;--t0:0ms}
+.ways{position:relative;width:100%;max-width:540px;justify-self:end;--t0:0ms}
 .ways .an{animation-duration:6000ms;animation-iteration-count:infinite;animation-timing-function:linear;animation-fill-mode:both;animation-delay:var(--t0)}
 .ways .card-stage .an{animation-duration:3000ms}
 .ways.paused .an{animation-play-state:paused}
@@ -375,8 +378,19 @@ main > section.paradox{padding:80px 0}
 
 /* 14. Offer (S6): five categories, the open one centre and full size. The
    drawings are line art in the same hand as the two animations above. ------- */
+main > section.offer{padding:96px 0}
 .offer .sec-head{margin-bottom:52px}
-.offer .kicker{margin-bottom:10px}
+.offer .kicker{margin-bottom:10px;color:var(--bright)}
+.offer mark{background:none;color:var(--bright);padding:0;margin:0}
+/* the four coming categories go quiet on the dark: a faint glass tile */
+.offer .tile.is-soon .tile-media{background:rgba(255,255,255,.05);box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)}
+.offer .tile.is-soon .cat-illo{color:rgba(255,255,255,.88)}
+.offer .tile-txt h3{color:var(--white)}
+.offer .tile-txt p{color:rgba(255,255,255,.66)}
+.offer .pill{background:rgba(255,255,255,.1);color:rgba(255,255,255,.78)}
+.offer .pill-open{background:var(--bright);color:var(--forest)}
+.offer .tile.is-open .tile-media{box-shadow:0 24px 48px -24px rgba(0,0,0,.5)}
+.offer .tile-cta{color:var(--bright)}
 .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr)) minmax(0,1.55fr) repeat(2,minmax(0,1fr));grid-template-rows:auto auto;gap:20px}
 .tile{text-align:center;display:grid;grid-row:span 2;grid-template-rows:subgrid}
 .tile-link{display:grid;grid-row:span 2;grid-template-rows:subgrid}
@@ -397,6 +411,64 @@ main > section.paradox{padding:80px 0}
 .tile.is-open .tile-txt p{font-size:17px}
 .tile-cta{font-size:16px;font-weight:600;color:var(--brand)}
 .tile-link:hover .tile-cta{text-decoration:underline;text-underline-offset:4px}
+
+/* Sport & Nutrition, animated: the scoop lifts powder out of the PROTEIN tub,
+   pours it into the shaker, the shaker fills, takes its cap, shakes, and gets
+   a tick. Every element's resting style is the end frame, so reduced motion
+   (and any browser without animation) shows a full, capped, ticked shaker. */
+.tile.is-open .sn-scene{width:94%;height:94%}
+.sn-scene .ci-fw{fill:var(--white)}
+.sn-word{font:700 5.4px/1 var(--ui);letter-spacing:.05em;fill:currentColor}
+.sn-mound{fill:var(--mint-deep);stroke:currentColor;stroke-width:1.2;vector-effect:non-scaling-stroke}
+.sn-fill{fill:var(--mint-deep);transform-box:fill-box;transform-origin:50% 100%;transform:scaleY(.86)}
+.sn-dust{fill:currentColor;opacity:0}
+.sn-scoop{transform-box:view-box;transform-origin:0 0;transform:translate(70px,50px)}
+.sn-shaker{transform-box:fill-box;transform-origin:50% 100%}
+.sn-cap{transform-box:fill-box}
+.sn-check circle{fill:var(--brand)}
+.sn-check path{fill:none;stroke:var(--white);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.sn-check{transform-box:fill-box;transform-origin:50% 50%}
+@media (prefers-reduced-motion:no-preference){
+  .sn-scoop{animation:sn-scoop 4.8s var(--ease) infinite}
+  .sn-mound{animation:sn-mound 4.8s linear infinite}
+  .sn-dust{animation:sn-dust 4.8s ease-in infinite}
+  .sn-d2{animation-delay:.12s}
+  .sn-d3{animation-delay:.24s}
+  .sn-fill{animation:sn-fill 4.8s var(--ease) infinite}
+  .sn-cap{animation:sn-cap 4.8s var(--ease) infinite}
+  .sn-shaker{animation:sn-shake 4.8s ease-in-out infinite}
+  .sn-check{animation:sn-check 4.8s var(--ease) infinite}
+  .sn-bell{animation:sn-bell 4.8s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+}
+@keyframes sn-scoop{
+  0%,10%{transform:translate(70px,50px) rotate(0)}
+  24%{transform:translate(72px,24px) rotate(-10deg)}
+  38%{transform:translate(116px,24px) rotate(0)}
+  46%,58%{transform:translate(117px,24px) rotate(60deg)}
+  68%{transform:translate(98px,16px) rotate(0)}
+  84%,100%{transform:translate(70px,50px) rotate(0)}
+}
+@keyframes sn-mound{0%,46%{opacity:1}52%,84%{opacity:0}88%,100%{opacity:1}}
+@keyframes sn-dust{
+  0%,46%{opacity:0;transform:translateY(0)}
+  48%{opacity:1}
+  60%{opacity:1;transform:translateY(24px)}
+  62%,100%{opacity:0;transform:translateY(26px)}
+}
+@keyframes sn-fill{0%,48%{transform:scaleY(.34)}62%,94%{transform:scaleY(.86)}100%{transform:scaleY(.34)}}
+@keyframes sn-cap{
+  0%,60%{opacity:0;transform:translateY(-10px)}
+  68%,94%{opacity:1;transform:translateY(0)}
+  100%{opacity:0;transform:translateY(-10px)}
+}
+@keyframes sn-shake{
+  0%,70%{transform:rotate(0)}
+  73%{transform:rotate(-9deg)}76%{transform:rotate(9deg)}
+  79%{transform:rotate(-9deg)}82%{transform:rotate(9deg)}
+  85%,100%{transform:rotate(0)}
+}
+@keyframes sn-check{0%,84%{opacity:0;transform:scale(.4)}89%{opacity:1;transform:scale(1.12)}92%,96%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(1)}}
+@keyframes sn-bell{0%,8%{transform:translateY(0)}14%{transform:translateY(-4px)}20%,100%{transform:translateY(0)}}
 
 /* 15b. Closing call to action (S7b) ----------------------------------------- */
 main > section.cta{padding:112px 0}
@@ -446,6 +518,12 @@ main > section.news{padding:72px 0}
 }
 @media (max-width:1100px){
   .hero-grid{grid-template-columns:1fr;gap:56px}
+  .paradox-in{grid-template-columns:1fr;gap:40px}
+  .paradox-copy{max-width:640px}
+  .ways{justify-self:center;max-width:600px}
+  .why-in{grid-template-columns:minmax(0,280px) minmax(0,1fr);gap:40px}
+  .why-stat{padding-right:40px}
+  .why-num{font-size:76px}
   .tiles{grid-template-columns:1fr 1fr;grid-template-rows:none;gap:28px 20px}
   .tile,.tile-link{display:block;grid-row:auto}
   .tile.is-open{grid-column:1 / -1;grid-row:1}
@@ -498,8 +576,11 @@ main > section.news{padding:72px 0}
   .trust-claims{grid-template-columns:1fr;gap:18px}
   main > section.why{padding:56px 0}
   .why-lead{font-size:18px}
-  .why-stat{margin-top:28px;padding-top:24px}
-  .why-num{font-size:54px}
+  /* phone: words first, then the number under a hairline */
+  .why-in{grid-template-columns:1fr;gap:28px}
+  .why-stat{order:0;padding:24px 0 0;border-right:0;border-top:1px solid rgba(255,255,255,.18)}
+  .why-num{font-size:60px}
+  main > section.offer{padding:64px 0}
   main > section.paradox{padding:56px 0}
   .ways .toggle{margin-bottom:12px}
   .cs-foot{padding:0 10px 8px}
