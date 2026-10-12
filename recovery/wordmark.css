@@ -1,0 +1,9 @@
+/* Shared wordmark, version 1.0.0 — home and every category. */
+.wordmark .wordmark-good{color:#0F7A4A;font:inherit;letter-spacing:inherit}
+.wordmark span.wordmark-only{
+  font-family:Georgia,"Times New Roman",serif;
+  font-style:italic;font-weight:400;font-size:22px;letter-spacing:-.035em;
+  padding-inline:10px 12px;
+}
+.ftr .wordmark .wordmark-good{color:#36CC8A}
+@media(max-width:700px){.wordmark span.wordmark-only{font-size:20px}}
