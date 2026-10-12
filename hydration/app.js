@@ -17,8 +17,8 @@
  *      on a category page there may be products that declare no milk, and if
  *      there are, they are shown.
  *   3. **The catalogue is the published build.** A product appears because the
- *      charter admitted it and either it cleared the listing floor or somebody
- *      ticked it in the database. "Our pick" is that tick.
+ *      charter admitted it and it has an available Kuwait offer, unless withdrawn
+ *      by a recorded editorial decision. "Our pick" is that tick.
  *   4. **Every count on the page follows the live API, not only the grid.**
  *      Upstream rendered its counts once. Here the shelf changes between
  *      deploys — a founder's tick reaches the API in seconds — and the page
@@ -85,7 +85,7 @@ const stamp=x=>x?new Date(x).toLocaleString('en-GB',{day:'numeric',month:'short'
 let displayMode='grid';
 const mobileView=matchMedia('(max-width:767px)');
 mobileView.addEventListener('change',()=>{if(data)renderView();});
-let data,state={...DEFAULTS},limit=16,guided=false,step=0,draft={...DEFAULTS},choices=new Map(),activeDetail=null,stockSignature='';
+let data,state={...DEFAULTS,priority:data?.default_priority??DEFAULTS.priority},limit=16,guided=false,step=0,draft={...DEFAULTS},choices=new Map(),activeDetail=null,stockSignature='';
 const checkboxes=(s,prefix)=>Object.entries(constraintNames).filter(([k])=>k!=='milkAllergy'&&(k!=='director'||prefix==='guide')).map(([k,label])=>`<label class="check"><input type="checkbox" id="${prefix}-${k}" data-constraint="${k}" ${s[k]?'checked':''}><span>${label}</span></label>`).join('');
 const options=(items,selected)=>Object.entries(items).map(([v,label])=>`<option value="${v}" ${v===selected?'selected':''}>${esc(label)}</option>`).join('');
 
@@ -125,13 +125,12 @@ function directorDetail(v){
   // product that IS a pick. Here a pick is a row somebody ticked in the
   // catalogue database, and that is all it claims to be.
   return `<section class="director-detail"><p class="eyebrow">OUR PICK · CHOSEN BY HAND</p><h3>Why this is here</h3><ul>`
-    +`<li>Somebody put it on the shelf deliberately, and that choice is recorded against the product in our catalogue database rather than inferred from a score.</li>`
-    +(Number.isFinite(v.score)?`<li>It scored ${v.score} of 100, which is ${v.score>=70?'above':'below'} the floor a product normally has to clear to be published.</li>`:'')
+    +`<li>Somebody put it on the shelf deliberately, and that choice is recorded against the product in our catalogue database as an editorial preference.</li>`
     +`<li>The ingredient charter had already admitted it: an editorial choice can lift a product the rules allow, and can never publish one they refused or have not yet judged.</li>`
     +`</ul><p class="detail-small">This is an editorial preference, not a health or efficacy threshold. It certifies no contaminant result, no supplied batch and no allergen status.</p></section>`;
 }
 function filterChanged(){limit=16;choices.clear();renderResults();}
-function clearAll(){state={...DEFAULTS};guided=false;limit=16;choices.clear();renderFilters();renderResults();}
+function clearAll(){state={...DEFAULTS,priority:data?.default_priority??DEFAULTS.priority};guided=false;limit=16;choices.clear();renderFilters();renderResults();}
 function chips(){
   const items=[];
   if(state.query)items.push(['query',`Brand / product: ${queryLabel()}`]);
@@ -158,8 +157,7 @@ function reasons(g,v){
   if(state.vegan)out.push('Declared vegan.');
   if(state.glutenFree)out.push('Declared gluten-free.');
   if(state.milkAllergy)out.push('Declares no milk.');
-  if(state.priority==='rank')out.push(`Ranked ${v.rank} on our shelf for ${v.type_name}.`);
-  if(state.priority==='value')out.push(`${money(unitCost(v))} per ${unitName}. ${COPY.unit_basis}`);
+  if(state.priority==='value')out.push(Number.isFinite(unitCost(v))?`${money(unitCost(v))} per ${unitName}. ${COPY.unit_basis}`:'Unit cost cannot be calculated from the available declaration.');
   if(state.priority==='simple')out.push(`${v.ingredient_count} declared ingredient entries, with named blend ingredients included.`);
   if(!out.length)out.push('Passes our ingredient screen. No extra preferences selected; shown alphabetically.');
   return out;
@@ -248,23 +246,19 @@ function openDetail(id){
   // model this data does not have — `v.label_image.url`, `v.evidence.title`,
   // `v.evidence.domains`, `v.claims` — and reading `.url` off a null
   // `label_image` threw as soon as anybody opened a product. What we do have
-  // is the score and what moved it, which is the better answer to "why is
+  // is its declaration and its evidence, which informs the answer to "why is
   // this on the shelf" anyway. Same classes, same structure, no invented
   // fields.
   const link=safeMerchantLink(v);
-  const pillarName={purity:'Ingredient purity',efficacy:'Dosage efficacy',verification:'Third-party verification',transparency:'Label transparency',family:'Family safety',value:'Value density'};
-  const pillars=(v.pillars||[]).filter(x=>x.weight>0);
   $('#product-detail').innerHTML=`<p class="eyebrow detail-eyebrow">WHY THIS IS ON THE SHELF</p><div class="detail-hero"><img src="${esc(imgSrc(v.image))}" alt="${esc(v.title)}" onerror="this.onerror=null;this.src='${esc(v.placeholder||'')}'" width="140" height="160"><div><p class="brand">${esc(g.brand)}</p><h2 id="product-title">${esc(g.name)}</h2><p class="flavor">${esc(g.flavor)} · ${esc(v.size)} · ${esc(v.type_name)}</p><p class="detail-price">${money(v.price_kwd)}</p></div></div>`
     +`<div class="size-options detail-format" role="group" aria-label="Product detail pack size"><span class="size-caption">Pack size</span>${g.variants.map(x=>g.variants.length>1?`<button class="size-pill" id="detail-size-${esc(x.id)}" data-detail-size="${esc(x.id)}" aria-pressed="${x.id===id}">${esc(x.size)}</button>`:`<span class="size-pill">${esc(x.size)}</span>`).join('')}</div>`
     +`<div class="detail-pass"><span aria-hidden="true">✓</span><div><strong>Passed our ingredient screen</strong><p>Every declared ingredient is recognised and none is excluded by charter ${esc(v.charter??'')}. ${v.ingredients_reviewed_at?`Reviewed ${date(v.ingredients_reviewed_at)}.`:''} This is a screen of the declaration, not a laboratory result.</p></div></div>`
     +directorDetail(v)
-    +(v.verdict_line?`<section class="detail-section"><h3>Our verdict</h3><p>${esc(v.verdict_line)}</p>${Number.isFinite(v.score)?`<p class="detail-small">Scored ${v.score} of 100 across the pillars below, and ranked ${v.rank} on its shelf. A score is a comparison within a product type, not a health claim.</p>`:''}</section>`:'')
-    +(pillars.length?`<section class="detail-section"><h3>How it scored</h3><dl class="evidence-grid">${pillars.map(x=>`<div><dt>${esc(pillarName[x.id]??x.id)}</dt><dd>${x.value} / 100</dd></div>`).join('')}</dl><p class="detail-small">A pillar we could not assess carries no weight and is left out rather than scored as mediocre.</p></section>`:'')
-    +((v.strengths||[]).length||(v.caveats||[]).length?`<section class="detail-section"><h3>What we would and would not say for it</h3>${(v.strengths||[]).length?`<ul>${v.strengths.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${(v.caveats||[]).length?`<p class="detail-small"><strong>And what we would change:</strong></p><ul>${v.caveats.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}</section>`:'')
     +`<section class="detail-section"><h3>The ingredients we reviewed</h3><p class="ingredients">${esc(v.ingredients??'No declaration captured for this reference.')}</p>${Number.isFinite(v.ingredient_count)?`<p class="detail-small">${v.ingredient_count} declared ingredient entries, including named blend constituents. Undisclosed flavour components are not counted as known ingredients.</p>`:''}${v.contains_milk?`<p class="detail-small"><strong>Contains milk-derived protein.</strong> ${esc(v.allergen_statement??'')}</p>`:(v.dairy_free_declared?`<p class="detail-small">Declared dairy-free.</p>`:`<p class="detail-small">No allergen declaration was captured, which is not the same as none being present.</p>`)}${(v.dietary||[]).length?`<p class="detail-small">Declared: ${esc(v.dietary.join(', '))}.</p>`:''}${(v.certifications||[]).length?`<p class="detail-small">Certifications recorded: ${esc(v.certifications.join(', '))}. A certification covers what it covers and nothing else.</p>`:''}</section>`
+    +((v.documented_evidence||[]).length?`<section class="detail-section"><h3>Documented product evidence</h3><ul>${v.documented_evidence.map(e=>`<li><a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener noreferrer">${esc(e.claim.replace(/-/g,' '))}</a> · checked ${date(e.observedAt)} · reference ${esc(e.referenceId)}</li>`).join('')}</ul><p class="detail-small">Each source covers its stated reference and domain. It does not establish every contaminant result or the batch delivered to you.</p></section>`:'')
     +`<section class="detail-section"><h3>The price, put in perspective</h3>${n?`<dl class="nutrition-grid"><div><dt>Serving size</dt><dd>${esc(n.servingSize??'—')}</dd></div><div><dt>Protein per serving</dt><dd>${Number.isFinite(n.proteinG)?`${n.proteinG} g`:'—'}</dd></div><div><dt>Servings</dt><dd>${Number.isFinite(n.servingsPerContainer)?n.servingsPerContainer:'—'}</dd></div><div><dt>Cost / ${esc(unitName)}</dt><dd>${Number.isFinite(unitCost(v))?money(unitCost(v)):'Not calculable'}</dd></div></dl><p class="detail-small">${esc(COPY.unit_basis??'')} This compares cost, not overall quality.</p>`:'<p>Nutrition data is incomplete for this exact reference, so we do not calculate a unit cost.</p>'}<p class="detail-small">Price observed ${stamp(v.price_observed_at)}${v.price_is_live?' and read live from our catalogue':''}. Product only; delivery and checkout charges are additional.</p></section>`
     +(v.image_credit?.credit?`<p class="detail-small">Photograph: ${esc(v.image_credit.credit)}${v.image_credit.licence?`, ${esc(v.image_credit.licence)}`:''}.${v.image_credit.source_url?` <a href="${esc(safeUrl(v.image_credit.source_url))}" target="_blank" rel="noopener noreferrer">Source ↗</a>`:''}</p>`:(v.image_kind==='retailer'?`<p class="detail-small">Photograph by the retailer, shown while this catalogue is under test.</p>`:''))
-    +(v.source==='authored'?`<section class="detail-section"><h3>Where this record came from</h3><p>This product is from our authored catalogue rather than the crawl, so its price is <strong>derived, not observed</strong>, and we hold no merchant page for it that we could verify. The ingredient screen and the score are unaffected.</p></section>`:'')
+    +(v.source==='authored'?`<section class="detail-section"><h3>Where this record came from</h3><p>This product is from our authored catalogue rather than the crawl, so its price is <strong>derived, not observed</strong>, and we hold no merchant page for it that we could verify. Its provenance does not establish a laboratory result.</p></section>`:'')
     +`<div class="detail-buy"><p class="stock-note ${stockState(v)==='in_stock'?'in-stock':''}">${esc(stockLabel(v))}</p><p class="detail-small">${v.availability.observed_at?`Stock checked ${stamp(v.availability.observed_at)}, country set to Kuwait. Status expires after 24 hours.`:'Current Kuwait stock has not been confirmed.'} Final delivery options are confirmed at checkout.</p>${link?`<a class="button primary" href="${esc(link)}" target="_blank" rel="noopener noreferrer">View this exact ${esc(v.size)} on iHerb <span aria-hidden="true">↗</span></a>`:`<p class="detail-small">We could not derive a merchant link for this reference, so we are not sending you to a guess.</p>`}</div>`;
   document.querySelectorAll('[data-detail-size]').forEach(b=>b.onclick=()=>{const pid=b.dataset.detailSize;openDetail(pid);document.getElementById('detail-size-'+pid)?.focus({preventScroll:true});});
   if($('#composition-image'))$('#composition-image').onerror=()=>{$('#composition-image').hidden=true;$('#label-unavailable').hidden=false;};
@@ -280,7 +274,7 @@ function renderGuide(){
   if(step===0)content=`<fieldset class="choice-grid"><legend class="screenreader">Allergies and intolerances</legend>${[['noAllergies','No allergies'],['milkAllergy','Milk allergy'],['soy','Soy allergy']].filter(([k])=>k==='noAllergies'||constraintNames[k]).map(([key,label])=>`<label class="choice"><input type="checkbox" data-constraint="${key}" ${draft[key]?'checked':''}><span>${label}</span></label>`).join('')}</fieldset>`;
   if(step===1)content=`<fieldset class="choice-grid"><legend class="screenreader">Flavor preference</legend>${Object.entries(FLAVORS).map(([value,label])=>`<label class="choice"><input type="radio" name="guide-flavor" value="${value}" ${draft.flavor===value?'checked':''}><span>${value==='all'?'No preference':esc(label)}</span></label>`).join('')}</fieldset>`;
   if(step===2)content=`<fieldset class="choice-grid"><legend class="screenreader">Preferences</legend>${Object.entries(constraintNames).filter(([k])=>!['milkAllergy','soy','director'].includes(k)).map(([key,label])=>`<label class="choice"><input type="checkbox" data-constraint="${key}" ${draft[key]?'checked':''}><span>${label}</span></label>`).join('')}</fieldset>`;
-  if(step===3)content=`<fieldset class="priority-options"><legend class="screenreader">Ranking priority</legend>${Object.entries(PRIORITIES).map(([value,label])=>`<label class="priority-choice"><input type="radio" name="guide-priority" value="${value}" ${draft.priority===value?'checked':''}><span><strong>${value==='name'?'No preference':esc(label)}</strong><small>${{name:'Show my matches alphabetically.',price:'Spend less on the pot I buy today.',rank:'Show our shelf order.',value:`Compare the cost for the same amount of ${unitName}.`,simple:'Favor fewer declared ingredient entries.'}[value]}</small></span></label>`).join('')}</fieldset>`;
+  if(step===3)content=`<fieldset class="priority-options"><legend class="screenreader">Ranking priority</legend>${Object.entries(PRIORITIES).map(([value,label])=>`<label class="priority-choice"><input type="radio" name="guide-priority" value="${value}" ${draft.priority===value?'checked':''}><span><strong>${value==='name'?'No preference':esc(label)}</strong><small>${{name:'Show my matches alphabetically.',price:'Spend less on the pot I buy today.',value:`Compare the cost for the same amount of ${unitName}.`,simple:'Favor fewer declared ingredient entries.'}[value]}</small></span></label>`).join('')}</fieldset>`;
   $('#guide-content').innerHTML=`<p class="eyebrow">FIND MY ${esc((COPY.noun||CATEGORY).toUpperCase())} <span class="step-count">${step+1} / 4</span></p><div class="progress-track" aria-hidden="true">${[0,1,2,3].map(i=>`<span class="${i<=step?'done':''}"></span>`).join('')}</div><h2 id="guide-title" tabindex="-1">${headings[step]}</h2><p class="guide-subtitle">${subtitles[step]}</p>${content}<div class="guide-footer"><button class="text-button" id="guide-back">${step===0?'Cancel':'← Back'}</button><button class="button primary" id="guide-next">${draft.milkAllergy?'Finish':step===3?'Show my matches':'Continue'} <span aria-hidden="true">→</span></button></div><p class="guide-privacy">Your answers stay in this page. No account. No tracking.</p>`;
   $('#guide-content').querySelectorAll('[data-constraint]').forEach(i=>i.onchange=()=>{
     const key=i.dataset.constraint;
@@ -339,7 +333,7 @@ const retitle=d=>{
   // `pageTitle` in sites/storefront/scripts/build.mjs.
   document.title=n===0?`${name} — nothing we would publish yet · Good Choices Only`
                 :n===1?`${name} — the one we would publish in Kuwait · Good Choices Only`
-                      :`${name} — the ${n} best in Kuwait · Good Choices Only`;
+                      :`${name} — ${n} references in Kuwait · Good Choices Only`;
 };
 
 const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalogue/${CATEGORY}`:null,`./data/${CATEGORY}.json`].filter(Boolean);
@@ -354,9 +348,9 @@ const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalo
   }
   throw last??Error('Selection unavailable');
 })().then(d=>{
-  COPY=d.copy;PRIORITIES=d.priorities;FLAVORS=d.flavors;constraintNames=d.constraints;unitName=d.copy.unit_name;
+  COPY=d.copy;PRIORITIES=Object.fromEntries(Object.entries(d.priorities).filter(([key])=>key!=='rank'));FLAVORS=d.flavors;constraintNames=d.constraints;unitName=d.copy.unit_name;
   if(d.schema_version!==1||!Array.isArray(d.groups)||d.groups.length!==d.counts.flavor_options||d.groups.reduce((n,g)=>n+g.variants.length,0)!==d.counts.selected)throw Error('Incomplete selection');
-  data=d;retitle(d);applyCountText(document,d);renderFilters();renderResults();try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
+  if(!data)state.priority=d.default_priority??(d.comparison_unit?"value":"name");data=d;retitle(d);applyCountText(document,d);renderFilters();renderResults();try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
   stockSignature=data.groups.flatMap(g=>g.variants.map(v=>stockState(v))).join('|');
   const refreshAvailability=()=>{
     if(document.hidden)return;

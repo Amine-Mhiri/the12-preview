@@ -1,16 +1,18 @@
 {
   "schema_version": 1,
+  "selection_policy": "admissibility-only-1.0.0",
+  "default_priority": "name",
   "category": "hydration",
   "category_name": "Hydration",
   "tagline": "Electrolytes for a climate that takes them seriously.",
   "description": "Training in Kuwait means sweating at rates that a temperate-climate label was never designed for. We weight sodium content higher here than any other market would, and we reject the flavoured-water products that sell on packaging alone.",
   "build": {
-    "id": 26,
+    "id": 27,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-12",
-  "generated_at": "2026-10-12T20:52:34.336Z",
+  "generated_at": "2026-10-12T21:41:56.773Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -28,8 +30,8 @@
     "noun": "hydration",
     "guide_heading": "How do you like your hydration?",
     "guide_open": "What matters most to you?",
-    "empty_title": "Nothing here clears our bar yet.",
-    "empty_body": "We reviewed 28 hydration products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
+    "empty_title": "No publishable references yet.",
+    "empty_body": "We reviewed 28 hydration products reaching Kuwait and published none. Publication requires an approved ingredient verdict and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -45,10 +47,10 @@
     "sport": "Independently tested"
   },
   "priorities": {
-    "rank": "Our ranking",
+    "name": "Alphabetical",
     "price": "Lowest pack price",
     "value": "Price per serving",
-    "simple": "Cleanest label"
+    "simple": "Fewest declared ingredients"
   },
   "flavors": {
     "all": "All flavors",
@@ -61,7 +63,7 @@
   },
   "director_selection": {
     "selected": 0,
-    "note": "Products a founder put on the shelf from the database, whatever their score."
+    "note": "Editorial choices among ingredient-admitted references, recorded in the database."
   },
   "types": [
     {
@@ -99,6 +101,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-12T20:52:48.333Z",
+  "pulled_at": "2026-10-12T21:42:09.701Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

@@ -1,16 +1,18 @@
 {
   "schema_version": 1,
+  "selection_policy": "admissibility-only-1.0.0",
+  "default_priority": "name",
   "category": "recovery",
   "category_name": "Recovery",
   "tagline": "What happens between sessions decides the next one.",
   "description": "Sleep and joint support, filtered for Kuwait's import rules as well as our own doctrine. Where a compound cannot lawfully reach Kuwait, we leave the slot empty rather than list something you cannot receive.",
   "build": {
-    "id": 26,
+    "id": 27,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-12",
-  "generated_at": "2026-10-12T20:52:34.336Z",
+  "generated_at": "2026-10-12T21:41:56.773Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -27,8 +29,8 @@
     "noun": "recovery",
     "guide_heading": "How do you like your recovery?",
     "guide_open": "What matters most to you?",
-    "empty_title": "Nothing here clears our bar yet.",
-    "empty_body": "We reviewed 35 recovery products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
+    "empty_title": "No publishable references yet.",
+    "empty_body": "We reviewed 35 recovery products reaching Kuwait and published none. Publication requires an approved ingredient verdict and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -44,10 +46,10 @@
     "sport": "Independently tested"
   },
   "priorities": {
-    "rank": "Our ranking",
+    "name": "Alphabetical",
     "price": "Lowest pack price",
     "value": "Price per serving",
-    "simple": "Cleanest label"
+    "simple": "Fewest declared ingredients"
   },
   "flavors": {
     "all": "All flavors",
@@ -60,7 +62,7 @@
   },
   "director_selection": {
     "selected": 0,
-    "note": "Products a founder put on the shelf from the database, whatever their score."
+    "note": "Editorial choices among ingredient-admitted references, recorded in the database."
   },
   "types": [
     {
@@ -73,7 +75,7 @@
         "No proprietary blend",
         "No ingredient restricted for import into Kuwait"
       ],
-      "shelf_note": "Melatonin is regulated differently across the Gulf. Where a product cannot be lawfully imported into Kuwait we exclude it, even if it would otherwise score well.",
+      "shelf_note": "Melatonin is regulated differently across the Gulf. Import availability for Kuwait must be established separately from ingredient screening.",
       "published": 0
     },
     {
@@ -98,6 +100,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-12T20:52:48.619Z",
+  "pulled_at": "2026-10-12T21:42:10.034Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

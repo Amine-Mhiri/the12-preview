@@ -21,10 +21,10 @@ export function countText(d) {
   const noun = d.category_name.toLowerCase();
   return {
     HEADLINE: `${reviewed} ${noun} products reviewed.`,
-    HEADLINE_EMPHASIS: n === 0 ? "None has cleared the bar yet." : `Only ${n} made the cut.`,
+    HEADLINE_EMPHASIS: n === 0 ? "No publishable references yet." : `Only ${n} made the cut.`,
     PROMPT:
       n === 0
-        ? "Nothing here clears our floor today. We would rather show you an empty shelf than a padded one."
+        ? "No references currently meet ingredient admission and Kuwait offer requirements."
         : `Now choose the ${d.copy.noun} that fits you.`,
     DIRECTOR_COUNT: `${d.director_selection.selected} chosen by hand · ${n} published · ${reviewed} reviewed`,
     REVIEWED: String(reviewed),
@@ -34,7 +34,7 @@ export function countText(d) {
     EMPTY_NOTE:
       n === 0
         ? "That is what this page is showing you today."
-        : "Where a type on this page publishes nothing, it is because nothing in it cleared the floor.",
+        : "An empty type can reflect unresolved ingredients, an unapproved profile or no available Kuwait offer.",
   };
 }
 

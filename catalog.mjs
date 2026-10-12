@@ -40,12 +40,12 @@ export function merchantLink(v) {
   return u.href;
 }
 
-/** The state a page opens on. `rank` first: our ranking is the default view. */
+/** The state a page opens on. unit price first; this is a cost comparison, not a quality ranking. */
 export const DEFAULTS = Object.freeze({
   query: "",
   flavor: "all",
   budget: "",
-  priority: "rank",
+  priority: "value",
   director: false,
   milkAllergy: false,
   vegan: false,
@@ -96,17 +96,15 @@ export function matches(g, v, s) {
   for (const [key, holds] of Object.entries(CONSTRAINTS)) {
     if (s[key] && !holds(v)) return false;
   }
-  // Sorting by a number we do not have would put the products we know least
-  // about at the top, so they leave the list instead.
-  if (s.priority === "value" && !Number.isFinite(v.cost_per_25g)) return false;
+  // Missing comparison data stays visible, ordered after calculable costs.
   return true;
 }
 
 export function compareVariants(a, b, priority) {
-  const metrics = { price: "price_kwd", value: "cost_per_25g", simple: "ingredient_count", rank: "rank" };
-  const score = (v) => (metrics[priority] ? v[metrics[priority]] : 0);
-  const av = score(a);
-  const bv = score(b);
+  const metrics = { price: "price_kwd", value: "cost_per_25g", simple: "ingredient_count" };
+  const metric = (v) => (metrics[priority] ? v[metrics[priority]] : 0);
+  const av = metric(a);
+  const bv = metric(b);
   const d = (Number.isFinite(av) ? av : Infinity) - (Number.isFinite(bv) ? bv : Infinity);
   return (Number.isNaN(d) ? 0 : d) || a.title.localeCompare(b.title, "en") || a.id.localeCompare(b.id);
 }

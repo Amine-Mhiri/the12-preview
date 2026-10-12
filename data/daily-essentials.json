@@ -1,16 +1,18 @@
 {
   "schema_version": 1,
+  "selection_policy": "admissibility-only-1.0.0",
+  "default_priority": "name",
   "category": "daily-essentials",
   "category_name": "Daily Essentials",
   "tagline": "The unglamorous four that actually change blood work.",
   "description": "Omega-3, vitamin D3, magnesium and a sensible multivitamin. No category is more affected by ingredient *form*: magnesium oxide and magnesium glycinate are not the same purchase, and most labels are betting you don't know that.",
   "build": {
-    "id": 26,
+    "id": 27,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-12",
-  "generated_at": "2026-10-12T20:52:34.336Z",
+  "generated_at": "2026-10-12T21:41:56.773Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -31,8 +33,8 @@
     "noun": "daily essentials",
     "guide_heading": "How do you like your daily essentials?",
     "guide_open": "What matters most to you?",
-    "empty_title": "Nothing here clears our bar yet.",
-    "empty_body": "We reviewed 90 daily essentials products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
+    "empty_title": "No publishable references yet.",
+    "empty_body": "We reviewed 90 daily essentials products reaching Kuwait and published none. Publication requires an approved ingredient verdict and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -48,10 +50,10 @@
     "sport": "Independently tested"
   },
   "priorities": {
-    "rank": "Our ranking",
+    "name": "Alphabetical",
     "price": "Lowest pack price",
     "value": "Price per serving",
-    "simple": "Cleanest label"
+    "simple": "Fewest declared ingredients"
   },
   "flavors": {
     "all": "All flavors",
@@ -64,7 +66,7 @@
   },
   "director_selection": {
     "selected": 0,
-    "note": "Products a founder put on the shelf from the database, whatever their score."
+    "note": "Editorial choices among ingredient-admitted references, recorded in the database."
   },
   "types": [
     {
@@ -144,6 +146,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-12T20:52:48.475Z",
+  "pulled_at": "2026-10-12T21:42:09.871Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
