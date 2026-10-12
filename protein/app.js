@@ -19,12 +19,19 @@
  *   3. **The catalogue is the published build.** A product appears because the
  *      charter admitted it and either it cleared the listing floor or somebody
  *      ticked it in the database. "Our pick" is that tick.
+ *   4. **Every count on the page follows the live API, not only the grid.**
+ *      Upstream rendered its counts once. Here the shelf changes between
+ *      deploys — a founder's tick reaches the API in seconds — and the page
+ *      re-rendered the products from the API but left "Only 10 made the cut."
+ *      above eight cards (2026-10-12). `counts.mjs` writes every sentence with
+ *      a count in it, for the build and again here after the fetch.
  *
  * `catalog-engine.mjs` and `style.css` are copied from upstream byte for byte
  * by the build and are never edited here.
  */
 const CATEGORY=document.body.dataset.category;
 const catalog=await import('./catalog.mjs');
+const {applyCountText}=await import('./counts.mjs');
 const {DEFAULTS,stockState,selectProducts,chooseFlavor,recommendations,merchantLink,withAllergyChoice}=catalog;
 // A product whose merchant link we cannot validate must not take the page
 // down with it. `merchantLink` throws by design — it is the guard against
@@ -349,7 +356,7 @@ const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalo
 })().then(d=>{
   COPY=d.copy;PRIORITIES=d.priorities;FLAVORS=d.flavors;constraintNames=d.constraints;unitName=d.copy.unit_name;
   if(d.schema_version!==1||!Array.isArray(d.groups)||d.groups.length!==d.counts.flavor_options||d.groups.reduce((n,g)=>n+g.variants.length,0)!==d.counts.selected)throw Error('Incomplete selection');
-  data=d;retitle(d);renderFilters();renderResults();try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
+  data=d;retitle(d);applyCountText(document,d);renderFilters();renderResults();try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
   stockSignature=data.groups.flatMap(g=>g.variants.map(v=>stockState(v))).join('|');
   const refreshAvailability=()=>{
     if(document.hidden)return;

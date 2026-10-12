@@ -10,7 +10,7 @@
     "charter": "0.14.0"
   },
   "reviewed_at": "2026-10-10",
-  "generated_at": "2026-10-12T12:44:20.677Z",
+  "generated_at": "2026-10-12T13:13:03.364Z",
   "live": false,
   "charter": "0.14.0",
   "exclusion_rules": 476,
@@ -61,7 +61,7 @@
     "other": "Other"
   },
   "director_selection": {
-    "selected": 3,
+    "selected": 1,
     "note": "Products a founder put on the shelf from the database, whatever their score."
   },
   "types": [
@@ -91,7 +91,7 @@
         "Traceable dairy origin"
       ],
       "shelf_note": null,
-      "published": 1
+      "published": 0
     },
     {
       "slug": "casein-protein",
@@ -104,7 +104,7 @@
         "Full amino disclosure"
       ],
       "shelf_note": null,
-      "published": 3
+      "published": 2
     },
     {
       "slug": "plant-protein",
@@ -163,10 +163,10 @@
   ],
   "counts": {
     "reviewed": 812,
-    "selected": 10,
+    "selected": 8,
     "excluded": 513,
     "pending": 225,
-    "flavor_options": 10
+    "flavor_options": 8
   },
   "groups": [
     {
@@ -802,218 +802,6 @@
       ]
     },
     {
-      "id": "natural-factors-whey-factors-grass-fed-whey-protein-unflavored-0-7-lb-340-g",
-      "product_id": "p-068958029290",
-      "brand": "Natural Factors",
-      "brand_slug": "natural-factors",
-      "name": "Whey Factors, Grass Fed Whey Protein",
-      "flavor": "Unflavored",
-      "flavor_group": "unflavoured",
-      "variants": [
-        {
-          "id": "natural-factors-whey-factors-grass-fed-whey-protein-unflavored-0-7-lb-340-g",
-          "catalogue_id": "p-068958029290",
-          "number": 7,
-          "title": "Natural Factors, Whey Factors, Grass Fed Whey Protein, Unflavored, 0.7 lb / 340 g",
-          "url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-unflavored-12-oz-340-g/6659",
-          "merchant_url_from_build": "https://www.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-unflavored-12-oz-340-g/6659",
-          "merchant_ref": "6659",
-          "merchant_note": null,
-          "source": "crawl",
-          "price_basis": "observed",
-          "size": "0.7 lb / 340 g",
-          "image": "https://cloudinary.images-iherb.com/image/upload/images/nfs/nfs02929/l/28.jpg",
-          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
-          "gallery": [
-            "https://cloudinary.images-iherb.com/image/upload/images/nfs/nfs02929/l/28.jpg",
-            "https://cloudinary.images-iherb.com/image/upload/images/nfs/nfs02929/l/31.jpg"
-          ],
-          "has_retailer_image": true,
-          "image_kind": "retailer",
-          "image_credit": null,
-          "type_slug": "whey-protein-concentrate",
-          "type_name": "Whey Protein Concentrate",
-          "unit_name": "25 g protein",
-          "rank": 1,
-          "slot_kind": "editorial",
-          "score": 68.2,
-          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
-          "strengths": [
-            "Single-ingredient product",
-            "Full quantitative disclosure of every ingredient",
-            "Cost per effective dose"
-          ],
-          "caveats": [
-            "No cross-contact statement and the facility is not declared allergen-controlled",
-            "Brand has no identifiable legal entity, address or contactable quality function",
-            "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
-          ],
-          "ingredients": "None.",
-          "ingredient_count": 1,
-          "allergen_statement": true,
-          "dietary": [],
-          "certifications": [],
-          "contains_milk": true,
-          "charter": null,
-          "nutrition": {
-            "fatG": 2,
-            "carbsG": 1,
-            "fibreG": 1,
-            "sugarG": 1,
-            "calories": 100,
-            "proteinG": 19,
-            "sodiumMg": 50,
-            "servingSize": "1 Scoop (26 g)",
-            "saturatedFatG": 1.5,
-            "servingsPerContainer": 13
-          },
-          "flavor": "Unflavored",
-          "flavor_group": "unflavoured",
-          "price_kwd": 7.38,
-          "price_from_build_kwd": 7.38,
-          "price_is_live": true,
-          "price_per_serving_kwd": 0.568,
-          "cost_per_25g": 0.7474,
-          "price_observed_at": "2026-09-29T00:06:04.000Z",
-          "price_source_url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-unflavored-12-oz-340-g/6659",
-          "availability": {
-            "status": "in_stock",
-            "observed_at": "2026-09-29T00:06:04.000Z",
-            "source": "direct",
-            "destination": "KW"
-          },
-          "dairy_free_declared": false,
-          "lactose_free_declared": false,
-          "vegan_declared": false,
-          "gluten_free_declared": false,
-          "soy_free_declared": false,
-          "stevia": false,
-          "anti_doping_documented": false,
-          "director": {
-            "status": "selected"
-          },
-          "claims": [],
-          "evidence": {
-            "rank": 1,
-            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
-          },
-          "review_links": [],
-          "label_image": null,
-          "lead_warning": null,
-          "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-10",
-          "data_confidence": "verified"
-        }
-      ]
-    },
-    {
-      "id": "now-foods-sports-micellar-casein-protein-powder-unflavored-1-8-lb-816-g",
-      "product_id": "p-733739021229",
-      "brand": "NOW Foods",
-      "brand_slug": "now-foods",
-      "name": "Sports, Micellar Casein Protein Powder",
-      "flavor": "Unflavored",
-      "flavor_group": "unflavoured",
-      "variants": [
-        {
-          "id": "now-foods-sports-micellar-casein-protein-powder-unflavored-1-8-lb-816-g",
-          "catalogue_id": "p-733739021229",
-          "number": 8,
-          "title": "NOW Foods, Sports, Micellar Casein Protein Powder, Unflavored, 1.8 lb / 816 g",
-          "url": "https://kw.iherb.com/pr/now-foods-sports-micellar-casein-protein-powder-unflavored-1-8-lbs-816-g/59774",
-          "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-micellar-casein-protein-powder-unflavored-1-8-lbs-816-g/59774",
-          "merchant_ref": "59774",
-          "merchant_note": null,
-          "source": "crawl",
-          "price_basis": "observed",
-          "size": "1.8 lb / 816 g",
-          "image": "https://cloudinary.images-iherb.com/image/upload/images/now/now02122/l/30.jpg",
-          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
-          "gallery": [
-            "https://cloudinary.images-iherb.com/image/upload/images/now/now02122/l/30.jpg",
-            "https://cloudinary.images-iherb.com/image/upload/images/now/now02122/l/36.jpg",
-            "https://cloudinary.images-iherb.com/image/upload/images/now/now02122/l/38.jpg",
-            "https://cloudinary.images-iherb.com/image/upload/images/now/now02122/l/39.jpg"
-          ],
-          "has_retailer_image": true,
-          "image_kind": "retailer",
-          "image_credit": null,
-          "type_slug": "casein-protein",
-          "type_name": "Casein & Slow-Release Protein",
-          "unit_name": "25 g protein",
-          "rank": 1,
-          "slot_kind": "editorial",
-          "score": 69.6,
-          "verdict_line": "A very short label with no flavouring at all. What it lacks is an independent test, not a formulation.",
-          "strengths": [
-            "Zero added sugar and zero non-nutritive sweetener",
-            "Full quantitative disclosure of every ingredient"
-          ],
-          "caveats": [
-            "Sunflower or soy lecithin",
-            "No cross-contact statement and the facility is not declared allergen-controlled",
-            "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
-          ],
-          "ingredients": "Micellar casein, sunflower lecithin (1%).",
-          "ingredient_count": 2,
-          "allergen_statement": true,
-          "dietary": [],
-          "certifications": [],
-          "contains_milk": true,
-          "charter": null,
-          "nutrition": {
-            "fatG": 0.5,
-            "carbsG": 0.5,
-            "fibreG": 0,
-            "sugarG": 0.5,
-            "calories": 90,
-            "proteinG": 19,
-            "sodiumMg": 60,
-            "addedSugarG": 0,
-            "servingSize": "1 level scoop (approx. 24 g)",
-            "saturatedFatG": 0,
-            "servingsPerContainer": 34
-          },
-          "flavor": "Unflavored",
-          "flavor_group": "unflavoured",
-          "price_kwd": 14.16,
-          "price_from_build_kwd": 14.16,
-          "price_is_live": true,
-          "price_per_serving_kwd": 0.416,
-          "cost_per_25g": 0.5474,
-          "price_observed_at": "2026-10-06T12:38:14.000Z",
-          "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-micellar-casein-protein-powder-unflavored-1-8-lbs-816-g/59774",
-          "availability": {
-            "status": "in_stock",
-            "observed_at": "2026-10-06T12:38:14.000Z",
-            "source": "direct",
-            "destination": "KW"
-          },
-          "dairy_free_declared": false,
-          "lactose_free_declared": false,
-          "vegan_declared": false,
-          "gluten_free_declared": false,
-          "soy_free_declared": false,
-          "stevia": false,
-          "anti_doping_documented": false,
-          "director": {
-            "status": "selected"
-          },
-          "claims": [],
-          "evidence": {
-            "rank": 1,
-            "note": "A very short label with no flavouring at all. What it lacks is an independent test, not a formulation."
-          },
-          "review_links": [],
-          "label_image": null,
-          "lead_warning": null,
-          "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-10",
-          "data_confidence": "verified"
-        }
-      ]
-    },
-    {
       "id": "nutricost-casein-protein-unflavored-2-0-lb-907-g",
       "product_id": "p-810014672106",
       "brand": "Nutricost",
@@ -1025,7 +813,7 @@
         {
           "id": "nutricost-casein-protein-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-810014672106",
-          "number": 9,
+          "number": 7,
           "title": "Nutricost, Casein Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-casein-protein-unflavored-2-lb-907-g/136774",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-casein-protein-unflavored-2-lb-907-g/136774",
@@ -1046,7 +834,7 @@
           "type_slug": "casein-protein",
           "type_name": "Casein & Slow-Release Protein",
           "unit_name": "25 g protein",
-          "rank": 2,
+          "rank": 1,
           "slot_kind": "merit",
           "score": 71.7,
           "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
@@ -1107,7 +895,7 @@
           },
           "claims": [],
           "evidence": {
-            "rank": 2,
+            "rank": 1,
             "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
           },
           "review_links": [],
@@ -1131,7 +919,7 @@
         {
           "id": "mt-capra-clean-casein-protein-unsweetened-1-0-lb-453-g",
           "catalogue_id": "p-633924720916",
-          "number": 10,
+          "number": 8,
           "title": "Mt. Capra, Clean Casein Protein, Unsweetened, 1.0 lb / 453 g",
           "url": "https://kw.iherb.com/pr/mt-capra-clean-casein-protein-unsweetened-16-oz-453-g/160541",
           "merchant_url_from_build": "https://www.iherb.com/pr/mt-capra-clean-casein-protein-unsweetened-16-oz-453-g/160541",
@@ -1152,7 +940,7 @@
           "type_slug": "casein-protein",
           "type_name": "Casein & Slow-Release Protein",
           "unit_name": "25 g protein",
-          "rank": 3,
+          "rank": 2,
           "slot_kind": "merit",
           "score": 70.9,
           "verdict_line": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch.",
@@ -1213,7 +1001,7 @@
           },
           "claims": [],
           "evidence": {
-            "rank": 3,
+            "rank": 2,
             "note": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch."
           },
           "review_links": [],
@@ -1226,6 +1014,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-12T12:44:21.741Z",
+  "pulled_at": "2026-10-12T13:13:10.873Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
