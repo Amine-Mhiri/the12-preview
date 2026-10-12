@@ -5,12 +5,12 @@
   "tagline": "Calories, engineered honestly.",
   "description": "Mass gainers and meal replacements are judged as food rather than as supplements, which is why most of the category fails: a product built on maltodextrin and sucralose is not a meal, whatever the tub says.",
   "build": {
-    "id": 25,
+    "id": 26,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-12",
-  "generated_at": "2026-10-12T18:37:17.032Z",
+  "generated_at": "2026-10-12T20:52:34.336Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -101,6 +101,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-12T18:37:27.408Z",
+  "pulled_at": "2026-10-12T20:52:48.765Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
