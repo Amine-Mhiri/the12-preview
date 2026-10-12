@@ -5,14 +5,14 @@
   "tagline": "Compounds with trials behind them, at the doses used in those trials.",
   "description": "Creatine, caffeine, citrulline and beta-alanine have decades of evidence. Almost everything else sold alongside them does not. This category is graded hardest on dose: a clinically studied ingredient at a decorative amount scores zero on efficacy regardless of how clean the label is.",
   "build": {
-    "id": 24,
+    "id": 25,
     "source": "crawl",
-    "charter": "0.14.0"
+    "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-10",
-  "generated_at": "2026-10-12T17:01:03.479Z",
+  "reviewed_at": "2026-10-12",
+  "generated_at": "2026-10-12T18:34:40.959Z",
   "live": false,
-  "charter": "0.14.0",
+  "charter": "0.15.0",
   "exclusion_rules": 476,
   "comparison_unit": "5 g creatine",
   "comparison_units": [
@@ -32,7 +32,7 @@
     "guide_heading": "How do you like your performance?",
     "guide_open": "What matters most to you?",
     "empty_title": "Nothing here clears our bar yet.",
-    "empty_body": "We reviewed 688 performance products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
+    "empty_body": "We reviewed 691 performance products reaching Kuwait and published none. A shelf is whatever clears our listing floor, and nothing in this category does yet — we would rather show you an empty shelf than a padded one.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -79,7 +79,7 @@
         "Creapure or an equivalent published purity certificate"
       ],
       "shelf_note": null,
-      "published": 1
+      "published": 39
     },
     {
       "slug": "pre-workout",
@@ -136,11 +136,11 @@
     }
   ],
   "counts": {
-    "reviewed": 688,
-    "selected": 1,
-    "excluded": 506,
-    "pending": 180,
-    "flavor_options": 1
+    "reviewed": 691,
+    "selected": 39,
+    "excluded": 495,
+    "pending": 126,
+    "flavor_options": 39
   },
   "groups": [
     {
@@ -178,19 +178,19 @@
           "unit_name": "5 g creatine",
           "rank": 1,
           "slot_kind": "editorial",
-          "score": 67.3,
+          "score": 72.7,
           "verdict_line": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch.",
           "strengths": [
-            "Active delivered in the exact form the evidence used",
+            "Every benchmarked active at or above its clinically supported minimum",
             "Single-ingredient product",
-            "Free of all 14 EU-declarable allergens, stated and tested"
+            "Full quantitative disclosure of every ingredient"
           ],
           "caveats": [
-            "Brand has no identifiable legal entity, address or contactable quality function",
-            "No cross-contact statement and the facility is not declared allergen-controlled",
-            "Nobody independent has tested this. An unverified product can be excellent, but it cannot be a benchmark — nobody gets top marks on trust me."
+            "Cost per effective dose",
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
           ],
-          "ingredients": "Creatine monohydrate.",
+          "ingredients": "Creatine monohydrate",
           "ingredient_count": 1,
           "allergen_statement": false,
           "dietary": [],
@@ -206,16 +206,16 @@
           },
           "flavor": "Unflavoured",
           "flavor_group": "unflavoured",
-          "price_kwd": 18.21,
-          "price_from_build_kwd": 18.21,
+          "price_kwd": 18.23,
+          "price_from_build_kwd": 18.23,
           "price_is_live": true,
-          "price_per_serving_kwd": 0.182,
-          "cost_per_25g": null,
-          "price_observed_at": "2026-10-05T19:52:16.000Z",
+          "price_per_serving_kwd": 0.18230000000000002,
+          "cost_per_25g": 0.1823,
+          "price_observed_at": "2026-10-12T17:21:07.000Z",
           "price_source_url": "https://kw.iherb.com/pr/ehplabs-crea-8-17-6-oz-500-g/119639",
           "availability": {
             "status": "in_stock",
-            "observed_at": "2026-10-05T19:52:16.000Z",
+            "observed_at": "2026-10-12T17:21:07.000Z",
             "source": "direct",
             "destination": "KW"
           },
@@ -238,12 +238,3703 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-10",
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "thorne-creatine-1-0-lb-450-g",
+      "product_id": "p-693749006350",
+      "brand": "Thorne",
+      "brand_slug": "thorne",
+      "name": "Creatine",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "thorne-creatine-1-0-lb-450-g",
+          "catalogue_id": "p-693749006350",
+          "number": 2,
+          "title": "Thorne, Creatine, 1.0 lb / 450 g",
+          "url": "https://kw.iherb.com/pr/thorne-creatine-16-oz-450-g/70006",
+          "merchant_url_from_build": "https://www.iherb.com/pr/thorne-creatine-16-oz-450-g/70006",
+          "merchant_ref": "70006",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.0 lb / 450 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/thr/thr00635/l/61.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/thr/thr00635/l/61.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/thr/thr00635/l/67.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 2,
+          "slot_kind": "merit",
+          "score": 84.5,
+          "verdict_line": "Correctly dosed, cleanly formulated, and independently tested. This is what the category should look like.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [
+            "nsf-certified-for-sport"
+          ],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "One Scoop (5 g)",
+            "servingsPerContainer": 90
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 13.82,
+          "price_from_build_kwd": 13.82,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.15355555555555556,
+          "cost_per_25g": 0.1536,
+          "price_observed_at": "2026-10-12T17:17:50.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/thorne-creatine-16-oz-450-g/70006",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:17:50.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": true,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 2,
+            "note": "Correctly dosed, cleanly formulated, and independently tested. This is what the category should look like."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "thorne-creatine-2-0-lb-900-g",
+      "product_id": "p-693749015239",
+      "brand": "Thorne",
+      "brand_slug": "thorne",
+      "name": "Creatine",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "thorne-creatine-2-0-lb-900-g",
+          "catalogue_id": "p-693749015239",
+          "number": 3,
+          "title": "Thorne, Creatine, 2.0 lb / 900 g",
+          "url": "https://kw.iherb.com/pr/thorne-creatine-2-lb-900-g/150562",
+          "merchant_url_from_build": "https://www.iherb.com/pr/thorne-creatine-2-lb-900-g/150562",
+          "merchant_ref": "150562",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.0 lb / 900 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/thr/thr01523/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/thr/thr01523/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/thr/thr01523/l/13.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 3,
+          "slot_kind": "merit",
+          "score": 84.5,
+          "verdict_line": "Correctly dosed, cleanly formulated, and independently tested. This is what the category should look like.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [
+            "nsf-certified-for-sport"
+          ],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "One Scoop (5 g)",
+            "servingsPerContainer": 180
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 26.38,
+          "price_from_build_kwd": 26.38,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.14655555555555555,
+          "cost_per_25g": 0.1466,
+          "price_observed_at": "2026-10-12T17:20:01.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/thorne-creatine-2-lb-900-g/150562",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:20:01.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": true,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 3,
+            "note": "Correctly dosed, cleanly formulated, and independently tested. This is what the category should look like."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "bpn-creatine-monohydrate-unflavored-0-3-lb-150-g",
+      "product_id": "p-850055068032",
+      "brand": "BPN",
+      "brand_slug": "bpn",
+      "name": "Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "bpn-creatine-monohydrate-unflavored-0-3-lb-150-g",
+          "catalogue_id": "p-850055068032",
+          "number": 4,
+          "title": "BPN, Creatine Monohydrate, Unflavored, 0.3 lb / 150 g",
+          "url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-5-3-oz-150-g/141831",
+          "merchant_url_from_build": "https://www.iherb.com/pr/bpn-creatine-monohydrate-unflavored-5-3-oz-150-g/141831",
+          "merchant_ref": "141831",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.3 lb / 150 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/bpu/bpu06803/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/bpu/bpu06803/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/bpu/bpu06803/l/29.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/bpu/bpu06803/l/32.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/bpu/bpu06803/l/33.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 4,
+          "slot_kind": "merit",
+          "score": 84.4,
+          "verdict_line": "One ingredient, nothing added for taste, and somebody independent has tested it. There is very little here to argue with.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [
+            "nsf-certified-for-sport"
+          ],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "Approximately 1 Scoop (5 g)",
+            "servingsPerContainer": 30
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.51,
+          "price_from_build_kwd": 7.51,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.25033333333333335,
+          "cost_per_25g": 0.2503,
+          "price_observed_at": "2026-10-12T17:19:24.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-5-3-oz-150-g/141831",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:24.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": true,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 4,
+            "note": "One ingredient, nothing added for taste, and somebody independent has tested it. There is very little here to argue with."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "bpn-creatine-monohydrate-unflavored-0-7-lb-300-g",
+      "product_id": "p-856622004052",
+      "brand": "BPN",
+      "brand_slug": "bpn",
+      "name": "Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "bpn-creatine-monohydrate-unflavored-0-7-lb-300-g",
+          "catalogue_id": "p-856622004052",
+          "number": 5,
+          "title": "BPN, Creatine Monohydrate, Unflavored, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-10-6-oz-300-g/131350",
+          "merchant_url_from_build": "https://www.iherb.com/pr/bpn-creatine-monohydrate-unflavored-10-6-oz-300-g/131350",
+          "merchant_ref": "131350",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/bpu/bpu00405/l/26.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/bpu/bpu00405/l/26.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/bpu/bpu00405/l/31.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/bpu/bpu00405/l/37.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/bpu/bpu00405/l/38.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 5,
+          "slot_kind": "merit",
+          "score": 84.2,
+          "verdict_line": "One ingredient, nothing added for taste, and somebody independent has tested it. There is very little here to argue with.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [
+            "nsf-certified-for-sport"
+          ],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 12.52,
+          "price_from_build_kwd": 12.52,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.20866666666666667,
+          "cost_per_25g": 0.2087,
+          "price_observed_at": "2026-10-12T17:18:43.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-10-6-oz-300-g/131350",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:43.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": true,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 5,
+            "note": "One ingredient, nothing added for taste, and somebody independent has tested it. There is very little here to argue with."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-1-0-lb-454-",
+      "product_id": "p-898220010592",
+      "brand": "California Gold Nutrition",
+      "brand_slug": "california-gold-nutrition",
+      "name": "Sport, Pure Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-1-0-lb-454-",
+          "catalogue_id": "p-898220010592",
+          "number": 6,
+          "title": "California Gold Nutrition, Sport, Pure Creatine Monohydrate, Unflavored, 1.0 lb / 454 g",
+          "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-1-lb-454-g/71026",
+          "merchant_url_from_build": "https://www.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-1-lb-454-g/71026",
+          "merchant_ref": "71026",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.0 lb / 454 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn01059/l/380.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn01059/l/380.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn01059/l/135.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn01059/l/152.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn01059/l/153.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 6,
+          "slot_kind": "merit",
+          "score": 79.2,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 91
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 5.47,
+          "price_from_build_kwd": 5.47,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.06010989010989011,
+          "cost_per_25g": 0.0601,
+          "price_observed_at": "2026-10-12T17:17:52.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-1-lb-454-g/71026",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:17:52.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 6,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-2-2-lb-1000",
+      "product_id": "p-898220025213",
+      "brand": "California Gold Nutrition",
+      "brand_slug": "california-gold-nutrition",
+      "name": "Sport, Pure Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-2-2-lb-1000",
+          "catalogue_id": "p-898220025213",
+          "number": 7,
+          "title": "California Gold Nutrition, Sport, Pure Creatine Monohydrate, Unflavored, 2.2 lb / 1000 g",
+          "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-2-2-lbs-1-kg/143718",
+          "merchant_url_from_build": "https://www.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-2-2-lbs-1-kg/143718",
+          "merchant_ref": "143718",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.2 lb / 1000 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn02521/l/260.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn02521/l/260.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn02521/l/137.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn02521/l/173.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn02521/l/19.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 7,
+          "slot_kind": "merit",
+          "score": 79.2,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 200
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 9.18,
+          "price_from_build_kwd": 9.18,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.045899999999999996,
+          "cost_per_25g": 0.0459,
+          "price_observed_at": "2026-10-12T17:19:29.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-2-2-lbs-1-kg/143718",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:29.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 7,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "micro-ingredients-creatine-monohydrate-powder-unflavored-2-2-lb-1000-g",
+      "product_id": "p-850056167918",
+      "brand": "Micro Ingredients",
+      "brand_slug": "micro-ingredients",
+      "name": "Creatine Monohydrate Powder",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "micro-ingredients-creatine-monohydrate-powder-unflavored-2-2-lb-1000-g",
+          "catalogue_id": "p-850056167918",
+          "number": 8,
+          "title": "Micro Ingredients, Creatine Monohydrate Powder, Unflavored, 2.2 lb / 1000 g",
+          "url": "https://kw.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-2-2-lb-1-kg/146523",
+          "merchant_url_from_build": "https://www.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-2-2-lb-1-kg/146523",
+          "merchant_ref": "146523",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.2 lb / 1000 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/mii/mii16791/l/14.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/mii/mii16791/l/14.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/mii/mii16791/l/15.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 8,
+          "slot_kind": "merit",
+          "score": 79.2,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 scoop (5 g)",
+            "servingsPerContainer": 200
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 10.7,
+          "price_from_build_kwd": 10.7,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0535,
+          "cost_per_25g": 0.0535,
+          "price_observed_at": "2026-10-12T17:19:42.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-2-2-lb-1-kg/146523",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:42.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 8,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "jnx-sports-the-curse-creatine-unflavored-1-1-lb-500-g",
+      "product_id": "p-797776094509",
+      "brand": "JNX Sports",
+      "brand_slug": "jnx-sports",
+      "name": "The Curse!®, Creatine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "jnx-sports-the-curse-creatine-unflavored-1-1-lb-500-g",
+          "catalogue_id": "p-797776094509",
+          "number": 9,
+          "title": "JNX Sports, The Curse!®, Creatine, Unflavored, 1.1 lb / 500 g",
+          "url": "https://kw.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-17-6-oz-500-g/140412",
+          "merchant_url_from_build": "https://www.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-17-6-oz-500-g/140412",
+          "merchant_ref": "140412",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/cob/cob09450/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/cob/cob09450/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cob/cob09450/l/29.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 9,
+          "slot_kind": "merit",
+          "score": 78,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 scoop (5 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 8.48,
+          "price_from_build_kwd": 8.48,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0848,
+          "cost_per_25g": 0.0848,
+          "price_observed_at": "2026-10-12T17:19:16.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-17-6-oz-500-g/140412",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:16.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 9,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "metabolic-nutrition-creatine-unflavored-1-1-lb-500-g",
+      "product_id": "p-764779155018",
+      "brand": "Metabolic Nutrition",
+      "brand_slug": "metabolic-nutrition",
+      "name": "Creatine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "metabolic-nutrition-creatine-unflavored-1-1-lb-500-g",
+          "catalogue_id": "p-764779155018",
+          "number": 10,
+          "title": "Metabolic Nutrition, Creatine, Unflavored, 1.1 lb / 500 g",
+          "url": "https://kw.iherb.com/pr/metabolic-nutrition-creatine-unflavored-17-64-oz-500-g/129719",
+          "merchant_url_from_build": "https://www.iherb.com/pr/metabolic-nutrition-creatine-unflavored-17-64-oz-500-g/129719",
+          "merchant_ref": "129719",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/mtb/mtb15501/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/mtb/mtb15501/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/mtb/mtb15501/l/29.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 10,
+          "slot_kind": "merit",
+          "score": 78,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "5 g",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.8,
+          "price_from_build_kwd": 7.8,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.078,
+          "cost_per_25g": 0.078,
+          "price_observed_at": "2026-10-12T17:18:40.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/metabolic-nutrition-creatine-unflavored-17-64-oz-500-g/129719",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:40.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 10,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "micro-ingredients-creatine-monohydrate-powder-unflavored-1-1-lb-500-g",
+      "product_id": "p-850069023607",
+      "brand": "Micro Ingredients",
+      "brand_slug": "micro-ingredients",
+      "name": "Creatine Monohydrate Powder",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "micro-ingredients-creatine-monohydrate-powder-unflavored-1-1-lb-500-g",
+          "catalogue_id": "p-850069023607",
+          "number": 11,
+          "title": "Micro Ingredients, Creatine Monohydrate Powder, Unflavored, 1.1 lb / 500 g",
+          "url": "https://kw.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-1-1-lb-500-g/149851",
+          "merchant_url_from_build": "https://www.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-1-1-lb-500-g/149851",
+          "merchant_ref": "149851",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/mii/mii02360/l/12.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/mii/mii02360/l/12.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/mii/mii02360/l/13.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 11,
+          "slot_kind": "merit",
+          "score": 78,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 6.84,
+          "price_from_build_kwd": 6.84,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0684,
+          "cost_per_25g": 0.0684,
+          "price_observed_at": "2026-10-12T17:19:58.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-1-1-lb-500-g/149851",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:58.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 11,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutricost-performance-creatine-monohydrate-unflavored-2-2-lb-1000-g",
+      "product_id": "p-810014675312",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Performance, Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutricost-performance-creatine-monohydrate-unflavored-2-2-lb-1000-g",
+          "catalogue_id": "p-810014675312",
+          "number": 12,
+          "title": "Nutricost, Performance, Creatine Monohydrate, Unflavored, 2.2 lb / 1000 g",
+          "url": "https://kw.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-2-2-lb-1-kg/145287",
+          "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-2-2-lb-1-kg/145287",
+          "merchant_ref": "145287",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.2 lb / 1000 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67531/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67531/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67531/l/13.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 12,
+          "slot_kind": "merit",
+          "score": 78,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 200
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 16.03,
+          "price_from_build_kwd": 16.03,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.08015,
+          "cost_per_25g": 0.0801,
+          "price_observed_at": "2026-10-12T17:19:31.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-2-2-lb-1-kg/145287",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:31.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 12,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutricost-performance-creatine-monohydrate-unflavored-0-7-lb-303-g",
+      "product_id": "p-810139571865",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Performance, Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutricost-performance-creatine-monohydrate-unflavored-0-7-lb-303-g",
+          "catalogue_id": "p-810139571865",
+          "number": 13,
+          "title": "Nutricost, Performance, Creatine Monohydrate, Unflavored, 0.7 lb / 303 g",
+          "url": "https://kw.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-10-7-oz-300-g/147383",
+          "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-10-7-oz-300-g/147383",
+          "merchant_ref": "147383",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 303 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57186/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57186/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57186/l/13.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57186/l/16.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 13,
+          "slot_kind": "merit",
+          "score": 78,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 4.37,
+          "price_from_build_kwd": 4.37,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.07283333333333333,
+          "cost_per_25g": 0.0728,
+          "price_observed_at": "2026-10-12T17:19:45.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-10-7-oz-300-g/147383",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:45.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 13,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "now-foods-sports-creatine-monohydrate-2-2-lb-1000-g",
+      "product_id": "p-733739020321",
+      "brand": "NOW Foods",
+      "brand_slug": "now-foods",
+      "name": "Sports, Creatine Monohydrate",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "now-foods-sports-creatine-monohydrate-2-2-lb-1000-g",
+          "catalogue_id": "p-733739020321",
+          "number": 14,
+          "title": "NOW Foods, Sports, Creatine Monohydrate, 2.2 lb / 1000 g",
+          "url": "https://kw.iherb.com/pr/now-foods-sports-creatine-monohydrate-2-2-lbs-1-kg/535",
+          "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-creatine-monohydrate-2-2-lbs-1-kg/535",
+          "merchant_ref": "535",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.2 lb / 1000 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/now/now02032/l/55.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02032/l/55.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02032/l/60.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02032/l/63.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02032/l/64.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 14,
+          "slot_kind": "merit",
+          "score": 77.3,
+          "verdict_line": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 1/2 Level Teaspoons (approx. 5 g)",
+            "servingsPerContainer": 200
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 15.7,
+          "price_from_build_kwd": 15.7,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0785,
+          "cost_per_25g": 0.0785,
+          "price_observed_at": "2026-10-12T17:17:29.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-creatine-monohydrate-2-2-lbs-1-kg/535",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:17:29.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 14,
+            "note": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "now-foods-sports-creatine-monohydrate-1-3-lb-600-g",
+      "product_id": "p-733739020314",
+      "brand": "NOW Foods",
+      "brand_slug": "now-foods",
+      "name": "Sports, Creatine Monohydrate",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "now-foods-sports-creatine-monohydrate-1-3-lb-600-g",
+          "catalogue_id": "p-733739020314",
+          "number": 15,
+          "title": "NOW Foods, Sports, Creatine Monohydrate, 1.3 lb / 600 g",
+          "url": "https://kw.iherb.com/pr/now-foods-sports-creatine-monohydrate-21-2-oz-600-g/116703",
+          "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-creatine-monohydrate-21-2-oz-600-g/116703",
+          "merchant_ref": "116703",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.3 lb / 600 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/now/now02031/l/32.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02031/l/32.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02031/l/37.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02031/l/40.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02031/l/41.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 15,
+          "slot_kind": "merit",
+          "score": 77.3,
+          "verdict_line": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 1/2 Level Teaspoons (approx. 5 g)",
+            "servingsPerContainer": 120
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 9.43,
+          "price_from_build_kwd": 9.43,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.07858333333333332,
+          "cost_per_25g": 0.0786,
+          "price_observed_at": "2026-10-12T17:18:26.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-creatine-monohydrate-21-2-oz-600-g/116703",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:26.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 15,
+            "note": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "now-foods-sports-micronized-creatine-monohydrate-2-2-lb-1000-g",
+      "product_id": "p-733739020369",
+      "brand": "NOW Foods",
+      "brand_slug": "now-foods",
+      "name": "Sports, Micronized Creatine Monohydrate",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "now-foods-sports-micronized-creatine-monohydrate-2-2-lb-1000-g",
+          "catalogue_id": "p-733739020369",
+          "number": 16,
+          "title": "NOW Foods, Sports, Micronized Creatine Monohydrate, 2.2 lb / 1000 g",
+          "url": "https://kw.iherb.com/pr/now-foods-sports-micronized-creatine-monohydrate-2-2-lbs-1-kg/140145",
+          "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-micronized-creatine-monohydrate-2-2-lbs-1-kg/140145",
+          "merchant_ref": "140145",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.2 lb / 1000 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/now/now02036/l/26.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02036/l/26.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02036/l/16.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02036/l/17.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02036/l/31.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 16,
+          "slot_kind": "merit",
+          "score": 77.3,
+          "verdict_line": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 1/2​ Level Teaspoons (approx. 4.2 g)",
+            "servingsPerContainer": 238
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 15.73,
+          "price_from_build_kwd": 15.73,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.06609243697478992,
+          "cost_per_25g": 0.0787,
+          "price_observed_at": "2026-10-12T17:19:13.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-micronized-creatine-monohydrate-2-2-lbs-1-kg/140145",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:13.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 16,
+            "note": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "c4-cellucor-cor-performance-creatine-unflavored-0-8-lb-360-g",
+      "product_id": "p-810390025824",
+      "brand": "C4 / Cellucor",
+      "brand_slug": "c4-cellucor",
+      "name": "COR-Performance® Creatine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "c4-cellucor-cor-performance-creatine-unflavored-0-8-lb-360-g",
+          "catalogue_id": "p-810390025824",
+          "number": 17,
+          "title": "C4 / Cellucor, COR-Performance® Creatine, Unflavored, 0.8 lb / 360 g",
+          "url": "https://kw.iherb.com/pr/c4-cellucor-cor-performance-creatine-unflavored-12-7oz-360-g/77551",
+          "merchant_url_from_build": "https://www.iherb.com/pr/c4-cellucor-cor-performance-creatine-unflavored-12-7oz-360-g/77551",
+          "merchant_ref": "77551",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.8 lb / 360 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/cll/cll02582/l/44.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/cll/cll02582/l/44.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cll/cll02582/l/49.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 17,
+          "slot_kind": "merit",
+          "score": 76.8,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "5 g (Approx. 1 level scoop)",
+            "servingsPerContainer": 72
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 6.91,
+          "price_from_build_kwd": 6.91,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.09597222222222222,
+          "cost_per_25g": 0.096,
+          "price_observed_at": "2026-10-12T17:17:53.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/c4-cellucor-cor-performance-creatine-unflavored-12-7oz-360-g/77551",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:17:53.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 17,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "fitcode-creatine-unflavored-0-7-lb-300-g",
+      "product_id": "p-818901028630",
+      "brand": "fitcode",
+      "brand_slug": "fitcode",
+      "name": "Creatine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "fitcode-creatine-unflavored-0-7-lb-300-g",
+          "catalogue_id": "p-818901028630",
+          "number": 18,
+          "title": "fitcode, Creatine, Unflavored, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/fitcode-creatine-unflavored-10-6-oz-300-g/120956",
+          "merchant_url_from_build": "https://www.iherb.com/pr/fitcode-creatine-unflavored-10-6-oz-300-g/120956",
+          "merchant_ref": "120956",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/fcd/fcd02863/l/29.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/fcd/fcd02863/l/29.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/fcd/fcd02863/l/18.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/fcd/fcd02863/l/19.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/fcd/fcd02863/l/20.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 18,
+          "slot_kind": "merit",
+          "score": 76.8,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5.0 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 5.97,
+          "price_from_build_kwd": 5.97,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.09949999999999999,
+          "cost_per_25g": 0.0995,
+          "price_observed_at": "2026-10-12T17:18:28.317Z",
+          "price_source_url": "https://kw.iherb.com/pr/fitcode-creatine-unflavored-10-6-oz-300-g/120956",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:28.317Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 18,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "kaged-creatine-monohydrate-unflavored-1-1-lb-510-g",
+      "product_id": "p-850053383007",
+      "brand": "Kaged",
+      "brand_slug": "kaged",
+      "name": "Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "kaged-creatine-monohydrate-unflavored-1-1-lb-510-g",
+          "catalogue_id": "p-850053383007",
+          "number": 19,
+          "title": "Kaged, Creatine Monohydrate, Unflavored, 1.1 lb / 510 g",
+          "url": "https://kw.iherb.com/pr/kaged-creatine-monohydrate-unflavored-1-12-lb-510-g/136261",
+          "merchant_url_from_build": "https://www.iherb.com/pr/kaged-creatine-monohydrate-unflavored-1-12-lb-510-g/136261",
+          "merchant_ref": "136261",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 510 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/kgd/kgd38300/l/26.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/kgd/kgd38300/l/26.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/kgd/kgd38300/l/32.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 19,
+          "slot_kind": "merit",
+          "score": 76.8,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5.1 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 8.99,
+          "price_from_build_kwd": 8.99,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.08990000000000001,
+          "cost_per_25g": 0.0899,
+          "price_observed_at": "2026-10-12T17:19:02.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/kaged-creatine-monohydrate-unflavored-1-12-lb-510-g/136261",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:02.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 19,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutrabio-micronized-creatine-monohydrate-unflavored-2-2-lb-1000-g",
+      "product_id": "p-649908230111",
+      "brand": "NutraBio",
+      "brand_slug": "nutrabio",
+      "name": "Micronized Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutrabio-micronized-creatine-monohydrate-unflavored-2-2-lb-1000-g",
+          "catalogue_id": "p-649908230111",
+          "number": 20,
+          "title": "NutraBio, Micronized Creatine Monohydrate, Unflavored, 2.2 lb / 1000 g",
+          "url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-2-2-lb-1-000-g/134700",
+          "merchant_url_from_build": "https://www.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-2-2-lb-1-000-g/134700",
+          "merchant_ref": "134700",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.2 lb / 1000 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/nrb/nrb23011/l/46.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/nrb/nrb23011/l/46.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/nrb/nrb23011/l/34.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/nrb/nrb23011/l/35.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/nrb/nrb23011/l/36.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 20,
+          "slot_kind": "merit",
+          "score": 76.8,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 scoop (5 g)",
+            "servingsPerContainer": 200
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 19.03,
+          "price_from_build_kwd": 19.03,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.09515000000000001,
+          "cost_per_25g": 0.0952,
+          "price_observed_at": "2026-10-12T17:18:52.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-2-2-lb-1-000-g/134700",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:52.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 20,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutrex-research-creatine-monohydrate-unflavored-0-7-lb-300-g",
+      "product_id": "p-853237000745",
+      "brand": "Nutrex Research",
+      "brand_slug": "nutrex-research",
+      "name": "Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutrex-research-creatine-monohydrate-unflavored-0-7-lb-300-g",
+          "catalogue_id": "p-853237000745",
+          "number": 21,
+          "title": "Nutrex Research, Creatine Monohydrate, Unflavored, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/nutrex-research-creatine-monohydrate-unflavored-10-58-oz-300-g/46645",
+          "merchant_url_from_build": "https://www.iherb.com/pr/nutrex-research-creatine-monohydrate-unflavored-10-58-oz-300-g/46645",
+          "merchant_ref": "46645",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/nrx/nrx00074/l/57.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/nrx/nrx00074/l/57.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/nrx/nrx00074/l/62.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/nrx/nrx00074/l/65.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 21,
+          "slot_kind": "merit",
+          "score": 76.8,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 6.46,
+          "price_from_build_kwd": 6.46,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.10766666666666666,
+          "cost_per_25g": 0.1077,
+          "price_observed_at": "2026-10-12T17:17:37.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutrex-research-creatine-monohydrate-unflavored-10-58-oz-300-g/46645",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:17:37.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 21,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "paradise-herbs-creatine-monohydrate-unflavored-1-1-lb-500-g",
+      "product_id": "p-601944779146",
+      "brand": "Paradise Herbs",
+      "brand_slug": "paradise-herbs",
+      "name": "Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "paradise-herbs-creatine-monohydrate-unflavored-1-1-lb-500-g",
+          "catalogue_id": "p-601944779146",
+          "number": 22,
+          "title": "Paradise Herbs, Creatine Monohydrate, Unflavored, 1.1 lb / 500 g",
+          "url": "https://kw.iherb.com/pr/paradise-herbs-creatine-monohydrate-unflavored-500-g/141315",
+          "merchant_url_from_build": "https://www.iherb.com/pr/paradise-herbs-creatine-monohydrate-unflavored-500-g/141315",
+          "merchant_ref": "141315",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/par/par77914/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/par/par77914/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/par/par77914/l/10.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 22,
+          "slot_kind": "merit",
+          "score": 76.8,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 10.66,
+          "price_from_build_kwd": 10.66,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.1066,
+          "cost_per_25g": 0.1066,
+          "price_observed_at": "2026-10-12T17:19:18.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/paradise-herbs-creatine-monohydrate-unflavored-500-g/141315",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:18.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 22,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "primaforce-creatine-monohydrate-unflavored-3-3-lb-1500-g",
+      "product_id": "p-713325965045",
+      "brand": "Primaforce",
+      "brand_slug": "primaforce",
+      "name": "Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "primaforce-creatine-monohydrate-unflavored-3-3-lb-1500-g",
+          "catalogue_id": "p-713325965045",
+          "number": 23,
+          "title": "Primaforce, Creatine Monohydrate, Unflavored, 3.3 lb / 1500 g",
+          "url": "https://kw.iherb.com/pr/primaforce-creatine-monohydrate-unflavored-3-3-lb-1-500-g/141718",
+          "merchant_url_from_build": "https://www.iherb.com/pr/primaforce-creatine-monohydrate-unflavored-3-3-lb-1-500-g/141718",
+          "merchant_ref": "141718",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "3.3 lb / 1500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf96504/l/18.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf96504/l/18.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf96504/l/21.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 23,
+          "slot_kind": "merit",
+          "score": 76.8,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 300
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 27.43,
+          "price_from_build_kwd": 27.43,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.09143333333333334,
+          "cost_per_25g": 0.0914,
+          "price_observed_at": "2026-10-12T17:19:22.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/primaforce-creatine-monohydrate-unflavored-3-3-lb-1-500-g/141718",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:22.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 23,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "typezero-clean-creatine-monohydrate-unflavored-1-1-lb-500-g",
+      "product_id": "p-850047321237",
+      "brand": "TypeZero",
+      "brand_slug": "typezero",
+      "name": "Clean, Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "typezero-clean-creatine-monohydrate-unflavored-1-1-lb-500-g",
+          "catalogue_id": "p-850047321237",
+          "number": 24,
+          "title": "TypeZero, Clean, Creatine Monohydrate, Unflavored, 1.1 lb / 500 g",
+          "url": "https://kw.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-17-6-oz-500-g/132129",
+          "merchant_url_from_build": "https://www.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-17-6-oz-500-g/132129",
+          "merchant_ref": "132129",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/tzo/tzo32123/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/tzo/tzo32123/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/tzo/tzo32123/l/29.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 24,
+          "slot_kind": "merit",
+          "score": 76.8,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 8.78,
+          "price_from_build_kwd": 8.78,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.08779999999999999,
+          "cost_per_25g": 0.0878,
+          "price_observed_at": "2026-10-12T17:18:50.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-17-6-oz-500-g/132129",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:50.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 24,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "typezero-clean-creatine-monohydrate-unflavored-2-2-lb-1000-g",
+      "product_id": "p-850047321060",
+      "brand": "TypeZero",
+      "brand_slug": "typezero",
+      "name": "Clean, Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "typezero-clean-creatine-monohydrate-unflavored-2-2-lb-1000-g",
+          "catalogue_id": "p-850047321060",
+          "number": 25,
+          "title": "TypeZero, Clean, Creatine Monohydrate, Unflavored, 2.2 lb / 1000 g",
+          "url": "https://kw.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-35-oz-1-kg/132128",
+          "merchant_url_from_build": "https://www.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-35-oz-1-kg/132128",
+          "merchant_ref": "132128",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.2 lb / 1000 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/tzo/tzo32106/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/tzo/tzo32106/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/tzo/tzo32106/l/30.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 25,
+          "slot_kind": "merit",
+          "score": 76.8,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 200
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 19.21,
+          "price_from_build_kwd": 19.21,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.09605000000000001,
+          "cost_per_25g": 0.0961,
+          "price_observed_at": "2026-10-12T17:18:49.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-35-oz-1-kg/132128",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:49.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 25,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "steelfit-creatine-monohydrate-unflavored-1-1-lb-500-g",
+      "product_id": "p-732907050054",
+      "brand": "SteelFit",
+      "brand_slug": "steelfit",
+      "name": "Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "steelfit-creatine-monohydrate-unflavored-1-1-lb-500-g",
+          "catalogue_id": "p-732907050054",
+          "number": 26,
+          "title": "SteelFit, Creatine Monohydrate, Unflavored, 1.1 lb / 500 g",
+          "url": "https://kw.iherb.com/pr/steelfit-creatine-monohydrate-unflavored-17-6-oz-500-g/152856",
+          "merchant_url_from_build": "https://www.iherb.com/pr/steelfit-creatine-monohydrate-unflavored-17-6-oz-500-g/152856",
+          "merchant_ref": "152856",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/stf/stf05005/l/40.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/stf/stf05005/l/40.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/stf/stf05005/l/45.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 26,
+          "slot_kind": "merit",
+          "score": 76.6,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 12.75,
+          "price_from_build_kwd": 12.75,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.1275,
+          "cost_per_25g": 0.1275,
+          "price_observed_at": "2026-10-12T17:20:14.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/steelfit-creatine-monohydrate-unflavored-17-6-oz-500-g/152856",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:20:14.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 26,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "gaspari-nutrition-creatine-unflavored-0-7-lb-300-g",
+      "product_id": "p-646511012509",
+      "brand": "Gaspari Nutrition",
+      "brand_slug": "gaspari-nutrition",
+      "name": "Creatine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "gaspari-nutrition-creatine-unflavored-0-7-lb-300-g",
+          "catalogue_id": "p-646511012509",
+          "number": 27,
+          "title": "Gaspari Nutrition, Creatine, Unflavored, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/gaspari-nutrition-creatine-unflavored-300-g/46213",
+          "merchant_url_from_build": "https://www.iherb.com/pr/gaspari-nutrition-creatine-unflavored-300-g/46213",
+          "merchant_ref": "46213",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/gsn/gsn01250/l/27.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/gsn/gsn01250/l/27.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/gsn/gsn01250/l/33.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 27,
+          "slot_kind": "merit",
+          "score": 75.6,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 rounded scoop (5g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.5,
+          "price_from_build_kwd": 7.5,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.125,
+          "cost_per_25g": 0.125,
+          "price_observed_at": "2026-10-12T17:17:35.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/gaspari-nutrition-creatine-unflavored-300-g/46213",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:17:35.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 27,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "jnx-sports-the-curse-creatine-unflavored-0-7-lb-300-g",
+      "product_id": "p-794712849308",
+      "brand": "JNX Sports",
+      "brand_slug": "jnx-sports",
+      "name": "The Curse!®, Creatine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "jnx-sports-the-curse-creatine-unflavored-0-7-lb-300-g",
+          "catalogue_id": "p-794712849308",
+          "number": 28,
+          "title": "JNX Sports, The Curse!®, Creatine, Unflavored, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-10-6-oz-300-g/115835",
+          "merchant_url_from_build": "https://www.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-10-6-oz-300-g/115835",
+          "merchant_ref": "115835",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/cob/cob84930/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/cob/cob84930/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cob/cob84930/l/29.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 28,
+          "slot_kind": "merit",
+          "score": 75.6,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 6.82,
+          "price_from_build_kwd": 6.82,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.11366666666666667,
+          "cost_per_25g": 0.1137,
+          "price_observed_at": "2026-10-12T17:18:17.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-10-6-oz-300-g/115835",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:17.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 28,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "optimum-nutrition-micronized-creatine-powder-unflavored-0-7-lb-300-g",
+      "product_id": "p-748927023848",
+      "brand": "Optimum Nutrition",
+      "brand_slug": "optimum-nutrition",
+      "name": "Micronized Creatine Powder",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "optimum-nutrition-micronized-creatine-powder-unflavored-0-7-lb-300-g",
+          "catalogue_id": "p-748927023848",
+          "number": 29,
+          "title": "Optimum Nutrition, Micronized Creatine Powder, Unflavored, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-10-58-oz-300-g/36132",
+          "merchant_url_from_build": "https://www.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-10-58-oz-300-g/36132",
+          "merchant_ref": "36132",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/opn/opn02384/l/90.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/opn/opn02384/l/90.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/opn/opn02384/l/79.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/opn/opn02384/l/80.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/opn/opn02384/l/81.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 29,
+          "slot_kind": "merit",
+          "score": 75.6,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "5 g (1 Rounded Teaspoon)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.51,
+          "price_from_build_kwd": 7.51,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.12516666666666668,
+          "cost_per_25g": 0.1252,
+          "price_observed_at": "2026-10-12T17:17:32.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-10-58-oz-300-g/36132",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:17:32.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 29,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "raw-nutrition-essentials-creatine-monohydrate-unflavored-1-1-lb-510-g",
+      "product_id": "p-850049150675",
+      "brand": "Raw Nutrition",
+      "brand_slug": "raw-nutrition",
+      "name": "Essentials, Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "raw-nutrition-essentials-creatine-monohydrate-unflavored-1-1-lb-510-g",
+          "catalogue_id": "p-850049150675",
+          "number": 30,
+          "title": "Raw Nutrition, Essentials, Creatine Monohydrate, Unflavored, 1.1 lb / 510 g",
+          "url": "https://kw.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-18-oz-510-g/152525",
+          "merchant_url_from_build": "https://www.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-18-oz-510-g/152525",
+          "merchant_ref": "152525",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 510 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/rws/rws15067/l/17.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/rws/rws15067/l/17.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/rws/rws15067/l/15.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 30,
+          "slot_kind": "merit",
+          "score": 75.6,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5.1 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 12.56,
+          "price_from_build_kwd": 12.56,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.12560000000000002,
+          "cost_per_25g": 0.1256,
+          "price_observed_at": "2026-10-12T17:20:09.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-18-oz-510-g/152525",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:20:09.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 30,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "sports-research-creatine-monohydrate-unflavored-1-1-lb-500-g",
+      "product_id": "p-023249091813",
+      "brand": "Sports Research",
+      "brand_slug": "sports-research",
+      "name": "Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "sports-research-creatine-monohydrate-unflavored-1-1-lb-500-g",
+          "catalogue_id": "p-023249091813",
+          "number": 31,
+          "title": "Sports Research, Creatine Monohydrate, Unflavored, 1.1 lb / 500 g",
+          "url": "https://kw.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-1-1-lb-500-g/134761",
+          "merchant_url_from_build": "https://www.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-1-1-lb-500-g/134761",
+          "merchant_ref": "134761",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/sre/sre09181/l/16.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/sre/sre09181/l/16.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/sre/sre09181/l/21.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/sre/sre09181/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/sre/sre09181/l/25.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 31,
+          "slot_kind": "merit",
+          "score": 75.6,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "calories": 20,
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 11.82,
+          "price_from_build_kwd": 11.82,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.1182,
+          "cost_per_25g": 0.1182,
+          "price_observed_at": "2026-10-12T17:18:54.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-1-1-lb-500-g/134761",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:54.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 31,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "sports-research-creatine-monohydrate-unflavored-0-7-lb-300-g",
+      "product_id": "p-023249091806",
+      "brand": "Sports Research",
+      "brand_slug": "sports-research",
+      "name": "Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "sports-research-creatine-monohydrate-unflavored-0-7-lb-300-g",
+          "catalogue_id": "p-023249091806",
+          "number": 32,
+          "title": "Sports Research, Creatine Monohydrate, Unflavored, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-10-58-oz-300-g/134762",
+          "merchant_url_from_build": "https://www.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-10-58-oz-300-g/134762",
+          "merchant_ref": "134762",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/sre/sre09180/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/sre/sre09180/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/sre/sre09180/l/13.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/sre/sre09180/l/16.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/sre/sre09180/l/17.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 32,
+          "slot_kind": "merit",
+          "score": 75.6,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "calories": 20,
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.72,
+          "price_from_build_kwd": 7.72,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.12866666666666665,
+          "cost_per_25g": 0.1287,
+          "price_observed_at": "2026-10-12T17:18:57.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-10-58-oz-300-g/134762",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:57.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 32,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "brainmd-smart-creatine-unflavored-0-7-lb-309-g",
+      "product_id": "p-857568003796",
+      "brand": "BrainMD",
+      "brand_slug": "brainmd",
+      "name": "Smart Creatine+",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "brainmd-smart-creatine-unflavored-0-7-lb-309-g",
+          "catalogue_id": "p-857568003796",
+          "number": 33,
+          "title": "BrainMD, Smart Creatine+, Unflavored, 0.7 lb / 309 g",
+          "url": "https://kw.iherb.com/pr/brainmd-smart-creatine-unflavored-10-89-oz-309-g/145761",
+          "merchant_url_from_build": "https://www.iherb.com/pr/brainmd-smart-creatine-unflavored-10-89-oz-309-g/145761",
+          "merchant_ref": "145761",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 309 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/brd/brd00379/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/brd/brd00379/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/brd/brd00379/l/29.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 33,
+          "slot_kind": "merit",
+          "score": 74.4,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (approx. 5.8 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 10.03,
+          "price_from_build_kwd": 10.03,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.16716666666666666,
+          "cost_per_25g": 0.1672,
+          "price_observed_at": "2026-10-12T17:19:35.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/brainmd-smart-creatine-unflavored-10-89-oz-309-g/145761",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:35.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 33,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "rsp-nutrition-aminolean-creatine-monohydrate-powder-0-7-lb-300-g",
+      "product_id": "p-854446006566",
+      "brand": "RSP Nutrition",
+      "brand_slug": "rsp-nutrition",
+      "name": "AminoLean® Creatine Monohydrate Powder",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "rsp-nutrition-aminolean-creatine-monohydrate-powder-0-7-lb-300-g",
+          "catalogue_id": "p-854446006566",
+          "number": 34,
+          "title": "RSP Nutrition, AminoLean® Creatine Monohydrate Powder, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/rsp-nutrition-aminolean-creatine-monohydrate-powder-10-6-oz-300-g/77965",
+          "merchant_url_from_build": "https://www.iherb.com/pr/rsp-nutrition-aminolean-creatine-monohydrate-powder-10-6-oz-300-g/77965",
+          "merchant_ref": "77965",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/rsp/rsp00656/l/68.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/rsp/rsp00656/l/68.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/rsp/rsp00656/l/73.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 34,
+          "slot_kind": "merit",
+          "score": 73.7,
+          "verdict_line": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 9.93,
+          "price_from_build_kwd": 9.93,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.1655,
+          "cost_per_25g": 0.1655,
+          "price_observed_at": "2026-10-12T17:17:57.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/rsp-nutrition-aminolean-creatine-monohydrate-powder-10-6-oz-300-g/77965",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:17:57.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 34,
+            "note": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "ryse-element-series-creatine-monohydrate-0-7-lb-300-g",
+      "product_id": "p-854050008482",
+      "brand": "RYSE",
+      "brand_slug": "ryse",
+      "name": "Element Series, Creatine Monohydrate",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "ryse-element-series-creatine-monohydrate-0-7-lb-300-g",
+          "catalogue_id": "p-854050008482",
+          "number": 35,
+          "title": "RYSE, Element Series, Creatine Monohydrate, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/ryse-element-series-creatine-monohydrate-10-6-oz-300-g/123584",
+          "merchant_url_from_build": "https://www.iherb.com/pr/ryse-element-series-creatine-monohydrate-10-6-oz-300-g/123584",
+          "merchant_ref": "123584",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/rys/rys00848/l/40.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/rys/rys00848/l/40.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/rys/rys00848/l/46.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 35,
+          "slot_kind": "merit",
+          "score": 73.7,
+          "verdict_line": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "Approximately 1 Scoop (5 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 9.77,
+          "price_from_build_kwd": 9.77,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.16283333333333333,
+          "cost_per_25g": 0.1628,
+          "price_observed_at": "2026-10-12T17:18:37.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/ryse-element-series-creatine-monohydrate-10-6-oz-300-g/123584",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:37.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 35,
+            "note": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-7-lb-312-",
+      "product_id": "p-850027345857",
+      "brand": "Legion Athletics",
+      "brand_slug": "legion-athletics",
+      "name": "Creatine, Micronized Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-7-lb-312-",
+          "catalogue_id": "p-850027345857",
+          "number": 36,
+          "title": "Legion Athletics, Creatine, Micronized Creatine Monohydrate, Unflavored, 0.7 lb / 312 g",
+          "url": "https://kw.iherb.com/pr/legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-69-lbs-312-g/145992",
+          "merchant_url_from_build": "https://www.iherb.com/pr/legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-69-lbs-312-g/145992",
+          "merchant_ref": "145992",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 312 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/lga/lga34585/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/lga/lga34585/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/lga/lga34585/l/13.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 36,
+          "slot_kind": "merit",
+          "score": 73.4,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 10.85,
+          "price_from_build_kwd": 10.85,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.18083333333333332,
+          "cost_per_25g": 0.1808,
+          "price_observed_at": "2026-10-12T17:19:37.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-69-lbs-312-g/145992",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:37.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 36,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "raw-nutrition-essentials-creatine-monohydrate-unflavored-0-3-lb-150-g",
+      "product_id": "p-860007286957",
+      "brand": "Raw Nutrition",
+      "brand_slug": "raw-nutrition",
+      "name": "Essentials, Creatine Monohydrate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "raw-nutrition-essentials-creatine-monohydrate-unflavored-0-3-lb-150-g",
+          "catalogue_id": "p-860007286957",
+          "number": 37,
+          "title": "Raw Nutrition, Essentials, Creatine Monohydrate, Unflavored, 0.3 lb / 150 g",
+          "url": "https://kw.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-5-29-oz-150-g/137068",
+          "merchant_url_from_build": "https://www.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-5-29-oz-150-g/137068",
+          "merchant_ref": "137068",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.3 lb / 150 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/rws/rws28695/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/rws/rws28695/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/rws/rws28695/l/29.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 37,
+          "slot_kind": "merit",
+          "score": 73.4,
+          "verdict_line": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 scoop (5 g)",
+            "servingsPerContainer": 30
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 6.93,
+          "price_from_build_kwd": 6.93,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.23099999999999998,
+          "cost_per_25g": 0.231,
+          "price_observed_at": "2026-10-12T17:19:03.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-5-29-oz-150-g/137068",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:03.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 37,
+            "note": "A single ingredient with no flavouring at all. What it lacks is an independent test, not a formulation."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "pescience-trucreatine-0-3-lb-150-g",
+      "product_id": "p-040232543340",
+      "brand": "PEScience",
+      "brand_slug": "pescience",
+      "name": "TruCreatine+",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "pescience-trucreatine-0-3-lb-150-g",
+          "catalogue_id": "p-040232543340",
+          "number": 38,
+          "title": "PEScience, TruCreatine+, 0.3 lb / 150 g",
+          "url": "https://kw.iherb.com/pr/pescience-trucreatine-5-29-oz-150-g/113760",
+          "merchant_url_from_build": "https://www.iherb.com/pr/pescience-trucreatine-5-29-oz-150-g/113760",
+          "merchant_ref": "113760",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.3 lb / 150 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/pec/pec54334/l/58.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/pec/pec54334/l/58.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/pec/pec54334/l/63.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 38,
+          "slot_kind": "merit",
+          "score": 72.9,
+          "verdict_line": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 30
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.52,
+          "price_from_build_kwd": 7.52,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.25066666666666665,
+          "cost_per_25g": 0.2507,
+          "price_observed_at": "2026-10-12T17:18:16.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/pescience-trucreatine-5-29-oz-150-g/113760",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:18:16.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 38,
+            "note": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "prohealth-longevity-longevity-creatine-pure-powder-1-0-lb-450-g",
+      "product_id": "p-850030779540",
+      "brand": "ProHealth Longevity",
+      "brand_slug": "prohealth-longevity",
+      "name": "Longevity Creatine Pure Powder",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "prohealth-longevity-longevity-creatine-pure-powder-1-0-lb-450-g",
+          "catalogue_id": "p-850030779540",
+          "number": 39,
+          "title": "ProHealth Longevity, Longevity Creatine Pure Powder, 1.0 lb / 450 g",
+          "url": "https://kw.iherb.com/pr/prohealth-longevity-longevity-creatine-pure-powder-15-9-oz-450-g/137865",
+          "merchant_url_from_build": "https://www.iherb.com/pr/prohealth-longevity-longevity-creatine-pure-powder-15-9-oz-450-g/137865",
+          "merchant_ref": "137865",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.0 lb / 450 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/phv/phv77954/l/6.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/phv/phv77954/l/6.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/phv/phv77954/l/7.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "creatine-monohydrate",
+          "type_name": "Creatine Monohydrate",
+          "unit_name": "5 g creatine",
+          "rank": 39,
+          "slot_kind": "merit",
+          "score": 72.7,
+          "verdict_line": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch.",
+          "strengths": [
+            "Every benchmarked active at or above its clinically supported minimum",
+            "Single-ingredient product",
+            "Full quantitative disclosure of every ingredient"
+          ],
+          "caveats": [
+            "Cost per effective dose",
+            "Independent verification is not documented in this audit. An unverified product can be excellent, but cannot receive the highest verification marks.",
+            "No cross-contact statement and the facility is not declared allergen-controlled"
+          ],
+          "ingredients": "Creatine monohydrate",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "contains_milk": false,
+          "charter": null,
+          "nutrition": {
+            "servingSize": "1 Scoop (5 g)",
+            "servingsPerContainer": 90
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 15.9,
+          "price_from_build_kwd": 15.9,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.17666666666666667,
+          "cost_per_25g": 0.1767,
+          "price_observed_at": "2026-10-12T17:19:07.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/prohealth-longevity-longevity-creatine-pure-powder-15-9-oz-450-g/137865",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T17:19:07.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "rank": 39,
+            "note": "A genuinely clean formulation that nobody outside the brand has verified. Good product, unproven batch."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-12",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-12T17:01:06.891Z",
+  "pulled_at": "2026-10-12T18:34:41.912Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
