@@ -26,7 +26,7 @@ export function setCounterValue(el,value){
   else el.textContent=format(value);
 }
 export function initializeCounters(root){
-  const elements=[...root.querySelectorAll('.home-counts [data-tally]')];
+  const elements=[...root.querySelectorAll('.home-counts [data-tally], #hero-title [data-tally]')].filter(el=>!states.has(el));
   if(!elements.length)return;
   const show=el=>{const state=states.get(el);if(state.shown)return;state.shown=true;animate(el,state,0)};
   const observer='IntersectionObserver' in window?new IntersectionObserver(entries=>{

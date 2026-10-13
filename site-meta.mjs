@@ -1,4 +1,4 @@
-import {setCounterValue} from './count-up.mjs';
+import {setCounterValue} from './count-up.mjs?v=2';
 /** Published references are distinct from charter passes and from rejected products. */
 export function metaCounts(meta) {
   if(!Array.isArray(meta?.categories)||!meta.categories.length)return null;

@@ -64,3 +64,6 @@ body[data-category] h1 span{color:var(--brand)}
 .home-counts strong{font-size:34px;line-height:1.1;letter-spacing:-1px}
 .home-counts span{display:flex;align-items:center;justify-content:center;max-width:130px;min-height:32px;font-size:11px;line-height:1.4}
 }
+
+/* Reserve the final digits' width throughout the shared count-up animation. */
+#hero-title [data-tally]{display:inline-block;min-width:var(--counter-width);font-variant-numeric:tabular-nums;text-align:right}

@@ -1,5 +1,5 @@
-import {applySiteMeta} from './site-meta.mjs';
-import {initializeCounters} from './count-up.mjs';
+import {applySiteMeta} from './site-meta.mjs?v=2';
+import {initializeCounters} from './count-up.mjs?v=2';
 initializeCounters(document);
 const header=document.getElementById('hdr');
 if(header){

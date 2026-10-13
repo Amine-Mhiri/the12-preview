@@ -31,3 +31,8 @@
 }
 @media(prefers-reduced-motion:reduce){.gco-header *{transition:none!important}}
 @media(min-width:380px) and (max-width:700px){.gco-market{gap:5px}.gco-market .gco-location{display:flex;gap:4px;font-size:9px}}
+
+/* Compact WhatsApp everywhere; keep its accessible label and touch target. */
+.gco-header .gco-contact{width:44px;min-width:44px;min-height:44px;padding:0}
+.gco-header .gco-contact>span{display:none}
+.gco-header .gco-contact>svg{width:18px;height:18px}

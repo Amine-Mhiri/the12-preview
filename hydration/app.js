@@ -31,7 +31,7 @@
  */
 const CATEGORY=document.body.dataset.category;
 const catalog=await import('./catalog.mjs');
-const {applyCountText}=await import('./counts.mjs');
+const {applyCountText}=await import('./counts.mjs?v=2');
 const {DEFAULTS,stockState,selectProducts,chooseFlavor,recommendations,merchantLink,withAllergyChoice}=catalog;
 // A product whose merchant link we cannot validate must not take the page
 // down with it. `merchantLink` throws by design — it is the guard against

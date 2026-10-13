@@ -1,3 +1,4 @@
+import {initializeCounters,setCounterValue} from './count-up.mjs?v=2';
 /**
  * Every sentence on a category page that contains a count, from one payload.
  *
@@ -41,8 +42,38 @@ export function countText(d) {
 /** Write them into every element that declares which one it shows. */
 export function applyCountText(root, d) {
   const text = countText(d);
+  root.querySelector?.('#hero-title')?.setAttribute('aria-label',`${text.HEADLINE} ${text.HEADLINE_EMPHASIS}`);
   for (const el of root.querySelectorAll("[data-count]")) {
     const value = text[el.dataset.count];
-    if (value !== undefined) el.textContent = value;
+    if (value !== undefined) {
+      const parts=headlineCounterParts(value,el.dataset.count);
+      if(parts && el.ownerDocument?.createElement){
+        const {prefix,number,suffix}=parts;
+        let counter=el.querySelector('[data-tally]');
+        if(!counter || (counter.previousSibling?.textContent??'')!==prefix || (counter.nextSibling?.textContent??'')!==suffix){
+          counter=el.ownerDocument.createElement('data');
+          counter.dataset.tally='hero-'+el.dataset.count;
+          counter.setAttribute('aria-hidden','true');
+          el.replaceChildren(el.ownerDocument.createTextNode(prefix),counter,el.ownerDocument.createTextNode(suffix));
+        }
+        counter.style.setProperty('--counter-width',`${number.toLocaleString('en-GB').length}ch`);
+        setCounterValue(counter,number);
+      }else el.textContent=value;
+    }
   }
+  initializeCounters(root);
+}
+
+/** Split only the two hero counts; empty shelves keep their honest sentence. */
+export function headlineCounterParts(text,key){
+  const match=key==='HEADLINE'?text.match(/^(\d+)(.*)$/):key==='HEADLINE_EMPHASIS'?text.match(/^(Only )(\d+)(.*)$/):null;
+  if(!match)return null;
+  return key==='HEADLINE'?{prefix:'',number:Number(match[1]),suffix:match[2]}:{prefix:match[1],number:Number(match[2]),suffix:match[3]};
+}
+const escape=text=>text.replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+/** Static HTML retains final numbers if scripts cannot run. */
+export function headlineCounterMarkup(text,key){
+  const parts=headlineCounterParts(text,key);if(!parts)return escape(text);
+  const formatted=parts.number.toLocaleString('en-GB');
+  return `${escape(parts.prefix)}<data data-tally="hero-${key}" aria-hidden="true" style="--counter-width:${formatted.length}ch">${formatted}</data>${escape(parts.suffix)}`;
 }
