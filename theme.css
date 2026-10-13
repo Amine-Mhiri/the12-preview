@@ -56,13 +56,25 @@ body[data-category] h1 span{color:var(--brand)}
 @media(max-width:700px){.selection-tools{grid-template-columns:104px 82px minmax(0,1fr)}.selection-tools .mobile-guide{height:auto;white-space:normal;text-align:left;line-height:1.2}.mobile-guide .guide-star{flex:none}}
 @media(max-width:360px){.selection-tools{grid-template-columns:94px 74px minmax(0,1fr)}}
 
-/* Centered mobile totals: equal columns, stable alignment, quiet divider. */
-@media(max-width:700px){
-.home-counts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;max-width:none;gap:0;margin-top:24px;padding:20px 0;border-bottom:1px solid var(--line);text-align:center}
-.home-counts>div{min-width:0;justify-items:center;gap:6px;padding:0 10px}
-.home-counts>div+div{border-left:1px solid var(--brand-line)}
-.home-counts strong{font-size:34px;line-height:1.1;letter-spacing:-1px}
-.home-counts span{display:flex;align-items:center;justify-content:center;max-width:130px;min-height:32px;font-size:11px;line-height:1.4}
+/* Compact totals: an understated pair rather than a full-width panel. */
+@media(max-width:1100px){
+.home-counts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:288px;max-width:100%;gap:0;margin-top:22px;padding:0;border:0;text-align:center}
+.home-counts>div{min-width:0;justify-items:center;gap:5px;padding:0 14px}
+.home-counts>div+div{border-left:1px solid var(--line)}
+.home-counts strong{font-size:26px;font-weight:550;line-height:1.15;letter-spacing:-.5px;white-space:nowrap}
+.home-counts span{font-size:11px;line-height:1.4;min-height:0}
+}
+@media(max-width:760px){.home-counts{margin-inline:auto}}
+/* Keep copy and illustration together on tablets, with typography sized to the column. */
+@media(min-width:761px) and (max-width:1100px){
+#s1 .hero-grid{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px;align-items:center}
+#s1 h1{font-size:clamp(30px,3.6vw,40px);line-height:1.1}
+#s1 h1 span,#s1 h1 em{white-space:normal}
+#s1 .lead{font-size:16px;line-height:1.5;margin-top:16px;max-width:420px}
+#s1 .kicker{margin-bottom:14px}
+#s1 .stage{max-width:100%;justify-self:end}
+#s1 .toggle{width:100%;max-width:340px}
+#s1 .tg{font-size:12px;padding-inline:8px}
 }
 
 /* Reserve the final digits' width throughout the shared count-up animation. */

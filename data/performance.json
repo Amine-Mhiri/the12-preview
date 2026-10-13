@@ -12,7 +12,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-12",
-  "generated_at": "2026-10-13T10:03:50.144Z",
+  "generated_at": "2026-10-13T10:37:06.451Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -4222,6 +4222,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-13T10:04:01.151Z",
+  "pulled_at": "2026-10-13T10:37:07.911Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
