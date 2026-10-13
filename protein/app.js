@@ -30,9 +30,9 @@
  * by the build and are never edited here.
  */
 const CATEGORY=document.body.dataset.category;
-const catalog=await import('./catalog.mjs');
+const catalog=await import('./catalog.mjs?v=2');
 const {applyCountText}=await import('./counts.mjs?v=2');
-const {DEFAULTS,stockState,selectProducts,chooseFlavor,recommendations,merchantLink,withAllergyChoice}=catalog;
+const {DEFAULTS,stockState,selectProducts,chooseFlavor,comparePackSizes,recommendations,merchantLink,withAllergyChoice}=catalog;
 // A product whose merchant link we cannot validate must not take the page
 // down with it. `merchantLink` throws by design — it is the guard against
 // sending somebody to a URL we did not derive — but it used to throw inside
@@ -172,7 +172,7 @@ function card(g,recommended=false){
   const v=g.variants.find(x=>x.id===choices.get(g.id))||(recommended?g.variant:g.variants[0]);
   const prefix=recommended?'match':'list',st=stockState(v);
   const flavors=[...new Map(g.variants.map(x=>[x.flavor_id,x])).values()];
-  const sizes=g.variants.filter(x=>x.flavor_id===v.flavor_id).sort((a,b)=>a.net_g-b.net_g);
+  const sizes=g.variants.filter(x=>x.flavor_id===v.flavor_id).sort(comparePackSizes);
   const shortStock={in_stock:'In stock · Kuwait',out_of_stock:'Out of stock',destination_unavailable:'Unavailable in Kuwait',discontinued:'Discontinued',unknown:'Check Kuwait stock'}[st];
   return `<article class="product-card ${recommended?'match-card':''}" data-card="${g.id}" data-variant="${v.id}">
     <div class="product-photo">${v.director?.status==='selected'?'<span class="director-badge" title="Label-based editorial selection">Our pick</span>':''}${recommended?'<span class="photo-tag">MATCHES YOUR PREFERENCES</span>':''}<button class="photo-open" data-detail="${v.id}" aria-label="Open photo and details for ${esc(g.brand+' '+g.name+' · '+v.flavor+' · '+v.size)}"><img src="${esc(imgSrc(v.image))}" alt="${esc(v.title)}" onerror="this.onerror=null;this.src='${esc(v.placeholder||'')}'" loading="lazy" decoding="async" width="260" height="260"></button><span class="image-fallback" hidden>${esc(g.brand)}<br>${esc(g.name)}</span><button class="label-photo-button" data-detail="${v.id}" aria-label="View details for ${esc(g.brand+' '+g.name+' · '+v.flavor+' · '+v.size)}">Details</button></div>
@@ -238,9 +238,9 @@ function bindDynamic(){
     if(control.tagName==='SELECT')control.onchange=change;else control.onclick=change;
   });
 }
-function findVariant(id){for(const g of data.groups){const v=g.variants.find(x=>x.id===id);if(v)return {g,v};}return null;}
+function findVariant(id){for(const g of [...selectProducts(data,state),...selectProducts(data,{...DEFAULTS,priority:'name'})]){const v=g.variants.find(x=>x.id===id);if(v)return {g,v};}return null;}
 function openDetail(id){
-  const found=findVariant(id);if(!found)return;const {g,v}=found;activeDetail=id;
+  const found=findVariant(id);if(!found)return;const {g,v}=found;activeDetail=id;choices.set(g.id,v.id);renderResults();
   const n=v.nutrition;const domains={protein:'Protein content',metals:'Metals',microbiology:'Microbiology',anti_doping:'Banned substances'};
   // Rebuilt for this catalogue's fields. Upstream's panel reads an evidence
   // model this data does not have — `v.label_image.url`, `v.evidence.title`,
@@ -250,8 +250,11 @@ function openDetail(id){
   // this on the shelf" anyway. Same classes, same structure, no invented
   // fields.
   const link=safeMerchantLink(v);
-  $('#product-detail').innerHTML=`<p class="eyebrow detail-eyebrow">WHY THIS IS ON THE SHELF</p><div class="detail-hero"><img src="${esc(imgSrc(v.image))}" alt="${esc(v.title)}" onerror="this.onerror=null;this.src='${esc(v.placeholder||'')}'" width="140" height="160"><div><p class="brand">${esc(g.brand)}</p><h2 id="product-title">${esc(g.name)}</h2><p class="flavor">${esc(g.flavor)} · ${esc(v.size)} · ${esc(v.type_name)}</p><p class="detail-price">${money(v.price_kwd)}</p></div></div>`
-    +`<div class="size-options detail-format" role="group" aria-label="Product detail pack size"><span class="size-caption">Pack size</span>${g.variants.map(x=>g.variants.length>1?`<button class="size-pill" id="detail-size-${esc(x.id)}" data-detail-size="${esc(x.id)}" aria-pressed="${x.id===id}">${esc(x.size)}</button>`:`<span class="size-pill">${esc(x.size)}</span>`).join('')}</div>`
+  const flavors=[...new Map(g.variants.map(x=>[x.flavor_id,x])).values()];
+  const sizes=g.variants.filter(x=>x.flavor_id===v.flavor_id).sort(comparePackSizes);
+  $('#product-detail').innerHTML=`<p class="eyebrow detail-eyebrow">WHY THIS IS ON THE SHELF</p><div class="detail-hero"><img src="${esc(imgSrc(v.image))}" alt="${esc(v.title)}" onerror="this.onerror=null;this.src='${esc(v.placeholder||'')}'" width="140" height="160"><div><p class="brand">${esc(g.brand)}</p><h2 id="product-title">${esc(g.name)}</h2><p class="flavor">${esc(v.flavor)} · ${esc(v.size)} · ${esc(v.type_name)}</p><p class="detail-price">${money(v.price_kwd)}</p></div></div>`
+    +`<div class="flavor-options detail-format" role="group" aria-label="Product detail flavor">${flavors.map(x=>flavors.length>1?`<button class="flavor-pill tone-${flavorTone(x)}" id="detail-flavor-${x.flavor_id}" data-detail-flavor="${x.flavor_id}" aria-pressed="${x.flavor_id===v.flavor_id}">${esc(x.flavor)}</button>`:`<span class="flavor-pill tone-${flavorTone(x)}">${esc(x.flavor)}</span>`).join('')}</div>`
+    +`<div class="size-options detail-format" role="group" aria-label="Product detail pack size"><span class="size-caption">Pack size</span>${sizes.map(x=>sizes.length>1?`<button class="size-pill" id="detail-size-${esc(x.id)}" data-detail-size="${esc(x.id)}" aria-pressed="${x.id===id}">${esc(x.size)}</button>`:`<span class="size-pill">${esc(x.size)}</span>`).join('')}</div>`
     +`<div class="detail-pass"><span aria-hidden="true">✓</span><div><strong>Passed our ingredient screen</strong><p>Every declared ingredient is recognised and none is excluded by charter ${esc(v.charter??'')}. ${v.ingredients_reviewed_at?`Reviewed ${date(v.ingredients_reviewed_at)}.`:''} This is a screen of the declaration, not a laboratory result.</p></div></div>`
     +directorDetail(v)
     +`<section class="detail-section"><h3>The ingredients we reviewed</h3><p class="ingredients">${esc(v.ingredients??'No declaration captured for this reference.')}</p>${Number.isFinite(v.ingredient_count)?`<p class="detail-small">${v.ingredient_count} declared ingredient entries, including named blend constituents. Undisclosed flavour components are not counted as known ingredients.</p>`:''}${v.contains_milk?`<p class="detail-small"><strong>Contains milk-derived protein.</strong> ${esc(v.allergen_statement??'')}</p>`:(v.dairy_free_declared?`<p class="detail-small">Declared dairy-free.</p>`:`<p class="detail-small">No allergen declaration was captured, which is not the same as none being present.</p>`)}${(v.dietary||[]).length?`<p class="detail-small">Declared: ${esc(v.dietary.join(', '))}.</p>`:''}${(v.certifications||[]).length?`<p class="detail-small">Certifications recorded: ${esc(v.certifications.join(', '))}. A certification covers what it covers and nothing else.</p>`:''}</section>`
@@ -260,6 +263,7 @@ function openDetail(id){
     +(v.image_credit?.credit?`<p class="detail-small">Photograph: ${esc(v.image_credit.credit)}${v.image_credit.licence?`, ${esc(v.image_credit.licence)}`:''}.${v.image_credit.source_url?` <a href="${esc(safeUrl(v.image_credit.source_url))}" target="_blank" rel="noopener noreferrer">Source ↗</a>`:''}</p>`:(v.image_kind==='retailer'?`<p class="detail-small">Photograph by the retailer, shown while this catalogue is under test.</p>`:''))
     +(v.source==='authored'?`<section class="detail-section"><h3>Where this record came from</h3><p>This product is from our authored catalogue rather than the crawl, so its price is <strong>derived, not observed</strong>, and we hold no merchant page for it that we could verify. Its provenance does not establish a laboratory result.</p></section>`:'')
     +`<div class="detail-buy"><p class="stock-note ${stockState(v)==='in_stock'?'in-stock':''}">${esc(stockLabel(v))}</p><p class="detail-small">${v.availability.observed_at?`Stock checked ${stamp(v.availability.observed_at)}, country set to Kuwait. Status expires after 24 hours.`:'Current Kuwait stock has not been confirmed.'} Final delivery options are confirmed at checkout.</p>${link?`<a class="button primary" href="${esc(link)}" target="_blank" rel="noopener noreferrer">View this exact ${esc(v.size)} on iHerb <span aria-hidden="true">↗</span></a>`:`<p class="detail-small">We could not derive a merchant link for this reference, so we are not sending you to a guess.</p>`}</div>`;
+  document.querySelectorAll('[data-detail-flavor]').forEach(b=>b.onclick=()=>{const next=chooseFlavor(g,b.dataset.detailFlavor,id);if(next){openDetail(next.id);document.getElementById('detail-flavor-'+next.flavor_id)?.focus({preventScroll:true});}});
   document.querySelectorAll('[data-detail-size]').forEach(b=>b.onclick=()=>{const pid=b.dataset.detailSize;openDetail(pid);document.getElementById('detail-size-'+pid)?.focus({preventScroll:true});});
   if($('#composition-image'))$('#composition-image').onerror=()=>{$('#composition-image').hidden=true;$('#label-unavailable').hidden=false;};
   if(!$('#product-dialog').open)$('#product-dialog').showModal();

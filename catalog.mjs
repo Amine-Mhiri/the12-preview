@@ -13,7 +13,9 @@
  */
 import { createCatalogEngine } from "./catalog-engine.mjs";
 
-export { stockState, chooseFlavor } from "./catalog-engine.mjs";
+export { stockState } from "./catalog-engine.mjs";
+export { chooseFlavor, comparePackSizes } from "./product-families.mjs";
+import { displayCatalogue } from "./product-families.mjs";
 
 /**
  * The link to the retailer, validated for this catalogue's shape.
@@ -82,7 +84,7 @@ const ALLERGIES = ["milkAllergy", "soy"];
 
 export function matches(g, v, s) {
   if (s.query.startsWith("product:")) {
-    if ((g.product_id || g.id) !== s.query.slice(8)) return false;
+    if ((g.product_id || g.id) !== s.query.slice(8) && v.reference_product_id !== s.query.slice(8)) return false;
   } else if (s.query.startsWith("brand:")) {
     if (g.brand !== s.query.slice(6)) return false;
   } else if (
@@ -109,11 +111,15 @@ export function compareVariants(a, b, priority) {
   return (Number.isNaN(d) ? 0 : d) || a.title.localeCompare(b.title, "en") || a.id.localeCompare(b.id);
 }
 
-export const { selectGroups, selectProducts, recommendations } = createCatalogEngine({
+const engine = createCatalogEngine({
   matches,
   compare: compareVariants,
   locale: "en",
 });
+
+export const selectGroups = (data, state) => engine.selectGroups(displayCatalogue(data), state);
+export const selectProducts = (data, state) => engine.selectProducts(displayCatalogue(data), state);
+export const recommendations = (data, state, now) => engine.recommendations(displayCatalogue(data), state, now);
 
 // The unrestricted choice clears every allergy constraint; any restriction
 // clears it. Upstream behaviour, kept.
