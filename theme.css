@@ -68,3 +68,6 @@ body[data-category] h1 span{color:var(--brand)}
 /* Reserve the final digits' width throughout the shared count-up animation. */
 #hero-title [data-tally]{display:inline-block;min-width:var(--counter-width);font-variant-numeric:tabular-nums;text-align:left}
 #hero-title [data-count="HEADLINE_EMPHASIS"] [data-tally]{margin-inline-start:.12em}
+
+/* Keep the approved Only prefix outside the animated numeric value. */
+.home-counts strong small{font:inherit;font-size:.65em;letter-spacing:0}
