@@ -15,8 +15,8 @@ import { createCatalogEngine } from "./catalog-engine.mjs";
 import {comparisonCost} from "./views.mjs";
 
 export { stockState } from "./catalog-engine.mjs";
-export { chooseFlavor, comparePackSizes } from "./product-families.mjs";
-import { displayCatalogue } from "./product-families.mjs";
+export { chooseFlavor, comparePackSizes } from "./product-families.mjs?v=2";
+import { displayCatalogue } from "./product-families.mjs?v=2";
 
 /**
  * The link to the retailer, validated for this catalogue's shape.
@@ -46,6 +46,7 @@ export function merchantLink(v) {
 /** The state a page opens on. unit price first; this is a cost comparison, not a quality ranking. */
 export const DEFAULTS = Object.freeze({
   query: "",
+  type: "all",
   flavor: "all",
   budget: "",
   priority: "value",
@@ -84,6 +85,7 @@ const CONSTRAINTS = {
 const ALLERGIES = ["milkAllergy", "soy"];
 
 export function matches(g, v, s) {
+  if(s.type && s.type!=="all" && v.subcategory_id!==s.type && v.type_slug!==s.type)return false;
   if (s.query.startsWith("product:")) {
     if ((g.product_id || g.id) !== s.query.slice(8) && v.reference_product_id !== s.query.slice(8)) return false;
   } else if (s.query.startsWith("brand:")) {

@@ -1,3 +1,4 @@
+import {subcategoryId} from './subcategories.mjs';
 /** Display projection only: admission, identities and observations remain API-owned. */
 const projections = new WeakMap();
 const text = value => typeof value === 'string' ? value.normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase() : '';
@@ -25,7 +26,7 @@ export function displayCatalogue(data) {
       if (!groups.has(id)) groups.set(id, {...source, id, product_id: product,
         reference_product_id: source.product_id, flavor, flavor_group: flavorGroup, variants: []});
       groups.get(id).variants.push({...variant, reference_group_id: source.id, reference_product_id: source.product_id,
-        pack_key: text(variant.size), flavor, flavor_group: flavorGroup});
+        pack_key: text(variant.size), subcategory_id: subcategoryId(data.category,source,variant), flavor, flavor_group: flavorGroup});
     }
   }
   const projection = {...data, groups: [...groups.values()]};

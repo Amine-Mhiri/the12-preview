@@ -30,10 +30,11 @@
  * by the build and are never edited here.
  */
 const CATEGORY=document.body.dataset.category;
+const {subcategories,scopeContext}=await import('./subcategories.mjs');
 const VIEW=document.body.dataset.view||CATEGORY;
 const {catalogueView,comparisonCost}=await import('./views.mjs');
 const {applyProfileText}=await import('./presentation.mjs');
-const catalog=await import('./catalog.mjs?v=3');
+const catalog=await import('./catalog.mjs?v=4');
 const {applyCountText}=await import('./counts.mjs?v=3');
 const {DEFAULTS,stockState,selectProducts,chooseFlavor,comparePackSizes,recommendations,merchantLink,withAllergyChoice}=catalog;
 // A product whose merchant link we cannot validate must not take the page
@@ -62,7 +63,7 @@ const safeMerchantLink=v=>{try{return merchantLink(v);}catch{return null;}};
 // Assigned from the category's own data before the first render, because the
 // comparator held these as per-category code and six categories cannot be a
 // boolean. Every read happens inside a render, which runs after the bootstrap.
-let COPY={},PRIORITIES={},FLAVORS={},constraintNames={},unitName='serving';
+let basePriorities={},COPY={},PRIORITIES={},FLAVORS={},constraintNames={},unitName='serving';
 const unitCost=comparisonCost;
 
 const $=s=>document.querySelector(s);
@@ -88,12 +89,13 @@ const stamp=x=>x?new Date(x).toLocaleString('en-GB',{day:'numeric',month:'short'
 let displayMode='grid';
 const mobileView=matchMedia('(max-width:767px)');
 mobileView.addEventListener('change',()=>{if(data)renderView();});
-let data,state={...DEFAULTS,priority:data?.default_priority??DEFAULTS.priority},limit=16,guided=false,step=0,draft={...DEFAULTS},choices=new Map(),activeDetail=null,stockSignature='';
+const urlType=()=>{const value=new URLSearchParams(globalThis.location?.search||'').get('type')||'all';return /^[a-z0-9-]{1,80}$/.test(value)?value:'unavailable';};
+let data,state={...DEFAULTS,type:urlType(),priority:data?.default_priority??DEFAULTS.priority},limit=16,guided=false,step=0,draft={...DEFAULTS},choices=new Map(),activeDetail=null,stockSignature='';
 const checkboxes=(s,prefix)=>Object.entries(constraintNames).filter(([k])=>k!=='milkAllergy'&&(k!=='director'||prefix==='guide')).map(([k,label])=>`<label class="check"><input type="checkbox" id="${prefix}-${k}" data-constraint="${k}" ${s[k]?'checked':''}><span>${label}</span></label>`).join('');
 const options=(items,selected)=>Object.entries(items).map(([v,label])=>`<option value="${v}" ${v===selected?'selected':''}>${esc(label)}</option>`).join('');
 
 function catalogChoices(){
-  const products=selectProducts(data,{...DEFAULTS,priority:'name'});
+  const products=selectProducts(data,{...DEFAULTS,type:state.type,priority:'name'});
   const brands=[...new Set(products.map(p=>p.brand))].sort((a,b)=>a.localeCompare(b,'en'));
   return {brands:Object.fromEntries(brands.map(b=>['brand:'+b,b])),products:Object.fromEntries(products.map(p=>['product:'+p.id,`${p.brand} — ${p.name}`]))};
 }
@@ -103,7 +105,35 @@ function catalogOptions(){
   const custom=state.query&&!Object.hasOwn(c.brands,state.query)&&!Object.hasOwn(c.products,state.query)?`<option value="${esc(state.query)}" selected>${esc(state.query)}</option>`:'';
   return `<option value="" ${state.query===''?'selected':''}>All brands & products</option>${custom}<optgroup label="Brands">${options(c.brands,state.query)}</optgroup><optgroup label="Products">${options(c.products,state.query)}</optgroup>`;
 }
+function syncTypeContext(){
+  const scope=scopeContext(data,state.type,basePriorities);PRIORITIES=scope.priorities;unitName=scope.unit;
+  if(!Object.hasOwn(PRIORITIES,state.priority))state.priority=Object.hasOwn(PRIORITIES,data.default_priority)?data.default_priority:'name';
+}
+function syncTypeUrl(){
+  if(!globalThis.location?.href||!globalThis.history?.pushState)return;
+  const url=new URL(location.href),current=url.searchParams.get('type')||'all';
+  if(current===state.type)return;
+  if(state.type==='all')url.searchParams.delete('type');else url.searchParams.set('type',state.type);
+  history.pushState(null,'',url);
+}
+function renderSubcategories(){
+  const nav=$('#subcategory-nav'),rows=subcategories(data),known=rows.some(t=>t.slug===state.type);
+  nav.hidden=rows.length<2&&(state.type==='all'||known);
+  const links=[{slug:'all',name:'All',published:data.counts.selected},...rows];
+  nav.innerHTML=`<div class="subcategory-links">${links.map(t=>`<a id="subcategory-${t.slug}" href="${t.slug==='all'?'./':`?type=${encodeURIComponent(t.slug)}`}#selection" data-subcategory="${t.slug}" ${state.type===t.slug?'aria-current="page"':''} title="${t.published} published references">${esc(t.name)} <span>${t.published}</span></a>`).join('')}</div>${state.type!=='all'&&!known?'<p class="subcategory-note" role="status">This subcategory has no published references. Select All to browse the available selection.</p>':''}`;
+  const scroller=nav.querySelector('.subcategory-links'),active=nav.querySelector('[aria-current="page"]');
+  if(scroller?.getBoundingClientRect&&active?.getBoundingClientRect){
+    const a=active.getBoundingClientRect(),s=scroller.getBoundingClientRect();
+    scroller.scrollLeft+=a.left<s.left?a.left-s.left:a.right>s.right?a.right-s.right:0;
+  }
+  nav.querySelectorAll('[data-subcategory]').forEach(a=>a.onclick=e=>{
+    if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();
+    state.type=a.dataset.subcategory;choices.clear();limit=16;renderFilters();renderResults();document.getElementById('subcategory-'+state.type)?.focus({preventScroll:true});
+  });
+}
+addEventListener('popstate',()=>{if(data){state.type=urlType();choices.clear();limit=16;renderFilters();renderResults();}});
 function renderFilters(){
+  syncTypeContext();
   $('#filters').innerHTML=`<label class="search-label">Brand or product<select id="search">${catalogOptions()}</select></label><label>Flavor<select id="flavor">${options(FLAVORS,state.flavor)}</select></label><label>Your priority<select id="priority">${options(PRIORITIES,state.priority)}</select></label>`;
   if(!$('#extra-filters'))$('#filters').insertAdjacentHTML('afterend','<details id="extra-filters" class="extra-filters"></details>');
   $('#extra-filters').innerHTML=`<summary>Preferences <span aria-hidden="true" class="preference-toggle"></span></summary><div class="preference-pills" role="group" aria-label="Dietary preferences">${checkboxes(state,'filter')}${constraintNames.milkAllergy?`<label class="check"><input type="checkbox" data-constraint="milkAllergy" ${state.milkAllergy?'checked':''}><span>${constraintNames.milkAllergy}</span></label>`:''}</div>`;
@@ -136,6 +166,7 @@ function filterChanged(){limit=16;choices.clear();renderResults();}
 function clearAll(){state={...DEFAULTS,priority:data?.default_priority??DEFAULTS.priority};guided=false;limit=16;choices.clear();renderFilters();renderResults();}
 function chips(){
   const items=[];
+  if(state.type!=='all')items.push(['type',subcategories(data).find(t=>t.slug===state.type)?.name||'Unavailable subcategory']);
   if(state.query)items.push(['query',`Brand / product: ${queryLabel()}`]);
   if(state.flavor!=='all')items.push(['flavor',FLAVORS[state.flavor]]);
   if(state.budget!=='')items.push(['budget',`Up to ${money(state.budget)}`]);
@@ -160,7 +191,7 @@ function reasons(g,v){
   if(state.vegan)out.push('Declared vegan.');
   if(state.glutenFree)out.push('Declared gluten-free.');
   if(state.milkAllergy)out.push('Declares no milk.');
-  if(state.priority==='value')out.push(Number.isFinite(unitCost(v))?`${money(unitCost(v))} per ${unitName}. ${COPY.unit_basis}`:'Unit cost cannot be calculated from the available declaration.');
+  if(state.priority==='value')out.push(Number.isFinite(unitCost(v))?`${money(unitCost(v))} per ${v.unit_name||unitName}.`:'Unit cost cannot be calculated from the available declaration.');
   if(state.priority==='simple')out.push(`${v.ingredient_count} declared ingredient entries, with named blend ingredients included.`);
   if(!out.length)out.push('Passes our ingredient screen. No extra preferences selected; shown alphabetically.');
   return out;
@@ -197,6 +228,7 @@ function renderView(){
   }
 }
 function renderResults(){
+  syncTypeContext();renderSubcategories();syncTypeUrl();
   const rows=selectProducts(data,state),refCount=rows.reduce((n,g)=>n+g.variants.length,0);
   renderScope();chips();$('#result-count').textContent=`${rows.length} product${rows.length===1?'':'s'} · ${refCount} reference${refCount===1?'':'s'}`;
   const matches=guided?recommendations(data,state):[];
@@ -221,7 +253,7 @@ function emptyState(){
   if(!data.groups.length)return `<div class="empty"><h3>${esc(COPY.empty_title??'Nothing here clears our bar yet.')}</h3><p>${esc(COPY.empty_body??'')}</p></div>`;
   if(state.milkAllergy&&!selectProducts(data,state).length)return `<div class="empty"><h3>${esc(COPY.milk_allergy_empty.title)}</h3><p>${esc(COPY.milk_allergy_empty.body)}</p><button class="button secondary" data-guide>Review my answers</button></div>`;
   const constraints=Object.entries(constraintNames).filter(([k])=>state[k]).map(([,v])=>v.toLowerCase());
-  return `<div class="empty"><h3>No exact match. Let’s adjust.</h3><p>No option satisfies all your current filters${constraints.length?`: ${esc(constraints.join(', '))}`:''}${state.flavor!=='all'?`, ${esc(FLAVORS[state.flavor].toLowerCase())}`:''}${state.budget!==''?`, up to ${money(state.budget)}`:''}.<br>Try another flavor or a higher budget. Your dietary constraints stay in place until you change them.${state.priority==='value'?` Only products whose declared nutrition supports a ${unitName} comparison qualify.`:''}</p><button class="button secondary" data-guide>Edit my preferences</button><button class="text-button" data-reset>Reset all filters</button></div>`;
+  return `<div class="empty"><h3>No exact match. Let’s adjust.</h3><p>No option satisfies all your current filters${constraints.length?`: ${esc(constraints.join(', '))}`:''}${state.flavor!=='all'?`, ${esc(FLAVORS[state.flavor].toLowerCase())}`:''}${state.budget!==''?`, up to ${money(state.budget)}`:''}.<br>Try another flavor or a higher budget. Your dietary constraints stay in place until you change them.</p><button class="button secondary" data-guide>Edit my preferences</button><button class="text-button" data-reset>Reset all filters</button></div>`;
 }
 function bindDynamic(){
   document.querySelectorAll('[data-detail]').forEach(b=>b.onclick=()=>openDetail(b.dataset.detail));
@@ -309,10 +341,12 @@ $('#product-dialog').addEventListener('close',()=>{activeDetail=null;});
 function registerTools(){
   if(!document.modelContext?.registerTool)return;
   const controller=new AbortController();addEventListener('pagehide',()=>controller.abort(),{once:true});
-  const registration=document.modelContext.registerTool({name:`filter_${VIEW.replace(/-/g,'_')}_selection`,description:'Apply visible catalogue filters and return matching references. Does not order or add items to a cart.',annotations:{readOnlyHint:false,untrustedContentHint:true},inputSchema:{type:'object',properties:{...(constraintNames.director?{director:{type:'boolean'}}:{}),query:{type:'string',maxLength:100},flavor:{type:'string',enum:Object.keys(FLAVORS)},budget:{type:'number',minimum:0,maximum:1000},priority:{type:'string',enum:Object.keys(PRIORITIES)}},additionalProperties:false},execute:async input=>{
-    if(!input||typeof input!=='object'||Array.isArray(input)||Object.keys(input).some(k=>!['director','query','flavor','budget','priority'].includes(k)))throw Error('Invalid filters');
+  const registration=document.modelContext.registerTool({name:`filter_${VIEW.replace(/-/g,'_')}_selection`,description:'Apply visible catalogue filters and return matching references. Does not order or add items to a cart.',annotations:{readOnlyHint:false,untrustedContentHint:true},inputSchema:{type:'object',properties:{...(constraintNames.director?{director:{type:'boolean'}}:{}),type:{type:'string',enum:['all',...subcategories(data).map(t=>t.slug)]},query:{type:'string',maxLength:100},flavor:{type:'string',enum:Object.keys(FLAVORS)},budget:{type:'number',minimum:0,maximum:1000},priority:{type:'string',enum:Object.keys(basePriorities).filter(key=>key!=='rank')}},additionalProperties:false},execute:async input=>{
+    if(!input||typeof input!=='object'||Array.isArray(input)||Object.keys(input).some(k=>!['director','query','flavor','budget','priority','type'].includes(k)))throw Error('Invalid filters');
     if(input.director!==undefined&&(!constraintNames.director||typeof input.director!=='boolean'))throw Error('Invalid director filter');
-    if(input.flavor!==undefined&&!Object.hasOwn(FLAVORS,input.flavor)||input.priority!==undefined&&!Object.hasOwn(PRIORITIES,input.priority)||input.query!==undefined&&(typeof input.query!=='string'||input.query.length>100)||input.budget!==undefined&&(!Number.isFinite(input.budget)||input.budget<0||input.budget>1000))throw Error('Invalid filter value');
+    const inputPriorities=scopeContext(data,input.type??state.type,basePriorities).priorities;
+    if(input.flavor!==undefined&&!Object.hasOwn(FLAVORS,input.flavor)||input.priority!==undefined&&!Object.hasOwn(inputPriorities,input.priority)||input.query!==undefined&&(typeof input.query!=='string'||input.query.length>100)||input.budget!==undefined&&(!Number.isFinite(input.budget)||input.budget<0||input.budget>1000))throw Error('Invalid filter value');
+    if(input.type!==undefined&&!['all',...subcategories(data).map(t=>t.slug)].includes(input.type))throw Error('Invalid subcategory');
     Object.assign(state,input);if(input.budget!==undefined)state.budget=String(input.budget);choices.clear();limit=16;renderFilters();renderResults();
     return {content:[{type:'text',text:JSON.stringify({options:selectProducts(data,state).length,reference_ids:selectProducts(data,state).flatMap(g=>g.variants.map(v=>v.id))})}]};
   }},{signal:controller.signal});
@@ -356,7 +390,7 @@ const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalo
   throw last??Error('Selection unavailable');
 })().then(raw=>{
   const d=catalogueView(raw,VIEW);
-  COPY=d.copy;PRIORITIES=Object.fromEntries(Object.entries(d.priorities).filter(([key])=>key!=='rank'));FLAVORS=d.flavors;constraintNames=d.constraints;unitName=d.copy.unit_name;
+  basePriorities=raw.priorities;COPY=d.copy;PRIORITIES=Object.fromEntries(Object.entries(d.priorities).filter(([key])=>key!=='rank'));FLAVORS=d.flavors;constraintNames=d.constraints;unitName=d.copy.unit_name;
   if(d.schema_version!==1||!Array.isArray(d.groups)||d.groups.length!==d.counts.flavor_options||d.groups.reduce((n,g)=>n+g.variants.length,0)!==d.counts.selected)throw Error('Incomplete selection');
   if(!data)state.priority=d.default_priority??(d.comparison_unit?"value":"name");data=d;retitle(d);applyCountText(document,d);applyProfileText(document,d);renderFilters();renderResults();try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
   stockSignature=data.groups.flatMap(g=>g.variants.map(v=>stockState(v))).join('|');

@@ -1,5 +1,6 @@
 import {setCounterValue} from './count-up.mjs?v=2';
 import {navigationCategory} from './views.mjs';
+import {renderMenuCategories} from './header-render.mjs';
 /** Published references are distinct from charter passes and from rejected products. */
 export function metaCounts(meta) {
   if(!Array.isArray(meta?.categories)||!meta.categories.length)return null;
@@ -15,6 +16,23 @@ export function applySiteMeta(root,meta,base='./') {
   const counts=metaCounts(meta);if(!counts)return false;
   for(const el of root.querySelectorAll('[data-tally]')){
     const value=counts[el.dataset.tally];if(value!==undefined)setCounterValue(el,value);
+  }
+  const grid=root.querySelector?.('.gco-menu-grid'),registry=root.querySelector?.('#gco-nav-data');
+  if(grid&&registry){
+    let previous=[];try{previous=JSON.parse(registry.textContent);if(!Array.isArray(previous))previous=[]}catch{}
+    const categories=meta.categories.map(c=>{
+      const old=previous.find(p=>p.slug===c.slug);
+      const fresh=c.subcategories?c:old?.navigation_build===meta.build?.id&&old.published===c.published&&JSON.stringify((old.types||[]).map(t=>[t.slug,t.published]))===JSON.stringify((c.types||[]).map(t=>[t.slug,t.published]))?{...c,subcategories:old.subcategories,navigation_build:old.navigation_build}:c;
+      return fresh;
+    });
+    const signature=JSON.stringify(categories);
+    if(registry.textContent!==signature){
+      const focus=grid.ownerDocument?.activeElement?.closest('a')?.getAttribute('href');
+      grid.innerHTML=renderMenuCategories(categories,{base,current:root.querySelector?.('#hdr')?.dataset.current||''});
+      registry.textContent=signature;
+      if(focus)[...grid.querySelectorAll('a')].find(a=>a.getAttribute('href')===focus)?.focus({preventScroll:true});
+    }
+    return true;
   }
   const bySlug=new Map(meta.categories.map(c=>[c.slug,navigationCategory(c)]));
   for(const el of root.querySelectorAll('[data-menu-category]')){

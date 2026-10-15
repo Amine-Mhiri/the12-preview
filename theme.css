@@ -83,3 +83,15 @@ body[data-category] h1 span{color:var(--brand)}
 
 /* Keep the approved Only prefix outside the animated numeric value. */
 .home-counts strong small{font:inherit;font-size:.65em;letter-spacing:0}
+
+/* Published subcategories: a quiet, scrollable index above the filters. */
+.subcategory-nav[hidden]{display:none}
+.subcategory-nav{margin:0 0 20px;min-width:0}
+.subcategory-links{display:flex;gap:24px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;border-bottom:1px solid var(--line);padding:0 2px}
+.subcategory-links a{display:inline-flex;align-items:center;gap:7px;min-height:46px;flex:none;white-space:nowrap;color:var(--muted);font-size:14px;text-decoration:none;border-bottom:2px solid transparent;padding:8px 0 10px}
+.subcategory-links a span{font-size:11px;font-variant-numeric:tabular-nums;opacity:.8}
+.subcategory-links a[aria-current=page]{color:var(--brand);border-color:var(--brand);font-weight:600}
+.subcategory-links a:hover{color:var(--brand)}
+.subcategory-links a:focus-visible{outline:2px solid var(--brand);outline-offset:-2px}
+.subcategory-note{font-size:13px;color:var(--muted);margin:12px 0 0}
+@media(max-width:760px){.subcategory-nav{margin-bottom:16px}.subcategory-links{gap:20px}.subcategory-links a{font-size:13px}}

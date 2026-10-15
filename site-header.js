@@ -1,4 +1,6 @@
-import {applySiteMeta} from './site-meta.mjs?v=2';
+import {validateCatalogue} from './views.mjs';
+import {hasDisplayFacets,subcategories} from './subcategories.mjs';
+import {applySiteMeta} from './site-meta.mjs?v=3';
 import {initializeCounters} from './count-up.mjs?v=2';
 initializeCounters(document);
 const header=document.getElementById('hdr');
@@ -11,7 +13,7 @@ if(header){
     document.documentElement.classList.toggle('gco-menu-open',open&&matchMedia('(max-width:700px)').matches);
     if(open){const first=[...panel.querySelectorAll('a')].find(el=>el.getClientRects().length);if(first)first.focus()}
   }
-  for(const b of buttons)b.addEventListener('click',()=>toggle(panel.hidden,b));
+  for(const b of buttons)b.addEventListener('click',()=>{const open=panel.hidden;toggle(open,b);if(open)refresh(true)});
   document.addEventListener('keydown',e=>{
     if(panel.hidden)return;
     if(e.key==='Escape'){toggle(false);openedBy?.focus()}
@@ -26,8 +28,8 @@ if(header){
   panel.addEventListener('click',e=>{if(e.target.closest('a'))toggle(false)});
   addEventListener('resize',()=>{if(!panel.hidden)toggle(false)});
   const api=document.body.dataset.api;
-  let fetching=false;
-  async function refresh(){
+  let fetching=false,lastSignature='';
+  async function refresh(details=false){
     if(!api||fetching||document.hidden)return;
     fetching=true;
     const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),10000);
@@ -35,14 +37,17 @@ if(header){
       const response=await fetch(`${api.replace(/\/$/,'')}/v1/meta`,{cache:'no-cache',signal:controller.signal});
       if(response.ok){
         const meta=await response.json();
-        const performance=meta.categories?.find(c=>c.slug==='performance');
-        if(performance&&!performance.types){
-          try{const result=await fetch(`${api.replace(/\/$/,'')}/v1/catalogue/performance`,{cache:'no-cache',signal:controller.signal});if(result.ok)performance.types=(await result.json()).types}catch{}
-        }
-        if(performance&&!performance.types){
-          // Keep the last valid type navigation if its API is unavailable.
-          const el=header.querySelector('[data-menu-category="performance"]');
-          if(el?.dataset.label==='Creatine')performance.types=[{slug:'creatine-monohydrate',published:performance.published===0?0:Number(el.dataset.published)}];
+        const signature=JSON.stringify([meta.build,meta.categories]);
+        if(details===true||signature!==lastSignature){
+          await Promise.all(meta.categories.filter(c=>c.published>0&&hasDisplayFacets(c.slug)).map(async c=>{
+            try{
+              const response=await fetch(`${api.replace(/\/$/,'')}/v1/catalogue/${c.slug}`,{cache:'no-cache',signal:controller.signal});
+              if(!response.ok)return;const d=validateCatalogue(await response.json());
+              if(d.build?.id!==meta.build?.id||d.category!==c.slug||d.counts?.selected!==c.published)return;
+              c.subcategories=subcategories(d);c.navigation_build=d.build.id;
+            }catch{}
+          }));
+          lastSignature=signature;
         }
         applySiteMeta(document,meta,header.dataset.siteRoot);
       }

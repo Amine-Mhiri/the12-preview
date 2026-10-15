@@ -13,12 +13,12 @@
 .gco-mobile-toggle{display:none;background:none;border:0}
 .gco-menu[hidden]{display:none!important}.gco-menu{position:absolute;top:100%;left:0;width:100%;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 10px 16px #153a4612;max-height:calc(100dvh - 84px);overflow:auto}
 .gco-menu-heading{padding:24px 0 0}.gco-menu-heading h2{font-size:22px;font-weight:600;letter-spacing:-.5px;line-height:1.2;margin:0 0 8px}.gco-menu-heading p{max-width:720px;font-size:14px;color:var(--muted);line-height:1.6;margin:0}
-.gco-menu-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:26px;padding:25px 0 32px}.gco-menu-col{min-width:0}.gco-menu-col ul{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:12px}
+.gco-menu-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:26px;padding:25px 0 32px}.gco-menu-col{min-width:0}.gco-menu-col ul{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:12px}
 .gco-category{display:flex;gap:10px;align-items:start;justify-content:space-between;font-size:15px;font-weight:600;line-height:1.35;border-bottom:1px solid var(--line);padding-bottom:10px;color:var(--ink)}.gco-category[aria-disabled=true]{color:var(--muted)}.gco-category[aria-current=page]{color:var(--brand)}
 .gco-type{display:flex;justify-content:space-between;gap:8px;font-size:13px;line-height:1.4;color:var(--ink)}.gco-type[aria-disabled=true]{color:#858d90}
 .gco-open,.gco-coming{font-size:10px;line-height:1.4;padding:1px 6px;border-radius:8px;white-space:nowrap;flex:none;font-weight:500}.gco-open{background:var(--brand-soft);color:var(--brand)}.gco-coming{border:1px solid var(--line);color:var(--muted)}.gco-menu a:hover{color:var(--brand);text-decoration:underline;text-underline-offset:3px}
 .gco-header :focus-visible{outline:2px solid var(--brand);outline-offset:4px}
-@media(max-width:1100px){.gco-actions{gap:12px}.gco-menu-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.gco-browse,.gco-contact{font-size:13px;padding:0 12px}}
+@media(max-width:1100px){.gco-actions{gap:12px}.gco-menu-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gco-browse,.gco-contact{font-size:13px;padding:0 12px}}
 @media(max-width:800px){.gco-shell{padding:0 24px}.gco-logo .gco-mark{width:224px;height:51px}.gco-actions{gap:9px}.gco-market{font-size:11px}.gco-contact{padding:0 10px}.gco-contact>span{display:none}.gco-contact{width:44px}}
 @media(max-width:700px){
 .gco-shell{padding:0 12px}.gco-bar{display:flex;min-height:64px;gap:6px;padding-top:5px;padding-bottom:5px;flex-wrap:nowrap}
@@ -36,3 +36,8 @@
 .gco-header .gco-contact{width:44px;min-width:44px;min-height:44px;padding:0}
 .gco-header .gco-contact>span{display:none}
 .gco-header .gco-contact>svg{width:18px;height:18px}
+
+.gco-menu-vertical{font-size:11px;line-height:1.4;color:var(--muted);margin:0 0 7px;letter-spacing:.025em}
+.gco-reference-count{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
+.gco-type{min-height:28px;align-items:center}.gco-menu-col ul{gap:6px}
+@media(max-width:700px){.gco-menu-vertical{display:none}}
