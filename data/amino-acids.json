@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-15T18:57:35.396Z",
+  "generated_at": "2026-10-15T19:07:12.869Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -3255,14 +3255,14 @@
           "id": "metabolic-maintenance-glycine-sticks-30-sticks-each-0-0-lb-3-g",
           "catalogue_id": "p-838287001256",
           "number": 37,
-          "title": "Metabolic Maintenance, Glycine Sticks, 30 Sticks, Each, 0.0 lb / 3 g",
+          "title": "Metabolic Maintenance, Glycine Sticks, 30 Sticks, Each, 30 Sticks",
           "url": "https://kw.iherb.com/pr/metabolic-maintenance-glycine-sticks-30-sticks-3-g-each/85672",
           "merchant_url_from_build": "https://kw.iherb.com/pr/metabolic-maintenance-glycine-sticks-30-sticks-3-g-each/85672",
           "merchant_ref": "85672",
           "merchant_note": null,
           "source": "crawl",
           "price_basis": "observed",
-          "size": "0.0 lb / 3 g",
+          "size": "30 Sticks",
           "image": "https://cloudinary.images-iherb.com/image/upload/images/mbm/mbm00125/l/35.jpg",
           "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
@@ -8176,6 +8176,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-15T18:57:44.899Z",
+  "pulled_at": "2026-10-15T19:07:28.422Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

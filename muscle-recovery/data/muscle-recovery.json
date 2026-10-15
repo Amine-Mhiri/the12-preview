@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-15T18:57:35.396Z",
+  "generated_at": "2026-10-15T19:07:12.869Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -373,14 +373,14 @@
           "id": "carlson-ribose-30-single-serving-packets-size-unknown",
           "catalogue_id": "p-088395088247",
           "number": 4,
-          "title": "Carlson, Ribose, 30 Single-Serving Packets, size unknown",
+          "title": "Carlson, Ribose, 30 Single-Serving Packets, 30 Single-Serving Packets",
           "url": "https://kw.iherb.com/pr/carlson-ribose-30-single-serving-packets/22612",
           "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-ribose-30-single-serving-packets/22612",
           "merchant_ref": "22612",
           "merchant_note": null,
           "source": "crawl",
           "price_basis": "observed",
-          "size": "size unknown",
+          "size": "30 Single-Serving Packets",
           "image": "https://cloudinary.images-iherb.com/image/upload/images/car/car08824/l/74.jpg",
           "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
@@ -542,6 +542,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-15T18:57:44.900Z",
+  "pulled_at": "2026-10-15T19:07:28.423Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
