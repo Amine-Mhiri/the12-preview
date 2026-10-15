@@ -12,6 +12,7 @@
  * already generic, and already correct.
  */
 import { createCatalogEngine } from "./catalog-engine.mjs";
+import {comparisonCost} from "./views.mjs";
 
 export { stockState } from "./catalog-engine.mjs";
 export { chooseFlavor, comparePackSizes } from "./product-families.mjs";
@@ -104,7 +105,7 @@ export function matches(g, v, s) {
 
 export function compareVariants(a, b, priority) {
   const metrics = { price: "price_kwd", value: "cost_per_25g", simple: "ingredient_count" };
-  const metric = (v) => (metrics[priority] ? v[metrics[priority]] : 0);
+  const metric = (v) => priority==='value'?comparisonCost(v):(metrics[priority] ? v[metrics[priority]] : 0);
   const av = metric(a);
   const bv = metric(b);
   const d = (Number.isFinite(av) ? av : Infinity) - (Number.isFinite(bv) ? bv : Infinity);

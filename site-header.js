@@ -31,7 +31,22 @@ if(header){
     if(!api||fetching||document.hidden)return;
     fetching=true;
     const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),10000);
-    try{const response=await fetch(`${api.replace(/\/$/,'')}/v1/meta`,{cache:'no-cache',signal:controller.signal});if(response.ok)applySiteMeta(document,await response.json(),header.dataset.siteRoot)}catch{}finally{clearTimeout(timeout);fetching=false}
+    try{
+      const response=await fetch(`${api.replace(/\/$/,'')}/v1/meta`,{cache:'no-cache',signal:controller.signal});
+      if(response.ok){
+        const meta=await response.json();
+        const performance=meta.categories?.find(c=>c.slug==='performance');
+        if(performance&&!performance.types){
+          try{const result=await fetch(`${api.replace(/\/$/,'')}/v1/catalogue/performance`,{cache:'no-cache',signal:controller.signal});if(result.ok)performance.types=(await result.json()).types}catch{}
+        }
+        if(performance&&!performance.types){
+          // Keep the last valid type navigation if its API is unavailable.
+          const el=header.querySelector('[data-menu-category="performance"]');
+          if(el?.dataset.label==='Creatine')performance.types=[{slug:'creatine-monohydrate',published:performance.published===0?0:Number(el.dataset.published)}];
+        }
+        applySiteMeta(document,meta,header.dataset.siteRoot);
+      }
+    }catch{}finally{clearTimeout(timeout);fetching=false}
   }
   refresh();
   setInterval(refresh,30000);

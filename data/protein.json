@@ -1,26 +1,28 @@
 {
   "schema_version": 1,
-  "selection_policy": "admissibility-only-1.0.0",
+  "selection_policy": "ingredients-first-2.0.0",
   "default_priority": "value",
   "category": "protein",
   "category_name": "Protein",
+  "presentation": {
+    "vertical_slug": "sport-nutrition",
+    "domain": "supplement"
+  },
   "tagline": "Grams that count, from sources you can name.",
   "description": "We review declared ingredients against our charter, keep the exact formula and evidence visible, and compare local prices for the declared amount of protein.",
   "build": {
-    "id": 27,
+    "id": 28,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-12",
-  "generated_at": "2026-10-13T10:37:06.451Z",
+  "reviewed_at": "2026-10-15",
+  "generated_at": "2026-10-15T16:53:12.645Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
   "comparison_unit": "25 g protein",
   "comparison_units": [
-    "25 g protein",
-    "10 g peptides",
-    "20 g protein"
+    "25 g protein"
   ],
   "retailer_images": true,
   "stock_ttl_hours": 24,
@@ -28,11 +30,13 @@
   "copy": {
     "unit_name": "25 g protein",
     "unit_basis": "Based on declared nutrition, per 25 g protein.",
+    "screening_note": "Published references have a readable, complete ingredient declaration checked against the applicable ingredient restrictions in charter 0.15.0. This first filter does not certify nutritional quality, efficacy or laboratory testing.",
+    "audience_note": "This selection is for adults and does not determine individual medical suitability.",
     "noun": "protein",
     "guide_heading": "How do you like your protein?",
     "guide_open": "What matters most to you?",
     "empty_title": "No publishable references yet.",
-    "empty_body": "We reviewed 918 protein products reaching Kuwait and published none. Publication requires an approved ingredient verdict and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "empty_body": "We reviewed 1270 protein products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -72,12 +76,12 @@
       "name": "Whey Protein Isolate",
       "purpose": "The highest protein-per-calorie option, with the lactose largely filtered out.",
       "unit": "25 g protein",
-      "non_negotiables": [
-        "At least 80% protein by weight, so you are paying for protein and not filler",
-        "No proprietary blend — the amino profile is disclosed or the product is out",
-        "No artificial sweeteners, colours or amino-spiking agents",
-        "At least 2.5 g leucine per serving, the threshold for muscle protein synthesis"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 370,
+        "excluded": 162,
+        "pending": 175
+      },
       "shelf_note": null,
       "published": 28
     },
@@ -86,25 +90,26 @@
       "name": "Whey Protein Concentrate",
       "purpose": "Less processed than isolate, more of the native whey fractions, lower price per gram.",
       "unit": "25 g protein",
-      "non_negotiables": [
-        "Single-source whey, not a blend hiding a cheaper protein",
-        "No proprietary blend and no non-protein nitrogen sources",
-        "Added sugar under 3 g per serving",
-        "Traceable dairy origin"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 500,
+        "excluded": 226,
+        "pending": 251
+      },
       "shelf_note": null,
-      "published": 9
+      "published": 11
     },
     {
       "slug": "casein-protein",
       "name": "Casein & Slow-Release Protein",
       "purpose": "Slow-digesting protein for the long gap between meals, usually taken at night.",
       "unit": "25 g protein",
-      "non_negotiables": [
-        "Micellar casein, not acid or sodium caseinate",
-        "No artificial sweeteners or colours",
-        "Full amino disclosure"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 30,
+        "excluded": 22,
+        "pending": 3
+      },
       "shelf_note": null,
       "published": 0
     },
@@ -113,25 +118,26 @@
       "name": "Plant Protein",
       "purpose": "Dairy-free protein that still delivers a complete amino profile.",
       "unit": "25 g protein",
-      "non_negotiables": [
-        "Complete amino profile, or a blend engineered to be complete",
-        "Published heavy-metal testing — plant proteins concentrate what the soil held",
-        "No artificial sweeteners; no gum-heavy texture engineering",
-        "At least 2.3 g leucine per serving"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 370,
+        "excluded": 158,
+        "pending": 159
+      },
       "shelf_note": null,
-      "published": 17
+      "published": 25
     },
     {
       "slug": "collagen-peptides",
       "name": "Collagen Peptides",
       "purpose": "Connective-tissue support. Keep its declared purpose separate from muscle protein.",
       "unit": "10 g peptides",
-      "non_negotiables": [
-        "Hydrolysed, with the peptide molecular weight disclosed",
-        "Traceable, grass-fed or marine-certified source",
-        "Single ingredient wherever possible"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 0,
+        "excluded": 0,
+        "pending": 0
+      },
       "shelf_note": null,
       "published": 0
     },
@@ -140,12 +146,12 @@
       "name": "Protein Bars",
       "purpose": "Protein you can keep in a bag. The category where the worst labels hide.",
       "unit": "20 g protein",
-      "non_negotiables": [
-        "Sugar alcohols under 5 g per bar",
-        "No artificial sweeteners, no artificial colours, no hydrogenated fat",
-        "Protein at or above 12% of bar weight",
-        "Recognisable whole-food base, not a syrup matrix"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 0,
+        "excluded": 0,
+        "pending": 0
+      },
       "shelf_note": null,
       "published": 0
     },
@@ -154,21 +160,22 @@
       "name": "Ready-to-Drink Protein",
       "purpose": "Shelf-stable liquid protein for when a shaker is not an option.",
       "unit": "25 g protein",
-      "non_negotiables": [
-        "No carrageenan or polysorbate 80",
-        "No artificial sweeteners",
-        "At least 20 g protein per bottle"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 0,
+        "excluded": 0,
+        "pending": 0
+      },
       "shelf_note": null,
       "published": 0
     }
   ],
   "counts": {
-    "reviewed": 918,
-    "selected": 54,
-    "excluded": 572,
-    "pending": 257,
-    "flavor_options": 54
+    "reviewed": 1270,
+    "selected": 64,
+    "excluded": 568,
+    "pending": 588,
+    "flavor_options": 64
   },
   "groups": [
     {
@@ -230,6 +237,7 @@
           "price_from_build_kwd": 19.6,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7000000000000001,
+          "cost_per_unit_kwd": 0.875,
           "cost_per_25g": 0.875,
           "price_observed_at": "2026-09-29T11:22:41.000Z",
           "price_source_url": "https://kw.iherb.com/pr/biochem-100-whey-isolate-protein-powder-vanilla-1-8-lbs-857-g/6907",
@@ -257,7 +265,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -321,6 +329,7 @@
           "price_from_build_kwd": 10.84,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7742857142857142,
+          "cost_per_unit_kwd": 0.9679,
           "cost_per_25g": 0.9679,
           "price_observed_at": "2026-09-29T11:26:01.000Z",
           "price_source_url": "https://kw.iherb.com/pr/biochem-100-whey-isolate-protein-sugar-free-vanilla-11-8-oz-336-g/47315",
@@ -348,7 +357,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -411,6 +420,7 @@
           "price_from_build_kwd": 19.97,
           "price_is_live": true,
           "price_per_serving_kwd": 0.6656666666666666,
+          "cost_per_unit_kwd": 0.8321,
           "cost_per_25g": 0.8321,
           "price_observed_at": "2026-09-29T11:23:03.000Z",
           "price_source_url": "https://kw.iherb.com/pr/biochem-100-whey-protein-isolate-powder-natural-1-5-lbs-699-g/14789",
@@ -438,7 +448,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -505,6 +515,7 @@
           "price_from_build_kwd": 21.93,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7832142857142858,
+          "cost_per_unit_kwd": 0.7531,
           "cost_per_25g": 0.7531,
           "price_observed_at": "2026-09-29T11:23:11.000Z",
           "price_source_url": "https://kw.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-french-vanilla-2-lbs-924-g/15910",
@@ -532,7 +543,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -599,6 +610,7 @@
           "price_from_build_kwd": 21.99,
           "price_is_live": true,
           "price_per_serving_kwd": 0.6871875,
+          "cost_per_unit_kwd": 0.6608,
           "cost_per_25g": 0.6608,
           "price_observed_at": "2026-09-29T11:22:55.000Z",
           "price_source_url": "https://kw.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-original-2-2-lbs-992-g/9476",
@@ -626,7 +638,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -691,6 +703,7 @@
           "price_from_build_kwd": 12.89,
           "price_is_live": true,
           "price_per_serving_kwd": 0.9207142857142857,
+          "cost_per_unit_kwd": 0.8853,
           "cost_per_25g": 0.8853,
           "price_observed_at": "2026-09-29T11:30:58.000Z",
           "price_source_url": "https://kw.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-french-vanilla-1-lb-462-g/106367",
@@ -718,7 +731,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -787,6 +800,7 @@
           "price_from_build_kwd": 15.68,
           "price_is_live": true,
           "price_per_serving_kwd": 0.6533333333333333,
+          "cost_per_unit_kwd": 0.6049,
           "cost_per_25g": 0.6049,
           "price_observed_at": "2026-09-29T11:29:56.000Z",
           "price_source_url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-whey-protein-isolate-with-organic-cane-sugar-with-sunflower-lecithin-very-vanilla-2-lb-907-g/82689",
@@ -814,7 +828,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -883,6 +897,7 @@
           "price_from_build_kwd": 32.93,
           "price_is_live": true,
           "price_per_serving_kwd": 0.5488333333333333,
+          "cost_per_unit_kwd": 0.5082,
           "cost_per_25g": 0.5082,
           "price_observed_at": "2026-09-29T11:30:01.000Z",
           "price_source_url": "https://kw.iherb.com/pr/california-gold-nutrition-whey-protein-isolate-very-vanilla-5-lb-2-27-kg/82707",
@@ -910,7 +925,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -979,6 +994,7 @@
           "price_from_build_kwd": 11.64,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7275,
+          "cost_per_unit_kwd": 0.7275,
           "cost_per_25g": 0.7275,
           "price_observed_at": "2026-09-29T11:41:31.000Z",
           "price_source_url": "https://kw.iherb.com/pr/evlution-nutrition-100-isolate-protein-unflavored-1-lb-454-g/120308",
@@ -1006,7 +1022,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1072,6 +1088,7 @@
           "price_from_build_kwd": 16.39,
           "price_is_live": true,
           "price_per_serving_kwd": 1.024375,
+          "cost_per_unit_kwd": 1.2805,
           "cost_per_25g": 1.2805,
           "price_observed_at": "2026-09-29T11:44:08.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-pineapple-orange-banana-14-1-oz-400-g/116760",
@@ -1099,7 +1116,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1165,6 +1182,7 @@
           "price_from_build_kwd": 28.35,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7875000000000001,
+          "cost_per_unit_kwd": 0.9844,
           "cost_per_25g": 0.9844,
           "price_observed_at": "2026-09-29T11:44:24.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-pineapple-orange-banana-1-98-lb-900-g/116762",
@@ -1192,7 +1210,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1259,6 +1277,7 @@
           "price_from_build_kwd": 16.4,
           "price_is_live": true,
           "price_per_serving_kwd": 1.025,
+          "cost_per_unit_kwd": 1.2813,
           "cost_per_25g": 1.2813,
           "price_observed_at": "2026-09-29T11:44:19.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-citrus-lemonade-14-1-oz-400-g/116759",
@@ -1286,7 +1305,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1353,6 +1372,7 @@
           "price_from_build_kwd": 28.36,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7877777777777778,
+          "cost_per_unit_kwd": 0.9847,
           "cost_per_25g": 0.9847,
           "price_observed_at": "2026-09-29T11:42:13.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-citrus-lemonade-1-98-lb-900-g/116763",
@@ -1380,7 +1400,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1447,6 +1467,7 @@
           "price_from_build_kwd": 16.68,
           "price_is_live": true,
           "price_per_serving_kwd": 1.0425,
+          "cost_per_unit_kwd": 1.3031,
           "cost_per_25g": 1.3031,
           "price_observed_at": "2026-09-29T11:43:14.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-mango-lime-14-1-oz-400-g/116757",
@@ -1474,7 +1495,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1541,6 +1562,7 @@
           "price_from_build_kwd": 16.39,
           "price_is_live": true,
           "price_per_serving_kwd": 1.024375,
+          "cost_per_unit_kwd": 1.2805,
           "cost_per_25g": 1.2805,
           "price_observed_at": "2026-09-29T11:43:07.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-watermelon-lime-14-1-oz-400-g/116761",
@@ -1568,7 +1590,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1634,6 +1656,7 @@
           "price_from_build_kwd": 16.38,
           "price_is_live": true,
           "price_per_serving_kwd": 1.02375,
+          "cost_per_unit_kwd": 1.2797,
           "cost_per_25g": 1.2797,
           "price_observed_at": "2026-09-29T11:42:26.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-infusions-protein-powder-tropical-punch-14-1-oz-400-g/85056",
@@ -1661,7 +1684,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1729,6 +1752,7 @@
           "price_from_build_kwd": 14.79,
           "price_is_live": true,
           "price_per_serving_kwd": 1.0564285714285713,
+          "cost_per_unit_kwd": 1.0564,
           "cost_per_25g": 1.0564,
           "price_observed_at": "2026-09-29T11:43:53.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-low-carb-protein-powder-strawberry-1-lb-454-g/90078",
@@ -1756,7 +1780,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1825,6 +1849,7 @@
           "price_from_build_kwd": 14.79,
           "price_is_live": true,
           "price_per_serving_kwd": 1.0564285714285713,
+          "cost_per_unit_kwd": 1.0564,
           "cost_per_25g": 1.0564,
           "price_observed_at": "2026-09-29T11:42:15.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-low-carb-protein-powder-drink-mix-vanilla-bean-1-lb-454-g/90077",
@@ -1852,7 +1877,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1919,6 +1944,7 @@
           "price_from_build_kwd": 28.37,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7880555555555556,
+          "cost_per_unit_kwd": 0.9851,
           "cost_per_25g": 0.9851,
           "price_observed_at": "2026-09-29T11:43:44.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-protein-powder-tropical-punch-1-98-lbs-900-g/116764",
@@ -1946,7 +1972,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2015,6 +2041,7 @@
           "price_from_build_kwd": 17.77,
           "price_is_live": true,
           "price_per_serving_kwd": 0.9352631578947368,
+          "cost_per_unit_kwd": 0.9353,
           "cost_per_25g": 0.9353,
           "price_observed_at": "2026-09-29T11:25:40.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-1-2-lbs-544-g/37837",
@@ -2042,7 +2069,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2111,6 +2138,7 @@
           "price_from_build_kwd": 24.98,
           "price_is_live": true,
           "price_per_serving_kwd": 0.9992,
+          "cost_per_unit_kwd": 0.9992,
           "cost_per_25g": 0.9992,
           "price_observed_at": "2026-09-29T11:22:20.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-chocolate-1-8-lbs-816-g/871",
@@ -2138,7 +2166,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2207,6 +2235,7 @@
           "price_from_build_kwd": 55.04,
           "price_is_live": true,
           "price_per_serving_kwd": 0.6795061728395062,
+          "cost_per_unit_kwd": 0.7078,
           "cost_per_25g": 0.7078,
           "price_observed_at": "2026-09-29T11:22:25.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-5-lbs-2-268-g/1160",
@@ -2234,7 +2263,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2303,6 +2332,7 @@
           "price_from_build_kwd": 24.98,
           "price_is_live": true,
           "price_per_serving_kwd": 0.9607692307692308,
+          "cost_per_unit_kwd": 0.9608,
           "cost_per_25g": 0.9608,
           "price_observed_at": "2026-09-29T11:22:22.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-vanilla-1-8-lbs-816-g/872",
@@ -2330,7 +2360,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2399,6 +2429,7 @@
           "price_from_build_kwd": 57.98,
           "price_is_live": true,
           "price_per_serving_kwd": 0.8166197183098591,
+          "cost_per_unit_kwd": 0.8166,
           "cost_per_25g": 0.8166,
           "price_observed_at": "2026-09-29T11:29:04.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-vanilla-5-lbs-2-268-g/72237",
@@ -2426,7 +2457,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2488,6 +2519,7 @@
           "price_from_build_kwd": 51.57,
           "price_is_live": true,
           "price_per_serving_kwd": 0.6527848101265823,
+          "cost_per_unit_kwd": 0.6528,
           "cost_per_25g": 0.6528,
           "price_observed_at": "2026-09-29T11:34:05.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutrabio-whey-protein-isolate-raw-unflavored-5-lb-2-268-g/134722",
@@ -2515,7 +2547,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2582,6 +2614,7 @@
           "price_from_build_kwd": 23.53,
           "price_is_live": true,
           "price_per_serving_kwd": 0.905,
+          "cost_per_unit_kwd": 0.7542,
           "cost_per_25g": 0.7542,
           "price_observed_at": "2026-09-29T11:38:05.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-unflavored-2-lb-907-g/145305",
@@ -2609,7 +2642,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2676,6 +2709,7 @@
           "price_from_build_kwd": 56.87,
           "price_is_live": true,
           "price_per_serving_kwd": 0.8749230769230769,
+          "cost_per_unit_kwd": 0.7291,
           "cost_per_25g": 0.7291,
           "price_observed_at": "2026-09-29T11:38:07.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-unflavored-5-lb-2-268-g/145306",
@@ -2703,7 +2737,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2771,6 +2805,7 @@
           "price_from_build_kwd": 46.04,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7083076923076923,
+          "cost_per_unit_kwd": 0.5903,
           "cost_per_25g": 0.5903,
           "price_observed_at": "2026-09-29T11:37:58.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutricost-whey-protein-isolate-unflavored-5-lb-2-268-g/145297",
@@ -2798,7 +2833,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2865,6 +2900,7 @@
           "price_from_build_kwd": 54.41,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7663380281690141,
+          "cost_per_unit_kwd": 0.7663,
           "cost_per_25g": 0.7663,
           "price_observed_at": "2026-09-29T11:36:48.000Z",
           "price_source_url": "https://kw.iherb.com/pr/levels-grass-fed-whey-protein-powder-unflavored-5-lb-2-27-kg/141521",
@@ -2892,7 +2928,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2960,6 +2996,7 @@
           "price_from_build_kwd": 7.38,
           "price_is_live": true,
           "price_per_serving_kwd": 0.615,
+          "cost_per_unit_kwd": 0.8542,
           "cost_per_25g": 0.8542,
           "price_observed_at": "2026-09-29T11:22:38.000Z",
           "price_source_url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-12-oz-340-g/6691",
@@ -2987,7 +3024,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3054,6 +3091,7 @@
           "price_from_build_kwd": 15.77,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-09-29T11:23:05.000Z",
           "price_source_url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-french-vanilla-2-lb-907-g/15138",
@@ -3081,7 +3119,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3149,6 +3187,7 @@
           "price_from_build_kwd": 15.77,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-09-29T11:22:58.000Z",
           "price_source_url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-unflavored-2-lb-907-g/12776",
@@ -3176,7 +3215,196 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "natural-factors-whey-factors-grass-fed-whey-protein-chocolate-2-0-lb-907-g",
+      "product_id": "p-068958029344",
+      "brand": "Natural Factors",
+      "brand_slug": "natural-factors",
+      "name": "Whey Factors®, Grass-Fed Whey Protein",
+      "flavor": "Chocolate",
+      "flavor_group": "chocolate",
+      "variants": [
+        {
+          "id": "natural-factors-whey-factors-grass-fed-whey-protein-chocolate-2-0-lb-907-g",
+          "catalogue_id": "p-068958029344",
+          "number": 33,
+          "title": "Natural Factors, Whey Factors®, Grass-Fed Whey Protein, Chocolate, 2.0 lb / 907 g",
+          "url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-2-lb-907-g/13095",
+          "merchant_url_from_build": "https://www.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-2-lb-907-g/13095",
+          "merchant_ref": "13095",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.0 lb / 907 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/nfs/nfs02934/l/56.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/nfs/nfs02934/l/56.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/nfs/nfs02934/l/61.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "whey-protein-concentrate",
+          "type_name": "Whey Protein Concentrate",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Natural chocolate flavor, alkalized cocoa powder.",
+          "ingredient_count": 2,
+          "allergen_statement": true,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": true,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 2.5,
+            "carbsG": 2,
+            "sugarG": 1,
+            "calories": 110,
+            "proteinG": 18,
+            "servingSize": "1 Scoop (27 g)",
+            "saturatedFatG": 1.5,
+            "servingsPerContainer": null
+          },
+          "flavor": "Chocolate",
+          "flavor_group": "chocolate",
+          "price_kwd": 15.77,
+          "price_from_build_kwd": 15.77,
+          "price_is_live": true,
+          "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-09-29T11:23:01.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-2-lb-907-g/13095",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-09-29T11:23:01.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "now-now-sports-whey-protein-with-bcaas-chocolate-2-0-lb-907-g",
+      "product_id": "p-733739021809",
+      "brand": "NOW",
+      "brand_slug": "now",
+      "name": "NOW Sports, Whey Protein  With BCAAs",
+      "flavor": "Chocolate",
+      "flavor_group": "chocolate",
+      "variants": [
+        {
+          "id": "now-now-sports-whey-protein-with-bcaas-chocolate-2-0-lb-907-g",
+          "catalogue_id": "p-733739021809",
+          "number": 34,
+          "title": "NOW, NOW Sports, Whey Protein  With BCAAs, Chocolate, 2.0 lb / 907 g",
+          "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-powder-creamy-chocolate-2-lbs-907-g/117490",
+          "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-powder-creamy-chocolate-2-lbs-907-g/117490",
+          "merchant_ref": "117490",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.0 lb / 907 g",
+          "image": "https://m.media-amazon.com/images/I/71vaWW67i+L.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://m.media-amazon.com/images/I/71vaWW67i+L.jpg",
+            "https://m.media-amazon.com/images/I/41lefMh72BL.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now02180/l/33.jpg",
+            "https://m.media-amazon.com/images/I/812LRr1C6HL.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "whey-protein-concentrate",
+          "type_name": "Whey Protein Concentrate",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Whey protein concentrate, xylitol, cocoa, natural flavors, whey protein isolate, organic stevia leaf extract, l-glutamine, sunflower lecithin, xanthan gum.",
+          "ingredient_count": 9,
+          "allergen_statement": true,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": true,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 2.5,
+            "carbsG": 10,
+            "fibreG": 1,
+            "sugarG": 0,
+            "calories": 160,
+            "proteinG": 24,
+            "sodiumMg": 55,
+            "addedSugarG": 0,
+            "servingSize": "1 level scoop (42 g)",
+            "saturatedFatG": 1,
+            "servingsPerContainer": null
+          },
+          "flavor": "Chocolate",
+          "flavor_group": "chocolate",
+          "price_kwd": 19.79,
+          "price_from_build_kwd": 19.79,
+          "price_is_live": true,
+          "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-09-29T11:31:26.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-powder-creamy-chocolate-2-lbs-907-g/117490",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-09-29T11:31:26.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": true,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3193,7 +3421,7 @@
         {
           "id": "now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-1-5-lb-680-g",
           "catalogue_id": "p-733739022981",
-          "number": 33,
+          "number": 35,
           "title": "NOW Foods, Sports, Whey Protein Concentrate Protein Powder, Unflavored, 1.5 lb / 680 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-1-5-lbs-680-g/58450",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-1-5-lbs-680-g/58450",
@@ -3245,6 +3473,7 @@
           "price_from_build_kwd": 13.54,
           "price_is_live": true,
           "price_per_serving_kwd": 0.6447619047619048,
+          "cost_per_unit_kwd": 0.6716,
           "cost_per_25g": 0.6716,
           "price_observed_at": "2026-09-29T11:26:26.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-1-5-lbs-680-g/58450",
@@ -3272,7 +3501,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3289,7 +3518,7 @@
         {
           "id": "now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-5-0-lb-2268-",
           "catalogue_id": "p-733739022998",
-          "number": 34,
+          "number": 36,
           "title": "NOW Foods, Sports, Whey Protein Concentrate Protein Powder, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-5-lbs-2268-g/58451",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-5-lbs-2268-g/58451",
@@ -3341,6 +3570,7 @@
           "price_from_build_kwd": 41.63,
           "price_is_live": true,
           "price_per_serving_kwd": 0.6033333333333334,
+          "cost_per_unit_kwd": 0.6285,
           "cost_per_25g": 0.6285,
           "price_observed_at": "2026-09-29T11:26:28.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-5-lbs-2268-g/58451",
@@ -3368,7 +3598,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3385,7 +3615,7 @@
         {
           "id": "nutricost-grass-fed-whey-protein-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-810139573425",
-          "number": 35,
+          "number": 37,
           "title": "Nutricost, Grass-Fed Whey Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-unflavored-2-lb-907-g/145304",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-unflavored-2-lb-907-g/145304",
@@ -3435,6 +3665,7 @@
           "price_from_build_kwd": 16.28,
           "price_is_live": true,
           "price_per_serving_kwd": 0.5814285714285715,
+          "cost_per_unit_kwd": 0.5814,
           "cost_per_25g": 0.5814,
           "price_observed_at": "2026-09-29T11:38:03.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-unflavored-2-lb-907-g/145304",
@@ -3462,7 +3693,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3479,7 +3710,7 @@
         {
           "id": "nutricost-grass-fed-whey-protein-vanilla-2-0-lb-907-g",
           "catalogue_id": "p-810014675589",
-          "number": 36,
+          "number": 38,
           "title": "Nutricost, Grass-Fed Whey Protein, Vanilla, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-vanilla-2-lb-907-g/144633",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-vanilla-2-lb-907-g/144633",
@@ -3529,6 +3760,7 @@
           "price_from_build_kwd": 17.1,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7125,
+          "cost_per_unit_kwd": 0.7125,
           "cost_per_25g": 0.7125,
           "price_observed_at": "2026-09-29T11:37:45.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-vanilla-2-lb-907-g/144633",
@@ -3556,7 +3788,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3573,7 +3805,7 @@
         {
           "id": "nutricost-grass-fed-whey-protein-concentrate-unflavored-5-0-lb-2268-g",
           "catalogue_id": "p-810139572251",
-          "number": 37,
+          "number": 39,
           "title": "Nutricost, Grass-Fed Whey Protein Concentrate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-concentrate-unflavored-5-lb-2-268-g/143241",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-concentrate-unflavored-5-lb-2-268-g/143241",
@@ -3623,6 +3855,7 @@
           "price_from_build_kwd": 39.12,
           "price_is_live": true,
           "price_per_serving_kwd": 0.5669565217391304,
+          "cost_per_unit_kwd": 0.567,
           "cost_per_25g": 0.567,
           "price_observed_at": "2026-09-29T11:37:36.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-concentrate-unflavored-5-lb-2-268-g/143241",
@@ -3650,7 +3883,102 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "ancient-harvest-plant-based-protein-pasta-red-lentil-and-quinoa-rotini-0-5-lb-22",
+      "product_id": "p-089125260308",
+      "brand": "Ancient Harvest",
+      "brand_slug": "ancient-harvest",
+      "name": "Plant-Based Protein Pasta, Red Lentil & Quinoa Rotini",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "ancient-harvest-plant-based-protein-pasta-red-lentil-and-quinoa-rotini-0-5-lb-22",
+          "catalogue_id": "p-089125260308",
+          "number": 40,
+          "title": "Ancient Harvest, Plant-Based Protein Pasta, Red Lentil & Quinoa Rotini, 0.5 lb / 227 g",
+          "url": "https://kw.iherb.com/pr/ancient-harvest-plant-based-protein-pasta-red-lentil-quinoa-rotini-8-oz-227g/74438",
+          "merchant_url_from_build": "https://www.iherb.com/pr/ancient-harvest-plant-based-protein-pasta-red-lentil-quinoa-rotini-8-oz-227g/74438",
+          "merchant_ref": "74438",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.5 lb / 227 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/anc/anc26030/l/36.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/anc/anc26030/l/36.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/anc/anc26030/l/37.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "plant-protein",
+          "type_name": "Plant Protein",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Red lentil flour, organic quinoa flour.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 1,
+            "carbsG": 37,
+            "fibreG": 3,
+            "sugarG": 1,
+            "calories": 200,
+            "proteinG": 13,
+            "sodiumMg": 0,
+            "addedSugarG": 0,
+            "servingSize": "2 oz (55 g)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 4
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 2.45,
+          "price_from_build_kwd": 2.45,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.6125,
+          "cost_per_unit_kwd": 1.1779,
+          "cost_per_25g": 1.1779,
+          "price_observed_at": "2026-10-10T19:38:44.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/ancient-harvest-plant-based-protein-pasta-red-lentil-quinoa-rotini-8-oz-227g/74438",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-10T19:38:44.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3667,7 +3995,7 @@
         {
           "id": "dr-murray-s-super-foods-organic-pumpkin-seed-protein-powder-2-0-lb-908-g",
           "catalogue_id": "p-850010353036",
-          "number": 38,
+          "number": 41,
           "title": "Dr. Murray's, Super Foods, Organic Pumpkin Seed Protein Powder, 2.0 lb / 908 g",
           "url": "https://kw.iherb.com/pr/dr-murray-s-super-foods-organic-pumpkin-seed-protein-powder-2-lb-908-g/99078",
           "merchant_url_from_build": "https://www.iherb.com/pr/dr-murray-s-super-foods-organic-pumpkin-seed-protein-powder-2-lb-908-g/99078",
@@ -3717,6 +4045,7 @@
           "price_from_build_kwd": 12.61,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-10T19:39:57.000Z",
           "price_source_url": "https://kw.iherb.com/pr/dr-murray-s-super-foods-organic-pumpkin-seed-protein-powder-2-lb-908-g/99078",
@@ -3744,7 +4073,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3761,7 +4090,7 @@
         {
           "id": "isopure-plant-based-low-carb-protein-powder-unflavored-1-1-lb-521-g",
           "catalogue_id": "p-089094025458",
-          "number": 39,
+          "number": 42,
           "title": "Isopure, Plant Based Low Carb Protein Powder, Unflavored, 1.1 lb / 521 g",
           "url": "https://kw.iherb.com/pr/isopure-plant-based-low-carb-protein-powder-unflavored-1-15-lb-521-g/90073",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-plant-based-low-carb-protein-powder-unflavored-1-15-lb-521-g/90073",
@@ -3813,6 +4142,7 @@
           "price_from_build_kwd": 12.76,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-10T19:39:38.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-plant-based-low-carb-protein-powder-unflavored-1-15-lb-521-g/90073",
@@ -3840,7 +4170,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3857,7 +4187,7 @@
         {
           "id": "now-foods-sports-organic-pea-protein-powder-unflavored-1-5-lb-680-g",
           "catalogue_id": "p-733739021083",
-          "number": 40,
+          "number": 43,
           "title": "NOW Foods, Sports, Organic Pea Protein Powder, Unflavored, 1.5 lb / 680 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-organic-pea-protein-powder-unflavored-1-5-lbs-680-g/62859",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-organic-pea-protein-powder-unflavored-1-5-lbs-680-g/62859",
@@ -3909,6 +4239,7 @@
           "price_from_build_kwd": 10.2,
           "price_is_live": true,
           "price_per_serving_kwd": 0.3,
+          "cost_per_unit_kwd": 0.5,
           "cost_per_25g": 0.5,
           "price_observed_at": "2026-10-10T19:37:32.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-organic-pea-protein-powder-unflavored-1-5-lbs-680-g/62859",
@@ -3936,7 +4267,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3953,7 +4284,7 @@
         {
           "id": "now-foods-sports-organic-pumpkin-seed-protein-powder-unflavored-1-0-lb-454-g",
           "catalogue_id": "p-733739022271",
-          "number": 41,
+          "number": 44,
           "title": "NOW Foods, Sports, Organic Pumpkin Seed Protein Powder, Unflavored, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-organic-pumpkin-seed-protein-powder-unflavored-1-lb-454-g/102242",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-organic-pumpkin-seed-protein-powder-unflavored-1-lb-454-g/102242",
@@ -4005,6 +4336,7 @@
           "price_from_build_kwd": 9.07,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-10T19:40:31.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-organic-pumpkin-seed-protein-powder-unflavored-1-lb-454-g/102242",
@@ -4032,7 +4364,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4049,7 +4381,7 @@
         {
           "id": "now-foods-sports-pea-protein-unflavored-0-7-lb-340-g",
           "catalogue_id": "p-733739021328",
-          "number": 42,
+          "number": 45,
           "title": "NOW Foods, Sports, Pea Protein, Unflavored, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-unflavored-12-oz-340-g/53134",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-unflavored-12-oz-340-g/53134",
@@ -4101,6 +4433,7 @@
           "price_from_build_kwd": 5.76,
           "price_is_live": true,
           "price_per_serving_kwd": 0.576,
+          "cost_per_unit_kwd": 0.6,
           "cost_per_25g": 0.6,
           "price_observed_at": "2026-10-10T19:37:18.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-unflavored-12-oz-340-g/53134",
@@ -4128,7 +4461,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4145,7 +4478,7 @@
         {
           "id": "now-foods-sports-pea-protein-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-733739021359",
-          "number": 43,
+          "number": 46,
           "title": "NOW Foods, Sports, Pea Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-pure-unflavored-2-lbs-907-g/9858",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-pure-unflavored-2-lbs-907-g/9858",
@@ -4197,6 +4530,7 @@
           "price_from_build_kwd": 11.83,
           "price_is_live": true,
           "price_per_serving_kwd": 0.4381481481481482,
+          "cost_per_unit_kwd": 0.4564,
           "cost_per_25g": 0.4564,
           "price_observed_at": "2026-10-10T19:36:22.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-pure-unflavored-2-lbs-907-g/9858",
@@ -4224,7 +4558,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4241,7 +4575,7 @@
         {
           "id": "now-foods-sports-pea-protein-vanilla-2-0-lb-907-g",
           "catalogue_id": "p-733739021342",
-          "number": 44,
+          "number": 47,
           "title": "NOW Foods, Sports, Pea Protein, Vanilla, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-vanilla-toffee-2-lbs-907-g/51969",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-vanilla-toffee-2-lbs-907-g/51969",
@@ -4293,6 +4627,7 @@
           "price_from_build_kwd": 15.08,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-10T19:37:15.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-vanilla-toffee-2-lbs-907-g/51969",
@@ -4320,7 +4655,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4337,7 +4672,7 @@
         {
           "id": "now-foods-sports-pea-protein-powder-chocolate-2-0-lb-907-g",
           "catalogue_id": "p-733739021335",
-          "number": 45,
+          "number": 48,
           "title": "NOW Foods, Sports, Pea Protein Powder, Chocolate, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-powder-creamy-chocolate-2-lbs-907-g/55360",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-powder-creamy-chocolate-2-lbs-907-g/55360",
@@ -4389,6 +4724,7 @@
           "price_from_build_kwd": 15.08,
           "price_is_live": true,
           "price_per_serving_kwd": 0.7180952380952381,
+          "cost_per_unit_kwd": 0.748,
           "cost_per_25g": 0.748,
           "price_observed_at": "2026-10-10T19:37:20.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-powder-creamy-chocolate-2-lbs-907-g/55360",
@@ -4416,7 +4752,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4433,7 +4769,7 @@
         {
           "id": "now-foods-sports-sprouted-brown-rice-protein-powder-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-733739022066",
-          "number": 46,
+          "number": 49,
           "title": "NOW Foods, Sports, Sprouted Brown Rice Protein Powder, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-sprouted-brown-rice-protein-powder-unflavored-2-lbs-907-g/55523",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-sprouted-brown-rice-protein-powder-unflavored-2-lbs-907-g/55523",
@@ -4485,6 +4821,7 @@
           "price_from_build_kwd": 10.07,
           "price_is_live": true,
           "price_per_serving_kwd": 0.055635359116022104,
+          "cost_per_unit_kwd": 0.3477,
           "cost_per_25g": 0.3477,
           "price_observed_at": "2026-10-10T19:37:23.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-sprouted-brown-rice-protein-powder-unflavored-2-lbs-907-g/55523",
@@ -4512,7 +4849,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4529,7 +4866,7 @@
         {
           "id": "nutricost-organic-pea-protein-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-810014670515",
-          "number": 47,
+          "number": 50,
           "title": "Nutricost, Organic Pea Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-organic-pea-protein-unflavored-2-lb-907-g/136855",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-organic-pea-protein-unflavored-2-lb-907-g/136855",
@@ -4579,6 +4916,7 @@
           "price_from_build_kwd": 13.45,
           "price_is_live": true,
           "price_per_serving_kwd": 0.3736111111111111,
+          "cost_per_unit_kwd": 0.467,
           "cost_per_25g": 0.467,
           "price_observed_at": "2026-10-10T19:43:27.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutricost-organic-pea-protein-unflavored-2-lb-907-g/136855",
@@ -4606,7 +4944,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4623,7 +4961,7 @@
         {
           "id": "nutricost-organic-pea-protein-unflavored-5-0-lb-2268-g",
           "catalogue_id": "p-810014670522",
-          "number": 48,
+          "number": 51,
           "title": "Nutricost, Organic Pea Protein, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-organic-pea-protein-unflavored-5-lb-2-268-g/124166",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-organic-pea-protein-unflavored-5-lb-2-268-g/124166",
@@ -4673,6 +5011,7 @@
           "price_from_build_kwd": 32.07,
           "price_is_live": true,
           "price_per_serving_kwd": 0.3603370786516854,
+          "cost_per_unit_kwd": 0.4504,
           "cost_per_25g": 0.4504,
           "price_observed_at": "2026-10-10T19:42:40.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutricost-organic-pea-protein-unflavored-5-lb-2-268-g/124166",
@@ -4700,7 +5039,197 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutricost-soy-protein-isolate-unflavored-1-0-lb-454-g",
+      "product_id": "p-810139573791",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Soy Protein Isolate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutricost-soy-protein-isolate-unflavored-1-0-lb-454-g",
+          "catalogue_id": "p-810139573791",
+          "number": 52,
+          "title": "Nutricost, Soy Protein Isolate, Unflavored, 1.0 lb / 454 g",
+          "url": "https://kw.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-1-lb-454-g/147363",
+          "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-1-lb-454-g/147363",
+          "merchant_ref": "147363",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.0 lb / 454 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57379/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57379/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57379/l/13.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "plant-protein",
+          "type_name": "Plant Protein",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Soy protein isolate.",
+          "ingredient_count": 1,
+          "allergen_statement": true,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 0,
+            "carbsG": 0,
+            "fibreG": 0,
+            "sugarG": 0,
+            "calories": 40,
+            "proteinG": 10,
+            "sodiumMg": 110,
+            "addedSugarG": 0,
+            "servingSize": "1 Scoop (1 1/2 Tbsp.) (11 g)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 40
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 5.47,
+          "price_from_build_kwd": 5.47,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.13674999999999998,
+          "cost_per_unit_kwd": 0.3419,
+          "cost_per_25g": 0.3419,
+          "price_observed_at": "2026-10-10T19:44:33.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-1-lb-454-g/147363",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-10T19:44:33.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutricost-soy-protein-isolate-unflavored-2-0-lb-907-g",
+      "product_id": "p-810139573807",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Soy Protein Isolate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutricost-soy-protein-isolate-unflavored-2-0-lb-907-g",
+          "catalogue_id": "p-810139573807",
+          "number": 53,
+          "title": "Nutricost, Soy Protein Isolate, Unflavored, 2.0 lb / 907 g",
+          "url": "https://kw.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-2-lb-907-g/147407",
+          "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-2-lb-907-g/147407",
+          "merchant_ref": "147407",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.0 lb / 907 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57380/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57380/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57380/l/13.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "plant-protein",
+          "type_name": "Plant Protein",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Soy protein isolate.",
+          "ingredient_count": 1,
+          "allergen_statement": true,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 0,
+            "carbsG": 0,
+            "fibreG": 0,
+            "sugarG": 0,
+            "calories": 40,
+            "proteinG": 10,
+            "sodiumMg": 110,
+            "addedSugarG": 0,
+            "servingSize": "1 Scoop (1 1/2 Tbsp.) (11 g)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 81
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 9.76,
+          "price_from_build_kwd": 9.76,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.12049382716049382,
+          "cost_per_unit_kwd": 0.3012,
+          "cost_per_25g": 0.3012,
+          "price_observed_at": "2026-10-10T19:44:40.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-2-lb-907-g/147407",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-10T19:44:40.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4717,7 +5246,7 @@
         {
           "id": "olympian-labs-pea-protein-unflavored-1-9-lb-844-g",
           "catalogue_id": "p-710013911063",
-          "number": 49,
+          "number": 54,
           "title": "Olympian Labs, Pea Protein, Unflavored, 1.9 lb / 844 g",
           "url": "https://kw.iherb.com/pr/olympian-labs-pea-protein-unflavored-29-7-oz-843-75-g/120748",
           "merchant_url_from_build": "https://www.iherb.com/pr/olympian-labs-pea-protein-unflavored-29-7-oz-843-75-g/120748",
@@ -4764,6 +5293,7 @@
           "price_from_build_kwd": 14.12,
           "price_is_live": true,
           "price_per_serving_kwd": 0.522962962962963,
+          "cost_per_unit_kwd": 0.523,
           "cost_per_25g": 0.523,
           "price_observed_at": "2026-10-10T19:42:05.000Z",
           "price_source_url": "https://kw.iherb.com/pr/olympian-labs-pea-protein-unflavored-29-7-oz-843-75-g/120748",
@@ -4791,7 +5321,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4808,7 +5338,7 @@
         {
           "id": "olympian-labs-pure-pea-protein-unflavored-0-9-lb-406-g",
           "catalogue_id": "p-710013912299",
-          "number": 50,
+          "number": 55,
           "title": "Olympian Labs, Pure Pea Protein, Unflavored, 0.9 lb / 406 g",
           "url": "https://kw.iherb.com/pr/olympian-labs-pure-pea-protein-unflavored-14-33-oz-406-25-g/138460",
           "merchant_url_from_build": "https://www.iherb.com/pr/olympian-labs-pure-pea-protein-unflavored-14-33-oz-406-25-g/138460",
@@ -4854,6 +5384,7 @@
           "price_from_build_kwd": 7.43,
           "price_is_live": true,
           "price_per_serving_kwd": 0.5715384615384616,
+          "cost_per_unit_kwd": 0.5715,
           "cost_per_25g": 0.5715,
           "price_observed_at": "2026-10-10T19:43:30.000Z",
           "price_source_url": "https://kw.iherb.com/pr/olympian-labs-pure-pea-protein-unflavored-14-33-oz-406-25-g/138460",
@@ -4881,7 +5412,288 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "ora-so-lean-and-so-clean-daily-superfood-plant-protein-unsweetened-1-3-lb-594-g",
+      "product_id": "p-850028725214",
+      "brand": "Ora",
+      "brand_slug": "ora",
+      "name": "So Lean & So Clean, Daily Superfood Plant Protein, Unsweetened",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "ora-so-lean-and-so-clean-daily-superfood-plant-protein-unsweetened-1-3-lb-594-g",
+          "catalogue_id": "p-850028725214",
+          "number": 56,
+          "title": "Ora, So Lean & So Clean, Daily Superfood Plant Protein, Unsweetened, 1.3 lb / 594 g",
+          "url": "https://kw.iherb.com/pr/ora-so-lean-so-clean-daily-superfood-plant-protein-unsweetened-20-9-oz-594-g/132868",
+          "merchant_url_from_build": "https://www.iherb.com/pr/ora-so-lean-so-clean-daily-superfood-plant-protein-unsweetened-20-9-oz-594-g/132868",
+          "merchant_ref": "132868",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.3 lb / 594 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ora/ora72521/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ora/ora72521/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ora/ora72521/l/29.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "plant-protein",
+          "type_name": "Plant Protein",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Natural vanilla flavor.",
+          "ingredient_count": 1,
+          "allergen_statement": true,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 3,
+            "carbsG": 2,
+            "fibreG": 2,
+            "calories": 120,
+            "proteinG": 23,
+            "sodiumMg": 237,
+            "servingSize": "2 scoops (29 g)",
+            "saturatedFatG": 1,
+            "servingsPerContainer": 20
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 22.4,
+          "price_from_build_kwd": 22.4,
+          "price_is_live": true,
+          "price_per_serving_kwd": 1.1199999999999999,
+          "cost_per_unit_kwd": 1.2174,
+          "cost_per_25g": 1.2174,
+          "price_observed_at": "2026-10-10T19:43:09.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/ora-so-lean-so-clean-daily-superfood-plant-protein-unsweetened-20-9-oz-594-g/132868",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-10T19:43:09.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "paradise-herbs-protein-and-greens-unflavored-1-0-lb-454-g",
+      "product_id": "p-601944777906",
+      "brand": "Paradise Herbs",
+      "brand_slug": "paradise-herbs",
+      "name": "Protein & Greens",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "paradise-herbs-protein-and-greens-unflavored-1-0-lb-454-g",
+          "catalogue_id": "p-601944777906",
+          "number": 57,
+          "title": "Paradise Herbs, Protein & Greens, Unflavored, 1.0 lb / 454 g",
+          "url": "https://kw.iherb.com/pr/paradise-herbs-protein-greens-original-unflavored-16-oz-454-g/17988",
+          "merchant_url_from_build": "https://www.iherb.com/pr/paradise-herbs-protein-greens-original-unflavored-16-oz-454-g/17988",
+          "merchant_ref": "17988",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.0 lb / 454 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/par/par77790/l/55.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/par/par77790/l/55.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/par/par77790/l/60.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "plant-protein",
+          "type_name": "Plant Protein",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "None.",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 2,
+            "carbsG": 3,
+            "sugarG": 3,
+            "calories": 125,
+            "proteinG": 20,
+            "sodiumMg": 250,
+            "servingSize": "1 Level Scoops (Approx. 32.45 grams)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 15
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 12.54,
+          "price_from_build_kwd": 12.54,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.836,
+          "cost_per_unit_kwd": 1.045,
+          "cost_per_25g": 1.045,
+          "price_observed_at": "2026-10-10T19:49:39.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/paradise-herbs-protein-greens-original-unflavored-16-oz-454-g/17988",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-10T19:49:39.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "pb2-foods-performance-pure-peanut-protein-plant-powder-2-0-lb-907-g",
+      "product_id": "p-851784007620",
+      "brand": "PB2 Foods",
+      "brand_slug": "pb2-foods",
+      "name": "Performance, Pure Peanut Protein Plant Powder",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "pb2-foods-performance-pure-peanut-protein-plant-powder-2-0-lb-907-g",
+          "catalogue_id": "p-851784007620",
+          "number": 58,
+          "title": "PB2 Foods, Performance, Pure Peanut Protein Plant Powder, 2.0 lb / 907 g",
+          "url": "https://kw.iherb.com/pr/pb2-foods-performance-pure-peanut-protein-plant-powder-2-lb-907-g/109411",
+          "merchant_url_from_build": "https://www.iherb.com/pr/pb2-foods-performance-pure-peanut-protein-plant-powder-2-lb-907-g/109411",
+          "merchant_ref": "109411",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.0 lb / 907 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/bpl/bpl00762/l/32.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/bpl/bpl00762/l/32.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/bpl/bpl00762/l/37.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "plant-protein",
+          "type_name": "Plant Protein",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Roasted peanuts.",
+          "ingredient_count": 1,
+          "allergen_statement": true,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 6,
+            "carbsG": 15,
+            "fibreG": 5,
+            "sugarG": 4,
+            "calories": 200,
+            "proteinG": 22,
+            "sodiumMg": 0,
+            "addedSugarG": 0,
+            "servingSize": "2 Scoops (45 g)",
+            "saturatedFatG": 1.5,
+            "servingsPerContainer": 20
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 9.78,
+          "price_from_build_kwd": 9.78,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.489,
+          "cost_per_unit_kwd": 0.5557,
+          "cost_per_25g": 0.5557,
+          "price_observed_at": "2026-10-10T19:41:05.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/pb2-foods-performance-pure-peanut-protein-plant-powder-2-lb-907-g/109411",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-10T19:41:05.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4898,7 +5710,7 @@
         {
           "id": "pescience-vegan-series-select-plant-proteintm-peanut-butter-1-8-lb-837-g",
           "catalogue_id": "p-040232426520",
-          "number": 51,
+          "number": 59,
           "title": "PEScience, Vegan Series, Select Plant Protein™, Peanut Butter, 1.8 lb / 837 g",
           "url": "https://kw.iherb.com/pr/pescience-vegan-series-select-plant-protein-peanut-butter-1-84-lbs-837-g/105156",
           "merchant_url_from_build": "https://www.iherb.com/pr/pescience-vegan-series-select-plant-protein-peanut-butter-1-84-lbs-837-g/105156",
@@ -4947,6 +5759,7 @@
           "price_from_build_kwd": 15.05,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-10T19:40:53.000Z",
           "price_source_url": "https://kw.iherb.com/pr/pescience-vegan-series-select-plant-protein-peanut-butter-1-84-lbs-837-g/105156",
@@ -4974,7 +5787,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4991,7 +5804,7 @@
         {
           "id": "pescience-vegan-series-select-plant-proteintm-vanilla-1-8-lb-797-g",
           "catalogue_id": "p-040232199875",
-          "number": 52,
+          "number": 60,
           "title": "PEScience, Vegan Series, Select Plant Protein™, Vanilla, 1.8 lb / 797 g",
           "url": "https://kw.iherb.com/pr/pescience-vegan-series-select-plant-protein-vanilla-indulgence-1-75-lbs-796-5-g/105152",
           "merchant_url_from_build": "https://www.iherb.com/pr/pescience-vegan-series-select-plant-protein-vanilla-indulgence-1-75-lbs-796-5-g/105152",
@@ -5041,6 +5854,7 @@
           "price_from_build_kwd": 15.34,
           "price_is_live": true,
           "price_per_serving_kwd": 0.5681481481481482,
+          "cost_per_unit_kwd": 0.7102,
           "cost_per_25g": 0.7102,
           "price_observed_at": "2026-10-10T19:40:47.000Z",
           "price_source_url": "https://kw.iherb.com/pr/pescience-vegan-series-select-plant-protein-vanilla-indulgence-1-75-lbs-796-5-g/105152",
@@ -5068,7 +5882,97 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "snap-supplements-plant-protein-vegan-protein-powder-banana-1-9-lb-853-g",
+      "product_id": "p-850039253430",
+      "brand": "Snap Supplements",
+      "brand_slug": "snap-supplements",
+      "name": "Plant Protein, Vegan Protein Powder",
+      "flavor": "Banana",
+      "flavor_group": "dessert",
+      "variants": [
+        {
+          "id": "snap-supplements-plant-protein-vegan-protein-powder-banana-1-9-lb-853-g",
+          "catalogue_id": "p-850039253430",
+          "number": 61,
+          "title": "Snap Supplements, Plant Protein, Vegan Protein Powder, Banana, 1.9 lb / 853 g",
+          "url": "https://kw.iherb.com/pr/snap-supplements-plant-protein-vegan-protein-powder-banana-853-g/131108",
+          "merchant_url_from_build": "https://www.iherb.com/pr/snap-supplements-plant-protein-vegan-protein-powder-banana-853-g/131108",
+          "merchant_ref": "131108",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.9 lb / 853 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/npp/npp25343/l/6.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/npp/npp25343/l/6.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/npp/npp25343/l/7.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "plant-protein",
+          "type_name": "Plant Protein",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Natural flavors, organic stevia leaf extract.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fibreG": 1,
+            "calories": 110,
+            "proteinG": 21,
+            "sodiumMg": 225,
+            "servingSize": "2 Scoops (Approximately 28.4 g)",
+            "servingsPerContainer": 30
+          },
+          "flavor": "Banana",
+          "flavor_group": "dessert",
+          "price_kwd": 13.39,
+          "price_from_build_kwd": 13.39,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.44633333333333336,
+          "cost_per_unit_kwd": 0.5313,
+          "cost_per_25g": 0.5313,
+          "price_observed_at": "2026-10-10T19:42:54.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/snap-supplements-plant-protein-vegan-protein-powder-banana-853-g/131108",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-10T19:42:54.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": true,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -5085,7 +5989,7 @@
         {
           "id": "sunwarrior-classic-protein-unflavored-1-7-lb-750-g",
           "catalogue_id": "p-814784025902",
-          "number": 53,
+          "number": 62,
           "title": "Sunwarrior, Classic Protein, Unflavored, 1.7 lb / 750 g",
           "url": "https://kw.iherb.com/pr/sunwarrior-classic-protein-unflavored-1-65-lb-750-g/83356",
           "merchant_url_from_build": "https://www.iherb.com/pr/sunwarrior-classic-protein-unflavored-1-65-lb-750-g/83356",
@@ -5137,6 +6041,7 @@
           "price_from_build_kwd": 14.93,
           "price_is_live": true,
           "price_per_serving_kwd": 0.49766666666666665,
+          "cost_per_unit_kwd": 0.6221,
           "cost_per_25g": 0.6221,
           "price_observed_at": "2026-10-10T19:51:01.000Z",
           "price_source_url": "https://kw.iherb.com/pr/sunwarrior-classic-protein-unflavored-1-65-lb-750-g/83356",
@@ -5164,7 +6069,104 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "sunwarrior-sport-organic-active-protein-powder-vanilla-2-2-lb-1000-g",
+      "product_id": "p-814784029832",
+      "brand": "Sunwarrior",
+      "brand_slug": "sunwarrior",
+      "name": "Sport, Organic Active Protein Powder",
+      "flavor": "Vanilla",
+      "flavor_group": "vanilla",
+      "variants": [
+        {
+          "id": "sunwarrior-sport-organic-active-protein-powder-vanilla-2-2-lb-1000-g",
+          "catalogue_id": "p-814784029832",
+          "number": 63,
+          "title": "Sunwarrior, Sport, Organic Active Protein Powder, Vanilla, 2.2 lb / 1000 g",
+          "url": "https://kw.iherb.com/pr/sunwarrior-sport-organic-active-protein-powder-vanilla-2-2-lb-1-kg/117102",
+          "merchant_url_from_build": "https://www.iherb.com/pr/sunwarrior-sport-organic-active-protein-powder-vanilla-2-2-lb-1-kg/117102",
+          "merchant_ref": "117102",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "2.2 lb / 1000 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/suw/suw02983/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/suw/suw02983/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/suw/suw02983/l/30.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/suw/suw02983/l/32.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/suw/suw02983/l/33.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "plant-protein",
+          "type_name": "Plant Protein",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Organic flavor, organic medium-chain triglycerides oil, organic\ncoconut milk powder, organic guar gum, organic steviol glycosides (rebaudioside A),\norganic cinnamon powder.",
+          "ingredient_count": 6,
+          "allergen_statement": true,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 4,
+            "carbsG": 10,
+            "fibreG": 2,
+            "sugarG": 0.5,
+            "calories": 200,
+            "proteinG": 30,
+            "sodiumMg": 360,
+            "addedSugarG": 0,
+            "servingSize": "About 2 Scoops (50 g)",
+            "saturatedFatG": 1.5,
+            "servingsPerContainer": 20
+          },
+          "flavor": "Vanilla",
+          "flavor_group": "vanilla",
+          "price_kwd": 15.38,
+          "price_from_build_kwd": 15.38,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.769,
+          "cost_per_unit_kwd": 0.6408,
+          "cost_per_25g": 0.6408,
+          "price_observed_at": "2026-10-10T19:50:15.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/sunwarrior-sport-organic-active-protein-powder-vanilla-2-2-lb-1-kg/117102",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-10T19:50:15.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": true,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -5181,7 +6183,7 @@
         {
           "id": "swanson-vitamins-100-pea-protein-powder-unflavored-1-1-lb-503-g",
           "catalogue_id": "p-087614117027",
-          "number": 54,
+          "number": 64,
           "title": "Swanson Vitamins, 100% Pea Protein Powder, Unflavored, 1.1 lb / 503 g",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-100-pea-protein-powder-unflavored-1-1-lb-503-g/118382",
           "merchant_url_from_build": "https://www.iherb.com/pr/swanson-vitamins-100-pea-protein-powder-unflavored-1-1-lb-503-g/118382",
@@ -5229,6 +6231,7 @@
           "price_from_build_kwd": 7.16,
           "price_is_live": true,
           "price_per_serving_kwd": 0.32545454545454544,
+          "cost_per_unit_kwd": 0.5085,
           "cost_per_25g": 0.5085,
           "price_observed_at": "2026-10-10T19:41:23.000Z",
           "price_source_url": "https://kw.iherb.com/pr/swanson-vitamins-100-pea-protein-powder-unflavored-1-1-lb-503-g/118382",
@@ -5256,12 +6259,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-13T10:37:07.409Z",
+  "pulled_at": "2026-10-15T16:53:22.846Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

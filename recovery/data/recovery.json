@@ -1,36 +1,40 @@
 {
   "schema_version": 1,
-  "selection_policy": "admissibility-only-1.0.0",
+  "selection_policy": "ingredients-first-2.0.0",
   "default_priority": "name",
   "category": "recovery",
   "category_name": "Recovery",
+  "presentation": {
+    "vertical_slug": "sport-nutrition",
+    "domain": "supplement"
+  },
   "tagline": "What happens between sessions decides the next one.",
   "description": "Sleep and joint support, filtered for Kuwait's import rules as well as our own doctrine. Where a compound cannot lawfully reach Kuwait, we leave the slot empty rather than list something you cannot receive.",
   "build": {
-    "id": 27,
+    "id": 28,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-12",
-  "generated_at": "2026-10-13T10:37:06.451Z",
+  "reviewed_at": "2026-10-15",
+  "generated_at": "2026-10-15T16:53:12.645Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
   "comparison_unit": null,
-  "comparison_units": [
-    "one full dose"
-  ],
+  "comparison_units": [],
   "retailer_images": true,
   "stock_ttl_hours": 24,
   "affiliate_active": false,
   "copy": {
     "unit_name": "serving",
     "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
+    "screening_note": "Published references have a readable, complete ingredient declaration checked against the applicable ingredient restrictions in charter 0.15.0. This first filter does not certify nutritional quality, efficacy or laboratory testing.",
+    "audience_note": "This selection is for adults and does not determine individual medical suitability.",
     "noun": "recovery",
     "guide_heading": "How do you like your recovery?",
     "guide_open": "What matters most to you?",
     "empty_title": "No publishable references yet.",
-    "empty_body": "We reviewed 35 recovery products reaching Kuwait and published none. Publication requires an approved ingredient verdict and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "empty_body": "We reviewed 0 recovery products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -70,11 +74,12 @@
       "name": "Sleep & Recovery",
       "purpose": "Getting to sleep after an evening session, without a compound that leaves you flat.",
       "unit": "one full dose",
-      "non_negotiables": [
-        "Melatonin, if present, at 0.5–3 mg — not the 10 mg doses sold as stronger",
-        "No proprietary blend",
-        "No ingredient restricted for import into Kuwait"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 0,
+        "excluded": 0,
+        "pending": 0
+      },
       "shelf_note": "Melatonin is regulated differently across the Gulf. Import availability for Kuwait must be established separately from ingredient screening.",
       "published": 0
     },
@@ -83,23 +88,24 @@
       "name": "Joint Support",
       "purpose": "Connective tissue under load. A category thick with underdosed formulas.",
       "unit": "one full dose",
-      "non_negotiables": [
-        "Actives at the doses used in the trials that are being cited",
-        "No proprietary blend",
-        "Named, standardised extracts"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 0,
+        "excluded": 0,
+        "pending": 0
+      },
       "shelf_note": null,
       "published": 0
     }
   ],
   "counts": {
-    "reviewed": 35,
+    "reviewed": 0,
     "selected": 0,
-    "excluded": 31,
-    "pending": 4,
+    "excluded": 0,
+    "pending": 0,
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-13T10:37:08.285Z",
+  "pulled_at": "2026-10-15T16:53:22.852Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "selection_policy": "ingredients-first-2.0.0",
+  "default_priority": "price",
+  "category": "chocolate-candy",
+  "category_name": "Chocolate & Candy",
+  "presentation": {
+    "vertical_slug": "food-drinks",
+    "domain": "food"
+  },
+  "tagline": "Ingredients checked. Your preferences come next.",
+  "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
+  "build": {
+    "id": 28,
+    "source": "crawl",
+    "charter": "0.15.0"
+  },
+  "reviewed_at": "2026-10-15",
+  "generated_at": "2026-10-15T16:53:12.645Z",
+  "live": false,
+  "charter": "0.15.0",
+  "exclusion_rules": 476,
+  "comparison_unit": "pack",
+  "comparison_units": [
+    "pack"
+  ],
+  "retailer_images": true,
+  "stock_ttl_hours": 24,
+  "affiliate_active": false,
+  "copy": {
+    "unit_name": "pack",
+    "unit_basis": "Price for the exact pack. No nutritional or efficacy equivalence is implied.",
+    "screening_note": "Published references have a readable, complete ingredient declaration checked against the applicable ingredient restrictions in charter 0.15.0. This first filter does not certify nutritional quality, efficacy or laboratory testing.",
+    "audience_note": "Food preferences and nutritional comparisons are separate from this ingredient filter. Check the product declaration for your dietary needs and allergies.",
+    "noun": "chocolate & candy",
+    "guide_heading": "How do you like your chocolate & candy?",
+    "guide_open": "What matters most to you?",
+    "empty_title": "No publishable references yet.",
+    "empty_body": "We reviewed 423 chocolate & candy products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "milk_allergy_empty": {
+      "title": "Nothing here is free of milk.",
+      "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
+    }
+  },
+  "constraints": {
+    "director": "Our pick only",
+    "milkAllergy": "Milk allergy",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten-free",
+    "soy": "Soy-free",
+    "noStevia": "No stevia",
+    "sport": "Independently tested"
+  },
+  "priorities": {
+    "name": "Alphabetical",
+    "price": "Lowest pack price",
+    "simple": "Fewest declared ingredients"
+  },
+  "flavors": {
+    "all": "All flavors",
+    "unflavoured": "Unflavoured",
+    "vanilla": "Vanilla",
+    "chocolate": "Chocolate",
+    "fruit": "Fruity",
+    "dessert": "Dessert",
+    "other": "Other"
+  },
+  "director_selection": {
+    "selected": 0,
+    "note": "Editorial choices among ingredient-admitted references, recorded in the database."
+  },
+  "types": [
+    {
+      "slug": "chocolate-candy",
+      "name": "Chocolate & Candy",
+      "purpose": "Ingredient-first selection.",
+      "unit": "pack",
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 423,
+        "excluded": 125,
+        "pending": 289
+      },
+      "shelf_note": null,
+      "published": 2
+    }
+  ],
+  "counts": {
+    "reviewed": 423,
+    "selected": 2,
+    "excluded": 125,
+    "pending": 289,
+    "flavor_options": 2
+  },
+  "groups": [
+    {
+      "id": "chimes-ginger-chews-original-0-3-lb-142-g",
+      "product_id": "p-051299111311",
+      "brand": "Chimes",
+      "brand_slug": "chimes",
+      "name": "Ginger Chews, Original",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "chimes-ginger-chews-original-0-3-lb-142-g",
+          "catalogue_id": "p-051299111311",
+          "number": 1,
+          "title": "Chimes, Ginger Chews, Original, 0.3 lb / 142 g",
+          "url": "https://kw.iherb.com/pr/chimes-ginger-chews-original-5-oz-141-8-g/59725",
+          "merchant_url_from_build": "https://www.iherb.com/pr/chimes-ginger-chews-original-5-oz-141-8-g/59725",
+          "merchant_ref": "59725",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.3 lb / 142 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/cms/cms11131/l/17.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/cms/cms11131/l/17.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cms/cms11131/l/19.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "chocolate-candy",
+          "type_name": "Chocolate & Candy",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Cane sugar, ginger, tapioca starch.",
+          "ingredient_count": 3,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 0,
+            "fibreG": 0,
+            "sugarG": 3,
+            "calories": 15,
+            "proteinG": 0.5,
+            "sodiumMg": 0,
+            "addedSugarG": 6,
+            "servingSize": "1 pcs (4 g)",
+            "servingsPerContainer": 35
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 1.71,
+          "price_from_build_kwd": 1.71,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.048857142857142856,
+          "cost_per_unit_kwd": 1.71,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-12T13:53:50.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/chimes-ginger-chews-original-5-oz-141-8-g/59725",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T13:53:50.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "the-ginger-people-gin-gins-ginger-chews-original-0-2-lb-85-g",
+      "product_id": "p-734027905023",
+      "brand": "The Ginger People",
+      "brand_slug": "the-ginger-people",
+      "name": "Gin Gins®, Ginger Chews, Original",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "the-ginger-people-gin-gins-ginger-chews-original-0-2-lb-85-g",
+          "catalogue_id": "p-734027905023",
+          "number": 2,
+          "title": "The Ginger People, Gin Gins®, Ginger Chews, Original, 0.2 lb / 85 g",
+          "url": "https://kw.iherb.com/pr/the-ginger-people-gin-gins-ginger-chews-original-3-oz-84-g/65858",
+          "merchant_url_from_build": "https://www.iherb.com/pr/the-ginger-people-gin-gins-ginger-chews-original-3-oz-84-g/65858",
+          "merchant_ref": "65858",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.2 lb / 85 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/tgp/tgp90502/l/14.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/tgp/tgp90502/l/14.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/tgp/tgp90502/l/15.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "chocolate-candy",
+          "type_name": "Chocolate & Candy",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Cane sugar, glucose syrup, ginger (10%), tapioca starch, rice flour, soy lecithin, salt, citric acid.",
+          "ingredient_count": 8,
+          "allergen_statement": true,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 0,
+            "carbsG": 11,
+            "fibreG": 0,
+            "sugarG": 7,
+            "calories": 45,
+            "proteinG": 0,
+            "sodiumMg": 0,
+            "addedSugarG": 14,
+            "servingSize": "2 pieces (per 12 g)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 7
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 1.63,
+          "price_from_build_kwd": 1.63,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.23285714285714285,
+          "cost_per_unit_kwd": 1.63,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-12T13:54:09.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/the-ginger-people-gin-gins-ginger-chews-original-3-oz-84-g/65858",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-12T13:54:09.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    }
+  ],
+  "pulled_at": "2026-10-15T16:53:22.852Z",
+  "api": "https://api.srv2021063.hstgr.cloud"
+}

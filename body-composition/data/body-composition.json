@@ -1,37 +1,40 @@
 {
   "schema_version": 1,
-  "selection_policy": "admissibility-only-1.0.0",
+  "selection_policy": "ingredients-first-2.0.0",
   "default_priority": "name",
   "category": "body-composition",
   "category_name": "Body Composition",
+  "presentation": {
+    "vertical_slug": "sport-nutrition",
+    "domain": "supplement"
+  },
   "tagline": "Calories, engineered honestly.",
   "description": "Mass gainers and meal replacements are judged as food rather than as supplements, which is why most of the category fails: a product built on maltodextrin and sucralose is not a meal, whatever the tub says.",
   "build": {
-    "id": 27,
+    "id": 28,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-12",
-  "generated_at": "2026-10-13T10:37:06.451Z",
+  "reviewed_at": "2026-10-15",
+  "generated_at": "2026-10-15T16:53:12.645Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
   "comparison_unit": null,
-  "comparison_units": [
-    "500 kcal",
-    "one meal"
-  ],
+  "comparison_units": [],
   "retailer_images": true,
   "stock_ttl_hours": 24,
   "affiliate_active": false,
   "copy": {
     "unit_name": "serving",
     "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
+    "screening_note": "Published references have a readable, complete ingredient declaration checked against the applicable ingredient restrictions in charter 0.15.0. This first filter does not certify nutritional quality, efficacy or laboratory testing.",
+    "audience_note": "This selection is for adults and does not determine individual medical suitability.",
     "noun": "body composition",
     "guide_heading": "How do you like your body composition?",
     "guide_open": "What matters most to you?",
     "empty_title": "No publishable references yet.",
-    "empty_body": "We reviewed 36 body composition products reaching Kuwait and published none. Publication requires an approved ingredient verdict and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "empty_body": "We reviewed 0 body composition products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -71,12 +74,12 @@
       "name": "Mass Gainer",
       "purpose": "Calories in a shaker, for people who genuinely cannot eat enough.",
       "unit": "500 kcal",
-      "non_negotiables": [
-        "Carbohydrate source named — maltodextrin disclosed rather than hidden behind 'carb blend'",
-        "Added sugar under 20% of total carbohydrate",
-        "No artificial colours",
-        "Protein at 15% or more of total calories"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 0,
+        "excluded": 0,
+        "pending": 0
+      },
       "shelf_note": null,
       "published": 0
     },
@@ -85,24 +88,24 @@
       "name": "Meal Replacement",
       "purpose": "A complete meal when there is no meal. Judged as food, not as a supplement.",
       "unit": "one meal",
-      "non_negotiables": [
-        "Full micronutrient profile",
-        "Fibre present at 3 g or more",
-        "No artificial sweeteners, colours or preservatives",
-        "Recognisable whole-food ingredients in the first five lines"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 0,
+        "excluded": 0,
+        "pending": 0
+      },
       "shelf_note": null,
       "published": 0
     }
   ],
   "counts": {
-    "reviewed": 36,
+    "reviewed": 0,
     "selected": 0,
-    "excluded": 20,
-    "pending": 16,
+    "excluded": 0,
+    "pending": 0,
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-13T10:37:08.411Z",
+  "pulled_at": "2026-10-15T16:53:22.852Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

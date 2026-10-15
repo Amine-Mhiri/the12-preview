@@ -30,8 +30,11 @@
  * by the build and are never edited here.
  */
 const CATEGORY=document.body.dataset.category;
-const catalog=await import('./catalog.mjs?v=2');
-const {applyCountText}=await import('./counts.mjs?v=2');
+const VIEW=document.body.dataset.view||CATEGORY;
+const {catalogueView,comparisonCost}=await import('./views.mjs');
+const {applyProfileText}=await import('./presentation.mjs');
+const catalog=await import('./catalog.mjs?v=3');
+const {applyCountText}=await import('./counts.mjs?v=3');
 const {DEFAULTS,stockState,selectProducts,chooseFlavor,comparePackSizes,recommendations,merchantLink,withAllergyChoice}=catalog;
 // A product whose merchant link we cannot validate must not take the page
 // down with it. `merchantLink` throws by design — it is the guard against
@@ -60,7 +63,7 @@ const safeMerchantLink=v=>{try{return merchantLink(v);}catch{return null;}};
 // comparator held these as per-category code and six categories cannot be a
 // boolean. Every read happens inside a render, which runs after the bootstrap.
 let COPY={},PRIORITIES={},FLAVORS={},constraintNames={},unitName='serving';
-const unitCost=v=>v.cost_per_25g;
+const unitCost=comparisonCost;
 
 const $=s=>document.querySelector(s);
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -180,7 +183,7 @@ function card(g,recommended=false){
       <div class="product-options"><div class="flavor-options" role="group" aria-label="Flavor for ${esc(g.brand+' '+g.name)}">${flavors.map(x=>flavors.length>1?`<button class="flavor-pill tone-${flavorTone(x)}" id="${prefix}-flavor-${x.flavor_id}" data-flavor-product="${g.id}" data-flavor-id="${x.flavor_id}" aria-pressed="${x.flavor_id===v.flavor_id}" aria-label="${esc(x.flavor)} for ${esc(g.brand+' '+g.name)}">${esc(x.flavor)}</button>`:`<span class="flavor-pill tone-${flavorTone(x)}">${esc(x.flavor)}</span>`).join('')}</div>
       <div class="size-options" role="group" aria-label="Pack size for ${esc(g.brand+' '+g.name)}"><span class="size-caption">Pack size</span>${sizes.map(x=>sizes.length>1?`<button class="size-pill" id="${prefix}-size-${x.id}" data-size="${g.id}" value="${x.id}" aria-pressed="${x.id===v.id}" aria-label="${esc(x.size)} for ${esc(g.brand+' '+g.name)}">${esc(x.size)}</button>`:`<span class="size-pill">${esc(x.size)}</span>`).join('')}</div></div>
       ${recommended?`<div class="match-reason"><strong>Why it matches</strong><ul>${reasons(g,v).map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
-      <div class="purchase">${safeMerchantLink(v)?`<a class="purchase-link" href="${esc(safeMerchantLink(v))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(money(v.price_kwd)+' · '+shortStock+' · '+g.brand+' '+g.name+' · '+v.flavor+' · '+v.size+' on iHerb')}"><span class="purchase-price">${money(v.price_kwd)}<span class="purchase-stock ${st==='in_stock'?'in-stock':''}">${esc(shortStock)}</span></span><span class="purchase-action">${st==='in_stock'?'iHerb':'Check iHerb'} <span aria-hidden="true">↗</span></span></a>`:`<p class="purchase-link purchase-unavailable"><span class="purchase-price">${money(v.price_kwd)}</span><span class="purchase-action" title="${esc(v.merchant_note??'')}">${esc(noLinkLabel(v))}</span></p>`}<p class="purchase-meta">${Number.isFinite(unitCost(v))?`${money(unitCost(v))} / ${unitName}`:'Unit cost not calculable'}<span>${v.price_basis==='derived'?'Price derived, not observed':`Price observed ${date(v.price_observed_at)}`}</span></p></div>
+      <div class="purchase">${safeMerchantLink(v)?`<a class="purchase-link" href="${esc(safeMerchantLink(v))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(money(v.price_kwd)+' · '+shortStock+' · '+g.brand+' '+g.name+' · '+v.flavor+' · '+v.size+' on iHerb')}"><span class="purchase-price">${money(v.price_kwd)}<span class="purchase-stock ${st==='in_stock'?'in-stock':''}">${esc(shortStock)}</span></span><span class="purchase-action">${st==='in_stock'?'iHerb':'Check iHerb'} <span aria-hidden="true">↗</span></span></a>`:`<p class="purchase-link purchase-unavailable"><span class="purchase-price">${money(v.price_kwd)}</span><span class="purchase-action" title="${esc(v.merchant_note??'')}">${esc(noLinkLabel(v))}</span></p>`}<p class="purchase-meta">${v.unit_name==='pack'?'Exact pack price':Number.isFinite(unitCost(v))?`${money(unitCost(v))} / ${esc(v.unit_name||unitName)}`:'Unit cost not calculable'}<span>${v.price_basis==='derived'?'Price derived, not observed':`Price observed ${date(v.price_observed_at)}`}</span></p></div>
     </div></article>`;
 }
 function renderView(){
@@ -259,7 +262,7 @@ function openDetail(id){
     +directorDetail(v)
     +`<section class="detail-section"><h3>The ingredients we reviewed</h3><p class="ingredients">${esc(v.ingredients??'No declaration captured for this reference.')}</p>${Number.isFinite(v.ingredient_count)?`<p class="detail-small">${v.ingredient_count} declared ingredient entries, including named blend constituents. Undisclosed flavour components are not counted as known ingredients.</p>`:''}${v.contains_milk?`<p class="detail-small"><strong>Contains milk-derived protein.</strong> ${esc(v.allergen_statement??'')}</p>`:(v.dairy_free_declared?`<p class="detail-small">Declared dairy-free.</p>`:`<p class="detail-small">No allergen declaration was captured, which is not the same as none being present.</p>`)}${(v.dietary||[]).length?`<p class="detail-small">Declared: ${esc(v.dietary.join(', '))}.</p>`:''}${(v.certifications||[]).length?`<p class="detail-small">Certifications recorded: ${esc(v.certifications.join(', '))}. A certification covers what it covers and nothing else.</p>`:''}</section>`
     +((v.documented_evidence||[]).length?`<section class="detail-section"><h3>Documented product evidence</h3><ul>${v.documented_evidence.map(e=>`<li><a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener noreferrer">${esc(e.claim.replace(/-/g,' '))}</a> · checked ${date(e.observedAt)} · reference ${esc(e.referenceId)}</li>`).join('')}</ul><p class="detail-small">Each source covers its stated reference and domain. It does not establish every contaminant result or the batch delivered to you.</p></section>`:'')
-    +`<section class="detail-section"><h3>The price, put in perspective</h3>${n?`<dl class="nutrition-grid"><div><dt>Serving size</dt><dd>${esc(n.servingSize??'—')}</dd></div><div><dt>Protein per serving</dt><dd>${Number.isFinite(n.proteinG)?`${n.proteinG} g`:'—'}</dd></div><div><dt>Servings</dt><dd>${Number.isFinite(n.servingsPerContainer)?n.servingsPerContainer:'—'}</dd></div><div><dt>Cost / ${esc(unitName)}</dt><dd>${Number.isFinite(unitCost(v))?money(unitCost(v)):'Not calculable'}</dd></div></dl><p class="detail-small">${esc(COPY.unit_basis??'')} This compares cost, not overall quality.</p>`:'<p>Nutrition data is incomplete for this exact reference, so we do not calculate a unit cost.</p>'}<p class="detail-small">Price observed ${stamp(v.price_observed_at)}${v.price_is_live?' and read live from our catalogue':''}. Product only; delivery and checkout charges are additional.</p></section>`
+    +`<section class="detail-section"><h3>The price, put in perspective</h3>${v.unit_name==='pack'?`<dl class="nutrition-grid"><div><dt>Exact pack</dt><dd>${esc(v.size)}</dd></div><div><dt>Pack price</dt><dd>${Number.isFinite(v.price_kwd)?money(v.price_kwd):'Not available'}</dd></div></dl><p class="detail-small">Price for this exact pack. No nutritional or efficacy equivalence is implied.</p>`:n?`<dl class="nutrition-grid"><div><dt>Serving size</dt><dd>${esc(n.servingSize??'—')}</dd></div>${Number.isFinite(n.proteinG)?`<div><dt>Protein per serving</dt><dd>${n.proteinG} g</dd></div>`:''}<div><dt>Servings</dt><dd>${Number.isFinite(n.servingsPerContainer)?n.servingsPerContainer:'—'}</dd></div><div><dt>Cost / ${esc(v.unit_name||unitName)}</dt><dd>${Number.isFinite(unitCost(v))?money(unitCost(v)):'Not calculable'}</dd></div></dl><p class="detail-small">${esc(COPY.unit_basis??'')} This compares cost, not overall quality.</p>`:'<p>Nutrition data is incomplete for this exact reference, so we do not calculate a unit cost.</p>'}<p class="detail-small">Price observed ${stamp(v.price_observed_at)}${v.price_is_live?' and read live from our catalogue':''}. Product only; delivery and checkout charges are additional.</p></section>`
     +(v.image_credit?.credit?`<p class="detail-small">Photograph: ${esc(v.image_credit.credit)}${v.image_credit.licence?`, ${esc(v.image_credit.licence)}`:''}.${v.image_credit.source_url?` <a href="${esc(safeUrl(v.image_credit.source_url))}" target="_blank" rel="noopener noreferrer">Source ↗</a>`:''}</p>`:(v.image_kind==='retailer'?`<p class="detail-small">Photograph by the retailer, shown while this catalogue is under test.</p>`:''))
     +(v.source==='authored'?`<section class="detail-section"><h3>Where this record came from</h3><p>This product is from our authored catalogue rather than the crawl, so its price is <strong>derived, not observed</strong>, and we hold no merchant page for it that we could verify. Its provenance does not establish a laboratory result.</p></section>`:'')
     +`<div class="detail-buy"><p class="stock-note ${stockState(v)==='in_stock'?'in-stock':''}">${esc(stockLabel(v))}</p><p class="detail-small">${v.availability.observed_at?`Stock checked ${stamp(v.availability.observed_at)}, country set to Kuwait. Status expires after 24 hours.`:'Current Kuwait stock has not been confirmed.'} Final delivery options are confirmed at checkout.</p>${link?`<a class="button primary" href="${esc(link)}" target="_blank" rel="noopener noreferrer">View this exact ${esc(v.size)} on iHerb <span aria-hidden="true">↗</span></a>`:`<p class="detail-small">We could not derive a merchant link for this reference, so we are not sending you to a guess.</p>`}</div>`;
@@ -306,7 +309,7 @@ $('#product-dialog').addEventListener('close',()=>{activeDetail=null;});
 function registerTools(){
   if(!document.modelContext?.registerTool)return;
   const controller=new AbortController();addEventListener('pagehide',()=>controller.abort(),{once:true});
-  const registration=document.modelContext.registerTool({name:`filter_${CATEGORY.replace(/-/g,'_')}_selection`,description:'Apply visible catalogue filters and return matching references. Does not order or add items to a cart.',annotations:{readOnlyHint:false,untrustedContentHint:true},inputSchema:{type:'object',properties:{...(constraintNames.director?{director:{type:'boolean'}}:{}),query:{type:'string',maxLength:100},flavor:{type:'string',enum:Object.keys(FLAVORS)},budget:{type:'number',minimum:0,maximum:1000},priority:{type:'string',enum:Object.keys(PRIORITIES)}},additionalProperties:false},execute:async input=>{
+  const registration=document.modelContext.registerTool({name:`filter_${VIEW.replace(/-/g,'_')}_selection`,description:'Apply visible catalogue filters and return matching references. Does not order or add items to a cart.',annotations:{readOnlyHint:false,untrustedContentHint:true},inputSchema:{type:'object',properties:{...(constraintNames.director?{director:{type:'boolean'}}:{}),query:{type:'string',maxLength:100},flavor:{type:'string',enum:Object.keys(FLAVORS)},budget:{type:'number',minimum:0,maximum:1000},priority:{type:'string',enum:Object.keys(PRIORITIES)}},additionalProperties:false},execute:async input=>{
     if(!input||typeof input!=='object'||Array.isArray(input)||Object.keys(input).some(k=>!['director','query','flavor','budget','priority'].includes(k)))throw Error('Invalid filters');
     if(input.director!==undefined&&(!constraintNames.director||typeof input.director!=='boolean'))throw Error('Invalid director filter');
     if(input.flavor!==undefined&&!Object.hasOwn(FLAVORS,input.flavor)||input.priority!==undefined&&!Object.hasOwn(PRIORITIES,input.priority)||input.query!==undefined&&(typeof input.query!=='string'||input.query.length>100)||input.budget!==undefined&&(!Number.isFinite(input.budget)||input.budget<0||input.budget>1000))throw Error('Invalid filter value');
@@ -351,10 +354,11 @@ const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalo
     }catch(e){last=e;if(url!==SOURCES[SOURCES.length-1])console.warn('[storefront] falling back:',e.message);}
   }
   throw last??Error('Selection unavailable');
-})().then(d=>{
+})().then(raw=>{
+  const d=catalogueView(raw,VIEW);
   COPY=d.copy;PRIORITIES=Object.fromEntries(Object.entries(d.priorities).filter(([key])=>key!=='rank'));FLAVORS=d.flavors;constraintNames=d.constraints;unitName=d.copy.unit_name;
   if(d.schema_version!==1||!Array.isArray(d.groups)||d.groups.length!==d.counts.flavor_options||d.groups.reduce((n,g)=>n+g.variants.length,0)!==d.counts.selected)throw Error('Incomplete selection');
-  if(!data)state.priority=d.default_priority??(d.comparison_unit?"value":"name");data=d;retitle(d);applyCountText(document,d);renderFilters();renderResults();try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
+  if(!data)state.priority=d.default_priority??(d.comparison_unit?"value":"name");data=d;retitle(d);applyCountText(document,d);applyProfileText(document,d);renderFilters();renderResults();try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
   stockSignature=data.groups.flatMap(g=>g.variants.map(v=>stockState(v))).join('|');
   const refreshAvailability=()=>{
     if(document.hidden)return;
@@ -373,4 +377,3 @@ const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalo
 // not have threw in here, and nothing caught it until a person looked at the
 // site; a render test needs a way in.
 globalThis.__storefrontOpenDetail = openDetail;
-

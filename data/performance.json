@@ -1,40 +1,43 @@
 {
   "schema_version": 1,
-  "selection_policy": "admissibility-only-1.0.0",
-  "default_priority": "value",
+  "selection_policy": "ingredients-first-2.0.0",
+  "default_priority": "name",
   "category": "performance",
   "category_name": "Performance",
+  "presentation": {
+    "vertical_slug": "sport-nutrition",
+    "domain": "supplement"
+  },
   "tagline": "Compounds with trials behind them, at the doses used in those trials.",
   "description": "We review the declared formula against the applicable ingredient charter. Quantities, forms, product evidence and warnings remain separate facts; prices are compared using the declared category unit.",
   "build": {
-    "id": 27,
+    "id": 28,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-12",
-  "generated_at": "2026-10-13T10:37:06.451Z",
+  "reviewed_at": "2026-10-15",
+  "generated_at": "2026-10-15T16:53:12.645Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
-  "comparison_unit": "5 g creatine",
+  "comparison_unit": null,
   "comparison_units": [
     "5 g creatine",
-    "one full scoop",
-    "10 g amino acids",
-    "3.2 g beta-alanine",
-    "6 g L-citrulline"
+    "one full scoop"
   ],
   "retailer_images": true,
   "stock_ttl_hours": 24,
   "affiliate_active": false,
   "copy": {
-    "unit_name": "5 g creatine",
-    "unit_basis": "Based on declared nutrition, per 5 g creatine.",
+    "unit_name": "serving",
+    "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
+    "screening_note": "Published references have a readable, complete ingredient declaration checked against the applicable ingredient restrictions in charter 0.15.0. This first filter does not certify nutritional quality, efficacy or laboratory testing.",
+    "audience_note": "This selection is for adults and does not determine individual medical suitability.",
     "noun": "performance",
     "guide_heading": "How do you like your performance?",
     "guide_open": "What matters most to you?",
     "empty_title": "No publishable references yet.",
-    "empty_body": "We reviewed 776 performance products reaching Kuwait and published none. Publication requires an approved ingredient verdict and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "empty_body": "We reviewed 1042 performance products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -52,7 +55,7 @@
   "priorities": {
     "name": "Alphabetical",
     "price": "Lowest pack price",
-    "value": "Price per 5 g creatine",
+    "value": "Price per serving",
     "simple": "Fewest declared ingredients"
   },
   "flavors": {
@@ -70,16 +73,30 @@
   },
   "types": [
     {
+      "slug": "creatine-other",
+      "name": "Other creatine forms",
+      "purpose": "Ingredient-first selection; forms and quantities remain distinct.",
+      "unit": "pack",
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 10,
+        "excluded": 10,
+        "pending": 0
+      },
+      "shelf_note": null,
+      "published": 0
+    },
+    {
       "slug": "creatine-monohydrate",
       "name": "Creatine Monohydrate",
       "purpose": "The most studied performance supplement in existence. Also the easiest to overpay for.",
       "unit": "5 g creatine",
-      "non_negotiables": [
-        "Monohydrate, not a patented form charging a premium for no added effect",
-        "Single ingredient — creatine and nothing else",
-        "5 g per serving",
-        "Creapure or an equivalent published purity certificate"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 403,
+        "excluded": 185,
+        "pending": 138
+      },
       "shelf_note": null,
       "published": 47
     },
@@ -88,25 +105,26 @@
       "name": "Pre-Workout",
       "purpose": "Stimulant and pump formulas. The category with the highest rejection rate we have.",
       "unit": "one full scoop",
-      "non_negotiables": [
-        "Zero proprietary blends — every dose disclosed in milligrams",
-        "Caffeine at or under 300 mg per serving",
-        "No DMAA, DMHA, yohimbine at stimulant doses, or synephrine stacks",
-        "No artificial colours"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 494,
+        "excluded": 445,
+        "pending": 38
+      },
       "shelf_note": null,
-      "published": 0
+      "published": 4
     },
     {
       "slug": "eaa-bcaa",
       "name": "EAA & BCAA",
       "purpose": "Free-form amino acids for training on an empty stomach.",
       "unit": "10 g amino acids",
-      "non_negotiables": [
-        "All nine essential amino acids, not just the three branched-chain",
-        "Full per-amino disclosure",
-        "No artificial colours or sweeteners"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 135,
+        "excluded": 127,
+        "pending": 8
+      },
       "shelf_note": null,
       "published": 0
     },
@@ -115,11 +133,12 @@
       "name": "Beta-Alanine",
       "purpose": "Buffers the burn in efforts lasting one to four minutes.",
       "unit": "3.2 g beta-alanine",
-      "non_negotiables": [
-        "3.2 g or more per daily dose",
-        "Single ingredient",
-        "No proprietary blend"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 0,
+        "excluded": 0,
+        "pending": 0
+      },
       "shelf_note": null,
       "published": 0
     },
@@ -128,21 +147,22 @@
       "name": "Citrulline & Nitric Oxide",
       "purpose": "Blood-flow support taken before training, without the stimulants.",
       "unit": "6 g L-citrulline",
-      "non_negotiables": [
-        "6 g or more of L-citrulline, or 8 g of citrulline malate",
-        "Ratio disclosed",
-        "No artificial colours"
-      ],
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 0,
+        "excluded": 0,
+        "pending": 0
+      },
       "shelf_note": null,
       "published": 0
     }
   ],
   "counts": {
-    "reviewed": 776,
-    "selected": 47,
-    "excluded": 549,
-    "pending": 147,
-    "flavor_options": 47
+    "reviewed": 1042,
+    "selected": 51,
+    "excluded": 767,
+    "pending": 184,
+    "flavor_options": 51
   },
   "groups": [
     {
@@ -209,7 +229,8 @@
           "price_from_build_kwd": 7.51,
           "price_is_live": true,
           "price_per_serving_kwd": 0.25033333333333335,
-          "cost_per_25g": 0.2503,
+          "cost_per_unit_kwd": 0.2503,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:24.000Z",
           "price_source_url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-5-3-oz-150-g/141831",
           "availability": {
@@ -236,7 +257,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -305,7 +326,8 @@
           "price_from_build_kwd": 12.52,
           "price_is_live": true,
           "price_per_serving_kwd": 0.20866666666666667,
-          "cost_per_25g": 0.2087,
+          "cost_per_unit_kwd": 0.2087,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:43.000Z",
           "price_source_url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-10-6-oz-300-g/131350",
           "availability": {
@@ -332,7 +354,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -390,7 +412,8 @@
           "price_from_build_kwd": 10.03,
           "price_is_live": true,
           "price_per_serving_kwd": 0.16716666666666666,
-          "cost_per_25g": 0.1672,
+          "cost_per_unit_kwd": 0.1672,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:35.000Z",
           "price_source_url": "https://kw.iherb.com/pr/brainmd-smart-creatine-unflavored-10-89-oz-309-g/145761",
           "availability": {
@@ -417,7 +440,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -475,6 +498,7 @@
           "price_from_build_kwd": 7.71,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:17:42.000Z",
           "price_source_url": "https://kw.iherb.com/pr/bsn-creatine-unflavored-10-9-oz-309-g/63046",
@@ -502,7 +526,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -560,7 +584,8 @@
           "price_from_build_kwd": 6.91,
           "price_is_live": true,
           "price_per_serving_kwd": 0.09597222222222222,
-          "cost_per_25g": 0.096,
+          "cost_per_unit_kwd": 0.096,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:17:53.000Z",
           "price_source_url": "https://kw.iherb.com/pr/c4-cellucor-cor-performance-creatine-unflavored-12-7oz-360-g/77551",
           "availability": {
@@ -587,7 +612,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -647,7 +672,8 @@
           "price_from_build_kwd": 5.47,
           "price_is_live": true,
           "price_per_serving_kwd": 0.06010989010989011,
-          "cost_per_25g": 0.0601,
+          "cost_per_unit_kwd": 0.0601,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:17:52.000Z",
           "price_source_url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-1-lb-454-g/71026",
           "availability": {
@@ -674,7 +700,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -734,7 +760,8 @@
           "price_from_build_kwd": 9.18,
           "price_is_live": true,
           "price_per_serving_kwd": 0.045899999999999996,
-          "cost_per_25g": 0.0459,
+          "cost_per_unit_kwd": 0.0459,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:29.000Z",
           "price_source_url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-2-2-lbs-1-kg/143718",
           "availability": {
@@ -761,7 +788,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -822,7 +849,8 @@
           "price_from_build_kwd": 18.23,
           "price_is_live": true,
           "price_per_serving_kwd": 0.18230000000000002,
-          "cost_per_25g": 0.1823,
+          "cost_per_unit_kwd": 0.1823,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:21:07.000Z",
           "price_source_url": "https://kw.iherb.com/pr/ehplabs-crea-8-17-6-oz-500-g/119639",
           "availability": {
@@ -849,7 +877,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -909,6 +937,7 @@
           "price_from_build_kwd": 6.56,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:01.000Z",
           "price_source_url": "https://kw.iherb.com/pr/evlution-nutrition-creatine5000-unflavored-10-58-oz-300-g/83389",
@@ -936,7 +965,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -996,6 +1025,7 @@
           "price_from_build_kwd": 10.99,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:03.000Z",
           "price_source_url": "https://kw.iherb.com/pr/evlution-nutrition-creatine5000-unflavored-17-64-oz-500-g/86577",
@@ -1023,7 +1053,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1083,7 +1113,8 @@
           "price_from_build_kwd": 5.97,
           "price_is_live": true,
           "price_per_serving_kwd": 0.09949999999999999,
-          "cost_per_25g": 0.0995,
+          "cost_per_unit_kwd": 0.0995,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:28.317Z",
           "price_source_url": "https://kw.iherb.com/pr/fitcode-creatine-unflavored-10-6-oz-300-g/120956",
           "availability": {
@@ -1110,7 +1141,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1168,7 +1199,8 @@
           "price_from_build_kwd": 7.5,
           "price_is_live": true,
           "price_per_serving_kwd": 0.125,
-          "cost_per_25g": 0.125,
+          "cost_per_unit_kwd": 0.125,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:17:35.000Z",
           "price_source_url": "https://kw.iherb.com/pr/gaspari-nutrition-creatine-unflavored-300-g/46213",
           "availability": {
@@ -1195,7 +1227,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1258,6 +1290,7 @@
           "price_from_build_kwd": 10.6,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:13.000Z",
           "price_source_url": "https://kw.iherb.com/pr/isopure-creatine-monohydrate-unflavored-1-1-lb-500-g/90079",
@@ -1285,7 +1318,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1343,7 +1376,8 @@
           "price_from_build_kwd": 6.82,
           "price_is_live": true,
           "price_per_serving_kwd": 0.11366666666666667,
-          "cost_per_25g": 0.1137,
+          "cost_per_unit_kwd": 0.1137,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:17.000Z",
           "price_source_url": "https://kw.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-10-6-oz-300-g/115835",
           "availability": {
@@ -1370,7 +1404,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1428,7 +1462,8 @@
           "price_from_build_kwd": 8.48,
           "price_is_live": true,
           "price_per_serving_kwd": 0.0848,
-          "cost_per_25g": 0.0848,
+          "cost_per_unit_kwd": 0.0848,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:16.000Z",
           "price_source_url": "https://kw.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-17-6-oz-500-g/140412",
           "availability": {
@@ -1455,7 +1490,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1513,7 +1548,8 @@
           "price_from_build_kwd": 8.99,
           "price_is_live": true,
           "price_per_serving_kwd": 0.08990000000000001,
-          "cost_per_25g": 0.0899,
+          "cost_per_unit_kwd": 0.0899,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:02.000Z",
           "price_source_url": "https://kw.iherb.com/pr/kaged-creatine-monohydrate-unflavored-1-12-lb-510-g/136261",
           "availability": {
@@ -1540,7 +1576,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1598,7 +1634,8 @@
           "price_from_build_kwd": 10.85,
           "price_is_live": true,
           "price_per_serving_kwd": 0.18083333333333332,
-          "cost_per_25g": 0.1808,
+          "cost_per_unit_kwd": 0.1808,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:37.000Z",
           "price_source_url": "https://kw.iherb.com/pr/legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-69-lbs-312-g/145992",
           "availability": {
@@ -1625,7 +1662,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1683,7 +1720,8 @@
           "price_from_build_kwd": 7.8,
           "price_is_live": true,
           "price_per_serving_kwd": 0.078,
-          "cost_per_25g": 0.078,
+          "cost_per_unit_kwd": 0.078,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:40.000Z",
           "price_source_url": "https://kw.iherb.com/pr/metabolic-nutrition-creatine-unflavored-17-64-oz-500-g/129719",
           "availability": {
@@ -1710,7 +1748,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1768,7 +1806,8 @@
           "price_from_build_kwd": 6.84,
           "price_is_live": true,
           "price_per_serving_kwd": 0.0684,
-          "cost_per_25g": 0.0684,
+          "cost_per_unit_kwd": 0.0684,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:58.000Z",
           "price_source_url": "https://kw.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-1-1-lb-500-g/149851",
           "availability": {
@@ -1795,7 +1834,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1853,7 +1892,8 @@
           "price_from_build_kwd": 10.7,
           "price_is_live": true,
           "price_per_serving_kwd": 0.0535,
-          "cost_per_25g": 0.0535,
+          "cost_per_unit_kwd": 0.0535,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:42.000Z",
           "price_source_url": "https://kw.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-2-2-lb-1-kg/146523",
           "availability": {
@@ -1880,7 +1920,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -1940,7 +1980,8 @@
           "price_from_build_kwd": 9.43,
           "price_is_live": true,
           "price_per_serving_kwd": 0.07858333333333332,
-          "cost_per_25g": 0.0786,
+          "cost_per_unit_kwd": 0.0786,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:26.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-creatine-monohydrate-21-2-oz-600-g/116703",
           "availability": {
@@ -1967,7 +2008,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2027,7 +2068,8 @@
           "price_from_build_kwd": 15.7,
           "price_is_live": true,
           "price_per_serving_kwd": 0.0785,
-          "cost_per_25g": 0.0785,
+          "cost_per_unit_kwd": 0.0785,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:17:29.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-creatine-monohydrate-2-2-lbs-1-kg/535",
           "availability": {
@@ -2054,7 +2096,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2114,7 +2156,8 @@
           "price_from_build_kwd": 15.73,
           "price_is_live": true,
           "price_per_serving_kwd": 0.06609243697478992,
-          "cost_per_25g": 0.0787,
+          "cost_per_unit_kwd": 0.0787,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:13.000Z",
           "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-micronized-creatine-monohydrate-2-2-lbs-1-kg/140145",
           "availability": {
@@ -2141,7 +2184,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2199,6 +2242,7 @@
           "price_from_build_kwd": 7.54,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:36.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-10-6-oz-300-g/123320",
@@ -2226,7 +2270,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2286,6 +2330,7 @@
           "price_from_build_kwd": 4.1,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:31.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-5-3-oz-150-g/123319",
@@ -2313,7 +2358,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2372,6 +2417,7 @@
           "price_from_build_kwd": 10.59,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:00.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-1-1-lb-500-g/80769",
@@ -2399,7 +2445,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2459,7 +2505,8 @@
           "price_from_build_kwd": 19.03,
           "price_is_live": true,
           "price_per_serving_kwd": 0.09515000000000001,
-          "cost_per_25g": 0.0952,
+          "cost_per_unit_kwd": 0.0952,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:52.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-2-2-lb-1-000-g/134700",
           "availability": {
@@ -2486,7 +2533,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2545,7 +2592,8 @@
           "price_from_build_kwd": 6.46,
           "price_is_live": true,
           "price_per_serving_kwd": 0.10766666666666666,
-          "cost_per_25g": 0.1077,
+          "cost_per_unit_kwd": 0.1077,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:17:37.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutrex-research-creatine-monohydrate-unflavored-10-58-oz-300-g/46645",
           "availability": {
@@ -2572,7 +2620,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2631,7 +2679,8 @@
           "price_from_build_kwd": 4.37,
           "price_is_live": true,
           "price_per_serving_kwd": 0.07283333333333333,
-          "cost_per_25g": 0.0728,
+          "cost_per_unit_kwd": 0.0728,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:45.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-10-7-oz-300-g/147383",
           "availability": {
@@ -2658,7 +2707,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2716,7 +2765,8 @@
           "price_from_build_kwd": 16.03,
           "price_is_live": true,
           "price_per_serving_kwd": 0.08015,
-          "cost_per_25g": 0.0801,
+          "cost_per_unit_kwd": 0.0801,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:31.000Z",
           "price_source_url": "https://kw.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-2-2-lb-1-kg/145287",
           "availability": {
@@ -2743,7 +2793,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2803,7 +2853,8 @@
           "price_from_build_kwd": 7.51,
           "price_is_live": true,
           "price_per_serving_kwd": 0.12516666666666668,
-          "cost_per_25g": 0.1252,
+          "cost_per_unit_kwd": 0.1252,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:17:32.000Z",
           "price_source_url": "https://kw.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-10-58-oz-300-g/36132",
           "availability": {
@@ -2830,7 +2881,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2890,6 +2941,7 @@
           "price_from_build_kwd": 12.1,
           "price_is_live": true,
           "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
           "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:17:47.000Z",
           "price_source_url": "https://kw.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-1-32-lb-600-g/68616",
@@ -2917,7 +2969,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -2975,7 +3027,8 @@
           "price_from_build_kwd": 10.66,
           "price_is_live": true,
           "price_per_serving_kwd": 0.1066,
-          "cost_per_25g": 0.1066,
+          "cost_per_unit_kwd": 0.1066,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:18.000Z",
           "price_source_url": "https://kw.iherb.com/pr/paradise-herbs-creatine-monohydrate-unflavored-500-g/141315",
           "availability": {
@@ -3002,7 +3055,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3060,7 +3113,8 @@
           "price_from_build_kwd": 7.52,
           "price_is_live": true,
           "price_per_serving_kwd": 0.25066666666666665,
-          "cost_per_25g": 0.2507,
+          "cost_per_unit_kwd": 0.2507,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:16.000Z",
           "price_source_url": "https://kw.iherb.com/pr/pescience-trucreatine-5-29-oz-150-g/113760",
           "availability": {
@@ -3087,7 +3141,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3145,7 +3199,8 @@
           "price_from_build_kwd": 27.43,
           "price_is_live": true,
           "price_per_serving_kwd": 0.09143333333333334,
-          "cost_per_25g": 0.0914,
+          "cost_per_unit_kwd": 0.0914,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:22.000Z",
           "price_source_url": "https://kw.iherb.com/pr/primaforce-creatine-monohydrate-unflavored-3-3-lb-1-500-g/141718",
           "availability": {
@@ -3172,7 +3227,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3230,7 +3285,8 @@
           "price_from_build_kwd": 15.9,
           "price_is_live": true,
           "price_per_serving_kwd": 0.17666666666666667,
-          "cost_per_25g": 0.1767,
+          "cost_per_unit_kwd": 0.1767,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:07.000Z",
           "price_source_url": "https://kw.iherb.com/pr/prohealth-longevity-longevity-creatine-pure-powder-15-9-oz-450-g/137865",
           "availability": {
@@ -3257,7 +3313,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3315,7 +3371,8 @@
           "price_from_build_kwd": 6.93,
           "price_is_live": true,
           "price_per_serving_kwd": 0.23099999999999998,
-          "cost_per_25g": 0.231,
+          "cost_per_unit_kwd": 0.231,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:19:03.000Z",
           "price_source_url": "https://kw.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-5-29-oz-150-g/137068",
           "availability": {
@@ -3342,7 +3399,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3400,7 +3457,8 @@
           "price_from_build_kwd": 12.56,
           "price_is_live": true,
           "price_per_serving_kwd": 0.12560000000000002,
-          "cost_per_25g": 0.1256,
+          "cost_per_unit_kwd": 0.1256,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:20:09.000Z",
           "price_source_url": "https://kw.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-18-oz-510-g/152525",
           "availability": {
@@ -3427,7 +3485,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3435,7 +3493,7 @@
     {
       "id": "rsp-nutrition-aminolean-creatine-monohydrate-powder-0-7-lb-300-g",
       "product_id": "p-854446006566",
-      "brand": "RSP Nutrition",
+      "brand": "RSP NUTRITION",
       "brand_slug": "rsp-nutrition",
       "name": "AminoLean® Creatine Monohydrate Powder",
       "flavor": "Unflavoured",
@@ -3445,7 +3503,7 @@
           "id": "rsp-nutrition-aminolean-creatine-monohydrate-powder-0-7-lb-300-g",
           "catalogue_id": "p-854446006566",
           "number": 39,
-          "title": "RSP Nutrition, AminoLean® Creatine Monohydrate Powder, 0.7 lb / 300 g",
+          "title": "RSP NUTRITION, AminoLean® Creatine Monohydrate Powder, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/rsp-nutrition-aminolean-creatine-monohydrate-powder-10-6-oz-300-g/77965",
           "merchant_url_from_build": "https://www.iherb.com/pr/rsp-nutrition-aminolean-creatine-monohydrate-powder-10-6-oz-300-g/77965",
           "merchant_ref": "77965",
@@ -3485,7 +3543,8 @@
           "price_from_build_kwd": 9.93,
           "price_is_live": true,
           "price_per_serving_kwd": 0.1655,
-          "cost_per_25g": 0.1655,
+          "cost_per_unit_kwd": 0.1655,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:17:57.000Z",
           "price_source_url": "https://kw.iherb.com/pr/rsp-nutrition-aminolean-creatine-monohydrate-powder-10-6-oz-300-g/77965",
           "availability": {
@@ -3512,7 +3571,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3570,7 +3629,8 @@
           "price_from_build_kwd": 9.77,
           "price_is_live": true,
           "price_per_serving_kwd": 0.16283333333333333,
-          "cost_per_25g": 0.1628,
+          "cost_per_unit_kwd": 0.1628,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:37.000Z",
           "price_source_url": "https://kw.iherb.com/pr/ryse-element-series-creatine-monohydrate-10-6-oz-300-g/123584",
           "availability": {
@@ -3597,7 +3657,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3658,7 +3718,8 @@
           "price_from_build_kwd": 7.72,
           "price_is_live": true,
           "price_per_serving_kwd": 0.12866666666666665,
-          "cost_per_25g": 0.1287,
+          "cost_per_unit_kwd": 0.1287,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:57.000Z",
           "price_source_url": "https://kw.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-10-58-oz-300-g/134762",
           "availability": {
@@ -3685,7 +3746,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3746,7 +3807,8 @@
           "price_from_build_kwd": 11.82,
           "price_is_live": true,
           "price_per_serving_kwd": 0.1182,
-          "cost_per_25g": 0.1182,
+          "cost_per_unit_kwd": 0.1182,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:54.000Z",
           "price_source_url": "https://kw.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-1-1-lb-500-g/134761",
           "availability": {
@@ -3773,7 +3835,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3831,7 +3893,8 @@
           "price_from_build_kwd": 12.75,
           "price_is_live": true,
           "price_per_serving_kwd": 0.1275,
-          "cost_per_25g": 0.1275,
+          "cost_per_unit_kwd": 0.1275,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:20:14.000Z",
           "price_source_url": "https://kw.iherb.com/pr/steelfit-creatine-monohydrate-unflavored-17-6-oz-500-g/152856",
           "availability": {
@@ -3858,7 +3921,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -3925,7 +3988,8 @@
           "price_from_build_kwd": 13.82,
           "price_is_live": true,
           "price_per_serving_kwd": 0.15355555555555556,
-          "cost_per_25g": 0.1536,
+          "cost_per_unit_kwd": 0.1536,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:17:50.000Z",
           "price_source_url": "https://kw.iherb.com/pr/thorne-creatine-16-oz-450-g/70006",
           "availability": {
@@ -3952,7 +4016,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4019,7 +4083,8 @@
           "price_from_build_kwd": 26.38,
           "price_is_live": true,
           "price_per_serving_kwd": 0.14655555555555555,
-          "cost_per_25g": 0.1466,
+          "cost_per_unit_kwd": 0.1466,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:20:01.000Z",
           "price_source_url": "https://kw.iherb.com/pr/thorne-creatine-2-lb-900-g/150562",
           "availability": {
@@ -4046,7 +4111,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4104,7 +4169,8 @@
           "price_from_build_kwd": 8.78,
           "price_is_live": true,
           "price_per_serving_kwd": 0.08779999999999999,
-          "cost_per_25g": 0.0878,
+          "cost_per_unit_kwd": 0.0878,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:50.000Z",
           "price_source_url": "https://kw.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-17-6-oz-500-g/132129",
           "availability": {
@@ -4131,7 +4197,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
@@ -4189,7 +4255,8 @@
           "price_from_build_kwd": 19.21,
           "price_is_live": true,
           "price_per_serving_kwd": 0.09605000000000001,
-          "cost_per_25g": 0.0961,
+          "cost_per_unit_kwd": 0.0961,
+          "cost_per_25g": null,
           "price_observed_at": "2026-10-12T17:18:49.000Z",
           "price_source_url": "https://kw.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-35-oz-1-kg/132128",
           "availability": {
@@ -4216,12 +4283,356 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-12",
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "allmax-essentials-citrulline-malate-2-1-0-7-lb-300-g",
+      "product_id": "p-665553227870",
+      "brand": "ALLMAX",
+      "brand_slug": "allmax",
+      "name": "Essentials, Citrulline Malate 2:1",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "allmax-essentials-citrulline-malate-2-1-0-7-lb-300-g",
+          "catalogue_id": "p-665553227870",
+          "number": 48,
+          "title": "ALLMAX, Essentials, Citrulline Malate 2:1, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/allmax-essentials-citrulline-malate-2-1-10-58-oz-300-g/79811",
+          "merchant_url_from_build": "https://www.iherb.com/pr/allmax-essentials-citrulline-malate-2-1-10-58-oz-300-g/79811",
+          "merchant_ref": "79811",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/amx/amx22787/l/48.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/amx/amx22787/l/48.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/amx/amx22787/l/53.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "pre-workout",
+          "type_name": "Pre-Workout",
+          "unit_name": "one full scoop",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Citrulline Malate 2:1; Produced in a facility that also handles milk, soy, wheat, egg, peanut, tree nuts, sesame, fish, crustacean and shellfish products.",
+          "ingredient_count": 10,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 scoop (2 g)",
+            "servingsPerContainer": 150
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 8.36,
+          "price_from_build_kwd": 8.36,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.05573333333333333,
+          "cost_per_unit_kwd": 0.05573333333333333,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-09T03:38:37.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/allmax-essentials-citrulline-malate-2-1-10-58-oz-300-g/79811",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-09T03:38:37.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutricost-betaine-anhydrous-unflavored-1-1-lb-507-g",
+      "product_id": "p-810139572527",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Betaine Anhydrous",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutricost-betaine-anhydrous-unflavored-1-1-lb-507-g",
+          "catalogue_id": "p-810139572527",
+          "number": 49,
+          "title": "Nutricost, Betaine Anhydrous, Unflavored, 1.1 lb / 507 g",
+          "url": "https://kw.iherb.com/pr/nutricost-betaine-anhydrous-unflavored-17-9-oz-500-g/145292",
+          "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-betaine-anhydrous-unflavored-17-9-oz-500-g/145292",
+          "merchant_ref": "145292",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 507 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57252/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57252/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57252/l/13.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "pre-workout",
+          "type_name": "Pre-Workout",
+          "unit_name": "one full scoop",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Betaine Anhydrous (Trimethylglycine)(TMG); Calcium silicate.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (1.5 g)",
+            "servingsPerContainer": 330
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.26,
+          "price_from_build_kwd": 7.26,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.022,
+          "cost_per_unit_kwd": 0.022,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-09T03:39:28.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutricost-betaine-anhydrous-unflavored-17-9-oz-500-g/145292",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-09T03:39:28.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "primaforce-citrulline-malate-unflavored-0-4-lb-200-g",
+      "product_id": "p-811445020115",
+      "brand": "Primaforce",
+      "brand_slug": "primaforce",
+      "name": "Citrulline Malate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "primaforce-citrulline-malate-unflavored-0-4-lb-200-g",
+          "catalogue_id": "p-811445020115",
+          "number": 50,
+          "title": "Primaforce, Citrulline Malate, Unflavored, 0.4 lb / 200 g",
+          "url": "https://kw.iherb.com/pr/primaforce-citrulline-malate-unflavored-7-1-oz-200-g/56648",
+          "merchant_url_from_build": "https://www.iherb.com/pr/primaforce-citrulline-malate-unflavored-7-1-oz-200-g/56648",
+          "merchant_ref": "56648",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.4 lb / 200 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02011/l/59.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02011/l/59.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02011/l/64.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "pre-workout",
+          "type_name": "Pre-Workout",
+          "unit_name": "one full scoop",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "L-Citrulline Malate (2:1); None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (2 g)",
+            "servingsPerContainer": null
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 5.81,
+          "price_from_build_kwd": 5.81,
+          "price_is_live": true,
+          "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": null,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-09T03:39:02.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/primaforce-citrulline-malate-unflavored-7-1-oz-200-g/56648",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-09T03:39:02.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "primaforce-citrulline-malate-unflavored-1-1-lb-500-g",
+      "product_id": "p-811445020757",
+      "brand": "Primaforce",
+      "brand_slug": "primaforce",
+      "name": "Citrulline Malate",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "primaforce-citrulline-malate-unflavored-1-1-lb-500-g",
+          "catalogue_id": "p-811445020757",
+          "number": 51,
+          "title": "Primaforce, Citrulline Malate, Unflavored, 1.1 lb / 500 g",
+          "url": "https://kw.iherb.com/pr/primaforce-citrulline-malate-unflavored-1-1-lb-500-g/141705",
+          "merchant_url_from_build": "https://www.iherb.com/pr/primaforce-citrulline-malate-unflavored-1-1-lb-500-g/141705",
+          "merchant_ref": "141705",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02075/l/17.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02075/l/17.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02075/l/11.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "pre-workout",
+          "type_name": "Pre-Workout",
+          "unit_name": "one full scoop",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "L-Citrulline Malate (2:1); None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (2 g)",
+            "servingsPerContainer": 250
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 10.35,
+          "price_from_build_kwd": 10.35,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0414,
+          "cost_per_unit_kwd": 0.0414,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-09T03:39:11.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/primaforce-citrulline-malate-unflavored-1-1-lb-500-g/141705",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-09T03:39:11.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-13T10:37:07.911Z",
+  "pulled_at": "2026-10-15T16:53:22.849Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

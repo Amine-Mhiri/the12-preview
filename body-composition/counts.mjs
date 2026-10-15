@@ -21,21 +21,24 @@ export function countText(d) {
   const reviewed = d.counts.reviewed;
   const noun = d.category_name.toLowerCase();
   return {
-    HEADLINE: `${reviewed} ${noun} products reviewed.`,
+    HEADLINE: Number.isSafeInteger(reviewed)?`${reviewed} ${noun} products reviewed.`:`${d.category_name} selection.`,
     HEADLINE_EMPHASIS: n === 0 ? "No publishable references yet." : `Only ${n} made the cut.`,
     PROMPT:
       n === 0
         ? "No references currently meet ingredient admission and Kuwait offer requirements."
         : `Now choose the ${d.copy.noun} that fits you.`,
-    DIRECTOR_COUNT: `${d.director_selection.selected} chosen by hand · ${n} published · ${reviewed} reviewed`,
-    REVIEWED: String(reviewed),
+    DIRECTOR_COUNT: `${d.director_selection.selected} chosen by hand · ${n} published${Number.isSafeInteger(reviewed)?` · ${reviewed} reviewed`:''}`,
+    REVIEW_LEDGER: Number.isSafeInteger(reviewed)
+      ? `${reviewed} ${noun} references reviewed against one ingredient standard. ${n} are published, ${d.counts.excluded} were excluded and ${d.counts.pending} remain unresolved. Different pack sizes count as separate references.`
+      : `${n} ${d.copy.noun} ${n===1?'reference is':'references are'} published. Separate totals of reviewed, excluded and unresolved references are not yet available for this type.`,
+    REVIEWED: reviewed===null?'Not supplied for this type':String(reviewed),
     SELECTED: String(n),
-    EXCLUDED: String(d.counts.excluded),
-    PENDING: String(d.counts.pending),
+    EXCLUDED: d.counts.excluded===null?'Not supplied for this type':String(d.counts.excluded),
+    PENDING: d.counts.pending===null?'Not supplied for this type':String(d.counts.pending),
     EMPTY_NOTE:
       n === 0
         ? "That is what this page is showing you today."
-        : "An empty type can reflect unresolved ingredients, an unapproved profile or no available Kuwait offer.",
+        : "An empty type can reflect unresolved ingredients, no available Kuwait offer.",
   };
 }
 

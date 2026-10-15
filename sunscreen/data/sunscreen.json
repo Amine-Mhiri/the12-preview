@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "selection_policy": "ingredients-first-2.0.0",
+  "default_priority": "name",
+  "category": "sunscreen",
+  "category_name": "Sunscreen",
+  "presentation": {
+    "vertical_slug": "body-hygiene",
+    "domain": "non_oral"
+  },
+  "tagline": "Ingredients checked. Your preferences come next.",
+  "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
+  "build": {
+    "id": 28,
+    "source": "crawl",
+    "charter": "0.15.0"
+  },
+  "reviewed_at": "2026-10-15",
+  "generated_at": "2026-10-15T16:53:12.645Z",
+  "live": false,
+  "charter": "0.15.0",
+  "exclusion_rules": 476,
+  "comparison_unit": null,
+  "comparison_units": [],
+  "retailer_images": true,
+  "stock_ttl_hours": 24,
+  "affiliate_active": false,
+  "copy": {
+    "unit_name": "serving",
+    "unit_basis": "Per serving. The types on this page do not share one comparison unit, so each product names its own.",
+    "screening_note": "Published references have a readable, complete ingredient declaration checked against the applicable ingredient restrictions in charter 0.15.0. This first filter does not certify nutritional quality, efficacy or laboratory testing.",
+    "audience_note": "This is an ingredient filter for the stated non-oral use. Follow the product instructions; individual suitability is not established.",
+    "noun": "sunscreen",
+    "guide_heading": "How do you like your sunscreen?",
+    "guide_open": "What matters most to you?",
+    "empty_title": "No publishable references yet.",
+    "empty_body": "We reviewed 152 sunscreen products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "milk_allergy_empty": {
+      "title": "Nothing here is free of milk.",
+      "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
+    }
+  },
+  "constraints": {
+    "director": "Our pick only",
+    "milkAllergy": "Milk allergy",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten-free",
+    "soy": "Soy-free",
+    "noStevia": "No stevia",
+    "sport": "Independently tested"
+  },
+  "priorities": {
+    "name": "Alphabetical",
+    "price": "Lowest pack price",
+    "value": "Price per serving",
+    "simple": "Fewest declared ingredients"
+  },
+  "flavors": {
+    "all": "All flavors",
+    "unflavoured": "Unflavoured",
+    "vanilla": "Vanilla",
+    "chocolate": "Chocolate",
+    "fruit": "Fruity",
+    "dessert": "Dessert",
+    "other": "Other"
+  },
+  "director_selection": {
+    "selected": 0,
+    "note": "Editorial choices among ingredient-admitted references, recorded in the database."
+  },
+  "types": [
+    {
+      "slug": "sunscreen",
+      "name": "Sunscreen",
+      "purpose": "Ingredient-first selection.",
+      "unit": "pack",
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 152,
+        "excluded": 99,
+        "pending": 53
+      },
+      "shelf_note": null,
+      "published": 0
+    }
+  ],
+  "counts": {
+    "reviewed": 152,
+    "selected": 0,
+    "excluded": 99,
+    "pending": 53,
+    "flavor_options": 0
+  },
+  "groups": [],
+  "pulled_at": "2026-10-15T16:53:22.854Z",
+  "api": "https://api.srv2021063.hstgr.cloud"
+}
