@@ -11,12 +11,12 @@
   "tagline": "Grams that count, from sources you can name.",
   "description": "We review declared ingredients against our charter, keep the exact formula and evidence visible, and compare local prices for the declared amount of protein.",
   "build": {
-    "id": 30,
+    "id": 31,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-15T17:33:15.507Z",
+  "generated_at": "2026-10-15T18:57:35.396Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -6259,6 +6259,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-15T17:33:16.678Z",
+  "pulled_at": "2026-10-15T18:57:44.891Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

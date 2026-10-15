@@ -8,15 +8,15 @@
     "vertical_slug": "sport-nutrition",
     "domain": "supplement"
   },
-  "tagline": "Electrolytes for a climate that takes them seriously.",
-  "description": "Training in Kuwait means sweating at rates that a temperate-climate label was never designed for. We weight sodium content higher here than any other market would, and we reject the flavoured-water products that sell on packaging alone.",
+  "tagline": "Electrolytes, with the declared ingredients kept in view.",
+  "description": "We screen declared formulas against the applicable ingredient rules. Electrolyte amounts, serving sizes and product preferences remain separate facts to compare.",
   "build": {
-    "id": 30,
+    "id": 31,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-15T17:33:15.507Z",
+  "generated_at": "2026-10-15T18:57:35.396Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -34,7 +34,7 @@
     "guide_heading": "How do you like your hydration?",
     "guide_open": "What matters most to you?",
     "empty_title": "No publishable references yet.",
-    "empty_body": "We reviewed 357 hydration products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "empty_body": "We reviewed 379 hydration products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -90,22 +90,22 @@
       "unit": "50 g carbohydrate",
       "non_negotiables": [],
       "counts": {
-        "reviewed": 0,
-        "excluded": 0,
-        "pending": 0
+        "reviewed": 22,
+        "excluded": 18,
+        "pending": 4
       },
       "shelf_note": null,
       "published": 0
     }
   ],
   "counts": {
-    "reviewed": 357,
+    "reviewed": 379,
     "selected": 0,
-    "excluded": 273,
-    "pending": 84,
+    "excluded": 291,
+    "pending": 88,
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-15T17:33:16.682Z",
+  "pulled_at": "2026-10-15T18:57:44.898Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

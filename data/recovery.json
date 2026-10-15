@@ -8,15 +8,15 @@
     "vertical_slug": "sport-nutrition",
     "domain": "supplement"
   },
-  "tagline": "What happens between sessions decides the next one.",
-  "description": "Sleep and joint support, filtered for Kuwait's import rules as well as our own doctrine. Where a compound cannot lawfully reach Kuwait, we leave the slot empty rather than list something you cannot receive.",
+  "tagline": "Sleep and joint support, with the ingredients kept in view.",
+  "description": "This category covers sleep and joint-support declarations. The merchant Muscle Recovery family has a separate page. Ingredient screening does not establish individual suitability or regulatory approval.",
   "build": {
-    "id": 30,
+    "id": 31,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-15T17:33:15.507Z",
+  "generated_at": "2026-10-15T18:57:35.396Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -34,7 +34,7 @@
     "guide_heading": "How do you like your recovery?",
     "guide_open": "What matters most to you?",
     "empty_title": "No publishable references yet.",
-    "empty_body": "We reviewed 0 recovery products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "empty_body": "We reviewed 28 recovery products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -76,9 +76,9 @@
       "unit": "one full dose",
       "non_negotiables": [],
       "counts": {
-        "reviewed": 0,
-        "excluded": 0,
-        "pending": 0
+        "reviewed": 28,
+        "excluded": 26,
+        "pending": 2
       },
       "shelf_note": "Melatonin is regulated differently across the Gulf. Import availability for Kuwait must be established separately from ingredient screening.",
       "published": 0
@@ -99,13 +99,13 @@
     }
   ],
   "counts": {
-    "reviewed": 0,
+    "reviewed": 28,
     "selected": 0,
-    "excluded": 0,
-    "pending": 0,
+    "excluded": 26,
+    "pending": 2,
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-15T17:33:16.682Z",
+  "pulled_at": "2026-10-15T18:57:44.898Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

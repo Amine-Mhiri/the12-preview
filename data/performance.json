@@ -8,22 +8,23 @@
     "vertical_slug": "sport-nutrition",
     "domain": "supplement"
   },
-  "tagline": "Compounds with trials behind them, at the doses used in those trials.",
+  "tagline": "Declared formulas checked. Choose what fits your training.",
   "description": "We review the declared formula against the applicable ingredient charter. Quantities, forms, product evidence and warnings remain separate facts; prices are compared using the declared category unit.",
   "build": {
-    "id": 30,
+    "id": 31,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-15T17:33:15.507Z",
+  "generated_at": "2026-10-15T18:57:35.396Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
   "comparison_unit": null,
   "comparison_units": [
     "5 g creatine",
-    "one full scoop"
+    "one full scoop",
+    "pack"
   ],
   "retailer_images": true,
   "stock_ttl_hours": 24,
@@ -37,7 +38,7 @@
     "guide_heading": "How do you like your performance?",
     "guide_open": "What matters most to you?",
     "empty_title": "No publishable references yet.",
-    "empty_body": "We reviewed 1042 performance products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "empty_body": "We reviewed 1212 performance products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -107,9 +108,9 @@
       "unit": "one full scoop",
       "non_negotiables": [],
       "counts": {
-        "reviewed": 494,
-        "excluded": 445,
-        "pending": 38
+        "reviewed": 505,
+        "excluded": 455,
+        "pending": 39
       },
       "shelf_note": null,
       "published": 4
@@ -121,9 +122,9 @@
       "unit": "10 g amino acids",
       "non_negotiables": [],
       "counts": {
-        "reviewed": 135,
-        "excluded": 127,
-        "pending": 8
+        "reviewed": 237,
+        "excluded": 211,
+        "pending": 26
       },
       "shelf_note": null,
       "published": 0
@@ -135,12 +136,12 @@
       "unit": "3.2 g beta-alanine",
       "non_negotiables": [],
       "counts": {
-        "reviewed": 0,
-        "excluded": 0,
-        "pending": 0
+        "reviewed": 20,
+        "excluded": 5,
+        "pending": 7
       },
       "shelf_note": null,
-      "published": 0
+      "published": 8
     },
     {
       "slug": "citrulline",
@@ -149,20 +150,20 @@
       "unit": "6 g L-citrulline",
       "non_negotiables": [],
       "counts": {
-        "reviewed": 0,
-        "excluded": 0,
-        "pending": 0
+        "reviewed": 37,
+        "excluded": 25,
+        "pending": 5
       },
       "shelf_note": null,
-      "published": 0
+      "published": 7
     }
   ],
   "counts": {
-    "reviewed": 1042,
-    "selected": 51,
-    "excluded": 767,
-    "pending": 184,
-    "flavor_options": 51
+    "reviewed": 1212,
+    "selected": 66,
+    "excluded": 891,
+    "pending": 215,
+    "flavor_options": 66
   },
   "groups": [
     {
@@ -4631,8 +4632,1316 @@
           "data_confidence": "verified"
         }
       ]
+    },
+    {
+      "id": "evlution-nutrition-beta-alanine-unflavored-0-4-lb-200-g",
+      "product_id": "p-818901028982",
+      "brand": "EVLution Nutrition",
+      "brand_slug": "evlution-nutrition",
+      "name": "Beta-Alanine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "evlution-nutrition-beta-alanine-unflavored-0-4-lb-200-g",
+          "catalogue_id": "p-818901028982",
+          "number": 52,
+          "title": "EVLution Nutrition, Beta-Alanine, Unflavored, 0.4 lb / 200 g",
+          "url": "https://kw.iherb.com/pr/evlution-nutrition-beta-alanine-unflavored-7-05-oz-200-g/125403",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-beta-alanine-unflavored-7-05-oz-200-g/125403",
+          "merchant_ref": "125403",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.4 lb / 200 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02898/l/12.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02898/l/12.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02898/l/18.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02898/l/20.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02898/l/21.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "beta-alanine",
+          "type_name": "Beta-Alanine",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Beta-Alanine; None",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 scoop (1.6 g)",
+            "servingsPerContainer": 125
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 4.28,
+          "price_from_build_kwd": 4.28,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.03424,
+          "cost_per_unit_kwd": 4.28,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:35:32.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/evlution-nutrition-beta-alanine-unflavored-7-05-oz-200-g/125403",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:35:32.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "jnx-sports-the-curse-beta-alanine-unflavored-0-7-lb-300-g",
+      "product_id": "p-797776094585",
+      "brand": "JNX Sports",
+      "brand_slug": "jnx-sports",
+      "name": "The Curse!®, Beta Alanine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "jnx-sports-the-curse-beta-alanine-unflavored-0-7-lb-300-g",
+          "catalogue_id": "p-797776094585",
+          "number": 53,
+          "title": "JNX Sports, The Curse!®, Beta Alanine, Unflavored, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/jnx-sports-the-curse-beta-alanine-unflavored-10-6-oz-300-g/143129",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/jnx-sports-the-curse-beta-alanine-unflavored-10-6-oz-300-g/143129",
+          "merchant_ref": "143129",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/cob/cob09458/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/cob/cob09458/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cob/cob09458/l/11.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "beta-alanine",
+          "type_name": "Beta-Alanine",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Beta-Alanine; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 scoop (3 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 4.01,
+          "price_from_build_kwd": 4.01,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0401,
+          "cost_per_unit_kwd": 4.01,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:35:43.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/jnx-sports-the-curse-beta-alanine-unflavored-10-6-oz-300-g/143129",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:35:43.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutricost-beta-alanine-unflavored-0-7-lb-303-g",
+      "product_id": "p-810014679150",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Beta Alanine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutricost-beta-alanine-unflavored-0-7-lb-303-g",
+          "catalogue_id": "p-810014679150",
+          "number": 54,
+          "title": "Nutricost, Beta Alanine, Unflavored, 0.7 lb / 303 g",
+          "url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-10-7-oz-300-g/153891",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-10-7-oz-300-g/153891",
+          "merchant_ref": "153891",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 303 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67915/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67915/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67915/l/13.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "beta-alanine",
+          "type_name": "Beta-Alanine",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Beta-Alanine; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (3 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 5.21,
+          "price_from_build_kwd": 5.21,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0521,
+          "cost_per_unit_kwd": 5.21,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:36:01.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-10-7-oz-300-g/153891",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:36:01.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutricost-beta-alanine-unflavored-0-4-lb-180-g",
+      "product_id": "p-810139572077",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Beta-Alanine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutricost-beta-alanine-unflavored-0-4-lb-180-g",
+          "catalogue_id": "p-810139572077",
+          "number": 55,
+          "title": "Nutricost, Beta-Alanine, Unflavored, 0.4 lb / 180 g",
+          "url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-6-4-oz-180-g/147376",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-6-4-oz-180-g/147376",
+          "merchant_ref": "147376",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.4 lb / 180 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57207/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57207/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57207/l/13.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "beta-alanine",
+          "type_name": "Beta-Alanine",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Beta-Alanine; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (3 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 2.71,
+          "price_from_build_kwd": 2.71,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.04516666666666667,
+          "cost_per_unit_kwd": 2.71,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:35:34.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-6-4-oz-180-g/147376",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:35:34.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutricost-beta-alanine-unflavored-1-1-lb-507-g",
+      "product_id": "p-810139571681",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "Beta-Alanine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutricost-beta-alanine-unflavored-1-1-lb-507-g",
+          "catalogue_id": "p-810139571681",
+          "number": 56,
+          "title": "Nutricost, Beta-Alanine, Unflavored, 1.1 lb / 507 g",
+          "url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-17-9-oz-500-g/145284",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-17-9-oz-500-g/145284",
+          "merchant_ref": "145284",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 507 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57168/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57168/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57168/l/29.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs57168/l/32.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "beta-alanine",
+          "type_name": "Beta-Alanine",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Beta-Alanine; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (3 g)",
+            "servingsPerContainer": 167
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.11,
+          "price_from_build_kwd": 7.11,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0425748502994012,
+          "cost_per_unit_kwd": 7.11,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:35:26.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-17-9-oz-500-g/145284",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:35:26.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "primaforce-beta-alanine-unflavored-0-4-lb-200-g",
+      "product_id": "p-811445020061",
+      "brand": "Primaforce",
+      "brand_slug": "primaforce",
+      "name": "Beta-Alanine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "primaforce-beta-alanine-unflavored-0-4-lb-200-g",
+          "catalogue_id": "p-811445020061",
+          "number": 57,
+          "title": "Primaforce, Beta-Alanine, Unflavored, 0.4 lb / 200 g",
+          "url": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-7-1-oz-200-g/78962",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-7-1-oz-200-g/78962",
+          "merchant_ref": "78962",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.4 lb / 200 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02006/l/38.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02006/l/38.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02006/l/43.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "beta-alanine",
+          "type_name": "Beta-Alanine",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Beta-Alanine; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "2 Scoops (2 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 6.89,
+          "price_from_build_kwd": 6.89,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0689,
+          "cost_per_unit_kwd": 6.89,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:36:18.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-7-1-oz-200-g/78962",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:36:18.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "primaforce-beta-alanine-unflavored-3-3-lb-1500-g",
+      "product_id": "p-811445020610",
+      "brand": "Primaforce",
+      "brand_slug": "primaforce",
+      "name": "Beta-Alanine",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "primaforce-beta-alanine-unflavored-3-3-lb-1500-g",
+          "catalogue_id": "p-811445020610",
+          "number": 58,
+          "title": "Primaforce, Beta-Alanine, Unflavored, 3.3 lb / 1500 g",
+          "url": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-52-9-oz-1-500-g/150688",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-52-9-oz-1-500-g/150688",
+          "merchant_ref": "150688",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "3.3 lb / 1500 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02061/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02061/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02061/l/13.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "beta-alanine",
+          "type_name": "Beta-Alanine",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Beta-Alanine; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (2 g)",
+            "servingsPerContainer": 750
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 17.55,
+          "price_from_build_kwd": 17.55,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0234,
+          "cost_per_unit_kwd": 17.55,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:36:15.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-52-9-oz-1-500-g/150688",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:36:15.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "primaforce-beta-alanine-powder-unflavored-1-1-lb-507-g",
+      "product_id": "p-811445021433",
+      "brand": "Primaforce",
+      "brand_slug": "primaforce",
+      "name": "Beta-Alanine Powder",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "primaforce-beta-alanine-powder-unflavored-1-1-lb-507-g",
+          "catalogue_id": "p-811445021433",
+          "number": 59,
+          "title": "Primaforce, Beta-Alanine Powder, Unflavored, 1.1 lb / 507 g",
+          "url": "https://kw.iherb.com/pr/primaforce-beta-alanine-powder-unflavored-17-9-oz-500-g/141704",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-beta-alanine-powder-unflavored-17-9-oz-500-g/141704",
+          "merchant_ref": "141704",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.1 lb / 507 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02143/l/26.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02143/l/26.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/pmf/pmf02143/l/21.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "beta-alanine",
+          "type_name": "Beta-Alanine",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Beta-Alanine; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "2 Scoops (2 g)",
+            "servingsPerContainer": 250
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 8.09,
+          "price_from_build_kwd": 8.09,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.03236,
+          "cost_per_unit_kwd": 8.09,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:35:38.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/primaforce-beta-alanine-powder-unflavored-17-9-oz-500-g/141704",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:35:38.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "california-gold-nutrition-l-citrulline-unflavored-0-7-lb-300-g",
+      "product_id": "p-898220024827",
+      "brand": "California Gold Nutrition",
+      "brand_slug": "california-gold-nutrition",
+      "name": "L-Citrulline",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "california-gold-nutrition-l-citrulline-unflavored-0-7-lb-300-g",
+          "catalogue_id": "p-898220024827",
+          "number": 60,
+          "title": "California Gold Nutrition, L-Citrulline, Unflavored, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-citrulline-unflavored-10-58-oz-300-g/139265",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-citrulline-unflavored-10-58-oz-300-g/139265",
+          "merchant_ref": "139265",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/spn/spn02482/l/72.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/spn/spn02482/l/72.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/spn/spn02482/l/119.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/spn/spn02482/l/17.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/spn/spn02482/l/69.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "citrulline",
+          "type_name": "Citrulline & Nitric Oxide",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "L-Citrulline; L-Citrulline",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "calories": 15,
+            "servingSize": "1 Scoop ( 3 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 9.67,
+          "price_from_build_kwd": 9.67,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.0967,
+          "cost_per_unit_kwd": 9.67,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:38:19.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/california-gold-nutrition-l-citrulline-unflavored-10-58-oz-300-g/139265",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:38:19.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsul",
+      "product_id": "p-898220011292",
+      "brand": "California Gold Nutrition",
+      "brand_slug": "california-gold-nutrition",
+      "name": "Sport, L-Citrulline, Kyowa Hakko, 500 mg, 60 Veggie Capsules",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsul",
+          "catalogue_id": "p-898220011292",
+          "number": 61,
+          "title": "California Gold Nutrition, Sport, L-Citrulline, Kyowa Hakko, 500 mg, 60 Veggie Capsules, size unknown",
+          "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsules/72316",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsules/72316",
+          "merchant_ref": "72316",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "size unknown",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn01129/l/228.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn01129/l/228.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn01129/l/146.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn01129/l/147.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/cgn/cgn01129/l/148.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "citrulline",
+          "type_name": "Citrulline & Nitric Oxide",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "L-Citrulline; L-Citrulline",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Capsule",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 2.38,
+          "price_from_build_kwd": 2.38,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.03966666666666666,
+          "cost_per_unit_kwd": 2.38,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:37:14.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsules/72316",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:37:14.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "doctor-s-best-l-citrulline-powder-0-4-lb-200-g",
+      "product_id": "p-753950004375",
+      "brand": "Doctor's Best",
+      "brand_slug": "doctor-s-best",
+      "name": "L-Citrulline Powder",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "doctor-s-best-l-citrulline-powder-0-4-lb-200-g",
+          "catalogue_id": "p-753950004375",
+          "number": 62,
+          "title": "Doctor's Best, L-Citrulline Powder, 0.4 lb / 200 g",
+          "url": "https://kw.iherb.com/pr/doctor-s-best-l-citrulline-powder-7-oz-200-g/69214",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/doctor-s-best-l-citrulline-powder-7-oz-200-g/69214",
+          "merchant_ref": "69214",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.4 lb / 200 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/drb/drb00437/l/129.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/drb/drb00437/l/129.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/drb/drb00437/l/135.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/drb/drb00437/l/137.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/drb/drb00437/l/138.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "citrulline",
+          "type_name": "Citrulline & Nitric Oxide",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "L-Citrulline; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (~3 grams)",
+            "servingsPerContainer": null
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.22,
+          "price_from_build_kwd": 7.22,
+          "price_is_live": true,
+          "price_per_serving_kwd": null,
+          "cost_per_unit_kwd": 7.22,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:37:15.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/doctor-s-best-l-citrulline-powder-7-oz-200-g/69214",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:37:15.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "evlution-nutrition-l-citrulline-2000-unflavored-0-5-lb-213-g",
+      "product_id": "p-818901022218",
+      "brand": "EVLution Nutrition",
+      "brand_slug": "evlution-nutrition",
+      "name": "L-Citrulline 2000",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "evlution-nutrition-l-citrulline-2000-unflavored-0-5-lb-213-g",
+          "catalogue_id": "p-818901022218",
+          "number": 63,
+          "title": "EVLution Nutrition, L-Citrulline 2000, Unflavored, 0.5 lb / 213 g",
+          "url": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-2000-unflavored-7-5-oz-200-g/87131",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-2000-unflavored-7-5-oz-200-g/87131",
+          "merchant_ref": "87131",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.5 lb / 213 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02221/l/38.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02221/l/38.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02221/l/40.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02221/l/49.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02221/l/50.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "citrulline",
+          "type_name": "Citrulline & Nitric Oxide",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "L-Citrulline; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 scoop (2 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 5,
+          "price_from_build_kwd": 5,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.05,
+          "cost_per_unit_kwd": 5,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:37:28.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-2000-unflavored-7-5-oz-200-g/87131",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:37:28.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "evlution-nutrition-l-citrulline-malate-2-1-unflavored-0-4-lb-200-g",
+      "product_id": "p-818901029729",
+      "brand": "EVLution Nutrition",
+      "brand_slug": "evlution-nutrition",
+      "name": "L-Citrulline Malate 2:1",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "evlution-nutrition-l-citrulline-malate-2-1-unflavored-0-4-lb-200-g",
+          "catalogue_id": "p-818901029729",
+          "number": 64,
+          "title": "EVLution Nutrition, L-Citrulline Malate 2:1, Unflavored, 0.4 lb / 200 g",
+          "url": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-malate-2-1-unflavored-7-05-oz-200-g/138125",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-malate-2-1-unflavored-7-05-oz-200-g/138125",
+          "merchant_ref": "138125",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.4 lb / 200 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02972/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02972/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02972/l/14.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02972/l/16.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/evl/evl02972/l/17.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "citrulline",
+          "type_name": "Citrulline & Nitric Oxide",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "L-Citrulline Malate; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (2 g)",
+            "servingsPerContainer": 100
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 6.1,
+          "price_from_build_kwd": 6.1,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.061,
+          "cost_per_unit_kwd": 6.1,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:36:13.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-malate-2-1-unflavored-7-05-oz-200-g/138125",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:36:13.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "now-foods-l-citrulline-pure-powder-0-2-lb-113-g",
+      "product_id": "p-733739002143",
+      "brand": "NOW Foods",
+      "brand_slug": "now-foods",
+      "name": "L-Citrulline, Pure Powder",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "now-foods-l-citrulline-pure-powder-0-2-lb-113-g",
+          "catalogue_id": "p-733739002143",
+          "number": 65,
+          "title": "NOW Foods, L-Citrulline, Pure Powder, 0.2 lb / 113 g",
+          "url": "https://kw.iherb.com/pr/now-foods-l-citrulline-pure-powder-4-oz-113-g/15501",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-l-citrulline-pure-powder-4-oz-113-g/15501",
+          "merchant_ref": "15501",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.2 lb / 113 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/now/now00214/l/47.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now00214/l/47.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now00214/l/53.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now00214/l/55.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now00214/l/56.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "citrulline",
+          "type_name": "Citrulline & Nitric Oxide",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "L-Citrulline; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "calories": 5,
+            "servingSize": "1/2 Level Teaspoon (approx. 1.5 g)",
+            "servingsPerContainer": 75
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.01,
+          "price_from_build_kwd": 7.01,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.09346666666666667,
+          "cost_per_unit_kwd": 7.01,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:38:40.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/now-foods-l-citrulline-pure-powder-4-oz-113-g/15501",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:38:40.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nutricost-l-citrulline-unflavored-1-3-lb-600-g",
+      "product_id": "p-810014679327",
+      "brand": "Nutricost",
+      "brand_slug": "nutricost",
+      "name": "L-Citrulline",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "nutricost-l-citrulline-unflavored-1-3-lb-600-g",
+          "catalogue_id": "p-810014679327",
+          "number": 66,
+          "title": "Nutricost, L-Citrulline, Unflavored, 1.3 lb / 600 g",
+          "url": "https://kw.iherb.com/pr/nutricost-l-citrulline-unflavored-1-3-lb-600-g/145302",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-citrulline-unflavored-1-3-lb-600-g/145302",
+          "merchant_ref": "145302",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.3 lb / 600 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67932/l/8.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67932/l/8.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67932/l/13.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/ncs/ncs67932/l/16.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "citrulline",
+          "type_name": "Citrulline & Nitric Oxide",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "L-Citrulline; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (3 g)",
+            "servingsPerContainer": 200
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 11.91,
+          "price_from_build_kwd": 11.91,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.05955,
+          "cost_per_unit_kwd": 11.91,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:37:21.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/nutricost-l-citrulline-unflavored-1-3-lb-600-g/145302",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:37:21.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
     }
   ],
-  "pulled_at": "2026-10-15T17:33:16.680Z",
+  "pulled_at": "2026-10-15T18:57:44.896Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

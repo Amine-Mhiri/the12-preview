@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "selection_policy": "ingredients-first-2.0.0",
+  "default_priority": "price",
+  "category": "muscle-recovery",
+  "category_name": "Muscle Recovery",
+  "presentation": {
+    "vertical_slug": "sport-nutrition",
+    "domain": "supplement"
+  },
+  "tagline": "Ingredients checked. Your preferences come next.",
+  "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
+  "build": {
+    "id": 31,
+    "source": "crawl",
+    "charter": "0.15.0"
+  },
+  "reviewed_at": "2026-10-15",
+  "generated_at": "2026-10-15T18:57:35.396Z",
+  "live": false,
+  "charter": "0.15.0",
+  "exclusion_rules": 476,
+  "comparison_unit": "pack",
+  "comparison_units": [
+    "pack"
+  ],
+  "retailer_images": true,
+  "stock_ttl_hours": 24,
+  "affiliate_active": false,
+  "copy": {
+    "unit_name": "pack",
+    "unit_basis": "Price for the exact pack. No nutritional or efficacy equivalence is implied.",
+    "screening_note": "Published references have a readable, complete ingredient declaration checked against the applicable ingredient restrictions in charter 0.15.0. This first filter does not certify nutritional quality, efficacy or laboratory testing.",
+    "audience_note": "This selection is for adults and does not determine individual medical suitability.",
+    "noun": "muscle recovery",
+    "guide_heading": "How do you like your muscle recovery?",
+    "guide_open": "What matters most to you?",
+    "empty_title": "No publishable references yet.",
+    "empty_body": "We reviewed 99 muscle recovery products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "milk_allergy_empty": {
+      "title": "Nothing here is free of milk.",
+      "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
+    }
+  },
+  "constraints": {
+    "director": "Our pick only",
+    "milkAllergy": "Milk allergy",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten-free",
+    "soy": "Soy-free",
+    "noStevia": "No stevia",
+    "sport": "Independently tested"
+  },
+  "priorities": {
+    "name": "Alphabetical",
+    "price": "Lowest pack price",
+    "simple": "Fewest declared ingredients"
+  },
+  "flavors": {
+    "all": "All flavors",
+    "unflavoured": "Unflavoured",
+    "vanilla": "Vanilla",
+    "chocolate": "Chocolate",
+    "fruit": "Fruity",
+    "dessert": "Dessert",
+    "other": "Other"
+  },
+  "director_selection": {
+    "selected": 0,
+    "note": "Editorial choices among ingredient-admitted references, recorded in the database."
+  },
+  "types": [
+    {
+      "slug": "muscle-recovery",
+      "name": "Muscle Recovery",
+      "purpose": "Ingredient-first selection.",
+      "unit": "pack",
+      "non_negotiables": [],
+      "counts": {
+        "reviewed": 99,
+        "excluded": 49,
+        "pending": 45
+      },
+      "shelf_note": null,
+      "published": 5
+    }
+  ],
+  "counts": {
+    "reviewed": 99,
+    "selected": 5,
+    "excluded": 49,
+    "pending": 45,
+    "flavor_options": 5
+  },
+  "groups": [
+    {
+      "id": "biotrust-ageless-muscle-fruit-punch-0-5-lb-211-g",
+      "product_id": "p-812996020180",
+      "brand": "BioTRUST",
+      "brand_slug": "biotrust",
+      "name": "Ageless Muscle®",
+      "flavor": "Fruit Punch",
+      "flavor_group": "fruit",
+      "variants": [
+        {
+          "id": "biotrust-ageless-muscle-fruit-punch-0-5-lb-211-g",
+          "catalogue_id": "p-812996020180",
+          "number": 1,
+          "title": "BioTRUST, Ageless Muscle®, Fruit Punch, 0.5 lb / 211 g",
+          "url": "https://kw.iherb.com/pr/biotrust-ageless-muscle-fruit-punch-7-4-oz-211-g/145607",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/biotrust-ageless-muscle-fruit-punch-7-4-oz-211-g/145607",
+          "merchant_ref": "145607",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.5 lb / 211 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/bsr/bsr02018/l/24.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/bsr/bsr02018/l/24.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/bsr/bsr02018/l/30.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "muscle-recovery",
+          "type_name": "Muscle Recovery",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Creatine Monohydrate; Betaine Anhydrous; Natural flavors, citric acid, malic acid, beet juice powder (color), sea salt, steviol glycosides.",
+          "ingredient_count": 8,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 Scoop (7 g)",
+            "servingsPerContainer": 30
+          },
+          "flavor": "Fruit Punch",
+          "flavor_group": "fruit",
+          "price_kwd": 11.74,
+          "price_from_build_kwd": 11.74,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.39133333333333337,
+          "cost_per_unit_kwd": 11.74,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:50:25.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/biotrust-ageless-muscle-fruit-punch-7-4-oz-211-g/145607",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:50:25.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "california-gold-nutrition-d-ribose-powder-unflavored-0-7-lb-300-g",
+      "product_id": "p-898220016808",
+      "brand": "California Gold Nutrition",
+      "brand_slug": "california-gold-nutrition",
+      "name": "D-Ribose Powder",
+      "flavor": "Unflavored",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "california-gold-nutrition-d-ribose-powder-unflavored-0-7-lb-300-g",
+          "catalogue_id": "p-898220016808",
+          "number": 2,
+          "title": "California Gold Nutrition, D-Ribose Powder, Unflavored, 0.7 lb / 300 g",
+          "url": "https://kw.iherb.com/pr/california-gold-nutrition-d-ribose-powder-unflavored-10-6-oz-300-g/97386",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-d-ribose-powder-unflavored-10-6-oz-300-g/97386",
+          "merchant_ref": "97386",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 300 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/lkn/lkn01680/l/95.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/lkn/lkn01680/l/95.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/lkn/lkn01680/l/100.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/lkn/lkn01680/l/141.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/lkn/lkn01680/l/84.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "muscle-recovery",
+          "type_name": "Muscle Recovery",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "D-Ribose; D-Ribose",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "carbsG": 5,
+            "sugarG": 5,
+            "calories": 20,
+            "servingSize": "1 teaspoon (5 g)",
+            "servingsPerContainer": 60
+          },
+          "flavor": "Unflavored",
+          "flavor_group": "unflavoured",
+          "price_kwd": 7.01,
+          "price_from_build_kwd": 7.01,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.11683333333333333,
+          "cost_per_unit_kwd": 7.01,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:38:23.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/california-gold-nutrition-d-ribose-powder-unflavored-10-6-oz-300-g/97386",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:38:23.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "carlson-ribose-0-2-lb-100-g",
+      "product_id": "p-088395088254",
+      "brand": "Carlson",
+      "brand_slug": "carlson",
+      "name": "Ribose",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "carlson-ribose-0-2-lb-100-g",
+          "catalogue_id": "p-088395088254",
+          "number": 3,
+          "title": "Carlson, Ribose, 0.2 lb / 100 g",
+          "url": "https://kw.iherb.com/pr/carlson-ribose-3-53-oz-100-g/22611",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-ribose-3-53-oz-100-g/22611",
+          "merchant_ref": "22611",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.2 lb / 100 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/car/car08825/l/45.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/car/car08825/l/45.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/car/car08825/l/50.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "muscle-recovery",
+          "type_name": "Muscle Recovery",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "D-Ribose",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "carbsG": 4,
+            "sugarG": 4,
+            "calories": 15,
+            "addedSugarG": 8,
+            "servingSize": "1 Teaspoon (enclosed 1 level scoop - 3.5 g)",
+            "servingsPerContainer": 28
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 6.04,
+          "price_from_build_kwd": 6.04,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.21571428571428572,
+          "cost_per_unit_kwd": 6.04,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:48:38.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/carlson-ribose-3-53-oz-100-g/22611",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:48:38.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "carlson-ribose-30-single-serving-packets-size-unknown",
+      "product_id": "p-088395088247",
+      "brand": "Carlson",
+      "brand_slug": "carlson",
+      "name": "Ribose, 30 Single-Serving Packets",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "carlson-ribose-30-single-serving-packets-size-unknown",
+          "catalogue_id": "p-088395088247",
+          "number": 4,
+          "title": "Carlson, Ribose, 30 Single-Serving Packets, size unknown",
+          "url": "https://kw.iherb.com/pr/carlson-ribose-30-single-serving-packets/22612",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-ribose-30-single-serving-packets/22612",
+          "merchant_ref": "22612",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "size unknown",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/car/car08824/l/74.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/car/car08824/l/74.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/car/car08824/l/73.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/car/car08824/l/75.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "muscle-recovery",
+          "type_name": "Muscle Recovery",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "D-Ribose",
+          "ingredient_count": 1,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "carbsG": 5,
+            "sugarG": 5,
+            "calories": 20,
+            "addedSugarG": 10,
+            "servingSize": "1 Packet (5 g)",
+            "servingsPerContainer": 30
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 11.62,
+          "price_from_build_kwd": 11.62,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.3873333333333333,
+          "cost_per_unit_kwd": 11.62,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:52:17.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/carlson-ribose-30-single-serving-packets/22612",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:52:17.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "jarrow-formulas-vegan-d-ribose-0-4-lb-200-g",
+      "product_id": "p-790011010302",
+      "brand": "Jarrow Formulas",
+      "brand_slug": "jarrow-formulas",
+      "name": "Vegan D-Ribose",
+      "flavor": "Unflavoured",
+      "flavor_group": "unflavoured",
+      "variants": [
+        {
+          "id": "jarrow-formulas-vegan-d-ribose-0-4-lb-200-g",
+          "catalogue_id": "p-790011010302",
+          "number": 5,
+          "title": "Jarrow Formulas, Vegan D-Ribose, 0.4 lb / 200 g",
+          "url": "https://kw.iherb.com/pr/jarrow-formulas-vegan-d-ribose-7-05-oz-200-g/4290",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/jarrow-formulas-vegan-d-ribose-7-05-oz-200-g/4290",
+          "merchant_ref": "4290",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.4 lb / 200 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/jrw/jrw01030/l/93.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/jrw/jrw01030/l/93.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/jrw/jrw01030/l/98.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "muscle-recovery",
+          "type_name": "Muscle Recovery",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "D-Ribose; None.",
+          "ingredient_count": 2,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "carbsG": 2,
+            "sugarG": 2,
+            "calories": 10,
+            "addedSugarG": 4,
+            "servingSize": "1 Scoop (2.2 g)",
+            "servingsPerContainer": 90
+          },
+          "flavor": "Unflavoured",
+          "flavor_group": "unflavoured",
+          "price_kwd": 12.62,
+          "price_from_build_kwd": 12.62,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.14022222222222222,
+          "cost_per_unit_kwd": 12.62,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:45:15.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/jarrow-formulas-vegan-d-ribose-7-05-oz-200-g/4290",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:45:15.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-15",
+          "data_confidence": "verified"
+        }
+      ]
+    }
+  ],
+  "pulled_at": "2026-10-15T18:57:44.900Z",
+  "api": "https://api.srv2021063.hstgr.cloud"
+}
