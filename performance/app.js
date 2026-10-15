@@ -30,6 +30,8 @@
  * by the build and are never edited here.
  */
 const CATEGORY=document.body.dataset.category;
+const {initializeSelectionLayout,selectionLabels}=await import('./selection-layout.mjs');
+const selectionLayout=initializeSelectionLayout(document,matchMedia('(max-width:900px)'));
 const {subcategories,scopeContext}=await import('./subcategories.mjs');
 const VIEW=document.body.dataset.view||CATEGORY;
 const {catalogueView,comparisonCost}=await import('./views.mjs');
@@ -119,13 +121,9 @@ function syncTypeUrl(){
 function renderSubcategories(){
   const nav=$('#subcategory-nav'),rows=subcategories(data),known=rows.some(t=>t.slug===state.type);
   nav.hidden=rows.length<2&&(state.type==='all'||known);
-  const links=[{slug:'all',name:'All',published:data.counts.selected},...rows];
+  const labels=selectionLabels(data);
+  const links=[{slug:'all',name:labels.allLabel,published:data.counts.selected},...rows];
   nav.innerHTML=`<div class="subcategory-links">${links.map(t=>`<a id="subcategory-${t.slug}" href="${t.slug==='all'?'./':`?type=${encodeURIComponent(t.slug)}`}#selection" data-subcategory="${t.slug}" ${state.type===t.slug?'aria-current="page"':''} title="${t.published} published references">${esc(t.name)} <span>${t.published}</span></a>`).join('')}</div>${state.type!=='all'&&!known?'<p class="subcategory-note" role="status">This subcategory has no published references. Select All to browse the available selection.</p>':''}`;
-  const scroller=nav.querySelector('.subcategory-links'),active=nav.querySelector('[aria-current="page"]');
-  if(scroller?.getBoundingClientRect&&active?.getBoundingClientRect){
-    const a=active.getBoundingClientRect(),s=scroller.getBoundingClientRect();
-    scroller.scrollLeft+=a.left<s.left?a.left-s.left:a.right>s.right?a.right-s.right:0;
-  }
   nav.querySelectorAll('[data-subcategory]').forEach(a=>a.onclick=e=>{
     if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();
     state.type=a.dataset.subcategory;choices.clear();limit=16;renderFilters();renderResults();document.getElementById('subcategory-'+state.type)?.focus({preventScroll:true});
@@ -134,7 +132,8 @@ function renderSubcategories(){
 addEventListener('popstate',()=>{if(data){state.type=urlType();choices.clear();limit=16;renderFilters();renderResults();}});
 function renderFilters(){
   syncTypeContext();
-  $('#filters').innerHTML=`<label class="search-label">Brand or product<select id="search">${catalogOptions()}</select></label><label>Flavor<select id="flavor">${options(FLAVORS,state.flavor)}</select></label><label>Your priority<select id="priority">${options(PRIORITIES,state.priority)}</select></label>`;
+  $('#filters').innerHTML=`<label class="search-label">Brand or product<select id="search">${catalogOptions()}</select></label><label>Flavor<select id="flavor">${options(FLAVORS,state.flavor)}</select></label>`;
+  $('#sort-control').innerHTML=`<label class="sort-label">Sort by<select id="priority">${options(PRIORITIES,state.priority)}</select></label>`;
   if(!$('#extra-filters'))$('#filters').insertAdjacentHTML('afterend','<details id="extra-filters" class="extra-filters"></details>');
   $('#extra-filters').innerHTML=`<summary>Preferences <span aria-hidden="true" class="preference-toggle"></span></summary><div class="preference-pills" role="group" aria-label="Dietary preferences">${checkboxes(state,'filter')}${constraintNames.milkAllergy?`<label class="check"><input type="checkbox" data-constraint="milkAllergy" ${state.milkAllergy?'checked':''}><span>${constraintNames.milkAllergy}</span></label>`:''}</div>`;
   $('#search').onchange=e=>{state.query=e.target.value;filterChanged();};
@@ -163,7 +162,7 @@ function directorDetail(v){
     +`</ul><p class="detail-small">This is an editorial preference, not a health or efficacy threshold. It certifies no contaminant result, no supplied batch and no allergen status.</p></section>`;
 }
 function filterChanged(){limit=16;choices.clear();renderResults();}
-function clearAll(){state={...DEFAULTS,priority:data?.default_priority??DEFAULTS.priority};guided=false;limit=16;choices.clear();renderFilters();renderResults();}
+function clearAll(type='all'){if(typeof type!=='string')type='all';state={...DEFAULTS,type,priority:data?.default_priority??DEFAULTS.priority};guided=false;limit=16;choices.clear();renderFilters();renderResults();}
 function chips(){
   const items=[];
   if(state.type!=='all')items.push(['type',subcategories(data).find(t=>t.slug===state.type)?.name||'Unavailable subcategory']);
@@ -231,6 +230,8 @@ function renderResults(){
   syncTypeContext();renderSubcategories();syncTypeUrl();
   const rows=selectProducts(data,state),refCount=rows.reduce((n,g)=>n+g.variants.length,0);
   renderScope();chips();$('#result-count').textContent=`${rows.length} product${rows.length===1?'':'s'} · ${refCount} reference${refCount===1?'':'s'}`;
+  const labels=selectionLabels(data),filterCount=Number(Boolean(state.query))+Number(state.flavor!=='all')+Number(state.budget!=='')+Object.keys(constraintNames).filter(key=>state[key]).length;
+  selectionLayout.update({labels,typeName:state.type==='all'?labels.allLabel:subcategories(data).find(t=>t.slug===state.type)?.name||'Unavailable type',hasTypes:!$('#subcategory-nav').hidden,filterCount,resultText:$('#result-count').textContent});
   const matches=guided?recommendations(data,state):[];
   $('#recommendations').innerHTML=guided&&matches.length?`<section class="matches-panel" aria-labelledby="matches-title"><div class="matches-heading"><div><p class="eyebrow">MADE PERSONAL</p><h3 id="matches-title">${matches.length===1?'Your match':'Your matches'}</h3><p>Chosen by your preferences. ${state.priority==='name'?'Listed alphabetically.':`Priority: ${esc(PRIORITIES[state.priority].toLowerCase())}.`} Current stock comes first.</p></div><button class="text-button" data-guide>Edit my answers ↗</button></div><div class="product-grid">${matches.map(g=>card(g,true)).join('')}</div><button class="button secondary all-results" id="all-results">Browse ${rows.length===1?'the matching option':`all ${rows.length} matching options`} ↓</button></section>`:'';
   let visibleRows=guided&&matches.length?rows.filter(g=>!matches.some(m=>m.id===g.id)):rows;
@@ -258,7 +259,8 @@ function emptyState(){
 function bindDynamic(){
   document.querySelectorAll('[data-detail]').forEach(b=>b.onclick=()=>openDetail(b.dataset.detail));
   document.querySelectorAll('[data-guide]').forEach(b=>b.onclick=openGuide);
-  document.querySelectorAll('[data-reset]').forEach(b=>b.onclick=clearAll);
+  document.querySelectorAll('[data-reset]').forEach(b=>b.onclick=()=>clearAll());
+  document.querySelectorAll('[data-reset-preferences]').forEach(b=>b.onclick=()=>clearAll(state.type));
   document.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>{state[b.dataset.remove]=DEFAULTS[b.dataset.remove];choices.clear();limit=16;renderFilters();renderResults();});
   document.querySelectorAll('.product-photo img').forEach(img=>{img.onerror=()=>{img.hidden=true;const fallback=img.closest(".product-photo")?.querySelector(".image-fallback");if(fallback)fallback.hidden=false;};});
   document.querySelectorAll('[data-size],[data-flavor-product]').forEach(control=>{
@@ -403,7 +405,7 @@ const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalo
   setInterval(refreshAvailability,60000);
   document.addEventListener('visibilitychange',refreshAvailability);
 }).catch(()=>{
-  $('.view-switch').hidden=true;$('.selection-tools').hidden=true;if($('#director-intro'))$('#director-intro').hidden=true;$('#filters').hidden=true;$('#result-count').textContent='Selection unavailable';$('#products').innerHTML='<div class="empty"><h3>The selection could not load.</h3><p>Please reload to retrieve the reviewed products and their prices.</p><button class="button primary" id="reload">Reload the selection</button></div>';$('#reload').onclick=()=>location.reload();document.querySelectorAll('[data-guide]').forEach(b=>b.disabled=true);
+  $('.view-switch').hidden=true;$('#mobile-selection-actions').hidden=true;$('.selection-sidebar').hidden=true;if($('#director-intro'))$('#director-intro').hidden=true;$('#filters').hidden=true;$('#result-count').textContent='Selection unavailable';$('#products').innerHTML='<div class="empty"><h3>The selection could not load.</h3><p>Please reload to retrieve the reviewed products and their prices.</p><button class="button primary" id="reload">Reload the selection</button></div>';$('#reload').onclick=()=>location.reload();document.querySelectorAll('[data-guide]').forEach(b=>b.disabled=true);
 });
 
 // Exposed for tests/storefront-render.test.mjs, which opens every product's
