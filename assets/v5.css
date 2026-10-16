@@ -376,7 +376,7 @@ main > section.paradox{padding:88px 0}
 .cs-readout small{font-size:12px;color:var(--muted)}
 .cs-shortlist .cs-foot{padding-top:2px}
 
-/* 14. Offer (S6): five categories, the open one centre and full size. The
+/* 14. Offer (S6): five categories, Sport centred and larger on desktop. The
    drawings are line art in the same hand as the two animations above. ------- */
 main > section.offer{padding:96px 0}
 .offer .sec-head{margin-bottom:52px}
@@ -394,7 +394,7 @@ main > section.offer{padding:96px 0}
 .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr)) minmax(0,1.55fr) repeat(2,minmax(0,1fr));grid-template-rows:auto auto;gap:20px}
 .tile{text-align:center;display:grid;grid-row:span 2;grid-template-rows:subgrid}
 .tile-link{display:grid;grid-row:span 2;grid-template-rows:subgrid}
-.tile-media{align-self:center}
+.tile-media{align-self:end}
 .tile.is-soon{opacity:.55}
 .tile-media{display:grid;place-items:center;aspect-ratio:1;border-radius:var(--r-card);background:var(--sage);overflow:hidden}
 .tile.is-open .tile-media{background:var(--mint);box-shadow:inset 0 0 0 1px var(--mint-deep)}
@@ -526,8 +526,12 @@ main > section.news{padding:72px 0}
   .why-num{font-size:76px}
   .tiles{grid-template-columns:1fr 1fr;grid-template-rows:none;gap:28px 20px}
   .tile,.tile-link{display:block;grid-row:auto}
-  .tile.is-open{grid-column:1 / -1;grid-row:1}
-  .tile.is-open .tile-media{aspect-ratio:16/7}
+  .tile.is-open{grid-column:auto;grid-row:auto;order:0}
+  .tile.is-soon{order:1}
+  .tile.is-open .tile-media{aspect-ratio:4/3}
+  .tile.is-open .tile-txt{padding-top:18px;gap:9px}
+  .tile.is-open .tile-txt h3{font-size:17px}
+  .tile.is-open .tile-txt p{font-size:15px}
   .tile.is-open .cat-illo{width:auto;height:84%}
   .tile.is-soon .tile-media{aspect-ratio:4/3}
   .news-in{grid-template-columns:1fr;gap:32px}
@@ -591,12 +595,12 @@ main > section.news{padding:72px 0}
   .paradox .body{font-size:17px;margin-top:20px}
   .rule h2{font-size:32px;margin-top:32px}
   .tiles{gap:22px 14px}
-  .tile.is-open .tile-media{aspect-ratio:3/2}
+  .tile.is-open .tile-media{aspect-ratio:4/3}
   .tile-txt{padding-top:12px;gap:7px}
   .tile-txt h3{font-size:16px}
   .tile-txt p{font-size:14px}
-  .tile.is-open .tile-txt h3{font-size:21px}
-  .tile.is-open .tile-txt p{font-size:16px}
+  .tile.is-open .tile-txt h3{font-size:16px}
+  .tile.is-open .tile-txt p{font-size:14px}
   main > section.cta{padding:80px 0}
   main > section.news{padding:56px 0}
   .news h2{font-size:28px}
