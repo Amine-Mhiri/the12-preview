@@ -11,12 +11,12 @@
   "tagline": "Ingredients checked. Your preferences come next.",
   "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
   "build": {
-    "id": 31,
+    "id": 32,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-20T07:33:44.033Z",
+  "reviewed_at": "2026-10-20",
+  "generated_at": "2026-10-20T08:04:20.924Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -99,8 +99,9 @@
       "brand": "Advanced Orthomolecular Research AOR",
       "brand_slug": "advanced-orthomolecular-research-aor",
       "name": "L-Glutamine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "advanced-orthomolecular-research-aor-l-glutamine-powder-1-0-lb-450-g",
@@ -140,8 +141,8 @@
             "servingSize": "5 g (approx. 1 level scoop)",
             "servingsPerContainer": 90
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 13.56,
           "price_from_build_kwd": 13.56,
           "price_is_live": true,
@@ -174,7 +175,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -185,8 +186,9 @@
       "brand": "ALLMAX",
       "brand_slug": "allmax",
       "name": "D-Aspartic Acid",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "allmax-d-aspartic-acid-0-2-lb-100-g",
@@ -226,8 +228,8 @@
             "servingSize": "(1 rounded teaspoon) 3.12 g",
             "servingsPerContainer": 32
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 4.54,
           "price_from_build_kwd": 4.54,
           "price_is_live": true,
@@ -260,7 +262,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -271,8 +273,9 @@
       "brand": "ALLMAX",
       "brand_slug": "allmax",
       "name": "Essentials, Arginine HCl",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "allmax-essentials-arginine-hcl-0-9-lb-400-g",
@@ -312,8 +315,8 @@
             "servingSize": "1 Scoop (5 g)",
             "servingsPerContainer": 80
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 8.83,
           "price_from_build_kwd": 8.83,
           "price_is_live": true,
@@ -346,7 +349,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -357,8 +360,9 @@
       "brand": "ALLMAX",
       "brand_slug": "allmax",
       "name": "Essentials, Leucine+",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "allmax-essentials-leucine-0-9-lb-400-g",
@@ -398,8 +402,8 @@
             "servingSize": "1 Scoop (5 g)",
             "servingsPerContainer": 80
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 7.52,
           "price_from_build_kwd": 7.52,
           "price_is_live": true,
@@ -432,7 +436,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -443,8 +447,9 @@
       "brand": "ALLMAX",
       "brand_slug": "allmax",
       "name": "Essentials, Taurine",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "allmax-essentials-taurine-0-9-lb-400-g",
@@ -484,8 +489,8 @@
             "servingSize": "1 Scoop (3 g)",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.17,
           "price_from_build_kwd": 6.17,
           "price_is_live": true,
@@ -518,7 +523,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -529,8 +534,9 @@
       "brand": "Best Naturals",
       "brand_slug": "best-naturals",
       "name": "L-Arginine",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "best-naturals-l-arginine-1-0-lb-454-g",
@@ -570,8 +576,8 @@
             "servingSize": "2 Level Teaspoon (4.6 g)",
             "servingsPerContainer": 98
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 7.31,
           "price_from_build_kwd": 7.31,
           "price_is_live": true,
@@ -604,7 +610,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -615,8 +621,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "Acetyl-L-Carnitine, 500 mg, 60 Veggie Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-acetyl-l-carnitine-500-mg-60-veggie-capsules-size-unkn",
@@ -658,8 +665,8 @@
             "servingSize": "1 Capsule",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.02,
           "price_from_build_kwd": 6.02,
           "price_is_live": true,
@@ -692,7 +699,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -703,8 +710,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Arginine, 500 mg, 60 Veggie Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-l-arginine-500-mg-60-veggie-capsules-size-unknown",
@@ -746,8 +754,8 @@
             "servingSize": "1 Capsule",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 1.81,
           "price_from_build_kwd": 1.81,
           "price_is_live": true,
@@ -780,7 +788,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -791,8 +799,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Cysteine, 500 mg, 90 Veggie Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-l-cysteine-500-mg-90-veggie-capsules-size-unknown",
@@ -834,8 +843,8 @@
             "servingSize": "1 Capsule",
             "servingsPerContainer": 90
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 4.83,
           "price_from_build_kwd": 4.83,
           "price_is_live": true,
@@ -868,7 +877,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -879,8 +888,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Cysteine, AjiPure®, 500 mg, 60 Veggie Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-l-cysteine-ajipure-500-mg-60-veggie-capsules-size-unkn",
@@ -922,8 +932,8 @@
             "servingSize": "1 Capsule",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.05,
           "price_from_build_kwd": 6.05,
           "price_is_live": true,
@@ -956,7 +966,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -967,6 +977,7 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Glutamine + L-Leucine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1045,7 +1056,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1056,8 +1067,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Glutamine + L-Leucine, 120 Veggie Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-l-glutamine-l-leucine-120-veggie-capsules-size-unknown",
@@ -1100,8 +1112,8 @@
             "servingSize": "2 Capsules",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.37,
           "price_from_build_kwd": 3.37,
           "price_is_live": true,
@@ -1134,7 +1146,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1145,8 +1157,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Glutamine, AjiPure®, 120 Veggie Capsules (500 mg per Capsule)",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-l-glutamine-ajipure-120-veggie-capsules-500-mg-per-cap",
@@ -1188,8 +1201,8 @@
             "servingSize": "2 Capsules",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.24,
           "price_from_build_kwd": 3.24,
           "price_is_live": true,
@@ -1222,7 +1235,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1233,8 +1246,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Glutamine, AjiPure®, 750 mg, 120 Veggie Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-l-glutamine-ajipure-750-mg-120-veggie-capsules-size-un",
@@ -1276,8 +1290,8 @@
             "servingSize": "1 Capsule",
             "servingsPerContainer": 120
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.59,
           "price_from_build_kwd": 3.59,
           "price_is_live": true,
@@ -1310,7 +1324,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1321,6 +1335,7 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Serine Powder, AjiPure Amino Acid",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1398,7 +1413,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1409,8 +1424,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Serine, 900 mg, 120 Veggie Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-l-serine-900-mg-120-veggie-capsules-size-unknown",
@@ -1452,8 +1468,8 @@
             "servingSize": "1 Capsule",
             "servingsPerContainer": 120
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 4.71,
           "price_from_build_kwd": 4.71,
           "price_is_live": true,
@@ -1486,7 +1502,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1497,8 +1513,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Theanine, Featuring AlphaWave®, 200 mg, 60 Veggie Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-l-theanine-featuring-alphawave-200-mg-60-veggie-capsul",
@@ -1540,8 +1557,8 @@
             "servingSize": "1 Capsule",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.25,
           "price_from_build_kwd": 3.25,
           "price_is_live": true,
@@ -1574,7 +1591,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1585,8 +1602,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "Sport, L-Glutamine, AjiPure®, 240 Veggie Capsules (500 mg per Capsule)",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-sport-l-glutamine-ajipure-240-veggie-capsules-500-mg-p",
@@ -1628,8 +1646,8 @@
             "servingSize": "2 Capsules",
             "servingsPerContainer": 120
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 5.79,
           "price_from_build_kwd": 5.79,
           "price_is_live": true,
@@ -1662,7 +1680,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1673,8 +1691,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "Taurine, 1, 000 mg, 60 Veggie Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-taurine-1-000-mg-60-veggie-capsules-size-unknown",
@@ -1716,8 +1735,8 @@
             "servingSize": "1 Capsule",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.06,
           "price_from_build_kwd": 3.06,
           "price_is_live": true,
@@ -1750,7 +1769,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1761,8 +1780,9 @@
       "brand": "Carlson",
       "brand_slug": "carlson",
       "name": "Glycine Powder, Free Form Amino Acid",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "carlson-glycine-powder-free-form-amino-acid-0-2-lb-100-g",
@@ -1804,8 +1824,8 @@
             "servingSize": "1/2 Teaspoon (enclosed 1 level scoop - 2 g)",
             "servingsPerContainer": 50
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.09,
           "price_from_build_kwd": 3.09,
           "price_is_live": true,
@@ -1838,7 +1858,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1849,8 +1869,9 @@
       "brand": "Carlson",
       "brand_slug": "carlson",
       "name": "L-Arginine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "carlson-l-arginine-powder-0-2-lb-100-g",
@@ -1892,8 +1913,8 @@
             "servingSize": "1 Teaspoon (enclosed 1 level scoop - 3 g)",
             "servingsPerContainer": 33
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.7,
           "price_from_build_kwd": 3.7,
           "price_is_live": true,
@@ -1926,7 +1947,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1937,8 +1958,9 @@
       "brand": "Carlson",
       "brand_slug": "carlson",
       "name": "L-Glutamine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "carlson-l-glutamine-powder-0-2-lb-100-g",
@@ -1980,8 +2002,8 @@
             "servingSize": "1 Teaspoon (enclosed 1 level scoop - 3 g)",
             "servingsPerContainer": 33
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 4.32,
           "price_from_build_kwd": 4.32,
           "price_is_live": true,
@@ -2014,7 +2036,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2025,8 +2047,9 @@
       "brand": "Carlson",
       "brand_slug": "carlson",
       "name": "L-Lysine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "carlson-l-lysine-powder-0-2-lb-100-g",
@@ -2068,8 +2091,8 @@
             "servingSize": "1/2 Teaspoon (enclosed 1 level scoop - 1.2 g)",
             "servingsPerContainer": 83
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 2.49,
           "price_from_build_kwd": 2.49,
           "price_is_live": true,
@@ -2102,7 +2125,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2113,8 +2136,9 @@
       "brand": "Carlson",
       "brand_slug": "carlson",
       "name": "Taurine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "carlson-taurine-powder-0-2-lb-100-g",
@@ -2156,8 +2180,8 @@
             "servingSize": "1 Teaspoon (enclosed 1 level scoop - 3.2 g)",
             "servingsPerContainer": 31
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 2.49,
           "price_from_build_kwd": 2.49,
           "price_is_live": true,
@@ -2190,7 +2214,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2201,8 +2225,9 @@
       "brand": "Doctor's Best",
       "brand_slug": "doctor-s-best",
       "name": "Pure L-Arginine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "doctor-s-best-pure-l-arginine-powder-0-7-lb-300-g",
@@ -2244,8 +2269,8 @@
             "servingSize": "1 scoop (~6 grams)",
             "servingsPerContainer": 50
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.12,
           "price_from_build_kwd": 6.12,
           "price_is_live": true,
@@ -2278,7 +2303,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2289,8 +2314,9 @@
       "brand": "Doctor's Best",
       "brand_slug": "doctor-s-best",
       "name": "Pure L-Glutamine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "doctor-s-best-pure-l-glutamine-powder-0-7-lb-300-g",
@@ -2332,8 +2358,8 @@
             "servingSize": "1 scoop (~ 5 grams)",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.02,
           "price_from_build_kwd": 6.02,
           "price_is_live": true,
@@ -2366,7 +2392,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2377,6 +2403,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "Glutamine5000®",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2454,7 +2481,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2465,6 +2492,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "L-Arginine + L-Citrulline",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2542,7 +2570,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2553,6 +2581,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "L-Arginine + L-Citrulline",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2630,7 +2659,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2641,6 +2670,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "L-Tyrosine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2718,7 +2748,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2729,6 +2759,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "Taurine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2806,7 +2837,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2817,6 +2848,7 @@
       "brand": "GAT",
       "brand_slug": "gat",
       "name": "L-Glutamine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2892,7 +2924,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2903,8 +2935,9 @@
       "brand": "Life Extension",
       "brand_slug": "life-extension",
       "name": "Arginine Ornithine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "life-extension-arginine-ornithine-powder-0-3-lb-150-g",
@@ -2944,8 +2977,8 @@
             "servingSize": "1 Level Teaspoon (approx. 3.1 g)",
             "servingsPerContainer": 48
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 5.95,
           "price_from_build_kwd": 5.95,
           "price_is_live": true,
@@ -2978,7 +3011,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2989,8 +3022,9 @@
       "brand": "Life Extension",
       "brand_slug": "life-extension",
       "name": "L-Glutamine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "life-extension-l-glutamine-powder-0-2-lb-100-g",
@@ -3031,8 +3065,8 @@
             "servingSize": "1/2 Teaspoon (approx. 2 g)",
             "servingsPerContainer": 50
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 7.28,
           "price_from_build_kwd": 7.28,
           "price_is_live": true,
@@ -3065,7 +3099,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3076,8 +3110,9 @@
       "brand": "Life Extension",
       "brand_slug": "life-extension",
       "name": "Taurine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "life-extension-taurine-powder-0-7-lb-300-g",
@@ -3117,8 +3152,8 @@
             "servingSize": "1/4 Level Teaspoon (approx. 785 mg)",
             "servingsPerContainer": 382
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 4.96,
           "price_from_build_kwd": 4.96,
           "price_is_live": true,
@@ -3151,7 +3186,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3162,8 +3197,9 @@
       "brand": "Metabolic Maintenance",
       "brand_slug": "metabolic-maintenance",
       "name": "Glycine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "metabolic-maintenance-glycine-powder-0-4-lb-200-g",
@@ -3203,8 +3239,8 @@
             "servingSize": "1/4 teaspoon (1000 mg)",
             "servingsPerContainer": 200
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 8.64,
           "price_from_build_kwd": 8.64,
           "price_is_live": true,
@@ -3237,7 +3273,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3248,8 +3284,9 @@
       "brand": "Metabolic Maintenance",
       "brand_slug": "metabolic-maintenance",
       "name": "Glycine Sticks, 30 Sticks, Each",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "metabolic-maintenance-glycine-sticks-30-sticks-each-0-0-lb-3-g",
@@ -3290,8 +3327,8 @@
             "servingSize": "1 stick (3 grams)",
             "servingsPerContainer": 30
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 10.23,
           "price_from_build_kwd": 10.23,
           "price_is_live": true,
@@ -3324,7 +3361,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3335,8 +3372,9 @@
       "brand": "Metabolic Maintenance",
       "brand_slug": "metabolic-maintenance",
       "name": "L-Theanine, 120 Vegetarian Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "metabolic-maintenance-l-theanine-120-vegetarian-capsules-size-unknown",
@@ -3377,8 +3415,8 @@
             "servingSize": "1 capsule",
             "servingsPerContainer": 120
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 16.63,
           "price_from_build_kwd": 16.63,
           "price_is_live": true,
@@ -3411,7 +3449,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3422,6 +3460,7 @@
       "brand": "Micro Ingredients",
       "brand_slug": "micro-ingredients",
       "name": "Pure Taurine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3497,7 +3536,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3508,8 +3547,9 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "L-Lysine Pure Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "now-foods-l-lysine-pure-powder-1-0-lb-454-g",
@@ -3551,8 +3591,8 @@
             "servingSize": "1/4 Level Teaspoon (approx. 552 mg)",
             "servingsPerContainer": 822
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.23,
           "price_from_build_kwd": 6.23,
           "price_is_live": true,
@@ -3585,7 +3625,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3596,8 +3636,9 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "L-Theanine Pure Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "now-foods-l-theanine-pure-powder-0-1-lb-28-g",
@@ -3639,8 +3680,8 @@
             "servingSize": "1/8 Level Teaspoon (approx. 0.3 g)",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 7.45,
           "price_from_build_kwd": 7.45,
           "price_is_live": true,
@@ -3673,7 +3714,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3684,8 +3725,9 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "NAC Pure Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "now-foods-nac-pure-powder-0-2-lb-113-g",
@@ -3727,8 +3769,8 @@
             "servingSize": "1/4 Level Teaspoon (600 mg)",
             "servingsPerContainer": 188
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.4,
           "price_from_build_kwd": 6.4,
           "price_is_live": true,
@@ -3761,7 +3803,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3772,6 +3814,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "D-Aspartic Acid",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3847,7 +3890,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3858,6 +3901,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "D-Aspartic Acid",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3933,7 +3977,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3944,6 +3988,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Arginine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4019,7 +4064,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4030,6 +4075,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Arginine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4105,7 +4151,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4116,6 +4162,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Arginine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4191,7 +4238,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4202,6 +4249,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Carnitine Tartrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4277,7 +4325,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4288,6 +4336,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Carnitine Tartrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4363,7 +4412,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4374,6 +4423,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Carnosine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4449,7 +4499,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4460,6 +4510,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Carnosine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4535,7 +4586,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4546,6 +4597,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Glutamine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4621,7 +4673,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4632,6 +4684,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Glutamine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4707,7 +4760,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4718,6 +4771,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Glutamine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4793,7 +4847,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4804,6 +4858,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Glutamine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4879,7 +4934,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4890,6 +4945,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Leucine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4965,7 +5021,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4976,6 +5032,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Lysine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5051,7 +5108,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5062,6 +5119,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Proline",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5137,7 +5195,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5148,6 +5206,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Serine Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5223,7 +5282,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5234,6 +5293,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Theanine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5309,7 +5369,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5320,6 +5380,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Tyrosine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5395,7 +5456,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5406,6 +5467,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Tyrosine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5481,7 +5543,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5492,6 +5554,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Tyrosine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5567,7 +5630,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5578,6 +5641,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "N-Acetyl L-Tyrosine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5653,7 +5717,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5664,6 +5728,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Taurine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5740,7 +5805,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5751,6 +5816,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Taurine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5826,7 +5892,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5837,6 +5903,7 @@
       "brand": "Optimum Nutrition",
       "brand_slug": "optimum-nutrition",
       "name": "Glutamine Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5914,7 +5981,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5925,6 +5992,7 @@
       "brand": "Optimum Nutrition",
       "brand_slug": "optimum-nutrition",
       "name": "Glutamine Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -6002,7 +6070,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6013,8 +6081,9 @@
       "brand": "Optimum Nutrition",
       "brand_slug": "optimum-nutrition",
       "name": "Glutamine, 240 Capsules ( per Capsule)",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "optimum-nutrition-glutamine-240-capsules-per-capsule-size-unknown",
@@ -6056,8 +6125,8 @@
             "servingSize": "2 Capsules",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 9.11,
           "price_from_build_kwd": 9.11,
           "price_is_live": true,
@@ -6090,7 +6159,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6101,6 +6170,7 @@
       "brand": "PrePrimal",
       "brand_slug": "preprimal",
       "name": "L-Glutamine Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -6177,7 +6247,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6188,6 +6258,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "Arginine AKG",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -6263,7 +6334,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6274,6 +6345,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "D-Aspartic Acid Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -6349,7 +6421,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6360,6 +6432,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "L-Glutamine Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -6435,7 +6508,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6446,6 +6519,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "L-Leucine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -6521,7 +6595,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6532,6 +6606,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "L-Leucine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -6607,7 +6682,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6618,6 +6693,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "Taurine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -6693,7 +6769,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6704,8 +6780,9 @@
       "brand": "ProSupps",
       "brand_slug": "prosupps",
       "name": "Glutamine 300, Amino Acid, 10.58",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "prosupps-glutamine-300-amino-acid-10-58-0-7-lb-300-g",
@@ -6745,8 +6822,8 @@
             "servingSize": "1 Scoop (5 g)",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.46,
           "price_from_build_kwd": 6.46,
           "price_is_live": true,
@@ -6779,7 +6856,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6790,8 +6867,9 @@
       "brand": "Revive",
       "brand_slug": "revive",
       "name": "Glutamine",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "revive-glutamine-0-7-lb-300-g",
@@ -6831,8 +6909,8 @@
             "servingSize": "1 Scoop (10 g)",
             "servingsPerContainer": 30
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.32,
           "price_from_build_kwd": 6.32,
           "price_is_live": true,
@@ -6865,7 +6943,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6876,8 +6954,9 @@
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
       "name": "Free-Form L-Glutamine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "source-naturals-free-form-l-glutamine-powder-1-0-lb-454-g",
@@ -6918,8 +6997,8 @@
             "servingSize": "1/2 Teaspoon (approx. 2 g)",
             "servingsPerContainer": 226
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 14.16,
           "price_from_build_kwd": 14.16,
           "price_is_live": true,
@@ -6952,7 +7031,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6963,8 +7042,9 @@
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
       "name": "Glycine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "source-naturals-glycine-powder-0-5-lb-227-g",
@@ -7004,8 +7084,8 @@
             "servingSize": "1/4 Teaspoon (approx. 1 g)",
             "servingsPerContainer": 227
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.61,
           "price_from_build_kwd": 3.61,
           "price_is_live": true,
@@ -7038,7 +7118,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7049,8 +7129,9 @@
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
       "name": "L-Glutamine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "source-naturals-l-glutamine-powder-0-2-lb-100-g",
@@ -7091,8 +7172,8 @@
             "servingSize": "1/2 Teaspoon (approx. 2 g)",
             "servingsPerContainer": 50
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.65,
           "price_from_build_kwd": 3.65,
           "price_is_live": true,
@@ -7125,7 +7206,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7136,8 +7217,9 @@
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
       "name": "L-Lysine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "source-naturals-l-lysine-powder-0-2-lb-100-g",
@@ -7178,8 +7260,8 @@
             "servingSize": "1/2 Teaspoon (approx. 1.64 g)",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 1.94,
           "price_from_build_kwd": 1.94,
           "price_is_live": true,
@@ -7212,7 +7294,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7223,8 +7305,9 @@
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
       "name": "L-Methionine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "source-naturals-l-methionine-powder-0-2-lb-100-g",
@@ -7265,8 +7348,8 @@
             "servingSize": "1/2 Teaspoon (approx 1.5 g)",
             "servingsPerContainer": 66
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 5.65,
           "price_from_build_kwd": 5.65,
           "price_is_live": true,
@@ -7299,7 +7382,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7310,8 +7393,9 @@
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
       "name": "L-Ornithine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "source-naturals-l-ornithine-powder-0-2-lb-100-g",
@@ -7352,8 +7436,8 @@
             "servingSize": "1 Teaspoon (approx. 2.3 g)",
             "servingsPerContainer": 43
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 5.94,
           "price_from_build_kwd": 5.94,
           "price_is_live": true,
@@ -7386,7 +7470,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7397,8 +7481,9 @@
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
       "name": "L-Proline Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "source-naturals-l-proline-powder-0-3-lb-113-g",
@@ -7439,8 +7524,8 @@
             "servingSize": "1 Teaspoon (approx. 2 g)",
             "servingsPerContainer": 56
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.58,
           "price_from_build_kwd": 3.58,
           "price_is_live": true,
@@ -7473,7 +7558,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7484,8 +7569,9 @@
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
       "name": "L-Tyrosine, Free-Form Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "source-naturals-l-tyrosine-free-form-powder-0-2-lb-100-g",
@@ -7525,8 +7611,8 @@
             "servingSize": "1/4 Teaspoon (approx. 0.67 g)",
             "servingsPerContainer": 149
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 5.16,
           "price_from_build_kwd": 5.16,
           "price_is_live": true,
@@ -7559,7 +7645,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7570,8 +7656,9 @@
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
       "name": "Taurine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "source-naturals-taurine-powder-0-2-lb-100-g",
@@ -7611,8 +7698,8 @@
             "servingSize": "1/4 Teaspoon (approx. 0.67 g)",
             "servingsPerContainer": 148
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 2.56,
           "price_from_build_kwd": 2.56,
           "price_is_live": true,
@@ -7645,7 +7732,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7656,8 +7743,9 @@
       "brand": "Swanson Vitamins",
       "brand_slug": "swanson-vitamins",
       "name": "Glycine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "swanson-vitamins-glycine-powder-0-5-lb-227-g",
@@ -7698,8 +7786,8 @@
             "servingSize": "1 Scoop (1 g)",
             "servingsPerContainer": 227
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.47,
           "price_from_build_kwd": 6.47,
           "price_is_live": true,
@@ -7732,7 +7820,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7743,8 +7831,9 @@
       "brand": "Swanson Vitamins",
       "brand_slug": "swanson-vitamins",
       "name": "L-Glutamine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "swanson-vitamins-l-glutamine-powder-0-7-lb-340-g",
@@ -7786,8 +7875,8 @@
             "servingSize": "1 Scoop (5 g)",
             "servingsPerContainer": 68
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 7.78,
           "price_from_build_kwd": 7.78,
           "price_is_live": true,
@@ -7820,7 +7909,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7831,8 +7920,9 @@
       "brand": "Swanson Vitamins",
       "brand_slug": "swanson-vitamins",
       "name": "L-Lysine, 500 mg, 100 Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "swanson-vitamins-l-lysine-500-mg-100-capsules-size-unknown",
@@ -7873,8 +7963,8 @@
             "servingSize": "1 Capsule",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 2.39,
           "price_from_build_kwd": 2.39,
           "price_is_live": true,
@@ -7907,7 +7997,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -7918,8 +8008,9 @@
       "brand": "Vitacost",
       "brand_slug": "vitacost",
       "name": "L-Arginine, 1, 000 mg, 300 Tablets",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "vitacost-l-arginine-1-000-mg-300-tablets-size-unknown",
@@ -7960,8 +8051,8 @@
             "servingSize": "1 Tablet",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 8.75,
           "price_from_build_kwd": 8.75,
           "price_is_live": true,
@@ -7994,7 +8085,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -8005,8 +8096,9 @@
       "brand": "Vitamatic",
       "brand_slug": "vitamatic",
       "name": "L-Serine Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "vitamatic-l-serine-powder-0-6-lb-250-g",
@@ -8048,8 +8140,8 @@
             "servingSize": "1 Scoop (2 g)",
             "servingsPerContainer": 125
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 5.7,
           "price_from_build_kwd": 5.7,
           "price_is_live": true,
@@ -8082,7 +8174,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -8093,6 +8185,7 @@
       "brand": "Vitamatic",
       "brand_slug": "vitamatic",
       "name": "Taurine Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -8170,12 +8263,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-20T07:33:45.362Z",
+  "pulled_at": "2026-10-20T08:04:22.178Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

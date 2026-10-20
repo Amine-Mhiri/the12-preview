@@ -11,12 +11,12 @@
   "tagline": "Declared formulas checked. Choose what fits your training.",
   "description": "We review the declared formula against the applicable ingredient charter. Quantities, forms, product evidence and warnings remain separate facts; prices are compared using the declared category unit.",
   "build": {
-    "id": 31,
+    "id": 32,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-20T07:33:44.033Z",
+  "reviewed_at": "2026-10-20",
+  "generated_at": "2026-10-20T08:04:20.924Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -172,6 +172,7 @@
       "brand": "BPN",
       "brand_slug": "bpn",
       "name": "Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -258,7 +259,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -269,6 +270,7 @@
       "brand": "BPN",
       "brand_slug": "bpn",
       "name": "Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -355,7 +357,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -366,6 +368,7 @@
       "brand": "BrainMD",
       "brand_slug": "brainmd",
       "name": "Smart Creatine+",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -441,7 +444,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -452,6 +455,7 @@
       "brand": "BSN",
       "brand_slug": "bsn",
       "name": "Creatine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -527,7 +531,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -538,6 +542,7 @@
       "brand": "C4 / Cellucor",
       "brand_slug": "c4-cellucor",
       "name": "COR-Performance® Creatine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -613,7 +618,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -624,6 +629,7 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "Sport, Pure Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -701,7 +707,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -712,6 +718,7 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "Sport, Pure Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -789,7 +796,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -800,8 +807,9 @@
       "brand": "EHPlabs",
       "brand_slug": "ehplabs",
       "name": "Crea-8",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "ehplabs-crea-8-1-1-lb-500-g",
@@ -844,8 +852,8 @@
             "servingSize": "1 scoop (5 g)",
             "servingsPerContainer": 100
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 18.23,
           "price_from_build_kwd": 18.23,
           "price_is_live": true,
@@ -878,7 +886,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -889,6 +897,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "Creatine5000®",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -966,7 +975,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -977,6 +986,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "Creatine5000®",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1054,7 +1064,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1065,6 +1075,7 @@
       "brand": "fitcode",
       "brand_slug": "fitcode",
       "name": "Creatine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1142,7 +1153,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1153,6 +1164,7 @@
       "brand": "Gaspari Nutrition",
       "brand_slug": "gaspari-nutrition",
       "name": "Creatine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1228,7 +1240,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1239,6 +1251,7 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1319,7 +1332,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1330,6 +1343,7 @@
       "brand": "JNX Sports",
       "brand_slug": "jnx-sports",
       "name": "The Curse!®, Creatine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1405,7 +1419,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1416,6 +1430,7 @@
       "brand": "JNX Sports",
       "brand_slug": "jnx-sports",
       "name": "The Curse!®, Creatine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1491,7 +1506,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1502,6 +1517,7 @@
       "brand": "Kaged",
       "brand_slug": "kaged",
       "name": "Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1577,7 +1593,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1588,6 +1604,7 @@
       "brand": "Legion Athletics",
       "brand_slug": "legion-athletics",
       "name": "Creatine, Micronized Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1663,7 +1680,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1674,6 +1691,7 @@
       "brand": "Metabolic Nutrition",
       "brand_slug": "metabolic-nutrition",
       "name": "Creatine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1749,7 +1767,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1760,6 +1778,7 @@
       "brand": "Micro Ingredients",
       "brand_slug": "micro-ingredients",
       "name": "Creatine Monohydrate Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1835,7 +1854,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1846,6 +1865,7 @@
       "brand": "Micro Ingredients",
       "brand_slug": "micro-ingredients",
       "name": "Creatine Monohydrate Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1921,7 +1941,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1932,8 +1952,9 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Creatine Monohydrate",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "now-foods-sports-creatine-monohydrate-1-3-lb-600-g",
@@ -1975,8 +1996,8 @@
             "servingSize": "1 1/2 Level Teaspoons (approx. 5 g)",
             "servingsPerContainer": 120
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 9.43,
           "price_from_build_kwd": 9.43,
           "price_is_live": true,
@@ -2009,7 +2030,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2020,8 +2041,9 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Creatine Monohydrate",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "now-foods-sports-creatine-monohydrate-2-2-lb-1000-g",
@@ -2063,8 +2085,8 @@
             "servingSize": "1 1/2 Level Teaspoons (approx. 5 g)",
             "servingsPerContainer": 200
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 15.7,
           "price_from_build_kwd": 15.7,
           "price_is_live": true,
@@ -2097,7 +2119,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2108,8 +2130,9 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Micronized Creatine Monohydrate",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "now-foods-sports-micronized-creatine-monohydrate-2-2-lb-1000-g",
@@ -2151,8 +2174,8 @@
             "servingSize": "1 1/2​ Level Teaspoons (approx. 4.2 g)",
             "servingsPerContainer": 238
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 15.73,
           "price_from_build_kwd": 15.73,
           "price_is_live": true,
@@ -2185,7 +2208,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2196,8 +2219,9 @@
       "brand": "NutraBio",
       "brand_slug": "nutrabio",
       "name": "Micronized Creatine Monohydrate",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "nutrabio-micronized-creatine-monohydrate-0-7-lb-300-g",
@@ -2237,8 +2261,8 @@
             "servingSize": "1 scoop (5 grams)",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 7.54,
           "price_from_build_kwd": 7.54,
           "price_is_live": true,
@@ -2271,7 +2295,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2282,6 +2306,7 @@
       "brand": "NutraBio",
       "brand_slug": "nutrabio",
       "name": "Micronized Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2359,7 +2384,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2370,6 +2395,7 @@
       "brand": "NutraBio",
       "brand_slug": "nutrabio",
       "name": "Micronized Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2446,7 +2472,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2457,6 +2483,7 @@
       "brand": "NutraBio",
       "brand_slug": "nutrabio",
       "name": "Micronized Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2534,7 +2561,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2545,6 +2572,7 @@
       "brand": "Nutrex Research",
       "brand_slug": "nutrex-research",
       "name": "Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2621,7 +2649,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2632,6 +2660,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Performance, Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2708,7 +2737,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2719,6 +2748,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Performance, Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2794,7 +2824,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2805,6 +2835,7 @@
       "brand": "Optimum Nutrition",
       "brand_slug": "optimum-nutrition",
       "name": "Micronized Creatine Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2882,7 +2913,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2893,6 +2924,7 @@
       "brand": "Optimum Nutrition",
       "brand_slug": "optimum-nutrition",
       "name": "Micronized Creatine Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2970,7 +3002,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2981,6 +3013,7 @@
       "brand": "Paradise Herbs",
       "brand_slug": "paradise-herbs",
       "name": "Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3056,7 +3089,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3067,8 +3100,9 @@
       "brand": "PEScience",
       "brand_slug": "pescience",
       "name": "TruCreatine+",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "pescience-trucreatine-0-3-lb-150-g",
@@ -3108,8 +3142,8 @@
             "servingSize": "1 Scoop (5 g)",
             "servingsPerContainer": 30
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 7.52,
           "price_from_build_kwd": 7.52,
           "price_is_live": true,
@@ -3142,7 +3176,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3153,6 +3187,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3228,7 +3263,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3239,8 +3274,9 @@
       "brand": "ProHealth Longevity",
       "brand_slug": "prohealth-longevity",
       "name": "Longevity Creatine Pure Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "prohealth-longevity-longevity-creatine-pure-powder-1-0-lb-450-g",
@@ -3280,8 +3316,8 @@
             "servingSize": "1 Scoop (5 g)",
             "servingsPerContainer": 90
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 15.9,
           "price_from_build_kwd": 15.9,
           "price_is_live": true,
@@ -3314,7 +3350,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3325,6 +3361,7 @@
       "brand": "Raw Nutrition",
       "brand_slug": "raw-nutrition",
       "name": "Essentials, Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3400,7 +3437,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3411,6 +3448,7 @@
       "brand": "Raw Nutrition",
       "brand_slug": "raw-nutrition",
       "name": "Essentials, Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3486,7 +3524,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3497,8 +3535,9 @@
       "brand": "RSP NUTRITION",
       "brand_slug": "rsp-nutrition",
       "name": "AminoLean® Creatine Monohydrate Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "rsp-nutrition-aminolean-creatine-monohydrate-powder-0-7-lb-300-g",
@@ -3538,8 +3577,8 @@
             "servingSize": "1 Scoop (5 g)",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 9.93,
           "price_from_build_kwd": 9.93,
           "price_is_live": true,
@@ -3572,7 +3611,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3583,8 +3622,9 @@
       "brand": "RYSE",
       "brand_slug": "ryse",
       "name": "Element Series, Creatine Monohydrate",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "ryse-element-series-creatine-monohydrate-0-7-lb-300-g",
@@ -3624,8 +3664,8 @@
             "servingSize": "Approximately 1 Scoop (5 g)",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 9.77,
           "price_from_build_kwd": 9.77,
           "price_is_live": true,
@@ -3658,7 +3698,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3669,6 +3709,7 @@
       "brand": "Sports Research",
       "brand_slug": "sports-research",
       "name": "Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3747,7 +3788,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3758,6 +3799,7 @@
       "brand": "Sports Research",
       "brand_slug": "sports-research",
       "name": "Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3836,7 +3878,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3847,6 +3889,7 @@
       "brand": "SteelFit",
       "brand_slug": "steelfit",
       "name": "Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3922,7 +3965,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3933,8 +3976,9 @@
       "brand": "Thorne",
       "brand_slug": "thorne",
       "name": "Creatine",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "thorne-creatine-1-0-lb-450-g",
@@ -3983,8 +4027,8 @@
             "servingSize": "One Scoop (5 g)",
             "servingsPerContainer": 90
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 13.82,
           "price_from_build_kwd": 13.82,
           "price_is_live": true,
@@ -4017,7 +4061,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4028,8 +4072,9 @@
       "brand": "Thorne",
       "brand_slug": "thorne",
       "name": "Creatine",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "thorne-creatine-2-0-lb-900-g",
@@ -4078,8 +4123,8 @@
             "servingSize": "One Scoop (5 g)",
             "servingsPerContainer": 180
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 26.38,
           "price_from_build_kwd": 26.38,
           "price_is_live": true,
@@ -4112,7 +4157,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4123,6 +4168,7 @@
       "brand": "TypeZero",
       "brand_slug": "typezero",
       "name": "Clean, Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4198,7 +4244,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4209,6 +4255,7 @@
       "brand": "TypeZero",
       "brand_slug": "typezero",
       "name": "Clean, Creatine Monohydrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4284,7 +4331,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4295,8 +4342,9 @@
       "brand": "ALLMAX",
       "brand_slug": "allmax",
       "name": "Essentials, Citrulline Malate 2:1",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "allmax-essentials-citrulline-malate-2-1-0-7-lb-300-g",
@@ -4336,8 +4384,8 @@
             "servingSize": "1 scoop (2 g)",
             "servingsPerContainer": 150
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 8.36,
           "price_from_build_kwd": 8.36,
           "price_is_live": true,
@@ -4370,7 +4418,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4381,6 +4429,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Betaine Anhydrous",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4456,7 +4505,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4467,6 +4516,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "Citrulline Malate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4542,7 +4592,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4553,6 +4603,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "Citrulline Malate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4628,7 +4679,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4639,6 +4690,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "Beta-Alanine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4716,7 +4768,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4727,6 +4779,7 @@
       "brand": "JNX Sports",
       "brand_slug": "jnx-sports",
       "name": "The Curse!®, Beta Alanine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4802,7 +4855,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4813,6 +4866,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Beta Alanine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4888,7 +4942,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4899,6 +4953,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Beta-Alanine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4974,7 +5029,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4985,6 +5040,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Beta-Alanine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5061,7 +5117,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5072,6 +5128,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "Beta-Alanine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5147,7 +5204,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5158,6 +5215,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "Beta-Alanine",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5233,7 +5291,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5244,6 +5302,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "Beta-Alanine Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5319,7 +5378,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5330,6 +5389,7 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "L-Citrulline",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5408,7 +5468,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5419,8 +5479,9 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "Sport, L-Citrulline, Kyowa Hakko, 500 mg, 60 Veggie Capsules",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsul",
@@ -5462,8 +5523,8 @@
             "servingSize": "1 Capsule",
             "servingsPerContainer": 60
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 2.38,
           "price_from_build_kwd": 2.38,
           "price_is_live": true,
@@ -5496,7 +5557,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5507,8 +5568,9 @@
       "brand": "Doctor's Best",
       "brand_slug": "doctor-s-best",
       "name": "L-Citrulline Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "doctor-s-best-l-citrulline-powder-0-4-lb-200-g",
@@ -5550,8 +5612,8 @@
             "servingSize": "1 Scoop (~3 grams)",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 7.22,
           "price_from_build_kwd": 7.22,
           "price_is_live": true,
@@ -5584,7 +5646,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5595,6 +5657,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "L-Citrulline 2000",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5672,7 +5735,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5683,6 +5746,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "L-Citrulline Malate 2:1",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5760,7 +5824,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5771,8 +5835,9 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "L-Citrulline, Pure Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "now-foods-l-citrulline-pure-powder-0-2-lb-113-g",
@@ -5815,8 +5880,8 @@
             "servingSize": "1/2 Level Teaspoon (approx. 1.5 g)",
             "servingsPerContainer": 75
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 7.01,
           "price_from_build_kwd": 7.01,
           "price_is_live": true,
@@ -5849,7 +5914,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5860,6 +5925,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "L-Citrulline",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5936,12 +6002,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-20T07:33:45.360Z",
+  "pulled_at": "2026-10-20T08:04:22.176Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

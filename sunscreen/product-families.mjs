@@ -19,7 +19,7 @@ export function displayCatalogue(data) {
   for (const source of data.groups) {
     for (const variant of source.variants) {
       const product = familyId(source, variant);
-      const flavor = variant.flavor || source.flavor || 'Unflavoured';
+      const flavor = variant.flavor || source.flavor || 'Not specified';
       const flavorGroup = variant.flavor_group || source.flavor_group;
       // Equal flavours share one selector across pack sizes, not across families.
       const id = product + '-flavor-' + key([flavorKey(flavor), flavorGroup]);

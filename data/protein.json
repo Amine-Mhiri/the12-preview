@@ -11,12 +11,12 @@
   "tagline": "Grams that count, from sources you can name.",
   "description": "We review declared ingredients against our charter, keep the exact formula and evidence visible, and compare local prices for the declared amount of protein.",
   "build": {
-    "id": 31,
+    "id": 32,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-20T07:33:44.033Z",
+  "reviewed_at": "2026-10-20",
+  "generated_at": "2026-10-20T08:04:20.924Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -183,7 +183,8 @@
       "product_id": "p-015794020110",
       "brand": "Biochem",
       "brand_slug": "biochem",
-      "name": "100% Whey Isolate Protein Powder",
+      "name": "100% Whey Protein Isolate Powder",
+      "family_id": "biochem-100-whey-protein-isolate",
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -213,8 +214,8 @@
           "unit_name": "25 g protein",
           "slot_kind": "admissible",
           "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
-          "ingredients": "Organic cane sugar, natural vanilla flavors, sunflower lecithin, natural cream flavors, xanthan gum.",
-          "ingredient_count": 5,
+          "ingredients": "Organic cane sugar, natural vanilla flavors, sunflower lecithin, natural cream flavors, xanthan gum.; whey protein isolate; Stevia extract (leaf)",
+          "ingredient_count": 7,
           "allergen_statement": true,
           "dietary": [],
           "certifications": [],
@@ -252,7 +253,7 @@
           "vegan_declared": false,
           "gluten_free_declared": false,
           "soy_free_declared": false,
-          "stevia": false,
+          "stevia": true,
           "anti_doping_documented": false,
           "director": {
             "status": "not_selected"
@@ -265,7 +266,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -276,6 +277,7 @@
       "brand": "Biochem",
       "brand_slug": "biochem",
       "name": "100% Whey Isolate Protein, Sugar Free",
+      "family_id": null,
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -305,8 +307,8 @@
           "unit_name": "25 g protein",
           "slot_kind": "admissible",
           "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
-          "ingredients": "Xanthan gum, natural french vanilla flavor, natural vanilla flavors, sunflower lecithin, rebaudioside A (stevia leaf extract).",
-          "ingredient_count": 5,
+          "ingredients": "Xanthan gum, natural french vanilla flavor, natural vanilla flavors, sunflower lecithin, rebaudioside A (stevia leaf extract); whey protein isolate",
+          "ingredient_count": 6,
           "allergen_statement": true,
           "dietary": [],
           "certifications": [],
@@ -357,7 +359,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -368,6 +370,7 @@
       "brand": "Biochem",
       "brand_slug": "biochem",
       "name": "100% Whey Protein Isolate Powder",
+      "family_id": "biochem-100-whey-protein-isolate",
       "flavor": "Natural",
       "flavor_group": "other",
       "variants": [
@@ -397,8 +400,8 @@
           "unit_name": "25 g protein",
           "slot_kind": "editorial",
           "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
-          "ingredients": "Natural french vanilla flavor, sunflower lecithin, xanthan gum.",
-          "ingredient_count": 3,
+          "ingredients": "Natural french vanilla flavor, sunflower lecithin, xanthan gum.; whey protein isolate",
+          "ingredient_count": 4,
           "allergen_statement": true,
           "dietary": [],
           "certifications": [],
@@ -448,7 +451,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -458,7 +461,8 @@
       "product_id": "p-743715015654",
       "brand": "Bluebonnet Nutrition",
       "brand_slug": "bluebonnet-nutrition",
-      "name": "BlueBonnet Nutrition Whey Protein Isolate Powder From Grass Fed Cows, of Protein, No Sugar Added, Gluten & Soy free, kosher Dairy, 28 Servings",
+      "name": "Whey Protein Isolate",
+      "family_id": "bluebonnet-whey-protein-isolate",
       "flavor": "French Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -466,14 +470,14 @@
           "id": "bluebonnet-nutrition-bluebonnet-nutrition-whey-protein-isolate-powder-from-grass",
           "catalogue_id": "p-743715015654",
           "number": 4,
-          "title": "Bluebonnet Nutrition, BlueBonnet Nutrition Whey Protein Isolate Powder From Grass Fed Cows, of Protein, No Sugar Added, Gluten & Soy free, kosher Dairy, 28 Servings, French Vanilla, 2.0 lb / 907 g",
+          "title": "Bluebonnet Nutrition, BlueBonnet Nutrition Whey Protein Isolate Powder From Grass Fed Cows, of Protein, No Sugar Added, Gluten & Soy free, kosher Dairy, 28 Servings, French Vanilla, 2.0 lb / 924 g",
           "url": "https://kw.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-french-vanilla-2-lbs-924-g/15910",
           "merchant_url_from_build": "https://www.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-french-vanilla-2-lbs-924-g/15910",
           "merchant_ref": "15910",
           "merchant_note": null,
           "source": "crawl",
           "price_basis": "observed",
-          "size": "2.0 lb / 907 g",
+          "size": "2.0 lb / 924 g",
           "image": "https://cloudinary.images-iherb.com/image/upload/images/blb/blb01565/l/41.jpg",
           "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
@@ -543,7 +547,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -553,22 +557,23 @@
       "product_id": "p-743715015616",
       "brand": "Bluebonnet Nutrition",
       "brand_slug": "bluebonnet-nutrition",
-      "name": "Bluebonnet Nutrition Whey Protein Isolate Powder, Whey from Grass Fed Cows, 26 Grams of Protein, No Sugar Added, Gluten Free, Soy Free, Kosher Dairy, 32 Servings, Original Unflavored",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "name": "Whey Protein Isolate",
+      "family_id": "bluebonnet-whey-protein-isolate",
+      "flavor": "Original",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "bluebonnet-nutrition-bluebonnet-nutrition-whey-protein-isolate-powder-whey-from-",
           "catalogue_id": "p-743715015616",
           "number": 5,
-          "title": "Bluebonnet Nutrition, Bluebonnet Nutrition Whey Protein Isolate Powder, Whey from Grass Fed Cows, 26 Grams of Protein, No Sugar Added, Gluten Free, Soy Free, Kosher Dairy, 32 Servings, Original Unflavored, 2.2 lb / 998 g",
+          "title": "Bluebonnet Nutrition, Bluebonnet Nutrition Whey Protein Isolate Powder, Whey from Grass Fed Cows, 26 Grams of Protein, No Sugar Added, Gluten Free, Soy Free, Kosher Dairy, 32 Servings, Original Unflavored, Original, 2.2 lb / 992 g",
           "url": "https://kw.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-original-2-2-lbs-992-g/9476",
           "merchant_url_from_build": "https://www.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-original-2-2-lbs-992-g/9476",
           "merchant_ref": "9476",
           "merchant_note": null,
           "source": "crawl",
           "price_basis": "observed",
-          "size": "2.2 lb / 998 g",
+          "size": "2.2 lb / 992 g",
           "image": "https://cloudinary.images-iherb.com/image/upload/images/blb/blb01561/l/67.jpg",
           "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
           "gallery": [
@@ -604,8 +609,8 @@
             "saturatedFatG": 0.5,
             "servingsPerContainer": 32
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Original",
+          "flavor_group": "other",
           "price_kwd": 21.99,
           "price_from_build_kwd": 21.99,
           "price_is_live": true,
@@ -638,7 +643,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -649,6 +654,7 @@
       "brand": "Bluebonnet Nutrition",
       "brand_slug": "bluebonnet-nutrition",
       "name": "Whey Protein Isolate",
+      "family_id": "bluebonnet-whey-protein-isolate",
       "flavor": "French Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -731,7 +737,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -742,6 +748,7 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "Sport, Whey Protein Isolate with Organic Cane Sugar, with Sunflower Lecithin",
+      "family_id": null,
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -828,7 +835,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -839,6 +846,7 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "Whey Protein Isolate",
+      "family_id": null,
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -925,7 +933,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -936,6 +944,7 @@
       "brand": "EVLution Nutrition",
       "brand_slug": "evlution-nutrition",
       "name": "100% Isolate Protein",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -1022,7 +1031,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1033,6 +1042,7 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Clear Low Carb Protein Powder",
+      "family_id": null,
       "flavor": "Banana",
       "flavor_group": "dessert",
       "variants": [
@@ -1116,7 +1126,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1127,6 +1137,7 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Clear Low Carb Protein Powder",
+      "family_id": null,
       "flavor": "Banana",
       "flavor_group": "dessert",
       "variants": [
@@ -1210,7 +1221,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1221,8 +1232,9 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Clear Low Carb Protein Powder, Citrus Lemonade",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "isopure-clear-low-carb-protein-powder-citrus-lemonade-0-9-lb-400-g",
@@ -1271,8 +1283,8 @@
             "servingSize": "25 g (About 1 Scoop)",
             "servingsPerContainer": 16
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 16.4,
           "price_from_build_kwd": 16.4,
           "price_is_live": true,
@@ -1305,7 +1317,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1316,8 +1328,9 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Clear Low Carb Protein Powder, Citrus Lemonade",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "isopure-clear-low-carb-protein-powder-citrus-lemonade-2-0-lb-900-g",
@@ -1366,8 +1379,8 @@
             "servingSize": "25 g (About 1 Scoop)",
             "servingsPerContainer": 36
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 28.36,
           "price_from_build_kwd": 28.36,
           "price_is_live": true,
@@ -1400,7 +1413,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1411,8 +1424,9 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Clear Low Carb Protein Powder, Mango Lime",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "isopure-clear-low-carb-protein-powder-mango-lime-0-9-lb-400-g",
@@ -1461,8 +1475,8 @@
             "servingSize": "25 g (About 1 Scoop)",
             "servingsPerContainer": 16
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 16.68,
           "price_from_build_kwd": 16.68,
           "price_is_live": true,
@@ -1495,7 +1509,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1506,8 +1520,9 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Clear Low Carb Protein Powder, Watermelon Lime",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "isopure-clear-low-carb-protein-powder-watermelon-lime-0-9-lb-400-g",
@@ -1556,8 +1571,8 @@
             "servingSize": "25 g (About 1 Scoop)",
             "servingsPerContainer": 16
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 16.39,
           "price_from_build_kwd": 16.39,
           "price_is_live": true,
@@ -1590,7 +1605,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1601,8 +1616,9 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Infusions Protein Powder, Tropical Punch",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "isopure-infusions-protein-powder-tropical-punch-0-9-lb-400-g",
@@ -1650,8 +1666,8 @@
             "servingSize": "25 g (About 1 Scoop)",
             "servingsPerContainer": 16
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 16.38,
           "price_from_build_kwd": 16.38,
           "price_is_live": true,
@@ -1684,7 +1700,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1695,6 +1711,7 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Low Carb Protein Powder",
+      "family_id": null,
       "flavor": "Strawberry",
       "flavor_group": "fruit",
       "variants": [
@@ -1780,7 +1797,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1791,6 +1808,7 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Low Carb Protein Powder Drink Mix",
+      "family_id": null,
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -1877,7 +1895,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1888,8 +1906,9 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Protein Powder, Tropical Punch",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "isopure-protein-powder-tropical-punch-2-0-lb-900-g",
@@ -1938,8 +1957,8 @@
             "servingSize": "25 g (About 1 Scoop)",
             "servingsPerContainer": 36
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 28.37,
           "price_from_build_kwd": 28.37,
           "price_is_live": true,
@@ -1972,7 +1991,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1983,6 +2002,7 @@
       "brand": "NOW",
       "brand_slug": "now",
       "name": "NOW Sports, Whey Protein Isolate  With BCAAs",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2068,7 +2088,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2079,6 +2099,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Whey Protein Isolate",
+      "family_id": null,
       "flavor": "Chocolate",
       "flavor_group": "chocolate",
       "variants": [
@@ -2165,7 +2186,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2176,6 +2197,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Whey Protein Isolate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2262,7 +2284,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2273,6 +2295,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Whey Protein Isolate",
+      "family_id": null,
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -2359,7 +2382,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2370,6 +2393,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Whey Protein Isolate",
+      "family_id": null,
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -2456,7 +2480,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2467,6 +2491,7 @@
       "brand": "NutraBio",
       "brand_slug": "nutrabio",
       "name": "Whey Protein Isolate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2546,7 +2571,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2557,6 +2582,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Grass-Fed Whey Protein Isolate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2641,7 +2667,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2652,6 +2678,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Grass-Fed Whey Protein Isolate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2736,7 +2763,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2747,6 +2774,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Whey Protein Isolate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2832,7 +2860,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2843,6 +2871,7 @@
       "brand": "Levels",
       "brand_slug": "levels",
       "name": "Grass Fed Whey Protein Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -2927,7 +2956,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2938,6 +2967,7 @@
       "brand": "Natural Factors",
       "brand_slug": "natural-factors",
       "name": "Whey Factors®, Grass Fed Whey Protein",
+      "family_id": null,
       "flavor": "Chocolate",
       "flavor_group": "chocolate",
       "variants": [
@@ -2969,8 +2999,8 @@
           "unit_name": "25 g protein",
           "slot_kind": "admissible",
           "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
-          "ingredients": "Natural chocolate flavor.",
-          "ingredient_count": 1,
+          "ingredients": "Natural chocolate flavor; Stevia leaf",
+          "ingredient_count": 2,
           "allergen_statement": true,
           "dietary": [],
           "certifications": [],
@@ -3010,7 +3040,7 @@
           "vegan_declared": false,
           "gluten_free_declared": false,
           "soy_free_declared": false,
-          "stevia": false,
+          "stevia": true,
           "anti_doping_documented": false,
           "director": {
             "status": "not_selected"
@@ -3023,7 +3053,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3034,6 +3064,7 @@
       "brand": "Natural Factors",
       "brand_slug": "natural-factors",
       "name": "Whey Factors®, Grass Fed Whey Protein",
+      "family_id": null,
       "flavor": "French Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -3064,8 +3095,8 @@
           "unit_name": "25 g protein",
           "slot_kind": "admissible",
           "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
-          "ingredients": "Natural vanilla flavor, guar gum.",
-          "ingredient_count": 2,
+          "ingredients": "Natural vanilla flavor, guar gum; Stevia leaf",
+          "ingredient_count": 3,
           "allergen_statement": true,
           "dietary": [],
           "certifications": [],
@@ -3105,7 +3136,7 @@
           "vegan_declared": false,
           "gluten_free_declared": false,
           "soy_free_declared": false,
-          "stevia": false,
+          "stevia": true,
           "anti_doping_documented": false,
           "director": {
             "status": "not_selected"
@@ -3118,7 +3149,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3129,6 +3160,7 @@
       "brand": "Natural Factors",
       "brand_slug": "natural-factors",
       "name": "Whey Factors®, Grass Fed Whey Protein",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3214,7 +3246,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3225,6 +3257,7 @@
       "brand": "Natural Factors",
       "brand_slug": "natural-factors",
       "name": "Whey Factors®, Grass-Fed Whey Protein",
+      "family_id": null,
       "flavor": "Chocolate",
       "flavor_group": "chocolate",
       "variants": [
@@ -3254,8 +3287,8 @@
           "unit_name": "25 g protein",
           "slot_kind": "admissible",
           "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
-          "ingredients": "Natural chocolate flavor, alkalized cocoa powder.",
-          "ingredient_count": 2,
+          "ingredients": "Natural chocolate flavor, alkalized cocoa powder; Stevia leaf",
+          "ingredient_count": 3,
           "allergen_statement": true,
           "dietary": [],
           "certifications": [],
@@ -3293,7 +3326,7 @@
           "vegan_declared": false,
           "gluten_free_declared": false,
           "soy_free_declared": false,
-          "stevia": false,
+          "stevia": true,
           "anti_doping_documented": false,
           "director": {
             "status": "not_selected"
@@ -3306,7 +3339,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3317,6 +3350,7 @@
       "brand": "NOW",
       "brand_slug": "now",
       "name": "NOW Sports, Whey Protein  With BCAAs",
+      "family_id": null,
       "flavor": "Chocolate",
       "flavor_group": "chocolate",
       "variants": [
@@ -3403,7 +3437,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3414,6 +3448,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Whey Protein Concentrate Protein Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3500,7 +3535,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3511,6 +3546,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Whey Protein Concentrate Protein Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3597,7 +3633,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3608,6 +3644,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Grass-Fed Whey Protein",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3692,7 +3729,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3703,6 +3740,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Grass-Fed Whey Protein",
+      "family_id": null,
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -3787,7 +3825,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3798,6 +3836,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Grass-Fed Whey Protein Concentrate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -3882,7 +3921,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3893,8 +3932,9 @@
       "brand": "Ancient Harvest",
       "brand_slug": "ancient-harvest",
       "name": "Plant-Based Protein Pasta, Red Lentil & Quinoa Rotini",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "ancient-harvest-plant-based-protein-pasta-red-lentil-and-quinoa-rotini-0-5-lb-22",
@@ -3943,8 +3983,8 @@
             "saturatedFatG": 0,
             "servingsPerContainer": 4
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 2.45,
           "price_from_build_kwd": 2.45,
           "price_is_live": true,
@@ -3977,7 +4017,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -3988,8 +4028,9 @@
       "brand": "Dr. Murray's",
       "brand_slug": "dr-murray-s",
       "name": "Super Foods, Organic Pumpkin Seed Protein Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "dr-murray-s-super-foods-organic-pumpkin-seed-protein-powder-2-0-lb-908-g",
@@ -4038,8 +4079,8 @@
             "saturatedFatG": 0.3,
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 12.61,
           "price_from_build_kwd": 12.61,
           "price_is_live": true,
@@ -4072,7 +4113,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4083,6 +4124,7 @@
       "brand": "Isopure",
       "brand_slug": "isopure",
       "name": "Plant Based Low Carb Protein Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4168,7 +4210,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4179,6 +4221,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Organic Pea Protein Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4265,7 +4308,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4276,6 +4319,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Organic Pumpkin Seed Protein Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4361,7 +4405,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4372,6 +4416,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Pea Protein",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4458,7 +4503,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4469,6 +4514,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Pea Protein",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4555,7 +4601,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4566,6 +4612,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Pea Protein",
+      "family_id": null,
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -4652,7 +4699,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4663,6 +4710,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Pea Protein Powder",
+      "family_id": null,
       "flavor": "Chocolate",
       "flavor_group": "chocolate",
       "variants": [
@@ -4749,7 +4797,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4760,6 +4808,7 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Sports, Sprouted Brown Rice Protein Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4846,7 +4895,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4857,6 +4906,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Organic Pea Protein",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4941,7 +4991,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -4952,6 +5002,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Organic Pea Protein",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5036,7 +5087,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5047,6 +5098,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Soy Protein Isolate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5131,7 +5183,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5142,6 +5194,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Soy Protein Isolate",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5226,7 +5279,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5237,6 +5290,7 @@
       "brand": "Olympian Labs",
       "brand_slug": "olympian-labs",
       "name": "Pea Protein",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5318,7 +5372,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5329,6 +5383,7 @@
       "brand": "Olympian Labs",
       "brand_slug": "olympian-labs",
       "name": "Pure Pea Protein",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5409,7 +5464,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5420,8 +5475,9 @@
       "brand": "Ora",
       "brand_slug": "ora",
       "name": "So Lean & So Clean, Daily Superfood Plant Protein, Unsweetened",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "ora-so-lean-and-so-clean-daily-superfood-plant-protein-unsweetened-1-3-lb-594-g",
@@ -5468,8 +5524,8 @@
             "saturatedFatG": 1,
             "servingsPerContainer": 20
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 22.4,
           "price_from_build_kwd": 22.4,
           "price_is_live": true,
@@ -5502,7 +5558,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5513,6 +5569,7 @@
       "brand": "Paradise Herbs",
       "brand_slug": "paradise-herbs",
       "name": "Protein & Greens",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5595,7 +5652,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5606,8 +5663,9 @@
       "brand": "PB2 Foods",
       "brand_slug": "pb2-foods",
       "name": "Performance, Pure Peanut Protein Plant Powder",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "pb2-foods-performance-pure-peanut-protein-plant-powder-2-0-lb-907-g",
@@ -5656,8 +5714,8 @@
             "saturatedFatG": 1.5,
             "servingsPerContainer": 20
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 9.78,
           "price_from_build_kwd": 9.78,
           "price_is_live": true,
@@ -5690,7 +5748,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5701,6 +5759,7 @@
       "brand": "PEScience",
       "brand_slug": "pescience",
       "name": "Vegan Series, Select Plant Protein™",
+      "family_id": null,
       "flavor": "Peanut Butter",
       "flavor_group": "dessert",
       "variants": [
@@ -5784,7 +5843,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5795,6 +5854,7 @@
       "brand": "PEScience",
       "brand_slug": "pescience",
       "name": "Vegan Series, Select Plant Protein™",
+      "family_id": null,
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -5879,7 +5939,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5890,6 +5950,7 @@
       "brand": "Snap Supplements",
       "brand_slug": "snap-supplements",
       "name": "Plant Protein, Vegan Protein Powder",
+      "family_id": null,
       "flavor": "Banana",
       "flavor_group": "dessert",
       "variants": [
@@ -5969,7 +6030,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -5980,6 +6041,7 @@
       "brand": "Sunwarrior",
       "brand_slug": "sunwarrior",
       "name": "Classic Protein",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -6066,7 +6128,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6077,6 +6139,7 @@
       "brand": "Sunwarrior",
       "brand_slug": "sunwarrior",
       "name": "Sport, Organic Active Protein Powder",
+      "family_id": null,
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -6162,7 +6225,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -6173,6 +6236,7 @@
       "brand": "Swanson Vitamins",
       "brand_slug": "swanson-vitamins",
       "name": "100% Pea Protein Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -6253,12 +6317,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-20T07:33:45.356Z",
+  "pulled_at": "2026-10-20T08:04:22.173Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

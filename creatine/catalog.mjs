@@ -79,7 +79,7 @@ const CONSTRAINTS = {
   vegan: (v) => v.vegan_declared === true,
   glutenFree: (v) => v.gluten_free_declared === true,
   soy: (v) => v.soy_free_declared === true,
-  noStevia: (v) => v.stevia !== true,
+  noStevia: (v) => v.stevia === false,
   sport: (v) => v.anti_doping_documented === true,
 };
 

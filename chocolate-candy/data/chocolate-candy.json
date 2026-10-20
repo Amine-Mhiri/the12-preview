@@ -11,12 +11,12 @@
   "tagline": "Ingredients checked. Your preferences come next.",
   "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
   "build": {
-    "id": 31,
+    "id": 32,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-20T07:33:44.033Z",
+  "reviewed_at": "2026-10-20",
+  "generated_at": "2026-10-20T08:04:20.924Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -99,8 +99,9 @@
       "brand": "Chimes",
       "brand_slug": "chimes",
       "name": "Ginger Chews, Original",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "chimes-ginger-chews-original-0-3-lb-142-g",
@@ -146,8 +147,8 @@
             "servingSize": "1 pcs (4 g)",
             "servingsPerContainer": 35
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 1.71,
           "price_from_build_kwd": 1.71,
           "price_is_live": true,
@@ -180,7 +181,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -191,8 +192,9 @@
       "brand": "The Ginger People",
       "brand_slug": "the-ginger-people",
       "name": "Gin Gins®, Ginger Chews, Original",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "the-ginger-people-gin-gins-ginger-chews-original-0-2-lb-85-g",
@@ -241,8 +243,8 @@
             "saturatedFatG": 0,
             "servingsPerContainer": 7
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 1.63,
           "price_from_build_kwd": 1.63,
           "price_is_live": true,
@@ -275,12 +277,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-20T07:33:45.364Z",
+  "pulled_at": "2026-10-20T08:04:22.179Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

@@ -11,12 +11,12 @@
   "tagline": "Ingredients checked. Your preferences come next.",
   "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
   "build": {
-    "id": 31,
+    "id": 32,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-20T07:33:44.033Z",
+  "reviewed_at": "2026-10-20",
+  "generated_at": "2026-10-20T08:04:20.924Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -99,8 +99,9 @@
       "brand": "Aleva Naturals",
       "brand_slug": "aleva-naturals",
       "name": "Baby, Stain & Laundry Bar Soap, Fragrance Free",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "aleva-naturals-baby-stain-and-laundry-bar-soap-fragrance-free-0-5-lb-220-g",
@@ -141,8 +142,8 @@
             "servingSize": "1 serving",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 2.76,
           "price_from_build_kwd": 2.76,
           "price_is_live": true,
@@ -175,7 +176,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -186,8 +187,9 @@
       "brand": "Frontier Co-op",
       "brand_slug": "frontier-co-op",
       "name": "Citric Acid",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "frontier-co-op-citric-acid-1-0-lb-453-g",
@@ -227,8 +229,8 @@
             "servingSize": "1 serving",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 4.12,
           "price_from_build_kwd": 4.12,
           "price_is_live": true,
@@ -261,7 +263,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -272,8 +274,9 @@
       "brand": "Nellie's",
       "brand_slug": "nellie-s",
       "name": "Wow Stick, Stain Remover",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "nellie-s-wow-stick-stain-remover-0-2-lb-77-g",
@@ -314,8 +317,8 @@
             "servingSize": "1 serving",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.4,
           "price_from_build_kwd": 3.4,
           "price_is_live": true,
@@ -348,7 +351,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -359,8 +362,9 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Citric Acid",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "now-foods-citric-acid-0-2-lb-113-g",
@@ -401,8 +405,8 @@
             "servingSize": "1 serving",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 2.55,
           "price_from_build_kwd": 2.55,
           "price_is_live": true,
@@ -435,7 +439,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -446,8 +450,9 @@
       "brand": "NOW Foods",
       "brand_slug": "now-foods",
       "name": "Citric Acid",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "now-foods-citric-acid-1-0-lb-454-g",
@@ -488,8 +493,8 @@
             "servingSize": "1 serving",
             "servingsPerContainer": null
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.15,
           "price_from_build_kwd": 6.15,
           "price_is_live": true,
@@ -522,7 +527,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -533,6 +538,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Citric Acid",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -617,7 +623,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -628,6 +634,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Citric Acid",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -712,7 +719,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -723,6 +730,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Citric Acid",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -807,12 +815,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-20T07:33:45.366Z",
+  "pulled_at": "2026-10-20T08:04:22.180Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

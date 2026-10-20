@@ -11,12 +11,12 @@
   "tagline": "Ingredients checked. Your preferences come next.",
   "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
   "build": {
-    "id": 31,
+    "id": 32,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-20T07:33:44.033Z",
+  "reviewed_at": "2026-10-20",
+  "generated_at": "2026-10-20T08:04:20.924Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -99,6 +99,7 @@
       "brand": "BulletProof",
       "brand_slug": "bulletproof",
       "name": "The Mentalist™, Ground, Medium-Dark Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -174,7 +175,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -185,6 +186,7 @@
       "brand": "BulletProof",
       "brand_slug": "bulletproof",
       "name": "Whole Bean, Medium Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -260,7 +262,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -271,6 +273,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Breakfast Blend, Ground, Medium & French Roasts",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -346,7 +349,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -357,6 +360,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Breakfast Blend, Whole Bean, Medium & French Roasts",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -432,7 +436,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -443,6 +447,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Colombian, Ground, Full City Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -518,7 +523,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -529,6 +534,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Colombian, Whole Bean, Full City Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -604,7 +610,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -615,6 +621,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Ground, French Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -690,7 +697,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -701,6 +708,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Ground, Full City Roast, Decaffeinated",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -776,7 +784,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -787,6 +795,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Love Buzz, Whole Bean, French Roasts",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -862,7 +871,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -873,6 +882,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Mind Body & Soul, Ground, Medium & Vienna Roasts",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -948,7 +958,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -959,6 +969,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Mind Body & Soul, Whole Bean, Medium Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1034,7 +1045,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1045,6 +1056,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Whole Bean, French Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1120,7 +1132,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1131,6 +1143,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Whole Bean, Full City Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1206,7 +1219,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1217,6 +1230,7 @@
       "brand": "Equal Exchange",
       "brand_slug": "equal-exchange",
       "name": "Whole Bean, Full City Roast, Decaffeinated",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1292,7 +1306,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1303,6 +1317,7 @@
       "brand": "Mt. Whitney Coffee Roasters",
       "brand_slug": "mt-whitney-coffee-roasters",
       "name": "Organic Ethiopia Guji, Medium Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1378,7 +1393,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1389,6 +1404,7 @@
       "brand": "Pure Indian Foods",
       "brand_slug": "pure-indian-foods",
       "name": "Whole Beans Sampler, 2 Packs, Each",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1464,7 +1480,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1475,6 +1491,7 @@
       "brand": "Purity Coffee",
       "brand_slug": "purity-coffee",
       "name": "Ease, Ground, Dark Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1550,7 +1567,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1561,6 +1578,7 @@
       "brand": "Purity Coffee",
       "brand_slug": "purity-coffee",
       "name": "Ease, Whole Bean, Dark Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1636,7 +1654,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1647,6 +1665,7 @@
       "brand": "Purity Coffee",
       "brand_slug": "purity-coffee",
       "name": "Flow, Ground, Medium Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1722,7 +1741,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1733,6 +1752,7 @@
       "brand": "Purity Coffee",
       "brand_slug": "purity-coffee",
       "name": "Flow, Whole Bean, Medium Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1808,7 +1828,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1819,6 +1839,7 @@
       "brand": "Purity Coffee",
       "brand_slug": "purity-coffee",
       "name": "Protect, Ground, Light-Medium Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1894,7 +1915,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1905,6 +1926,7 @@
       "brand": "Purity Coffee",
       "brand_slug": "purity-coffee",
       "name": "Protect, Whole Bean, Light-Medium Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -1980,7 +2002,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -1991,6 +2013,7 @@
       "brand": "Rainbo",
       "brand_slug": "rainbo",
       "name": "Rainbo, Fungki Coffee®",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -2068,7 +2091,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -2079,6 +2102,7 @@
       "brand": "Swanson Vitamins",
       "brand_slug": "swanson-vitamins",
       "name": "Whole Bean, Medium Roast",
+      "family_id": null,
       "flavor": "Coffee",
       "flavor_group": "dessert",
       "variants": [
@@ -2154,12 +2178,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-20T07:33:45.364Z",
+  "pulled_at": "2026-10-20T08:04:22.179Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

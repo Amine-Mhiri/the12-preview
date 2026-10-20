@@ -11,12 +11,12 @@
   "tagline": "Ingredients checked. Your preferences come next.",
   "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
   "build": {
-    "id": 31,
+    "id": 32,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-20T07:33:44.033Z",
+  "reviewed_at": "2026-10-20",
+  "generated_at": "2026-10-20T08:04:20.924Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -99,6 +99,7 @@
       "brand": "BioTRUST",
       "brand_slug": "biotrust",
       "name": "Ageless Muscle®",
+      "family_id": null,
       "flavor": "Fruit Punch",
       "flavor_group": "fruit",
       "variants": [
@@ -174,7 +175,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -185,6 +186,7 @@
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
       "name": "D-Ribose Powder",
+      "family_id": null,
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -265,7 +267,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -276,8 +278,9 @@
       "brand": "Carlson",
       "brand_slug": "carlson",
       "name": "Ribose",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "carlson-ribose-0-2-lb-100-g",
@@ -321,8 +324,8 @@
             "servingSize": "1 Teaspoon (enclosed 1 level scoop - 3.5 g)",
             "servingsPerContainer": 28
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 6.04,
           "price_from_build_kwd": 6.04,
           "price_is_live": true,
@@ -355,7 +358,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -366,8 +369,9 @@
       "brand": "Carlson",
       "brand_slug": "carlson",
       "name": "Ribose, 30 Single-Serving Packets",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "carlson-ribose-30-single-serving-packets-size-unknown",
@@ -412,8 +416,8 @@
             "servingSize": "1 Packet (5 g)",
             "servingsPerContainer": 30
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 11.62,
           "price_from_build_kwd": 11.62,
           "price_is_live": true,
@@ -446,7 +450,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -457,8 +461,9 @@
       "brand": "Jarrow Formulas",
       "brand_slug": "jarrow-formulas",
       "name": "Vegan D-Ribose",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "jarrow-formulas-vegan-d-ribose-0-4-lb-200-g",
@@ -502,8 +507,8 @@
             "servingSize": "1 Scoop (2.2 g)",
             "servingsPerContainer": 90
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 12.62,
           "price_from_build_kwd": 12.62,
           "price_is_live": true,
@@ -536,12 +541,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-20T07:33:45.364Z",
+  "pulled_at": "2026-10-20T08:04:22.179Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

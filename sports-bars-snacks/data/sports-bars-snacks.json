@@ -11,12 +11,12 @@
   "tagline": "Ingredients checked. Your preferences come next.",
   "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
   "build": {
-    "id": 31,
+    "id": 32,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-15",
-  "generated_at": "2026-10-20T07:33:44.033Z",
+  "reviewed_at": "2026-10-20",
+  "generated_at": "2026-10-20T08:04:20.924Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -99,8 +99,9 @@
       "brand": "BPN",
       "brand_slug": "bpn",
       "name": "Go Bar, Endurance Bar, Original, 12 Bars, Each",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "bpn-go-bar-endurance-bar-original-12-bars-each-0-1-lb-50-g",
@@ -150,8 +151,8 @@
             "saturatedFatG": 4,
             "servingsPerContainer": 12
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 10.08,
           "price_from_build_kwd": 10.08,
           "price_is_live": true,
@@ -184,7 +185,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -195,8 +196,9 @@
       "brand": "Honey Stinger",
       "brand_slug": "honey-stinger",
       "name": "Energy Waffle, Honey, 12 Waffles, Each",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "honey-stinger-energy-waffle-honey-12-waffles-each-0-1-lb-30-g",
@@ -246,8 +248,8 @@
             "saturatedFatG": 3,
             "servingsPerContainer": 12
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 7.83,
           "price_from_build_kwd": 7.83,
           "price_is_live": true,
@@ -280,7 +282,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -291,8 +293,9 @@
       "brand": "Honey Stinger",
       "brand_slug": "honey-stinger",
       "name": "Mini Energy Waffles, Honey",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "honey-stinger-mini-energy-waffles-honey-0-3-lb-150-g",
@@ -341,8 +344,8 @@
             "saturatedFatG": 2.5,
             "servingsPerContainer": 6
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 3.19,
           "price_from_build_kwd": 3.19,
           "price_is_live": true,
@@ -375,7 +378,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -386,6 +389,7 @@
       "brand": "Rise Bar",
       "brand_slug": "rise-bar",
       "name": "Protein Bar, 12 Bars, Each",
+      "family_id": null,
       "flavor": "Cinnamon",
       "flavor_group": "dessert",
       "variants": [
@@ -471,7 +475,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -482,8 +486,9 @@
       "brand": "Rise Bar",
       "brand_slug": "rise-bar",
       "name": "Protein Bar, Almond Honey, 12 Bars, Each",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "rise-bar-protein-bar-almond-honey-12-bars-each-0-1-lb-60-g",
@@ -533,8 +538,8 @@
             "saturatedFatG": 1,
             "servingsPerContainer": 12
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 13.1,
           "price_from_build_kwd": 13.1,
           "price_is_live": true,
@@ -567,7 +572,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
@@ -578,8 +583,9 @@
       "brand": "Rise Bar",
       "brand_slug": "rise-bar",
       "name": "Rise Minis, Mini Protein Bars, Almond Honey, 24 Snack-Size Protein Bars, Each",
-      "flavor": "Unflavoured",
-      "flavor_group": "unflavoured",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
       "variants": [
         {
           "id": "rise-bar-rise-minis-mini-protein-bars-almond-honey-24-snack-size-protein-bars-ea",
@@ -629,8 +635,8 @@
             "saturatedFatG": 0.5,
             "servingsPerContainer": 24
           },
-          "flavor": "Unflavoured",
-          "flavor_group": "unflavoured",
+          "flavor": "Not specified",
+          "flavor_group": "other",
           "price_kwd": 15.02,
           "price_from_build_kwd": 15.02,
           "price_is_live": true,
@@ -663,12 +669,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-15",
+          "ingredients_reviewed_at": "2026-10-20",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-20T07:33:45.365Z",
+  "pulled_at": "2026-10-20T08:04:22.180Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
