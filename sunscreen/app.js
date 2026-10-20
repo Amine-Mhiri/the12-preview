@@ -36,9 +36,9 @@ const {subcategories,scopeContext}=await import('./subcategories.mjs');
 const VIEW=document.body.dataset.view||CATEGORY;
 const {catalogueView,comparisonCost}=await import('./views.mjs');
 const {applyProfileText}=await import('./presentation.mjs');
-const catalog=await import('./catalog.mjs?v=4');
+const catalog=await import('./catalog.mjs?v=5');
 const {applyCountText}=await import('./counts.mjs?v=3');
-const {DEFAULTS,stockState,selectProducts,chooseFlavor,comparePackSizes,recommendations,merchantLink,withAllergyChoice}=catalog;
+const {DEFAULTS,stockState,selectProducts,chooseFlavor,comparePackSizes,recommendations,merchantLink,withAllergyChoice,packSizeChoices}=catalog;
 // A product whose merchant link we cannot validate must not take the page
 // down with it. `merchantLink` throws by design — it is the guard against
 // sending somebody to a URL we did not derive — but it used to throw inside
@@ -107,6 +107,11 @@ function catalogOptions(){
   const custom=state.query&&!Object.hasOwn(c.brands,state.query)&&!Object.hasOwn(c.products,state.query)?`<option value="${esc(state.query)}" selected>${esc(state.query)}</option>`:'';
   return `<option value="" ${state.query===''?'selected':''}>All brands & products</option>${custom}<optgroup label="Brands">${options(c.brands,state.query)}</optgroup><optgroup label="Products">${options(c.products,state.query)}</optgroup>`;
 }
+function packOptions(){
+  const rows=packSizeChoices(data,state),current=state.packSize;
+  const missing=current!=='all'&&!rows.some(r=>r.value===current)?`<option value="${esc(current)}" selected>${esc(current)}</option>`:'';
+  return `<option value="all" ${current==='all'?'selected':''}>All pack sizes</option>${missing}${rows.map(r=>`<option value="${esc(r.value)}" ${r.value===current?'selected':''}>${esc(r.label)}</option>`).join('')}`;
+}
 function syncTypeContext(){
   const scope=scopeContext(data,state.type,basePriorities);PRIORITIES=scope.priorities;unitName=scope.unit;
   if(!Object.hasOwn(PRIORITIES,state.priority))state.priority=Object.hasOwn(PRIORITIES,data.default_priority)?data.default_priority:'name';
@@ -132,12 +137,13 @@ function renderSubcategories(){
 addEventListener('popstate',()=>{if(data){state.type=urlType();choices.clear();limit=16;renderFilters();renderResults();}});
 function renderFilters(){
   syncTypeContext();
-  $('#filters').innerHTML=`<label class="search-label">Brand or product<select id="search">${catalogOptions()}</select></label><label>Flavor<select id="flavor">${options(FLAVORS,state.flavor)}</select></label>`;
+  $('#filters').innerHTML=`<label class="search-label">Brand or product<select id="search">${catalogOptions()}</select></label><label>Flavor<select id="flavor">${options(FLAVORS,state.flavor)}</select></label><label>Pack size<select id="pack-size">${packOptions()}</select></label>`;
   $('#sort-control').innerHTML=`<label class="sort-label">Sort by<select id="priority">${options(PRIORITIES,state.priority)}</select></label>`;
   if(!$('#extra-filters'))$('#filters').insertAdjacentHTML('afterend','<details id="extra-filters" class="extra-filters"></details>');
   $('#extra-filters').innerHTML=`<summary>Preferences <span aria-hidden="true" class="preference-toggle"></span></summary><div class="preference-pills" role="group" aria-label="Dietary preferences">${checkboxes(state,'filter')}${constraintNames.milkAllergy?`<label class="check"><input type="checkbox" data-constraint="milkAllergy" ${state.milkAllergy?'checked':''}><span>${constraintNames.milkAllergy}</span></label>`:''}</div>`;
   $('#search').onchange=e=>{state.query=e.target.value;filterChanged();};
   $('#flavor').onchange=e=>{state.flavor=e.target.value;filterChanged();};
+  $('#pack-size').onchange=e=>{state.packSize=e.target.value;filterChanged();};
   $('#priority').onchange=e=>{state.priority=e.target.value;filterChanged();};
   $('#extra-filters').onchange=e=>{if(e.target.dataset.constraint){state[e.target.dataset.constraint]=e.target.checked;filterChanged();}};
 }
@@ -168,6 +174,7 @@ function chips(){
   if(state.type!=='all')items.push(['type',subcategories(data).find(t=>t.slug===state.type)?.name||'Unavailable subcategory']);
   if(state.query)items.push(['query',`Brand / product: ${queryLabel()}`]);
   if(state.flavor!=='all')items.push(['flavor',FLAVORS[state.flavor]]);
+  if(state.packSize!=='all')items.push(['packSize',`Pack size: ${state.packSize}`]);
   if(state.budget!=='')items.push(['budget',`Up to ${money(state.budget)}`]);
   for(const [key,label] of Object.entries(constraintNames))if(state[key])items.push([key,label]);
   $('#active-filters').innerHTML=items.map(([key,label])=>`<button class="chip" data-remove="${key}" aria-label="Remove filter: ${esc(label)}">${esc(label)} <span aria-hidden="true">×</span></button>`).join('')+(items.length?'<button class="reset-link" data-reset>Reset filters</button>':'');
@@ -228,9 +235,10 @@ function renderView(){
 }
 function renderResults(){
   syncTypeContext();renderSubcategories();syncTypeUrl();
+  $('#pack-size').innerHTML=packOptions();
   const rows=selectProducts(data,state),refCount=rows.reduce((n,g)=>n+g.variants.length,0);
   renderScope();chips();$('#result-count').textContent=`${rows.length} product${rows.length===1?'':'s'} · ${refCount} reference${refCount===1?'':'s'}`;
-  const labels=selectionLabels(data),filterCount=Number(Boolean(state.query))+Number(state.flavor!=='all')+Number(state.budget!=='')+Object.keys(constraintNames).filter(key=>state[key]).length;
+  const labels=selectionLabels(data),filterCount=Number(Boolean(state.query))+Number(state.flavor!=='all')+Number(state.packSize!=='all')+Number(state.budget!=='')+Object.keys(constraintNames).filter(key=>state[key]).length;
   selectionLayout.update({labels,typeName:state.type==='all'?labels.allLabel:subcategories(data).find(t=>t.slug===state.type)?.name||'Unavailable type',hasTypes:!$('#subcategory-nav').hidden,filterCount,resultText:$('#result-count').textContent});
   const matches=guided?recommendations(data,state):[];
   $('#recommendations').innerHTML=guided&&matches.length?`<section class="matches-panel" aria-labelledby="matches-title"><div class="matches-heading"><div><p class="eyebrow">MADE PERSONAL</p><h3 id="matches-title">${matches.length===1?'Your match':'Your matches'}</h3><p>Chosen by your preferences. ${state.priority==='name'?'Listed alphabetically.':`Priority: ${esc(PRIORITIES[state.priority].toLowerCase())}.`} Current stock comes first.</p></div><button class="text-button" data-guide>Edit my answers ↗</button></div><div class="product-grid">${matches.map(g=>card(g,true)).join('')}</div><button class="button secondary all-results" id="all-results">Browse ${rows.length===1?'the matching option':`all ${rows.length} matching options`} ↓</button></section>`:'';
@@ -343,11 +351,12 @@ $('#product-dialog').addEventListener('close',()=>{activeDetail=null;});
 function registerTools(){
   if(!document.modelContext?.registerTool)return;
   const controller=new AbortController();addEventListener('pagehide',()=>controller.abort(),{once:true});
-  const registration=document.modelContext.registerTool({name:`filter_${VIEW.replace(/-/g,'_')}_selection`,description:'Apply visible catalogue filters and return matching references. Does not order or add items to a cart.',annotations:{readOnlyHint:false,untrustedContentHint:true},inputSchema:{type:'object',properties:{...(constraintNames.director?{director:{type:'boolean'}}:{}),type:{type:'string',enum:['all',...subcategories(data).map(t=>t.slug)]},query:{type:'string',maxLength:100},flavor:{type:'string',enum:Object.keys(FLAVORS)},budget:{type:'number',minimum:0,maximum:1000},priority:{type:'string',enum:Object.keys(basePriorities).filter(key=>key!=='rank')}},additionalProperties:false},execute:async input=>{
-    if(!input||typeof input!=='object'||Array.isArray(input)||Object.keys(input).some(k=>!['director','query','flavor','budget','priority','type'].includes(k)))throw Error('Invalid filters');
+  const registration=document.modelContext.registerTool({name:`filter_${VIEW.replace(/-/g,'_')}_selection`,description:'Apply visible catalogue filters and return matching references. Does not order or add items to a cart.',annotations:{readOnlyHint:false,untrustedContentHint:true},inputSchema:{type:'object',properties:{...(constraintNames.director?{director:{type:'boolean'}}:{}),type:{type:'string',enum:['all',...subcategories(data).map(t=>t.slug)]},packSize:{type:'string',enum:['all',...packSizeChoices(data).map(r=>r.value)]},query:{type:'string',maxLength:100},flavor:{type:'string',enum:Object.keys(FLAVORS)},budget:{type:'number',minimum:0,maximum:1000},priority:{type:'string',enum:Object.keys(basePriorities).filter(key=>key!=='rank')}},additionalProperties:false},execute:async input=>{
+    if(!input||typeof input!=='object'||Array.isArray(input)||Object.keys(input).some(k=>!['director','query','flavor','budget','priority','type','packSize'].includes(k)))throw Error('Invalid filters');
     if(input.director!==undefined&&(!constraintNames.director||typeof input.director!=='boolean'))throw Error('Invalid director filter');
     const inputPriorities=scopeContext(data,input.type??state.type,basePriorities).priorities;
     if(input.flavor!==undefined&&!Object.hasOwn(FLAVORS,input.flavor)||input.priority!==undefined&&!Object.hasOwn(inputPriorities,input.priority)||input.query!==undefined&&(typeof input.query!=='string'||input.query.length>100)||input.budget!==undefined&&(!Number.isFinite(input.budget)||input.budget<0||input.budget>1000))throw Error('Invalid filter value');
+    if(input.packSize!==undefined&&!['all',...packSizeChoices(data).map(r=>r.value)].includes(input.packSize))throw Error('Invalid pack size');
     if(input.type!==undefined&&!['all',...subcategories(data).map(t=>t.slug)].includes(input.type))throw Error('Invalid subcategory');
     Object.assign(state,input);if(input.budget!==undefined)state.budget=String(input.budget);choices.clear();limit=16;renderFilters();renderResults();
     return {content:[{type:'text',text:JSON.stringify({options:selectProducts(data,state).length,reference_ids:selectProducts(data,state).flatMap(g=>g.variants.map(v=>v.id))})}]};

@@ -16,6 +16,7 @@ import {comparisonCost} from "./views.mjs";
 
 export { stockState } from "./catalog-engine.mjs";
 export { chooseFlavor, comparePackSizes } from "./product-families.mjs?v=2";
+import { comparePackSizes } from "./product-families.mjs?v=2";
 import { displayCatalogue } from "./product-families.mjs?v=2";
 
 /**
@@ -48,6 +49,7 @@ export const DEFAULTS = Object.freeze({
   query: "",
   type: "all",
   flavor: "all",
+  packSize: "all",
   budget: "",
   priority: "value",
   director: false,
@@ -84,7 +86,10 @@ const CONSTRAINTS = {
 /** Allergy answers are exclusive with "no allergies", as upstream. */
 const ALLERGIES = ["milkAllergy", "soy"];
 
+export const packSizeKey = v => String(v.size || '').normalize('NFKC').trim().replace(/\s+/g,' ').toLowerCase();
+
 export function matches(g, v, s) {
+  if(s.packSize && s.packSize!=='all' && packSizeKey(v)!==s.packSize)return false;
   if(s.type && s.type!=="all" && v.subcategory_id!==s.type && v.type_slug!==s.type)return false;
   if (s.query.startsWith("product:")) {
     if ((g.product_id || g.id) !== s.query.slice(8) && v.reference_product_id !== s.query.slice(8)) return false;
@@ -123,6 +128,15 @@ const engine = createCatalogEngine({
 export const selectGroups = (data, state) => engine.selectGroups(displayCatalogue(data), state);
 export const selectProducts = (data, state) => engine.selectProducts(displayCatalogue(data), state);
 export const recommendations = (data, state, now) => engine.recommendations(displayCatalogue(data), state, now);
+
+/** Declared formats in the current scope; no conversion between mass, volume or count. */
+export function packSizeChoices(data, state=DEFAULTS) {
+  const formats=new Map();
+  for(const product of selectProducts(data,{...state,packSize:'all'}))for(const v of product.variants){
+    const key=packSizeKey(v);if(key&&!formats.has(key))formats.set(key,v);
+  }
+  return [...formats].sort((a,b)=>comparePackSizes(a[1],b[1])).map(([value,v])=>({value,label:v.size}));
+}
 
 // The unrestricted choice clears every allergy constraint; any restriction
 // clears it. Upstream behaviour, kept.
