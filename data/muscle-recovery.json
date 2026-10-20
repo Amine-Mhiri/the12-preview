@@ -11,12 +11,12 @@
   "tagline": "Ingredients checked. Your preferences come next.",
   "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
   "build": {
-    "id": 33,
+    "id": 35,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-20",
-  "generated_at": "2026-10-20T21:41:17.540Z",
+  "generated_at": "2026-10-20T22:10:51.822Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -277,8 +277,8 @@
       "product_id": "p-088395088254",
       "brand": "Carlson",
       "brand_slug": "carlson",
-      "name": "Ribose",
-      "family_id": null,
+      "name": "Ribose Powder",
+      "family_id": "carlson-ribose-powder",
       "flavor": "Not specified",
       "flavor_group": "other",
       "variants": [
@@ -286,7 +286,7 @@
           "id": "carlson-ribose-0-2-lb-100-g",
           "catalogue_id": "p-088395088254",
           "number": 3,
-          "title": "Carlson, Ribose, 0.2 lb / 100 g",
+          "title": "Carlson, Ribose Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/carlson-ribose-3-53-oz-100-g/22611",
           "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-ribose-3-53-oz-100-g/22611",
           "merchant_ref": "22611",
@@ -368,8 +368,8 @@
       "product_id": "p-088395088247",
       "brand": "Carlson",
       "brand_slug": "carlson",
-      "name": "Ribose, 30 Single-Serving Packets",
-      "family_id": null,
+      "name": "Ribose Powder",
+      "family_id": "carlson-ribose-powder",
       "flavor": "Not specified",
       "flavor_group": "other",
       "variants": [
@@ -377,7 +377,7 @@
           "id": "carlson-ribose-30-single-serving-packets-size-unknown",
           "catalogue_id": "p-088395088247",
           "number": 4,
-          "title": "Carlson, Ribose, 30 Single-Serving Packets, 30 Single-Serving Packets",
+          "title": "Carlson, Ribose Powder, 30 Single-Serving Packets",
           "url": "https://kw.iherb.com/pr/carlson-ribose-30-single-serving-packets/22612",
           "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-ribose-30-single-serving-packets/22612",
           "merchant_ref": "22612",
@@ -547,6 +547,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-20T21:41:19.057Z",
+  "pulled_at": "2026-10-20T22:11:01.279Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

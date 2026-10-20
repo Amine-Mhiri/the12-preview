@@ -11,12 +11,12 @@
   "tagline": "Declared formulas checked. Choose what fits your training.",
   "description": "We review the declared formula against the applicable ingredient charter. Quantities, forms, product evidence and warnings remain separate facts; prices are compared using the declared category unit.",
   "build": {
-    "id": 33,
+    "id": 35,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-20",
-  "generated_at": "2026-10-20T21:41:17.540Z",
+  "generated_at": "2026-10-20T22:10:51.822Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -4865,8 +4865,8 @@
       "product_id": "p-810014679150",
       "brand": "Nutricost",
       "brand_slug": "nutricost",
-      "name": "Beta Alanine",
-      "family_id": null,
+      "name": "Beta-Alanine",
+      "family_id": "nutricost-beta-alanine",
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -4874,7 +4874,7 @@
           "id": "nutricost-beta-alanine-unflavored-0-7-lb-303-g",
           "catalogue_id": "p-810014679150",
           "number": 54,
-          "title": "Nutricost, Beta Alanine, Unflavored, 0.7 lb / 303 g",
+          "title": "Nutricost, Beta-Alanine, Unflavored, 0.7 lb / 303 g",
           "url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-10-7-oz-300-g/153891",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-10-7-oz-300-g/153891",
           "merchant_ref": "153891",
@@ -4953,7 +4953,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Beta-Alanine",
-      "family_id": null,
+      "family_id": "nutricost-beta-alanine",
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5040,7 +5040,7 @@
       "brand": "Nutricost",
       "brand_slug": "nutricost",
       "name": "Beta-Alanine",
-      "family_id": null,
+      "family_id": "nutricost-beta-alanine",
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5128,7 +5128,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "Beta-Alanine",
-      "family_id": null,
+      "family_id": "primaforce-beta-alanine",
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5215,7 +5215,7 @@
       "brand": "Primaforce",
       "brand_slug": "primaforce",
       "name": "Beta-Alanine",
-      "family_id": null,
+      "family_id": "primaforce-beta-alanine",
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5301,8 +5301,8 @@
       "product_id": "p-811445021433",
       "brand": "Primaforce",
       "brand_slug": "primaforce",
-      "name": "Beta-Alanine Powder",
-      "family_id": null,
+      "name": "Beta-Alanine",
+      "family_id": "primaforce-beta-alanine",
       "flavor": "Unflavored",
       "flavor_group": "unflavoured",
       "variants": [
@@ -5310,7 +5310,7 @@
           "id": "primaforce-beta-alanine-powder-unflavored-1-1-lb-507-g",
           "catalogue_id": "p-811445021433",
           "number": 59,
-          "title": "Primaforce, Beta-Alanine Powder, Unflavored, 1.1 lb / 507 g",
+          "title": "Primaforce, Beta-Alanine, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/primaforce-beta-alanine-powder-unflavored-17-9-oz-500-g/141704",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-beta-alanine-powder-unflavored-17-9-oz-500-g/141704",
           "merchant_ref": "141704",
@@ -6008,6 +6008,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-20T21:41:19.052Z",
+  "pulled_at": "2026-10-20T22:11:01.273Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

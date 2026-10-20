@@ -11,12 +11,12 @@
   "tagline": "Ingredients checked. Your preferences come next.",
   "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
   "build": {
-    "id": 33,
+    "id": 35,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-20",
-  "generated_at": "2026-10-20T21:41:17.540Z",
+  "generated_at": "2026-10-20T22:10:51.822Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -6954,7 +6954,7 @@
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
       "name": "Free-Form L-Glutamine Powder",
-      "family_id": null,
+      "family_id": "source-naturals-free-form-glutamine-powder",
       "flavor": "Not specified",
       "flavor_group": "other",
       "variants": [
@@ -7128,8 +7128,8 @@
       "product_id": "p-021078001249",
       "brand": "Source Naturals",
       "brand_slug": "source-naturals",
-      "name": "L-Glutamine Powder",
-      "family_id": null,
+      "name": "Free-Form L-Glutamine Powder",
+      "family_id": "source-naturals-free-form-glutamine-powder",
       "flavor": "Not specified",
       "flavor_group": "other",
       "variants": [
@@ -7137,7 +7137,7 @@
           "id": "source-naturals-l-glutamine-powder-0-2-lb-100-g",
           "catalogue_id": "p-021078001249",
           "number": 81,
-          "title": "Source Naturals, L-Glutamine Powder, 0.2 lb / 100 g",
+          "title": "Source Naturals, Free-Form L-Glutamine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/source-naturals-l-glutamine-powder-3-53-oz-100-g/1234",
           "merchant_url_from_build": "https://kw.iherb.com/pr/source-naturals-l-glutamine-powder-3-53-oz-100-g/1234",
           "merchant_ref": "1234",
@@ -8269,6 +8269,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-20T21:41:19.055Z",
+  "pulled_at": "2026-10-20T22:11:01.277Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
