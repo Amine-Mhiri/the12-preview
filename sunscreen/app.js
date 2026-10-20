@@ -100,13 +100,17 @@ const options=(items,selected)=>Object.entries(items).map(([v,label])=>`<option 
 function catalogChoices(){
   const products=selectProducts(data,{...DEFAULTS,type:state.type,priority:'name'});
   const brands=[...new Set(products.map(p=>p.brand))].sort((a,b)=>a.localeCompare(b,'en'));
-  return {brands:Object.fromEntries(brands.map(b=>['brand:'+b,b])),products:Object.fromEntries(products.map(p=>['product:'+p.id,`${p.brand} — ${p.name}`]))};
+  return Object.fromEntries(brands.map(b=>['brand:'+b,b]));
 }
-function queryLabel(){const choices=catalogChoices();return choices.brands[state.query]||choices.products[state.query]||state.query;}
+function queryLabel(){
+  if(state.query.startsWith('brand:'))return state.query.slice(6);
+  if(state.query.startsWith('product:')){const product=selectProducts(data,{...DEFAULTS,query:state.query})[0];if(product)return `${product.brand} — ${product.name}`;}
+  return state.query;
+}
 function catalogOptions(){
-  const c=catalogChoices();
-  const custom=state.query&&!Object.hasOwn(c.brands,state.query)&&!Object.hasOwn(c.products,state.query)?`<option value="${esc(state.query)}" selected>${esc(state.query)}</option>`:'';
-  return `<option value="" ${state.query===''?'selected':''}>All brands & products</option>${custom}<optgroup label="Brands">${options(c.brands,state.query)}</optgroup><optgroup label="Products">${options(c.products,state.query)}</optgroup>`;
+  const brands=catalogChoices(),isBrand=state.query.startsWith('brand:');
+  const missing=isBrand&&!Object.hasOwn(brands,state.query)?`<option value="${esc(state.query)}" selected>${esc(queryLabel())}</option>`:'';
+  return `<option value="" ${!isBrand?'selected':''}>All brands</option>${missing}${options(brands,state.query)}`;
 }
 function packOptions(){
   const rows=packSizeChoices(data,state),current=state.packSize;
@@ -138,7 +142,7 @@ function renderSubcategories(){
 addEventListener('popstate',()=>{if(data){state.type=urlType();choices.clear();limit=16;renderFilters();renderResults();}});
 function renderFilters(){
   syncTypeContext();
-  $('#filters').innerHTML=`<label class="search-label">Brand or product<select id="search">${catalogOptions()}</select></label><label>Flavor<select id="flavor">${options(FLAVORS,state.flavor)}</select></label><label>Pack size<select id="pack-size">${packOptions()}</select></label>`;
+  $('#filters').innerHTML=`<label class="search-label">Brand<select id="search">${catalogOptions()}</select></label><label>Flavor<select id="flavor">${options(FLAVORS,state.flavor)}</select></label><label>Pack size<select id="pack-size">${packOptions()}</select></label>`;
   $('#sort-control').innerHTML=`<label class="sort-label">Sort by<select id="priority">${options(PRIORITIES,state.priority)}</select></label>`;
   if(!$('#extra-filters'))$('#filters').insertAdjacentHTML('afterend','<details id="extra-filters" class="extra-filters"></details>');
   $('#extra-filters').innerHTML=`<summary>Preferences <span aria-hidden="true" class="preference-toggle"></span></summary><div class="preference-pills" role="group" aria-label="Dietary preferences">${checkboxes(state,'filter')}${constraintNames.milkAllergy?`<label class="check"><input type="checkbox" data-constraint="milkAllergy" ${state.milkAllergy?'checked':''}><span>${constraintNames.milkAllergy}</span></label>`:''}</div>`;
@@ -173,7 +177,7 @@ function clearAll(type='all'){if(typeof type!=='string')type='all';state={...DEF
 function chips(){
   const items=[];
   if(state.type!=='all')items.push(['type',subcategories(data).find(t=>t.slug===state.type)?.name||'Unavailable subcategory']);
-  if(state.query)items.push(['query',`Brand / product: ${queryLabel()}`]);
+  if(state.query)items.push(['query',`${state.query.startsWith('brand:')?'Brand':'Search'}: ${queryLabel()}`]);
   if(state.flavor!=='all')items.push(['flavor',FLAVORS[state.flavor]]);
   if(state.packSize!=='all')items.push(['packSize',`Pack size: ${state.packSize}`]);
   if(state.budget!=='')items.push(['budget',`Up to ${money(state.budget)}`]);
