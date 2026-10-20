@@ -11,12 +11,12 @@
   "tagline": "Ingredients checked. Your preferences come next.",
   "description": "Declared ingredients are checked against applicable refusal rules. Labels, warnings and missing evidence remain visible.",
   "build": {
-    "id": 35,
+    "id": 36,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-20",
-  "generated_at": "2026-10-20T22:10:51.822Z",
+  "generated_at": "2026-10-20T22:46:34.783Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -2184,6 +2184,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-20T22:11:01.279Z",
+  "pulled_at": "2026-10-20T22:46:36.061Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

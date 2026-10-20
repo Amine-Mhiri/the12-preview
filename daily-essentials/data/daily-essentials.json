@@ -11,12 +11,12 @@
   "tagline": "Every declared ingredient, checked against one shared standard.",
   "description": "Adult supplement declarations are checked against the applicable ingredient rules. Forms, quantities, product evidence and individual preferences remain visible without implying that every formula has the same purpose.",
   "build": {
-    "id": 35,
+    "id": 36,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-20",
-  "generated_at": "2026-10-20T22:10:51.822Z",
+  "generated_at": "2026-10-20T22:46:34.783Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -148,6 +148,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-20T22:11:01.276Z",
+  "pulled_at": "2026-10-20T22:46:36.059Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

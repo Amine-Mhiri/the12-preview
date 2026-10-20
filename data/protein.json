@@ -11,12 +11,12 @@
   "tagline": "Grams that count, from sources you can name.",
   "description": "We review declared ingredients against our charter, keep the exact formula and evidence visible, and compare local prices for the declared amount of protein.",
   "build": {
-    "id": 35,
+    "id": 36,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-20",
-  "generated_at": "2026-10-20T22:10:51.822Z",
+  "generated_at": "2026-10-20T22:46:34.783Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -80,10 +80,10 @@
       "counts": {
         "reviewed": 370,
         "excluded": 162,
-        "pending": 175
+        "pending": 174
       },
       "shelf_note": null,
-      "published": 28
+      "published": 29
     },
     {
       "slug": "whey-protein-concentrate",
@@ -172,10 +172,10 @@
   ],
   "counts": {
     "reviewed": 1270,
-    "selected": 64,
+    "selected": 65,
     "excluded": 568,
-    "pending": 588,
-    "flavor_options": 64
+    "pending": 587,
+    "flavor_options": 65
   },
   "groups": [
     {
@@ -1997,6 +1997,102 @@
       ]
     },
     {
+      "id": "legion-athletics-whey-whey-protein-powder-dutch-chocolate-1-9-lb-867-g",
+      "product_id": "p-793573238238",
+      "brand": "Legion Athletics",
+      "brand_slug": "legion-athletics",
+      "name": "Whey+, Whey Protein Powder",
+      "family_id": null,
+      "flavor": "Dutch Chocolate",
+      "flavor_group": "chocolate",
+      "variants": [
+        {
+          "id": "legion-athletics-whey-whey-protein-powder-dutch-chocolate-1-9-lb-867-g",
+          "catalogue_id": "p-793573238238",
+          "number": 20,
+          "title": "Legion Athletics, Whey+, Whey Protein Powder, Dutch Chocolate, 1.9 lb / 867 g",
+          "url": "https://kw.iherb.com/pr/legion-athletics-whey-whey-protein-powder-dutch-chocolate-1-91-lbs-867-g/142100",
+          "merchant_url_from_build": "https://www.iherb.com/pr/legion-athletics-whey-whey-protein-powder-dutch-chocolate-1-91-lbs-867-g/142100",
+          "merchant_ref": "142100",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "1.9 lb / 867 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/lga/lga23823/l/2.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/lga/lga23823/l/2.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/lga/lga23823/l/3.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "whey-protein-isolate",
+          "type_name": "Whey Protein Isolate",
+          "unit_name": "25 g protein",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "Non-GMO Whey Protein Isolate; Non-GMO Maltodextrin; Cocoa powder with alkali, natural flavors, xanthan gum, sunflower lecithin, salt, stevia (stevia rebaudara) leaf extract, stevia extract, dextrin.",
+          "ingredient_count": 10,
+          "allergen_statement": true,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": true,
+          "charter": "0.15.0",
+          "nutrition": {
+            "fatG": 0,
+            "carbsG": 3,
+            "fibreG": 1,
+            "sugarG": 1,
+            "calories": 100,
+            "proteinG": 22,
+            "sodiumMg": 125,
+            "addedSugarG": 0,
+            "servingSize": "1 Scoop (28.9 g)",
+            "saturatedFatG": 0,
+            "servingsPerContainer": 30
+          },
+          "flavor": "Dutch Chocolate",
+          "flavor_group": "chocolate",
+          "price_kwd": 23.71,
+          "price_from_build_kwd": 23.71,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.7903333333333333,
+          "cost_per_unit_kwd": 0.8981,
+          "cost_per_25g": 0.8981,
+          "price_observed_at": "2026-09-29T11:37:07.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/legion-athletics-whey-whey-protein-powder-dutch-chocolate-1-91-lbs-867-g/142100",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-09-29T11:37:07.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": true,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-20",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
       "id": "now-foods-now-sports-whey-protein-isolate-with-bcaas-unflavored-1-2-lb-544-g",
       "product_id": "p-733739021724",
       "brand": "NOW Foods",
@@ -2009,7 +2105,7 @@
         {
           "id": "now-foods-now-sports-whey-protein-isolate-with-bcaas-unflavored-1-2-lb-544-g",
           "catalogue_id": "p-733739021724",
-          "number": 20,
+          "number": 21,
           "title": "NOW Foods, Sports, Whey Protein Isolate, Unflavored, 1.2 lb / 544 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-1-2-lbs-544-g/37837",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-1-2-lbs-544-g/37837",
@@ -2106,7 +2202,7 @@
         {
           "id": "now-foods-sports-whey-protein-isolate-chocolate-1-8-lb-816-g",
           "catalogue_id": "p-733739021625",
-          "number": 21,
+          "number": 22,
           "title": "NOW Foods, Sports, Whey Protein Isolate, Chocolate, 1.8 lb / 816 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-chocolate-1-8-lbs-816-g/871",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-chocolate-1-8-lbs-816-g/871",
@@ -2204,7 +2300,7 @@
         {
           "id": "now-foods-sports-whey-protein-isolate-unflavored-5-0-lb-2268-g",
           "catalogue_id": "p-733739021748",
-          "number": 22,
+          "number": 23,
           "title": "NOW Foods, Sports, Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-5-lbs-2-268-g/1160",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-5-lbs-2-268-g/1160",
@@ -2302,7 +2398,7 @@
         {
           "id": "now-foods-sports-whey-protein-isolate-vanilla-1-8-lb-816-g",
           "catalogue_id": "p-733739021601",
-          "number": 23,
+          "number": 24,
           "title": "NOW Foods, Sports, Whey Protein Isolate, Vanilla, 1.8 lb / 816 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-vanilla-1-8-lbs-816-g/872",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-vanilla-1-8-lbs-816-g/872",
@@ -2400,7 +2496,7 @@
         {
           "id": "now-foods-sports-whey-protein-isolate-vanilla-5-0-lb-2268-g",
           "catalogue_id": "p-733739021595",
-          "number": 24,
+          "number": 25,
           "title": "NOW Foods, Sports, Whey Protein Isolate, Vanilla, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-vanilla-5-lbs-2-268-g/72237",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-vanilla-5-lbs-2-268-g/72237",
@@ -2498,7 +2594,7 @@
         {
           "id": "nutrabio-whey-protein-isolate-unflavored-5-0-lb-2268-g",
           "catalogue_id": "p-649908500023",
-          "number": 25,
+          "number": 26,
           "title": "NutraBio, Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutrabio-whey-protein-isolate-raw-unflavored-5-lb-2-268-g/134722",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutrabio-whey-protein-isolate-raw-unflavored-5-lb-2-268-g/134722",
@@ -2589,7 +2685,7 @@
         {
           "id": "nutricost-grass-fed-whey-protein-isolate-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-810139573432",
-          "number": 26,
+          "number": 27,
           "title": "Nutricost, Grass-Fed Whey Protein Isolate, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-unflavored-2-lb-907-g/145305",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-unflavored-2-lb-907-g/145305",
@@ -2685,7 +2781,7 @@
         {
           "id": "nutricost-grass-fed-whey-protein-isolate-unflavored-5-0-lb-2268-g",
           "catalogue_id": "p-810139573265",
-          "number": 27,
+          "number": 28,
           "title": "Nutricost, Grass-Fed Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-unflavored-5-lb-2-268-g/145306",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-unflavored-5-lb-2-268-g/145306",
@@ -2781,7 +2877,7 @@
         {
           "id": "nutricost-whey-protein-isolate-unflavored-5-0-lb-2268-g",
           "catalogue_id": "p-810139573609",
-          "number": 28,
+          "number": 29,
           "title": "Nutricost, Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-whey-protein-isolate-unflavored-5-lb-2-268-g/145297",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-unflavored-5-lb-2-268-g/145297",
@@ -2878,7 +2974,7 @@
         {
           "id": "levels-grass-fed-whey-protein-powder-unflavored-5-0-lb-2270-g",
           "catalogue_id": "p-857965007038",
-          "number": 29,
+          "number": 30,
           "title": "Levels, Grass Fed Whey Protein Powder, Unflavored, 5.0 lb / 2270 g",
           "url": "https://kw.iherb.com/pr/levels-grass-fed-whey-protein-powder-unflavored-5-lb-2-27-kg/141521",
           "merchant_url_from_build": "https://www.iherb.com/pr/levels-grass-fed-whey-protein-powder-unflavored-5-lb-2-27-kg/141521",
@@ -2974,7 +3070,7 @@
         {
           "id": "natural-factors-whey-factors-grass-fed-whey-protein-chocolate-0-7-lb-340-g",
           "catalogue_id": "p-068958029276",
-          "number": 30,
+          "number": 31,
           "title": "Natural Factors, Whey Factors®, Grass-Fed Whey Protein, Chocolate, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-12-oz-340-g/6691",
           "merchant_url_from_build": "https://www.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-12-oz-340-g/6691",
@@ -3071,7 +3167,7 @@
         {
           "id": "natural-factors-whey-factors-grass-fed-whey-protein-french-vanilla-2-0-lb-907-g",
           "catalogue_id": "p-068958029320",
-          "number": 31,
+          "number": 32,
           "title": "Natural Factors, Whey Factors®, Grass-Fed Whey Protein, French Vanilla, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-french-vanilla-2-lb-907-g/15138",
           "merchant_url_from_build": "https://www.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-french-vanilla-2-lb-907-g/15138",
@@ -3167,7 +3263,7 @@
         {
           "id": "natural-factors-whey-factors-grass-fed-whey-protein-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-068958029351",
-          "number": 32,
+          "number": 33,
           "title": "Natural Factors, Whey Factors®, Grass-Fed Whey Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-unflavored-2-lb-907-g/12776",
           "merchant_url_from_build": "https://www.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-unflavored-2-lb-907-g/12776",
@@ -3264,7 +3360,7 @@
         {
           "id": "natural-factors-whey-factors-grass-fed-whey-protein-chocolate-2-0-lb-907-g",
           "catalogue_id": "p-068958029344",
-          "number": 33,
+          "number": 34,
           "title": "Natural Factors, Whey Factors®, Grass-Fed Whey Protein, Chocolate, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-2-lb-907-g/13095",
           "merchant_url_from_build": "https://www.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-2-lb-907-g/13095",
@@ -3357,7 +3453,7 @@
         {
           "id": "now-now-sports-whey-protein-with-bcaas-chocolate-2-0-lb-907-g",
           "catalogue_id": "p-733739021809",
-          "number": 34,
+          "number": 35,
           "title": "NOW, NOW Sports, Whey Protein  With BCAAs, Chocolate, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-powder-creamy-chocolate-2-lbs-907-g/117490",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-powder-creamy-chocolate-2-lbs-907-g/117490",
@@ -3455,7 +3551,7 @@
         {
           "id": "now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-1-5-lb-680-g",
           "catalogue_id": "p-733739022981",
-          "number": 35,
+          "number": 36,
           "title": "NOW Foods, Sports, Whey Protein Concentrate Protein Powder, Unflavored, 1.5 lb / 680 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-1-5-lbs-680-g/58450",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-1-5-lbs-680-g/58450",
@@ -3553,7 +3649,7 @@
         {
           "id": "now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-5-0-lb-2268-",
           "catalogue_id": "p-733739022998",
-          "number": 36,
+          "number": 37,
           "title": "NOW Foods, Sports, Whey Protein Concentrate Protein Powder, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-5-lbs-2268-g/58451",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-5-lbs-2268-g/58451",
@@ -3651,7 +3747,7 @@
         {
           "id": "nutricost-grass-fed-whey-protein-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-810139573425",
-          "number": 37,
+          "number": 38,
           "title": "Nutricost, Grass-Fed Whey Protein Concentrate, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-unflavored-2-lb-907-g/145304",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-unflavored-2-lb-907-g/145304",
@@ -3747,7 +3843,7 @@
         {
           "id": "nutricost-grass-fed-whey-protein-vanilla-2-0-lb-907-g",
           "catalogue_id": "p-810014675589",
-          "number": 38,
+          "number": 39,
           "title": "Nutricost, Grass-Fed Whey Protein Concentrate, Vanilla, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-vanilla-2-lb-907-g/144633",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-vanilla-2-lb-907-g/144633",
@@ -3843,7 +3939,7 @@
         {
           "id": "nutricost-grass-fed-whey-protein-concentrate-unflavored-5-0-lb-2268-g",
           "catalogue_id": "p-810139572251",
-          "number": 39,
+          "number": 40,
           "title": "Nutricost, Grass-Fed Whey Protein Concentrate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-concentrate-unflavored-5-lb-2-268-g/143241",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-concentrate-unflavored-5-lb-2-268-g/143241",
@@ -3939,7 +4035,7 @@
         {
           "id": "ancient-harvest-plant-based-protein-pasta-red-lentil-and-quinoa-rotini-0-5-lb-22",
           "catalogue_id": "p-089125260308",
-          "number": 40,
+          "number": 41,
           "title": "Ancient Harvest, Plant-Based Protein Pasta, Red Lentil & Quinoa Rotini, 0.5 lb / 227 g",
           "url": "https://kw.iherb.com/pr/ancient-harvest-plant-based-protein-pasta-red-lentil-quinoa-rotini-8-oz-227g/74438",
           "merchant_url_from_build": "https://www.iherb.com/pr/ancient-harvest-plant-based-protein-pasta-red-lentil-quinoa-rotini-8-oz-227g/74438",
@@ -4035,7 +4131,7 @@
         {
           "id": "dr-murray-s-super-foods-organic-pumpkin-seed-protein-powder-2-0-lb-908-g",
           "catalogue_id": "p-850010353036",
-          "number": 41,
+          "number": 42,
           "title": "Dr. Murray's, Super Foods, Organic Pumpkin Seed Protein Powder, 2.0 lb / 908 g",
           "url": "https://kw.iherb.com/pr/dr-murray-s-super-foods-organic-pumpkin-seed-protein-powder-2-lb-908-g/99078",
           "merchant_url_from_build": "https://www.iherb.com/pr/dr-murray-s-super-foods-organic-pumpkin-seed-protein-powder-2-lb-908-g/99078",
@@ -4131,7 +4227,7 @@
         {
           "id": "isopure-plant-based-low-carb-protein-powder-unflavored-1-1-lb-521-g",
           "catalogue_id": "p-089094025458",
-          "number": 42,
+          "number": 43,
           "title": "Isopure, Plant Based Low Carb Protein Powder, Unflavored, 1.1 lb / 521 g",
           "url": "https://kw.iherb.com/pr/isopure-plant-based-low-carb-protein-powder-unflavored-1-15-lb-521-g/90073",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-plant-based-low-carb-protein-powder-unflavored-1-15-lb-521-g/90073",
@@ -4228,7 +4324,7 @@
         {
           "id": "now-foods-sports-organic-pea-protein-powder-unflavored-1-5-lb-680-g",
           "catalogue_id": "p-733739021083",
-          "number": 43,
+          "number": 44,
           "title": "NOW Foods, Sports, Organic Pea Protein Powder, Unflavored, 1.5 lb / 680 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-organic-pea-protein-powder-unflavored-1-5-lbs-680-g/62859",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-organic-pea-protein-powder-unflavored-1-5-lbs-680-g/62859",
@@ -4326,7 +4422,7 @@
         {
           "id": "now-foods-sports-organic-pumpkin-seed-protein-powder-unflavored-1-0-lb-454-g",
           "catalogue_id": "p-733739022271",
-          "number": 44,
+          "number": 45,
           "title": "NOW Foods, Sports, Organic Pumpkin Seed Protein Powder, Unflavored, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-organic-pumpkin-seed-protein-powder-unflavored-1-lb-454-g/102242",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-organic-pumpkin-seed-protein-powder-unflavored-1-lb-454-g/102242",
@@ -4423,7 +4519,7 @@
         {
           "id": "now-foods-sports-pea-protein-unflavored-0-7-lb-340-g",
           "catalogue_id": "p-733739021328",
-          "number": 45,
+          "number": 46,
           "title": "NOW Foods, Sports, Pea Protein, Unflavored, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-unflavored-12-oz-340-g/53134",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-unflavored-12-oz-340-g/53134",
@@ -4521,7 +4617,7 @@
         {
           "id": "now-foods-sports-pea-protein-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-733739021359",
-          "number": 46,
+          "number": 47,
           "title": "NOW Foods, Sports, Pea Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-pure-unflavored-2-lbs-907-g/9858",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-pure-unflavored-2-lbs-907-g/9858",
@@ -4619,7 +4715,7 @@
         {
           "id": "now-foods-sports-pea-protein-vanilla-2-0-lb-907-g",
           "catalogue_id": "p-733739021342",
-          "number": 47,
+          "number": 48,
           "title": "NOW Foods, Sports, Pea Protein, Vanilla, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-vanilla-toffee-2-lbs-907-g/51969",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-vanilla-toffee-2-lbs-907-g/51969",
@@ -4717,7 +4813,7 @@
         {
           "id": "now-foods-sports-pea-protein-powder-chocolate-2-0-lb-907-g",
           "catalogue_id": "p-733739021335",
-          "number": 48,
+          "number": 49,
           "title": "NOW Foods, Sports, Pea Protein Powder, Chocolate, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-powder-creamy-chocolate-2-lbs-907-g/55360",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-powder-creamy-chocolate-2-lbs-907-g/55360",
@@ -4815,7 +4911,7 @@
         {
           "id": "now-foods-sports-sprouted-brown-rice-protein-powder-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-733739022066",
-          "number": 49,
+          "number": 50,
           "title": "NOW Foods, Sports, Sprouted Brown Rice Protein Powder, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-sprouted-brown-rice-protein-powder-unflavored-2-lbs-907-g/55523",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-sprouted-brown-rice-protein-powder-unflavored-2-lbs-907-g/55523",
@@ -4913,7 +5009,7 @@
         {
           "id": "nutricost-organic-pea-protein-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-810014670515",
-          "number": 50,
+          "number": 51,
           "title": "Nutricost, Organic Pea Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-organic-pea-protein-unflavored-2-lb-907-g/136855",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-organic-pea-protein-unflavored-2-lb-907-g/136855",
@@ -5009,7 +5105,7 @@
         {
           "id": "nutricost-organic-pea-protein-unflavored-5-0-lb-2268-g",
           "catalogue_id": "p-810014670522",
-          "number": 51,
+          "number": 52,
           "title": "Nutricost, Organic Pea Protein, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-organic-pea-protein-unflavored-5-lb-2-268-g/124166",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-organic-pea-protein-unflavored-5-lb-2-268-g/124166",
@@ -5105,7 +5201,7 @@
         {
           "id": "nutricost-soy-protein-isolate-unflavored-1-0-lb-454-g",
           "catalogue_id": "p-810139573791",
-          "number": 52,
+          "number": 53,
           "title": "Nutricost, Soy Protein Isolate, Unflavored, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-1-lb-454-g/147363",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-1-lb-454-g/147363",
@@ -5201,7 +5297,7 @@
         {
           "id": "nutricost-soy-protein-isolate-unflavored-2-0-lb-907-g",
           "catalogue_id": "p-810139573807",
-          "number": 53,
+          "number": 54,
           "title": "Nutricost, Soy Protein Isolate, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-2-lb-907-g/147407",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-2-lb-907-g/147407",
@@ -5297,7 +5393,7 @@
         {
           "id": "olympian-labs-pea-protein-unflavored-1-9-lb-844-g",
           "catalogue_id": "p-710013911063",
-          "number": 54,
+          "number": 55,
           "title": "Olympian Labs, Pea Protein, Unflavored, 1.9 lb / 844 g",
           "url": "https://kw.iherb.com/pr/olympian-labs-pea-protein-unflavored-29-7-oz-843-75-g/120748",
           "merchant_url_from_build": "https://www.iherb.com/pr/olympian-labs-pea-protein-unflavored-29-7-oz-843-75-g/120748",
@@ -5390,7 +5486,7 @@
         {
           "id": "olympian-labs-pure-pea-protein-unflavored-0-9-lb-406-g",
           "catalogue_id": "p-710013912299",
-          "number": 55,
+          "number": 56,
           "title": "Olympian Labs, Pure Pea Protein, Unflavored, 0.9 lb / 406 g",
           "url": "https://kw.iherb.com/pr/olympian-labs-pure-pea-protein-unflavored-14-33-oz-406-25-g/138460",
           "merchant_url_from_build": "https://www.iherb.com/pr/olympian-labs-pure-pea-protein-unflavored-14-33-oz-406-25-g/138460",
@@ -5482,7 +5578,7 @@
         {
           "id": "ora-so-lean-and-so-clean-daily-superfood-plant-protein-unsweetened-1-3-lb-594-g",
           "catalogue_id": "p-850028725214",
-          "number": 56,
+          "number": 57,
           "title": "Ora, So Lean & So Clean, Daily Superfood Plant Protein, Unsweetened, 1.3 lb / 594 g",
           "url": "https://kw.iherb.com/pr/ora-so-lean-so-clean-daily-superfood-plant-protein-unsweetened-20-9-oz-594-g/132868",
           "merchant_url_from_build": "https://www.iherb.com/pr/ora-so-lean-so-clean-daily-superfood-plant-protein-unsweetened-20-9-oz-594-g/132868",
@@ -5576,7 +5672,7 @@
         {
           "id": "paradise-herbs-protein-and-greens-unflavored-1-0-lb-454-g",
           "catalogue_id": "p-601944777906",
-          "number": 57,
+          "number": 58,
           "title": "Paradise Herbs, Protein & Greens, Unflavored, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/paradise-herbs-protein-greens-original-unflavored-16-oz-454-g/17988",
           "merchant_url_from_build": "https://www.iherb.com/pr/paradise-herbs-protein-greens-original-unflavored-16-oz-454-g/17988",
@@ -5670,7 +5766,7 @@
         {
           "id": "pb2-foods-performance-pure-peanut-protein-plant-powder-2-0-lb-907-g",
           "catalogue_id": "p-851784007620",
-          "number": 58,
+          "number": 59,
           "title": "PB2 Foods, Performance, Pure Peanut Protein Plant Powder, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/pb2-foods-performance-pure-peanut-protein-plant-powder-2-lb-907-g/109411",
           "merchant_url_from_build": "https://www.iherb.com/pr/pb2-foods-performance-pure-peanut-protein-plant-powder-2-lb-907-g/109411",
@@ -5766,7 +5862,7 @@
         {
           "id": "pescience-vegan-series-select-plant-proteintm-peanut-butter-1-8-lb-837-g",
           "catalogue_id": "p-040232426520",
-          "number": 59,
+          "number": 60,
           "title": "PEScience, Vegan Series, Select Plant Protein™, Peanut Butter, 1.8 lb / 837 g",
           "url": "https://kw.iherb.com/pr/pescience-vegan-series-select-plant-protein-peanut-butter-1-84-lbs-837-g/105156",
           "merchant_url_from_build": "https://www.iherb.com/pr/pescience-vegan-series-select-plant-protein-peanut-butter-1-84-lbs-837-g/105156",
@@ -5861,7 +5957,7 @@
         {
           "id": "pescience-vegan-series-select-plant-proteintm-vanilla-1-8-lb-797-g",
           "catalogue_id": "p-040232199875",
-          "number": 60,
+          "number": 61,
           "title": "PEScience, Vegan Series, Select Plant Protein™, Vanilla, 1.8 lb / 797 g",
           "url": "https://kw.iherb.com/pr/pescience-vegan-series-select-plant-protein-vanilla-indulgence-1-75-lbs-796-5-g/105152",
           "merchant_url_from_build": "https://www.iherb.com/pr/pescience-vegan-series-select-plant-protein-vanilla-indulgence-1-75-lbs-796-5-g/105152",
@@ -5957,7 +6053,7 @@
         {
           "id": "snap-supplements-plant-protein-vegan-protein-powder-banana-1-9-lb-853-g",
           "catalogue_id": "p-850039253430",
-          "number": 61,
+          "number": 62,
           "title": "Snap Supplements, Plant Protein, Vegan Protein Powder, Banana, 1.9 lb / 853 g",
           "url": "https://kw.iherb.com/pr/snap-supplements-plant-protein-vegan-protein-powder-banana-853-g/131108",
           "merchant_url_from_build": "https://www.iherb.com/pr/snap-supplements-plant-protein-vegan-protein-powder-banana-853-g/131108",
@@ -6048,7 +6144,7 @@
         {
           "id": "sunwarrior-classic-protein-unflavored-1-7-lb-750-g",
           "catalogue_id": "p-814784025902",
-          "number": 62,
+          "number": 63,
           "title": "Sunwarrior, Classic Protein, Unflavored, 1.7 lb / 750 g",
           "url": "https://kw.iherb.com/pr/sunwarrior-classic-protein-unflavored-1-65-lb-750-g/83356",
           "merchant_url_from_build": "https://www.iherb.com/pr/sunwarrior-classic-protein-unflavored-1-65-lb-750-g/83356",
@@ -6146,7 +6242,7 @@
         {
           "id": "sunwarrior-sport-organic-active-protein-powder-vanilla-2-2-lb-1000-g",
           "catalogue_id": "p-814784029832",
-          "number": 63,
+          "number": 64,
           "title": "Sunwarrior, Sport, Organic Active Protein Powder, Vanilla, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/sunwarrior-sport-organic-active-protein-powder-vanilla-2-2-lb-1-kg/117102",
           "merchant_url_from_build": "https://www.iherb.com/pr/sunwarrior-sport-organic-active-protein-powder-vanilla-2-2-lb-1-kg/117102",
@@ -6243,7 +6339,7 @@
         {
           "id": "swanson-vitamins-100-pea-protein-powder-unflavored-1-1-lb-503-g",
           "catalogue_id": "p-087614117027",
-          "number": 64,
+          "number": 65,
           "title": "Swanson Vitamins, 100% Pea Protein Powder, Unflavored, 1.1 lb / 503 g",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-100-pea-protein-powder-unflavored-1-1-lb-503-g/118382",
           "merchant_url_from_build": "https://www.iherb.com/pr/swanson-vitamins-100-pea-protein-powder-unflavored-1-1-lb-503-g/118382",
@@ -6323,6 +6419,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-20T22:11:01.267Z",
+  "pulled_at": "2026-10-20T22:46:36.052Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
