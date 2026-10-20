@@ -11,12 +11,12 @@
   "tagline": "Grams that count, from sources you can name.",
   "description": "We review declared ingredients against our charter, keep the exact formula and evidence visible, and compare local prices for the declared amount of protein.",
   "build": {
-    "id": 32,
+    "id": 33,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-20",
-  "generated_at": "2026-10-20T08:12:55.211Z",
+  "generated_at": "2026-10-20T21:41:17.540Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -747,8 +747,8 @@
       "product_id": "p-898220012046",
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
-      "name": "Sport, Whey Protein Isolate with Organic Cane Sugar, with Sunflower Lecithin",
-      "family_id": null,
+      "name": "Sport, Whey Protein Isolate",
+      "family_id": "cgn-sport-whey-isolate-cane-sugar",
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -756,7 +756,7 @@
           "id": "california-gold-nutrition-sport-whey-protein-isolate-with-organic-cane-sugar-wit",
           "catalogue_id": "p-898220012046",
           "number": 7,
-          "title": "California Gold Nutrition, Sport, Whey Protein Isolate with Organic Cane Sugar, with Sunflower Lecithin, Vanilla, 2.0 lb / 907 g",
+          "title": "California Gold Nutrition, Sport, Whey Protein Isolate, Vanilla, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-whey-protein-isolate-with-organic-cane-sugar-with-sunflower-lecithin-very-vanilla-2-lb-907-g/82689",
           "merchant_url_from_build": "https://www.iherb.com/pr/california-gold-nutrition-sport-whey-protein-isolate-with-organic-cane-sugar-with-sunflower-lecithin-very-vanilla-2-lb-907-g/82689",
           "merchant_ref": "82689",
@@ -845,8 +845,8 @@
       "product_id": "p-898220012053",
       "brand": "California Gold Nutrition",
       "brand_slug": "california-gold-nutrition",
-      "name": "Whey Protein Isolate",
-      "family_id": null,
+      "name": "Sport, Whey Protein Isolate",
+      "family_id": "cgn-sport-whey-isolate-cane-sugar",
       "flavor": "Vanilla",
       "flavor_group": "vanilla",
       "variants": [
@@ -854,7 +854,7 @@
           "id": "california-gold-nutrition-whey-protein-isolate-vanilla-5-0-lb-2270-g",
           "catalogue_id": "p-898220012053",
           "number": 8,
-          "title": "California Gold Nutrition, Whey Protein Isolate, Vanilla, 5.0 lb / 2270 g",
+          "title": "California Gold Nutrition, Sport, Whey Protein Isolate, Vanilla, 5.0 lb / 2270 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-whey-protein-isolate-very-vanilla-5-lb-2-27-kg/82707",
           "merchant_url_from_build": "https://www.iherb.com/pr/california-gold-nutrition-whey-protein-isolate-very-vanilla-5-lb-2-27-kg/82707",
           "merchant_ref": "82707",
@@ -6323,6 +6323,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-20T08:12:58.858Z",
+  "pulled_at": "2026-10-20T21:41:19.048Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
