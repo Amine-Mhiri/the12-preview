@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-20",
-  "generated_at": "2026-10-20T08:04:20.924Z",
+  "generated_at": "2026-10-20T08:12:55.211Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -192,7 +192,7 @@
           "id": "biochem-100-whey-isolate-protein-powder-vanilla-1-9-lb-857-g",
           "catalogue_id": "p-015794020110",
           "number": 1,
-          "title": "Biochem, 100% Whey Isolate Protein Powder, Vanilla, 1.9 lb / 857 g",
+          "title": "Biochem, 100% Whey Protein Isolate Powder, Vanilla, 1.9 lb / 857 g",
           "url": "https://kw.iherb.com/pr/biochem-100-whey-isolate-protein-powder-vanilla-1-8-lbs-857-g/6907",
           "merchant_url_from_build": "https://www.iherb.com/pr/biochem-100-whey-isolate-protein-powder-vanilla-1-8-lbs-857-g/6907",
           "merchant_ref": "6907",
@@ -470,7 +470,7 @@
           "id": "bluebonnet-nutrition-bluebonnet-nutrition-whey-protein-isolate-powder-from-grass",
           "catalogue_id": "p-743715015654",
           "number": 4,
-          "title": "Bluebonnet Nutrition, BlueBonnet Nutrition Whey Protein Isolate Powder From Grass Fed Cows, of Protein, No Sugar Added, Gluten & Soy free, kosher Dairy, 28 Servings, French Vanilla, 2.0 lb / 924 g",
+          "title": "Bluebonnet Nutrition, Whey Protein Isolate, French Vanilla, 2.0 lb / 924 g",
           "url": "https://kw.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-french-vanilla-2-lbs-924-g/15910",
           "merchant_url_from_build": "https://www.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-french-vanilla-2-lbs-924-g/15910",
           "merchant_ref": "15910",
@@ -566,7 +566,7 @@
           "id": "bluebonnet-nutrition-bluebonnet-nutrition-whey-protein-isolate-powder-whey-from-",
           "catalogue_id": "p-743715015616",
           "number": 5,
-          "title": "Bluebonnet Nutrition, Bluebonnet Nutrition Whey Protein Isolate Powder, Whey from Grass Fed Cows, 26 Grams of Protein, No Sugar Added, Gluten Free, Soy Free, Kosher Dairy, 32 Servings, Original Unflavored, Original, 2.2 lb / 992 g",
+          "title": "Bluebonnet Nutrition, Whey Protein Isolate, Original, 2.2 lb / 992 g",
           "url": "https://kw.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-original-2-2-lbs-992-g/9476",
           "merchant_url_from_build": "https://www.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-original-2-2-lbs-992-g/9476",
           "merchant_ref": "9476",
@@ -6323,6 +6323,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-20T08:04:22.173Z",
+  "pulled_at": "2026-10-20T08:12:58.858Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
