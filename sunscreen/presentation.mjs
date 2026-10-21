@@ -33,3 +33,15 @@ export function exclusionContent(d){
   const tally=nonOral?'<strong>Use</strong> appropriate ingredient checks':`<strong>${escapeHtml(String(d.exclusion_rules||'Hundreds of'))}</strong> ingredients &amp; ingredient groups excluded`;
   return `<h2 id="exclusions-title">${escapeHtml(title)}</h2><div class="exclusion-tally"><span>${tally}</span></div><ul>${labels.map(label=>`<li><span aria-hidden="true">${nonOral?'✓':'×'}</span> ${escapeHtml(label)}</li>`).join('')}</ul><div class="exclusion-footer"><strong>${nonOral?'Every decision stays traceable.':'Every exclusion has a reason.'}</strong></div>`;
 }
+
+/** Summarise actual filtered-reference observations, never the deployment or current date. */
+export function priceObservationSummary(variants) {
+  if (!variants.length) return '';
+  const observed = variants.filter(v => v.price_basis !== 'derived');
+  const dates = observed.map(v => typeof v.price_observed_at === 'string' ? Date.parse(v.price_observed_at) : NaN).filter(Number.isFinite).sort((a,b)=>a-b);
+  const format = value => new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'Asia/Kuwait'}).format(value);
+  let text = dates.length ? (format(dates[0]) === format(dates.at(-1)) ? `Prices observed ${format(dates[0])}.` : `Prices observed ${format(dates[0])} – ${format(dates.at(-1))}.`) : observed.length ? 'Price observation dates unavailable.' : '';
+  if (dates.length && dates.length < observed.length) text += ' Some dates unavailable.';
+  if (observed.length < variants.length) text += `${text?' ':''}Includes calculated prices.`;
+  return text;
+}

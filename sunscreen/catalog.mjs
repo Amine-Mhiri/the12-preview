@@ -59,6 +59,8 @@ export const DEFAULTS = Object.freeze({
   soy: false,
   noStevia: false,
   sport: false,
+  sugarFree: false,
+  noAddedSugar: false,
   noAllergies: true,
 });
 
@@ -81,7 +83,33 @@ const CONSTRAINTS = {
   soy: (v) => v.soy_free_declared === true,
   noStevia: (v) => v.stevia === false,
   sport: (v) => v.anti_doping_documented === true,
+  sugarFree: (v) => sugarClaim(v, "sugarFree"),
+  noAddedSugar: (v) => sugarClaim(v, "noAddedSugar"),
 };
+
+/** Multiple flavour families use OR; other filters still use AND. Legacy scalar state remains valid. */
+export const selectedFlavors = value => [...new Set((Array.isArray(value) ? value : [value]).filter(v => typeof v === 'string' && v && v !== 'all'))];
+export function withFlavorChoice(value, key, checked) {
+  if (key === 'all') return 'all';
+  const next = new Set(selectedFlavors(value));
+  if (checked) next.add(key); else next.delete(key);
+  return next.size ? [...next] : 'all';
+}
+/** Positive product claims only. A rounded nutrition zero is not a sugar-free declaration. */
+export function sugarClaim(v, key) {
+  const pattern = key === 'sugarFree' ? /\bsugar[ -]free\b|\bfree (?:of|from) sugars?\b/i
+    : /\bno (?:added sugars?|sugars? added)\b|\bwithout added sugars?\b/i;
+  const declarations = [v.title, ...(Array.isArray(v.dietary) ? v.dietary : [])];
+  return declarations.filter(value => typeof value === 'string').map(value => value.replace(/[-_]/g, ' '))
+    .some(value => pattern.test(value) && !/\b(?:not|isn't|is not) (?:sugar free|free (?:of|from) sugar|without added sugar)\b/i.test(value));
+}
+/** Offer only constraints with positive data, scoped to the current type. Unknown is never a positive. */
+export function preferenceChoices(data, state = DEFAULTS) {
+  const variants = selectProducts(data, {...DEFAULTS, type:state.type || 'all'}).flatMap(g => g.variants);
+  return Object.entries(data.constraints || {}).filter(([key]) => key !== 'director' && CONSTRAINTS[key])
+    .map(([key,label]) => ({key,label,count:variants.filter(CONSTRAINTS[key]).length}))
+    .filter(row => row.count > 0 || state[row.key]);
+}
 
 /** Allergy answers are exclusive with "no allergies", as upstream. */
 const ALLERGIES = ["milkAllergy", "soy"];
@@ -101,7 +129,8 @@ export function matches(g, v, s) {
   ) {
     return false;
   }
-  if (s.flavor !== "all" && g.flavor_group !== s.flavor) return false;
+  const flavors = selectedFlavors(s.flavor);
+  if (flavors.length && !flavors.includes(v.flavor_group || g.flavor_group)) return false;
   if (s.budget !== "" && (!Number.isFinite(v.price_kwd) || v.price_kwd > Number(s.budget))) return false;
   for (const [key, holds] of Object.entries(CONSTRAINTS)) {
     if (s[key] && !holds(v)) return false;
@@ -110,9 +139,12 @@ export function matches(g, v, s) {
   return true;
 }
 
+/** Calories in the declared serving only; no re-expression per25g and no zero for unknown. */
+export const declaredCalories = v => Number.isFinite(v.nutrition?.calories) && v.nutrition.calories >= 0 ? v.nutrition.calories : null;
+
 export function compareVariants(a, b, priority) {
   const metrics = { price: "price_kwd", value: "cost_per_25g", simple: "ingredient_count" };
-  const metric = (v) => priority==='value'?comparisonCost(v):(metrics[priority] ? v[metrics[priority]] : 0);
+  const metric = (v) => priority==='calories'?declaredCalories(v):priority==='value'?comparisonCost(v):(metrics[priority] ? v[metrics[priority]] : 0);
   const av = metric(a);
   const bv = metric(b);
   const d = (Number.isFinite(av) ? av : Infinity) - (Number.isFinite(bv) ? bv : Infinity);
