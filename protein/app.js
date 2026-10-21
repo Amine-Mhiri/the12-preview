@@ -37,7 +37,7 @@ const {subcategories,scopeContext}=await import('./subcategories.mjs');
 const VIEW=document.body.dataset.view||CATEGORY;
 const {catalogueView,comparisonCost}=await import('./views.mjs');
 const {applyProfileText,priceObservationSummary}=await import('./presentation.mjs');
-const catalog=await import('./catalog.mjs?v=6');
+const catalog=await import('./catalog.mjs?v=7');
 const {applyCountText}=await import('./counts.mjs?v=3');
 const {DEFAULTS,stockState,selectProducts,chooseFlavor,comparePackSizes,recommendations,merchantLink,withAllergyChoice,packSizeChoices,selectedFlavors,withFlavorChoice,preferenceChoices,sugarClaim,declaredCalories}=catalog;
 // A product whose merchant link we cannot validate must not take the page

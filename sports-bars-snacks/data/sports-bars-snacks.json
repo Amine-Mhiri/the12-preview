@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T08:37:31.939Z",
+  "generated_at": "2026-10-21T08:57:04.734Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -107,6 +107,7 @@
           "id": "bpn-go-bar-endurance-bar-original-12-bars-each-0-1-lb-50-g",
           "catalogue_id": "p-850046337994",
           "number": 1,
+          "reference_title": "Go Bar, Endurance Bar, Original, 12 Bars, Each",
           "title": "BPN, Go Bar, Endurance Bar, Original, 12 Bars, Each, 0.1 lb / 50 g",
           "url": "https://kw.iherb.com/pr/bpn-go-bar-endurance-bar-original-12-bars-1-76-oz-50-g-each/142024",
           "merchant_url_from_build": "https://kw.iherb.com/pr/bpn-go-bar-endurance-bar-original-12-bars-1-76-oz-50-g-each/142024",
@@ -204,6 +205,7 @@
           "id": "honey-stinger-energy-waffle-honey-12-waffles-each-0-1-lb-30-g",
           "catalogue_id": "p-810815023107",
           "number": 2,
+          "reference_title": "Energy Waffle, Honey, 12 Waffles, Each",
           "title": "Honey Stinger, Energy Waffle, Honey, 12 Waffles, Each, 0.1 lb / 30 g",
           "url": "https://kw.iherb.com/pr/honey-stinger-energy-waffle-honey-12-waffles-1-06-oz-30-g-each/144997",
           "merchant_url_from_build": "https://kw.iherb.com/pr/honey-stinger-energy-waffle-honey-12-waffles-1-06-oz-30-g-each/144997",
@@ -301,6 +303,7 @@
           "id": "honey-stinger-mini-energy-waffles-honey-0-3-lb-150-g",
           "catalogue_id": "p-810815023022",
           "number": 3,
+          "reference_title": "Mini Energy Waffles, Honey",
           "title": "Honey Stinger, Mini Energy Waffles, Honey, 0.3 lb / 150 g",
           "url": "https://kw.iherb.com/pr/honey-stinger-mini-energy-waffles-honey-5-3-oz-150-g/145003",
           "merchant_url_from_build": "https://kw.iherb.com/pr/honey-stinger-mini-energy-waffles-honey-5-3-oz-150-g/145003",
@@ -397,6 +400,7 @@
           "id": "rise-bar-protein-bar-12-bars-each-cinnamon-0-1-lb-60-g",
           "catalogue_id": "p-690819308314",
           "number": 4,
+          "reference_title": "Protein Bar, 12 Bars, Each",
           "title": "Rise Bar, Protein Bar, 12 Bars, Each, Cinnamon, 0.1 lb / 60 g",
           "url": "https://kw.iherb.com/pr/rise-bar-protein-bar-honey-cinnamon-12-bars-2-1-oz-60-g-each/66941",
           "merchant_url_from_build": "https://kw.iherb.com/pr/rise-bar-protein-bar-honey-cinnamon-12-bars-2-1-oz-60-g-each/66941",
@@ -494,6 +498,7 @@
           "id": "rise-bar-protein-bar-almond-honey-12-bars-each-0-1-lb-60-g",
           "catalogue_id": "p-690819308130",
           "number": 5,
+          "reference_title": "Protein Bar, Almond Honey, 12 Bars, Each",
           "title": "Rise Bar, Protein Bar, Almond Honey, 12 Bars, Each, 0.1 lb / 60 g",
           "url": "https://kw.iherb.com/pr/rise-bar-protein-bar-almond-honey-12-bars-2-1-oz-60-g-each/62730",
           "merchant_url_from_build": "https://kw.iherb.com/pr/rise-bar-protein-bar-almond-honey-12-bars-2-1-oz-60-g-each/62730",
@@ -591,6 +596,7 @@
           "id": "rise-bar-rise-minis-mini-protein-bars-almond-honey-24-snack-size-protein-bars-ea",
           "catalogue_id": "p-690819408243",
           "number": 6,
+          "reference_title": "Rise Minis, Mini Protein Bars, Almond Honey, 24 Snack-Size Protein Bars, Each",
           "title": "Rise Bar, Rise Minis, Mini Protein Bars, Almond Honey, 24 Snack-Size Protein Bars, Each, 0.1 lb / 30 g",
           "url": "https://kw.iherb.com/pr/rise-bar-rise-minis-mini-protein-bars-almond-honey-24-snack-size-protein-bars-1-05-oz-30-g-each/148040",
           "merchant_url_from_build": "https://kw.iherb.com/pr/rise-bar-rise-minis-mini-protein-bars-almond-honey-24-snack-size-protein-bars-1-05-oz-30-g-each/148040",
@@ -675,6 +681,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-21T08:37:33.878Z",
+  "pulled_at": "2026-10-21T08:57:06.213Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

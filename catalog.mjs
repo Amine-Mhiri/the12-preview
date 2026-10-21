@@ -99,7 +99,7 @@ export function withFlavorChoice(value, key, checked) {
 export function sugarClaim(v, key) {
   const pattern = key === 'sugarFree' ? /\bsugar[ -]free\b|\bfree (?:of|from) sugars?\b/i
     : /\bno (?:added sugars?|sugars? added)\b|\bwithout added sugars?\b/i;
-  const declarations = [v.title, ...(Array.isArray(v.dietary) ? v.dietary : [])];
+  const declarations = [v.reference_title, v.title, ...(Array.isArray(v.dietary) ? v.dietary : [])];
   return declarations.filter(value => typeof value === 'string').map(value => value.replace(/[-_]/g, ' '))
     .some(value => pattern.test(value) && !/\b(?:not|isn't|is not) (?:sugar free|free (?:of|from) sugar|without added sugar)\b/i.test(value));
 }
