@@ -11,12 +11,12 @@
   "tagline": "Declared formulas checked. Choose what fits your training.",
   "description": "We review the declared formula against the applicable ingredient charter. Quantities, forms, product evidence and warnings remain separate facts; prices are compared using the declared category unit.",
   "build": {
-    "id": 36,
+    "id": 37,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-20",
-  "generated_at": "2026-10-20T22:46:34.783Z",
+  "reviewed_at": "2026-10-21",
+  "generated_at": "2026-10-21T08:36:23.833Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -124,10 +124,10 @@
       "counts": {
         "reviewed": 237,
         "excluded": 211,
-        "pending": 23
+        "pending": 22
       },
       "shelf_note": null,
-      "published": 3
+      "published": 4
     },
     {
       "slug": "beta-alanine",
@@ -160,10 +160,10 @@
   ],
   "counts": {
     "reviewed": 1212,
-    "selected": 69,
+    "selected": 70,
     "excluded": 891,
-    "pending": 212,
-    "flavor_options": 69
+    "pending": 211,
+    "flavor_options": 70
   },
   "groups": [
     {
@@ -259,7 +259,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -357,7 +357,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -444,7 +444,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -531,7 +531,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -618,7 +618,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -707,7 +707,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -796,7 +796,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -886,7 +886,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -975,7 +975,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1064,7 +1064,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1153,7 +1153,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1240,7 +1240,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1332,7 +1332,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1419,7 +1419,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1506,7 +1506,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1593,7 +1593,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1680,7 +1680,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1767,7 +1767,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1854,7 +1854,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -1941,7 +1941,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2030,7 +2030,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2119,7 +2119,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2208,7 +2208,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2295,7 +2295,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2384,7 +2384,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2472,7 +2472,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2561,7 +2561,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2649,7 +2649,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2737,7 +2737,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2824,7 +2824,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -2913,7 +2913,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3002,7 +3002,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3089,7 +3089,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3176,7 +3176,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3263,7 +3263,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3350,7 +3350,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3437,7 +3437,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3524,7 +3524,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3611,7 +3611,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3698,7 +3698,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3788,7 +3788,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3878,7 +3878,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -3965,7 +3965,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4061,7 +4061,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4157,7 +4157,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4244,7 +4244,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4331,7 +4331,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4418,7 +4418,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4505,7 +4505,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4592,7 +4592,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4679,7 +4679,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4766,7 +4766,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4853,7 +4853,96 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
+          "data_confidence": "verified"
+        }
+      ]
+    },
+    {
+      "id": "now-foods-sports-branched-chain-amino-acid-powder-0-7-lb-340-g",
+      "product_id": "p-733739002136",
+      "brand": "NOW Foods",
+      "brand_slug": "now-foods",
+      "name": "Sports, Branched-Chain Amino Acid Powder",
+      "family_id": null,
+      "flavor": "Not specified",
+      "flavor_group": "other",
+      "variants": [
+        {
+          "id": "now-foods-sports-branched-chain-amino-acid-powder-0-7-lb-340-g",
+          "catalogue_id": "p-733739002136",
+          "number": 54,
+          "title": "NOW Foods, Sports, Branched-Chain Amino Acid Powder, 0.7 lb / 340 g",
+          "url": "https://kw.iherb.com/pr/now-foods-sports-branched-chain-amino-acid-powder-12-oz-340-g/3321",
+          "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-sports-branched-chain-amino-acid-powder-12-oz-340-g/3321",
+          "merchant_ref": "3321",
+          "merchant_note": null,
+          "source": "crawl",
+          "price_basis": "observed",
+          "size": "0.7 lb / 340 g",
+          "image": "https://cloudinary.images-iherb.com/image/upload/images/now/now00213/l/74.jpg",
+          "placeholder": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 160'%3E%3Crect width='140' height='160' rx='12' fill='%23f3f1ea'/%3E%3Crect x='34' y='40' width='72' height='84' rx='8' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3Crect x='52' y='26' width='36' height='18' rx='5' fill='none' stroke='%23c9c4b4' stroke-width='3'/%3E%3C/svg%3E",
+          "gallery": [
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now00213/l/74.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now00213/l/79.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now00213/l/82.jpg",
+            "https://cloudinary.images-iherb.com/image/upload/images/now/now00213/l/83.jpg"
+          ],
+          "has_retailer_image": true,
+          "image_kind": "retailer",
+          "image_credit": null,
+          "type_slug": "eaa-bcaa",
+          "type_name": "EAA & BCAA",
+          "unit_name": "pack",
+          "slot_kind": "admissible",
+          "verdict_line": "Passes the applicable declarative ingredient charter. This is not a laboratory certification.",
+          "ingredients": "L-Leucine; L-Isoleucine; L-Valine; Sunflower lecithin.",
+          "ingredient_count": 4,
+          "allergen_statement": false,
+          "dietary": [],
+          "certifications": [],
+          "documented_evidence": [],
+          "contains_milk": false,
+          "charter": "0.15.0",
+          "nutrition": {
+            "servingSize": "1 1/2 Level Teaspoon (approx. 5.2 g)",
+            "servingsPerContainer": 65
+          },
+          "flavor": "Not specified",
+          "flavor_group": "other",
+          "price_kwd": 10.52,
+          "price_from_build_kwd": 10.52,
+          "price_is_live": true,
+          "price_per_serving_kwd": 0.16184615384615383,
+          "cost_per_unit_kwd": 10.52,
+          "cost_per_25g": null,
+          "price_observed_at": "2026-10-15T16:45:29.000Z",
+          "price_source_url": "https://kw.iherb.com/pr/now-foods-sports-branched-chain-amino-acid-powder-12-oz-340-g/3321",
+          "availability": {
+            "status": "in_stock",
+            "observed_at": "2026-10-15T16:45:29.000Z",
+            "source": "direct",
+            "destination": "KW"
+          },
+          "dairy_free_declared": false,
+          "lactose_free_declared": false,
+          "vegan_declared": false,
+          "gluten_free_declared": false,
+          "soy_free_declared": false,
+          "stevia": false,
+          "anti_doping_documented": false,
+          "director": {
+            "status": "not_selected"
+          },
+          "claims": [],
+          "evidence": {
+            "note": "Declared ingredients reviewed against the applicable charter."
+          },
+          "review_links": [],
+          "label_image": null,
+          "lead_warning": null,
+          "warning_note": null,
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4871,7 +4960,7 @@
         {
           "id": "swanson-vitamins-bcaa-100-capsules-size-unknown",
           "catalogue_id": "p-087614019277",
-          "number": 54,
+          "number": 55,
           "title": "Swanson Vitamins, BCAA, 100 Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-bcaa-100-capsules/118372",
           "merchant_url_from_build": "https://kw.iherb.com/pr/swanson-vitamins-bcaa-100-capsules/118372",
@@ -4941,7 +5030,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -4959,7 +5048,7 @@
         {
           "id": "evlution-nutrition-beta-alanine-unflavored-0-4-lb-200-g",
           "catalogue_id": "p-818901028982",
-          "number": 55,
+          "number": 56,
           "title": "EVLution Nutrition, Beta-Alanine, Unflavored, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-beta-alanine-unflavored-7-05-oz-200-g/125403",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-beta-alanine-unflavored-7-05-oz-200-g/125403",
@@ -5030,7 +5119,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5048,7 +5137,7 @@
         {
           "id": "jnx-sports-the-curse-beta-alanine-unflavored-0-7-lb-300-g",
           "catalogue_id": "p-797776094585",
-          "number": 56,
+          "number": 57,
           "title": "JNX Sports, The Curse!®, Beta Alanine, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/jnx-sports-the-curse-beta-alanine-unflavored-10-6-oz-300-g/143129",
           "merchant_url_from_build": "https://kw.iherb.com/pr/jnx-sports-the-curse-beta-alanine-unflavored-10-6-oz-300-g/143129",
@@ -5117,7 +5206,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5135,7 +5224,7 @@
         {
           "id": "nutricost-beta-alanine-unflavored-0-7-lb-303-g",
           "catalogue_id": "p-810014679150",
-          "number": 57,
+          "number": 58,
           "title": "Nutricost, Beta-Alanine, Unflavored, 0.7 lb / 303 g",
           "url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-10-7-oz-300-g/153891",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-10-7-oz-300-g/153891",
@@ -5204,7 +5293,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5222,7 +5311,7 @@
         {
           "id": "nutricost-beta-alanine-unflavored-0-4-lb-180-g",
           "catalogue_id": "p-810139572077",
-          "number": 58,
+          "number": 59,
           "title": "Nutricost, Beta-Alanine, Unflavored, 0.4 lb / 180 g",
           "url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-6-4-oz-180-g/147376",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-6-4-oz-180-g/147376",
@@ -5291,7 +5380,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5309,7 +5398,7 @@
         {
           "id": "nutricost-beta-alanine-unflavored-1-1-lb-507-g",
           "catalogue_id": "p-810139571681",
-          "number": 59,
+          "number": 60,
           "title": "Nutricost, Beta-Alanine, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-17-9-oz-500-g/145284",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-17-9-oz-500-g/145284",
@@ -5379,7 +5468,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5397,7 +5486,7 @@
         {
           "id": "primaforce-beta-alanine-unflavored-0-4-lb-200-g",
           "catalogue_id": "p-811445020061",
-          "number": 60,
+          "number": 61,
           "title": "Primaforce, Beta-Alanine, Unflavored, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-7-1-oz-200-g/78962",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-7-1-oz-200-g/78962",
@@ -5466,7 +5555,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5484,7 +5573,7 @@
         {
           "id": "primaforce-beta-alanine-unflavored-3-3-lb-1500-g",
           "catalogue_id": "p-811445020610",
-          "number": 61,
+          "number": 62,
           "title": "Primaforce, Beta-Alanine, Unflavored, 3.3 lb / 1500 g",
           "url": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-52-9-oz-1-500-g/150688",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-52-9-oz-1-500-g/150688",
@@ -5553,7 +5642,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5571,7 +5660,7 @@
         {
           "id": "primaforce-beta-alanine-powder-unflavored-1-1-lb-507-g",
           "catalogue_id": "p-811445021433",
-          "number": 62,
+          "number": 63,
           "title": "Primaforce, Beta-Alanine, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/primaforce-beta-alanine-powder-unflavored-17-9-oz-500-g/141704",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-beta-alanine-powder-unflavored-17-9-oz-500-g/141704",
@@ -5640,7 +5729,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5658,7 +5747,7 @@
         {
           "id": "california-gold-nutrition-l-citrulline-unflavored-0-7-lb-300-g",
           "catalogue_id": "p-898220024827",
-          "number": 63,
+          "number": 64,
           "title": "California Gold Nutrition, L-Citrulline, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-citrulline-unflavored-10-58-oz-300-g/139265",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-citrulline-unflavored-10-58-oz-300-g/139265",
@@ -5730,7 +5819,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5748,7 +5837,7 @@
         {
           "id": "california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsul",
           "catalogue_id": "p-898220011292",
-          "number": 64,
+          "number": 65,
           "title": "California Gold Nutrition, Sport, L-Citrulline, Kyowa Hakko, 500 mg, 60 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsules/72316",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsules/72316",
@@ -5819,7 +5908,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5837,7 +5926,7 @@
         {
           "id": "doctor-s-best-l-citrulline-powder-0-4-lb-200-g",
           "catalogue_id": "p-753950004375",
-          "number": 65,
+          "number": 66,
           "title": "Doctor's Best, L-Citrulline Powder, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/doctor-s-best-l-citrulline-powder-7-oz-200-g/69214",
           "merchant_url_from_build": "https://kw.iherb.com/pr/doctor-s-best-l-citrulline-powder-7-oz-200-g/69214",
@@ -5908,7 +5997,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -5926,7 +6015,7 @@
         {
           "id": "evlution-nutrition-l-citrulline-2000-unflavored-0-5-lb-213-g",
           "catalogue_id": "p-818901022218",
-          "number": 66,
+          "number": 67,
           "title": "EVLution Nutrition, L-Citrulline 2000, Unflavored, 0.5 lb / 213 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-2000-unflavored-7-5-oz-200-g/87131",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-2000-unflavored-7-5-oz-200-g/87131",
@@ -5997,7 +6086,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -6015,7 +6104,7 @@
         {
           "id": "evlution-nutrition-l-citrulline-malate-2-1-unflavored-0-4-lb-200-g",
           "catalogue_id": "p-818901029729",
-          "number": 67,
+          "number": 68,
           "title": "EVLution Nutrition, L-Citrulline Malate 2:1, Unflavored, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-malate-2-1-unflavored-7-05-oz-200-g/138125",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-malate-2-1-unflavored-7-05-oz-200-g/138125",
@@ -6086,7 +6175,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -6104,7 +6193,7 @@
         {
           "id": "now-foods-l-citrulline-pure-powder-0-2-lb-113-g",
           "catalogue_id": "p-733739002143",
-          "number": 68,
+          "number": 69,
           "title": "NOW Foods, L-Citrulline, Pure Powder, 0.2 lb / 113 g",
           "url": "https://kw.iherb.com/pr/now-foods-l-citrulline-pure-powder-4-oz-113-g/15501",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-l-citrulline-pure-powder-4-oz-113-g/15501",
@@ -6176,7 +6265,7 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
@@ -6194,7 +6283,7 @@
         {
           "id": "nutricost-l-citrulline-unflavored-1-3-lb-600-g",
           "catalogue_id": "p-810014679327",
-          "number": 69,
+          "number": 70,
           "title": "Nutricost, L-Citrulline, Unflavored, 1.3 lb / 600 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-citrulline-unflavored-1-3-lb-600-g/145302",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-citrulline-unflavored-1-3-lb-600-g/145302",
@@ -6264,12 +6353,12 @@
           "label_image": null,
           "lead_warning": null,
           "warning_note": null,
-          "ingredients_reviewed_at": "2026-10-20",
+          "ingredients_reviewed_at": "2026-10-21",
           "data_confidence": "verified"
         }
       ]
     }
   ],
-  "pulled_at": "2026-10-20T22:46:36.056Z",
+  "pulled_at": "2026-10-21T08:36:28.596Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

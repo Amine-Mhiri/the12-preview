@@ -11,12 +11,12 @@
   "tagline": "Sleep and joint support, with the ingredients kept in view.",
   "description": "This category covers sleep and joint-support declarations. The merchant Muscle Recovery family has a separate page. Ingredient screening does not establish individual suitability or regulatory approval.",
   "build": {
-    "id": 36,
+    "id": 37,
     "source": "crawl",
     "charter": "0.15.0"
   },
-  "reviewed_at": "2026-10-20",
-  "generated_at": "2026-10-20T22:46:34.783Z",
+  "reviewed_at": "2026-10-21",
+  "generated_at": "2026-10-21T08:36:23.833Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -106,6 +106,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-20T22:46:36.059Z",
+  "pulled_at": "2026-10-21T08:36:28.599Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
