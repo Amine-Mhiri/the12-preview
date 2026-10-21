@@ -105,6 +105,7 @@ export function sugarClaim(v, key) {
 }
 /** Offer only constraints with positive data, scoped to the current type. Unknown is never a positive. */
 export function preferenceChoices(data, state = DEFAULTS) {
+  if (data.presentation?.domain === "non_oral") return [];
   const variants = selectProducts(data, {...DEFAULTS, type:state.type || 'all'}).flatMap(g => g.variants);
   return Object.entries(data.constraints || {}).filter(([key]) => key !== 'director' && CONSTRAINTS[key])
     .map(([key,label]) => ({key,label,count:variants.filter(CONSTRAINTS[key]).length}))
