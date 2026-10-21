@@ -11,12 +11,12 @@
   "tagline": "Electrolytes, with the declared ingredients kept in view.",
   "description": "We screen declared formulas against the applicable ingredient rules. Electrolyte amounts, serving sizes and product preferences remain separate facts to compare.",
   "build": {
-    "id": 37,
+    "id": 38,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T09:12:57.739Z",
+  "generated_at": "2026-10-21T09:37:55.796Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -106,6 +106,6 @@
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-21T09:12:59.105Z",
+  "pulled_at": "2026-10-21T09:37:58.603Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

@@ -11,12 +11,12 @@
   "tagline": "Grams that count, from sources you can name.",
   "description": "We review declared ingredients against our charter, keep the exact formula and evidence visible, and compare local prices for the declared amount of protein.",
   "build": {
-    "id": 37,
+    "id": 38,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T09:12:57.739Z",
+  "generated_at": "2026-10-21T09:37:55.796Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -36,7 +36,7 @@
     "guide_heading": "How do you like your protein?",
     "guide_open": "What matters most to you?",
     "empty_title": "No publishable references yet.",
-    "empty_body": "We reviewed 1270 protein products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "empty_body": "We reviewed 1272 protein products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -134,9 +134,9 @@
       "unit": "10 g peptides",
       "non_negotiables": [],
       "counts": {
-        "reviewed": 0,
-        "excluded": 0,
-        "pending": 0
+        "reviewed": 2,
+        "excluded": 1,
+        "pending": 1
       },
       "shelf_note": null,
       "published": 0
@@ -171,10 +171,10 @@
     }
   ],
   "counts": {
-    "reviewed": 1270,
+    "reviewed": 1272,
     "selected": 76,
-    "excluded": 568,
-    "pending": 570,
+    "excluded": 569,
+    "pending": 571,
     "flavor_options": 76
   },
   "groups": [
@@ -7544,6 +7544,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-21T09:12:59.100Z",
+  "pulled_at": "2026-10-21T09:37:58.600Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

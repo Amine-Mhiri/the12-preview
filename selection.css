@@ -178,3 +178,23 @@
 #selection .purchase-price .currency,.detail-price .currency{font-size:.55em;font-weight:500;letter-spacing:.02em}
 #selection .purchase-meta .currency{font-size:.85em;letter-spacing:.02em}
 #selection .calorie-meta{font-size:11px;color:var(--muted);margin:8px 0 0}
+
+/* 2.9.3 — neutral placeholders until the exact catalogue is ready. */
+.selection-loading{display:flex;align-items:center;justify-content:center;gap:10px;margin:12px 0 22px;color:var(--brand);font-size:12px;letter-spacing:.1px;min-height:32px}
+.selection-loading[hidden]{display:none}
+.loading-orbit{width:17px;height:17px;border:2px solid var(--brand-soft);border-top-color:var(--brand);border-radius:50%;animation:selection-turn 1.2s linear infinite}
+#selection[aria-busy=true] .result-line,#selection[aria-busy=true] .selection-type,#selection[aria-busy=true] .pick-toggle,#selection[aria-busy=true] .mobile-selection-actions,#selection[aria-busy=true] .purchase-note{display:none}
+#selection[aria-busy=true] .filter-panel-heading{visibility:hidden}
+.selection-skeleton{min-width:0;padding-top:14px;border-top:1px solid var(--line)}
+.selection-skeleton>div,.selection-skeleton>i,.filter-skeleton>i{display:block;background:var(--brand-soft);border-radius:5px;animation:selection-breathe 1.8s ease-in-out infinite}
+.selection-skeleton>div{height:166px;margin-bottom:18px}
+.selection-skeleton>i{height:10px;width:72%;margin:0 0 12px}
+.selection-skeleton>i:nth-of-type(2){width:92%;height:15px}
+.selection-skeleton>i:nth-of-type(3){width:36%;margin-top:28px;margin-bottom:24px}
+.filter-skeleton>i{height:44px;margin-bottom:24px}
+@keyframes selection-turn{to{transform:rotate(360deg)}}
+@keyframes selection-breathe{0%,100%{opacity:.45}50%{opacity:1}}
+@media(max-width:767px){.selection-skeleton>div{height:145px}.selection-loading{margin:6px 0 20px}.selection-skeleton>i{height:8px}}
+@media(prefers-reduced-motion:reduce){.loading-orbit,.selection-skeleton>div,.selection-skeleton>i,.filter-skeleton>i{animation:none}}
+
+#selection.selection-load-error .selection-layout{display:block}

@@ -11,12 +11,12 @@
   "tagline": "Every declared ingredient, checked against one shared standard.",
   "description": "Adult supplement declarations are checked against the applicable ingredient rules. Forms, quantities, product evidence and individual preferences remain visible without implying that every formula has the same purpose.",
   "build": {
-    "id": 37,
+    "id": 38,
     "source": "crawl",
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T09:12:57.739Z",
+  "generated_at": "2026-10-21T09:37:55.796Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -34,7 +34,7 @@
     "guide_heading": "How do you like your daily essentials?",
     "guide_open": "What matters most to you?",
     "empty_title": "No publishable references yet.",
-    "empty_body": "We reviewed 23 daily essentials products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
+    "empty_body": "We reviewed 24 daily essentials products reaching Kuwait and published none. Publication requires a completed ingredient check and an available Kuwait offer. Unresolved declarations and unavailable offers remain in the audit.",
     "milk_allergy_empty": {
       "title": "Nothing here is free of milk.",
       "body": "Every product published in this category declares milk, or has no dairy-free declaration we could read. We will not answer a declared milk allergy from silence."
@@ -104,8 +104,8 @@
       "unit": "300 mg elemental magnesium",
       "non_negotiables": [],
       "counts": {
-        "reviewed": 18,
-        "excluded": 11,
+        "reviewed": 19,
+        "excluded": 12,
         "pending": 7
       },
       "shelf_note": null,
@@ -141,13 +141,13 @@
     }
   ],
   "counts": {
-    "reviewed": 23,
+    "reviewed": 24,
     "selected": 0,
-    "excluded": 15,
+    "excluded": 16,
     "pending": 8,
     "flavor_options": 0
   },
   "groups": [],
-  "pulled_at": "2026-10-21T09:12:59.105Z",
+  "pulled_at": "2026-10-21T09:37:58.603Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

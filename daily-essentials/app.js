@@ -423,6 +423,13 @@ const retitle=d=>{
                       :`${name} — ${n} references in Kuwait · Good Choices Only`;
 };
 
+function finishLoading(){
+  $('#selection').setAttribute('aria-busy','false');
+  $('#selection-loading-status').hidden=true;
+  $('.selection-layout').inert=false;
+  $('#mobile-selection-actions').inert=false;
+}
+
 const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalogue/${CATEGORY}`:null,`./data/${CATEGORY}.json`].filter(Boolean);
 (async()=>{
   let last;
@@ -438,7 +445,7 @@ const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalo
   const d=catalogueView(raw,VIEW);
   basePriorities={...raw.priorities,...(CATEGORY==='protein'?{calories:'Lowest calories per serving'}:{})};COPY=d.copy;PRIORITIES=Object.fromEntries(Object.entries(d.priorities).filter(([key])=>key!=='rank'));FLAVORS=d.flavors;constraintNames=d.constraints;unitName=d.copy.unit_name;
   if(d.schema_version!==1||!Array.isArray(d.groups)||d.groups.length!==d.counts.flavor_options||d.groups.reduce((n,g)=>n+g.variants.length,0)!==d.counts.selected)throw Error('Incomplete selection');
-  if(!data)state.priority=d.default_priority??(d.comparison_unit?"value":"name");data=d;retitle(d);applyCountText(document,d);applyProfileText(document,d);renderFilters();renderResults();try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
+  if(!data)state.priority=d.default_priority??(d.comparison_unit?"value":"name");data=d;retitle(d);applyCountText(document,d);applyProfileText(document,d);renderFilters();renderResults();finishLoading();document.querySelectorAll('[data-guide]').forEach(b=>b.disabled=false);try{registerTools();}catch(e){console.warn('Optional page tools unavailable:',e.message);}
   stockSignature=data.groups.flatMap(g=>g.variants.map(v=>stockState(v))).join('|');
   const refreshAvailability=()=>{
     if(document.hidden)return;
@@ -449,6 +456,7 @@ const SOURCES=[document.body.dataset.api?`${document.body.dataset.api}/v1/catalo
   setInterval(refreshAvailability,60000);
   document.addEventListener('visibilitychange',refreshAvailability);
 }).catch(()=>{
+  finishLoading();$('#selection').classList.add('selection-load-error');
   $('.view-switch').hidden=true;$('#mobile-selection-actions').hidden=true;$('.selection-sidebar').hidden=true;if($('#director-intro'))$('#director-intro').hidden=true;$('#filters').hidden=true;$('#result-count').textContent='Selection unavailable';$('#products').innerHTML='<div class="empty"><h3>The selection could not load.</h3><p>Please reload to retrieve the reviewed products and their prices.</p><button class="button primary" id="reload">Reload the selection</button></div>';$('#reload').onclick=()=>location.reload();document.querySelectorAll('[data-guide]').forEach(b=>b.disabled=true);
 });
 
