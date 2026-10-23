@@ -38,7 +38,7 @@ const {subcategories,scopeContext}=await import('./subcategories.mjs');
 const VIEW=document.body.dataset.view||CATEGORY;
 const {catalogueView,comparisonCost}=await import('./views.mjs');
 const {applyProfileText,priceObservationSummary}=await import('./presentation.mjs');
-const catalog=await import('./catalog.mjs?v=8');
+const catalog=await import('./catalog.mjs?v=9');
 const {applyCountText}=await import('./counts.mjs?v=3');
 const {DEFAULTS,stockState,selectProducts,chooseFlavor,comparePackSizes,recommendations,merchantLink,withAllergyChoice,packSizeChoices,selectedFlavors,withFlavorChoice,preferenceChoices,sugarClaim,declaredCalories}=catalog;
 // A product whose merchant link we cannot validate must not take the page
@@ -220,6 +220,8 @@ function reasons(g,v){
   if(state.grassFed)out.push('Grass-fed origin declared for this reference.');
   if(state.noStevia)out.push('No stevia in the reviewed ingredient list.');
   if(state.sport)out.push('Sports testing documented for the product / flavor; check your batch.');
+  if(state.creapure)out.push('Creapure® declared for this exact reference.');
+  if(state.micronized)out.push('Micronized creatine declared for this exact reference.');
   if(state.priority==='price')out.push(`${money(v.price_kwd)} per pot, ordered from the lowest price.`);
   if(state.vegan)out.push('Declared vegan.');
   if(state.glutenFree)out.push('Declared gluten-free.');
@@ -291,7 +293,7 @@ function emptyState(){
   if(!data.groups.length)return `<div class="empty"><h3>${esc(COPY.empty_title??'Nothing here clears our bar yet.')}</h3><p>${esc(COPY.empty_body??'')}</p></div>`;
   if(state.milkAllergy&&!selectProducts(data,state).length)return `<div class="empty"><h3>${esc(COPY.milk_allergy_empty.title)}</h3><p>${esc(COPY.milk_allergy_empty.body)}</p><button class="button secondary" data-guide>Review my answers</button></div>`;
   const constraints=Object.entries(constraintNames).filter(([k])=>state[k]).map(([,v])=>v.toLowerCase());
-  return `<div class="empty"><h3>No exact match. Let’s adjust.</h3><p>No option satisfies all your current filters${constraints.length?`: ${esc(constraints.join(', '))}`:''}${selectedFlavors(state.flavor).length?`, ${esc(flavorLabel(state.flavor).toLowerCase())}`:''}${state.sugarFree?', sugar free':''}${state.noAddedSugar?', no added sugar':''}${state.budget!==''?`, up to ${money(state.budget)}`:''}.<br>Try another flavor or a higher budget. Your dietary constraints stay in place until you change them.</p><button class="button secondary" data-guide>Edit my preferences</button><button class="text-button" data-reset>Reset all filters</button></div>`;
+  return `<div class="empty"><h3>No exact match. Let’s adjust.</h3><p>No option satisfies all your current filters${constraints.length?`: ${esc(constraints.join(', '))}`:''}${selectedFlavors(state.flavor).length?`, ${esc(flavorLabel(state.flavor).toLowerCase())}`:''}${state.sugarFree?', sugar free':''}${state.noAddedSugar?', no added sugar':''}${state.budget!==''?`, up to ${money(state.budget)}`:''}.<br>${state.creapure||state.micronized?"Only explicit declarations match these preferences. Try removing one preference or resetting the filters.":"Try another flavor or a higher budget. Your dietary constraints stay in place until you change them."}</p><button class="button secondary" data-guide>Edit my preferences</button><button class="text-button" data-reset>Reset all filters</button></div>`;
 }
 function bindDynamic(){
   document.querySelectorAll('[data-detail]').forEach(b=>b.onclick=()=>openDetail(b.dataset.detail));
@@ -374,10 +376,11 @@ $('#product-dialog').addEventListener('close',()=>{activeDetail=null;});
 function registerTools(){
   if(!document.modelContext?.registerTool)return;
   const controller=new AbortController();addEventListener('pagehide',()=>controller.abort(),{once:true});
-  const registration=document.modelContext.registerTool({name:`filter_${VIEW.replace(/-/g,'_')}_selection`,description:'Apply visible catalogue filters and return matching references. Does not order or add items to a cart.',annotations:{readOnlyHint:false,untrustedContentHint:true},inputSchema:{type:'object',properties:{...(constraintNames.director?{director:{type:'boolean'}}:{}),type:{type:'string',enum:['all',...subcategories(data).map(t=>t.slug)]},packSize:{type:'string',enum:['all',...packSizeChoices(data).map(r=>r.value)]},query:{type:'string',maxLength:100},flavor:{oneOf:[{type:'string',enum:Object.keys(FLAVORS)},{type:'array',items:{type:'string',enum:Object.keys(FLAVORS).filter(k=>k!=='all')},uniqueItems:true}]},...(data.presentation?.domain==='non_oral'?{}:{sugarFree:{type:'boolean'},noAddedSugar:{type:'boolean'}}),budget:{type:'number',minimum:0,maximum:1000},priority:{type:'string',enum:Object.keys(basePriorities).filter(key=>key!=='rank')}},additionalProperties:false},execute:async input=>{
-    if(!input||typeof input!=='object'||Array.isArray(input)||Object.keys(input).some(k=>!['director','query','flavor','budget','priority','type','packSize','sugarFree','noAddedSugar'].includes(k)))throw Error('Invalid filters');
+  const registration=document.modelContext.registerTool({name:`filter_${VIEW.replace(/-/g,'_')}_selection`,description:'Apply visible catalogue filters and return matching references. Does not order or add items to a cart.',annotations:{readOnlyHint:false,untrustedContentHint:true},inputSchema:{type:'object',properties:{...(constraintNames.director?{director:{type:'boolean'}}:{}),...Object.fromEntries(['creapure','micronized'].filter(key=>constraintNames[key]).map(key=>[key,{type:'boolean'}])),type:{type:'string',enum:['all',...subcategories(data).map(t=>t.slug)]},packSize:{type:'string',enum:['all',...packSizeChoices(data).map(r=>r.value)]},query:{type:'string',maxLength:100},flavor:{oneOf:[{type:'string',enum:Object.keys(FLAVORS)},{type:'array',items:{type:'string',enum:Object.keys(FLAVORS).filter(k=>k!=='all')},uniqueItems:true}]},...(data.presentation?.domain==='non_oral'?{}:{sugarFree:{type:'boolean'},noAddedSugar:{type:'boolean'}}),budget:{type:'number',minimum:0,maximum:1000},priority:{type:'string',enum:Object.keys(basePriorities).filter(key=>key!=='rank')}},additionalProperties:false},execute:async input=>{
+    if(!input||typeof input!=='object'||Array.isArray(input)||Object.keys(input).some(k=>!['director','query','flavor','budget','priority','type','packSize','sugarFree','noAddedSugar','creapure','micronized'].includes(k)))throw Error('Invalid filters');
     if(['sugarFree','noAddedSugar'].some(k=>input[k]!==undefined&&(typeof input[k]!=='boolean'||data.presentation?.domain==='non_oral')))throw Error('Invalid sugar filter');
     if(input.director!==undefined&&(!constraintNames.director||typeof input.director!=='boolean'))throw Error('Invalid director filter');
+    for(const key of ['creapure','micronized'])if(input[key]!==undefined&&(!constraintNames[key]||typeof input[key]!=='boolean'))throw Error('Invalid creatine preference');
     const inputPriorities=scopeContext(data,input.type??state.type,basePriorities).priorities;
     if(input.flavor!==undefined&&!(Array.isArray(input.flavor)?input.flavor.every(k=>typeof k==='string'&&k!=='all'&&Object.hasOwn(FLAVORS,k)):typeof input.flavor==='string'&&Object.hasOwn(FLAVORS,input.flavor))||input.priority!==undefined&&!Object.hasOwn(inputPriorities,input.priority)||input.query!==undefined&&(typeof input.query!=='string'||input.query.length>100)||input.budget!==undefined&&(!Number.isFinite(input.budget)||input.budget<0||input.budget>1000))throw Error('Invalid filter value');
     if(input.packSize!==undefined&&!['all',...packSizeChoices(data).map(r=>r.value)].includes(input.packSize))throw Error('Invalid pack size');

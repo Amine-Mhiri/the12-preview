@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T10:46:14.738Z",
+  "generated_at": "2026-10-23T22:30:17.747Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -51,7 +51,9 @@
     "glutenFree": "Gluten-free",
     "soy": "Soy-free",
     "noStevia": "No stevia",
-    "sport": "Independently tested"
+    "sport": "Independently tested",
+    "creapure": "Creapure®",
+    "micronized": "Micronized"
   },
   "priorities": {
     "name": "Alphabetical",
@@ -181,6 +183,45 @@
           "catalogue_id": "p-850055068032",
           "number": 1,
           "reference_title": "Creatine Monohydrate",
+          "creapure_declared": true,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creatine Monohydrate (as Creapure®)",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/bpn-creatine-monohydrate-unflavored-5-3-oz-150-g/141831",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:15:43Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-5-3-oz-150-g/141831",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:24.685266Z"
+                  }
+                ]
+              },
+              {
+                "source_field": "brandedIngredients",
+                "exact_text": "Creapure",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/bpn-creatine-monohydrate-unflavored-5-3-oz-150-g/141831",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:15:43Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-5-3-oz-150-g/141831",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:24.685266Z"
+                  }
+                ]
+              }
+            ],
+            "micronized": []
+          },
           "title": "BPN, Creatine Monohydrate, Unflavored, 0.3 lb / 150 g",
           "url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-5-3-oz-150-g/141831",
           "merchant_url_from_build": "https://www.iherb.com/pr/bpn-creatine-monohydrate-unflavored-5-3-oz-150-g/141831",
@@ -280,6 +321,29 @@
           "catalogue_id": "p-856622004052",
           "number": 2,
           "reference_title": "Creatine Monohydrate",
+          "creapure_declared": true,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creating Monohydrate( as Creapure®)",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/bpn-creatine-monohydrate-unflavored-10-6-oz-300-g/131350",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:13:30Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-10-6-oz-300-g/131350",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:43.228782Z"
+                  }
+                ]
+              }
+            ],
+            "micronized": []
+          },
           "title": "BPN, Creatine Monohydrate, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/bpn-creatine-monohydrate-unflavored-10-6-oz-300-g/131350",
           "merchant_url_from_build": "https://www.iherb.com/pr/bpn-creatine-monohydrate-unflavored-10-6-oz-300-g/131350",
@@ -379,6 +443,12 @@
           "catalogue_id": "p-857568003796",
           "number": 3,
           "reference_title": "Smart Creatine+",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "BrainMD, Smart Creatine+, Unflavored, 0.7 lb / 309 g",
           "url": "https://kw.iherb.com/pr/brainmd-smart-creatine-unflavored-10-89-oz-309-g/145761",
           "merchant_url_from_build": "https://www.iherb.com/pr/brainmd-smart-creatine-unflavored-10-89-oz-309-g/145761",
@@ -467,6 +537,29 @@
           "catalogue_id": "p-834266002931",
           "number": 4,
           "reference_title": "Creatine",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/bsn-creatine-unflavored-10-9-oz-309-g/63046",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:10:15Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/bsn-creatine-unflavored-10-9-oz-309-g/63046",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:17:42.812815Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "BSN, Creatine, Unflavored, 0.7 lb / 309 g",
           "url": "https://kw.iherb.com/pr/bsn-creatine-unflavored-10-9-oz-309-g/63046",
           "merchant_url_from_build": "https://www.iherb.com/pr/bsn-creatine-unflavored-10-9-oz-309-g/63046",
@@ -555,6 +648,29 @@
           "catalogue_id": "p-810390025824",
           "number": 5,
           "reference_title": "COR-Performance® Creatine",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/c4-cellucor-cor-performance-creatine-unflavored-12-7oz-360-g/77551",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:10:56Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/c4-cellucor-cor-performance-creatine-unflavored-12-7oz-360-g/77551",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:17:53.783525Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "C4 / Cellucor, COR-Performance® Creatine, Unflavored, 0.8 lb / 360 g",
           "url": "https://kw.iherb.com/pr/c4-cellucor-cor-performance-creatine-unflavored-12-7oz-360-g/77551",
           "merchant_url_from_build": "https://www.iherb.com/pr/c4-cellucor-cor-performance-creatine-unflavored-12-7oz-360-g/77551",
@@ -643,6 +759,12 @@
           "catalogue_id": "p-898220010592",
           "number": 6,
           "reference_title": "Sport, Pure Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, Sport, Pure Creatine Monohydrate, Unflavored, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-1-lb-454-g/71026",
           "merchant_url_from_build": "https://www.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-1-lb-454-g/71026",
@@ -733,6 +855,12 @@
           "catalogue_id": "p-898220025213",
           "number": 7,
           "reference_title": "Sport, Pure Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, Sport, Pure Creatine Monohydrate, Unflavored, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-2-2-lbs-1-kg/143718",
           "merchant_url_from_build": "https://www.iherb.com/pr/california-gold-nutrition-sport-pure-creatine-monohydrate-unflavored-2-2-lbs-1-kg/143718",
@@ -823,6 +951,12 @@
           "catalogue_id": "p-858221007090",
           "number": 8,
           "reference_title": "Crea-8",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EHPlabs, Crea-8, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/ehplabs-crea-8-17-6-oz-500-g/119639",
           "merchant_url_from_build": "https://www.iherb.com/pr/ehplabs-crea-8-17-6-oz-500-g/119639",
@@ -914,6 +1048,12 @@
           "catalogue_id": "p-852665240655",
           "number": 9,
           "reference_title": "Creatine5000®",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, Creatine5000®, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-creatine5000-unflavored-10-58-oz-300-g/83389",
           "merchant_url_from_build": "https://www.iherb.com/pr/evlution-nutrition-creatine5000-unflavored-10-58-oz-300-g/83389",
@@ -1004,6 +1144,12 @@
           "catalogue_id": "p-818901021105",
           "number": 10,
           "reference_title": "Creatine5000®",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, Creatine5000®, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-creatine5000-unflavored-17-64-oz-500-g/86577",
           "merchant_url_from_build": "https://www.iherb.com/pr/evlution-nutrition-creatine5000-unflavored-17-64-oz-500-g/86577",
@@ -1094,6 +1240,12 @@
           "catalogue_id": "p-818901028630",
           "number": 11,
           "reference_title": "Creatine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "fitcode, Creatine, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/fitcode-creatine-unflavored-10-6-oz-300-g/120956",
           "merchant_url_from_build": "https://www.iherb.com/pr/fitcode-creatine-unflavored-10-6-oz-300-g/120956",
@@ -1184,6 +1336,29 @@
           "catalogue_id": "p-646511012509",
           "number": 12,
           "reference_title": "Creatine",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creatine Monohydrate Micronized",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/gaspari-nutrition-creatine-unflavored-300-g/46213",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:10:02Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/gaspari-nutrition-creatine-unflavored-300-g/46213",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:17:35.606421Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Gaspari Nutrition, Creatine, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/gaspari-nutrition-creatine-unflavored-300-g/46213",
           "merchant_url_from_build": "https://www.iherb.com/pr/gaspari-nutrition-creatine-unflavored-300-g/46213",
@@ -1272,6 +1447,12 @@
           "catalogue_id": "p-089094025281",
           "number": 13,
           "reference_title": "Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Creatine Monohydrate, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/isopure-creatine-monohydrate-unflavored-1-1-lb-500-g/90079",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-creatine-monohydrate-unflavored-1-1-lb-500-g/90079",
@@ -1365,6 +1546,12 @@
           "catalogue_id": "p-794712849308",
           "number": 14,
           "reference_title": "The Curse!®, Creatine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "JNX Sports, The Curse!®, Creatine, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-10-6-oz-300-g/115835",
           "merchant_url_from_build": "https://www.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-10-6-oz-300-g/115835",
@@ -1453,6 +1640,12 @@
           "catalogue_id": "p-797776094509",
           "number": 15,
           "reference_title": "The Curse!®, Creatine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "JNX Sports, The Curse!®, Creatine, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-17-6-oz-500-g/140412",
           "merchant_url_from_build": "https://www.iherb.com/pr/jnx-sports-the-curse-creatine-unflavored-17-6-oz-500-g/140412",
@@ -1541,6 +1734,12 @@
           "catalogue_id": "p-850053383007",
           "number": 16,
           "reference_title": "Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Kaged, Creatine Monohydrate, Unflavored, 1.1 lb / 510 g",
           "url": "https://kw.iherb.com/pr/kaged-creatine-monohydrate-unflavored-1-12-lb-510-g/136261",
           "merchant_url_from_build": "https://www.iherb.com/pr/kaged-creatine-monohydrate-unflavored-1-12-lb-510-g/136261",
@@ -1629,6 +1828,45 @@
           "catalogue_id": "p-850027345857",
           "number": 17,
           "reference_title": "Creatine, Micronized Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "name",
+                "exact_text": "Creatine, Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-69-lbs-312-g/145992",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:16:51Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-69-lbs-312-g/145992",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:37.960060Z"
+                  }
+                ]
+              },
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-69-lbs-312-g/145992",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:16:51Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-69-lbs-312-g/145992",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:37.960060Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Legion Athletics, Creatine, Micronized Creatine Monohydrate, Unflavored, 0.7 lb / 312 g",
           "url": "https://kw.iherb.com/pr/legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-69-lbs-312-g/145992",
           "merchant_url_from_build": "https://www.iherb.com/pr/legion-athletics-creatine-micronized-creatine-monohydrate-unflavored-0-69-lbs-312-g/145992",
@@ -1717,6 +1955,12 @@
           "catalogue_id": "p-764779155018",
           "number": 18,
           "reference_title": "Creatine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Metabolic Nutrition, Creatine, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/metabolic-nutrition-creatine-unflavored-17-64-oz-500-g/129719",
           "merchant_url_from_build": "https://www.iherb.com/pr/metabolic-nutrition-creatine-unflavored-17-64-oz-500-g/129719",
@@ -1805,6 +2049,29 @@
           "catalogue_id": "p-850069023607",
           "number": 19,
           "reference_title": "Creatine Monohydrate Powder",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creatine Monohydrate (micronized)",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-1-1-lb-500-g/149851",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:19:02Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-1-1-lb-500-g/149851",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:58.278873Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Micro Ingredients, Creatine Monohydrate Powder, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-1-1-lb-500-g/149851",
           "merchant_url_from_build": "https://www.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-1-1-lb-500-g/149851",
@@ -1893,6 +2160,29 @@
           "catalogue_id": "p-850056167918",
           "number": 20,
           "reference_title": "Creatine Monohydrate Powder",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creatine Monohydrate (Micronized)",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-2-2-lb-1-kg/146523",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:17:08Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-2-2-lb-1-kg/146523",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:42.185378Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Micro Ingredients, Creatine Monohydrate Powder, Unflavored, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-2-2-lb-1-kg/146523",
           "merchant_url_from_build": "https://www.iherb.com/pr/micro-ingredients-creatine-monohydrate-powder-unflavored-2-2-lb-1-kg/146523",
@@ -1981,6 +2271,12 @@
           "catalogue_id": "p-733739020314",
           "number": 21,
           "reference_title": "Sports, Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Creatine Monohydrate, 1.3 lb / 600 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-creatine-monohydrate-21-2-oz-600-g/116703",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-creatine-monohydrate-21-2-oz-600-g/116703",
@@ -2071,6 +2367,12 @@
           "catalogue_id": "p-733739020321",
           "number": 22,
           "reference_title": "Sports, Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Creatine Monohydrate, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-creatine-monohydrate-2-2-lbs-1-kg/535",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-creatine-monohydrate-2-2-lbs-1-kg/535",
@@ -2161,6 +2463,29 @@
           "catalogue_id": "p-733739020369",
           "number": 23,
           "reference_title": "Sports, Micronized Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "name",
+                "exact_text": "Sports, Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/now-foods-sports-micronized-creatine-monohydrate-2-2-lbs-1-kg/140145",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:15:04Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/now-foods-sports-micronized-creatine-monohydrate-2-2-lbs-1-kg/140145",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:13.327355Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "NOW Foods, Sports, Micronized Creatine Monohydrate, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-micronized-creatine-monohydrate-2-2-lbs-1-kg/140145",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-micronized-creatine-monohydrate-2-2-lbs-1-kg/140145",
@@ -2251,6 +2576,29 @@
           "catalogue_id": "p-649908230142",
           "number": 24,
           "reference_title": "Micronized Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "name",
+                "exact_text": "Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-10-6-oz-300-g/123320",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:12:26Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-10-6-oz-300-g/123320",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:36.529038Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "NutraBio, Micronized Creatine Monohydrate, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-10-6-oz-300-g/123320",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-10-6-oz-300-g/123320",
@@ -2339,6 +2687,29 @@
           "catalogue_id": "p-649908230166",
           "number": 25,
           "reference_title": "Micronized Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "name",
+                "exact_text": "Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-5-3-oz-150-g/123319",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:12:25Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-5-3-oz-150-g/123319",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:31.477178Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "NutraBio, Micronized Creatine Monohydrate, Unflavored, 0.3 lb / 150 g",
           "url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-5-3-oz-150-g/123319",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-5-3-oz-150-g/123319",
@@ -2429,6 +2800,29 @@
           "catalogue_id": "p-649908230104",
           "number": 26,
           "reference_title": "Micronized Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "name",
+                "exact_text": "Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-1-1-lb-500-g/80769",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:11:04Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-1-1-lb-500-g/80769",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:00.329690Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "NutraBio, Micronized Creatine Monohydrate, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-1-1-lb-500-g/80769",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-1-1-lb-500-g/80769",
@@ -2518,6 +2912,29 @@
           "catalogue_id": "p-649908230111",
           "number": 27,
           "reference_title": "Micronized Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "name",
+                "exact_text": "Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-2-2-lb-1-000-g/134700",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:13:57Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-2-2-lb-1-000-g/134700",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:52.107939Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "NutraBio, Micronized Creatine Monohydrate, Unflavored, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-2-2-lb-1-000-g/134700",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-unflavored-2-2-lb-1-000-g/134700",
@@ -2608,6 +3025,12 @@
           "catalogue_id": "p-853237000745",
           "number": 28,
           "reference_title": "Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutrex Research, Creatine Monohydrate, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/nutrex-research-creatine-monohydrate-unflavored-10-58-oz-300-g/46645",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutrex-research-creatine-monohydrate-unflavored-10-58-oz-300-g/46645",
@@ -2697,6 +3120,29 @@
           "catalogue_id": "p-810139571865",
           "number": 29,
           "reference_title": "Performance, Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creatine Monohydrate (micronized)",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-10-7-oz-300-g/147383",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:17:40Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-10-7-oz-300-g/147383",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:45.531786Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Nutricost, Performance, Creatine Monohydrate, Unflavored, 0.7 lb / 303 g",
           "url": "https://kw.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-10-7-oz-300-g/147383",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-10-7-oz-300-g/147383",
@@ -2786,6 +3232,29 @@
           "catalogue_id": "p-810014675312",
           "number": 30,
           "reference_title": "Performance, Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creatine Monohydrate (Micronized)",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-2-2-lb-1-kg/145287",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:16:21Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-2-2-lb-1-kg/145287",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:31.374571Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Nutricost, Performance, Creatine Monohydrate, Unflavored, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-2-2-lb-1-kg/145287",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-2-2-lb-1-kg/145287",
@@ -2874,6 +3343,29 @@
           "catalogue_id": "p-748927023848",
           "number": 31,
           "reference_title": "Micronized Creatine Powder",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "name",
+                "exact_text": "Micronized Creatine Powder",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-10-58-oz-300-g/36132",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:09:57Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-10-58-oz-300-g/36132",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:17:32.945111Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Optimum Nutrition, Micronized Creatine Powder, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-10-58-oz-300-g/36132",
           "merchant_url_from_build": "https://www.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-10-58-oz-300-g/36132",
@@ -2964,6 +3456,29 @@
           "catalogue_id": "p-748927023855",
           "number": 32,
           "reference_title": "Micronized Creatine Powder",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "name",
+                "exact_text": "Micronized Creatine Powder",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-1-32-lb-600-g/68616",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:10:34Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-1-32-lb-600-g/68616",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:17:47.307191Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Optimum Nutrition, Micronized Creatine Powder, Unflavored, 1.3 lb / 600 g",
           "url": "https://kw.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-1-32-lb-600-g/68616",
           "merchant_url_from_build": "https://www.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-1-32-lb-600-g/68616",
@@ -3054,6 +3569,29 @@
           "catalogue_id": "p-601944779146",
           "number": 33,
           "reference_title": "Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creatine Monohydrate (Micronized)",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/paradise-herbs-creatine-monohydrate-unflavored-500-g/141315",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:15:29Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/paradise-herbs-creatine-monohydrate-unflavored-500-g/141315",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:18.438446Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Paradise Herbs, Creatine Monohydrate, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/paradise-herbs-creatine-monohydrate-unflavored-500-g/141315",
           "merchant_url_from_build": "https://www.iherb.com/pr/paradise-herbs-creatine-monohydrate-unflavored-500-g/141315",
@@ -3142,6 +3680,45 @@
           "catalogue_id": "p-040232543340",
           "number": 34,
           "reference_title": "TruCreatine+",
+          "creapure_declared": true,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creapure® Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/pescience-trucreatine-5-29-oz-150-g/113760",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:11:35Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/pescience-trucreatine-5-29-oz-150-g/113760",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:16.210274Z"
+                  }
+                ]
+              },
+              {
+                "source_field": "brandedIngredients",
+                "exact_text": "Creapure",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/pescience-trucreatine-5-29-oz-150-g/113760",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:11:35Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/pescience-trucreatine-5-29-oz-150-g/113760",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:16.210274Z"
+                  }
+                ]
+              }
+            ],
+            "micronized": []
+          },
           "title": "PEScience, TruCreatine+, 0.3 lb / 150 g",
           "url": "https://kw.iherb.com/pr/pescience-trucreatine-5-29-oz-150-g/113760",
           "merchant_url_from_build": "https://www.iherb.com/pr/pescience-trucreatine-5-29-oz-150-g/113760",
@@ -3230,6 +3807,29 @@
           "catalogue_id": "p-713325965045",
           "number": 35,
           "reference_title": "Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creatine Monohydrate (micronized)",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/primaforce-creatine-monohydrate-unflavored-3-3-lb-1-500-g/141718",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:15:42Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/primaforce-creatine-monohydrate-unflavored-3-3-lb-1-500-g/141718",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:19:22.598079Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Primaforce, Creatine Monohydrate, Unflavored, 3.3 lb / 1500 g",
           "url": "https://kw.iherb.com/pr/primaforce-creatine-monohydrate-unflavored-3-3-lb-1-500-g/141718",
           "merchant_url_from_build": "https://www.iherb.com/pr/primaforce-creatine-monohydrate-unflavored-3-3-lb-1-500-g/141718",
@@ -3318,6 +3918,12 @@
           "catalogue_id": "p-850030779540",
           "number": 36,
           "reference_title": "Longevity Creatine Pure Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ProHealth Longevity, Longevity Creatine Pure Powder, 1.0 lb / 450 g",
           "url": "https://kw.iherb.com/pr/prohealth-longevity-longevity-creatine-pure-powder-15-9-oz-450-g/137865",
           "merchant_url_from_build": "https://www.iherb.com/pr/prohealth-longevity-longevity-creatine-pure-powder-15-9-oz-450-g/137865",
@@ -3406,6 +4012,12 @@
           "catalogue_id": "p-860007286957",
           "number": 37,
           "reference_title": "Essentials, Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Raw Nutrition, Essentials, Creatine Monohydrate, Unflavored, 0.3 lb / 150 g",
           "url": "https://kw.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-5-29-oz-150-g/137068",
           "merchant_url_from_build": "https://www.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-5-29-oz-150-g/137068",
@@ -3494,6 +4106,12 @@
           "catalogue_id": "p-850049150675",
           "number": 38,
           "reference_title": "Essentials, Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Raw Nutrition, Essentials, Creatine Monohydrate, Unflavored, 1.1 lb / 510 g",
           "url": "https://kw.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-18-oz-510-g/152525",
           "merchant_url_from_build": "https://www.iherb.com/pr/raw-nutrition-essentials-creatine-monohydrate-unflavored-18-oz-510-g/152525",
@@ -3582,6 +4200,12 @@
           "catalogue_id": "p-854446006566",
           "number": 39,
           "reference_title": "AminoLean® Creatine Monohydrate Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "RSP NUTRITION, AminoLean® Creatine Monohydrate Powder, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/rsp-nutrition-aminolean-creatine-monohydrate-powder-10-6-oz-300-g/77965",
           "merchant_url_from_build": "https://www.iherb.com/pr/rsp-nutrition-aminolean-creatine-monohydrate-powder-10-6-oz-300-g/77965",
@@ -3670,6 +4294,12 @@
           "catalogue_id": "p-854050008482",
           "number": 40,
           "reference_title": "Element Series, Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "RYSE, Element Series, Creatine Monohydrate, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/ryse-element-series-creatine-monohydrate-10-6-oz-300-g/123584",
           "merchant_url_from_build": "https://www.iherb.com/pr/ryse-element-series-creatine-monohydrate-10-6-oz-300-g/123584",
@@ -3758,6 +4388,29 @@
           "catalogue_id": "p-023249091806",
           "number": 41,
           "reference_title": "Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-10-58-oz-300-g/134762",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:14:03Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-10-58-oz-300-g/134762",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:57.081757Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Sports Research, Creatine Monohydrate, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-10-58-oz-300-g/134762",
           "merchant_url_from_build": "https://www.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-10-58-oz-300-g/134762",
@@ -3849,6 +4502,29 @@
           "catalogue_id": "p-023249091813",
           "number": 42,
           "reference_title": "Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Micronized Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-1-1-lb-500-g/134761",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:13:59Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-1-1-lb-500-g/134761",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:54.736826Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "Sports Research, Creatine Monohydrate, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-1-1-lb-500-g/134761",
           "merchant_url_from_build": "https://www.iherb.com/pr/sports-research-creatine-monohydrate-unflavored-1-1-lb-500-g/134761",
@@ -3940,6 +4616,45 @@
           "catalogue_id": "p-732907050054",
           "number": 43,
           "reference_title": "Creatine Monohydrate",
+          "creapure_declared": true,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creapure® Creatine Monohydrate",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/steelfit-creatine-monohydrate-unflavored-17-6-oz-500-g/152856",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:21:00Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/steelfit-creatine-monohydrate-unflavored-17-6-oz-500-g/152856",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:20:14.669804Z"
+                  }
+                ]
+              },
+              {
+                "source_field": "brandedIngredients",
+                "exact_text": "Creapure",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/steelfit-creatine-monohydrate-unflavored-17-6-oz-500-g/152856",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:21:00Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/steelfit-creatine-monohydrate-unflavored-17-6-oz-500-g/152856",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:20:14.669804Z"
+                  }
+                ]
+              }
+            ],
+            "micronized": []
+          },
           "title": "SteelFit, Creatine Monohydrate, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/steelfit-creatine-monohydrate-unflavored-17-6-oz-500-g/152856",
           "merchant_url_from_build": "https://www.iherb.com/pr/steelfit-creatine-monohydrate-unflavored-17-6-oz-500-g/152856",
@@ -4028,6 +4743,12 @@
           "catalogue_id": "p-693749006350",
           "number": 44,
           "reference_title": "Creatine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Thorne, Creatine, 1.0 lb / 450 g",
           "url": "https://kw.iherb.com/pr/thorne-creatine-16-oz-450-g/70006",
           "merchant_url_from_build": "https://www.iherb.com/pr/thorne-creatine-16-oz-450-g/70006",
@@ -4125,6 +4846,12 @@
           "catalogue_id": "p-693749015239",
           "number": 45,
           "reference_title": "Creatine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Thorne, Creatine, 2.0 lb / 900 g",
           "url": "https://kw.iherb.com/pr/thorne-creatine-2-lb-900-g/150562",
           "merchant_url_from_build": "https://www.iherb.com/pr/thorne-creatine-2-lb-900-g/150562",
@@ -4222,6 +4949,29 @@
           "catalogue_id": "p-850047321237",
           "number": 46,
           "reference_title": "Clean, Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creatine Monohydrate (Micronized)",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-17-6-oz-500-g/132129",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:13:41Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-17-6-oz-500-g/132129",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:50.503618Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "TypeZero, Clean, Creatine Monohydrate, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-17-6-oz-500-g/132129",
           "merchant_url_from_build": "https://www.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-17-6-oz-500-g/132129",
@@ -4310,6 +5060,29 @@
           "catalogue_id": "p-850047321060",
           "number": 47,
           "reference_title": "Clean, Creatine Monohydrate",
+          "creapure_declared": null,
+          "micronized_declared": true,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": [
+              {
+                "source_field": "declaredPanelRows.nutrient",
+                "exact_text": "Creatine Monohydrate (Micronized)",
+                "sources": [
+                  {
+                    "url": "https://www.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-35-oz-1-kg/132128",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-05T19:13:39Z"
+                  },
+                  {
+                    "url": "https://kw.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-35-oz-1-kg/132128",
+                    "label": "Reviewed composition source",
+                    "retrieved": "2026-10-12T17:18:49.077796Z"
+                  }
+                ]
+              }
+            ]
+          },
           "title": "TypeZero, Clean, Creatine Monohydrate, Unflavored, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-35-oz-1-kg/132128",
           "merchant_url_from_build": "https://www.iherb.com/pr/typezero-clean-creatine-monohydrate-unflavored-35-oz-1-kg/132128",
@@ -4398,6 +5171,12 @@
           "catalogue_id": "p-665553227870",
           "number": 48,
           "reference_title": "Essentials, Citrulline Malate 2:1",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, Essentials, Citrulline Malate 2:1, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/allmax-essentials-citrulline-malate-2-1-10-58-oz-300-g/79811",
           "merchant_url_from_build": "https://www.iherb.com/pr/allmax-essentials-citrulline-malate-2-1-10-58-oz-300-g/79811",
@@ -4486,6 +5265,12 @@
           "catalogue_id": "p-810139572527",
           "number": 49,
           "reference_title": "Betaine Anhydrous",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Betaine Anhydrous, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/nutricost-betaine-anhydrous-unflavored-17-9-oz-500-g/145292",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-betaine-anhydrous-unflavored-17-9-oz-500-g/145292",
@@ -4574,6 +5359,12 @@
           "catalogue_id": "p-811445020115",
           "number": 50,
           "reference_title": "Citrulline Malate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, Citrulline Malate, Unflavored, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/primaforce-citrulline-malate-unflavored-7-1-oz-200-g/56648",
           "merchant_url_from_build": "https://www.iherb.com/pr/primaforce-citrulline-malate-unflavored-7-1-oz-200-g/56648",
@@ -4662,6 +5453,12 @@
           "catalogue_id": "p-811445020757",
           "number": 51,
           "reference_title": "Citrulline Malate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, Citrulline Malate, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/primaforce-citrulline-malate-unflavored-1-1-lb-500-g/141705",
           "merchant_url_from_build": "https://www.iherb.com/pr/primaforce-citrulline-malate-unflavored-1-1-lb-500-g/141705",
@@ -4750,6 +5547,12 @@
           "catalogue_id": "p-665553229881",
           "number": 52,
           "reference_title": "Essentials, EAA",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, Essentials, EAA, 0.7 lb / 320 g",
           "url": "https://kw.iherb.com/pr/allmax-essentials-eaa-11-29-oz-320-g/136132",
           "merchant_url_from_build": "https://kw.iherb.com/pr/allmax-essentials-eaa-11-29-oz-320-g/136132",
@@ -4838,6 +5641,12 @@
           "catalogue_id": "p-850039655531",
           "number": 53,
           "reference_title": "Perfect Amino™, 150 Tablets",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "BodyHealth, Perfect Amino™, 150 Tablets, size unknown",
           "url": "https://kw.iherb.com/pr/bodyhealth-perfect-amino-150-tablets/122336",
           "merchant_url_from_build": "https://kw.iherb.com/pr/bodyhealth-perfect-amino-150-tablets/122336",
@@ -4926,6 +5735,12 @@
           "catalogue_id": "p-766536020829",
           "number": 54,
           "reference_title": "BCAA + Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "BodyTech, BCAA + Glutamine, Unflavored, 0.9 lb / 409 g",
           "url": "https://kw.iherb.com/pr/bodytech-bcaa-glutamine-unflavored-14-4-oz-409-g/139896",
           "merchant_url_from_build": "https://kw.iherb.com/pr/bodytech-bcaa-glutamine-unflavored-14-4-oz-409-g/139896",
@@ -5014,6 +5829,12 @@
           "catalogue_id": "p-685450087513",
           "number": 55,
           "reference_title": "BCAA5000®",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, BCAA5000®, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-bcaa5000-unflavored-10-58-oz-300-g/72001",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-bcaa5000-unflavored-10-58-oz-300-g/72001",
@@ -5102,6 +5923,12 @@
           "catalogue_id": "p-733739002136",
           "number": 56,
           "reference_title": "Sports, Branched-Chain Amino Acid Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Branched-Chain Amino Acid Powder, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-branched-chain-amino-acid-powder-12-oz-340-g/3321",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-sports-branched-chain-amino-acid-powder-12-oz-340-g/3321",
@@ -5192,6 +6019,12 @@
           "catalogue_id": "p-087614019277",
           "number": 57,
           "reference_title": "BCAA, 100 Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Swanson Vitamins, BCAA, 100 Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-bcaa-100-capsules/118372",
           "merchant_url_from_build": "https://kw.iherb.com/pr/swanson-vitamins-bcaa-100-capsules/118372",
@@ -5281,6 +6114,12 @@
           "catalogue_id": "p-087614026787",
           "number": 58,
           "reference_title": "Essential Amino Acid Complex, 60 Vegan Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Swanson Vitamins, Essential Amino Acid Complex, 60 Vegan Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-essential-amino-acid-complex-60-vegan-capsules/118158",
           "merchant_url_from_build": "https://kw.iherb.com/pr/swanson-vitamins-essential-amino-acid-complex-60-vegan-capsules/118158",
@@ -5371,6 +6210,12 @@
           "catalogue_id": "p-818901028982",
           "number": 59,
           "reference_title": "Beta-Alanine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, Beta-Alanine, Unflavored, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-beta-alanine-unflavored-7-05-oz-200-g/125403",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-beta-alanine-unflavored-7-05-oz-200-g/125403",
@@ -5461,6 +6306,12 @@
           "catalogue_id": "p-797776094585",
           "number": 60,
           "reference_title": "The Curse!®, Beta Alanine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "JNX Sports, The Curse!®, Beta Alanine, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/jnx-sports-the-curse-beta-alanine-unflavored-10-6-oz-300-g/143129",
           "merchant_url_from_build": "https://kw.iherb.com/pr/jnx-sports-the-curse-beta-alanine-unflavored-10-6-oz-300-g/143129",
@@ -5549,6 +6400,12 @@
           "catalogue_id": "p-810014679150",
           "number": 61,
           "reference_title": "Beta Alanine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Beta-Alanine, Unflavored, 0.7 lb / 303 g",
           "url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-10-7-oz-300-g/153891",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-10-7-oz-300-g/153891",
@@ -5637,6 +6494,12 @@
           "catalogue_id": "p-810139572077",
           "number": 62,
           "reference_title": "Beta-Alanine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Beta-Alanine, Unflavored, 0.4 lb / 180 g",
           "url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-6-4-oz-180-g/147376",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-6-4-oz-180-g/147376",
@@ -5725,6 +6588,12 @@
           "catalogue_id": "p-810139571681",
           "number": 63,
           "reference_title": "Beta-Alanine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Beta-Alanine, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-17-9-oz-500-g/145284",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-beta-alanine-unflavored-17-9-oz-500-g/145284",
@@ -5814,6 +6683,12 @@
           "catalogue_id": "p-811445020061",
           "number": 64,
           "reference_title": "Beta-Alanine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, Beta-Alanine, Unflavored, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-7-1-oz-200-g/78962",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-7-1-oz-200-g/78962",
@@ -5902,6 +6777,12 @@
           "catalogue_id": "p-811445020610",
           "number": 65,
           "reference_title": "Beta-Alanine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, Beta-Alanine, Unflavored, 3.3 lb / 1500 g",
           "url": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-52-9-oz-1-500-g/150688",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-beta-alanine-unflavored-52-9-oz-1-500-g/150688",
@@ -5990,6 +6871,12 @@
           "catalogue_id": "p-811445021433",
           "number": 66,
           "reference_title": "Beta-Alanine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, Beta-Alanine, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/primaforce-beta-alanine-powder-unflavored-17-9-oz-500-g/141704",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-beta-alanine-powder-unflavored-17-9-oz-500-g/141704",
@@ -6078,6 +6965,12 @@
           "catalogue_id": "p-898220024827",
           "number": 67,
           "reference_title": "L-Citrulline",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Citrulline, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-citrulline-unflavored-10-58-oz-300-g/139265",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-citrulline-unflavored-10-58-oz-300-g/139265",
@@ -6169,6 +7062,12 @@
           "catalogue_id": "p-898220011292",
           "number": 68,
           "reference_title": "Sport, L-Citrulline, Kyowa Hakko, 500 mg, 60 Veggie Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, Sport, L-Citrulline, Kyowa Hakko, 500 mg, 60 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsules/72316",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-citrulline-kyowa-hakko-500-mg-60-veggie-capsules/72316",
@@ -6259,6 +7158,12 @@
           "catalogue_id": "p-753950004375",
           "number": 69,
           "reference_title": "L-Citrulline Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Doctor's Best, L-Citrulline Powder, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/doctor-s-best-l-citrulline-powder-7-oz-200-g/69214",
           "merchant_url_from_build": "https://kw.iherb.com/pr/doctor-s-best-l-citrulline-powder-7-oz-200-g/69214",
@@ -6349,6 +7254,12 @@
           "catalogue_id": "p-818901022218",
           "number": 70,
           "reference_title": "L-Citrulline 2000",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, L-Citrulline 2000, Unflavored, 0.5 lb / 213 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-2000-unflavored-7-5-oz-200-g/87131",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-2000-unflavored-7-5-oz-200-g/87131",
@@ -6439,6 +7350,12 @@
           "catalogue_id": "p-818901029729",
           "number": 71,
           "reference_title": "L-Citrulline Malate 2:1",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, L-Citrulline Malate 2:1, Unflavored, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-malate-2-1-unflavored-7-05-oz-200-g/138125",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-l-citrulline-malate-2-1-unflavored-7-05-oz-200-g/138125",
@@ -6529,6 +7446,12 @@
           "catalogue_id": "p-733739002143",
           "number": 72,
           "reference_title": "L-Citrulline, Pure Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, L-Citrulline, Pure Powder, 0.2 lb / 113 g",
           "url": "https://kw.iherb.com/pr/now-foods-l-citrulline-pure-powder-4-oz-113-g/15501",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-l-citrulline-pure-powder-4-oz-113-g/15501",
@@ -6620,6 +7543,12 @@
           "catalogue_id": "p-810014679327",
           "number": 73,
           "reference_title": "L-Citrulline",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Citrulline, Unflavored, 1.3 lb / 600 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-citrulline-unflavored-1-3-lb-600-g/145302",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-citrulline-unflavored-1-3-lb-600-g/145302",
@@ -6695,6 +7624,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-21T10:46:15.869Z",
+  "pulled_at": "2026-10-23T22:30:18.914Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

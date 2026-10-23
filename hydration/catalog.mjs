@@ -59,6 +59,8 @@ export const DEFAULTS = Object.freeze({
   soy: false,
   noStevia: false,
   sport: false,
+  creapure: false,
+  micronized: false,
   sugarFree: false,
   noAddedSugar: false,
   noAllergies: true,
@@ -83,6 +85,8 @@ const CONSTRAINTS = {
   soy: (v) => v.soy_free_declared === true,
   noStevia: (v) => v.stevia === false,
   sport: (v) => v.anti_doping_documented === true,
+  creapure: (v) => v.type_slug === "creatine-monohydrate" && v.creapure_declared === true,
+  micronized: (v) => v.type_slug === "creatine-monohydrate" && v.micronized_declared === true,
   sugarFree: (v) => sugarClaim(v, "sugarFree"),
   noAddedSugar: (v) => sugarClaim(v, "noAddedSugar"),
 };

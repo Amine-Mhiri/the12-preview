@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T10:46:14.738Z",
+  "generated_at": "2026-10-23T22:30:17.747Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -108,6 +108,12 @@
           "catalogue_id": "p-815709021337",
           "number": 1,
           "reference_title": "The Mentalist™, Ground, Medium-Dark Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "BulletProof, The Mentalist™, Ground, Medium-Dark Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/bulletproof-artisan-coffee-the-mentalist-ground-medium-dark-roast-12-oz-340-g/78312",
           "merchant_url_from_build": "https://kw.iherb.com/pr/bulletproof-artisan-coffee-the-mentalist-ground-medium-dark-roast-12-oz-340-g/78312",
@@ -196,6 +202,12 @@
           "catalogue_id": "p-815709021207",
           "number": 2,
           "reference_title": "Whole Bean, Medium Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "BulletProof, Whole Bean, Medium Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/bulletproof-artisan-coffee-whole-bean-medium-roast-12-oz-340-g/78303",
           "merchant_url_from_build": "https://kw.iherb.com/pr/bulletproof-artisan-coffee-whole-bean-medium-roast-12-oz-340-g/78303",
@@ -284,6 +296,12 @@
           "catalogue_id": "p-745998401056",
           "number": 3,
           "reference_title": "Breakfast Blend, Ground, Medium & French Roasts",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Breakfast Blend, Ground, Medium & French Roasts, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-breakfast-blend-ground-medium-french-roasts-12-oz-340-g/80641",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-breakfast-blend-ground-medium-french-roasts-12-oz-340-g/80641",
@@ -372,6 +390,12 @@
           "catalogue_id": "p-745998401001",
           "number": 4,
           "reference_title": "Breakfast Blend, Whole Bean, Medium & French Roasts",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Breakfast Blend, Whole Bean, Medium & French Roasts, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-breakfast-blend-whole-bean-medium-french-roasts-12-oz-340-g/90410",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-breakfast-blend-whole-bean-medium-french-roasts-12-oz-340-g/90410",
@@ -460,6 +484,12 @@
           "catalogue_id": "p-745998411017",
           "number": 5,
           "reference_title": "Colombian, Ground, Full City Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Colombian, Ground, Full City Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-colombian-ground-full-city-roast-12-oz-340-g/127814",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-colombian-ground-full-city-roast-12-oz-340-g/127814",
@@ -548,6 +578,12 @@
           "catalogue_id": "p-745998411024",
           "number": 6,
           "reference_title": "Colombian, Whole Bean, Full City Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Colombian, Whole Bean, Full City Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-colombian-whole-bean-full-city-roast-12-oz-340-g/127813",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-colombian-whole-bean-full-city-roast-12-oz-340-g/127813",
@@ -636,6 +672,12 @@
           "catalogue_id": "p-745998404057",
           "number": 7,
           "reference_title": "Ground, French Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Ground, French Roast, Coffee, 0.6 lb / 284 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-ground-french-roast-10-oz-283-5-g/80637",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-ground-french-roast-10-oz-283-5-g/80637",
@@ -724,6 +766,12 @@
           "catalogue_id": "p-745998403050",
           "number": 8,
           "reference_title": "Ground, Full City Roast, Decaffeinated",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Ground, Full City Roast, Decaffeinated, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-ground-full-city-roast-decaffeinated-12-oz-340-g/90412",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-ground-full-city-roast-decaffeinated-12-oz-340-g/90412",
@@ -812,6 +860,12 @@
           "catalogue_id": "p-745998406143",
           "number": 9,
           "reference_title": "Love Buzz, Whole Bean, French Roasts",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Love Buzz, Whole Bean, French Roasts, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-love-buzz-whole-bean-french-roasts-12-oz-340-g/90411",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-love-buzz-whole-bean-french-roasts-12-oz-340-g/90411",
@@ -900,6 +954,12 @@
           "catalogue_id": "p-745998405054",
           "number": 10,
           "reference_title": "Mind Body & Soul, Ground, Medium & Vienna Roasts",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Mind Body & Soul, Ground, Medium & Vienna Roasts, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-mind-body-soul-ground-medium-vienna-roasts-12-oz-340-g/80639",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-mind-body-soul-ground-medium-vienna-roasts-12-oz-340-g/80639",
@@ -988,6 +1048,12 @@
           "catalogue_id": "p-745998405009",
           "number": 11,
           "reference_title": "Mind Body & Soul, Whole Bean, Medium Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Mind Body & Soul, Whole Bean, Medium Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-mind-body-soul-whole-bean-medium-roast-12-oz-340-g/80640",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-mind-body-soul-whole-bean-medium-roast-12-oz-340-g/80640",
@@ -1076,6 +1142,12 @@
           "catalogue_id": "p-745998404002",
           "number": 12,
           "reference_title": "Whole Bean, French Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Whole Bean, French Roast, Coffee, 0.6 lb / 284 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-whole-bean-french-roast-10-oz-283-5-g/80638",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-whole-bean-french-roast-10-oz-283-5-g/80638",
@@ -1164,6 +1236,12 @@
           "catalogue_id": "p-745998411062",
           "number": 13,
           "reference_title": "Whole Bean, Full City Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Whole Bean, Full City Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-ethiopian-coffee-whole-bean-full-city-roast-12-oz-340-g/127815",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-ethiopian-coffee-whole-bean-full-city-roast-12-oz-340-g/127815",
@@ -1252,6 +1330,12 @@
           "catalogue_id": "p-745998403005",
           "number": 14,
           "reference_title": "Whole Bean, Full City Roast, Decaffeinated",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Equal Exchange, Whole Bean, Full City Roast, Decaffeinated, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-whole-bean-full-city-roast-decaffeinated-12-oz-340-g/90417",
           "merchant_url_from_build": "https://kw.iherb.com/pr/equal-exchange-organic-coffee-whole-bean-full-city-roast-decaffeinated-12-oz-340-g/90417",
@@ -1340,6 +1424,12 @@
           "catalogue_id": "p-857783008071",
           "number": 15,
           "reference_title": "Organic Ethiopia Guji, Medium Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Mt. Whitney Coffee Roasters, Organic Ethiopia Guji, Medium Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/mt-whitney-coffee-roasters-organic-ethiopia-guji-ground-coffee-medium-roast-12-oz-340-g/97657",
           "merchant_url_from_build": "https://kw.iherb.com/pr/mt-whitney-coffee-roasters-organic-ethiopia-guji-ground-coffee-medium-roast-12-oz-340-g/97657",
@@ -1428,6 +1518,12 @@
           "catalogue_id": "p-850073156001",
           "number": 16,
           "reference_title": "Whole Beans Sampler, 2 Packs, Each",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Pure Indian Foods, Whole Beans Sampler, 2 Packs, Each, Coffee, 0.2 lb / 113 g",
           "url": "https://kw.iherb.com/pr/pure-indian-foods-luru-coffee-whole-beans-sampler-2-packs-4-oz-113-g-each/151044",
           "merchant_url_from_build": "https://kw.iherb.com/pr/pure-indian-foods-luru-coffee-whole-beans-sampler-2-packs-4-oz-113-g-each/151044",
@@ -1516,6 +1612,12 @@
           "catalogue_id": "p-850005169253",
           "number": 17,
           "reference_title": "Ease, Ground, Dark Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Purity Coffee, Ease, Ground, Dark Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/purity-coffee-ease-ground-dark-roast-12-oz-340-g/156145",
           "merchant_url_from_build": "https://kw.iherb.com/pr/purity-coffee-ease-ground-dark-roast-12-oz-340-g/156145",
@@ -1604,6 +1706,12 @@
           "catalogue_id": "p-850005169048",
           "number": 18,
           "reference_title": "Ease, Whole Bean, Dark Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Purity Coffee, Ease, Whole Bean, Dark Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/purity-coffee-ease-whole-bean-dark-roast-12-oz-340-g/156140",
           "merchant_url_from_build": "https://kw.iherb.com/pr/purity-coffee-ease-whole-bean-dark-roast-12-oz-340-g/156140",
@@ -1692,6 +1800,12 @@
           "catalogue_id": "p-850005169246",
           "number": 19,
           "reference_title": "Flow, Ground, Medium Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Purity Coffee, Flow, Ground, Medium Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/purity-coffee-flow-ground-medium-roast-12-oz-340-g/156143",
           "merchant_url_from_build": "https://kw.iherb.com/pr/purity-coffee-flow-ground-medium-roast-12-oz-340-g/156143",
@@ -1780,6 +1894,12 @@
           "catalogue_id": "p-862707000376",
           "number": 20,
           "reference_title": "Flow, Whole Bean, Medium Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Purity Coffee, Flow, Whole Bean, Medium Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/purity-coffee-flow-whole-bean-medium-roast-12-oz-340-g/156138",
           "merchant_url_from_build": "https://kw.iherb.com/pr/purity-coffee-flow-whole-bean-medium-roast-12-oz-340-g/156138",
@@ -1868,6 +1988,12 @@
           "catalogue_id": "p-850005169277",
           "number": 21,
           "reference_title": "Protect, Ground, Light-Medium Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Purity Coffee, Protect, Ground, Light-Medium Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/purity-coffee-protect-ground-light-medium-roast-12-oz-340-g/156146",
           "merchant_url_from_build": "https://kw.iherb.com/pr/purity-coffee-protect-ground-light-medium-roast-12-oz-340-g/156146",
@@ -1956,6 +2082,12 @@
           "catalogue_id": "p-850005169147",
           "number": 22,
           "reference_title": "Protect, Whole Bean, Light-Medium Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Purity Coffee, Protect, Whole Bean, Light-Medium Roast, Coffee, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/purity-coffee-protect-whole-bean-light-medium-roast-12-oz-340-g/156141",
           "merchant_url_from_build": "https://kw.iherb.com/pr/purity-coffee-protect-whole-bean-light-medium-roast-12-oz-340-g/156141",
@@ -2044,6 +2176,12 @@
           "catalogue_id": "p-628176664224",
           "number": 23,
           "reference_title": "Rainbo, Fungki Coffee®",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Rainbo, Rainbo, Fungki Coffee®, Coffee, 0.3 lb / 120 g",
           "url": "https://kw.iherb.com/pr/rainbo-fungki-coffee-4-2-oz-120-g/160158",
           "merchant_url_from_build": "https://kw.iherb.com/pr/rainbo-fungki-coffee-4-2-oz-120-g/160158",
@@ -2134,6 +2272,12 @@
           "catalogue_id": "p-087614240671",
           "number": 24,
           "reference_title": "Whole Bean, Medium Roast",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Swanson Vitamins, Whole Bean, Medium Roast, Coffee, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-organic-house-blend-coffee-whole-bean-medium-roast-1-lb-454-g/118514",
           "merchant_url_from_build": "https://kw.iherb.com/pr/swanson-vitamins-organic-house-blend-coffee-whole-bean-medium-roast-1-lb-454-g/118514",
@@ -2208,6 +2352,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-21T10:46:15.876Z",
+  "pulled_at": "2026-10-23T22:30:18.920Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

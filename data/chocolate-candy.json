@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T10:46:14.738Z",
+  "generated_at": "2026-10-23T22:30:17.747Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -108,6 +108,12 @@
           "catalogue_id": "p-051299111311",
           "number": 1,
           "reference_title": "Ginger Chews, Original",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Chimes, Ginger Chews, Original, 0.3 lb / 142 g",
           "url": "https://kw.iherb.com/pr/chimes-ginger-chews-original-5-oz-141-8-g/59725",
           "merchant_url_from_build": "https://www.iherb.com/pr/chimes-ginger-chews-original-5-oz-141-8-g/59725",
@@ -202,6 +208,12 @@
           "catalogue_id": "p-734027905023",
           "number": 2,
           "reference_title": "Gin Gins®, Ginger Chews, Original",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "The Ginger People, Gin Gins®, Ginger Chews, Original, 0.2 lb / 85 g",
           "url": "https://kw.iherb.com/pr/the-ginger-people-gin-gins-ginger-chews-original-3-oz-84-g/65858",
           "merchant_url_from_build": "https://www.iherb.com/pr/the-ginger-people-gin-gins-ginger-chews-original-3-oz-84-g/65858",
@@ -285,6 +297,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-21T10:46:15.875Z",
+  "pulled_at": "2026-10-23T22:30:18.920Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

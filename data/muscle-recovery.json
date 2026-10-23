@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T10:46:14.738Z",
+  "generated_at": "2026-10-23T22:30:17.747Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -108,6 +108,12 @@
           "catalogue_id": "p-812996020180",
           "number": 1,
           "reference_title": "Ageless Muscle®",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "BioTRUST, Ageless Muscle®, Fruit Punch, 0.5 lb / 211 g",
           "url": "https://kw.iherb.com/pr/biotrust-ageless-muscle-fruit-punch-7-4-oz-211-g/145607",
           "merchant_url_from_build": "https://kw.iherb.com/pr/biotrust-ageless-muscle-fruit-punch-7-4-oz-211-g/145607",
@@ -196,6 +202,12 @@
           "catalogue_id": "p-898220016808",
           "number": 2,
           "reference_title": "D-Ribose Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, D-Ribose Powder, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-d-ribose-powder-unflavored-10-6-oz-300-g/97386",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-d-ribose-powder-unflavored-10-6-oz-300-g/97386",
@@ -289,6 +301,12 @@
           "catalogue_id": "p-088395088254",
           "number": 3,
           "reference_title": "Ribose",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Carlson, Ribose Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/carlson-ribose-3-53-oz-100-g/22611",
           "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-ribose-3-53-oz-100-g/22611",
@@ -381,6 +399,12 @@
           "catalogue_id": "p-088395088247",
           "number": 4,
           "reference_title": "Ribose, 30 Single-Serving Packets",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Carlson, Ribose Powder, 30 Single-Serving Packets",
           "url": "https://kw.iherb.com/pr/carlson-ribose-30-single-serving-packets/22612",
           "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-ribose-30-single-serving-packets/22612",
@@ -474,6 +498,12 @@
           "catalogue_id": "p-790011010302",
           "number": 5,
           "reference_title": "Vegan D-Ribose",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Jarrow Formulas, Vegan D-Ribose, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/jarrow-formulas-vegan-d-ribose-7-05-oz-200-g/4290",
           "merchant_url_from_build": "https://kw.iherb.com/pr/jarrow-formulas-vegan-d-ribose-7-05-oz-200-g/4290",
@@ -552,6 +582,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-21T10:46:15.875Z",
+  "pulled_at": "2026-10-23T22:30:18.919Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

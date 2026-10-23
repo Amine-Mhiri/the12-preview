@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T10:46:14.738Z",
+  "generated_at": "2026-10-23T22:30:17.747Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -193,6 +193,12 @@
           "catalogue_id": "p-665553223742",
           "number": 1,
           "reference_title": "ISONatural™, Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, ISONatural™, Whey Protein Isolate, Chocolate, 5.0 lb / 2270 g",
           "url": "https://kw.iherb.com/pr/allmax-isonatural-whey-protein-isolate-chocolate-5-lbs-2-27-kg/67613",
           "merchant_url_from_build": "https://www.iherb.com/pr/allmax-isonatural-whey-protein-isolate-chocolate-5-lbs-2-27-kg/67613",
@@ -290,6 +296,12 @@
           "catalogue_id": "p-665553121925",
           "number": 2,
           "reference_title": "ISONatural™, Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, ISONatural™, Whey Protein Isolate, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/allmax-isonatural-whey-protein-isolate-unflavored-2-lbs-907-g/67619",
           "merchant_url_from_build": "https://www.iherb.com/pr/allmax-isonatural-whey-protein-isolate-unflavored-2-lbs-907-g/67619",
@@ -386,6 +398,12 @@
           "catalogue_id": "p-665553121956",
           "number": 3,
           "reference_title": "ISONatural™, Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, ISONatural™, Whey Protein Isolate, Unflavored, 5.0 lb / 2270 g",
           "url": "https://kw.iherb.com/pr/allmax-isonatural-whey-protein-isolate-unflavored-5-lbs-2-27-kg/67620",
           "merchant_url_from_build": "https://www.iherb.com/pr/allmax-isonatural-whey-protein-isolate-unflavored-5-lbs-2-27-kg/67620",
@@ -481,6 +499,12 @@
           "catalogue_id": "p-665553223766",
           "number": 4,
           "reference_title": "ISONatural™, Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, ISONatural™, Whey Protein Isolate, Vanilla, 5.0 lb / 2270 g",
           "url": "https://kw.iherb.com/pr/allmax-isonatural-whey-protein-isolate-vanilla-5-lbs-2-27-kg/67616",
           "merchant_url_from_build": "https://www.iherb.com/pr/allmax-isonatural-whey-protein-isolate-vanilla-5-lbs-2-27-kg/67616",
@@ -576,6 +600,12 @@
           "catalogue_id": "p-015794020110",
           "number": 5,
           "reference_title": "100% Whey Isolate Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Biochem, 100% Whey Protein Isolate Powder, Vanilla, 1.9 lb / 857 g",
           "url": "https://kw.iherb.com/pr/biochem-100-whey-isolate-protein-powder-vanilla-1-8-lbs-857-g/6907",
           "merchant_url_from_build": "https://www.iherb.com/pr/biochem-100-whey-isolate-protein-powder-vanilla-1-8-lbs-857-g/6907",
@@ -670,6 +700,12 @@
           "catalogue_id": "p-015794020738",
           "number": 6,
           "reference_title": "100% Whey Isolate Protein, Sugar Free",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Biochem, 100% Whey Isolate Protein, Sugar Free, Chocolate, 0.8 lb / 355 g",
           "url": "https://kw.iherb.com/pr/biochem-100-whey-isolate-protein-sugar-free-chocolate-12-5-oz-355-g/47314",
           "merchant_url_from_build": "https://www.iherb.com/pr/biochem-100-whey-isolate-protein-sugar-free-chocolate-12-5-oz-355-g/47314",
@@ -764,6 +800,12 @@
           "catalogue_id": "p-015794020769",
           "number": 7,
           "reference_title": "100% Whey Isolate Protein, Sugar Free",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Biochem, 100% Whey Isolate Protein, Sugar Free, Vanilla, 0.7 lb / 336 g",
           "url": "https://kw.iherb.com/pr/biochem-100-whey-isolate-protein-sugar-free-vanilla-11-8-oz-336-g/47315",
           "merchant_url_from_build": "https://www.iherb.com/pr/biochem-100-whey-isolate-protein-sugar-free-vanilla-11-8-oz-336-g/47315",
@@ -858,6 +900,12 @@
           "catalogue_id": "p-015794018414",
           "number": 8,
           "reference_title": "100% Whey Protein Isolate Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Biochem, 100% Whey Protein Isolate Powder, Natural, 1.5 lb / 699 g",
           "url": "https://kw.iherb.com/pr/biochem-100-whey-protein-isolate-powder-natural-1-5-lbs-699-g/14789",
           "merchant_url_from_build": "https://www.iherb.com/pr/biochem-100-whey-protein-isolate-powder-natural-1-5-lbs-699-g/14789",
@@ -951,6 +999,12 @@
           "catalogue_id": "p-743715015654",
           "number": 9,
           "reference_title": "BlueBonnet Nutrition Whey Protein Isolate Powder From Grass Fed Cows, of Protein, No Sugar Added, Gluten & Soy free, kosher Dairy, 28 Servings",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Bluebonnet Nutrition, Whey Protein Isolate, French Vanilla, 2.0 lb / 924 g",
           "url": "https://kw.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-french-vanilla-2-lbs-924-g/15910",
           "merchant_url_from_build": "https://www.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-french-vanilla-2-lbs-924-g/15910",
@@ -1048,6 +1102,12 @@
           "catalogue_id": "p-743715015616",
           "number": 10,
           "reference_title": "Bluebonnet Nutrition Whey Protein Isolate Powder, Whey from Grass Fed Cows, 26 Grams of Protein, No Sugar Added, Gluten Free, Soy Free, Kosher Dairy, 32 Servings, Original Unflavored",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Bluebonnet Nutrition, Whey Protein Isolate, Original, 2.2 lb / 992 g",
           "url": "https://kw.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-original-2-2-lbs-992-g/9476",
           "merchant_url_from_build": "https://www.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-original-2-2-lbs-992-g/9476",
@@ -1145,6 +1205,12 @@
           "catalogue_id": "p-743715015647",
           "number": 11,
           "reference_title": "Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Bluebonnet Nutrition, Whey Protein Isolate, French Vanilla, 1.0 lb / 462 g",
           "url": "https://kw.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-french-vanilla-1-lb-462-g/106367",
           "merchant_url_from_build": "https://www.iherb.com/pr/bluebonnet-nutrition-whey-protein-isolate-french-vanilla-1-lb-462-g/106367",
@@ -1240,6 +1306,12 @@
           "catalogue_id": "p-898220012046",
           "number": 12,
           "reference_title": "Sport, Whey Protein Isolate with Organic Cane Sugar, with Sunflower Lecithin",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, Sport, Whey Protein Isolate, Vanilla, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-whey-protein-isolate-with-organic-cane-sugar-with-sunflower-lecithin-very-vanilla-2-lb-907-g/82689",
           "merchant_url_from_build": "https://www.iherb.com/pr/california-gold-nutrition-sport-whey-protein-isolate-with-organic-cane-sugar-with-sunflower-lecithin-very-vanilla-2-lb-907-g/82689",
@@ -1339,6 +1411,12 @@
           "catalogue_id": "p-898220012053",
           "number": 13,
           "reference_title": "Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, Sport, Whey Protein Isolate, Vanilla, 5.0 lb / 2270 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-whey-protein-isolate-very-vanilla-5-lb-2-27-kg/82707",
           "merchant_url_from_build": "https://www.iherb.com/pr/california-gold-nutrition-whey-protein-isolate-very-vanilla-5-lb-2-27-kg/82707",
@@ -1438,6 +1516,12 @@
           "catalogue_id": "p-818901028487",
           "number": 14,
           "reference_title": "100% Isolate Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, 100% Isolate Protein, Unflavored, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-100-isolate-protein-unflavored-1-lb-454-g/120308",
           "merchant_url_from_build": "https://www.iherb.com/pr/evlution-nutrition-100-isolate-protein-unflavored-1-lb-454-g/120308",
@@ -1537,6 +1621,12 @@
           "catalogue_id": "p-089094025076",
           "number": 15,
           "reference_title": "Clear Low Carb Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Clear Low Carb Protein, Pineapple Orange Banana, 0.9 lb / 400 g",
           "url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-pineapple-orange-banana-14-1-oz-400-g/116760",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-clear-low-carb-protein-powder-pineapple-orange-banana-14-1-oz-400-g/116760",
@@ -1633,6 +1723,12 @@
           "catalogue_id": "p-089094025649",
           "number": 16,
           "reference_title": "Clear Low Carb Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Clear Low Carb Protein, Pineapple Orange Banana, 2.0 lb / 900 g",
           "url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-pineapple-orange-banana-1-98-lb-900-g/116762",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-clear-low-carb-protein-powder-pineapple-orange-banana-1-98-lb-900-g/116762",
@@ -1729,6 +1825,12 @@
           "catalogue_id": "p-089094025038",
           "number": 17,
           "reference_title": "Clear Low Carb Protein Powder, Citrus Lemonade",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Clear Low Carb Protein, Citrus Lemonade, 0.9 lb / 400 g",
           "url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-citrus-lemonade-14-1-oz-400-g/116759",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-clear-low-carb-protein-powder-citrus-lemonade-14-1-oz-400-g/116759",
@@ -1826,6 +1928,12 @@
           "catalogue_id": "p-089094025656",
           "number": 18,
           "reference_title": "Clear Low Carb Protein Powder, Citrus Lemonade",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Clear Low Carb Protein, Citrus Lemonade, 2.0 lb / 900 g",
           "url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-citrus-lemonade-1-98-lb-900-g/116763",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-clear-low-carb-protein-powder-citrus-lemonade-1-98-lb-900-g/116763",
@@ -1923,6 +2031,12 @@
           "catalogue_id": "p-089094025113",
           "number": 19,
           "reference_title": "Clear Low Carb Protein Powder, Mango Lime",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Clear Low Carb Protein, Mango Lime, 0.9 lb / 400 g",
           "url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-mango-lime-14-1-oz-400-g/116757",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-clear-low-carb-protein-powder-mango-lime-14-1-oz-400-g/116757",
@@ -2020,6 +2134,12 @@
           "catalogue_id": "p-089094025700",
           "number": 20,
           "reference_title": "Clear Low Carb Protein Powder, Watermelon Lime",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Clear Low Carb Protein, Watermelon Lime, 0.9 lb / 400 g",
           "url": "https://kw.iherb.com/pr/isopure-clear-low-carb-protein-powder-watermelon-lime-14-1-oz-400-g/116761",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-clear-low-carb-protein-powder-watermelon-lime-14-1-oz-400-g/116761",
@@ -2117,6 +2237,12 @@
           "catalogue_id": "p-089094025090",
           "number": 21,
           "reference_title": "Infusions Protein Powder, Tropical Punch",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Infusions Protein Powder, Tropical Punch, Tropical Punch, 0.9 lb / 400 g",
           "url": "https://kw.iherb.com/pr/isopure-infusions-protein-powder-tropical-punch-14-1-oz-400-g/85056",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-infusions-protein-powder-tropical-punch-14-1-oz-400-g/85056",
@@ -2213,6 +2339,12 @@
           "catalogue_id": "p-089094025250",
           "number": 22,
           "reference_title": "Low Carb Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Naturally Flavored Low Carb Protein, Chocolate, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/isopure-low-carb-protein-chocolate-1-lb-454-g/90075",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-low-carb-protein-chocolate-1-lb-454-g/90075",
@@ -2311,6 +2443,12 @@
           "catalogue_id": "p-089094025274",
           "number": 23,
           "reference_title": "Low Carb Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Naturally Flavored Low Carb Protein, Strawberry, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/isopure-low-carb-protein-powder-strawberry-1-lb-454-g/90078",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-low-carb-protein-powder-strawberry-1-lb-454-g/90078",
@@ -2409,6 +2547,12 @@
           "catalogue_id": "p-089094025267",
           "number": 24,
           "reference_title": "Low Carb Protein Powder Drink Mix",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Naturally Flavored Low Carb Protein, Vanilla Bean, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/isopure-low-carb-protein-powder-drink-mix-vanilla-bean-1-lb-454-g/90077",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-low-carb-protein-powder-drink-mix-vanilla-bean-1-lb-454-g/90077",
@@ -2508,6 +2652,12 @@
           "catalogue_id": "p-089094025663",
           "number": 25,
           "reference_title": "Protein Powder, Tropical Punch",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Clear Low Carb Protein, Tropical Punch, 2.0 lb / 900 g",
           "url": "https://kw.iherb.com/pr/isopure-protein-powder-tropical-punch-1-98-lbs-900-g/116764",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-protein-powder-tropical-punch-1-98-lbs-900-g/116764",
@@ -2605,6 +2755,12 @@
           "catalogue_id": "p-793573238238",
           "number": 26,
           "reference_title": "Whey+, Whey Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Legion Athletics, Whey+, Whey Protein Powder, Dutch Chocolate, 1.9 lb / 867 g",
           "url": "https://kw.iherb.com/pr/legion-athletics-whey-whey-protein-powder-dutch-chocolate-1-91-lbs-867-g/142100",
           "merchant_url_from_build": "https://www.iherb.com/pr/legion-athletics-whey-whey-protein-powder-dutch-chocolate-1-91-lbs-867-g/142100",
@@ -2702,6 +2858,12 @@
           "catalogue_id": "p-733739021724",
           "number": 27,
           "reference_title": "NOW Sports, Whey Protein Isolate  With BCAAs",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Whey Protein Isolate, Unflavored, 1.2 lb / 544 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-1-2-lbs-544-g/37837",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-1-2-lbs-544-g/37837",
@@ -2800,6 +2962,12 @@
           "catalogue_id": "p-733739021625",
           "number": 28,
           "reference_title": "Sports, Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Whey Protein Isolate, Chocolate, 1.8 lb / 816 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-chocolate-1-8-lbs-816-g/871",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-chocolate-1-8-lbs-816-g/871",
@@ -2899,6 +3067,12 @@
           "catalogue_id": "p-733739021748",
           "number": 29,
           "reference_title": "Sports, Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-5-lbs-2-268-g/1160",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-unflavored-5-lbs-2-268-g/1160",
@@ -2998,6 +3172,12 @@
           "catalogue_id": "p-733739021601",
           "number": 30,
           "reference_title": "Sports, Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Whey Protein Isolate, Vanilla, 1.8 lb / 816 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-vanilla-1-8-lbs-816-g/872",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-vanilla-1-8-lbs-816-g/872",
@@ -3097,6 +3277,12 @@
           "catalogue_id": "p-733739021595",
           "number": 31,
           "reference_title": "Sports, Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Whey Protein Isolate, Vanilla, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-vanilla-5-lbs-2-268-g/72237",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-isolate-creamy-vanilla-5-lbs-2-268-g/72237",
@@ -3196,6 +3382,12 @@
           "catalogue_id": "p-649908500023",
           "number": 32,
           "reference_title": "Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NutraBio, Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutrabio-whey-protein-isolate-raw-unflavored-5-lb-2-268-g/134722",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutrabio-whey-protein-isolate-raw-unflavored-5-lb-2-268-g/134722",
@@ -3288,6 +3480,12 @@
           "catalogue_id": "p-810139570264",
           "number": 33,
           "reference_title": "Grass-Fed Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Grass-Fed Whey Protein Isolate, Chocolate PB, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-chocolate-pb-2-lb-907-g/147242",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-chocolate-pb-2-lb-907-g/147242",
@@ -3385,6 +3583,12 @@
           "catalogue_id": "p-810014675619",
           "number": 34,
           "reference_title": "Grass-Fed Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Grass-Fed Whey Protein Isolate, Milk Chocolate, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-milk-chocolate-2-lb-907-g/141677",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-milk-chocolate-2-lb-907-g/141677",
@@ -3482,6 +3686,12 @@
           "catalogue_id": "p-810014675633",
           "number": 35,
           "reference_title": "Grass-Fed Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Grass-Fed Whey Protein Isolate, Milk Chocolate, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-milk-chocolate-5-lb-2-268-g/145282",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-milk-chocolate-5-lb-2-268-g/145282",
@@ -3579,6 +3789,12 @@
           "catalogue_id": "p-810139573432",
           "number": 36,
           "reference_title": "Grass-Fed Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Grass-Fed Whey Protein Isolate, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-unflavored-2-lb-907-g/145305",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-unflavored-2-lb-907-g/145305",
@@ -3676,6 +3892,12 @@
           "catalogue_id": "p-810139573265",
           "number": 37,
           "reference_title": "Grass-Fed Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Grass-Fed Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-unflavored-5-lb-2-268-g/145306",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-unflavored-5-lb-2-268-g/145306",
@@ -3773,6 +3995,12 @@
           "catalogue_id": "p-810139573609",
           "number": 38,
           "reference_title": "Whey Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Whey Protein Isolate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-whey-protein-isolate-unflavored-5-lb-2-268-g/145297",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-unflavored-5-lb-2-268-g/145297",
@@ -3871,6 +4099,12 @@
           "catalogue_id": "p-857965007038",
           "number": 39,
           "reference_title": "Grass Fed Whey Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Levels, Grass Fed Whey Protein Powder, Unflavored, 5.0 lb / 2270 g",
           "url": "https://kw.iherb.com/pr/levels-grass-fed-whey-protein-powder-unflavored-5-lb-2-27-kg/141521",
           "merchant_url_from_build": "https://www.iherb.com/pr/levels-grass-fed-whey-protein-powder-unflavored-5-lb-2-27-kg/141521",
@@ -3968,6 +4202,12 @@
           "catalogue_id": "p-068958029276",
           "number": 40,
           "reference_title": "Whey Factors®, Grass Fed Whey Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Natural Factors, Whey Factors®, Grass-Fed Whey Protein, Chocolate, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-12-oz-340-g/6691",
           "merchant_url_from_build": "https://www.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-12-oz-340-g/6691",
@@ -4066,6 +4306,12 @@
           "catalogue_id": "p-068958029320",
           "number": 41,
           "reference_title": "Whey Factors®, Grass Fed Whey Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Natural Factors, Whey Factors®, Grass-Fed Whey Protein, French Vanilla, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-french-vanilla-2-lb-907-g/15138",
           "merchant_url_from_build": "https://www.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-french-vanilla-2-lb-907-g/15138",
@@ -4163,6 +4409,12 @@
           "catalogue_id": "p-068958029351",
           "number": 42,
           "reference_title": "Whey Factors®, Grass Fed Whey Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Natural Factors, Whey Factors®, Grass-Fed Whey Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-unflavored-2-lb-907-g/12776",
           "merchant_url_from_build": "https://www.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-unflavored-2-lb-907-g/12776",
@@ -4261,6 +4513,12 @@
           "catalogue_id": "p-068958029344",
           "number": 43,
           "reference_title": "Whey Factors®, Grass-Fed Whey Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Natural Factors, Whey Factors®, Grass-Fed Whey Protein, Chocolate, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-2-lb-907-g/13095",
           "merchant_url_from_build": "https://www.iherb.com/pr/natural-factors-whey-factors-grass-fed-whey-protein-natural-double-chocolate-2-lb-907-g/13095",
@@ -4355,6 +4613,12 @@
           "catalogue_id": "p-733739021809",
           "number": 44,
           "reference_title": "NOW Sports, Whey Protein  With BCAAs",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW, NOW Sports, Whey Protein  With BCAAs, Chocolate, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-powder-creamy-chocolate-2-lbs-907-g/117490",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-powder-creamy-chocolate-2-lbs-907-g/117490",
@@ -4454,6 +4718,12 @@
           "catalogue_id": "p-733739022981",
           "number": 45,
           "reference_title": "Sports, Whey Protein Concentrate Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Whey Protein Concentrate Protein Powder, Unflavored, 1.5 lb / 680 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-1-5-lbs-680-g/58450",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-1-5-lbs-680-g/58450",
@@ -4553,6 +4823,12 @@
           "catalogue_id": "p-733739022998",
           "number": 46,
           "reference_title": "Sports, Whey Protein Concentrate Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Whey Protein Concentrate Protein Powder, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-5-lbs-2268-g/58451",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-whey-protein-concentrate-protein-powder-unflavored-5-lbs-2268-g/58451",
@@ -4652,6 +4928,12 @@
           "catalogue_id": "p-810014675596",
           "number": 47,
           "reference_title": "Grass-Fed Whey Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Grass-Fed Whey Protein, Milk Chocolate, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-milk-chocolate-5-lb-2-268-g/139419",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-milk-chocolate-5-lb-2-268-g/139419",
@@ -4749,6 +5031,12 @@
           "catalogue_id": "p-810139573425",
           "number": 48,
           "reference_title": "Grass-Fed Whey Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Grass-Fed Whey Protein Concentrate, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-unflavored-2-lb-907-g/145304",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-unflavored-2-lb-907-g/145304",
@@ -4846,6 +5134,12 @@
           "catalogue_id": "p-810014675589",
           "number": 49,
           "reference_title": "Grass-Fed Whey Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Grass-Fed Whey Protein Concentrate, Vanilla, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-vanilla-2-lb-907-g/144633",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-vanilla-2-lb-907-g/144633",
@@ -4943,6 +5237,12 @@
           "catalogue_id": "p-810139572251",
           "number": 50,
           "reference_title": "Grass-Fed Whey Protein Concentrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Grass-Fed Whey Protein Concentrate, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-grass-fed-whey-protein-concentrate-unflavored-5-lb-2-268-g/143241",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-concentrate-unflavored-5-lb-2-268-g/143241",
@@ -5040,6 +5340,12 @@
           "catalogue_id": "p-850628002180",
           "number": 51,
           "reference_title": "Pure Whey Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Simply Tera's, Pure Whey Protein, Chocolate, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/simply-tera-s-pure-whey-protein-dark-chocolate-12-oz-340-g/50476",
           "merchant_url_from_build": "https://www.iherb.com/pr/simply-tera-s-pure-whey-protein-dark-chocolate-12-oz-340-g/50476",
@@ -5137,6 +5443,12 @@
           "catalogue_id": "p-089125260308",
           "number": 52,
           "reference_title": "Plant-Based Protein Pasta, Red Lentil & Quinoa Rotini",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Ancient Harvest, Plant-Based Protein Pasta, Red Lentil & Quinoa Rotini, 0.5 lb / 227 g",
           "url": "https://kw.iherb.com/pr/ancient-harvest-plant-based-protein-pasta-red-lentil-quinoa-rotini-8-oz-227g/74438",
           "merchant_url_from_build": "https://www.iherb.com/pr/ancient-harvest-plant-based-protein-pasta-red-lentil-quinoa-rotini-8-oz-227g/74438",
@@ -5234,6 +5546,12 @@
           "catalogue_id": "p-850010353036",
           "number": 53,
           "reference_title": "Super Foods, Organic Pumpkin Seed Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Dr. Murray's, Super Foods, Organic Pumpkin Seed Protein Powder, 2.0 lb / 908 g",
           "url": "https://kw.iherb.com/pr/dr-murray-s-super-foods-organic-pumpkin-seed-protein-powder-2-lb-908-g/99078",
           "merchant_url_from_build": "https://www.iherb.com/pr/dr-murray-s-super-foods-organic-pumpkin-seed-protein-powder-2-lb-908-g/99078",
@@ -5331,6 +5649,12 @@
           "catalogue_id": "p-089094025458",
           "number": 54,
           "reference_title": "Plant Based Low Carb Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Isopure, Plant Based Low Carb Protein Powder, Unflavored, 1.1 lb / 521 g",
           "url": "https://kw.iherb.com/pr/isopure-plant-based-low-carb-protein-powder-unflavored-1-15-lb-521-g/90073",
           "merchant_url_from_build": "https://www.iherb.com/pr/isopure-plant-based-low-carb-protein-powder-unflavored-1-15-lb-521-g/90073",
@@ -5429,6 +5753,12 @@
           "catalogue_id": "p-733739021083",
           "number": 55,
           "reference_title": "Sports, Organic Pea Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Organic Pea Protein Powder, Unflavored, 1.5 lb / 680 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-organic-pea-protein-powder-unflavored-1-5-lbs-680-g/62859",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-organic-pea-protein-powder-unflavored-1-5-lbs-680-g/62859",
@@ -5528,6 +5858,12 @@
           "catalogue_id": "p-733739022271",
           "number": 56,
           "reference_title": "Sports, Organic Pumpkin Seed Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Organic Pumpkin Seed Protein Powder, Unflavored, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-organic-pumpkin-seed-protein-powder-unflavored-1-lb-454-g/102242",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-organic-pumpkin-seed-protein-powder-unflavored-1-lb-454-g/102242",
@@ -5626,6 +5962,12 @@
           "catalogue_id": "p-733739021328",
           "number": 57,
           "reference_title": "Sports, Pea Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Pea Protein, Unflavored, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-unflavored-12-oz-340-g/53134",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-unflavored-12-oz-340-g/53134",
@@ -5725,6 +6067,12 @@
           "catalogue_id": "p-733739021359",
           "number": 58,
           "reference_title": "Sports, Pea Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Pea Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-pure-unflavored-2-lbs-907-g/9858",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-pure-unflavored-2-lbs-907-g/9858",
@@ -5824,6 +6172,12 @@
           "catalogue_id": "p-733739021342",
           "number": 59,
           "reference_title": "Sports, Pea Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Pea Protein, Vanilla, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-vanilla-toffee-2-lbs-907-g/51969",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-vanilla-toffee-2-lbs-907-g/51969",
@@ -5923,6 +6277,12 @@
           "catalogue_id": "p-733739021335",
           "number": 60,
           "reference_title": "Sports, Pea Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Pea Protein Powder, Chocolate, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-pea-protein-powder-creamy-chocolate-2-lbs-907-g/55360",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-pea-protein-powder-creamy-chocolate-2-lbs-907-g/55360",
@@ -6022,6 +6382,12 @@
           "catalogue_id": "p-733739022066",
           "number": 61,
           "reference_title": "Sports, Sprouted Brown Rice Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Sprouted Brown Rice Protein Powder, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-sprouted-brown-rice-protein-powder-unflavored-2-lbs-907-g/55523",
           "merchant_url_from_build": "https://www.iherb.com/pr/now-foods-sports-sprouted-brown-rice-protein-powder-unflavored-2-lbs-907-g/55523",
@@ -6121,6 +6487,12 @@
           "catalogue_id": "p-810014670515",
           "number": 62,
           "reference_title": "Organic Pea Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Organic Pea Protein, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-organic-pea-protein-unflavored-2-lb-907-g/136855",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-organic-pea-protein-unflavored-2-lb-907-g/136855",
@@ -6218,6 +6590,12 @@
           "catalogue_id": "p-810014670522",
           "number": 63,
           "reference_title": "Organic Pea Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Organic Pea Protein, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-organic-pea-protein-unflavored-5-lb-2-268-g/124166",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-organic-pea-protein-unflavored-5-lb-2-268-g/124166",
@@ -6315,6 +6693,12 @@
           "catalogue_id": "p-810139573791",
           "number": 64,
           "reference_title": "Soy Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Soy Protein Isolate, Unflavored, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-1-lb-454-g/147363",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-1-lb-454-g/147363",
@@ -6412,6 +6796,12 @@
           "catalogue_id": "p-810139573807",
           "number": 65,
           "reference_title": "Soy Protein Isolate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Soy Protein Isolate, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-2-lb-907-g/147407",
           "merchant_url_from_build": "https://www.iherb.com/pr/nutricost-soy-protein-isolate-unflavored-2-lb-907-g/147407",
@@ -6509,6 +6899,12 @@
           "catalogue_id": "p-710013911063",
           "number": 66,
           "reference_title": "Pea Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Olympian Labs, Pea Protein, Unflavored, 1.9 lb / 844 g",
           "url": "https://kw.iherb.com/pr/olympian-labs-pea-protein-unflavored-29-7-oz-843-75-g/120748",
           "merchant_url_from_build": "https://www.iherb.com/pr/olympian-labs-pea-protein-unflavored-29-7-oz-843-75-g/120748",
@@ -6603,6 +6999,12 @@
           "catalogue_id": "p-710013912299",
           "number": 67,
           "reference_title": "Pure Pea Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Olympian Labs, Pure Pea Protein, Unflavored, 0.9 lb / 406 g",
           "url": "https://kw.iherb.com/pr/olympian-labs-pure-pea-protein-unflavored-14-33-oz-406-25-g/138460",
           "merchant_url_from_build": "https://www.iherb.com/pr/olympian-labs-pure-pea-protein-unflavored-14-33-oz-406-25-g/138460",
@@ -6696,6 +7098,12 @@
           "catalogue_id": "p-850028725214",
           "number": 68,
           "reference_title": "So Lean & So Clean, Daily Superfood Plant Protein, Unsweetened",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Ora, So Lean & So Clean, Daily Superfood Plant Protein, Unsweetened, 1.3 lb / 594 g",
           "url": "https://kw.iherb.com/pr/ora-so-lean-so-clean-daily-superfood-plant-protein-unsweetened-20-9-oz-594-g/132868",
           "merchant_url_from_build": "https://www.iherb.com/pr/ora-so-lean-so-clean-daily-superfood-plant-protein-unsweetened-20-9-oz-594-g/132868",
@@ -6791,6 +7199,12 @@
           "catalogue_id": "p-601944777906",
           "number": 69,
           "reference_title": "Protein & Greens",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Paradise Herbs, Protein & Greens, Unflavored, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/paradise-herbs-protein-greens-original-unflavored-16-oz-454-g/17988",
           "merchant_url_from_build": "https://www.iherb.com/pr/paradise-herbs-protein-greens-original-unflavored-16-oz-454-g/17988",
@@ -6886,6 +7300,12 @@
           "catalogue_id": "p-851784007620",
           "number": 70,
           "reference_title": "Performance, Pure Peanut Protein Plant Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "PB2 Foods, Performance, Pure Peanut Protein Plant Powder, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/pb2-foods-performance-pure-peanut-protein-plant-powder-2-lb-907-g/109411",
           "merchant_url_from_build": "https://www.iherb.com/pr/pb2-foods-performance-pure-peanut-protein-plant-powder-2-lb-907-g/109411",
@@ -6983,6 +7403,12 @@
           "catalogue_id": "p-040232426520",
           "number": 71,
           "reference_title": "Vegan Series, Select Plant Protein™",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "PEScience, Vegan Series, Select Plant Protein™, Peanut Butter, 1.8 lb / 837 g",
           "url": "https://kw.iherb.com/pr/pescience-vegan-series-select-plant-protein-peanut-butter-1-84-lbs-837-g/105156",
           "merchant_url_from_build": "https://www.iherb.com/pr/pescience-vegan-series-select-plant-protein-peanut-butter-1-84-lbs-837-g/105156",
@@ -7079,6 +7505,12 @@
           "catalogue_id": "p-040232199875",
           "number": 72,
           "reference_title": "Vegan Series, Select Plant Protein™",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "PEScience, Vegan Series, Select Plant Protein™, Vanilla, 1.8 lb / 797 g",
           "url": "https://kw.iherb.com/pr/pescience-vegan-series-select-plant-protein-vanilla-indulgence-1-75-lbs-796-5-g/105152",
           "merchant_url_from_build": "https://www.iherb.com/pr/pescience-vegan-series-select-plant-protein-vanilla-indulgence-1-75-lbs-796-5-g/105152",
@@ -7176,6 +7608,12 @@
           "catalogue_id": "p-850039253430",
           "number": 73,
           "reference_title": "Plant Protein, Vegan Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Snap Supplements, Plant Protein, Vegan Protein Powder, Banana, 1.9 lb / 853 g",
           "url": "https://kw.iherb.com/pr/snap-supplements-plant-protein-vegan-protein-powder-banana-853-g/131108",
           "merchant_url_from_build": "https://www.iherb.com/pr/snap-supplements-plant-protein-vegan-protein-powder-banana-853-g/131108",
@@ -7268,6 +7706,12 @@
           "catalogue_id": "p-814784025902",
           "number": 74,
           "reference_title": "Classic Protein",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Sunwarrior, Classic Protein, Unflavored, 1.7 lb / 750 g",
           "url": "https://kw.iherb.com/pr/sunwarrior-classic-protein-unflavored-1-65-lb-750-g/83356",
           "merchant_url_from_build": "https://www.iherb.com/pr/sunwarrior-classic-protein-unflavored-1-65-lb-750-g/83356",
@@ -7367,6 +7811,12 @@
           "catalogue_id": "p-814784029832",
           "number": 75,
           "reference_title": "Sport, Organic Active Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Sunwarrior, Sport, Organic Active Protein Powder, Vanilla, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/sunwarrior-sport-organic-active-protein-powder-vanilla-2-2-lb-1-kg/117102",
           "merchant_url_from_build": "https://www.iherb.com/pr/sunwarrior-sport-organic-active-protein-powder-vanilla-2-2-lb-1-kg/117102",
@@ -7465,6 +7915,12 @@
           "catalogue_id": "p-087614117027",
           "number": 76,
           "reference_title": "100% Pea Protein Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Swanson Vitamins, 100% Pea Protein Powder, Unflavored, 1.1 lb / 503 g",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-100-pea-protein-powder-unflavored-1-1-lb-503-g/118382",
           "merchant_url_from_build": "https://www.iherb.com/pr/swanson-vitamins-100-pea-protein-powder-unflavored-1-1-lb-503-g/118382",
@@ -7544,6 +8000,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-21T10:46:15.866Z",
+  "pulled_at": "2026-10-23T22:30:18.911Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

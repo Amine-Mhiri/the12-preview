@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T10:46:14.738Z",
+  "generated_at": "2026-10-23T22:30:17.747Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -108,6 +108,12 @@
           "catalogue_id": "p-624721378127",
           "number": 1,
           "reference_title": "Baby, Stain & Laundry Bar Soap, Fragrance Free",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Aleva Naturals, Baby, Stain & Laundry Bar Soap, Fragrance Free, 0.5 lb / 220 g",
           "url": "https://kw.iherb.com/pr/aleva-naturals-baby-stain-laundry-bar-soap-fragrance-free-0-48-lb-220-g/131475",
           "merchant_url_from_build": "https://kw.iherb.com/pr/aleva-naturals-baby-stain-laundry-bar-soap-fragrance-free-0-48-lb-220-g/131475",
@@ -197,6 +203,12 @@
           "catalogue_id": "p-089836021908",
           "number": 2,
           "reference_title": "Citric Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Frontier Co-op, Citric Acid, 1.0 lb / 453 g",
           "url": "https://kw.iherb.com/pr/frontier-co-op-citric-acid-16-oz-453-g/30733",
           "merchant_url_from_build": "https://kw.iherb.com/pr/frontier-co-op-citric-acid-16-oz-453-g/30733",
@@ -285,6 +297,12 @@
           "catalogue_id": "p-810648001914",
           "number": 3,
           "reference_title": "Wow Stick, Stain Remover",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nellie's, Wow Stick, Stain Remover, 0.2 lb / 77 g",
           "url": "https://kw.iherb.com/pr/nellie-s-wow-stick-stain-remover-2-7-oz-76-5-g/73248",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nellie-s-wow-stick-stain-remover-2-7-oz-76-5-g/73248",
@@ -374,6 +392,12 @@
           "catalogue_id": "p-733739073204",
           "number": 4,
           "reference_title": "Citric Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Citric Acid, 0.2 lb / 113 g",
           "url": "https://kw.iherb.com/pr/now-foods-citric-acid-4-oz-113-g/12235",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-citric-acid-4-oz-113-g/12235",
@@ -463,6 +487,12 @@
           "catalogue_id": "p-733739073211",
           "number": 5,
           "reference_title": "Citric Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Citric Acid, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/now-foods-citric-acid-1-lb-454-g/27028",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-citric-acid-1-lb-454-g/27028",
@@ -552,6 +582,12 @@
           "catalogue_id": "p-810014671963",
           "number": 6,
           "reference_title": "Citric Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Citric Acid, Unflavored, 1.0 lb / 459 g",
           "url": "https://kw.iherb.com/pr/nutricost-citric-acid-unflavored-16-2-oz-454-g/135512",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-citric-acid-unflavored-16-2-oz-454-g/135512",
@@ -649,6 +685,12 @@
           "catalogue_id": "p-810014673899",
           "number": 7,
           "reference_title": "Citric Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Citric Acid, Unflavored, 2.0 lb / 907 g",
           "url": "https://kw.iherb.com/pr/nutricost-citric-acid-unflavored-2-lb-907-g/135650",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-citric-acid-unflavored-2-lb-907-g/135650",
@@ -746,6 +788,12 @@
           "catalogue_id": "p-810014673905",
           "number": 8,
           "reference_title": "Citric Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Citric Acid, Unflavored, 5.0 lb / 2268 g",
           "url": "https://kw.iherb.com/pr/nutricost-citric-acid-unflavored-5-lb-2-268-g/135687",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-citric-acid-unflavored-5-lb-2-268-g/135687",
@@ -829,6 +877,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-21T10:46:15.877Z",
+  "pulled_at": "2026-10-23T22:30:18.923Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }

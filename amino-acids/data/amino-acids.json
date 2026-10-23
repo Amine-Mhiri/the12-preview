@@ -16,7 +16,7 @@
     "charter": "0.15.0"
   },
   "reviewed_at": "2026-10-21",
-  "generated_at": "2026-10-21T10:46:14.738Z",
+  "generated_at": "2026-10-23T22:30:17.747Z",
   "live": false,
   "charter": "0.15.0",
   "exclusion_rules": 476,
@@ -108,6 +108,12 @@
           "catalogue_id": "p-624917080094",
           "number": 1,
           "reference_title": "L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Advanced Orthomolecular Research AOR, L-Glutamine Powder, 1.0 lb / 450 g",
           "url": "https://kw.iherb.com/pr/advanced-orthomolecular-research-aor-l-glutamine-powder-450-g/129148",
           "merchant_url_from_build": "https://kw.iherb.com/pr/advanced-orthomolecular-research-aor-l-glutamine-powder-450-g/129148",
@@ -196,6 +202,12 @@
           "catalogue_id": "p-665553202112",
           "number": 2,
           "reference_title": "D-Aspartic Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, D-Aspartic Acid, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/allmax-d-aspartic-acid-3-53-oz-100-g/67659",
           "merchant_url_from_build": "https://kw.iherb.com/pr/allmax-d-aspartic-acid-3-53-oz-100-g/67659",
@@ -284,6 +296,12 @@
           "catalogue_id": "p-665553200408",
           "number": 3,
           "reference_title": "Essentials, Arginine HCl",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, Essentials, Arginine HCl, 0.9 lb / 400 g",
           "url": "https://kw.iherb.com/pr/allmax-essentials-arginine-hcl-14-11-oz-400-g/67672",
           "merchant_url_from_build": "https://kw.iherb.com/pr/allmax-essentials-arginine-hcl-14-11-oz-400-g/67672",
@@ -372,6 +390,12 @@
           "catalogue_id": "p-665553122915",
           "number": 4,
           "reference_title": "Essentials, Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, Essentials, Glutamine, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/allmax-essentials-glutamine-3-53-oz-100-g/67687",
           "merchant_url_from_build": "https://kw.iherb.com/pr/allmax-essentials-glutamine-3-53-oz-100-g/67687",
@@ -460,6 +484,12 @@
           "catalogue_id": "p-665553122960",
           "number": 5,
           "reference_title": "Essentials, Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, Essentials, Glutamine, 0.9 lb / 400 g",
           "url": "https://kw.iherb.com/pr/allmax-essentials-glutamine-14-11-oz-400-g/67688",
           "merchant_url_from_build": "https://kw.iherb.com/pr/allmax-essentials-glutamine-14-11-oz-400-g/67688",
@@ -548,6 +578,12 @@
           "catalogue_id": "p-665553122946",
           "number": 6,
           "reference_title": "Essentials, Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, Essentials, Glutamine, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/allmax-essentials-glutamine-2-2-lbs-1-000-g/72900",
           "merchant_url_from_build": "https://kw.iherb.com/pr/allmax-essentials-glutamine-2-2-lbs-1-000-g/72900",
@@ -636,6 +672,12 @@
           "catalogue_id": "p-665553202549",
           "number": 7,
           "reference_title": "Essentials, Leucine+",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, Essentials, Leucine+, 0.9 lb / 400 g",
           "url": "https://kw.iherb.com/pr/allmax-essentials-leucine-14-11-oz-400-g/67661",
           "merchant_url_from_build": "https://kw.iherb.com/pr/allmax-essentials-leucine-14-11-oz-400-g/67661",
@@ -724,6 +766,12 @@
           "catalogue_id": "p-665553226781",
           "number": 8,
           "reference_title": "Essentials, Taurine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ALLMAX, Essentials, Taurine, 0.9 lb / 400 g",
           "url": "https://kw.iherb.com/pr/allmax-essentials-taurine-14-11-oz-400-g/71866",
           "merchant_url_from_build": "https://kw.iherb.com/pr/allmax-essentials-taurine-14-11-oz-400-g/71866",
@@ -812,6 +860,12 @@
           "catalogue_id": "p-817716016009",
           "number": 9,
           "reference_title": "Glycine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Best Naturals, Glycine Powder, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/best-naturals-glycine-powder-1-lb-454-g/157392",
           "merchant_url_from_build": "https://kw.iherb.com/pr/best-naturals-glycine-powder-1-lb-454-g/157392",
@@ -900,6 +954,12 @@
           "catalogue_id": "p-817716014562",
           "number": 10,
           "reference_title": "L-Arginine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Best Naturals, L-Arginine, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/best-naturals-l-arginine-1-lb-454-g/125102",
           "merchant_url_from_build": "https://kw.iherb.com/pr/best-naturals-l-arginine-1-lb-454-g/125102",
@@ -988,6 +1048,12 @@
           "catalogue_id": "p-817716014555",
           "number": 11,
           "reference_title": "L-Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Best Naturals, L-Glutamine, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/best-naturals-l-glutamine-1-lb-454-g/125104",
           "merchant_url_from_build": "https://kw.iherb.com/pr/best-naturals-l-glutamine-1-lb-454-g/125104",
@@ -1076,6 +1142,12 @@
           "catalogue_id": "p-743715000490",
           "number": 12,
           "reference_title": "L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Bluebonnet Nutrition, L-Glutamine Powder, 0.5 lb / 228 g",
           "url": "https://kw.iherb.com/pr/bluebonnet-nutrition-l-glutamine-powder-8-oz-228-g/12047",
           "merchant_url_from_build": "https://kw.iherb.com/pr/bluebonnet-nutrition-l-glutamine-powder-8-oz-228-g/12047",
@@ -1164,6 +1236,12 @@
           "catalogue_id": "p-898220011254",
           "number": 13,
           "reference_title": "Acetyl-L-Carnitine, 500 mg, 60 Veggie Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, Acetyl-L-Carnitine, 500 mg, 60 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-acetyl-l-carnitine-500-mg-60-veggie-capsules/72312",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-acetyl-l-carnitine-500-mg-60-veggie-capsules/72312",
@@ -1254,6 +1332,12 @@
           "catalogue_id": "p-898220011261",
           "number": 14,
           "reference_title": "L-Arginine, 500 mg, 60 Veggie Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Arginine, 500 mg, 60 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-arginine-500-mg-60-veggie-capsules/72313",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-arginine-500-mg-60-veggie-capsules/72313",
@@ -1344,6 +1428,12 @@
           "catalogue_id": "p-898220020508",
           "number": 15,
           "reference_title": "L-Cysteine, 500 mg, 90 Veggie Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Cysteine, 500 mg, 90 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-cysteine-500-mg-90-veggie-capsules/107247",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-cysteine-500-mg-90-veggie-capsules/107247",
@@ -1434,6 +1524,12 @@
           "catalogue_id": "p-898220011308",
           "number": 16,
           "reference_title": "L-Cysteine, AjiPure®, 500 mg, 60 Veggie Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Cysteine, AjiPure®, 500 mg, 60 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-cysteine-ajipure-500-mg-60-veggie-capsules/72317",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-cysteine-ajipure-500-mg-60-veggie-capsules/72317",
@@ -1524,6 +1620,12 @@
           "catalogue_id": "p-898220024797",
           "number": 17,
           "reference_title": "L-Glutamine + L-Leucine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Glutamine + L-Leucine, Unflavored, 1.0 lb / 450 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-glutamine-l-leucine-unflavored-15-87-oz-450-g/139262",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-glutamine-l-leucine-unflavored-15-87-oz-450-g/139262",
@@ -1615,6 +1717,12 @@
           "catalogue_id": "p-898220024803",
           "number": 18,
           "reference_title": "L-Glutamine + L-Leucine, 120 Veggie Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Glutamine + L-Leucine, 120 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-glutamine-l-leucine-120-veggie-capsules/139263",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-glutamine-l-leucine-120-veggie-capsules/139263",
@@ -1706,6 +1814,12 @@
           "catalogue_id": "p-898220019236",
           "number": 19,
           "reference_title": "L-Glutamine, AjiPure®, 120 Veggie Capsules (500 mg per Capsule)",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Glutamine, AjiPure®, 120 Veggie Capsules (500 mg per Capsule), size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-glutamine-ajipure-120-veggie-capsules-500-mg-per-capsule/104254",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-glutamine-ajipure-120-veggie-capsules-500-mg-per-capsule/104254",
@@ -1796,6 +1910,12 @@
           "catalogue_id": "p-898220024810",
           "number": 20,
           "reference_title": "L-Glutamine, AjiPure®, 750 mg, 120 Veggie Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Glutamine, AjiPure®, 750 mg, 120 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-glutamine-ajipure-750-mg-120-veggie-capsules/139264",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-glutamine-ajipure-750-mg-120-veggie-capsules/139264",
@@ -1886,6 +2006,12 @@
           "catalogue_id": "p-898220023301",
           "number": 21,
           "reference_title": "L-Serine Powder, AjiPure Amino Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Serine Powder, AjiPure Amino Acid, Unflavored, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-serine-powder-ajipure-amino-acid-unflavored-powder-1-lb-454-g/124740",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-serine-powder-ajipure-amino-acid-unflavored-powder-1-lb-454-g/124740",
@@ -1976,6 +2102,12 @@
           "catalogue_id": "p-898220017157",
           "number": 22,
           "reference_title": "L-Serine, 900 mg, 120 Veggie Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Serine, 900 mg, 120 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-serine-900-mg-120-veggie-capsules/97433",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-serine-900-mg-120-veggie-capsules/97433",
@@ -2066,6 +2198,12 @@
           "catalogue_id": "p-898220012428",
           "number": 23,
           "reference_title": "L-Theanine, Featuring AlphaWave®, 200 mg, 60 Veggie Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, L-Theanine, Featuring AlphaWave®, 200 mg, 60 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-l-theanine-featuring-alphawave-200-mg-60-veggie-capsules/83280",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-l-theanine-featuring-alphawave-200-mg-60-veggie-capsules/83280",
@@ -2156,6 +2294,12 @@
           "catalogue_id": "p-898220010608",
           "number": 24,
           "reference_title": "Sport, L-Glutamine Powder, AjiPure®, Gluten Free",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, Sport, L-Glutamine Powder, AjiPure®, Gluten Free, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-glutamine-powder-ajipure-gluten-free-1-lb-454-g/71027",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-glutamine-powder-ajipure-gluten-free-1-lb-454-g/71027",
@@ -2247,6 +2391,12 @@
           "catalogue_id": "p-898220100514",
           "number": 25,
           "reference_title": "Sport, L-Glutamine, AjiPure®, 240 Veggie Capsules (500 mg per Capsule)",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, Sport, L-Glutamine, AjiPure®, 240 Veggie Capsules (500 mg per Capsule), size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-glutamine-ajipure-240-veggie-capsules-500-mg-per-capsule/160388",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-sport-l-glutamine-ajipure-240-veggie-capsules-500-mg-per-capsule/160388",
@@ -2337,6 +2487,12 @@
           "catalogue_id": "p-898220011339",
           "number": 26,
           "reference_title": "Taurine, 1, 000 mg, 60 Veggie Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "California Gold Nutrition, Taurine, 1, 000 mg, 60 Veggie Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/california-gold-nutrition-taurine-1-000-mg-60-veggie-capsules/72320",
           "merchant_url_from_build": "https://kw.iherb.com/pr/california-gold-nutrition-taurine-1-000-mg-60-veggie-capsules/72320",
@@ -2427,6 +2583,12 @@
           "catalogue_id": "p-088395068355",
           "number": 27,
           "reference_title": "Glycine Powder, Free Form Amino Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Carlson, Glycine Powder, Free Form Amino Acid, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/carlson-glycine-powder-free-form-amino-acid-3-53-oz-100-g/14817",
           "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-glycine-powder-free-form-amino-acid-3-53-oz-100-g/14817",
@@ -2517,6 +2679,12 @@
           "catalogue_id": "p-088395067358",
           "number": 28,
           "reference_title": "L-Arginine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Carlson, L-Arginine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/carlson-l-arginine-powder-3-53-oz-100-g/125599",
           "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-l-arginine-powder-3-53-oz-100-g/125599",
@@ -2607,6 +2775,12 @@
           "catalogue_id": "p-088395068256",
           "number": 29,
           "reference_title": "L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Carlson, L-Glutamine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/carlson-l-glutamine-powder-3-53-oz-100-g/125602",
           "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-l-glutamine-powder-3-53-oz-100-g/125602",
@@ -2697,6 +2871,12 @@
           "catalogue_id": "p-088395068850",
           "number": 30,
           "reference_title": "L-Lysine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Carlson, L-Lysine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/carlson-l-lysine-powder-3-53-oz-100-g/13608",
           "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-l-lysine-powder-3-53-oz-100-g/13608",
@@ -2787,6 +2967,12 @@
           "catalogue_id": "p-088395069451",
           "number": 31,
           "reference_title": "Taurine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Carlson, Taurine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/carlson-taurine-powder-3-53-oz-100-g/13894",
           "merchant_url_from_build": "https://kw.iherb.com/pr/carlson-taurine-powder-3-53-oz-100-g/13894",
@@ -2877,6 +3063,12 @@
           "catalogue_id": "p-753950003743",
           "number": 32,
           "reference_title": "Pure L-Arginine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Doctor's Best, Pure L-Arginine Powder, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/doctor-s-best-pure-l-arginine-powder-10-6-oz-300-g/63469",
           "merchant_url_from_build": "https://kw.iherb.com/pr/doctor-s-best-pure-l-arginine-powder-10-6-oz-300-g/63469",
@@ -2967,6 +3159,12 @@
           "catalogue_id": "p-753950004917",
           "number": 33,
           "reference_title": "Pure L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Doctor's Best, Pure L-Glutamine Powder, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/doctor-s-best-pure-l-glutamine-powder-10-6-oz-300-g/85597",
           "merchant_url_from_build": "https://kw.iherb.com/pr/doctor-s-best-pure-l-glutamine-powder-10-6-oz-300-g/85597",
@@ -3057,6 +3255,12 @@
           "catalogue_id": "p-818901020313",
           "number": 34,
           "reference_title": "Glutamine5000®",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, Glutamine5000®, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-glutamine5000-unflavored-10-58-oz-300-g/83390",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-glutamine5000-unflavored-10-58-oz-300-g/83390",
@@ -3147,6 +3351,12 @@
           "catalogue_id": "p-818901029279",
           "number": 35,
           "reference_title": "L-Arginine + L-Citrulline",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, L-Arginine + L-Citrulline, Unflavored, 0.3 lb / 150 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-l-arginine-l-citrulline-unflavored-5-29-oz-150-g/129861",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-l-arginine-l-citrulline-unflavored-5-29-oz-150-g/129861",
@@ -3237,6 +3447,12 @@
           "catalogue_id": "p-810167101201",
           "number": 36,
           "reference_title": "L-Arginine + L-Citrulline",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, L-Arginine + L-Citrulline, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-l-arginine-l-citrulline-unflavored-10-6-oz-300-g/162003",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-l-arginine-l-citrulline-unflavored-10-6-oz-300-g/162003",
@@ -3327,6 +3543,12 @@
           "catalogue_id": "p-810167101249",
           "number": 37,
           "reference_title": "L-Tyrosine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, L-Tyrosine, Unflavored, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-l-tyrosine-unflavored-7-05-oz-200-g/162002",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-l-tyrosine-unflavored-7-05-oz-200-g/162002",
@@ -3417,6 +3639,12 @@
           "catalogue_id": "p-810167101232",
           "number": 38,
           "reference_title": "Taurine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "EVLution Nutrition, Taurine, Unflavored, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/evlution-nutrition-taurine-unflavored-7-05-oz-200-g/162001",
           "merchant_url_from_build": "https://kw.iherb.com/pr/evlution-nutrition-taurine-unflavored-7-05-oz-200-g/162001",
@@ -3507,6 +3735,12 @@
           "catalogue_id": "p-816170021680",
           "number": 39,
           "reference_title": "L-Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "GAT, L-Glutamine, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/gat-l-glutamine-unflavored-10-58-oz-300-g/77148",
           "merchant_url_from_build": "https://kw.iherb.com/pr/gat-l-glutamine-unflavored-10-58-oz-300-g/77148",
@@ -3595,6 +3829,12 @@
           "catalogue_id": "p-737870038153",
           "number": 40,
           "reference_title": "Arginine Ornithine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Life Extension, Arginine Ornithine Powder, 0.3 lb / 150 g",
           "url": "https://kw.iherb.com/pr/life-extension-arginine-ornithine-powder-5-29-oz-150-g/16385",
           "merchant_url_from_build": "https://kw.iherb.com/pr/life-extension-arginine-ornithine-powder-5-29-oz-150-g/16385",
@@ -3683,6 +3923,12 @@
           "catalogue_id": "p-737870141105",
           "number": 41,
           "reference_title": "L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Life Extension, L-Glutamine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/life-extension-l-glutamine-powder-3-53-oz-100-g/4054",
           "merchant_url_from_build": "https://kw.iherb.com/pr/life-extension-l-glutamine-powder-3-53-oz-100-g/4054",
@@ -3772,6 +4018,12 @@
           "catalogue_id": "p-737870133308",
           "number": 42,
           "reference_title": "Taurine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Life Extension, Taurine Powder, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/life-extension-taurine-powder-10-58-oz-300-g/4900",
           "merchant_url_from_build": "https://kw.iherb.com/pr/life-extension-taurine-powder-10-58-oz-300-g/4900",
@@ -3860,6 +4112,12 @@
           "catalogue_id": "p-838287001201",
           "number": 43,
           "reference_title": "Glycine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Metabolic Maintenance, Glycine Powder, 0.4 lb / 200 g",
           "url": "https://kw.iherb.com/pr/metabolic-maintenance-glycine-powder-7-oz-200-g/106746",
           "merchant_url_from_build": "https://kw.iherb.com/pr/metabolic-maintenance-glycine-powder-7-oz-200-g/106746",
@@ -3948,6 +4206,12 @@
           "catalogue_id": "p-838287001256",
           "number": 44,
           "reference_title": "Glycine Sticks, 30 Sticks, Each",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Metabolic Maintenance, Glycine Sticks, 30 Sticks, Each, 30 Sticks",
           "url": "https://kw.iherb.com/pr/metabolic-maintenance-glycine-sticks-30-sticks-3-g-each/85672",
           "merchant_url_from_build": "https://kw.iherb.com/pr/metabolic-maintenance-glycine-sticks-30-sticks-3-g-each/85672",
@@ -4037,6 +4301,12 @@
           "catalogue_id": "p-838287001478",
           "number": 45,
           "reference_title": "L-Theanine, 120 Vegetarian Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Metabolic Maintenance, L-Theanine, 120 Vegetarian Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/metabolic-maintenance-l-theanine-120-vegetarian-capsules/64532",
           "merchant_url_from_build": "https://kw.iherb.com/pr/metabolic-maintenance-l-theanine-120-vegetarian-capsules/64532",
@@ -4126,6 +4396,12 @@
           "catalogue_id": "p-850082445240",
           "number": 46,
           "reference_title": "Glycine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Micro Ingredients, Glycine Powder, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/micro-ingredients-glycine-powder-unflavored-1-1-lb-500-g/162387",
           "merchant_url_from_build": "https://kw.iherb.com/pr/micro-ingredients-glycine-powder-unflavored-1-1-lb-500-g/162387",
@@ -4214,6 +4490,12 @@
           "catalogue_id": "p-850077801198",
           "number": 47,
           "reference_title": "Glycine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Micro Ingredients, Glycine Powder, Unflavored, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/micro-ingredients-glycine-powder-unflavored-2-2-lb-1-kg/156441",
           "merchant_url_from_build": "https://kw.iherb.com/pr/micro-ingredients-glycine-powder-unflavored-2-2-lb-1-kg/156441",
@@ -4302,6 +4584,12 @@
           "catalogue_id": "p-850015616822",
           "number": 48,
           "reference_title": "Pure Taurine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Micro Ingredients, Pure Taurine, Unflavored, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/micro-ingredients-pure-taurine-unflavored-2-2-lb-1-kg/160343",
           "merchant_url_from_build": "https://kw.iherb.com/pr/micro-ingredients-pure-taurine-unflavored-2-2-lb-1-kg/160343",
@@ -4390,6 +4678,12 @@
           "catalogue_id": "p-040647282605",
           "number": 49,
           "reference_title": "Glycine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nature's Life, Glycine Powder, 0.9 lb / 400 g",
           "url": "https://kw.iherb.com/pr/nature-s-life-glycine-powder-14-oz-400-g/130815",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nature-s-life-glycine-powder-14-oz-400-g/130815",
@@ -4478,6 +4772,12 @@
           "catalogue_id": "p-733739002259",
           "number": 50,
           "reference_title": "Glycine, Pure Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Glycine, Pure Powder, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/now-foods-glycine-pure-powder-1-lb-454-g/615",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-glycine-pure-powder-1-lb-454-g/615",
@@ -4569,6 +4869,12 @@
           "catalogue_id": "p-733739002402",
           "number": 51,
           "reference_title": "L-Lysine Pure Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, L-Lysine Pure Powder, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/now-foods-l-lysine-pure-powder-1-lb-454-g/653",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-l-lysine-pure-powder-1-lb-454-g/653",
@@ -4659,6 +4965,12 @@
           "catalogue_id": "p-733739002624",
           "number": 52,
           "reference_title": "L-Theanine Pure Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, L-Theanine Pure Powder, 0.1 lb / 28 g",
           "url": "https://kw.iherb.com/pr/now-foods-l-theanine-pure-powder-1-oz-28-g/69200",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-l-theanine-pure-powder-1-oz-28-g/69200",
@@ -4749,6 +5061,12 @@
           "catalogue_id": "p-733739002655",
           "number": 53,
           "reference_title": "L-Tyrosine Pure Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, L-Tyrosine Pure Powder, 0.2 lb / 113 g",
           "url": "https://kw.iherb.com/pr/now-foods-l-tyrosine-pure-powder-4-oz-113-g/839",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-l-tyrosine-pure-powder-4-oz-113-g/839",
@@ -4839,6 +5157,12 @@
           "catalogue_id": "p-733739001863",
           "number": 54,
           "reference_title": "NAC Pure Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, NAC Pure Powder, 0.2 lb / 113 g",
           "url": "https://kw.iherb.com/pr/now-foods-nac-pure-powder-4-oz-113-g/114824",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-nac-pure-powder-4-oz-113-g/114824",
@@ -4929,6 +5253,12 @@
           "catalogue_id": "p-733739002044",
           "number": 55,
           "reference_title": "Sports, Arginine & Citrulline Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, Arginine & Citrulline Powder, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-arginine-citrulline-powder-12-oz-340-g/85183",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-sports-arginine-citrulline-powder-12-oz-340-g/85183",
@@ -5020,6 +5350,12 @@
           "catalogue_id": "p-733739002105",
           "number": 56,
           "reference_title": "Sports, L-Arginine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, L-Arginine Powder, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-l-arginine-powder-1-lb-454-g/369",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-sports-l-arginine-powder-1-lb-454-g/369",
@@ -5111,6 +5447,12 @@
           "catalogue_id": "p-733739002112",
           "number": 57,
           "reference_title": "Sports, L-Arginine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, L-Arginine Powder, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-l-arginine-powder-2-2-lbs-1-kg/15100",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-sports-l-arginine-powder-2-2-lbs-1-kg/15100",
@@ -5202,6 +5544,12 @@
           "catalogue_id": "p-733739002204",
           "number": 58,
           "reference_title": "Sports, L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, L-Glutamine Powder, 0.4 lb / 170 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-l-glutamine-powder-6-oz-170-g/117132",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-sports-l-glutamine-powder-6-oz-170-g/117132",
@@ -5293,6 +5641,12 @@
           "catalogue_id": "p-733739002211",
           "number": 59,
           "reference_title": "Sports, L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, L-Glutamine Powder, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-l-glutamine-powder-1-lb-454-g/76071",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-sports-l-glutamine-powder-1-lb-454-g/76071",
@@ -5384,6 +5738,12 @@
           "catalogue_id": "p-733739002228",
           "number": 60,
           "reference_title": "Sports, L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "NOW Foods, Sports, L-Glutamine Powder, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/now-foods-sports-l-glutamine-powder-2-2-lbs-1-kg/612",
           "merchant_url_from_build": "https://kw.iherb.com/pr/now-foods-sports-l-glutamine-powder-2-2-lbs-1-kg/612",
@@ -5475,6 +5835,12 @@
           "catalogue_id": "p-700425812201",
           "number": 61,
           "reference_title": "D-Aspartic Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, D-Aspartic Acid, Unflavored, 0.7 lb / 303 g",
           "url": "https://kw.iherb.com/pr/nutricost-d-aspartic-acid-unflavored-10-7-oz-300-g/132269",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-d-aspartic-acid-unflavored-10-7-oz-300-g/132269",
@@ -5563,6 +5929,12 @@
           "catalogue_id": "p-857077008169",
           "number": 62,
           "reference_title": "D-Aspartic Acid",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, D-Aspartic Acid, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/nutricost-d-aspartic-acid-unflavored-17-9-oz-500-g/135522",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-d-aspartic-acid-unflavored-17-9-oz-500-g/135522",
@@ -5651,6 +6023,12 @@
           "catalogue_id": "p-810014672823",
           "number": 63,
           "reference_title": "Glycine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Glycine, Unflavored, 1.0 lb / 459 g",
           "url": "https://kw.iherb.com/pr/nutricost-glycine-unflavored-16-2-oz-454-g/128939",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-glycine-unflavored-16-2-oz-454-g/128939",
@@ -5740,6 +6118,12 @@
           "catalogue_id": "p-810139574392",
           "number": 64,
           "reference_title": "L-Arginine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Arginine, Unflavored, 0.6 lb / 250 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-arginine-unflavored-8-9-oz-250-g/145311",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-arginine-unflavored-8-9-oz-250-g/145311",
@@ -5828,6 +6212,12 @@
           "catalogue_id": "p-810014679297",
           "number": 65,
           "reference_title": "L-Arginine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Arginine, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-arginine-unflavored-17-9-oz-500-g/148199",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-arginine-unflavored-17-9-oz-500-g/148199",
@@ -5916,6 +6306,12 @@
           "catalogue_id": "p-810139573654",
           "number": 66,
           "reference_title": "L-Arginine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Arginine, Unflavored, 2.2 lb / 1012 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-arginine-unflavored-35-7-oz-1-kg/151005",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-arginine-unflavored-35-7-oz-1-kg/151005",
@@ -6004,6 +6400,12 @@
           "catalogue_id": "p-810014679310",
           "number": 67,
           "reference_title": "L-Carnitine Tartrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Carnitine Tartrate, Unflavored, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-carnitine-tartrate-unflavored-3-5-oz-100-g/144626",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-carnitine-tartrate-unflavored-3-5-oz-100-g/144626",
@@ -6092,6 +6494,12 @@
           "catalogue_id": "p-810139573104",
           "number": 68,
           "reference_title": "L-Carnitine Tartrate",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Carnitine Tartrate, Unflavored, 0.6 lb / 250 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-carnitine-tartrate-unflavored-8-9-oz-250-g/145288",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-carnitine-tartrate-unflavored-8-9-oz-250-g/145288",
@@ -6180,6 +6588,12 @@
           "catalogue_id": "p-810014671260",
           "number": 69,
           "reference_title": "L-Carnosine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Carnosine, Unflavored, 0.1 lb / 51 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-carnosine-unflavored-1-8-oz-50-g/135538",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-carnosine-unflavored-1-8-oz-50-g/135538",
@@ -6268,6 +6682,12 @@
           "catalogue_id": "p-810014671277",
           "number": 70,
           "reference_title": "L-Carnosine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Carnosine, Unflavored, 0.2 lb / 102 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-carnosine-unflavored-3-6-oz-100-g/135665",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-carnosine-unflavored-3-6-oz-100-g/135665",
@@ -6356,6 +6776,12 @@
           "catalogue_id": "p-810014675251",
           "number": 71,
           "reference_title": "L-Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Glutamine, Unflavored, 0.6 lb / 250 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-glutamine-unflavored-8-9-oz-250-g/153892",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-glutamine-unflavored-8-9-oz-250-g/153892",
@@ -6444,6 +6870,12 @@
           "catalogue_id": "p-810139572046",
           "number": 72,
           "reference_title": "L-Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Glutamine, Unflavored, 0.7 lb / 303 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-glutamine-unflavored-10-7-oz-300-g/145344",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-glutamine-unflavored-10-7-oz-300-g/145344",
@@ -6532,6 +6964,12 @@
           "catalogue_id": "p-810014675213",
           "number": 73,
           "reference_title": "L-Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Glutamine, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-glutamine-unflavored-17-9-oz-500-g/148198",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-glutamine-unflavored-17-9-oz-500-g/148198",
@@ -6620,6 +7058,12 @@
           "catalogue_id": "p-810014675244",
           "number": 74,
           "reference_title": "L-Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Glutamine, Unflavored, 2.2 lb / 1012 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-glutamine-unflavored-35-7-oz-1-kg/145286",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-glutamine-unflavored-35-7-oz-1-kg/145286",
@@ -6708,6 +7152,12 @@
           "catalogue_id": "p-810014679341",
           "number": 75,
           "reference_title": "L-Leucine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Leucine, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-leucine-unflavored-17-9-oz-500-g/145291",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-leucine-unflavored-17-9-oz-500-g/145291",
@@ -6796,6 +7246,12 @@
           "catalogue_id": "p-810139571452",
           "number": 76,
           "reference_title": "L-Lysine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Lysine, Unflavored, 2.2 lb / 1012 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-lysine-unflavored-35-7-oz-1-kg/139395",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-lysine-unflavored-35-7-oz-1-kg/139395",
@@ -6884,6 +7340,12 @@
           "catalogue_id": "p-810014671376",
           "number": 77,
           "reference_title": "L-Proline",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Proline, Unflavored, 0.6 lb / 250 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-proline-unflavored-8-9-oz-250-g/132285",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-proline-unflavored-8-9-oz-250-g/132285",
@@ -6972,6 +7434,12 @@
           "catalogue_id": "p-810014671383",
           "number": 78,
           "reference_title": "L-Serine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Serine Powder, Unflavored, 0.5 lb / 230 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-serine-powder-unflavored-8-1-oz-227-g/132259",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-serine-powder-unflavored-8-1-oz-227-g/132259",
@@ -7060,6 +7528,12 @@
           "catalogue_id": "p-810139572190",
           "number": 79,
           "reference_title": "L-Theanine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Theanine, Unflavored, 0.2 lb / 102 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-theanine-unflavored-3-6-oz-100-g/140228",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-theanine-unflavored-3-6-oz-100-g/140228",
@@ -7148,6 +7622,12 @@
           "catalogue_id": "p-810139572244",
           "number": 80,
           "reference_title": "L-Tyrosine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Tyrosine, Unflavored, 0.2 lb / 102 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-tyrosine-unflavored-3-6-oz-100-g/140231",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-tyrosine-unflavored-3-6-oz-100-g/140231",
@@ -7236,6 +7716,12 @@
           "catalogue_id": "p-810139577003",
           "number": 81,
           "reference_title": "L-Tyrosine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Tyrosine, Unflavored, 0.6 lb / 250 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-tyrosine-unflavored-8-9-oz-250-g/154312",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-tyrosine-unflavored-8-9-oz-250-g/154312",
@@ -7324,6 +7810,12 @@
           "catalogue_id": "p-810139570134",
           "number": 82,
           "reference_title": "L-Tyrosine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, L-Tyrosine, Unflavored, 1.1 lb / 507 g",
           "url": "https://kw.iherb.com/pr/nutricost-l-tyrosine-unflavored-17-9-oz-500-g/135558",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-l-tyrosine-unflavored-17-9-oz-500-g/135558",
@@ -7412,6 +7904,12 @@
           "catalogue_id": "p-810139572886",
           "number": 83,
           "reference_title": "N-Acetyl L-Tyrosine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, N-Acetyl L-Tyrosine, Unflavored, 0.2 lb / 102 g",
           "url": "https://kw.iherb.com/pr/nutricost-n-acetyl-l-tyrosine-unflavored-3-6-oz-100-g/148205",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-n-acetyl-l-tyrosine-unflavored-3-6-oz-100-g/148205",
@@ -7500,6 +7998,12 @@
           "catalogue_id": "p-810139570837",
           "number": 84,
           "reference_title": "Taurine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Taurine, Unflavored, 0.6 lb / 250 g",
           "url": "https://kw.iherb.com/pr/nutricost-taurine-unflavored-8-9-oz-250-g/132265",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-taurine-unflavored-8-9-oz-250-g/132265",
@@ -7589,6 +8093,12 @@
           "catalogue_id": "p-810139570141",
           "number": 85,
           "reference_title": "Taurine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Nutricost, Taurine, Unflavored, 2.2 lb / 1012 g",
           "url": "https://kw.iherb.com/pr/nutricost-taurine-unflavored-35-7-oz-1-kg/129411",
           "merchant_url_from_build": "https://kw.iherb.com/pr/nutricost-taurine-unflavored-35-7-oz-1-kg/129411",
@@ -7677,6 +8187,12 @@
           "catalogue_id": "p-748927022810",
           "number": 86,
           "reference_title": "Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Optimum Nutrition, Glutamine Powder, Unflavored, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/optimum-nutrition-glutamine-powder-unflavored-10-58-oz-300-g/80382",
           "merchant_url_from_build": "https://kw.iherb.com/pr/optimum-nutrition-glutamine-powder-unflavored-10-58-oz-300-g/80382",
@@ -7767,6 +8283,12 @@
           "catalogue_id": "p-748927029109",
           "number": 87,
           "reference_title": "Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Optimum Nutrition, Glutamine Powder, Unflavored, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/optimum-nutrition-glutamine-powder-unflavored-2-2-lbs-1-kg/27534",
           "merchant_url_from_build": "https://kw.iherb.com/pr/optimum-nutrition-glutamine-powder-unflavored-2-2-lbs-1-kg/27534",
@@ -7857,6 +8379,12 @@
           "catalogue_id": "p-748927022834",
           "number": 88,
           "reference_title": "Glutamine, 240 Capsules ( per Capsule)",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Optimum Nutrition, Glutamine, 240 Capsules ( per Capsule), size unknown",
           "url": "https://kw.iherb.com/pr/optimum-nutrition-glutamine-240-capsules-0-5-g-per-capsule/88423",
           "merchant_url_from_build": "https://kw.iherb.com/pr/optimum-nutrition-glutamine-240-capsules-0-5-g-per-capsule/88423",
@@ -7947,6 +8475,12 @@
           "catalogue_id": "p-850050186038",
           "number": 89,
           "reference_title": "L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "PrePrimal, L-Glutamine Powder, Unflavored, 1.1 lb / 500 g",
           "url": "https://kw.iherb.com/pr/preprimal-l-glutamine-powder-unflavored-17-6-oz-500-g/147157",
           "merchant_url_from_build": "https://kw.iherb.com/pr/preprimal-l-glutamine-powder-unflavored-17-6-oz-500-g/147157",
@@ -8036,6 +8570,12 @@
           "catalogue_id": "p-811445020023",
           "number": 90,
           "reference_title": "Arginine AKG",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, Arginine AKG, Unflavored, 0.6 lb / 250 g",
           "url": "https://kw.iherb.com/pr/primaforce-arginine-akg-unflavored-8-9-oz-250-g/58649",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-arginine-akg-unflavored-8-9-oz-250-g/58649",
@@ -8124,6 +8664,12 @@
           "catalogue_id": "p-713325975532",
           "number": 91,
           "reference_title": "D-Aspartic Acid Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, D-Aspartic Acid Powder, Unflavored, 0.7 lb / 303 g",
           "url": "https://kw.iherb.com/pr/primaforce-d-aspartic-acid-powder-unflavored-10-7-oz-300-g/116529",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-d-aspartic-acid-powder-unflavored-10-7-oz-300-g/116529",
@@ -8212,6 +8758,12 @@
           "catalogue_id": "p-811445020214",
           "number": 92,
           "reference_title": "L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, L-Glutamine Powder, Unflavored, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/primaforce-l-glutamine-powder-unflavored-35-oz-1-kg/78964",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-l-glutamine-powder-unflavored-35-oz-1-kg/78964",
@@ -8300,6 +8852,12 @@
           "catalogue_id": "p-811445021228",
           "number": 93,
           "reference_title": "L-Leucine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, L-Leucine, Unflavored, 0.7 lb / 303 g",
           "url": "https://kw.iherb.com/pr/primaforce-l-leucine-unflavored-10-7-oz-300-g/141709",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-l-leucine-unflavored-10-7-oz-300-g/141709",
@@ -8388,6 +8946,12 @@
           "catalogue_id": "p-811445020580",
           "number": 94,
           "reference_title": "L-Leucine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, L-Leucine, Unflavored, 2.2 lb / 1000 g",
           "url": "https://kw.iherb.com/pr/primaforce-l-leucine-unflavored-2-2-lb-1-000-g/124245",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-l-leucine-unflavored-2-2-lb-1-000-g/124245",
@@ -8476,6 +9040,12 @@
           "catalogue_id": "p-811445020382",
           "number": 95,
           "reference_title": "Taurine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Primaforce, Taurine, Unflavored, 0.6 lb / 250 g",
           "url": "https://kw.iherb.com/pr/primaforce-taurine-unflavored-8-9-oz-250-g/78969",
           "merchant_url_from_build": "https://kw.iherb.com/pr/primaforce-taurine-unflavored-8-9-oz-250-g/78969",
@@ -8564,6 +9134,12 @@
           "catalogue_id": "p-810034818201",
           "number": 96,
           "reference_title": "Glutamine 300, Amino Acid, 10.58",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "ProSupps, Glutamine 300, Amino Acid, 10.58, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/prosupps-glutamine-300-amino-acid-10-58-300-g/141924",
           "merchant_url_from_build": "https://kw.iherb.com/pr/prosupps-glutamine-300-amino-acid-10-58-300-g/141924",
@@ -8652,6 +9228,12 @@
           "catalogue_id": "p-707359102217",
           "number": 97,
           "reference_title": "L-Glutamine Pure Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Protocol for Life Balance, L-Glutamine Pure Powder, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/protocol-for-life-balance-l-glutamine-pure-powder-1-lb-454-g/120263",
           "merchant_url_from_build": "https://kw.iherb.com/pr/protocol-for-life-balance-l-glutamine-pure-powder-1-lb-454-g/120263",
@@ -8741,6 +9323,12 @@
           "catalogue_id": "p-850030689313",
           "number": 98,
           "reference_title": "Glutamine",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Revive, Glutamine, 0.7 lb / 300 g",
           "url": "https://kw.iherb.com/pr/revive-glutamine-10-58-oz-300-g/137221",
           "merchant_url_from_build": "https://kw.iherb.com/pr/revive-glutamine-10-58-oz-300-g/137221",
@@ -8829,6 +9417,12 @@
           "catalogue_id": "p-021078015482",
           "number": 99,
           "reference_title": "Free-Form L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Source Naturals, Free-Form L-Glutamine Powder, 1.0 lb / 454 g",
           "url": "https://kw.iherb.com/pr/source-naturals-free-form-l-glutamine-powder-16-oz-453-6-g/1227",
           "merchant_url_from_build": "https://kw.iherb.com/pr/source-naturals-free-form-l-glutamine-powder-16-oz-453-6-g/1227",
@@ -8918,6 +9512,12 @@
           "catalogue_id": "p-021078024118",
           "number": 100,
           "reference_title": "Glycine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Source Naturals, Glycine Powder, 0.5 lb / 227 g",
           "url": "https://kw.iherb.com/pr/source-naturals-glycine-powder-8-oz-227-g/155196",
           "merchant_url_from_build": "https://kw.iherb.com/pr/source-naturals-glycine-powder-8-oz-227-g/155196",
@@ -9006,6 +9606,12 @@
           "catalogue_id": "p-021078001249",
           "number": 101,
           "reference_title": "L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Source Naturals, Free-Form L-Glutamine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/source-naturals-l-glutamine-powder-3-53-oz-100-g/1234",
           "merchant_url_from_build": "https://kw.iherb.com/pr/source-naturals-l-glutamine-powder-3-53-oz-100-g/1234",
@@ -9095,6 +9701,12 @@
           "catalogue_id": "p-021078001355",
           "number": 102,
           "reference_title": "L-Lysine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Source Naturals, L-Lysine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/source-naturals-l-lysine-powder-3-53-oz-100-g/1249",
           "merchant_url_from_build": "https://kw.iherb.com/pr/source-naturals-l-lysine-powder-3-53-oz-100-g/1249",
@@ -9184,6 +9796,12 @@
           "catalogue_id": "p-021078001454",
           "number": 103,
           "reference_title": "L-Methionine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Source Naturals, L-Methionine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/source-naturals-l-methionine-powder-3-53-oz-100-g/1298",
           "merchant_url_from_build": "https://kw.iherb.com/pr/source-naturals-l-methionine-powder-3-53-oz-100-g/1298",
@@ -9273,6 +9891,12 @@
           "catalogue_id": "p-021078001492",
           "number": 104,
           "reference_title": "L-Ornithine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Source Naturals, L-Ornithine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/source-naturals-l-ornithine-powder-3-53-oz-100-g/1365",
           "merchant_url_from_build": "https://kw.iherb.com/pr/source-naturals-l-ornithine-powder-3-53-oz-100-g/1365",
@@ -9362,6 +9986,12 @@
           "catalogue_id": "p-021078015512",
           "number": 105,
           "reference_title": "L-Proline Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Source Naturals, L-Proline Powder, 0.3 lb / 113 g",
           "url": "https://kw.iherb.com/pr/source-naturals-l-proline-powder-4-oz-113-4-g/1394",
           "merchant_url_from_build": "https://kw.iherb.com/pr/source-naturals-l-proline-powder-4-oz-113-4-g/1394",
@@ -9451,6 +10081,12 @@
           "catalogue_id": "p-021078001874",
           "number": 106,
           "reference_title": "L-Tyrosine, Free-Form Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Source Naturals, L-Tyrosine, Free-Form Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/source-naturals-l-tyrosine-free-form-powder-3-53-oz-100-g/1418",
           "merchant_url_from_build": "https://kw.iherb.com/pr/source-naturals-l-tyrosine-free-form-powder-3-53-oz-100-g/1418",
@@ -9539,6 +10175,12 @@
           "catalogue_id": "p-021078001669",
           "number": 107,
           "reference_title": "Taurine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Source Naturals, Taurine Powder, 0.2 lb / 100 g",
           "url": "https://kw.iherb.com/pr/source-naturals-taurine-powder-3-53-oz-100-g/1427",
           "merchant_url_from_build": "https://kw.iherb.com/pr/source-naturals-taurine-powder-3-53-oz-100-g/1427",
@@ -9627,6 +10269,12 @@
           "catalogue_id": "p-087614025155",
           "number": 108,
           "reference_title": "Glycine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Swanson Vitamins, Glycine Powder, 0.5 lb / 227 g",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-glycine-powder-8-oz-227-g/118150",
           "merchant_url_from_build": "https://kw.iherb.com/pr/swanson-vitamins-glycine-powder-8-oz-227-g/118150",
@@ -9716,6 +10364,12 @@
           "catalogue_id": "p-087614018522",
           "number": 109,
           "reference_title": "L-Arginine, 500 mg, 100 Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Swanson Vitamins, L-Arginine, 500 mg, 100 Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-l-arginine-500-mg-100-capsules/117763",
           "merchant_url_from_build": "https://kw.iherb.com/pr/swanson-vitamins-l-arginine-500-mg-100-capsules/117763",
@@ -9805,6 +10459,12 @@
           "catalogue_id": "p-087614019352",
           "number": 110,
           "reference_title": "L-Arginine, 500 mg, 200 Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Swanson Vitamins, L-Arginine, 500 mg, 200 Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-l-arginine-500-mg-200-capsules/118373",
           "merchant_url_from_build": "https://kw.iherb.com/pr/swanson-vitamins-l-arginine-500-mg-200-capsules/118373",
@@ -9894,6 +10554,12 @@
           "catalogue_id": "p-087614024288",
           "number": 111,
           "reference_title": "L-Glutamine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Swanson Vitamins, L-Glutamine Powder, 0.7 lb / 340 g",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-l-glutamine-powder-12-oz-340-g/118570",
           "merchant_url_from_build": "https://kw.iherb.com/pr/swanson-vitamins-l-glutamine-powder-12-oz-340-g/118570",
@@ -9984,6 +10650,12 @@
           "catalogue_id": "p-087614012681",
           "number": 112,
           "reference_title": "L-Lysine, 500 mg, 100 Capsules",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Swanson Vitamins, L-Lysine, 500 mg, 100 Capsules, size unknown",
           "url": "https://kw.iherb.com/pr/swanson-vitamins-l-lysine-500-mg-100-capsules/117719",
           "merchant_url_from_build": "https://kw.iherb.com/pr/swanson-vitamins-l-lysine-500-mg-100-capsules/117719",
@@ -10073,6 +10745,12 @@
           "catalogue_id": "p-693749004646",
           "number": 113,
           "reference_title": "Amino Complex",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Thorne, Amino Complex, Berry, 0.5 lb / 228 g",
           "url": "https://kw.iherb.com/pr/thorne-amino-complex-berry-8-oz-228-g/58567",
           "merchant_url_from_build": "https://kw.iherb.com/pr/thorne-amino-complex-berry-8-oz-228-g/58567",
@@ -10163,6 +10841,12 @@
           "catalogue_id": "p-835003003358",
           "number": 114,
           "reference_title": "L-Arginine, 1, 000 mg, 300 Tablets",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Vitacost, L-Arginine, 1, 000 mg, 300 Tablets, size unknown",
           "url": "https://kw.iherb.com/pr/vitacost-l-arginine-1-000-mg-300-tablets/158567",
           "merchant_url_from_build": "https://kw.iherb.com/pr/vitacost-l-arginine-1-000-mg-300-tablets/158567",
@@ -10252,6 +10936,12 @@
           "catalogue_id": "p-810078478522",
           "number": 115,
           "reference_title": "L-Serine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Vitamatic, L-Serine Powder, 0.6 lb / 250 g",
           "url": "https://kw.iherb.com/pr/vitamatic-l-serine-powder-8-8-oz-250-g/161240",
           "merchant_url_from_build": "https://kw.iherb.com/pr/vitamatic-l-serine-powder-8-8-oz-250-g/161240",
@@ -10342,6 +11032,12 @@
           "catalogue_id": "p-810078475019",
           "number": 116,
           "reference_title": "Taurine Powder",
+          "creapure_declared": null,
+          "micronized_declared": null,
+          "creatine_preference_evidence": {
+            "creapure": [],
+            "micronized": []
+          },
           "title": "Vitamatic, Taurine Powder, Unflavored, 0.6 lb / 250 g",
           "url": "https://kw.iherb.com/pr/vitamatic-taurine-powder-unflavored-8-8-oz-250-g/154041",
           "merchant_url_from_build": "https://kw.iherb.com/pr/vitamatic-taurine-powder-unflavored-8-8-oz-250-g/154041",
@@ -10418,6 +11114,6 @@
       ]
     }
   ],
-  "pulled_at": "2026-10-21T10:46:15.873Z",
+  "pulled_at": "2026-10-23T22:30:18.917Z",
   "api": "https://api.srv2021063.hstgr.cloud"
 }
